@@ -1,0 +1,24 @@
+{
+  "entry_id": "24291_hesowomageru",
+  "headword": "へそを{曲|ま}げる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:34:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'emotions' is not in the valid tag list.",
+      "suggestion": "emotion"
+    }
+  ]
+}

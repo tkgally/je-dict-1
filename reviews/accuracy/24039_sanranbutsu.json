@@ -1,0 +1,24 @@
+{
+  "entry_id": "24039_sanranbutsu",
+  "headword": "{散乱物|さんらんぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:50:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'transportation' is too narrow and misleading for '散乱物'. While often found in transportation contexts, the word itself refers to scattered objects/debris in a general sense, not specifically transportation-related items.",
+      "suggestion": "Replace 'transportation' with a more general tag like 'general' or 'daily-life'."
+    }
+  ]
+}

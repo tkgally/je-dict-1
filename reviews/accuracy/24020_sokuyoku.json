@@ -1,0 +1,24 @@
+{
+  "entry_id": "24020_sokuyoku",
+  "headword": "{足浴|そくよく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:29:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The term '足浴' is not inherently formal. While it can be used in formal contexts (like medical settings), it's also used in everyday conversation about relaxation or home remedies. 'Neutral' would be more appropriate.",
+      "suggestion": "neutral"
+    }
+  ]
+}

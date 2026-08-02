@@ -1,0 +1,31 @@
+{
+  "entry_id": "24089_imon",
+  "headword": "{慰問|いもん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:30:37Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'social' is not in the valid tag list.",
+      "suggestion": "society"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'welfare' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

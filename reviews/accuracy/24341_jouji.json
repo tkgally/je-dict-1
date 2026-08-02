@@ -1,0 +1,24 @@
+{
+  "entry_id": "24341_jouji",
+  "headword": "{情事|じょうじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:35:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tag 'relationship' is not in the valid tag list.",
+      "suggestion": "Replace 'relationship' with 'society' or 'emotion'."
+    }
+  ]
+}

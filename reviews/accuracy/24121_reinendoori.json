@@ -1,0 +1,24 @@
+{
+  "entry_id": "24121_reinendoori",
+  "headword": "{例年通|れいねんどお}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:31:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for '例年通り'.",
+      "suggestion": "Replace 'time' with 'general' or 'descriptive'."
+    }
+  ]
+}

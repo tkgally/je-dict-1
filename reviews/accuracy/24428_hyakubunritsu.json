@@ -1,0 +1,24 @@
+{
+  "entry_id": "24428_hyakubunritsu",
+  "headword": "{百分率|ひゃくぶんりつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:36:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'math' is not in the valid tag list.",
+      "suggestion": "number"
+    }
+  ]
+}

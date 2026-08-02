@@ -1,0 +1,24 @@
+{
+  "entry_id": "23975_makugaagaru",
+  "headword": "{幕|まく}が{上|あ}がる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:28:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'event'",
+      "suggestion": "general"
+    }
+  ]
+}

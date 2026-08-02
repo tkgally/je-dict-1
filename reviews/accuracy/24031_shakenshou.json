@@ -1,0 +1,24 @@
+{
+  "entry_id": "24031_shakenshou",
+  "headword": "{車検証|しゃけんしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:29:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'documents' is not in the valid tag list.",
+      "suggestion": "Replace 'documents' with 'general' or 'law'."
+    }
+  ]
+}

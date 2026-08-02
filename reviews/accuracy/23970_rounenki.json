@@ -1,0 +1,24 @@
+{
+  "entry_id": "23970_rounenki",
+  "headword": "{老年期|ろうねんき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:28:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'people' is not a valid semantic tag.",
+      "suggestion": "Replace 'people' with 'person' or remove it if 'time-period' is sufficient."
+    }
+  ]
+}

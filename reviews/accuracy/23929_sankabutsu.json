@@ -1,0 +1,24 @@
+{
+  "entry_id": "23929_sankabutsu",
+  "headword": "{酸化物|さんかぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:27:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'chemistry' is not in the valid tag list.",
+      "suggestion": "science"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "24452_zokujin",
+  "headword": "{属人|ぞくじん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:37:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tags 'work' and 'law' are too narrow and potentially misleading for the headword '属人'. While '属人' can appear in contexts related to work or law (e.g., '属人主義' in law), its core meaning is more general: 'personal' or 'person-dependent'.",
+      "suggestion": "Replace 'work' and 'law' with 'general' or 'abstract' to better reflect the headword's broad applicability."
+    }
+  ]
+}

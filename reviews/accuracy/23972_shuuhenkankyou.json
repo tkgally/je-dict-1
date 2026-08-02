@@ -1,0 +1,24 @@
+{
+  "entry_id": "23972_shuuhenkankyou",
+  "headword": "{周辺|しゅうへん}{環境|かんきょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:28:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'location' and 'place' are not in the valid tag list.",
+      "suggestion": "Replace 'location' and 'place' with 'geography' or 'general'."
+    }
+  ]
+}
