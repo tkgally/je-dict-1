@@ -1,0 +1,24 @@
+{
+  "entry_id": "23763_nozoki",
+  "headword": "{覗|のぞ}き",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:21:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'crime' is not appropriate for the headword's overall meaning, especially considering sense 2 which is neutral. While sense 1 relates to a crime, the headword itself is not exclusively a crime.",
+      "suggestion": "Remove 'crime'."
+    }
+  ]
+}

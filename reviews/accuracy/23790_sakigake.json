@@ -1,0 +1,31 @@
+{
+  "entry_id": "23790_sakigake",
+  "headword": "{先駆|さきが}け",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:21:38Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'innovation' is not in the valid tag list.",
+      "suggestion": "Replace 'innovation' with 'change' or 'creation'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'literary' is not in the valid tag list.",
+      "suggestion": "Replace 'literary' with 'art' or 'language'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "23794_kyuujutsu",
+  "headword": "{弓術|きゅうじゅつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:21:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'martial-arts' is not in the valid tag list.",
+      "suggestion": "sports"
+    }
+  ]
+}

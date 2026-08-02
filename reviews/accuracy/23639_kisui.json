@@ -1,0 +1,24 @@
+{
+  "entry_id": "23639_kisui",
+  "headword": "{既遂|きすい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:18:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'crime' is not in the valid tag list.",
+      "suggestion": "law"
+    }
+  ]
+}

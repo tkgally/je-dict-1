@@ -1,0 +1,24 @@
+{
+  "entry_id": "23756_dokusenshuzai",
+  "headword": "{独占|どくせん}{取材|しゅざい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:20:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'journalism' is not in the valid tag list.",
+      "suggestion": "media"
+    }
+  ]
+}

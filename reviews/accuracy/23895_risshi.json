@@ -1,0 +1,38 @@
+{
+  "entry_id": "23895_risshi",
+  "headword": "{律詩|りっし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:23:48Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'literature' is not in the valid tag list.",
+      "suggestion": "art"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'poetry' is not in the valid tag list.",
+      "suggestion": "art"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'classical' is not in the valid tag list.",
+      "suggestion": "history"
+    }
+  ]
+}

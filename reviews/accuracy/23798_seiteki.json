@@ -1,0 +1,24 @@
+{
+  "entry_id": "23798_seiteki",
+  "headword": "{性的|せいてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:21:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'sexuality' is not in the valid tag list.",
+      "suggestion": "Replace 'sexuality' with 'general' or 'body-part' (if referring to sex organs) or 'emotion' (if referring to sexual desire)."
+    }
+  ]
+}

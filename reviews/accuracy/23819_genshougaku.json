@@ -1,0 +1,24 @@
+{
+  "entry_id": "23819_genshougaku",
+  "headword": "{現象学|げんしょうがく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:22:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'academic' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

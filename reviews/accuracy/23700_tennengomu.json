@@ -1,0 +1,31 @@
+{
+  "entry_id": "23700_tennengomu",
+  "headword": "{天然|てんねん}ゴム",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:19:56Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'material' is not in the valid tag list.",
+      "suggestion": "Replace 'material' with 'general' or 'science'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'industry' is not in the valid tag list.",
+      "suggestion": "Replace 'industry' with 'business' or 'general'."
+    }
+  ]
+}

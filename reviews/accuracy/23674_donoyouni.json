@@ -1,0 +1,24 @@
+{
+  "entry_id": "23674_donoyouni",
+  "headword": "どのように",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:19:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'grammar' is not in the valid tag list. The headword is an adverb/expression, not a grammatical concept itself.",
+      "suggestion": "general"
+    }
+  ]
+}

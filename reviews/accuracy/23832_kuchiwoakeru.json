@@ -1,0 +1,31 @@
+{
+  "entry_id": "23832_kuchiwoakeru",
+  "headword": "{口|くち}を{開|あ}ける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:22:31Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'body' is not in the valid tag list.",
+      "suggestion": "body-part"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'everyday' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

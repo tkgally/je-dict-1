@@ -1,0 +1,24 @@
+{
+  "entry_id": "23638_keisanshuhou",
+  "headword": "{計算手法|けいさんしゅほう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:18:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'math' is not in the valid tag list.",
+      "suggestion": "science"
+    }
+  ]
+}
