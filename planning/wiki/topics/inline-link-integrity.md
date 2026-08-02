@@ -1,6 +1,6 @@
 # Inline Link Integrity
 
-**Last updated**: 2026-08-01
+**Last updated**: 2026-08-02
 
 ## Overview
 
@@ -28,8 +28,9 @@ are batch-ready from the four that are not.
 | Base form written with furigana braces | 36 | Defect, provably safe | [Cleanup P24](../ideas/cleanup-backlog.md#priority-24-inline-link-base-forms-written-with-furigana-braces) |
 | Base form written in kana, not dictionary form | 3,567 | Cosmetic/lookup | [Cleanup P32](../ideas/cleanup-backlog.md#priority-32-inline-link-base-forms-written-in-kana-instead-of-the-dictionary-form) |
 | Target disagrees with the base form (homophone substitution) | 405 → 318 | Defect, per-entry | `link-target-baseform-disagreement` |
-| **Stale `noentry` markers** | **3,797** (2,887 unique-target) | **Defect, batch-ready** | [Cleanup P35](../ideas/cleanup-backlog.md) *(new, this page's measurement)* |
+| **Stale `noentry` markers** | **3,809** (2,887 unique-target; 447 never correct) | **Defect, batch-ready** | [Cleanup P35](../ideas/cleanup-backlog.md) *(new, this page's measurement)* |
 | **Entries with zero links** | **23,294** | **Not a defect — see below** | *(structural; do not file)* |
+| `Xする` base label on a bare-noun target | 441 (267 decidable) | Convention gap, not a defect | [Cleanup informational](../ideas/cleanup-backlog.md#informational-inline-link-base-forms-labelled-xする-while-targeting-the-bare-noun-entry-441-links) |
 
 The two bold rows were both proposed as backlog items by 2026-07-31 / 2026-08-01 polish runs
 on the strength of small samples. Measuring them against the corpus before filing changed
@@ -83,6 +84,58 @@ words that just crossed from "no entry" to "has an entry" — the part that matt
 closes the source. The 2,887-link sweep is the one-time backlog behind it, and doing the
 sweep without the hook buys a few months.
 
+### …and 447 of them were never correct in the first place
+
+"Stale" assumes the marker was right when it was written. A 2026-08-02 polish run found a
+counterexample sharp enough to test: `01004_tsu` marked 一二三四五六八九 as `noentry` when all
+eight are **basic-tier entries created in the project's first week** — months before the link.
+It proposed a separate "false positive" detector.
+
+The test is one date comparison. If a marker's resolved target was created *before the entry the
+marker sits in*, the target already existed at every moment the link could have been written:
+
+| | Markers | Entries |
+|---|---|---|
+| Target predates the source entry — **wrong when written** | **447** | 317 |
+| Target postdates the source entry — genuinely went stale | 3,362 | 1,944 |
+
+447 is a **floor, not an estimate**: a marker written during a later polish pass against a target
+created after the source entry is counted as "stale" here even though it was also wrong when
+written. The true figure lies between 447 and 3,809.
+
+The two subclasses behave in opposite directions, which is the reason to keep them apart:
+
+- **The stale class is growing.** 85% of it points at bands 26000+, and every `new-entries` run
+  adds more.
+- **The wrong-when-written class is closed.** By ID band it runs 12 / 13 / 35 / 78 / 97 / 45 / 21
+  from 00000 up to 06999, and **zero above 07000** — because above the polish frontier there are
+  no inline links at all. It was produced by one pass, the January 2026 linking sweep over the
+  earliest entries, and that pass is over.
+
+The failure mode is legible in the samples: the linker looked up the **surface form in the
+sentence** rather than the dictionary form — 形 → `02193_katachi`, 間 → `00914_aida`, 家 →
+`00612_ie`, 本 → `00111_hon`, 都 → `03747_miyako`. Every one an extremely common word whose entry
+had existed from the start. It is the same root cause as classes B/C/D above (a key that is a
+surface string rather than a lemma), showing up at write time instead of at resolve time.
+
+**No second detector is warranted.** 301 of the 447 meet the same A1/A2 criterion as the main
+batch, the queue is the same queue, and the fix is the same token substitution. What is worth
+emitting is a `wrong_when_written` column, because it removes a check: a marker whose target
+predates it needs no "has the sense drifted since?" judgment — nothing changed, the link was
+simply wrong.
+
+### A third question the same scan raises: `Xする` labels on noun entries
+
+441 links declare a base form ending in `する` while targeting the bare noun entry
+(`→発生する：03133_hassei`), against 822 that target an actual `Xする` entry. A 2026-08-02 polish
+run asked which convention wins. The measurement says the question cannot be settled by a sweep:
+**267 of the 441 have a separate `Xする` entry available, but 174 do not** — for those the noun
+entry is the only target that exists, so a rule of "the label must match the target's headword"
+would delete a する the sentence actually contains. Filed as a
+[Cleanup informational](../ideas/cleanup-backlog.md#informational-inline-link-base-forms-labelled-xする-while-targeting-the-bare-noun-entry-441-links)
+with the three coherent options; only the "prefer the する entry where one exists" reading is a
+sweep, and it is a 267-link one.
+
 ## Zero-link entries — 23,294, and *not* a defect
 
 Two polish runs (2026-07-31, 2026-08-01) reported that a frontier block "was created with
@@ -131,6 +184,17 @@ without writing them attacks the 90%.
 Until that exists, the honest framing is that inline links are a **feature of the polished
 below-frontier corpus**, not of the dictionary — and the curator may want to decide that
 deliberately rather than by accumulation.
+
+Both 2026-08-02 polish runs filed the block a fourth and fifth time (06739–06744 and 06745–06750,
+each proposing a coverage detector). One of them sharpened the strategic point rather than
+repeating it, and the distinction matters for costing Tooling 49: **below the frontier the
+deficit is partial coverage needing completion; above it there is no coverage at all, needing
+creation from scratch.** A partially-linked entry gives the linker a worked example of its own
+conventions — which words the previous pass considered worth linking, which base forms it chose —
+and the remaining decisions are marginal. An entry with zero links offers none of that, so every
+token is an open question. The 4–8 entries/run figure above is measured on exactly this expensive
+case, which is why it is the right number to plan against, and why a suggester that pre-resolves
+the lookups changes the economics more above the frontier than below it.
 
 ## The unlinkable residue: Japanese that no rule can currently handle
 

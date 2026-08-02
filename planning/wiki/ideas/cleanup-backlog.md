@@ -1157,6 +1157,15 @@ Distinguishing them is cheap and worth doing before the next sweep is sized: run
 
 **And the tail settles the 2026-07-28 fork** in favour of the second reading: with 818 labels and half the population outside the top 50, the mapped-sweep strategy has a natural ceiling near 50%. Extending the map past the top ~50 labels buys less per entry added, and what remains is not a rename problem — it is the curator taxonomy decision (which off-vocab labels join `VALID_SEMANTIC`, which map to a nearest in-list home, which are not semantic fields at all and get dropped). **Recommended sequencing: (1) sweep the shipped nine, dictionary-wide; (2) extend the map to the top ~50 labels and sweep again; (3) escalate the ~2,500-instance tail as one taxonomy decision rather than 768 individual ones.** Steps 1 and 2 are `systemic-fix` work; step 3 is not Routine work at all.
 
+**Update 2026-08-02 — step 2's map splits into two provably different classes, and `drop` is the correct default for one of them.** A 2026-08-02 accuracy-review run (23608–23907) built a migration map by hand, caught its own first draft producing wrong destinations, and reported the distinction:
+
+- **Forced renames** — the destination is determined by the tag *name alone*, with no reference to the entry: `medicine`→`health`, `linguistics`→`language`, `animals`→`animal-general`, `transport`→`transportation`. These are the shipped nine plus their obvious siblings, and a sweep cannot get them wrong.
+- **Context-dependent labels** — `academic`, `safety`, `environment`, `winter`, `conflict`, `industry`, `bureaucracy`, `department`, `statistics`, `innovation` — have **no entry-independent destination**. The run's first-draft map produced `education` for 立証 "proof", `nature` for 焼却炉 "incinerator", `time-season` for ゲレンデ "ski slope", and `business` for 溶鉱炉 "blast furnace": four wrong claims from four plausible-looking map rows.
+
+**The asymmetry that resolves it: dropping an off-vocabulary tag never adds a false claim, while migrating one can.** An entry that loses `environment` is under-tagged; an entry that gains `nature` is wrong. So for the context-dependent class the safe default is **drop**, and migration should be reserved for the cases where the destination is forced. That converts most of step 3's "taxonomy decision" into a mechanical drop plus a much smaller list of labels genuinely worth admitting to `VALID_SEMANTIC` — and it means step 2 should extend the map only with forced renames, not with the top 50 by frequency.
+
+**Named residue**: the off-vocabulary tag `interrogative` survives on exactly three entries — 00534 誰, 00543 どう, 23898 でしょうか — after a 2026-08-02 polish run migrated 00536 いつ to `grammatical`. Too small for its own item; fold into the next systemic-fix or accuracy-review pass. Recorded so it is not rediscovered a fourth time.
+
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
 **Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
@@ -1957,6 +1966,48 @@ other five link classes), [P24](#priority-24-inline-link-base-forms-written-with
 [P27](#priority-27-dead-inline-link-target-ids),
 [P32](#priority-32-inline-link-base-forms-written-in-kana-instead-of-the-dictionary-form).
 
+### Update 2026-08-02 — provenance split: 12% were *wrong when written*, not stale, and that subclass is closed
+
+A 2026-08-02 polish run found `01004_tsu` marking 一二三四五六八九 as `noentry` when **all eight
+are basic-tier entries that predate the linking pass**, and proposed a detector for "`noentry`
+false positives" as distinct from stale markers. The harvest measured the distinction rather than
+filing a second item, by comparing each resolving marker's target `created` date against the
+`created` date of the entry the marker sits in. A target that already existed before the source
+entry was even written cannot have been correct when the link was written.
+
+| Class | Markers | Entries | Reading |
+|---|---|---|---|
+| Target **predates** the source entry | **447** | 317 | provably wrong when written |
+| Target **postdates** the source entry | 3,362 | 1,944 | genuinely went stale |
+| Do not resolve at all | 3,515 | — | still correct (or unlinkable — see the residue section) |
+
+**447 is a lower bound**, not an estimate: a marker written during a *later* polish pass against a
+target created after the source entry is counted as "stale" here even though it was also wrong
+when written. The true wrong-when-written count is somewhere between 447 and 3,809; what the
+measurement establishes is the floor and, more usefully, the shape.
+
+**The wrong-when-written subclass is bounded and finished.** By ID band: 12 in 00000–00999, 13,
+35, 78, 97, 45, and 21 up to 06999 — and **zero above 07000**, because above the polish frontier
+there are no inline links at all. It was produced by the January 2026 linking pass over the
+earliest entries and cannot grow, which is the opposite of the stale class (85% pointing at bands
+26000+, growing with every `new-entries` run).
+
+**301 of the 447 are full-headword matches with exactly one candidate** — the same A1/A2
+mechanical criterion as the main batch. The remaining 146 are the reading-only and ambiguous
+homograph traps (たち → `01551_tachi`, つる → `01236_tsuru`, うち → `01328_uchi`) and must not
+ride along.
+
+The failure mode the observing run guessed is visible in the samples: the linking session looked
+up the **surface form as it appeared in the sentence** rather than the dictionary form — 形 →
+`02193_katachi`, 間 → `00914_aida`, 家 → `00612_ie`, 本 → `00111_hon`, 都 → `03747_miyako`. These
+are common words whose entries existed from the first week of the project.
+
+**Consequence for the sweep: none.** The proposed false-positive detector is this item's detector
+with one extra column, and the fix is the identical token substitution. Do not file it separately;
+the provenance column is worth emitting because a wrong-when-written marker needs no "does the
+sense still match" check — the entry was there all along. `01004_tsu` was fixed by the observing
+run and carries no `noentry` markers today.
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword
@@ -2010,6 +2061,46 @@ within weeks; the check is the item that matters, and it is a two-line ratchet
 **Related**: [Furigana Strategy](../topics/furigana-strategy.md),
 [Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md),
 [Tooling 47](tooling-backlog.md#47-cross-reference-headword-fields-are-invisible-to-every-furigana-instrument-7-confirmed-defects).
+
+## Priority 38: Semantic tags disagree *within a closed lexical family* (tableware: 32 entries, 12 tag-sets)
+
+**Source**: 2026-08-02 routine polish run, which standardised the four 皿 entries to `["tool"]`
+after its §4 self-check flagged `food` on a plate, and noted that 茶碗, 箸 and コップ were left
+drifting. **Measured across the whole tableware family by the 2026-08-02 wiki harvest.**
+
+This is a different defect from [P20](#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration)
+(tags outside `VALID_SEMANTIC`) and from [P11](#priority-11-batch-creation-semantic-tag-transportation-misapplied)
+(tags describing the example rather than the headword). Here **every entry is individually
+defensible and the set is collectively incoherent**: the tag depends on which run created the
+entry, not on the word. 32 vessel/utensil entries carry **12 distinct tag-sets**, with no
+plurality:
+
+| Tag set | Entries | Examples |
+|---|---|---|
+| `["general"]` | 7 | グラス, コップ, フォーク, スプーン, 灰皿, 箸置き, マグカップ |
+| `["tool"]` | 7 | 皿, お皿, 小皿, 大皿, 中皿, 急須, 鉢皿 |
+| `["food"]` | 6 | 椀, 箸, 汁椀, 湯呑み, お椀, お箸 |
+| `["culture","food"]` | 3 | 茶托, 抹茶碗, 吸い物椀 |
+| nine further one-off sets | 9 | `["building","food"]` (菜箸), `["gardening","tools"]` (スコップ), `["consumption","tool"]` (割り箸), `["daily-life","food"]` (箸箱), `["food","objects"]` (薬味皿), `["food","tableware"]` (盛り皿), `["culture","tool"]` (取り皿), `["food","tool"]` (カトラリー), `["household","food"]` (飯椀) |
+
+Two of the four large sets are *wrong on the project's own terms*: `food` on 箸 and 椀 describes
+what the vessel holds, and `general` on コップ and スプーン is the sole-`general` placeholder
+[P13](#priority-13-overuse-of-general-as-sole-semantic-tag) already covers. Five of the one-off sets use
+off-vocabulary labels (`tableware`, `objects`, `tools` — note the plural against the valid
+singular `tool` — `gardening`, `household`), so they are also P20 instances.
+
+**Scope beyond tableware.** Tableware is the family that happened to be observed; nothing about
+the mechanism is specific to it. The general shape is the one
+[Tooling 57](tooling-backlog.md#57-check_semantic_clusterspy-has-no-closed-paradigm-symmetry-rule)
+identified for cross-references: **where the members of a closed set are enumerable, disagreement
+among them is mechanically detectable and cannot be a false positive.** Writing the family list is
+the whole cost; the check is a `set()` comparison. Worth sizing two or three more families
+(kitchen appliances, stationery, clothing) before deciding whether the instrument is worth
+building or whether hand-standardising the ~30 tableware entries is cheaper.
+
+**Blocked on the same decision as P20**: whether the taxonomy gains a `container`/`tableware`-like
+tag or whether these all collapse into `tool`. The observing run chose `tool`, which is the
+in-vocabulary answer available today.
 
 ## Priority 37: `politeness: "polite"` on plain vocabulary — and the detector that reports zero
 
@@ -2070,6 +2161,45 @@ The strategic consequence — the frontier lane advances 4–8 entries per run a
 unlinked entries, so it cannot close the gap, and
 [Tooling 49](tooling-backlog.md#49-read-only-inline-link-suggester-propose--never-write) is the
 only filed item that attacks the real cost — is written up on
+[Inline Link Integrity](../topics/inline-link-integrity.md).
+
+**Filed a fourth and fifth time on 2026-08-02** by both of that day's polish runs (06739–06744:
+"zero inline links anywhere"; 06745–06750: "whole sub-ranges appear to predate the inline-link
+pass", again proposing a range-scan detector). Both are the 06000–07999 band described above,
+both are correct observations of the frontier, and neither is a defect. One of the two added a
+genuinely new nuance worth keeping: above the frontier the deficit is not *partial* coverage
+needing completion but *no* coverage needing creation from scratch — the expensive case, and the
+one Tooling 49 is aimed at. That nuance is now on the topic page; the block itself needs no
+further filing.
+
+## Informational: Inline-link base forms labelled `Xする` while targeting the bare noun entry (441 links)
+
+**Source**: 2026-08-02 routine polish run (06749 遅延 uses `→発生する：03133_hassei` and
+`→安定する：01703_antei` — a する-form label on a noun entry — "worth a decision on which
+convention wins before a sweep"). **Measured by the 2026-08-02 wiki harvest; it is a convention
+gap, and a sweep in either direction would be wrong for a third of the population.**
+
+Of the inline links whose declared base form ends in `する`:
+
+| Situation | Links | Can a sweep fix it? |
+|---|---|---|
+| Target headword **is** `Xする` (the する entry) | 822 | already consistent |
+| Target is the bare noun `X`, **and a separate `Xする` entry exists** | 267 | only these — retarget or relabel |
+| Target is the bare noun `X`, **and no `Xする` entry exists** | 174 | **no** — the noun entry is the only target there is |
+
+The 174 forced cases are what makes this a decision rather than a cleanup. A rule of "the base
+label must equal the target's headword" would require deleting the する from 174 links whose
+sentences genuinely contain 発売する, 成長する — losing the information that the linked token is
+the verb. A rule of "always label the verb" leaves 174 links pointing at a noun entry by
+necessity and 267 pointing at one by accident.
+
+The three coherent options: (a) label the base as the target's headword always, and accept that
+verbal uses link to the noun; (b) label the verb always, and treat a noun-entry target as
+acceptable when no する entry exists; (c) prefer the `Xする` entry when one exists — a 267-link
+retarget — and fall back to (b). Only (c) is a sweep, and it is a small one. Recorded here
+because the decision is the curator's and no instrument can infer it. Related:
+[P24](#priority-24-inline-link-base-forms-written-with-furigana-braces),
+[P32](#priority-32-inline-link-base-forms-written-in-kana-instead-of-the-dictionary-form),
 [Inline Link Integrity](../topics/inline-link-integrity.md).
 
 ## Informational: `ている` has no entry and is `noentry` in 37 ASPECT notes — a convention decision, not a defect

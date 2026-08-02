@@ -758,6 +758,17 @@ verb-form-misparse cases (the 00472 仕様 / 22875 出回り class) without manu
 > as [Cleanup P35](cleanup-backlog.md) with the full stratification; analysis on
 > [Inline Link Integrity](../topics/inline-link-integrity.md).
 
+> **Update 2026-08-02 — emit a provenance column; do not build a second detector.** A polish run
+> proposed a separate "`noentry` false positive" detector for markers that were *never* correct
+> (`01004_tsu` marked 一二三四五六八九 `noentry` when all eight are basic-tier entries older than
+> the marker). The harvest measured it: **447 of the 3,809 resolving markers have a target created
+> before the source entry** — provably wrong when written — **all of them below ID 07000**, 301 of
+> them mechanically safe. That is the same scan, the same queue, and the same one-token fix as
+> this item; the only difference is one comparison of two `created` dates. Add it as an output
+> column (`wrong_when_written: true`), because such a marker needs no sense-drift check — the
+> target existed the whole time. Full numbers in
+> [Cleanup P35](cleanup-backlog.md#update-2026-08-02--provenance-split-12-were-wrong-when-written-not-stale-and-that-subclass-is-closed).
+
 **Source**: 2026-06-14/15 routine runs (multiple stale-`noentry` sightings)
 
 Inline links written as `⟦surface→base：noentry⟧` are correct at creation time when no
@@ -1652,6 +1663,33 @@ self-checking cross-reference readings), which between them cover every true-pos
 screener has produced in two months. Downsampling — e.g. screening only *newly created* entries,
 never re-screening polished ranges — is the conservative version if retiring outright feels
 premature; the data does not require the conservative version.
+
+### Update 2026-08-02 — a further run at zero, and the flag-by-flag breakdown of *why*
+
+A 2026-08-02 accuracy-review run (23608–23907) screened **103 entries**, produced **7 flags
+(6.8%)**, and applied **0**. Counting only post-fix runs this is the fourth consecutive zero; the
+[quality-metrics page](../topics/quality-metrics.md) now records **six consecutive windows at
+zero precision, 0 of ~64 cumulative**. What this run adds is the itemised disposition, which
+shows the flags are not a scatter of near-misses but the same four documented families:
+
+| Disposition | n |
+|---|---|
+| Partial-reading / index-confusion false positive (in `calibration_report.md`) | 4 |
+| The documented 毎年 まいとし variant-reading family | 1 |
+| The model's own concern text concludes it is **not** an error | 1 |
+| Escalated to the curator rather than applied (兎形目 reading) | 1 |
+
+Only the last is even arguably a finding, and it was escalated precisely because the run could
+not confirm it. The self-refuting family (row 3) recurs a second time here, which is the strongest
+case for the one-line post-filter proposed above — it is free and it removes a flag class that has
+now cost adjudication effort in two separate windows.
+
+The rate argument also held at the larger gap: **~1.4 entries/min for the screener against ~7/min
+for the accuracy pass** in this run (the 2026-08-01 harvest measured ~2 vs ~13 on a longer
+window). Because both passes share
+`polishing/tasks/cross-model-review/progress.txt`, the slower one sets the cursor, so the cost of
+keeping the screener is paid in accuracy-pass coverage — the dimension that *is* producing
+applied fixes.
 
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
@@ -2705,6 +2743,24 @@ order usable without a destructive edit to `candidate_words.json`. A manual
 signal counts ~1,000 candidates and stays quiet, while the pool a run can actually write from is
 near empty. Scoring would make that count mean something.
 
+**Update 2026-08-02 (third and fourth independent reports; the ratio is now measured twice the same way).**
+A 2026-08-02 `new-entries` run reported the identical shape: **all 15 "seen in entry" candidates
+were good**, and it had to hand-pick **7 defensible words out of hundreds scanned** from the
+remaining ~990 (三百, 六歳, 全商品, 倍率器, 個尊, 些道, 怒燥 …). That is the same ~1-in-10 usable
+rate from a different day and a different run, so it is a property of the pool rather than of one
+sample. The run also restated the selector consequence sharply: the real supply of entry-worthy
+candidates is **~15 per run** — i.e. roughly one run's worth — while `routine_next.py` reads
+`candidate_count: 998` and reports the pool as plentiful.
+
+Three options were named, and they are not equivalent: (a) a curator restock of genuine
+vocabulary, (b) a `clean_up_candidates_list.md` sweep to purge compositional residue, (c) teach
+the selector to count only candidates passing a quality heuristic. **(c) is the one a Routine can
+build**, and it is this item's scoring pass wired into the selector signal rather than a new
+capability — but note it changes *reporting*, not supply. Only (a) and (b) change what a run can
+actually write from, and (b) is arrears-clearing while the harvest-time filter above closes the
+inflow. Sequenced: filter the inflow, score for the selector, then let the curator decide whether
+to restock or sweep.
+
 ## 55. Detector: contrast words named in notes prose but absent from `cross_references`
 
 **Source**: 2026-07-31 routine polish run (priority lane, basic-tier verbs)
@@ -2875,6 +2931,62 @@ wrapped* — would save the rediscovery, which has now cost two runs.
 This is the same rule collision documented as the **unlinkable residue** in
 [Inline Link Integrity](../topics/inline-link-integrity.md#the-unlinkable-residue-japanese-that-no-rule-can-currently-handle),
 and both should be resolved by the same convention decision.
+
+## 63. `validate_tags.py` collapses 13,037 warnings into one number with no breakdown
+
+**Source**: 2026-08-02 routine accuracy-review run (23608–23907).
+
+The run needed to know how many off-vocabulary semantic tags the dictionary carries. The standard
+tool for that question reports **13,037 warnings** as a single count, with no per-category
+grouping, so the run had to write a throwaway script against `VALID_SEMANTIC` to recover the
+4,899-instance / 818-label off-vocab population. That is the second harvest in a row to write the
+same throwaway script.
+
+A `--summary` mode — or simply grouping the warning tail by warning type and printing counts —
+would make **the largest known content defect in the dictionary visible in the standard report**
+instead of hidden behind a number that is too large to read. It is a few lines over a
+`Counter`, and it feeds [Cleanup P20](cleanup-backlog.md#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration)
+directly. Related: [item 6](#6-tag-drift-detector),
+[item 46](#46-pre-scan-off-vocabulary-tags-deterministically-and-feed-the-list-to-the-accuracy-reviewer)
+— the deterministic pre-scan item this would make trivial to run.
+
+## 64. `manage_candidates.py add` does not say *what* it rejected or *why*
+
+**Source**: 2026-08-02 routine new-entries run (a batch of 17 adds).
+
+On a duplicate hit the command prints only `Use --force to bypass this check`. It does not echo
+the word, and it does not distinguish "this already exists as an entry" from "this is already in
+the candidate list" — two outcomes with opposite meanings for the caller (the first means stop,
+the second means the word is already queued). In a batch of adds the operator cannot tell which
+of the 17 were skipped without re-running them one at a time.
+
+The fix is one line in the rejection path: echo the word, the reading, and the matched target
+(`entry 12345_foo` / `candidate C22661`). Cheap, and it removes a real source of silent data loss
+— a run that cannot see which adds were dropped will not retry them.
+
+## 65. `validate.py` accepts an inline link whose base form contradicts its target
+
+**Source**: 2026-08-02 routine polish run, which hand-wrote two links that passed validation and
+were wrong: `これ→00959_kiiroi` and `同じ→00591_isogashii`.
+
+`validate.py` checks that a link's target **ID exists**. It does not check that the target's
+headword or reading has anything to do with the link's declared base form, so a mistyped or
+copy-pasted ID validates cleanly and ships. Both defects above were caught by a human re-reading
+the entry, which is exactly the review channel the frontier lane cannot afford.
+
+The comparison is already implemented — [item 59](#59-check_link_baseformpy-should-suppress-proposals-that-change-the-reading)'s
+`check_link_baseform.py` does it, and `build/word_id_lookup.json` is already loaded by the build.
+What is missing is the **ratchet**: running the agreement test at validation time, on changed
+entries only, so a wrong link cannot enter the corpus in the first place. That is a different
+posture from the detector, which cleans up arrears
+([Cleanup P27](cleanup-backlog.md#priority-27-dead-inline-link-target-ids) is the accumulated
+version of the same defect). The same asymmetry the
+[headword-furigana ratchet](#56-nothing-checks-that-a-headword-carries-furigana) argued: for an
+actively-growing defect the guard matters more than the sweep.
+
+Care is needed on the false-positive side — a legitimate link may point at a variant spelling —
+so the validation-time form should require *disagreement in both headword and reading* before
+failing, and the exploratory form stays in the detector.
 
 ## Related pages
 

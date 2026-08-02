@@ -556,13 +556,13 @@
       "detect": "scan every ⟦…→base：noentry⟧, look `base` up in build/word_id_lookup.json by_headword; keep hits with len(base)>=2 AND exactly one candidate entry",
       "filter": "class A1+A2 only (headword match, multi-char, unique target). EXCLUDE single-character bases (498), reading-only matches (385) — homograph traps, per-entry.",
       "fix_type": "mechanical",
-      "verify": "spot-check",
+      "verify": "mechanical for A1/A2 (full headword match, unique target); per-entry for single-char and reading-only matches",
       "priority": 2,
       "batch_ready": true,
       "status": "open",
       "scope_estimate": 2887,
       "severity": "warn",
-      "notes": "Measured dictionary-wide 2026-08-01: 3,797 of 7,320 noentry links now resolve; 2,887 have a full headword match with exactly one candidate entry. 85% point at target entries in bands 26000+, i.e. created by recent new-entries runs — a live leak, so Tooling 19's manage_candidates.py sync hook should land alongside the sweep or the population regrows. User-visible: reader currently sees plain text where a working link exists. Analysis: topics/inline-link-integrity.md."
+      "notes": "Measured dictionary-wide 2026-08-01: 3,797 of 7,320 noentry links now resolve; 2,887 have a full headword match with exactly one candidate entry. 85% point at target entries in bands 26000+, i.e. created by recent new-entries runs — a live leak, so Tooling 19's manage_candidates.py sync hook should land alongside the sweep or the population regrows. User-visible: reader currently sees plain text where a working link exists. Analysis: topics/inline-link-integrity.md. | Update 2026-08-02: re-measured at 3,809 resolving of 7,324. Provenance split added: 447 markers (317 entries) have a target created BEFORE the entry the marker sits in, so they were wrong when written rather than stale -- all below ID 07000, 301 of them full-headword/unique-target. Emit a wrong_when_written column (those need no sense-drift check); do NOT build a second detector."
     },
     {
       "id": "crossref-calendar-family",
@@ -653,6 +653,21 @@
       "scope_estimate": null,
       "severity": "warn",
       "notes": "Three independent 2026-08-01 polish runs hit the same failure: the ko-so-a-do demonstratives (16 entries fixed, refs existed in one direction only), the non-negative ない adjectives (せわしない/おぼつかない/切ない/はしたない/えげつない), and the 毎-/来-/今- calendar series. Shared tell: the paradigm is stated in prose in every member and structured in none. Undetectable by tooling item 55's heuristic (needs the mention to be inline-linked; these sit above the link frontier). Tractable form is a declared table, so it cannot produce false positives."
+    },
+    {
+      "id": "tag-lexical-family-incoherence",
+      "title": "Semantic tags disagree within a closed lexical family (tableware measured: 32 entries, 12 tag-sets)",
+      "source": "ideas/cleanup-backlog.md#priority-38",
+      "detect": "no detector yet -- enumerate a family by headword pattern and compare tags.semantic set-wise (see P38 for the tableware scan)",
+      "filter": "exclude entries that are dishes rather than vessels (丼/親子丼/牛丼 take 'food' correctly)",
+      "fix_type": "verify",
+      "verify": "per-entry",
+      "priority": 14,
+      "batch_ready": false,
+      "status": "open",
+      "scope_estimate": 32,
+      "severity": "warn",
+      "notes": "Measured 2026-08-02 by the wiki harvest after a polish run standardised the four 皿 entries to ['tool']. 32 vessel/utensil entries carry 12 distinct tag-sets with no plurality: 7 ['general'] (also P13 sole-general), 7 ['tool'], 6 ['food'] (describes contents, not the object), 3 ['culture','food'], and nine one-offs of which five use off-vocabulary labels (tableware, objects, tools-plural, gardening, household -- also P20). Generalises: where a lexical family is enumerable, disagreement among its members is mechanically detectable and cannot be a false positive (cf. crossref-closed-paradigm-symmetry). Size 2-3 more families before building an instrument. Partly blocked on the P20 taxonomy decision (container/tableware tag, or collapse to 'tool')."
     }
   ]
 }

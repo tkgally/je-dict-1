@@ -1,6 +1,6 @@
 # Deterministic vs. Semantic Editorial Tasks
 
-**Last updated**: 2026-04-06
+**Last updated**: 2026-08-02
 
 ## Overview
 
@@ -228,6 +228,53 @@ As the dictionary grows, new deterministic scripts will be needed:
 
 These are all detection tools — they expand the deterministic layer's ability to find problems without encroaching on the semantic layer's role in fixing them.
 
+## Measured 2026: the same distinction, applied to what the project pays a model for
+
+The 2026 Routine spends real money on cross-model review, and it buys four dimensions —
+`furigana`, `gloss`, `translation`, `tags`. Two years of this page's argument predicts they should
+not be equally worth buying, and by mid-2026 there is enough evidence to sort them. **The test is
+not "is this task semantic?" but "is the *detection* step semantic?"** — because that is the half
+being paid for.
+
+**`tags` — detection is deterministic; only the destination is semantic.** Five consecutive
+review blocks found that a free set-difference against `VALID_SEMANTIC` finds nearly everything
+the paid reviewer flags (110 of 118 in one block, 38 of 54 in another). A tag that is not in the
+list is wrong *by definition*; no judgment is involved in noticing it. What genuinely needs a
+model is choosing where it should go instead — and even that splits, because for *forced* renames
+(`medicine`→`health`) the destination follows from the tag name alone, and for context-dependent
+labels the safe move is to drop rather than migrate. So the model is being paid for detection it
+cannot improve on. This is the hybrid pattern with the split drawn in the wrong place; the
+correction is [Tooling 46](../ideas/tooling-backlog.md#46-pre-scan-off-vocabulary-tags-deterministically-and-feed-the-list-to-the-accuracy-reviewer)
+— scan for free, ask the model only for destinations.
+
+**`translation` — detection is irreducibly semantic.** A single 2026-08-02 review block produced
+two defects that no linter can express: a romaji Japanese word left inside an English translation
+("The word 'suchuwaadesu' used to be commonly used", 23893), and a translation that *contradicts*
+its Japanese sentence (「{山|さん}」は{字音|じおん}だ rendered as "'San' is the on-reading", where
+the Japanese asserts the character *is* an on-reading, 23894). The first is arguably reachable by
+a heuristic — an improbable letter sequence in an English field — but the second is a
+truth-conditional comparison between two languages, which is the definition of the semantic layer.
+This dimension is what the money is for.
+
+**`furigana` — detection was semantic in principle and worthless in practice.** The screening pass
+has now run six consecutive measured windows at **zero** precision (0 of ~64 flags applied). Its
+historical true-positive classes turn out to be exactly the ones a cheap lint can express —
+non-hiragana readings, orphan kana, unwrapped headwords — while its false positives cluster in
+families (rendaku in compounds, okurigana splits, readings the entry itself discusses) that are
+properties of Japanese orthography, not of the entry. It is the counterexample to a naive reading
+of this page: *semantic* does not imply *worth a model*, because a model with no reliable evidence
+produces confident noise rather than judgment. Full analysis:
+[Tooling 24](../ideas/tooling-backlog.md#24-non-hiragana-reading-lint-cheap-replacement-for-the-furigana-screeners-true-positive-class).
+
+The refinement this adds to **design principle 1 ("automate detection, not decision")**: the
+principle assumes detection is the automatable half. That holds only when the defect has a
+mechanical signature. Where it does — off-vocabulary tags, dead link targets, bare-kanji headwords
+— buying detection from a model is pure waste, and the free scan should feed the model rather than
+compete with it. Where it does not — cross-language truth conditions, whether a note explains the
+word or merely restates it — detection *is* the product. Sorting the review budget by that
+question, rather than by dimension name, is what the [quality metrics](quality-metrics.md)
+time series has made possible.
+
 ## Related pages
 
 - [LLMs as Lexicographic Corpus Replacements](llms-replacing-corpora.md) — the broader question of LLM capabilities in dictionary production
@@ -238,4 +285,6 @@ These are all detection tools — they expand the deterministic layer's ability 
 - [Parallel Agent Architecture](../ideas/parallel-agent-architecture.md) — running semantic agents in parallel
 - [Content Pipeline](../project/content-pipeline.md) — the overall workflow these tasks fit into
 - [Quality Standards](../project/quality-standards.md) — what the semantic tasks are trying to achieve
+- [Quality Metrics Trend](quality-metrics.md) — the flag-precision time series the 2026 section draws on
+- [Instrument Defects](instrument-defects.md) — how the review instruments themselves fail
 - [Dictionary Evaluation and Metalexicography](../research/dictionary-evaluation-metalexicography.md) — the metalexicographic tradition that informs what "quality" means
