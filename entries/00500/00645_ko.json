@@ -18,7 +18,9 @@
       "english": "Three apples, please.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00645_ko_ex2",
@@ -26,7 +28,9 @@
       "english": "There are five eggs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00645_ko_ex3",
@@ -34,7 +38,9 @@
       "english": "How many sweets did you eat?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00645_ko_ex4",
@@ -42,7 +48,9 @@
       "english": "There are ten in this box.",
       "notes": "じゅっこ shows sound change for 10",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00645_ko_ex5",
@@ -50,14 +58,24 @@
       "english": "If you give each child two, how many do you need in total?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "〜{個|こ} is a general counter for small, compact objects like fruits, eggs, balls, boxes, and candies.\n\nCOUNTING (with sound changes):\n- {一個|いっこ} (1) - sound change\n- {二個|にこ} (2)\n- {三個|さんこ} (3)\n- {四個|よんこ} (4)\n- {五個|ごこ} (5)\n- {六個|ろっこ} (6) - sound change\n- {七個|ななこ} (7)\n- {八個|はっこ} (8) - sound change\n- {九個|きゅうこ} (9)\n- {十個|じゅっこ} (10) - sound change\n- {何個|なんこ}: how many?\n\nCOMMON OBJECTS COUNTED:\n- ⟦りんご→りんご：02269_ringo⟧、⟦{卵|たまご}→卵：02222_tamago⟧、⟦ボール→ボール：00017_booru⟧、⟦{箱|はこ}→箱：02162_hako⟧、⟦お{菓子|かし}→お菓子：02852_okashi⟧、⟦{石|いし}→石：02177_ishi⟧\n\nNOTE:\nThis is one of the most versatile counters in Japanese. When unsure which counter to use for small objects, 〜{個|こ} is often acceptable.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01004_tsu",
+      "reading": "つ",
+      "headword": "つ",
+      "label": "general native counter (1-9)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:43:53Z",
-    "modified": "2026-05-12T14:11:41Z",
+    "modified": "2026-08-02T03:20:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

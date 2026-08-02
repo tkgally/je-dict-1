@@ -118,11 +118,33 @@
       ]
     }
   ],
-  "notes": "オレンジ refers to both the fruit and the color orange, from English 'orange.'\n\nAS A FRUIT:\n- オレンジ⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat an orange\n- オレンジ⟦ジュース→ジュース：01033_juusu⟧: orange juice\n- オレンジ⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧: orange peel\n\nAS A COLOR:\n- オレンジ⟦{色|いろ}→色：00849_iro⟧: orange (color)\n- オレンジ⟦{色|いろ}→色：00849_iro⟧⟦の→の：09472_no⟧ + noun: orange-colored ~\n\nCOMPARISON:\n- オレンジ: Western orange (larger, for juice)\n- ⟦みかん→みかん：01036_mikan⟧: Japanese mandarin orange (more common in daily life)\n\nCOUNTER:\n⟦{個|こ}→〜個：00645_ko⟧ is used for counting.",
-  "cross_references": [],
+  "notes": "オレンジ refers to both the fruit and the color orange, from English 'orange.'\n\nAS A FRUIT:\n- オレンジ⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧: to eat an orange\n- オレンジ⟦ジュース→ジュース：01033_juusu⟧: orange juice\n- オレンジ⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧: orange peel\n\nAS A COLOR:\nThe color is normally オレンジ⟦{色|いろ}→色：00849_iro⟧, with ⟦{色|いろ}→色：00849_iro⟧ attached. Bare オレンジ before a noun sounds like the fruit, so use オレンジ⟦{色|いろ}→色：00849_iro⟧⟦の→の：09472_no⟧ to modify.\n- オレンジ⟦{色|いろ}→色：00849_iro⟧: orange (color)\n- オレンジ⟦{色|いろ}→色：00849_iro⟧⟦の→の：09472_no⟧ + noun: orange-colored ~\n\nCOMPARISON:\n- オレンジ: Western orange (larger, for juice)\n- ⟦みかん→みかん：01036_mikan⟧: Japanese mandarin orange (more common in daily life)\n\nCOUNTER:\n⟦{個|こ}→〜個：00645_ko⟧ is used for counting the fruit: オレンジ⟦を→を：00422_wo⟧⟦{三個|さんこ}→〜個：00645_ko⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01036_mikan",
+      "reading": "みかん",
+      "headword": "みかん",
+      "label": "mandarin orange (the everyday Japanese citrus)"
+    },
+    {
+      "type": "related",
+      "target_id": "00849_iro",
+      "reading": "いろ",
+      "headword": "{色|いろ}",
+      "label": "color"
+    },
+    {
+      "type": "related",
+      "target_id": "01033_juusu",
+      "reading": "じゅーす",
+      "headword": "ジュース",
+      "label": "juice"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:34:17Z",
-    "modified": "2026-05-13T21:09:47Z",
+    "modified": "2026-08-02T03:21:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -132,6 +154,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
+        "food",
         "color"
       ]
     }

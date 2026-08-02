@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "01004_tsu_ex1",
-      "japanese": "⟦{一|ひと}→一：noentry⟧つ⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{一|ひと}→一：00705_ichi⟧つ⟦ください→ください：02899_kudasai⟧。",
       "english": "Please give me one.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "01004_tsu_ex2",
-      "japanese": "⟦りんご→りんご：02269_ringo⟧⟦を→を：00422_wo⟧⟦{三|みっ}→三：noentry⟧つ⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦りんご→りんご：02269_ringo⟧⟦を→を：00422_wo⟧⟦{三|みっ}→三：00749_san⟧つ⟦ください→ください：02899_kudasai⟧。",
       "english": "Please give me three apples.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "01004_tsu_ex3",
-      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{二|ふた}→二：noentry⟧つ⟦あります→ある：00006_aru⟧。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{二|ふた}→二：00736_ni⟧つ⟦あります→ある：00006_aru⟧。",
       "english": "There are two problems.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "01004_tsu_ex4",
-      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{窓|まど}→窓：02254_mado⟧⟦が→が：00051_ga⟧⟦{四|よっ}→四：noentry⟧つ⟦あります→ある：00006_aru⟧。",
+      "japanese": "⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{窓|まど}→窓：02254_mado⟧⟦が→が：00051_ga⟧⟦{四|よっ}→四：00767_yon⟧つ⟦あります→ある：00006_aru⟧。",
       "english": "There are four windows in the room.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "01004_tsu_ex5",
-      "japanese": "⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦が→が：00051_ga⟧⟦{八|やっ}→八：noentry⟧つ⟦ありました→ある：00006_aru⟧⟦が→が：00051_ga⟧、⟦{五|いつ}→五：noentry⟧つ⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦あげました→あげる：00546_ageru⟧。⟦{三|みっ}→三：noentry⟧つ⟦{残|のこ}りました→残る：01187_nokoru⟧。",
+      "japanese": "⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦が→が：00051_ga⟧⟦{八|やっ}→八：00698_hachi⟧つ⟦ありました→ある：00006_aru⟧⟦が→が：00051_ga⟧、⟦{五|いつ}→五：00697_go⟧つ⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦あげました→あげる：00546_ageru⟧。⟦{三|みっ}→三：00749_san⟧つ⟦{残|のこ}りました→残る：01187_nokoru⟧。",
       "english": "There were eight sweets, but I gave five to the children. Three remained.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "つ is the most versatile Japanese counter. It uses native Japanese (やまとことば) numbers and can count almost anything when you don't know the specific counter. It only works for numbers 1-9.\n\nCOUNTING FORMS:\n- ⟦{一|ひと}→一：noentry⟧つ (1), ⟦{二|ふた}→二：noentry⟧つ (2), ⟦{三|みっ}→三：noentry⟧つ (3)\n- ⟦{四|よっ}→四：noentry⟧つ (4), ⟦{五|いつ}→五：noentry⟧つ (5), ⟦{六|むっ}→六：noentry⟧つ (6)\n- ⟦{七|なな}→七：00734_nana⟧つ (7), ⟦{八|やっ}→八：noentry⟧つ (8), ⟦{九|ここの}→九：noentry⟧つ (9)\n\nLIMITATIONS:\n- No form for 10 or above. For 10, use ⟦{十|とお}→十：00708_juu⟧. For higher numbers, use specific counters or the Chinese-derived number system.\n- Cannot count people (use ⟦{人|にん}→〜人：00658_nin⟧) or long thin objects (use ⟦{本|ほん}→〜本：00688_hon⟧).\n\nUSAGE:\nThis is the safest counter to use when unsure which specific counter applies. It sounds natural for small objects, abstract things, and items on a list.",
-  "cross_references": [],
+  "notes": "つ is the most versatile Japanese counter. It uses native Japanese (やまとことば) numbers and can count almost anything when you don't know the specific counter. It only works for numbers 1-9.\n\nCOUNTING FORMS:\n- ⟦{一|ひと}→一：00705_ichi⟧つ (1), ⟦{二|ふた}→二：00736_ni⟧つ (2), ⟦{三|みっ}→三：00749_san⟧つ (3)\n- ⟦{四|よっ}→四：00767_yon⟧つ (4), ⟦{五|いつ}→五：00697_go⟧つ (5), ⟦{六|むっ}→六：00747_roku⟧つ (6)\n- ⟦{七|なな}→七：00734_nana⟧つ (7), ⟦{八|やっ}→八：00698_hachi⟧つ (8), ⟦{九|ここの}→九：00728_kyuu⟧つ (9)\n\nLIMITATIONS:\n- No form for 10 or above. For 10, use ⟦{十|とお}→十：28376_too⟧. For higher numbers, use specific counters or the Chinese-derived number system.\n- Cannot count people (use ⟦{人|にん}→〜人：00658_nin⟧) or long thin objects (use ⟦{本|ほん}→〜本：00688_hon⟧).\n- For small discrete objects, ⟦{個|こ}→〜個：00645_ko⟧ is the common alternative and has no upper limit.\n\nASKING HOW MANY:\nUse ⟦{幾|いく}つ→幾つ：00944_ikutsu⟧ (how many?) to ask for a count in this series. The same word asks a small child's age.\n\nAGE OF YOUNG CHILDREN:\nつ also counts years of age up to nine: ⟦{三|みっ}→三：00749_san⟧つ⟦の→の：09472_no⟧⟦{子|こ}→子：09851_ko⟧ means \"a three-year-old child.\" From ten on, use ⟦{歳|さい}→歳：10017_sai⟧.\n\nUSAGE:\nThis is the safest counter to use when unsure which specific counter applies. It sounds natural for small objects, abstract things, and items on a list.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00645_ko",
+      "reading": "こ",
+      "headword": "〜{個|こ}",
+      "label": "counter for small objects (no upper limit)"
+    },
+    {
+      "type": "related",
+      "target_id": "00944_ikutsu",
+      "reading": "いくつ",
+      "headword": "{幾|いく}つ",
+      "label": "how many; how old"
+    },
+    {
+      "type": "related",
+      "target_id": "02948_hitotsu",
+      "reading": "ひとつ",
+      "headword": "{一|ひと}つ",
+      "label": "one (thing)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:17:50Z",
-    "modified": "2026-05-13T19:17:12Z",
+    "modified": "2026-08-02T03:19:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

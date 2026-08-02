@@ -18,7 +18,9 @@
       "english": "What time is it now?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09869_ji_ex2",
@@ -26,7 +28,9 @@
       "english": "I woke up at 8 o'clock.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09869_ji_ex3",
@@ -34,7 +38,9 @@
       "english": "The meeting starts at 2 PM.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{時|じ} is the counter for hours when telling time.\n\nCOUNTING PATTERN (o'clock):\n1: {一時|いちじ}      6: {六時|ろくじ}\n2: {二時|にじ}       7: {七時|しちじ}\n3: {三時|さんじ}     8: {八時|はちじ}\n4: {四時|よじ}       9: {九時|くじ}\n5: {五時|ごじ}      10: {十時|じゅうじ}\n\nIRREGULAR READINGS:\n- 4: よじ (not よんじ)\n- 7: しちじ (ななじ also exists but less standard)\n- 9: くじ (not きゅうじ)\n\nCOMMON PATTERNS:\n- {何時|なんじ}: what time?\n- ～{時|じ}{半|はん}: half past ~\n- ～{時|じ}ちょうど: exactly ~ o'clock\n- ～{時|じ}{頃|ごろ}: around ~ o'clock\n\nRELATED COUNTERS:\n- ～{分|ふん}/{分|ぷん}: minutes\n- ～{秒|びょう}: seconds\n- ～{時間|じかん}: duration in hours",
@@ -52,17 +58,28 @@
       "reading": "じかん",
       "headword": "{時間|じかん}",
       "label": "hour duration"
+    },
+    {
+      "type": "related",
+      "target_id": "00973_nanji",
+      "reading": "なんじ",
+      "headword": "{何時|なんじ}",
+      "label": "what time"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["counter"],
+      "pos": [
+        "counter"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     },
     "created": "2026-02-04T03:55:03Z",
-    "modified": "2026-02-04T03:55:03Z"
+    "modified": "2026-08-02T03:20:38Z"
   }
 }

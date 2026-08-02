@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06739_itawashii_ex1",
-      "japanese": "いたわしい{姿|すがた}を{見|み}て{涙|なみだ}が{出|で}た。",
+      "japanese": "いたわしい⟦{姿|すがた}→姿：03363_sugata⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I cried seeing the pitiful sight.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06739_itawashii_ex2",
-      "japanese": "{彼女|かのじょ}の{境遇|きょうぐう}はいたわしい{限|かぎ}りだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{境遇|きょうぐう}→境遇：12097_kyouguu⟧⟦は→は：00079_ha⟧いたわしい⟦{限|かぎ}り→限り：00133_kagiri⟧⟦だ→だ：09496_da⟧。",
       "english": "Her circumstances are utterly pitiable.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06739_itawashii_ex3",
-      "japanese": "いたわしい{事故|じこ}のニュースを{聞|き}いた。",
+      "japanese": "いたわしい⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦ニュース→ニュース：04437_nyuusu⟧⟦を→を：00422_wo⟧⟦{聞|き}いた→聞く：00483_kiku⟧。",
       "english": "I heard news of a tragic accident.",
       "notes": null,
       "has_audio": false,
@@ -43,19 +43,40 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・いたわしい → いたわしく (adverbially)\n・いたわしい → いたわしくない (negative)\n・いたわしい → いたわしかった (past)\n\nKANJI:\nCan be written as {痛|いた}わしい or {労|いたわ}しい.\n\nETYMOLOGY:\nFrom the verb いたわる (to care for, to feel sympathy for).\n\nUSAGE:\nUsed to express genuine sympathy and compassion:\n・いたわしい{最期|さいご} (pitiful end)\n・いたわしい{運命|うんめい} (tragic fate)\n・いたわしい{限|かぎ}りだ (extremely pitiful)\n\nREGISTER:\nLiterary/formal. Common in news, literature, and formal speech.\n\nSIMILAR WORDS:\n・{哀|あわ}れ - pitiful, pathetic\n・{気|き}の{毒|どく} - pitiable, unfortunate\n・かわいそう - poor thing (more colloquial)",
+  "notes": "FORMS:\n・いたわしい → いたわしく (adverbially)\n・いたわしい → いたわしくない (negative)\n・いたわしい → いたわしかった (past)\n\nKANJI:\nCan be written as {痛|いた}わしい or {労|いたわ}しい, but hiragana is the usual choice.\n\nETYMOLOGY:\nFrom the verb ⟦いたわる→いたわる：07360_itawaru⟧ (to care for, to feel sympathy for), so the feeling is closer to tender concern than to contempt.\n\nUSAGE:\nUsed of a person's suffering or fate that the speaker witnesses and feels for:\n・いたわしい⟦{最期|さいご}→最期：noentry⟧ (pitiful end)\n・いたわしい⟦{運命|うんめい}→運命：06879_unmei⟧ (tragic fate)\n・いたわしい⟦{限|かぎ}り→限り：00133_kagiri⟧⟦だ→だ：09496_da⟧ (extremely pitiful)\n\nREGISTER:\nLiterary and formal. It appears in news writing, literature, and careful speech; it is not used in everyday conversation.\n\nSIMILAR WORDS:\n・⟦{哀|あわ}れ→哀れ：01775_aware⟧ - pitiful, pathetic; can carry a note of disdain that いたわしい lacks\n・⟦{気|き}の{毒|どく}→気の毒：02581_kinodoku⟧ - unfortunate; the everyday word for sympathizing with someone's bad luck\n・⟦かわいそう→かわいそう：02580_kawaisou⟧ - poor thing; colloquial, and used freely of children and animals",
   "cross_references": [
     {
       "type": "related",
+      "target_id": "07360_itawaru",
       "reading": "いたわる",
       "headword": "いたわる",
-      "label": "to care for",
-      "target_id": "07360_itawaru"
+      "label": "to care for"
+    },
+    {
+      "type": "synonym",
+      "target_id": "02581_kinodoku",
+      "reading": "きのどく",
+      "headword": "{気|き}の{毒|どく}",
+      "label": "pitiful, unfortunate (everyday register)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "01775_aware",
+      "reading": "あわれ",
+      "headword": "{哀|あわ}れ",
+      "label": "pitiful, pathetic"
+    },
+    {
+      "type": "synonym",
+      "target_id": "02580_kawaisou",
+      "reading": "かわいそう",
+      "headword": "かわいそう",
+      "label": "poor thing (colloquial)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-08-02T03:24:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -66,12 +87,10 @@
       "style": [
         "literary"
       ],
-      "domain": [
-        "colloquial"
-      ],
       "politeness": "plain",
       "semantic": [
-        "descriptive"
+        "descriptive",
+        "emotion"
       ]
     }
   },
