@@ -1,0 +1,24 @@
+{
+  "entry_id": "24336_hachinosu",
+  "headword": "{蜂|はち}の{巣|す}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:35:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'animal' is too broad and misleading for '蜂の巣' (beehive/wasp nest). While related to animals, the headword itself refers to a structure, not an animal.",
+      "suggestion": "Remove 'animal'."
+    }
+  ]
+}

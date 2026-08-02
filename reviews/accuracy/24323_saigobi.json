@@ -1,0 +1,24 @@
+{
+  "entry_id": "24323_saigobi",
+  "headword": "{最後尾|さいごび}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:35:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'position' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

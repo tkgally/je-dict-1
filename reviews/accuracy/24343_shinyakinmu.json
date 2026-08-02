@@ -1,0 +1,24 @@
+{
+  "entry_id": "24343_shinyakinmu",
+  "headword": "{深夜勤務|しんやきんむ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:35:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '深夜勤務'. While it refers to a specific type of work, the term itself is not formal in everyday usage.",
+      "suggestion": "neutral"
+    }
+  ]
+}

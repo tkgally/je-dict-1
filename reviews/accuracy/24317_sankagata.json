@@ -1,0 +1,24 @@
+{
+  "entry_id": "24317_sankagata",
+  "headword": "{参加型|さんかがた}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:34:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'events' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

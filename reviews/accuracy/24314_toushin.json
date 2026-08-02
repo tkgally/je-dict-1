@@ -1,0 +1,52 @@
+{
+  "entry_id": "24314_toushin",
+  "headword": "{等身|とうしん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:34:52Z",
+  "summary": {
+    "flagged": 5
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss for '等身' is misleading. '等身' itself means 'same height/stature' or 'life-size' when referring to a person's height, but it is almost always used in the compound '等身大' (tōshindai) to mean 'life-size' or 'actual size'. The headword '等身' alone is rarely used in this sense and is more commonly found in specific contexts like '等身仏' (tōshinbutsu - life-size Buddha statue) or '等身像' (tōshinzō - life-size statue). The current gloss implies that '等身' on its own directly means 'life-size' in a general sense, which is not accurate for intermediate learners.",
+      "suggestion": "The headword '等身' should be glossed as 'same height/stature' or 'equal height'. The 'life-size' meaning is primarily associated with '等身大'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "Similar to the main gloss, the definition's gloss for '等身' is misleading. '等身' itself means 'same height/stature' or 'equal height'. The 'life-size' meaning is primarily associated with the compound '等身大'.",
+      "suggestion": "The gloss for '等身' should be 'same height/stature' or 'equal height'. The 'life-size' meaning is primarily associated with '等身大'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The Japanese sentence uses '等身大' (tōshindai), not '等身'. The English translation correctly reflects '等身大', but the example is not for the headword '等身'.",
+      "suggestion": "Replace the example with one that uses '等身' directly, or remove it if no suitable example exists for '等身' alone in this sense."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The Japanese sentence uses '等身大' (tōshindai), not '等身'. The English translation correctly reflects '等身大', but the example is not for the headword '等身'.",
+      "suggestion": "Replace the example with one that uses '等身' directly, or remove it if no suitable example exists for '等身' alone in this sense."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The Japanese sentence uses '等身大' (tōshindai), not '等身'. The English translation correctly reflects '等身大', but the example is not for the headword '等身'.",
+      "suggestion": "Replace the example with one that uses '等身' directly, or remove it if no suitable example exists for '等身' alone in this sense."
+    }
+  ]
+}

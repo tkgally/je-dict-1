@@ -1,0 +1,24 @@
+{
+  "entry_id": "24316_ashiyubi",
+  "headword": "{足指|あしゆび}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:34:54Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'body' is not in the valid tag list.",
+      "suggestion": "body-part"
+    }
+  ]
+}
