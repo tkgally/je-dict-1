@@ -132,6 +132,50 @@ Until that exists, the honest framing is that inline links are a **feature of th
 below-frontier corpus**, not of the dictionary — and the curator may want to decide that
 deliberately rather than by accumulation.
 
+## The unlinkable residue: Japanese that no rule can currently handle
+
+The six classes above are all *defects* — a link that exists and is wrong, or a link that should
+exist and doesn't. There is a seventh thing, and it is not a defect: **Japanese text that both
+project rules apply to and neither rule can satisfy.**
+
+The rules are (1) every kanji carries furigana, and (2) every Japanese word in an example or note
+is either inline-linked or marked `noentry`. Together they assume that every Japanese span in the
+corpus is a *lookup-able lexical item* — something that has, or could have, an entry. Three
+independent runs on 2026-08-01 hit spans where that assumption fails, and each had to invent a
+treatment on the spot:
+
+| Case | Why both rules fail | Measured scope |
+|---|---|---|
+| **Bound morphemes** — 今-, 毎-, 来-, 義- | Not a word, so no entry and no candidate is warranted. Bare `毎` trips `find_missing_furigana.py`; `{毎|まい}` satisfies the furigana rule but leaves naked Japanese that rule (2) then demands a link for. | 8 of the 17 entries one polish run touched |
+| **Copula and auxiliary inflections** — `で、`, `ではありません` | The lemma has an entry (`09485_desu`) but the inflected form is grammar, not vocabulary; linking it would assert a lemma the reader didn't meet. | `⟦で→です：09485_desu⟧` occurs **0** times corpus-wide; `→です` in any form, **3** times — against **2,384** links to plain `だ`. **225** polished examples (0.6% of the 36,087 that carry any link) contain an unlinked て-form `で、`; 24 contain an unlinked `ではない`/`ではありません`/`じゃない`. |
+| **Morphemes whose surface form is already occupied** — prohibitive sentence-final な | It genuinely has no entry, and `manage_candidates.py` **refuses the candidate** because `09497_na` (attributive copula な) holds the (surface, reading) key. So it cannot be linked and cannot be queued. | 1 confirmed (06737); the blocking mechanism is [Tooling 41](../ideas/tooling-backlog.md#41-manage_candidatespy-cannot-queue-a-homograph--the-duplicate-check-is-surface-reading-not-surface-reading-sense) |
+| **Metalinguistic mentions** — "the kanji 今", "Different from 雨 (ame, rain)" | The glyph is being *mentioned*, not used. Furigana-wrapping asserts a reading the prose isn't claiming; linking asserts a word the prose isn't using. | Recurrent; filed as [Tooling 62](../ideas/tooling-backlog.md#62-find_missing_furiganapy-cannot-tell-wrap-this-from-rewrite-this) |
+
+**The scope numbers are the useful part, and they point the opposite way from the frustration.**
+The copula gap — the one a run described as "the full-coverage tier-1 rule technically fails on
+any sentence containing them" — is 0.6% of polished examples. None of these classes is a sweep.
+What they cost is not corpus damage but **rediscovery**: every polishing session that meets an
+affix in a note re-derives the same reasoning, and three of the four have now been re-derived at
+least twice by different runs. That cost is unbounded and recurs forever; the fix is four lines in
+a skill file and costs nothing after that.
+
+The treatments the runs converged on independently are consistent, which is itself evidence they
+are right:
+
+- **Affixes** — refer to the affix by its *reading* in English prose ("the まい- prefix", "the ぎ-
+  prefix") and drop the glyph. Both rules are satisfied vacuously, and it reads fine because the
+  series list immediately below always shows the kanji in context.
+- **Copula and auxiliary inflections** — exempt. This is already the de-facto rule (2,384 links to
+  `だ`, three to `です`, none to the て-form), and it matches the existing decision recorded for
+  `ている`, which is `noentry` in 37 ASPECT notes rather than linked to a lemma page.
+- **Blocked homographs** — `noentry` is the correct marker, and the real fix is sense-keyed
+  candidates (Tooling 41), not a per-entry workaround.
+- **Metalinguistic mentions** — rewrite the prose, never wrap.
+
+All four are skill-level conventions, which a `wiki` run may not write. They are recorded here and
+routed to the curator as one decision rather than four, because they share a single cause: **the
+link rule was written for words, and the corpus contains Japanese that is not a word.**
+
 ## Why these keep being rediscovered
 
 Every class on this page was found by a run that did not know it existed, and four of the six

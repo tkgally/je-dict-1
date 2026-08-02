@@ -1140,6 +1140,23 @@ The new datum is the **mappable/unmappable split, which has inverted**. Of the 2
 
 Distinguishing them is cheap and worth doing before the next sweep is sized: run `check_tag_drift.py --check unknown-semantic` over 19701–20450 and compare the *distinct off-list tag sets* of the two halves. If they overlap heavily, the second reading holds and the taxonomy decision should be escalated to the curator ahead of further migration runs.
 
+**Update 2026-08-02 (dictionary-wide measurement — the shipped map has 660 unapplied hits, and the tail says the map strategy stops near half)**: The 2026-08-02 wiki harvest measured the whole population directly rather than band by band, which answers the 2026-07-28 question above and reframes the sequencing.
+
+**Population**: **4,900 off-vocabulary instances across 3,874 entries and 818 distinct labels.** The distribution is far flatter than any single band suggested — 345 labels occur exactly once, only 199 occur five times or more, and the top 50 labels account for just 48.4% of instances.
+
+| Instrument | Labels | Instances covered | Share |
+|---|---|---|---|
+| `TAG_MIGRATION` **as shipped today** | 9 | **660** | **13.5%** |
+| Shipped 9 + the 22 mappings proposed in the 2026-08-01 observations | 31 | 1,365 | 27.9% |
+| A curated map over the top 50 labels | 50 | 2,370 | 48.4% |
+| The remaining tail | 768 | 2,530 | 51.6% |
+
+**The first row is the finding.** `TAG_MIGRATION` has covered `time`→`time-general` (204 live instances), `people`→`person` (129), `social`→`society` (73), `medical`/`medicine`→`health` (95), `transport`→`transportation` (52), `description`→`descriptive` (51), `animals`→`animal-general` (34) and `economy`→`economics` (22) since it shipped — and all 660 are still in the corpus. Meanwhile successive accuracy-review runs have been migrating 35–104 tags apiece by paid LLM review, re-deriving decisions the map already encodes. **A deterministic sweep of the nine mappings already in the repo is free, needs no judgment, and clears more instances than the last ten LLM runs combined.** It should run before any further map extension is debated.
+
+**Where the residue sits settles the "reviewed ranges are clean" question**: 79 instances (1.6%) below the polish frontier, **2,290 (46.7%) inside 6739–23607 — the band accuracy-review has already swept** — and 2,531 (51.7%) above the un-reviewed frontier at 23608. Reviewer-driven migration leaves roughly as much behind in the ranges it covered as sits in the ranges it has never seen. The 2026-06-28 observation that a 10550–10715 review "migrated 64 but missed ~9" was not a local miss; it is the dictionary-wide rate. The deterministic sweep should therefore run over the **whole** corpus, not just ahead of the frontier.
+
+**And the tail settles the 2026-07-28 fork** in favour of the second reading: with 818 labels and half the population outside the top 50, the mapped-sweep strategy has a natural ceiling near 50%. Extending the map past the top ~50 labels buys less per entry added, and what remains is not a rename problem — it is the curator taxonomy decision (which off-vocab labels join `VALID_SEMANTIC`, which map to a nearest in-list home, which are not semantic fields at all and get dropped). **Recommended sequencing: (1) sweep the shipped nine, dictionary-wide; (2) extend the map to the top ~50 labels and sweep again; (3) escalate the ~2,500-instance tail as one taxonomy decision rather than 768 individual ones.** Steps 1 and 2 are `systemic-fix` work; step 3 is not Routine work at all.
+
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
 **Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
@@ -1939,6 +1956,97 @@ crossed-over word set for free — closes the source; this sweep only clears wha
 other five link classes), [P24](#priority-24-inline-link-base-forms-written-with-furigana-braces),
 [P27](#priority-27-dead-inline-link-target-ids),
 [P32](#priority-32-inline-link-base-forms-written-in-kana-instead-of-the-dictionary-form).
+
+## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
+
+**Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword
+is `挙げる`, not `{挙|あ}げる`, and neither `validate.py` nor `find_missing_furigana.py` sees it.
+**Measured dictionary-wide by the 2026-08-02 wiki harvest**, where it turned out to be a
+250-fold larger and still-active defect.
+
+`headword` is a free-form string with a sibling `reading` field. The schema constrains `reading`
+to kana but places no constraint at all on `headword`, so both `{娯楽|ごらく}` and `娯楽`
+validate. The corpus has effectively decided the question anyway:
+
+| Headword form | Count | Share of kanji-bearing headwords |
+|---|---|---|
+| Furigana-braced | **25,773** | **99.05%** |
+| Bare kanji | **248** | 0.95% |
+| Kana-only (no kanji) | 4,087 | — |
+
+The 248 are a defect, not a variant convention. `entry_renderer.py` builds the entry page's
+`<h1>` through `process_headword_with_kanji_links(headword)`, which emits ruby from the braces —
+so a bare headword renders **without ruby on the one line of the page a learner reads first**,
+in a dictionary whose stated rule is that all kanji carry furigana.
+
+**Why every instrument misses it.** `find_missing_furigana.py` scans examples and notes;
+`validate.py` checks the schema, which has no headword pattern; the furigana screener reads
+example text. The field is checked by nothing. This is the same shape as
+[Tooling 47](tooling-backlog.md#47-cross-reference-headword-fields-are-invisible-to-every-furigana-instrument-7-confirmed-defects)
+— a `headword` outside `examples`/`notes` falls through every net — and the two should be fixed
+by one pass over "every field that can hold Japanese".
+
+**Fix stratification** — the `reading` field supplies the answer, so most of the batch is
+provably safe:
+
+| Class | Count | Fix mode |
+|---|---|---|
+| Headword is **all kanji** → `{headword\|reading}` is correct by construction | **197** | mechanical |
+| Headword **mixes kana and kanji** (okurigana, katakana, 送り仮名) — needs alignment | 51 | per-entry |
+
+The mixed class is where judgment lives: `挙げる`/あげる must become `{挙|あ}げる` (not
+`{挙げる|あげる}`), and `エネルギー資源`/えねるぎーしげん must brace only the kanji tail.
+51 entries is one comfortable systemic-fix batch.
+
+**This is an active creation-time defect, not a legacy tail.** By creation month: **126 in
+2026-07, 83 in 2026-05, 19 in 2026-06, 13 in 2026-08** — and only 7 predate 2026. By ID the
+population is a series of recent creation blocks (27882–27906, 28000–28044, 28157–28174,
+29443–29462, 29762–29791, 29856–29875, 30029–30048, **30165–30221**, **30298–30317**), with the
+newest block created this month. Sweeping the 248 without the check in
+[Tooling 56](tooling-backlog.md#56-nothing-checks-that-a-headword-carries-furigana) refills it
+within weeks; the check is the item that matters, and it is a two-line ratchet
+(`bare kanji in headword` → error) because 99.05% of the corpus already passes.
+
+**Related**: [Furigana Strategy](../topics/furigana-strategy.md),
+[Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md),
+[Tooling 47](tooling-backlog.md#47-cross-reference-headword-fields-are-invisible-to-every-furigana-instrument-7-confirmed-defects).
+
+## Priority 37: `politeness: "polite"` on plain vocabulary — and the detector that reports zero
+
+**Source**: 2026-08-01 routine polish run, which found and fixed **78** of them in one 566-entry
+creation block. **Measured dictionary-wide by the 2026-08-02 wiki harvest.**
+
+`politeness` is the keigo field: it should be reserved for です/ます-style forms, lexically polite
+words, and 美化語. Two batch-created blocks (22504–22526, 22670–22729) had it set to `polite` on
+ordinary plain vocabulary — nouns like {県民|けんみん} and {庁舎|ちょうしゃ}, plain-form verbs
+like {待|ま}ち{伏|ふ}せる. **79 of the dictionary's 252 `polite` entries sat in that one 566-entry
+range**, which is a batch-creation defect rather than a distribution.
+
+**The residue is smaller and harder than the observation assumed.** 174 `polite` entries remain.
+Of those, **99 carry an overt honorific marker in the headword** (お/ご prefix, 様, です/ます) and
+are plausibly correct as tagged. A hand sample of the other 75 shows the heuristic over-flags
+badly: こちら/そちら/あちら/どちら are genuinely polite demonstratives, and すみません,
+{行|い}ってらっしゃい, よろしく are set polite expressions. **So this is a per-entry review of a
+few dozen entries, not a sweep** — the remaining blocks worth looking at are 9336–10326 (27) and
+23265–23577 (10).
+
+**The instrument finding is the more important half.** `check_tag_drift.py --check
+politeness-unsupported` reports **0 flags across 0 entries** on this corpus. Its predicate is
+`politeness in ("humble","honorific")` with no supporting wording in the notes — it never examines
+`polite` at all. So the detector was green through an entire batch-creation defect that a human
+found by reading twenty entries. This is a clean instance of the pattern
+[Instrument Defects](../topics/instrument-defects.md) documents: **a check reporting zero is
+evidence about the check's predicate before it is evidence about the corpus.** Extending the
+predicate to `polite` — flag it when the headword carries no honorific marker *and* the notes say
+nothing about register — would have caught the 78 at creation time.
+
+**Related**: the same two creation blocks also carry `formality: "formal"` on neutral descriptive
+compounds ({乾燥地帯|かんそうちたい}, {工業地帯|こうぎょうちたい}, {経理課|けいりか}). The
+cross-model reviewer flagged ~15; per the §A policy they were correctly rejected (the entries'
+notes do not contradict the label), but the concentration matches the politeness defect exactly,
+which suggests the whole register block from that batch was set carelessly. Whether `formality`
+deserves its own detector is a curator question — see
+[Tooling 44](tooling-backlog.md#44-consistency-check-non-neutral-formality-with-no-register-statement-in-the-notes).
 
 ## Informational: Entries with zero inline links (23,294) are the polish frontier, not a defect
 

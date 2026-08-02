@@ -159,6 +159,18 @@ This reframes the "review the tail" leg above. The reviewer's value on off-vocab
 
 **The counter-caveat, from the same run**: roughly a **quarter** of the reviewer's tag suggestions were "replace the off-vocab tag with `general`" (`location`, `place`, `position`, `object`, `space`, `status`, `document` — all spatial or metadata concepts the taxonomy has no slot for). Those were rejected as a family: they trade a descriptive tag for the catch-all and would inflate the `tag-sole-general` queue (Cleanup P13). So the sweep proposed above needs a standing rejection rule for `→ general` suggestions, and the residue is a **taxonomy** question for the curator — does `VALID_SEMANTIC` want a spatial-position slot? — rather than 100 per-entry questions.
 
+**Update 2026-08-02 (the map that already shipped has 660 unapplied hits — the extension debate has been running ahead of the sweep)**: This item has argued about *which* mappings to add since 2026-06-21. The 2026-08-02 wiki harvest measured what the **nine already in `TAG_MIGRATION`** are worth against the live corpus, and the answer reorders the work:
+
+| | Labels | Live instances | Share of the 4,900 |
+|---|---|---|---|
+| `TAG_MIGRATION` as shipped | 9 | **660** | **13.5%** |
+| + the 22 mappings proposed across the 2026-08-01 observations | 31 | 1,365 | 27.9% |
+| A curated top-50-label map | 50 | 2,370 | 48.4% |
+
+`time`→`time-general` alone has **204 live instances**; `people`→`person` 129; `medical`/`medicine`→`health` 95. **None of the nine has ever been swept dictionary-wide.** Successive accuracy-review runs have migrated 35–104 tags apiece by paid LLM review while a free, judgment-free instrument covering 13.5% of the population sat unrun in the repo. Extending the map is worth doing; running it is worth more, and should come first.
+
+Two further measurements sharpen the item's own "map the head, review the tail" framing. The head is **flatter than assumed** — 818 distinct off-vocab labels, 345 of them singletons, only 199 occurring five or more times — so a curated top-50 map caps out near 48% and each label added past that buys steadily less. And the tail is **not concentrated ahead of the review frontier**: 46.7% of the residue sits inside 6739–23607, which accuracy-review has already swept, against 51.7% above 23608. The "review the tail" leg therefore cannot be scheduled as a frontier march; the deterministic sweep has to run over the whole corpus, including ranges already reviewed. Full numbers and the recommended three-step sequencing in [Cleanup P20](cleanup-backlog.md#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration), update 2026-08-02.
+
 ## 7. Polysemic kanji-variant overlap detector
 
 **Source**: Wiki maintenance 2026-05-11 entry exploration
@@ -1213,6 +1225,10 @@ Read together, items 21 and 24 have converged on one conclusion that neither rea
 That converts this item from "chunk to fit the timeout" into a smaller, better-specified ask: **a `--workers N` flag** on `review_accuracy.py` and `review_runner.py` that fans the ID list across a thread/process pool and divides `--budget` internally. The correctness argument is already demonstrated by the manual sharding; what a flag adds is a single accurate cost total and no operator arithmetic.
 
 Note the split with item 24: the fixed serial per-entry cost is worst in the **screener** (~8–9/min vs `review_accuracy.py` ~55/min at its best), and item 24 argues that the screener's output on polished ranges is ~2–5% precision. Parallelising a low-value pass buys throughput on work that mostly should not run; **sequence matters** — take item 24's deterministic-lint substitution first, then parallelise what remains.
+
+**Update 2026-08-01 (fifteenth confirmation — and the first run to state the concurrency asymmetry as a design fact rather than a measurement)**: A 2026-08-01 accuracy-review measured the screener at **~7–8 entries/min** — one sequential API call per entry — so its 566-entry range needed ~75 minutes and was cut off by the 1800s wrapper at 22585 (264/566 done). `review_accuracy.py` covered **the same 566 entries in ~13 minutes**. The observing run drew the right inference from the shape rather than the ratio: *the accuracy script is evidently already concurrent, and the screener evidently is not.* That is why the screener's rate is stable at 7–9/min across every measurement since 2026-07-03 while the accuracy script's swings with network conditions — they are not two samples of one bottleneck, they are a concurrent client and a serial one.
+
+So `--workers N` is not a symmetric ask. `review_runner.py` needs the concurrency `review_accuracy.py` already has; `review_accuracy.py` needs only the budget-division and total-cost accounting that manual sharding lacks. Interim sizing for the screener is unchanged and now measured three ways: **≤~250 entries per run**, or a longer wrapper timeout.
 
 ## 22. Particle structured-field furigana-completeness sweep
 
@@ -2531,6 +2547,35 @@ A cheap mitigation worth considering: when the poll cap is reached, fetch the PR
 `started_at`/`created_at` via `get_commit` before writing the log line, so the record at least
 carries the timestamp evidence rather than the inference.
 
+**Update 2026-08-01 — a third failure mode, and it inverts the first two.** The 2026-08-01 wiki
+run's own §7 gate hit something the item did not anticipate: `get_check_runs` served a **stale
+`in_progress` for ~19 minutes on a check that had already succeeded**. PR #3084's `validate` check
+started at 03:31:02 and completed `success` at 03:31:59 — **57 seconds**. The poll loop called
+`mcp__github__pull_request_read method=get_check_runs` ten times across ~19 minutes of wall clock
+and got `status: "in_progress"` every time, including polls made 15+ minutes after the job had
+finished. The run hit the ~8-minute cap, correctly took the documented fallback (leave the PR open
+for the next run's §0a rescue), and merged only because an unrelated stale background-sleep
+notification prompted one more opportunistic poll — which returned the true state instantly.
+
+Two consequences:
+
+1. **A pending reading is not evidence that the check is pending.** The first two failure modes
+   were both about *under*-reporting progress ("is CI slow or dead?"); this one is the endpoint
+   being stale in the **success** direction, which no amount of patience distinguishes from a slow
+   check. Without the accidental extra poll this PR would have stranded, and the session log would
+   have recorded "CI never went green" — a sentence that is simply false.
+2. **There is a usable staleness predicate, and it is one line.** The stale payloads omitted
+   `completed_at` entirely. So: *a check-run object with no `completed_at` whose `started_at` is
+   more than a few minutes old is more likely stale than running.* The gate's classifier could
+   treat that as "re-poll once after a longer delay before declaring a timeout" rather than
+   counting it as an ordinary pending. On this PR that predicate would have merged on the third poll.
+
+Worth recording positively alongside it: **the strand-recovery design worked exactly as
+specified** — PR left open, no further pushes that would restart CI, lock released so the next run
+was unblocked, §0a rescue standing by. The defect is detection latency, not recovery design, and
+the two cheap mitigations above (re-poll once past the cap; test `completed_at` rather than only
+`status`) need no new instrument.
+
 ## 49. Read-only inline-link *suggester* (propose `⟦…⟧`, never write)
 
 **Source**: 2026-07-30 routine polish run (measured on 06702, 10 unlinked examples)
@@ -2681,6 +2726,155 @@ not every prose mention deserves a structured ref, so this is a `verify: per-ent
 than a mechanical sweep. Closely related to
 [item 52](#52-does-check_semantic_clusterspy-count-a-prominent_see_also-mention-as-satisfying-the-pair-requirement),
 which asks the mirror-image question about `prominent_see_also`.
+
+## 56. Nothing checks that a headword carries furigana
+
+**Source**: 2026-08-01 routine systemic-fix run (`27889_ageru`); measured dictionary-wide by the
+2026-08-02 wiki harvest.
+
+`headword` is the only Japanese-bearing field in the schema with **no format constraint at all**:
+`{挙|あ}げる` and `挙げる` both validate. `find_missing_furigana.py` reads examples and notes;
+the furigana screener reads example text; `check_furigana_format.py` checks the shape of wrappers
+that exist, not their absence. So the field that renders as the page's `<h1>` is checked by
+nothing, and **248 entries (0.95% of kanji-bearing headwords) ship without ruby** — see
+[Cleanup P36](cleanup-backlog.md#priority-36-headwords-written-as-bare-kanji-with-no-furigana-braces-248-entries).
+
+The check is trivial and the corpus is already 99.05% compliant, which makes this an ideal
+**ratchet** in the sense of `validate_tags.py --check-no-new-unknown`: bare kanji in `headword` is
+an error for new and modified entries, with the 248 known cases baselined until swept. The
+predicate is one line — strip `{…|…}` groups from `headword`, then test for any character in
+`[一-鿿]`.
+
+Worth doing as one pass with
+[item 47](#47-cross-reference-headword-fields-are-invisible-to-every-furigana-instrument-7-confirmed-defects):
+both are the same bug (a Japanese-bearing field outside `examples`/`notes` that no instrument
+visits), and the fix is a shared list of "every field that can hold Japanese" that the furigana
+checkers iterate rather than a hard-coded pair of field names. That list would also pick up
+`fixed_patterns` and structured-field prose, which item 22 raised separately.
+
+## 57. `check_semantic_clusters.py` has no closed-paradigm symmetry rule
+
+**Source**: 2026-08-01 routine polish run (ko-so-a-do demonstratives, 16 entries fixed);
+2026-08-01 routine polish run (the non-negative ない adjective family);
+2026-08-01 routine polish run (the 毎-/来-/今- calendar series).
+
+The cluster linter checks *relations it knows the name of* — transitivity pairs, antonyms, keigo
+levels. It has no concept of a **closed paradigm**: a small fixed set whose members should all
+point at each other. Three independent runs hit the same failure in one week:
+
+- **Demonstratives.** The そ- and ど- members (そこ, そちら, それ) carried `related` refs to their
+  こ-/あ- siblings; ここ, こちら, これ, あれ, あそこ, あちら, どちら, どれ, どこ, こっち had
+  `cross_references: []`. Sixteen entries, one direction only.
+- **The non-negative ない adjectives** (せわしない, おぼつかない, {切|せつ}ない, はしたない,
+  えげつない) — a family learners systematically misparse, where each entry explains the trap in
+  isolation and none linked to the others.
+- **The calendar series** (先月/今月/来月, the 毎- series) — documented in prose in every member's
+  notes, structurally connected in none.
+
+The shared tell is that **the paradigm is stated in prose in every member and structured in
+none**, so it is invisible when reading an entry and shows up only in the rendered
+cross-reference block. That also makes it undetectable by the generic "notes mention a word that
+isn't in `cross_references`" heuristic of [item 55](#55-detector-contrast-words-named-in-notes-prose-but-absent-from-cross_references),
+which needs the mention to be inline-linked; these paradigms sit largely above the link frontier.
+
+The tractable form is a **declared-paradigm table** — a small data file listing each closed set by
+entry ID (demonstratives, weekdays, months, the 毎-/来-/今- series, counter series, the ない
+family) — and a linter rule that every member links to every other. Membership is a curator
+judgment made once per set; enforcement is then mechanical and permanent. Unlike a heuristic
+detector this cannot produce false positives, because the set is declared rather than inferred.
+
+## 58. The review cursor advances to `end+1` even when the range above is already reviewed
+
+**Source**: 2026-08-01 routine accuracy-review run (cursor regressed 23608 → 22900).
+
+`polishing/tasks/cross-model-review/progress.txt` is set by §A step 6 to the end of the range just
+reviewed, plus one. When a run works a range *below* the frontier — as run #3086 did, reviewing
+22334–22899 after 22900–23400 had already been reviewed and adjudicated the day before — that
+rule **moves the cursor backwards**, and the next run re-reviews and re-pays for entries that are
+already covered.
+
+The correct rule is to set the cursor to the lowest entry ID with **no** `reviews/accuracy/{id}_*.json`
+file, which is derivable in one glob and is what the cursor was always meant to mean. Applying it
+by hand this run moved the cursor to 23608 and exposed the true shape of the remaining work: the
+un-reviewed frontier is **23608–30317 (~6,700 entries)** plus scattered holes below it (6926–7179,
+7262–7640, 8238–8528, 9850–10449, 13975–14186, 16167–16373). Those holes are invisible to a
+monotonic cursor and will never be reviewed until the rule changes.
+
+This is a prompt/§A change rather than a script change, so it needs the curator (a `wiki` run may
+not edit prompts). A small helper — `python3 build/next_unreviewed_id.py` — would make the rule
+mechanical instead of a per-run instruction.
+
+## 59. `check_link_baseform.py` should suppress proposals that change the reading
+
+**Source**: 2026-08-01 routine systemic-fix run (link-target-baseform-disagreement, batch 2).
+
+One queue finding proposed retargeting `被る` (かぶる) at `18070_koumuru` (こうむる). Inline links
+are keyed on the surface word as it appears in the sentence, so **a proposal whose target has a
+different reading than the link's base form is wrong by construction** — no per-entry reading can
+make it right. Bucketing those separately (or suppressing them) removes a whole class of
+never-appliable findings before a human sees them.
+
+Two related refinements from the same run, both cheap:
+
+- **`--by-base` should be the documented entry point, not `--json`.** Verifying the *decision set*
+  (18 base-form families) rather than the occurrence set (90 links) collapsed the work ~5× — the
+  same ratio the P27 dead-target retro recorded. Group by `(baseform, declared_target)` first for
+  any link-integrity item.
+- **The queue's real split is a semantic one worth surfacing in the output**: where the two kanji
+  spell *different senses of one reading* (治る/直る, 抑える/押さえる, 越える/超える, 量る/測る,
+  温める/暖める) the link is a genuine wrong-word error and the example sentence decides it at a
+  glance; where they are the *same word under different orthography* (頃/〜ころ, 上げる/あげる,
+  追いかける/追い掛ける, 焼きたて/焼き立て) there is nothing to fix. The tell is deterministic:
+  **does the dictionary give the two spellings separate glosses?** If it does, the distinction is
+  real. That predicate could pre-sort the queue.
+
+## 60. `onomatopoeia` is valid in both `pos` and `semantic` — and the corpus uses both
+
+**Source**: 2026-08-01 routine new-entries run, reporting that the accuracy reviewer flags
+`onomatopoeia` as missing from `tags.semantic` on a mimetic entry (30301) that carries it in
+`tags.pos`, and proposing the reviewer prompt be told that "`onomatopoeia` lives in `pos` and
+mimetics take `descriptive` in `semantic`." **Measured by the 2026-08-02 harvest, that convention
+does not exist.**
+
+`onomatopoeia` is in **both** `VALID_POS` and `VALID_SEMANTIC`, and the corpus is genuinely split:
+**172 entries** carry it in `pos`, **116** carry it in `semantic`, **71** carry it in both. The
+reviewer is not misreading a convention; it is reporting the absence of one.
+
+This matters because two filed items now sit on opposite sides of the same undecided question.
+[Cleanup P33](cleanup-backlog.md#priority-33-mimetic-entries-whose-notes-announce-they-are-onomatopoeia-but-whose-tags-do-not-77-entries)
+is a 77-entry batch that would add `onomatopoeia` to `semantic`; this observation asks for a
+reviewer-prompt rule that would stop it being suggested there. **Running either before the
+curator decides would make the corpus less consistent, not more.** The decision is one line —
+is `onomatopoeia` a part of speech, a semantic field, or legitimately both? — and it unblocks
+P33, the reviewer prompt, and the entry-creation skill together. Filed here rather than acted on.
+
+## 61. `check_artifacts.py`'s duplicate-conjugation detector covers verbs but not i-adjectives
+
+**Source**: 2026-08-01 routine polish run (five entries cleaned: 06733, 06734, 06736, 06737, 06738).
+
+The `FORMS:` / conjugation bullet lists at the head of adjective and compound-verb notes
+(`・せわしない → せわしなく (adverbially)` …) restate the entry's own generated `conjugation` table
+verbatim. The detector already recognises this for verbs; the i-adjective variant produces the
+same redundancy from the same cause (`add_adjective_conjugations.py` post-dating the notes) and is
+the same one-line fix in the detector's POS filter. Directly extends
+[Cleanup P31](cleanup-backlog.md#priority-31-redundant-conjugation-bullets-at-the-head-of-notes),
+whose open curator question — is the generated table authoritative? — governs both.
+
+## 62. `find_missing_furigana.py` cannot tell "wrap this" from "rewrite this"
+
+**Source**: 2026-08-01 routine polish run.
+
+The checker flags metalinguistic mentions of a character in otherwise-English prose ("the kanji
+今", "Different from 雨 (ame, rain)"). The flag is **correct** under the project rule — but the
+fix is not the obvious one. Wrapping gives `the kanji {今|いま}`, which is wrong twice over (the
+prose is discussing the glyph, not the word, and the reading it asserts may not be the one meant);
+the right fix is almost always to rewrite the prose so the glyph is named by its reading or moved
+into an example. A single line in the checker's output — *prose mentions should be rewritten, not
+wrapped* — would save the rediscovery, which has now cost two runs.
+
+This is the same rule collision documented as the **unlinkable residue** in
+[Inline Link Integrity](../topics/inline-link-integrity.md#the-unlinkable-residue-japanese-that-no-rule-can-currently-handle),
+and both should be resolved by the same convention decision.
 
 ## Related pages
 
