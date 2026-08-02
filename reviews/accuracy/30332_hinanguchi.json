@@ -1,0 +1,24 @@
+{
+  "entry_id": "30332_hinanguchi",
+  "headword": "{避難口|ひなんぐち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T09:28:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '避難口'.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}
