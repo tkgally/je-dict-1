@@ -1,0 +1,12 @@
+{
+  "entry_id": "23976",
+  "screened_at": "2026-08-02T18:23:06Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 五羽 is given as ごわ, but the standard reading is ごわ or ごは. While ごわ is sometimes used, ごは is more common for the counter. However, given the context of counter sound changes, it might be considered acceptable. I will flag it for review.",
+    "The reading for 八羽 is given as はちわ / はっぱ. While はちわ is common, はっぱ is also a valid sound change for the counter. However, the entry only lists はちわ / はっぱ, implying both are equally valid, which is true. I will flag it for review.",
+    "The reading for 蝙蝠 is given as こうもり. While this is a common reading, another common reading is へんぷく. However, since the prompt states not to flag partial readings as errors and to only judge the kanji->reading pair, and こうもり is a valid reading, I will not flag it."
+  ],
+  "confidence": 0.7
+}

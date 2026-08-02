@@ -1,0 +1,31 @@
+{
+  "entry_id": "24122_kasenshiki",
+  "headword": "{河川敷|かせんしき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:31:16Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'riverbed' is misleading. While a riverbed is part of the larger area, 河川敷 (kasenshiki) specifically refers to the land adjacent to the river, often above the normal water level, not the bottom of the river itself.",
+      "suggestion": "Remove 'riverbed' from the gloss. Focus on 'floodplain' or 'riverside area'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'riverbed' is misleading. While a riverbed is part of the larger area, 河川敷 (kasenshiki) specifically refers to the land adjacent to the river, often above the normal water level, not the bottom of the river itself.",
+      "suggestion": "Remove 'riverbed' from the gloss. Focus on 'floodplain' or 'riverside open area'."
+    }
+  ]
+}

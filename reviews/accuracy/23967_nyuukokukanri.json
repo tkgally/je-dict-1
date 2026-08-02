@@ -1,0 +1,24 @@
+{
+  "entry_id": "23967_nyuukokukanri",
+  "headword": "{入国|にゅうこく}{管理|かんり}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:28:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'government' is not in the valid tag list.",
+      "suggestion": "politics"
+    }
+  ]
+}

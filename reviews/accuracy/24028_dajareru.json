@@ -1,0 +1,24 @@
+{
+  "entry_id": "24028_dajareru",
+  "headword": "{駄洒落|だじゃれ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:29:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'humor' is not in the valid tag list.",
+      "suggestion": "entertainment"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "24072_genmen",
+  "headword": "{減免|げんめん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:30:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'administration' is not in the valid tag list.",
+      "suggestion": "politics"
+    }
+  ]
+}

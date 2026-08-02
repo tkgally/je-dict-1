@@ -1,0 +1,24 @@
+{
+  "entry_id": "24262_midara",
+  "headword": "{淫|みだ}ら",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:33:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word with such a specific and strong meaning.",
+      "suggestion": "Replace 'general' with 'descriptive' or 'emotion' (as it often evokes strong negative emotions)."
+    }
+  ]
+}

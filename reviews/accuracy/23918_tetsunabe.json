@@ -1,0 +1,31 @@
+{
+  "entry_id": "23918_tetsunabe",
+  "headword": "{鉄鍋|てつなべ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:27:15Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'object' is not in the valid tag list.",
+      "suggestion": "tool"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'household' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

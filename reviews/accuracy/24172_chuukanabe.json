@@ -1,0 +1,24 @@
+{
+  "entry_id": "24172_chuukanabe",
+  "headword": "{中華鍋|ちゅうかなべ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:32:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food-and-drink' is not a valid semantic tag.",
+      "suggestion": "consumption"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "24270_gaiyouyaku",
+  "headword": "{外用薬|がいようやく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:34:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '外用薬'. This is a common medical term, not particularly formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

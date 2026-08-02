@@ -1,0 +1,31 @@
+{
+  "entry_id": "24033_shinjugai",
+  "headword": "{真珠貝|しんじゅがい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:29:31Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'animal' is not in the valid tag list.",
+      "suggestion": "Replace 'animal' with 'animal-general'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'industry' is not in the valid tag list.",
+      "suggestion": "Replace 'industry' with 'business'."
+    }
+  ]
+}

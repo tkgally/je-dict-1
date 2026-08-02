@@ -1,0 +1,24 @@
+{
+  "entry_id": "24274_yuukibutsu",
+  "headword": "{有機物|ゆうきぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:34:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'nature' is too broad and misleading for '有機物' (organic matter). While organic matter is found in nature, the term itself is a scientific concept.",
+      "suggestion": "science"
+    }
+  ]
+}

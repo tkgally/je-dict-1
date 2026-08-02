@@ -1,0 +1,24 @@
+{
+  "entry_id": "23928_netsujouteki",
+  "headword": "{熱情的|ねつじょうてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:27:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this word. While the explanation mentions it's 'Used in writing and formal speech more than casual conversation', the word itself is not strictly formal. It's more neutral to slightly elevated, but not 'formal' in the sense of specialized or highly polite language.",
+      "suggestion": "neutral"
+    }
+  ]
+}

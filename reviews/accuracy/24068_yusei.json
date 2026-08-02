@@ -1,0 +1,24 @@
+{
+  "entry_id": "24068_yusei",
+  "headword": "{油性|ゆせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:30:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'materials' is not in the valid tag list.",
+      "suggestion": "Consider 'general' or 'descriptive' as a replacement, or a more specific tag if applicable."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "23963_kyuuki",
+  "headword": "{吸気|きゅうき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:28:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is too broad and 'object' is incorrect for the headword's meaning.",
+      "suggestion": "Replace 'body' with 'body-internal' and remove 'object'. Add 'action' as it is a suru-verb."
+    }
+  ]
+}

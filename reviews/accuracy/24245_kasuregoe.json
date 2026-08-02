@@ -1,0 +1,24 @@
+{
+  "entry_id": "24245_kasuregoe",
+  "headword": "かすれ{声|ごえ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:33:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect for 'かすれ声'. A hoarse voice is a characteristic or condition of the voice, not a body part itself.",
+      "suggestion": "cognition"
+    }
+  ]
+}

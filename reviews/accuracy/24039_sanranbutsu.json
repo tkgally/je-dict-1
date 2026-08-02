@@ -1,0 +1,24 @@
+{
+  "entry_id": "24039_sanranbutsu",
+  "headword": "{散乱物|さんらんぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:29:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'traffic'.",
+      "suggestion": "transportation"
+    }
+  ]
+}
