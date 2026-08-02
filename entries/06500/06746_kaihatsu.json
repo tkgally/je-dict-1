@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06746_kaihatsu_ex1",
-      "japanese": "{新製品|しんせいひん}の{開発|かいはつ}に{取|と}り{組|く}んでいる。",
+      "japanese": "⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧⟦の→の：09472_no⟧{開発|かいはつ}⟦に→に：00314_ni⟧⟦{取|と}り{組|く}んでいる→取り組む：04225_torikumu⟧。",
       "english": "We are working on developing a new product.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06746_kaihatsu_ex2",
-      "japanese": "ソフトウェア{開発|かいはつ}の{経験|けいけん}がある。",
+      "japanese": "⟦ソフトウェア→ソフトウェア：04719_sofutowea⟧{開発|かいはつ}⟦の→の：09472_no⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I have experience in software development.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06746_kaihatsu_ex3",
-      "japanese": "この{地域|ちいき}は{開発|かいはつ}が{進|すす}んでいる。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{開発|かいはつ}⟦が→が：00051_ga⟧⟦{進|すす}んでいる→進む：01225_susumu⟧。",
       "english": "Development is progressing in this area.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "VERB FORM:\n{開発|かいはつ}する (to develop)\n\nTYPES:\n・{製品|せいひん}{開発|かいはつ} (product development)\n・ソフトウェア{開発|かいはつ} (software development)\n・{技術|ぎじゅつ}{開発|かいはつ} (technology development)\n・{土地|とち}{開発|かいはつ} (land development)\n・{研究|けんきゅう}{開発|かいはつ}/R&D (research and development)\n・{人材|じんざい}{開発|かいはつ} (human resource development)\n\nCOMMON COLLOCATIONS:\n・{開発|かいはつ}{者|しゃ} (developer)\n・{開発|かいはつ}{費|ひ} (development costs)\n・{開発|かいはつ}{途上国|とじょうこく} (developing country)\n・{開発|かいはつ}チーム (development team)\n・{開発|かいはつ}{環境|かんきょう} (development environment)\n\nSIMILAR WORDS:\n・{発展|はってん} - development, growth (of society, economy)\n・{創造|そうぞう} - creation",
+  "notes": "VERB FORM:\n{開発|かいはつ}⟦する→する：00392_suru⟧ (to develop)\n\nTYPES:\n・⟦{製品|せいひん}→製品：01445_seihin⟧{開発|かいはつ} (product development)\n・⟦ソフトウェア→ソフトウェア：04719_sofutowea⟧{開発|かいはつ} (software development)\n・⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧{開発|かいはつ} (technology development)\n・⟦{土地|とち}→土地：02226_tochi⟧{開発|かいはつ} (land development)\n・⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧{開発|かいはつ}/R&D (research and development)\n・⟦{人材|じんざい}→人材：11426_jinzai⟧{開発|かいはつ} (human resource development)\n\nCOMMON COLLOCATIONS:\n・⟦{開発者|かいはつしゃ}→開発者：15462_kaihatsusha⟧ (developer)\n・{開発|かいはつ}⟦{費|ひ}→費：09877_hi⟧ (development costs)\n・{開発|かいはつ}⟦{途上国|とじょうこく}→途上国：14424_tojoukoku⟧ (developing country)\n・{開発|かいはつ}⟦チーム→チーム：03858_chiimu⟧ (development team)\n・{開発|かいはつ}⟦{環境|かんきょう}→環境：00174_kankyou⟧ (development environment)\n\nSIMILAR WORDS:\n・⟦{発展|はってん}→発展：03561_hatten⟧ - development, growth (of society, economy)\n・⟦{創造|そうぞう}→創造：03317_souzou⟧ - creation",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,18 @@
       "reading": "はってん",
       "headword": "{発展|はってん}",
       "label": "development, growth"
+    },
+    {
+      "type": "related",
+      "reading": "かいはつしゃ",
+      "headword": "{開発者|かいはつしゃ}",
+      "label": "developer",
+      "target_id": "15462_kaihatsusha"
     }
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-08-02T12:18:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -156,7 +163,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "technology"
       ],
       "verb_class": "suru"
     }

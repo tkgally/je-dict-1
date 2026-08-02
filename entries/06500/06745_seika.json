@@ -14,8 +14,8 @@
   "examples": [
     {
       "id": "06745_seika_ex1",
-      "japanese": "{努力|どりょく}の{成果|せいか}が{出|で}た。",
-      "english": "The results of my efforts have shown.",
+      "japanese": "⟦{努力|どりょく}→努力：03490_doryoku⟧⟦の→の：09472_no⟧{成果|せいか}⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
+      "english": "My efforts have produced results.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -24,7 +24,7 @@
     },
     {
       "id": "06745_seika_ex2",
-      "japanese": "{研究|けんきゅう}の{成果|せいか}を{発表|はっぴょう}する。",
+      "japanese": "⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦の→の：09472_no⟧{成果|せいか}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表：03562_happyou⟧。",
       "english": "To present the results of the research.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06745_seika_ex3",
-      "japanese": "{成果|せいか}を{上|あ}げることができた。",
+      "japanese": "{成果|せいか}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "We were able to achieve results.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsually refers to positive achievements or outcomes:\n・{成果|せいか}を{出|だ}す (to produce results)\n・{成果|せいか}を{上|あ}げる (to achieve results)\n・{成果|せいか}が{出|で}る (results appear)\n・{成果|せいか}を{収|おさ}める (to achieve success)\n\nCOMMON COLLOCATIONS:\n・{研究|けんきゅう}{成果|せいか} (research findings)\n・{学習|がくしゅう}{成果|せいか} (learning outcomes)\n・{成果|せいか}{主義|しゅぎ} (results-oriented approach, performance-based)\n・{成果物|せいかぶつ} (deliverable, output)\n\nNOTE:\n{成果|せいか} implies successful or productive results. For neutral or negative results, use {結果|けっか}.\n\nSIMILAR WORDS:\n・{結果|けっか} - result (neutral)\n・{実績|じっせき} - track record, achievements\n・{業績|ぎょうせき} - performance, accomplishments",
+  "notes": "USAGE:\nUsually refers to positive achievements or outcomes:\n・{成果|せいか}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to produce results)\n・{成果|せいか}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (to achieve results)\n・{成果|せいか}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (results appear)\n・{成果|せいか}⟦を→を：00422_wo⟧⟦{収|おさ}める→収める：02022_osameru⟧ (to achieve success)\n\nCOMMON COLLOCATIONS:\n・⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧{成果|せいか} (research findings)\n・⟦{学習|がくしゅう}→学習：02623_gakushuu⟧{成果|せいか} (learning outcomes)\n・{成果|せいか}⟦{主義|しゅぎ}→主義：03215_shugi⟧ (results-oriented approach, performance-based)\n・⟦{成果物|せいかぶつ}→成果物：17168_seikabutsu⟧ (deliverable, output)\n\nNOTE:\n{成果|せいか} implies successful or productive results. For neutral or negative results, use ⟦{結果|けっか}→結果：02486_kekka⟧.\n\nSIMILAR WORDS:\n・⟦{結果|けっか}→結果：02486_kekka⟧ - result (neutral)\n・⟦{実績|じっせき}→実績：04214_jisseki⟧ - track record, achievements\n・⟦{業績|ぎょうせき}→業績：04873_gyouseki⟧ - performance, accomplishments",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,25 @@
       "headword": "{結果|けっか}",
       "label": "result (neutral)",
       "target_id": "02486_kekka"
+    },
+    {
+      "type": "related",
+      "reading": "じっせき",
+      "headword": "{実績|じっせき}",
+      "label": "track record, achievements",
+      "target_id": "04214_jisseki"
+    },
+    {
+      "type": "related",
+      "reading": "ぎょうせき",
+      "headword": "{業績|ぎょうせき}",
+      "label": "performance, accomplishments",
+      "target_id": "04873_gyouseki"
     }
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-01-19T12:17:44.661379Z",
+    "modified": "2026-08-02T12:18:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +79,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "abstract",
+        "work"
       ]
     }
   }
