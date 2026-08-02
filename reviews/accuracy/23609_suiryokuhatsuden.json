@@ -1,0 +1,31 @@
+{
+  "entry_id": "23609_suiryokuhatsuden",
+  "headword": "{水力発電|すいりょくはつでん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:18:12Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'energy' is not in the valid tag list.",
+      "suggestion": "science"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'environment' is not in the valid tag list.",
+      "suggestion": "nature"
+    }
+  ]
+}

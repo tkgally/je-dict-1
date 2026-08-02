@@ -1,0 +1,24 @@
+{
+  "entry_id": "23815_hironriteki",
+  "headword": "{非論理的|ひろんりてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:22:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'negative' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    }
+  ]
+}

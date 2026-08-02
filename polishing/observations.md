@@ -700,3 +700,40 @@ All 25 observations cleared.)_
 - [pattern] **The 06700s frontier block has zero inline links at all.** All six frontier entries polished this run (06739–06744) had no `⟦…⟧` markup anywhere — not in examples, not in notes — despite otherwise sound glosses, examples, and notes. This is consistent with the 2026-08-01 harvest's 23,294-unlinked-entry count, but it sharpens the picture: above the frontier the deficit is not *partial* coverage needing completion, it is *no* coverage needing creation from scratch, which is the expensive case and the one [Tooling 49](../planning/wiki/ideas/tooling-backlog.md#49-read-only-inline-link-suggester-propose--never-write) is aimed at.
 - [pattern] **Off-vocab semantic tag `interrogative` survives on three entries** — 00534_dare, 00543_dou, 23898_deshouka — after this run migrated 00536_itsu to `grammatical`. Small enough to fold into the next systemic-fix or accuracy-review run rather than deserving its own; noted so it is not rediscovered a fourth time.
 - [entry] 06742_kokuhaku: notes previously listed `{告白|こくはく}{記|き}` as a collocation, which is not a standard word; removed rather than repaired. If a compound was meant, 告白文 or 告白録 is the likely intent — worth a second opinion.
+
+## 2026-08-02 — routine accuracy-review (23608–23907)
+
+- [pattern] **Off-vocabulary semantic tags are a dictionary-wide population, not a band defect.** A
+  deterministic scan against `VALID_SEMANTIC` found **226 of 300 entries (75%)** in the 23608–23907
+  range carrying at least one off-vocab tag, and **4,899 tag instances across 818 distinct off-vocab
+  tags dictionary-wide**. The reviewer independently flagged 290 of them in this range, confirming the
+  scan. The scan costs seconds and needs no model; the model pass costs ~$0.13 per 300 entries and
+  agrees with it. Recommendation: run the deterministic scan + a curated migration map as its own
+  systemic-fix item across the whole dictionary rather than waiting for accuracy-review to reach each
+  range. See the map used here (§ session log routine_2026-08-02_003).
+- [tooling] **The migration map splits into two provably different classes**, and conflating them is
+  how a mechanical sweep introduces errors. *Forced* renames (`medicine`→`health`,
+  `linguistics`→`language`, `animals`→`animal-general`, `transport`→`transportation`) are determined
+  by the tag name alone. *Context-dependent* tags (`academic`, `safety`, `environment`, `winter`,
+  `conflict`, `industry`, `bureaucracy`, `department`, `statistics`, `innovation`) have no
+  entry-independent destination — a first draft of this run's map produced `education` for 立証
+  "proof", `nature` for 焼却炉 "incinerator", `time-season` for ゲレンデ "ski slope", and
+  `business` for 溶鉱炉 "blast furnace". **Dropping an off-vocab tag never adds a false claim**, so
+  drop is the correct default for that class; only migrate when the destination is forced.
+- [tooling] `validate_tags.py`'s default output collapses **13,037 warnings** into one count with no
+  per-category breakdown, so the 4,899-instance off-vocab tag population is invisible unless you write
+  a one-off script. A per-category summary line (`--summary`, or grouping the warning tail by type)
+  would make the largest known content defect visible in the standard report.
+- [tooling] **Furigana screener: a fourth consecutive post-fix run at zero precision.** 103 entries
+  screened, 7 flagged (6.8%), **0 applied** — 4 were partial-reading or index-confusion false
+  positives the calibration report already documents, 1 was the documented 毎年 まいとし family, 1
+  the model itself concluded was not an error in its own concern text, and 1 (兎形目 reading) was
+  escalated to the curator rather than applied. It also again rate-limited the run at ~1.4
+  entries/min against the accuracy pass's ~7. This is the measurement Tooling 24 asked for; the
+  "retire or heavily downsample" recommendation now has four runs behind it.
+- [pattern] Two content defects the accuracy reviewer caught that **no deterministic check can see**:
+  a romaji Japanese word left inside an English example translation ("The word 'suchuwaadesu' used
+  to be commonly used", 23893), and a Japanese example whose English translation contradicts it
+  (「{山|さん}」は{字音|じおん}だ → "'San' is the on-reading", 23894 — the Japanese asserted the
+  character *is* an on-reading). Both are cheap for a model and invisible to a linter; they argue for
+  keeping the `translation` dimension even as the furigana pass is downsampled.

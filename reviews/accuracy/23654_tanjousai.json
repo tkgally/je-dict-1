@@ -1,0 +1,38 @@
+{
+  "entry_id": "23654_tanjousai",
+  "headword": "{誕生祭|たんじょうさい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:19:03Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'event' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'celebration' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'fan-culture' is not in the valid tag list.",
+      "suggestion": "culture"
+    }
+  ]
+}

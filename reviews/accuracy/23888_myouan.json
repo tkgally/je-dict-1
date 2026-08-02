@@ -1,0 +1,24 @@
+{
+  "entry_id": "23888_myouan",
+  "headword": "{妙案|みょうあん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:23:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'thought' and 'ideas' are not in the valid tag list.",
+      "suggestion": "Replace 'thought' and 'ideas' with 'cognition'."
+    }
+  ]
+}

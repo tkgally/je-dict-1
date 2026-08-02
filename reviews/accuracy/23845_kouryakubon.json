@@ -1,0 +1,31 @@
+{
+  "entry_id": "23845_kouryakubon",
+  "headword": "{攻略本|こうりゃくぼん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:22:48Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'games' is not in the valid tag list.",
+      "suggestion": "entertainment"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'books' is not in the valid tag list.",
+      "suggestion": "media"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "entry_id": "23801_yuudoku",
+  "headword": "{有毒|ゆうどく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:21:52Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'chemistry' is not in the valid tag list.",
+      "suggestion": "science"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'biology' is not in the valid tag list.",
+      "suggestion": "science"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'safety' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "23701_gouseigomu",
+  "headword": "{合成|ごうせい}ゴム",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:19:57Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'material' is not in the valid tag list.",
+      "suggestion": "Replace 'material' with 'general' or 'technology'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'industry' is not in the valid tag list.",
+      "suggestion": "Replace 'industry' with 'business' or 'technology'."
+    }
+  ]
+}

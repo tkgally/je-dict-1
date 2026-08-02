@@ -1,0 +1,38 @@
+{
+  "entry_id": "23661_kubinagaryuu",
+  "headword": "{首長竜|くびながりゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:19:13Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'animal' is too broad; more specific tag 'animal-general' is available.",
+      "suggestion": "animal-general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'biology' is not in the valid tag list.",
+      "suggestion": "science"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'paleontology' is not in the valid tag list.",
+      "suggestion": "science"
+    }
+  ]
+}

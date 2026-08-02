@@ -1,0 +1,31 @@
+{
+  "entry_id": "23789_soumubu",
+  "headword": "{総務部|そうむぶ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:21:37Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'organization' is not in the valid tag list.",
+      "suggestion": "business"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'workplace' is not in the valid tag list.",
+      "suggestion": "business"
+    }
+  ]
+}

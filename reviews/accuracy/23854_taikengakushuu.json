@@ -1,0 +1,24 @@
+{
+  "entry_id": "23854_taikengakushuu",
+  "headword": "{体験学習|たいけんがくしゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:22:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'learning' is not in the valid tag list.",
+      "suggestion": "education"
+    }
+  ]
+}

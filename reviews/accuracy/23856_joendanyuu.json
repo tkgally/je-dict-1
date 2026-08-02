@@ -1,0 +1,31 @@
+{
+  "entry_id": "23856_joendanyuu",
+  "headword": "{助演男優|じょえんだんゆう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:23:01Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'film' is not in the valid tag list.",
+      "suggestion": "art"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'theater' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

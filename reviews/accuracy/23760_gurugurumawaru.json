@@ -1,0 +1,31 @@
+{
+  "entry_id": "23760_gurugurumawaru",
+  "headword": "ぐるぐる{回|まわ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:21:01Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'motion' is not in the valid tag list.",
+      "suggestion": "movement"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'rotation' is not in the valid tag list.",
+      "suggestion": "movement"
+    }
+  ]
+}

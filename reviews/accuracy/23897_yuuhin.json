@@ -1,0 +1,24 @@
+{
+  "entry_id": "23897_yuuhin",
+  "headword": "{優品|ゆうひん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:23:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'commerce' is not in the valid tag list.",
+      "suggestion": "shopping"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "23788_soufusaki",
+  "headword": "{送付先|そうふさき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T06:21:35Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'mail' is not in the valid tag list.",
+      "suggestion": "communication"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'address' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}
