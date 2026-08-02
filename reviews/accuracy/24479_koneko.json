@@ -1,0 +1,24 @@
+{
+  "entry_id": "24479_koneko",
+  "headword": "{仔猫|こねこ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:37:54Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'animals' is not in the valid tag list.",
+      "suggestion": "animal-mammal"
+    }
+  ]
+}

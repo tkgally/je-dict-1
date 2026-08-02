@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-02T18:29:38Z",
+  "reviewed_at": "2026-08-02T18:50:02Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid tag 'traffic'.",
-      "suggestion": "transportation"
+      "severity": "error",
+      "concern": "The semantic tag 'transportation' is too narrow and misleading for '散乱物'. While often found in transportation contexts, the word itself refers to scattered objects/debris in a general sense, not specifically transportation-related items.",
+      "suggestion": "Replace 'transportation' with a more general tag like 'general' or 'daily-life'."
     }
   ]
 }

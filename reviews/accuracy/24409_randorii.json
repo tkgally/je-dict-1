@@ -1,0 +1,38 @@
+{
+  "entry_id": "24409_randorii",
+  "headword": "ランドリー",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:36:36Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'laundry; laundromat' is misleading. While it can refer to a laundromat, it primarily refers to the act of doing laundry or the items being laundered, not just the place.",
+      "suggestion": "laundry; doing laundry; laundromat"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'laundry; laundromat' is misleading. While it can refer to a laundromat, it primarily refers to the act of doing laundry or the items being laundered, not just the place.",
+      "suggestion": "laundry; doing laundry; laundromat"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation 'To do laundry at the laundromat' implies that ランドリー exclusively means 'laundromat' in this context, which is not always true. It could also mean 'to do laundry (in general)'.",
+      "suggestion": "To do laundry."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "24437_zetsubi",
+  "headword": "{絶美|ぜつび}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:37:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'aesthetics' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "24445_hanshou",
+  "headword": "{半焼|はんしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-02T18:37:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "tag 'disaster' is not in the valid tag list",
+      "suggestion": "change to 'general'"
+    }
+  ]
+}
