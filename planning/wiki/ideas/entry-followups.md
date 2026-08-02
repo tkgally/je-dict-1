@@ -997,6 +997,49 @@ Saturday", no frequency expressions (00621 土曜日 is the type specimen). Beca
 formulaically similar, adding a USAGE section to each is an unusually well-bounded
 `systemic-fix` batch: one template, ~17 entries, no per-entry judgment beyond the word itself.
 
+## The 00680–00760 calendar/time band: notes whose series lists are naked Japanese
+
+**Source**: 2026-08-01 routine polish run (priority lane, 00687–00745).
+
+Every entry the notes-priority lane surfaced in this band failed the *same* tier-1 requirement,
+and it is not the one the notes scorer thinks it is measuring. Their notes carry a **series list**
+— {先月|せんげつ}/{今月|こんげつ}/{来月|らいげつ}, the 毎- series, the 来- series — written as
+naked `{漢字|かな}` with **no inline links at all**, while the same entries' example sentences are
+fully linked. They are early basic-tier entries created before full note-link coverage became a
+requirement.
+
+The band 00680–00760 is dense with them (time words, counters, calendar vocabulary) and the
+formulaic shape makes it a good bounded batch rather than one-at-a-time priority-lane work. Note
+the overlap with two other filings on the same vocabulary: the closed-paradigm cross-reference gap
+([Tooling 57](tooling-backlog.md#57-check_semantic_clusterspy-has-no-closed-paradigm-symmetry-rule))
+and the weekday USAGE-section batch above. **All three are the same ~20 entries** and would be
+cheaper as one pass than as three.
+
+## Prohibitive sentence-final な has no entry and cannot be queued as a candidate
+
+**Source**: 2026-08-01 routine polish run (06737).
+
+The prohibitive な (⟦{言|い}うな⟧ — "don't say it") is a real gap: high-frequency, distinctly
+learner-relevant, and absent from the dictionary. It cannot currently be added to the queue
+because `manage_candidates.py` refuses the candidate — `09497_na` (attributive copula な) already
+occupies the (surface, reading) key. It was marked `noentry` in 06737, which is the correct
+local treatment.
+
+This is [Tooling 41](tooling-backlog.md#41-manage_candidatespy-cannot-queue-a-homograph--the-duplicate-check-is-surface-reading-not-surface-reading-sense)
+(sense-keyed duplicate checking) showing up on the *candidate* path rather than the entry path,
+and it is the cleanest concrete example that item has: a genuine gap the tooling actively prevents
+anyone from recording. Until it is fixed, the entry has to be created directly rather than via a
+candidate.
+
+## Checked and clear: the 義-family invented address forms
+
+The same 2026-08-01 run corrected 06724/06725, which documented 「{義|ぎ}のお{母|かあ}さん」/
+「{義|ぎ}のお{父|とう}さん」 — not standard Japanese — to 「{義理|ぎり}のお{母|かあ}さん」/
+「{義理|ぎり}のお{父|とう}さん」, and flagged that other 義-family entries from the same creation
+batch might carry the same invented form. **Measured 2026-08-02: zero remaining occurrences of
+`{義|ぎ}の` anywhere in the corpus.** The concern is closed; recorded here so it is not
+re-investigated a third time.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
