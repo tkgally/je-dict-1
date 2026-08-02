@@ -1040,6 +1040,30 @@ batch might carry the same invented form. **Measured 2026-08-02: zero remaining 
 `{義|ぎ}の` anywhere in the corpus.** The concern is closed; recorded here so it is not
 re-investigated a third time.
 
+## 06742 告白: a removed collocation that may have had a real word behind it
+
+**Source**: 2026-08-02 routine polish run (frontier 06739–06744).
+
+The notes listed `{告白|こくはく}{記|き}` as a collocation. 告白記 is not a standard word, so the
+run removed it rather than trying to repair it — the right call for a frontier pass that cannot
+research each item. But the shape suggests a mistyped real compound: **告白文** (a written
+confession/statement) and **告白録** (a confessional memoir, the usual translation of
+*Confessions*) are both plausible intents, and 録 in particular is easy to lose. Worth one
+second opinion; if either is right the collocation should come back with the correct kanji, and
+if neither is, this note closes the question.
+
+## 04477 大皿: inline link whose base label and target are different words
+
+**Source**: 2026-08-02 routine polish run.
+
+The entry carries `→得：07739_otoku` — the base form is labelled 得 but the target is the お得
+entry. Either the label should be お得 (matching the target) or the target should be
+`12563_toku` (matching the label); which one depends on what the example sentence actually says.
+A concrete instance of the class
+[Tooling 65](tooling-backlog.md#65-validatepy-accepts-an-inline-link-whose-base-form-contradicts-its-target)
+proposes to catch at validation time, and one that `check_link_baseform.py` should already
+surface today.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
