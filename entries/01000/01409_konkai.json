@@ -64,10 +64,46 @@
     }
   ],
   "notes": "{今回|こんかい} means \"this time\" or \"this occasion,\" often implying comparison with other times.\n\nCOMMON PATTERNS:\n- {今回|こんかい}⟦は→は：00079_ha⟧〜: this time...\n- {今回|こんかい}⟦の→の：09472_no⟧〜: this (current) ...\n- {今回|こんかい}⟦で→で：00502_de⟧⟦{何回目|なんかいめ}→何回目：noentry⟧: which time is this?\n- {今回|こんかい}⟦に→に：00314_ni⟧⟦{限|かぎ}り→限り：00133_kagiri⟧: this time only\n\nRELATED 〜{回|かい} WORDS:\n- ⟦{前回|ぜんかい}→前回：11817_zenkai⟧: last time\n- ⟦{次回|じかい}→次回：13170_jikai⟧: next time\n- ⟦{毎回|まいかい}→毎回：13202_maikai⟧: every time\n- ⟦{初回|しょかい}→初回：11780_shokai⟧: first time\n- {今回|こんかい}: this time\n\nSIMILAR EXPRESSIONS:\n- ⟦{今度|こんど}→今度：01327_kondo⟧: this time, next time (ambiguous)\n- {今回|こんかい}: this time (current occasion, clearer)\n\nNOTE:\n{今回|こんかい} is commonly used in news and formal contexts to refer to \"the current case/incident.\"",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "ぜんかい",
+      "headword": "{前回|ぜんかい}",
+      "label": "last time",
+      "target_id": "11817_zenkai"
+    },
+    {
+      "type": "contrast",
+      "reading": "じかい",
+      "headword": "{次回|じかい}",
+      "label": "next time",
+      "target_id": "13170_jikai"
+    },
+    {
+      "type": "related",
+      "reading": "まいかい",
+      "headword": "{毎回|まいかい}",
+      "label": "every time",
+      "target_id": "13202_maikai"
+    },
+    {
+      "type": "related",
+      "reading": "しょかい",
+      "headword": "{初回|しょかい}",
+      "label": "first time",
+      "target_id": "11780_shokai"
+    },
+    {
+      "type": "related",
+      "reading": "こんど",
+      "headword": "{今度|こんど}",
+      "label": "this time / next time (ambiguous)",
+      "target_id": "01327_kondo"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:13:19Z",
-    "modified": "2026-05-15T15:24:15Z",
+    "modified": "2026-08-02T12:18:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

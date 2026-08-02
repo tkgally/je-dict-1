@@ -39,7 +39,7 @@
     },
     {
       "id": "01475_toori_ex3",
-      "japanese": "⟦その→その：00993_sono⟧{通り|とおり}です。",
+      "japanese": "⟦その→その：00993_sono⟧{通り|とおり}⟦です→です：09485_desu⟧。",
       "english": "That's right.",
       "notes": "Common expression",
       "has_audio": false,
@@ -118,11 +118,26 @@
       ]
     }
   ],
-  "notes": "{通|とお}り has two main meanings: \"street/road\" (noun) and \"as/in accordance with\" (suffix).\n\nAS A NOUN (street):\n- ⟦この→この：00962_kono⟧{通|とお}り: this street\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{通|とお}り: big street\n- {通|とお}り⟦を→を：00422_wo⟧⟦{渡|わた}る→渡る：02441_wataru⟧: to cross the street\n\nAS A SUFFIX (manner/conformity):\n- ⟦その→その：00993_sono⟧{通|とお}り: that's right, exactly\n- ⟦{言|い}った→言う：00515_iu⟧{通|とお}り: as I said\n- ⟦{思|おも}った→思う：00492_omou⟧{通|とお}り: as I expected\n- ⟦{予定|よてい}→予定：00824_yotei⟧{通|どお}り: as scheduled\n\nNOTE ON READING:\nWhen used as a suffix after words ending in a voiced consonant, the reading becomes どおり: ⟦{予定|よてい}→予定：00824_yotei⟧{通|どお}り, ⟦{説明|せつめい}→説明：01449_setsumei⟧{通|どお}り.\n\nRELATED:\n- ⟦{道|みち}→道：00505_michi⟧: road, path (general)\n- ⟦{街道|かいどう}→街道：14040_kaidou⟧: highway, main road",
-  "cross_references": [],
+  "notes": "{通|とお}り has two main meanings: \"street/road\" (noun) and \"as/in accordance with\" (suffix).\n\nAS A NOUN (street):\n- ⟦この→この：00962_kono⟧{通|とお}り: this street\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{通|とお}り: big street\n- {通|とお}り⟦を→を：00422_wo⟧⟦{渡|わた}る→渡る：02441_wataru⟧: to cross the street\n\nAS A SUFFIX (manner/conformity):\n- ⟦その→その：00993_sono⟧{通|とお}り: that's right, exactly\n- ⟦{言|い}った→言う：00515_iu⟧{通|とお}り: as I said\n- ⟦{思|おも}った→思う：00492_omou⟧{通|とお}り: as I expected\n- ⟦{予定|よてい}→予定：00824_yotei⟧{通|どお}り: as scheduled\n\nNOTE ON READING:\nAttached directly to a noun, the suffix is read どおり (rendaku): ⟦{予定|よてい}→予定：00824_yotei⟧{通|どお}り (as scheduled), ⟦{説明|せつめい}→説明：01449_setsumei⟧{通|どお}り (as explained), ⟦{時間|じかん}→時間：00468_jikan⟧{通|どお}り (on time).\nAfter a verb in plain form, or after ⟦この→この：00962_kono⟧ / ⟦その→その：00993_sono⟧, it stays とおり: ⟦{言|い}った→言う：00515_iu⟧{通|とお}り, ⟦その→その：00993_sono⟧{通|とお}り.\n\nRELATED:\n- ⟦{道|みち}→道：00505_michi⟧: road, path (general)\n- ⟦{街道|かいどう}→街道：14040_kaidou⟧: highway, main road",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "みち",
+      "headword": "{道|みち}",
+      "label": "road, path (general)",
+      "target_id": "00505_michi"
+    },
+    {
+      "type": "related",
+      "reading": "かいどう",
+      "headword": "{街道|かいどう}",
+      "label": "highway, main road",
+      "target_id": "14040_kaidou"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:42:39Z",
-    "modified": "2026-05-15T18:22:44Z",
+    "modified": "2026-08-02T12:18:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -132,7 +147,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "transportation",
+        "abstract"
       ]
     }
   }
