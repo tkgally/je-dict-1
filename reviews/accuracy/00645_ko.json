@@ -2,43 +2,15 @@
   "entry_id": "00645_ko",
   "headword": "〜{個|こ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:51Z",
+  "reviewed_at": "2026-08-02T03:27:10Z",
   "summary": {
-    "flagged": 4
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The gloss 'counter for small objects' is too restrictive and potentially misleading.",
-      "suggestion": "Change the gloss to 'general counter for various items' or 'counter for items'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'counter for small objects' is too restrictive and potentially misleading.",
-      "suggestion": "Change the gloss to 'general counter for various items' or 'counter for items'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation 'small, compact objects' is too restrictive. While it often applies to small objects, it's also used for larger items like houses (一軒, but sometimes 一個 for a single unit) or even abstract concepts in some contexts.",
-      "suggestion": "Revise the explanation to emphasize its general-purpose nature rather than strictly 'small, compact objects'. For example: 'A general-purpose counter used for a wide variety of items, often but not exclusively small or compact, such as fruits, eggs, boxes, and other miscellaneous items.'"
-    },
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "The tag 'number' is redundant and not specific enough for a counter. All counters relate to numbers.",
-      "suggestion": "Remove the 'number' tag. Counters are inherently numerical."
-    }
-  ]
+  "issues": []
 }

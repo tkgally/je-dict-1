@@ -2,30 +2,23 @@
   "entry_id": "00944_ikutsu",
   "headword": "{幾|いく}つ",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:52:16Z",
+  "reviewed_at": "2026-08-02T03:27:12Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The headword '幾つ' is not inherently informal. While it can be used in informal contexts, it is also perfectly acceptable in neutral or even slightly formal settings, especially when asking about age (e.g., お幾つですか). Labeling it 'informal' is misleading.",
-      "suggestion": "neutral"
-    },
     {
       "dimension": "translation",
       "location": "examples[8]",
       "severity": "error",
-      "concern": "The Japanese sentence 'お菓子を幾つか買って帰りましょう。' uses '幾つか' (ikutsu ka), which means 'a few' or 'some', not '幾つ' (ikutsu) meaning 'how many'. The example sentence is for a different word/usage.",
-      "suggestion": "Remove this example as it uses '幾つか' (a few/some) rather than '幾つ' (how many/how old)."
+      "concern": "The English translation implies 'some sweets' while the Japanese '幾つか' refers to 'a few' or 'several' specific items, not an unspecified quantity.",
+      "suggestion": "Let's buy a few sweets on our way home."
     }
   ]
 }

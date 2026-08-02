@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06741_bougyoteki_ex1",
-      "japanese": "{防御的|ぼうぎょてき}な{姿勢|しせい}を{取|と}る。",
+      "japanese": "{防御的|ぼうぎょてき}⟦な→な：09497_na⟧⟦{姿勢|しせい}→姿勢：00371_shisei⟧⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To take a defensive stance.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06741_bougyoteki_ex2",
-      "japanese": "{彼|かれ}は{批判|ひはん}に{対|たい}して{防御的|ぼうぎょてき}になった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{批判|ひはん}→批判：03580_hihan⟧⟦に→に：00314_ni⟧⟦{対|たい}して→対する：02126_taisuru⟧{防御的|ぼうぎょてき}⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "He became defensive in response to criticism.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06741_bougyoteki_ex3",
-      "japanese": "{防御的|ぼうぎょてき}な{戦略|せんりゃく}で{試合|しあい}に{臨|のぞ}んだ。",
+      "japanese": "{防御的|ぼうぎょてき}⟦な→な：09497_na⟧⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦に→に：00314_ni⟧⟦{臨|のぞ}んだ→臨む：29038_nozomu⟧。",
       "english": "They approached the match with a defensive strategy.",
       "notes": null,
       "has_audio": false,
@@ -43,19 +43,33 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・{防御的|ぼうぎょてき}な + noun (adnominal)\n・{防御的|ぼうぎょてき}に (adverbially)\n・{防御的|ぼうぎょてき}だ (predicative)\n\nFORMATION:\n{防御|ぼうぎょ} (defense, protection) + {的|てき} (-like, -ic)\n\nUSAGE:\n・{防御的|ぼうぎょてき}な{態度|たいど} (defensive attitude)\n・{防御的|ぼうぎょてき}な{運転|うんてん} (defensive driving)\n・{防御的|ぼうぎょてき}な{反応|はんのう} (defensive reaction)\n\nCONTRAST:\n・{攻撃的|こうげきてき} - aggressive, offensive (antonym)\n\nSIMILAR WORDS:\n・{守備的|しゅびてき} - defensive (in sports contexts)",
+  "notes": "FORMS:\n・{防御的|ぼうぎょてき}⟦な→な：09497_na⟧ + noun (adnominal)\n・{防御的|ぼうぎょてき}⟦に→に：00314_ni⟧ (adverbially)\n・{防御的|ぼうぎょてき}⟦だ→だ：09496_da⟧ (predicative)\n\nFORMATION:\n⟦{防御|ぼうぎょ}→防御：14575_bougyo⟧ (defense, protection) + ⟦{的|てき}→〜的：09839_teki⟧ (-like, -ic)\n\nUSAGE:\nCovers both physical defense and the psychological sense of guarding oneself against criticism:\n・{防御的|ぼうぎょてき}⟦な→な：09497_na⟧⟦{態度|たいど}→態度：03396_taido⟧ (defensive attitude)\n・{防御的|ぼうぎょてき}⟦な→な：09497_na⟧⟦{運転|うんてん}→運転：01335_unten⟧ (defensive driving)\n・{防御的|ぼうぎょてき}⟦な→な：09497_na⟧⟦{反応|はんのう}→反応：04812_hannou⟧ (defensive reaction)\n\nCONTRAST:\n・⟦{攻撃的|こうげきてき}→攻撃的：06243_kougekiteki⟧ - aggressive, offensive (antonym)\n\nSIMILAR WORDS:\n・⟦{守備的|しゅびてき}→守備的：29431_shubiteki⟧ - defensive in sports; used of formations and play, where {防御的|ぼうぎょてき} is the broader word",
   "cross_references": [
     {
       "type": "antonym",
+      "target_id": "06243_kougekiteki",
       "reading": "こうげきてき",
       "headword": "{攻撃的|こうげきてき}",
-      "label": "aggressive",
-      "target_id": "06243_kougekiteki"
+      "label": "aggressive"
+    },
+    {
+      "type": "related",
+      "target_id": "14575_bougyo",
+      "reading": "ぼうぎょ",
+      "headword": "{防御|ぼうぎょ}",
+      "label": "defense, protection"
+    },
+    {
+      "type": "synonym",
+      "target_id": "29431_shubiteki",
+      "reading": "しゅびてき",
+      "headword": "{守備的|しゅびてき}",
+      "label": "defensive (sports)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-08-02T03:25:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

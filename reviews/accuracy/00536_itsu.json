@@ -2,43 +2,23 @@
   "entry_id": "00536_itsu",
   "headword": "いつ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:40Z",
+  "reviewed_at": "2026-08-02T03:27:09Z",
   "summary": {
-    "flagged": 4
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword 'いつ' is not exclusively an interrogative word. It can also function as an indefinite pronoun (e.g., 'anytime', 'someday').",
-      "suggestion": "Add 'indefinite pronoun' to the semantic tags."
-    },
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The top-level gloss 'when' is incomplete as 'いつ' can also mean 'anytime' or 'someday' in certain contexts.",
-      "suggestion": "Change the top-level gloss to 'when; anytime; someday'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "error",
-      "concern": "The sense gloss 'when' is incomplete as 'いつ' can also mean 'anytime' or 'someday' in certain contexts, which is not covered by this definition.",
-      "suggestion": "This definition should be split or expanded to cover the indefinite pronoun usage, or a new definition should be added for it. For this specific sense, it should remain 'when'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "error",
-      "concern": "The explanation only covers the interrogative use of 'いつ' and does not account for its indefinite pronoun usage (e.g., 'anytime', 'someday').",
-      "suggestion": "Add an explanation for the indefinite pronoun usage of 'いつ', or create a new definition for it."
+      "concern": "The tag 'interrogative' is not in the valid tag list.",
+      "suggestion": "grammatical"
     }
   ]
 }

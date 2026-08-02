@@ -14,11 +14,13 @@
   "examples": [
     {
       "id": "00973_nanji_ex1",
-      "japanese": "⟦{今|いま}→今：00945_ima⟧{何時|なんじ}?",
+      "japanese": "⟦{今|いま}→今：00945_ima⟧{何時|なんじ}？",
       "english": "What time is it now?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00973_nanji_ex2",
@@ -26,7 +28,9 @@
       "english": "What time do you wake up?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00973_nanji_ex3",
@@ -34,7 +38,9 @@
       "english": "What time does school start?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00973_nanji_ex4",
@@ -42,7 +48,9 @@
       "english": "What time are you coming home today?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00973_nanji_ex5",
@@ -50,14 +58,38 @@
       "english": "What time does the train leave? I think we should go to the station early.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{何時|なんじ} is the question word for asking about time. Combines ⟦{何|なん}→{何|なん}：00498_nani⟧ (what) + {時|じ} (hour).\n\nCOMMON PATTERNS:\n- ⟦{今|いま}→{今|いま}：00945_ima⟧{何時|なんじ}?: What time is it now?\n- {何時|なんじ}⟦に→に：00314_ni⟧〜?: At what time ~?\n- {何時|なんじ}⟦から→から：00504_kara⟧{何時|なんじ}⟦まで→まで：00490_made⟧: from what time to what time\n\nHOUR READINGS:\nIrregular readings to remember:\n- {四時|よじ} (not しじ)\n- ⟦{七時|しちじ}→{七時|しちじ}：10114_shichiji⟧\n- ⟦{九時|くじ}→{九時|くじ}：10980_kuji⟧\n\nMINUTES:\nUse {何分|なんぷん} to ask about minutes. Combined: {何時|なんじ}{何分|なんぷん}?",
-  "cross_references": [],
+  "notes": "{何時|なんじ} is the question word for asking about time. Combines ⟦{何|なん}→{何|なん}：00498_nani⟧ (what) + ⟦{時|じ}→時：09869_ji⟧ (the counter for o'clock).\n\nCOMMON PATTERNS:\n- ⟦{今|いま}→{今|いま}：00945_ima⟧{何時|なんじ}?: What time is it now?\n- {何時|なんじ}⟦に→に：00314_ni⟧〜?: At what time ~?\n- {何時|なんじ}⟦から→から：00504_kara⟧{何時|なんじ}⟦まで→まで：00490_made⟧: from what time to what time\n\nHOUR READINGS:\nIrregular readings to remember:\n- ⟦{四時|よじ}→四時：noentry⟧ (not しじ)\n- ⟦{七時|しちじ}→{七時|しちじ}：10114_shichiji⟧\n- ⟦{九時|くじ}→{九時|くじ}：10980_kuji⟧\n\nCONTRAST WITH いつ:\n⟦いつ→いつ：00536_itsu⟧ asks \"when\" in general — a day, a season, a year. {何時|なんじ} asks specifically for a clock time. ⟦{明日|あした}→明日：00501_ashita⟧⟦いつ→いつ：00536_itsu⟧⟦{会|あ}います→会う：00482_au⟧⟦か→か：09473_ka⟧ asks which occasion; {何時|なんじ}⟦に→に：00314_ni⟧⟦{会|あ}います→会う：00482_au⟧⟦か→か：09473_ka⟧ asks the hour.\n\nMINUTES:\nUse ⟦{何分|なんぷん}→何分：noentry⟧ to ask about minutes. Combined: {何時|なんじ}⟦{何分|なんぷん}→何分：noentry⟧？",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09869_ji",
+      "reading": "じ",
+      "headword": "{時|じ}",
+      "label": "o'clock; hour (counter)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00536_itsu",
+      "reading": "いつ",
+      "headword": "いつ",
+      "label": "when (general, not clock time)"
+    },
+    {
+      "type": "related",
+      "target_id": "00468_jikan",
+      "reading": "じかん",
+      "headword": "{時間|じかん}",
+      "label": "time, hour"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:35:58Z",
-    "modified": "2026-05-13T18:23:35Z",
+    "modified": "2026-08-02T03:20:13Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
