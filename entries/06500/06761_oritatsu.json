@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06761_oritatsu_ex1",
-      "japanese": "{飛行機|ひこうき}から{降|お}り{立|た}つと、{暖|あたた}かい{風|かぜ}が{吹|ふ}いていた。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦から→から：00504_kara⟧{降|お}り{立|た}つ⟦と→と：00512_to⟧、⟦{暖|あたた}かい→暖かい：00618_atatakai⟧⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{吹|ふ}いて→吹く：02445_fuku⟧⟦いた→いる：00495_iru⟧。",
       "english": "When I stepped off the plane, a warm wind was blowing.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06761_oritatsu_ex2",
-      "japanese": "{初|はじ}めて{日本|にほん}の{地|ち}に{降|お}り{立|た}った。",
+      "japanese": "⟦{初|はじ}めて→初めて：02932_hajimete⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{地|ち}→地：noentry⟧⟦に→に：00314_ni⟧{降|お}り{立|た}った。",
       "english": "I set foot on Japanese soil for the first time.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06761_oritatsu_ex3",
-      "japanese": "{宇宙|うちゅう}{飛行士|ひこうし}が{月|つき}に{降|お}り{立|た}った{瞬間|しゅんかん}は{歴史的|れきしてき}だった。",
+      "japanese": "⟦{宇宙|うちゅう}{飛行士|ひこうし}→宇宙飛行士：28176_uchuuhikoushi⟧⟦が→が：00051_ga⟧⟦{月|つき}→月：02230_tsuki⟧⟦に→に：00314_ni⟧{降|お}り{立|た}った⟦{瞬間|しゅんかん}→瞬間：03226_shunkan⟧⟦は→は：00079_ha⟧⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧⟦だった→だ：09496_da⟧。",
       "english": "The moment the astronaut stepped onto the moon was historic.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{降|お}り{立|た}つ is an intransitive verb ({自動詞|じどうし}) formed from {降|お}りる (to descend) + {立|た}つ (to stand).\n\nPARTICLE PATTERNS:\n・[place]に{降|お}り{立|た}つ - to set foot at [place]\n・[vehicle]から{降|お}り{立|た}つ - to step down from [vehicle]\n\nCOMMON PATTERNS:\n・{地|ち}に{降|お}り{立|た}つ - to set foot on the ground\n・{空港|くうこう}に{降|お}り{立|た}つ - to arrive at an airport\n・{異国|いこく}の{地|ち}に{降|お}り{立|た}つ - to set foot in a foreign land\n\nUSAGE:\nMore literary or dramatic than simple {降|お}りる. Often used for momentous occasions.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Formed from ⟦{降|お}りる→降りる：00568_oriru⟧ (to descend) + ⟦{立|た}つ→立つ：00758_tatsu⟧ (to stand), so the picture is of coming down and standing on the spot — the arrival, not the journey.\n\nPARTICLE PATTERNS:\n・[place]⟦に→に：00314_ni⟧{降|お}り{立|た}つ - to set foot at [place]\n・[vehicle]⟦から→から：00504_kara⟧{降|お}り{立|た}つ - to step down from [vehicle]\n\nCOMMON PATTERNS:\n・⟦{地|ち}→地：noentry⟧⟦に→に：00314_ni⟧{降|お}り{立|た}つ - to set foot on the ground\n・⟦{空港|くうこう}→空港：00648_kuukou⟧⟦に→に：00314_ni⟧{降|お}り{立|た}つ - to arrive at an airport\n・⟦{異国|いこく}→異国：13721_ikoku⟧⟦の→の：09472_no⟧⟦{地|ち}→地：noentry⟧⟦に→に：00314_ni⟧{降|お}り{立|た}つ - to set foot in a foreign land\n\nUSAGE:\nLiterary and dramatic where ⟦{降|お}りる→降りる：00568_oriru⟧ is plain. Reserve it for arrivals that matter — a first visit to a country, a landing on the moon, a celebrity emerging at an airport. Getting off a bus at your usual stop is ⟦{降|お}りる→降りる：00568_oriru⟧, not {降|お}り{立|た}つ.",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,18 @@
       "headword": "{降|お}りる",
       "label": "component verb",
       "target_id": "00568_oriru"
+    },
+    {
+      "type": "related",
+      "target_id": "00758_tatsu",
+      "reading": "たつ",
+      "headword": "{立|た}つ",
+      "label": "component verb"
     }
   ],
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-08-03T15:18:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +166,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "movement"
       ],
       "verb_class": "godan-tsu"
     }

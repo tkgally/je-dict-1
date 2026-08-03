@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06760_oshiiru_ex1",
-      "japanese": "{強盗|ごうとう}が{家|いえ}に{押|お}し{入|い}った。",
+      "japanese": "⟦{強盗|ごうとう}→強盗：02818_goutou⟧⟦が→が：00051_ga⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{押|お}し{入|い}った。",
       "english": "A robber broke into the house.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06760_oshiiru_ex2",
-      "japanese": "{不審者|ふしんしゃ}が{店|みせ}に{押|お}し{入|い}り、{現金|げんきん}を{奪|うば}った。",
+      "japanese": "⟦{不審者|ふしんしゃ}→不審者：11348_fushinsha⟧⟦が→が：00051_ga⟧⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧{押|お}し{入|い}り、⟦{現金|げんきん}→現金：02716_genkin⟧⟦を→を：00422_wo⟧⟦{奪|うば}った→奪う：01895_ubau⟧。",
       "english": "A suspicious person broke into the store and stole cash.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06760_oshiiru_ex3",
-      "japanese": "{警察|けいさつ}が{容疑者|ようぎしゃ}の{部屋|へや}に{押|お}し{入|い}った。",
+      "japanese": "⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{容疑者|ようぎしゃ}→容疑者：15039_yougisha⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{押|お}し{入|い}った。",
       "english": "The police forced their way into the suspect's room.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{押|お}し{入|い}る is an intransitive verb ({自動詞|じどうし}) formed from {押|お}す (to push) + {入|い}る (to enter).\n\nPARTICLE PATTERNS:\n・[place]に{押|お}し{入|い}る - to break into [place]\n\nCOMMON PATTERNS:\n・{家|いえ}に{押|お}し{入|い}る - to break into a house\n・{店|みせ}に{押|お}し{入|い}る - to break into a store\n・{強盗|ごうとう}が{押|お}し{入|い}る - a robber breaks in\n\nRELATED:\n・{押|お}し{込|こ}む - to force into\n・{侵入|しんにゅう}する - to intrude (more formal)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No transitive pair. Formed from ⟦{押|お}す→押す：02854_osu⟧ (to push) + ⟦{入|い}る→入る：00494_hairu⟧ (to enter), so the entry is forced rather than merely unauthorized.\n\nPARTICLE PATTERNS:\n・[place]⟦に→に：00314_ni⟧{押|お}し{入|い}る - to break into [place]. The place takes ⟦に→に：00314_ni⟧, never ⟦を→を：00422_wo⟧.\n\nCOMMON PATTERNS:\n・⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{押|お}し{入|い}る - to break into a house\n・⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧{押|お}し{入|い}る - to break into a store\n・⟦{強盗|ごうとう}→強盗：02818_goutou⟧⟦が→が：00051_ga⟧{押|お}し{入|い}る - a robber breaks in\n\nREGISTER:\nAlmost entirely a crime-reporting word. It appears in news copy and police statements about robberies and forced entries; in everyday speech people say ⟦{入|はい}る→入る：00494_hairu⟧ or ⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧⟦する→する：00392_suru⟧ instead.\n\nRELATED:\n・⟦{押|お}し{込|こ}む→押し込む：04237_oshikomu⟧ - to force something into a space (transitive; also used of a break-in)\n・⟦{侵入|しんにゅう}→侵入：11440_shinnyuu⟧⟦する→する：00392_suru⟧ - to intrude, trespass (formal; covers unauthorized entry without implying force)",
   "cross_references": [
     {
       "type": "related",
@@ -159,7 +159,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-04-18T07:11:09Z",
+    "modified": "2026-08-03T15:18:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -170,7 +170,8 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "movement"
       ],
       "verb_class": "godan-ru"
     }

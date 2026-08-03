@@ -98,7 +98,7 @@
     {
       "sense_number": 1,
       "gloss": "to die, to pass away",
-      "explanation": "The basic verb for dying. Can be used for people, animals, or plants. In polite contexts, 亡くなる (nakunaru) is often preferred when speaking about people."
+      "explanation": "The basic verb for dying, used of people and animals. Plants wither rather than die: 枯れる is the normal verb for them. When speaking about people, 亡くなる is usually preferred as the gentler, more respectful word."
     }
   ],
   "examples": [
@@ -114,8 +114,8 @@
     },
     {
       "id": "00669_shinu_ex2",
-      "japanese": "⟦{花|はな}→花：00523_hana⟧⟦が→が：00051_ga⟧{死|し}んでしまった。",
-      "english": "The flower died.",
+      "japanese": "⟦{虫|むし}→虫：02262_mushi⟧⟦が→が：00051_ga⟧{死|し}んでいる。",
+      "english": "The insect is dead.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{死|し}ぬ (X dies).\n\nASPECT: ている indicates resulting state. {死|し}んでいる = 'is dead' (state, not process of dying).\n\nCOMMON PATTERNS:\n・⟦{病気|びょうき}→病気：00771_byouki⟧⟦で→で：00502_de⟧{死|し}ぬ (die of illness)\n・⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧{死|し}ぬ (die in an accident)\n・{死|し}にそう (about to die - also used hyperbolically)\n・{死|し}んでしまった (has died - regret)\n\nOne of few godan verbs ending in ぬ. Past: {死|し}んだ (not {死|し}にた). Euphemism: ⟦{亡|な}くなる→亡くなる：02639_nakunaru⟧ (to pass away) - more polite for people.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{死|し}ぬ (X dies).\n\nASPECT: ている indicates resulting state. {死|し}んでいる = 'is dead' (state, not process of dying).\n\nCOMMON PATTERNS:\n・⟦{病気|びょうき}→病気：00771_byouki⟧⟦で→で：00502_de⟧{死|し}ぬ (die of illness)\n・⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧{死|し}ぬ (die in an accident)\n・{死|し}にそう (about to die - also used hyperbolically)\n・{死|し}んでしまった (has died - regret)\n・{死|し}ぬ⟦ほど→程：01724_hodo⟧〜 (〜 to death: {死|し}ぬほど⟦{疲|つか}れた→疲れる：00901_tsukareru⟧, dead tired)\n\nCONJUGATION:\n{死|し}ぬ is the only ぬ-ending godan verb in everyday use. Its て/た forms take ん: {死|し}んで, {死|し}んだ (not {死|し}にて/{死|し}にた).\n\nWHICH VERB FOR WHAT DIES:\n・{死|し}ぬ: people and animals\n・⟦{枯|か}れる→枯れる：04589_kareru⟧: plants (wither, dry up) — {花|はな}⟦が→が：00051_ga⟧{死|し}ぬ sounds wrong\n・⟦{亡|な}くなる→亡くなる：02639_nakunaru⟧: people only, and the polite default when talking about someone's death\n\nREGISTER:\nSaid of a person, {死|し}ぬ is blunt and factual. Use it for statistics, news, and one's own hypotheticals; switch to ⟦{亡|な}くなる→亡くなる：02639_nakunaru⟧ when speaking of someone's family or in any careful conversation.",
   "cross_references": [
     {
       "type": "contrast",
@@ -161,11 +161,25 @@
       "reading": "なくなる",
       "headword": "{亡|な}くなる",
       "label": "to pass away (polite)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04589_kareru",
+      "reading": "かれる",
+      "headword": "{枯|か}れる",
+      "label": "to wither, to die (of plants)"
+    },
+    {
+      "type": "related",
+      "target_id": "02371_inochi",
+      "reading": "いのち",
+      "headword": "{命|いのち}",
+      "label": "life"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:40:44Z",
-    "modified": "2026-05-12T15:10:05Z",
+    "modified": "2026-08-03T15:18:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -176,7 +190,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "existence",
+        "health"
       ],
       "verb_class": "godan-nu"
     }
