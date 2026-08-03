@@ -1,0 +1,38 @@
+{
+  "entry_id": "25099_houchichuusha",
+  "headword": "{放置駐車|ほうちちゅうしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:41:58Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss describes a vehicle, but the headword is a noun for the act of parking.",
+      "suggestion": "illegally parking and abandoning a vehicle; abandoned parking"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss describes a vehicle, but the headword is a noun for the act of parking.",
+      "suggestion": "illegally parking and abandoning a vehicle; abandoned parking"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation implies the act of parking itself is a violation, rather than the act of abandoning a parked vehicle.",
+      "suggestion": "Illegally parking and abandoning a vehicle is a violation."
+    }
+  ]
+}

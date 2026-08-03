@@ -1,0 +1,24 @@
+{
+  "entry_id": "24899_soujiyougu",
+  "headword": "{掃除用具|そうじようぐ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:38:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'education' is inappropriate for '掃除用具' (cleaning tools). While cleaning tools might be used in educational settings, the word itself does not inherently relate to education.",
+      "suggestion": "Remove 'education'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "24695_jigara",
+  "headword": "{地柄|じがら}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:34:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'geography' is incorrect for '地柄'. '地柄' refers to the character or nature of an area, which is a social or descriptive concept, not a geographical feature.",
+      "suggestion": "Replace 'geography' with 'society' or 'descriptive'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "24705_shimitori",
+  "headword": "シミ{取|と}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:34:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific item like 'stain removal' or 'stain remover'.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

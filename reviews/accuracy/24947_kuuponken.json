@@ -1,0 +1,24 @@
+{
+  "entry_id": "24947_kuuponken",
+  "headword": "クーポン{券|けん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:39:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific item like a coupon.",
+      "suggestion": "shopping"
+    }
+  ]
+}

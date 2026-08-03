@@ -1,0 +1,24 @@
+{
+  "entry_id": "24628_fusen",
+  "headword": "{不戦|ふせん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:32:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'by default' is too specific and only applies to one sense, making it misleading as a general gloss for the headword.",
+      "suggestion": "non-combat; without fighting"
+    }
+  ]
+}

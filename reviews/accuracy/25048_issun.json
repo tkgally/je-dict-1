@@ -1,0 +1,24 @@
+{
+  "entry_id": "25048_issun",
+  "headword": "{一寸|いっすん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:40:54Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific unit of measurement and concept of distance/amount.",
+      "suggestion": "quantity"
+    }
+  ]
+}

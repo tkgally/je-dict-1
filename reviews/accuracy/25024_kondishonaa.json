@@ -1,0 +1,24 @@
+{
+  "entry_id": "25024_kondishonaa",
+  "headword": "コンディショナー",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:40:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for 'コンディショナー' (conditioner). Conditioner is a product applied to hair, not a body part itself.",
+      "suggestion": "Remove 'body-part'. Consider 'health' or 'daily-life' if a more specific tag is needed, but 'daily-life' is already present and sufficient."
+    }
+  ]
+}

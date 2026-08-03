@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-03T09:28:58Z",
+  "reviewed_at": "2026-08-03T21:36:49Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'food' is incorrect for '清涼飲料'.",
-      "suggestion": "The correct tag should be 'consumption' or 'daily-life'."
-    }
-  ]
+  "issues": []
 }

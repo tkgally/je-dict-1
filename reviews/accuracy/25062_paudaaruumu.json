@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-03T09:29:31Z",
+  "reviewed_at": "2026-08-03T21:41:08Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'appearance' is not appropriate for the headword 'パウダールーム'. While one might attend to their appearance in a powder room, the room itself is not an 'appearance'.",
-      "suggestion": "Remove 'appearance'."
-    }
-  ]
+  "issues": []
 }

@@ -1,0 +1,24 @@
+{
+  "entry_id": "24750_sacchuu",
+  "headword": "{殺虫|さっちゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:35:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'daily-life' is too broad and doesn't capture the specific meaning of '殺虫'.",
+      "suggestion": "action"
+    }
+  ]
+}

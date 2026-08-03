@@ -1,0 +1,24 @@
+{
+  "entry_id": "24964_chuunikuchuusei",
+  "headword": "{中肉中背|ちゅうにくちゅうせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:39:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '中肉中背'.",
+      "suggestion": "Remove 'body-part'. The word describes a person's overall physique, not a specific body part."
+    }
+  ]
+}

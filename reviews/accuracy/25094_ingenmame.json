@@ -1,0 +1,52 @@
+{
+  "entry_id": "25094_ingenmame",
+  "headword": "いんげんまめ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:41:51Z",
+  "summary": {
+    "flagged": 5
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'kidney bean' which is only one type of common bean, and the entry itself clarifies that 'いんげんまめ' can refer to green beans (さやいんげん) as well. The general gloss should be broader.",
+      "suggestion": "common bean; green bean"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'kidney bean; common bean' is misleading. While kidney beans are a type of common bean, the Japanese term いんげんまめ (when referring to the dried seed) generally refers to common beans in general, not exclusively kidney beans. The explanation clarifies this by saying 'the dried seed of the common bean plant'.",
+      "suggestion": "common bean (dried seed)"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The Japanese sentence 'いんげんまめを煮た。' is ambiguous without context as to whether it refers to dried beans or green beans. Given the first definition is about dried beans, and the second about green beans, the translation 'I cooked kidney beans.' is too specific and potentially misleading if the speaker cooked green beans.",
+      "suggestion": "I cooked common beans. / I cooked green beans. (depending on context, or keep it general)"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The translation 'Kidney beans are simmered in sugar and also used in Japanese sweets.' is too specific. While kidney beans can be used, 'いんげんまめ' in this context refers to common beans in general (often white or red beans) used in wagashi, not exclusively kidney beans.",
+      "suggestion": "Common beans are simmered in sugar and also used in Japanese sweets."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "Similar to previous examples, 'kidney bean production' is too specific. Hokkaido produces various types of common beans, not just kidney beans.",
+      "suggestion": "Hokkaido has the highest common bean production in Japan."
+    }
+  ]
+}

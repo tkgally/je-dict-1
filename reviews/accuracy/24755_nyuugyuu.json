@@ -4,11 +4,21 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-03T09:28:45Z",
+  "reviewed_at": "2026-08-03T21:35:16Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'work' is inappropriate for '乳牛' (dairy cow). While dairy farming is work, the cow itself is not 'work'.",
+      "suggestion": "Remove 'work'."
+    }
+  ]
 }

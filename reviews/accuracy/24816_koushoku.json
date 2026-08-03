@@ -4,19 +4,21 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-03T09:28:56Z",
+  "reviewed_at": "2026-08-03T21:36:31Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
       "severity": "error",
-      "concern": "The semantic tag 'personality' is too narrow for the headword '好色' which also encompasses 'love of beauty; sensual appreciation' (sense 2).",
-      "suggestion": "Add 'cognition' or 'emotion' to reflect the broader meaning of appreciation or feeling."
+      "concern": "The gloss 'love of beauty; sensual appreciation' for sense 2 is misleading. While 'sensual appreciation' might hint at it, 'love of beauty' is too broad and doesn't capture the specific 'amorous' or 'erotic' aspect of '好色' in classical literature, which is distinct from the modern negative connotation but still related to sexual or romantic themes.",
+      "suggestion": "Change to 'amorousness; eroticism; sensual appreciation (in classical literature)' or similar, to better reflect the historical context of '好色' as related to romantic/sexual themes rather than just general beauty."
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "entry_id": "24699_chouridai",
+  "headword": "{調理台|ちょうりだい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:34:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is incorrect for '調理台' (kitchen counter).",
+      "suggestion": "Remove 'food' tag."
+    }
+  ]
+}

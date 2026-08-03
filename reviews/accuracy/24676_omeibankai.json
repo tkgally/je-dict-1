@@ -1,0 +1,31 @@
+{
+  "entry_id": "24676_omeibankai",
+  "headword": "{汚名挽回|おめいばんかい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:33:45Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading because 汚名挽回 means to recover from a bad reputation, not to recover a good reputation. The explanation correctly points this out, but the gloss itself should reflect the actual meaning.",
+      "suggestion": "change gloss to 'recovering from a bad reputation; clearing one's name'"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading because 汚名挽回 means to recover from a bad reputation, not to recover a good reputation. The explanation correctly points this out, but the gloss itself should reflect the actual meaning.",
+      "suggestion": "change gloss to 'recovering from a bad reputation; clearing one's name; restoring one's honor'"
+    }
+  ]
+}

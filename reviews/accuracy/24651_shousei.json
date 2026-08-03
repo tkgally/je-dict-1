@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-03T09:28:33Z",
+  "reviewed_at": "2026-08-03T21:33:15Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'art' is too narrow and potentially misleading for '焼成'. While firing is used in art (ceramics), it's also a fundamental industrial process for materials like bricks, cement, and even some metals, which are not primarily 'art'.",
-      "suggestion": "Replace 'art' with 'technology' or 'creation' to better encompass its broader applications beyond just artistic endeavors. 'Technology' is more precise given the industrial context."
-    }
-  ]
+  "issues": []
 }
