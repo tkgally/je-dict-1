@@ -1,0 +1,31 @@
+{
+  "entry_id": "25070_onnashujin",
+  "headword": "{女主人|おんなしゅじん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:41:19Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The first gloss 'mistress' is misleading due to its primary English connotation.",
+      "suggestion": "Remove 'mistress' or rephrase to clarify the intended meaning of 'female head of household/establishment'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The first gloss 'mistress' is misleading due to its primary English connotation.",
+      "suggestion": "Remove 'mistress' or rephrase to clarify the intended meaning of 'female head of household/establishment'."
+    }
+  ]
+}
