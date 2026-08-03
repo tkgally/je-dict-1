@@ -1164,6 +1164,38 @@ Distinguishing them is cheap and worth doing before the next sweep is sized: run
 
 **The asymmetry that resolves it: dropping an off-vocabulary tag never adds a false claim, while migrating one can.** An entry that loses `environment` is under-tagged; an entry that gains `nature` is wrong. So for the context-dependent class the safe default is **drop**, and migration should be reserved for the cases where the destination is forced. That converts most of step 3's "taxonomy decision" into a mechanical drop plus a much smaller list of labels genuinely worth admitting to `VALID_SEMANTIC` — and it means step 2 should extend the map only with forced renames, not with the top 50 by frequency.
 
+### Update 2026-08-03 — the drop-vs-migrate rule survived its first deliberate test
+
+The 2026-08-03 accuracy-review run (24501–25100) applied the asymmetry above as a *procedure*
+rather than a principle: it split the block's 138 off-vocabulary labels into **forced renames**
+(destination follows from the label itself) and **context-dependent labels** (destination depends
+on the entry), inspected every entry in the second class before choosing, and then **re-audited
+the finished diff against the entries**.
+
+The audit caught **8 wrong or weak destinations that the generic map had produced** — the clearest
+being `place`→`building`, which turned **パリ** into a building — plus `environment`→`nature` on
+焼却場 (an incinerator plant is not about nature) and `material`→`nature` on 銅板. **Every one was
+in the context-dependent class; zero forced renames were wrong.** The rule is therefore promoted
+from a proposal to a procedure:
+
+> Run forced renames mechanically. For context-dependent labels, either read the entry or drop the
+> tag — and **audit the resulting diff against the headwords**, because reading the entry *list* is
+> not the same as reading the *diff*.
+
+Two further measurements from the same window:
+
+- **Density is holding at 40–53% for a third consecutive high-ID block** (23908–24500: 315/592
+  entries, 374 occurrences over 142 labels; 24501–25100: 246/600 entries over 138 labels). The
+  *shape* is what changed: **106 of the 138 labels occur once or twice**, so plural/synonym
+  variants (`arts`, `people`, `transport`, `tools`) are now a minority of label *types* even
+  though they remain most of the *occurrences*. A frequency-ranked migration map hits diminishing
+  returns fast; the residue is all one-off context-dependent labels — which is precisely the class
+  the rule above says to drop rather than map.
+- **A `--dimensions tags` pass over freshly-migrated entries is an independent check, not a
+  redundant one.** The external reviewer caught one of the same run's own migrations (`math`→
+  `number` on 直方体 and 交点, both geometry rather than arithmetic) — the same defect class the
+  self-audit exists to catch, found from the opposite direction, at ~$0.0004/entry.
+
 **Named residue**: the off-vocabulary tag `interrogative` survives on exactly three entries — 00534 誰, 00543 どう, 23898 でしょうか — after a 2026-08-02 polish run migrated 00536 いつ to `grammatical`. Too small for its own item; fold into the next systemic-fix or accuracy-review pass. Recorded so it is not rediscovered a fourth time.
 
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
@@ -2008,6 +2040,23 @@ the provenance column is worth emitting because a wrong-when-written marker need
 sense still match" check — the entry was there all along. `01004_tsu` was fixed by the observing
 run and carries no `noentry` markers today.
 
+### Update 2026-08-03 — the number/date cluster, and the reading test that finds the rest
+
+A 2026-08-02 polish run hand-fixed **20 entries in the number/date cluster**, and the breakdown
+shows this item and its neighbours are one family seen from three angles:
+
+- `{十|とお}` linked to `00708_juu` (じゅう) when `28376_too` is the とお entry — 8 entries
+- `{五日|いつか}` marked `noentry` although `28460_itsuka` exists — 6 entries (this item)
+- `{間|かん}` split between `noentry` and `00914_aida` (あいだ) when the duration suffix
+  `28469_kan` is correct — 10 entries
+
+Only the middle group is a stale `noentry`; the other two are **live links pointing at an entry
+with a different reading**. That second class now has a measured detector spec — 998 links where
+the surface reading is exactly some *other* entry's headword reading — filed as
+[Tooling 66](tooling-backlog.md#66-detector-an-inline-link-whose-surface-reading-disagrees-with-its-target-entrys-reading).
+Run the two scans together when this item is swept: they share the cluster, and fixing only the
+`noentry` half leaves the wrong-target half looking correct.
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword
@@ -2102,6 +2151,32 @@ building or whether hand-standardising the ~30 tableware entries is cheaper.
 tag or whether these all collapse into `tool`. The observing run chose `tool`, which is the
 in-vocabulary answer available today.
 
+### Update 2026-08-03 — a second family, and it behaves the same way
+
+This item asked for "2–3 more families sized before an instrument is worth building". The
+2026-08-02 polish run supplied the second one without being asked: **native counters and
+day-of-month entries** carried sole-`general` semantic tags while their already-polished siblings
+used `number` / `time-general`. **Twelve entries were retagged** to match their siblings.
+
+The mechanism is identical to the tableware case and is worth stating as the item's thesis: **a
+lexical family drifts apart when its members are polished at different times**, because each run
+tags the entry in front of it correctly and in isolation. Neither family's members are individually
+wrong; the set is. That is why per-entry review — human or model — cannot find this class, and why
+the detector has to compare *within* an enumerable family.
+
+Two families now differ in one useful respect. Tableware is blocked on a taxonomy decision
+(`tool` vs a new `container` tag), but the counter/date family is **not blocked at all** — the
+correct tags (`number`, `time-general`) are already in `VALID_SEMANTIC` and already used by the
+majority of the family. Closed paradigms that the dictionary can enumerate (counters, days of the
+month, weekdays, months, seasons) are therefore the place to start: the plurality answer is
+computable and the fix needs no curator sign-off. It also overlaps
+[P34](#priority-34-action-as-the-sole-semantic-tag-on-a-verb-2085-entries) and the sole-`general`
+queue item, so a family-aware pass would drain part of those too.
+
+The practical rule for polish runs, until an instrument exists: **when you touch one member of an
+enumerable family, check the whole family.** Both fixes this week came from a run doing exactly
+that by hand.
+
 ## Priority 37: `politeness: "polite"` on plain vocabulary — and the detector that reports zero
 
 **Source**: 2026-08-01 routine polish run, which found and fixed **78** of them in one 566-entry
@@ -2138,6 +2213,22 @@ notes do not contradict the label), but the concentration matches the politeness
 which suggests the whole register block from that batch was set carelessly. Whether `formality`
 deserves its own detector is a curator question — see
 [Tooling 44](tooling-backlog.md#44-consistency-check-non-neutral-formality-with-no-register-statement-in-the-notes).
+
+### Update 2026-08-03 — register drift is a low-ID phenomenon; the high-ID blocks carry tag-*vocabulary* drift instead
+
+The 2026-08-03 accuracy-review run measured both register classes across the 600 entries of
+24501–25100 and found them **effectively clean**: exactly **one** `politeness: polite` non-verb
+(お銚子, where the honorific prefix makes it correct) and **one** sole-`general` (判断ミス, caught
+by the reviewer). Against a block where 41% of entries carried off-vocabulary *semantic* tags,
+that is a sharp dissociation.
+
+So the two defect families do not travel together. The dense politeness/formality pockets this
+item and [P17](#priority-17-formal-formality-tag-over-applied-in-early-entries) describe are a
+property of the **early, low-ID creation batches**; the recent high-ID cohorts inherited a
+different bad habit — inventing semantic vocabulary at creation time ([P20](#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration)).
+Useful for targeting: a sweep aimed at register should work upward from the low IDs, and a sweep
+aimed at tag vocabulary should work downward from the top. Running either across the whole
+dictionary spends most of its budget on the half that does not have the defect.
 
 ## Informational: Entries with zero inline links (23,294) are the polish frontier, not a defect
 
@@ -2222,6 +2313,68 @@ for an entry that will never come. A third path — an **expository article** on
 an entry — is filed under [Expository Articles](expository-articles.md) as the lowest-cost option
 that still serves the learner. Until the curator picks one, polishing runs should keep writing
 `noentry` (the status quo) and should not invent an entry for it.
+
+## Priority 39: `definitions[].explanation` is a verbatim copy of its own `gloss` (201 senses, 179 entries)
+
+**Source**: 2026-08-03 routine accuracy-review run, which found `24542 突出` and `24544 可憐`
+carrying an `explanation` identical to the sense's `gloss` and proposed a one-line detector.
+**Measured dictionary-wide by the 2026-08-03 wiki harvest.**
+
+The check is `definitions[i].explanation == definitions[i].gloss`, string-exact. Across 30,148
+entries / 36,199 senses (36,153 of which carry an `explanation`), it fires **201 times in 179
+entries** — and normalising whitespace and punctuation adds **zero** further hits, so the defect
+is pure duplication rather than near-duplication.
+
+The distribution is the useful part. It is not spread across the dictionary; it sits in **six
+tight contiguous blocks**:
+
+| Block | Entries | Created |
+|---|---|---|
+| 04470–04563 | 49 | 2026-01 |
+| 24159–24188 | 29 | 2026-04 |
+| 24539–24558 | 20 | 2026-04 |
+| 24786–24815 | 30 | 2026-04 |
+| 25222–25245 | 21 | 2026-04 |
+| 25301–25330 | 30 | 2026-04 |
+
+Zero occurrences outside them. This is the batch-creation signature the project has now seen
+several times (P11, P20, P21): a generation run adopts a bad habit, carries it for a few hundred
+consecutive IDs, and stops. The 2026-01 block is the loanword/household cohort (お玉, 箸置き,
+テーブル, ベッド, シャワー…) where the gloss is a single word and an "explanation" repeating it
+is visibly empty; the 2026-04 blocks are Sino-Japanese nouns with multi-clause glosses.
+
+**Why it matters**: the renderer emits gloss and explanation as separate lines, so every one of
+these entries shows the learner the same text twice. It is also a silent quality signal — a sense
+that has never had an explanation written is indistinguishable, downstream, from one that has.
+
+**The fix has a provably-safe option.** `build/schema.json` requires only `sense_number` and
+`gloss` in a definition; `explanation` is optional. Deleting a verbatim-duplicate `explanation`
+therefore **removes no information and cannot introduce a false claim** — it is the same asymmetry
+the 2026-08-03 accuracy-review run established for off-vocabulary tags (`drop` is safe where
+`migrate` is not). Writing a real explanation for 201 senses is the better outcome but is a
+content task, not a sweep; the drop is the mechanical action, and it leaves the sense in exactly
+the state of the ~99.4% of senses that were never given a duplicate.
+
+**Suggested sequencing**: drop the 201 duplicates as one systemic-fix batch (validated by a
+re-scan returning zero), then let the ordinary polish frontier write real explanations for the
+04470–04563 block when it arrives. Queue item: `definition-explanation-duplicates-gloss`.
+
+## Informational: `〜の前で` where `〜の前に` is meant — measured at zero live scope
+
+**Source**: 2026-08-02 routine polish run, which corrected `06757_uzuuzu`'s
+「{試合|しあい}の{前|まえ}で」 (temporal "before the match") to 前に and proposed a detector for
+"〜の前で followed by a stative/psychological predicate".
+
+**Measured 2026-08-03: the detector would return nothing.** There are 100 occurrences of の前で
+across 90 entries, 83 of them in furigana-wrapped form, and **not one** has an event/temporal noun
+in front of it (試合, 会議, 授業, 出発, 食事, 本番, 締切, 手術 … — the whole tested set returns
+zero). Every remaining instance is the ordinary locative reading — 上司の前で, 仏壇の前で,
+子供たちの前で, ホームドアの前で — where 前で is correct and 前に would be wrong.
+
+The observed defect was real; it was also, as far as the corpus can show, unique. Filed here so a
+later session does not re-propose the scan: **no detector, no sweep**. The generalisable lesson is
+the one this file has recorded before — a particle error found in a single example is evidence
+about that example, and the cheap thing to do before designing an instrument is to run the count.
 
 ## Informational: Pre-polished cohort around 00083–00090
 
