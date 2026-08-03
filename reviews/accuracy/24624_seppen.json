@@ -1,0 +1,22 @@
+{
+  "entry_id": "24624_seppen",
+  "headword": "{切片|せっぺん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:28:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this word. While it is a technical term, it is not inherently 'formal' in the sense of register or politeness. It's simply standard technical vocabulary.",
+      "suggestion": "neutral"
+    }
+  ]
+}

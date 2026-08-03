@@ -1,0 +1,22 @@
+{
+  "entry_id": "24978_kyoudouseikatsu",
+  "headword": "{共同生活|きょうどうせいかつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:29:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Missing 'action' tag for a suru-verb.",
+      "suggestion": "Add 'action' to semantic_tags."
+    }
+  ]
+}

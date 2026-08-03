@@ -1,0 +1,22 @@
+{
+  "entry_id": "24925_chuusui",
+  "headword": "{注水|ちゅうすい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:29:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'business' and 'work' are too narrow and potentially misleading for a general action like 'water injection'.",
+      "suggestion": "Replace 'business' and 'work' with 'action' and 'general'."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entry_id": "24831_seiryouinryou",
+  "headword": "{清涼|せいりょう}{飲料|いんりょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:28:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is incorrect for '清涼飲料'.",
+      "suggestion": "The correct tag should be 'consumption' or 'daily-life'."
+    }
+  ]
+}
