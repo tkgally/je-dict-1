@@ -1,0 +1,24 @@
+{
+  "entry_id": "24620_higane",
+  "headword": "{彼岸会|ひがんえ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:32:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '彼岸会'. While it refers to a religious ceremony, the term itself is not inherently formal in everyday Japanese usage. It's a common term for a cultural event.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

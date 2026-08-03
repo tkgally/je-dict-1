@@ -1,0 +1,24 @@
+{
+  "entry_id": "24621_shukan",
+  "headword": "{主幹|しゅかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:32:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'main pillar' is misleading and not directly supported by the definitions or examples. While '主幹' can imply a central or core role, 'main pillar' is not a standard translation for the job titles described.",
+      "suggestion": "Remove 'main pillar' from the main gloss."
+    }
+  ]
+}

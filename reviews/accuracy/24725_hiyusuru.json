@@ -1,0 +1,24 @@
+{
+  "entry_id": "24725_hiyusuru",
+  "headword": "{比喩|ひゆ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:34:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '比喩する'. While the explanation mentions its use in academic writing, the verb itself is not inherently formal and can be used in neutral contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

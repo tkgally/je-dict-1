@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-03T09:28:30Z",
+  "reviewed_at": "2026-08-03T21:32:41Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for this word. While it is a technical term, it is not inherently 'formal' in the sense of register or politeness. It's simply standard technical vocabulary.",
-      "suggestion": "neutral"
-    }
-  ]
+  "issues": []
 }

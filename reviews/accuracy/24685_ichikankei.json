@@ -1,0 +1,24 @@
+{
+  "entry_id": "24685_ichikankei",
+  "headword": "{位置関係|いちかんけい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:33:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'science' is too narrow and misleading for a general concept like 'relative position' or 'spatial relationship'. While it can be used in science, it's not exclusively or primarily a scientific term.",
+      "suggestion": "Replace 'science' with 'general' or 'descriptive' as it describes a fundamental concept applicable across many fields, not just science."
+    }
+  ]
+}

@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-03T09:28:25Z",
+  "reviewed_at": "2026-08-03T21:31:45Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'education' is not directly related to the headword's meaning of 'publication'. While publications can be used in education, '刊行物' itself does not inherently mean 'education'.",
-      "suggestion": "Remove 'education'."
-    }
-  ]
+  "issues": []
 }

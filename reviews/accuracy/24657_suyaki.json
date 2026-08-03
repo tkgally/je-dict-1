@@ -1,0 +1,24 @@
+{
+  "entry_id": "24657_suyaki",
+  "headword": "{素焼|すや}き",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:33:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is too broad and misleading for the headword's primary meaning (sense 1: pottery). While sense 2 relates to food preparation, the headword itself is not 'food'.",
+      "suggestion": "Remove 'food'. The tag 'cooking' is more appropriate for sense 2, but 'art' covers sense 1 well."
+    }
+  ]
+}
