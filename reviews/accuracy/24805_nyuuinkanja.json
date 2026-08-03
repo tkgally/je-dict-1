@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-03T09:28:55Z",
+  "reviewed_at": "2026-08-03T21:36:14Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'health' is too broad for a word specifically referring to a person. 'person' would be more appropriate.",
-      "suggestion": "person"
-    }
-  ]
+  "issues": []
 }

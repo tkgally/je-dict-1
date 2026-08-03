@@ -1,0 +1,24 @@
+{
+  "entry_id": "24945_shiseikyousei",
+  "headword": "{姿勢矯正|しせいきょうせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:39:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '姿勢矯正' (posture correction). Posture correction is an action or process, not a body part.",
+      "suggestion": "action"
+    }
+  ]
+}

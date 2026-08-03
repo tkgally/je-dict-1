@@ -1,0 +1,24 @@
+{
+  "entry_id": "24980_negi",
+  "headword": "{禰宜|ねぎ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:39:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss implies 'senior Shinto priest' is a general meaning, but the definition clarifies it's a specific rank (second). The general term is 'shrine priest'.",
+      "suggestion": "shrine priest (second rank); senior Shinto priest (second rank)"
+    }
+  ]
+}

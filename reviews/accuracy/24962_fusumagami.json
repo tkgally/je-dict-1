@@ -1,0 +1,24 @@
+{
+  "entry_id": "24962_fusumagami",
+  "headword": "{襖紙|ふすまがみ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:39:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'tool' is incorrect for '襖紙' (fusuma paper). Fusuma paper is a material or component, not a tool used to perform an action.",
+      "suggestion": "Remove 'tool'."
+    }
+  ]
+}

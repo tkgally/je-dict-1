@@ -1,0 +1,24 @@
+{
+  "entry_id": "24876_shikenkantoku",
+  "headword": "{試験監督|しけんかんとく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:37:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '試験監督'. This is a neutral term for a specific role.",
+      "suggestion": "neutral"
+    }
+  ]
+}

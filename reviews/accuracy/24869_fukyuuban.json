@@ -1,0 +1,31 @@
+{
+  "entry_id": "24869_fukyuuban",
+  "headword": "{普及版|ふきゅうばん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:37:31Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'paperback' is misleading. While a popular edition can be a paperback, '普及版' specifically refers to a popular/affordable edition, not the binding type itself. A paperback can also be a first edition or a deluxe edition.",
+      "suggestion": "Remove 'paperback' from the gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'paperback' is misleading. While a popular edition can be a paperback, '普及版' specifically refers to a popular/affordable edition, not the binding type itself. A paperback can also be a first edition or a deluxe edition.",
+      "suggestion": "Remove 'paperback' from the gloss."
+    }
+  ]
+}

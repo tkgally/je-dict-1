@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-03T09:29:16Z",
+  "reviewed_at": "2026-08-03T21:38:46Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'body-part' is incorrect for '除毛' (hair removal). '除毛' is an action, not a body part.",
-      "suggestion": "Replace 'body-part' with 'action'."
-    }
-  ]
+  "issues": []
 }

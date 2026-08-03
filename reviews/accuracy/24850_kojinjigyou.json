@@ -1,0 +1,24 @@
+{
+  "entry_id": "24850_kojinjigyou",
+  "headword": "{個人事業|こじんじぎょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T21:37:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '個人事業'. While it's a specific legal/tax term, it's commonly used in everyday business contexts and isn't considered 'formal' in the same way as highly technical or ceremonial language.",
+      "suggestion": "neutral"
+    }
+  ]
+}
