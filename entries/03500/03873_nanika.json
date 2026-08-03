@@ -14,6 +14,11 @@
       "sense_number": 2,
       "gloss": "anything",
       "explanation": "Used in questions and conditional sentences to mean 'anything at all.'"
+    },
+    {
+      "sense_number": 3,
+      "gloss": "somehow, for some reason",
+      "explanation": "Used adverbially before an adjective or verb to say that something feels a certain way without the speaker being able to name the cause."
     }
   ],
   "examples": [
@@ -70,11 +75,11 @@
     {
       "id": "03873_nanika_ex6",
       "japanese": "{何|なに}か⟦{変|へん}→変：01124_hen⟧⟦だ→だ：09496_da⟧。",
-      "english": "Something is strange.",
-      "notes": null,
+      "english": "Something feels off.",
+      "notes": "Adverbial use: 何か modifies 変, not a noun",
       "has_audio": false,
       "sense_numbers": [
-        1
+        3
       ]
     },
     {
@@ -116,21 +121,52 @@
       "sense_numbers": [
         2
       ]
+    },
+    {
+      "id": "03873_nanika_ex11",
+      "japanese": "{何|なに}か⟦{寂|さび}しい→寂しい：00880_sabishii⟧⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
+      "english": "Somehow I feel lonely.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        3
+      ]
     }
   ],
-  "notes": "USAGE: {何|なに}か is used to refer to an unspecified thing. It can mean \"something\" in statements or \"anything\" in questions and conditionals.\n\nCOMMON PATTERNS:\n・{何|なに}か⟦{食|た}べる→食べる：00396_taberu⟧ (to eat something)\n・{何|なに}か⟦{飲|の}む→飲む：00322_nomu⟧ (to drink something)\n・{何|なに}か⟦あったら→ある：00006_aru⟧ (if anything happens)\n・{何|なに}か⟦{用|よう}→用：01114_you⟧⟦ですか→だ：09496_da⟧ (Can I help you?/Do you need something?)\n\nRELATED WORDS:\n・⟦{何|なに}も→何も：03874_nanimo⟧ (nothing - with negative)\n・⟦{誰|だれ}か→誰か：02912_dareka⟧ (someone)\n・⟦どこか→どこか：02361_dokoka⟧ (somewhere)\n・⟦いつか→いつか：01809_itsuka⟧ (sometime)",
+  "notes": "USAGE: {何|なに}か points at a thing without identifying it. In statements it is \"something\"; in questions and conditionals it is \"anything\". Before an adjective it works adverbially and means \"somehow\".\n\nNO PARTICLE AFTER IT:\n{何|なに}か normally drops the ⟦が→が：00051_ga⟧ or ⟦を→を：00422_wo⟧ that its grammatical role would call for: {何|なに}か⟦{食|た}べる→食べる：00396_taberu⟧, not {何|なに}か⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧. Other particles do attach: {何|なに}か⟦に→に：00314_ni⟧⟦{使|つか}う→使う：00473_tsukau⟧ (use it for something).\n\nTHREE USES:\n1. Something (statement): {何|なに}か⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧⟦した→する：00392_suru⟧ (I heard something)\n2. Anything (question or conditional): {何|なに}か⟦あったら→ある：00006_aru⟧ (if anything happens)\n3. Somehow (adverbial, before an adjective or a feeling): {何|なに}か⟦{変|へん}→変：01124_hen⟧⟦だ→だ：09496_da⟧ (something feels off)\n\nCOMMON PATTERNS:\n- {何|なに}か⟦{飲|の}む→飲む：00322_nomu⟧ (to drink something)\n- {何|なに}か⟦{用|よう}→用：01114_you⟧⟦ですか→だ：09496_da⟧ (Can I help you? / Do you need something?)\n- {何|なに}か⟦{手伝|てつだ}おう→手伝う：00898_tetsudau⟧⟦か→か：09473_ka⟧ (Shall I help with something?)\n\nSPOKEN VARIANT:\n⟦なんか→なんか：05309_nanka⟧ is the casual contraction. It covers the same ground but also works as a filler word and as a dismissive \"things like\", so it is not a free substitute in careful speech.\n\nTHE か SERIES:\n- ⟦{誰|だれ}か→誰か：02912_dareka⟧ (someone)\n- ⟦どこか→どこか：02361_dokoka⟧ (somewhere)\n- ⟦いつか→いつか：01809_itsuka⟧ (sometime)\nEach pairs with a ⟦も→も：00484_mo⟧ form that requires a negative: ⟦{何|なに}も→何も：03874_nanimo⟧ (nothing at all).",
   "cross_references": [
     {
       "type": "related",
+      "target_id": "03874_nanimo",
       "reading": "なにも",
       "headword": "{何|なに}も",
-      "label": "nothing",
-      "target_id": "03874_nanimo"
+      "label": "nothing (with negative)"
+    },
+    {
+      "type": "related",
+      "target_id": "05309_nanka",
+      "reading": "なんか",
+      "headword": "なんか",
+      "label": "casual contraction of 何か"
+    },
+    {
+      "type": "related",
+      "target_id": "02912_dareka",
+      "reading": "だれか",
+      "headword": "{誰|だれ}か",
+      "label": "someone"
+    },
+    {
+      "type": "related",
+      "target_id": "02361_dokoka",
+      "reading": "どこか",
+      "headword": "どこか",
+      "label": "somewhere"
     }
   ],
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-05-27T21:10:05Z",
+    "modified": "2026-08-03T06:25:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

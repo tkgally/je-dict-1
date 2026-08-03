@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06757_uzuuzu_ex1",
-      "japanese": "{旅行|りょこう}に{行|い}きたくてうずうずしている。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}きたくて→行く：00119_iku⟧うずうず⟦している→する：00392_suru⟧。",
       "english": "I'm itching to go traveling.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06757_uzuuzu_ex2",
-      "japanese": "{試合|しあい}の{前|まえ}で{体|からだ}がうずうずする。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧うずうず⟦する→する：00392_suru⟧。",
       "english": "My body is restless before the match.",
       "notes": null,
       "has_audio": false,
@@ -124,8 +124,28 @@
     },
     {
       "id": "06757_uzuuzu_ex3",
-      "japanese": "{言|い}いたいことがあってうずうずしている。",
+      "japanese": "⟦{言|い}いたい→言う：00515_iu⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧うずうず⟦している→する：00392_suru⟧。",
       "english": "I'm dying to say something.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06757_uzuuzu_ex4",
+      "japanese": "⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧うずうず⟦する→する：00392_suru⟧。",
+      "english": "My hands are itching to get started.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06757_uzuuzu_ex5",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦は→は：00079_ha⟧⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧⟦{遊|あそ}びたくて→遊ぶ：00550_asobu⟧うずうず⟦していた→する：00392_suru⟧。",
+      "english": "The children were restless with eagerness to play outside.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -133,7 +153,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nうずうず(と) + verb / うずうずする\n\nExpresses anticipation and eagerness:\n・〜したくてうずうずする (to be itching to do ~)\n・{待|ま}ちきれなくてうずうずする (can't wait, restless)\n・{手|て}がうずうずする (hands are itching - eager to work/fight)\n・{血|ち}がうずうずする (blood is stirring - excited/eager)\n\nNUANCE:\nStronger sense of eager anticipation than むずむず. Often implies positive excitement rather than mere impatience.\n\nSIMILAR WORDS:\n・むずむず - itching (more physical; milder psychological restlessness)\n・そわそわ - restless, fidgety (more anxious)\n・わくわく - excited (purely positive anticipation)",
+  "notes": "USAGE:\nうずうず(と) + verb / うずうずする\n\nDescribes an urge to act that the speaker is holding back. There is always something they want to do and are not yet doing — that gap is the whole meaning of the word.\n\nCOMMON PATTERNS:\n- 〜⟦したくて→する：00392_suru⟧うずうず⟦する→する：00392_suru⟧ (to be itching to do ~) — by far the most common frame\n- ⟦{待|ま}ちきれなくて→待ちきれる：noentry⟧うずうず⟦する→する：00392_suru⟧ (to be unable to wait)\n- ⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧うずうず⟦する→する：00392_suru⟧ (one's hands are itching — eager to get to work, or to fight)\n- ⟦{血|ち}→血：01659_chi⟧⟦が→が：00051_ga⟧うずうず⟦する→する：00392_suru⟧ (one's blood is stirring)\n\nNUANCE:\nForward-looking and usually positive: the anticipation is welcome even when the waiting is not. It describes the person's own inner state, so it is used freely of oneself and only inferentially of others.\n\nSIMILAR WORDS:\n- ⟦むずむず→むずむず：06756_muzumuzu⟧: itching. Covers a literal physical itch as well, and its restlessness is milder and more irritable than eager.\n- ⟦そわそわ→そわそわ：05267_sowasowa⟧: fidgety. Restlessness from nerves rather than desire, and it shows on the outside.\n- ⟦わくわく→わくわく：05158_wakuwaku⟧: excited. Pure pleasant anticipation, with no urge to act on it — you can わくわく while sitting perfectly still.",
   "cross_references": [
     {
       "type": "related",
@@ -159,7 +179,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-04-18T07:11:09Z",
+    "modified": "2026-08-03T06:28:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

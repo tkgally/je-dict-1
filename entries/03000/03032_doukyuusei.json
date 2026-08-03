@@ -34,8 +34,8 @@
     },
     {
       "id": "03032_doukyuusei_ex3",
-      "japanese": "{同級生|どうきゅうせい}⟦に→に：00314_ni⟧⟦{会|あ}った→会う：00482_au⟧。",
-      "english": "I met a classmate.",
+      "japanese": "{同級生|どうきゅうせい}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{覚|おぼ}えた→覚える：00739_oboeru⟧。",
+      "english": "I learned my classmates' names.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{同級生|どうきゅうせい} combines {同|どう} (same) + {級|きゅう} (grade) + {生|せい} (student).\n\nDISTINCTIONS:\n- {同級生|どうきゅうせい}: classmate (same grade level)\n- クラスメート: classmate (same class)\n- ⟦{同期|どうき}→同期：12029_douki⟧: colleague who joined at the same time\n- ⟦{先輩|せんぱい}→先輩：01451_senpai⟧: upperclassman\n- ⟦{後輩|こうはい}→後輩：02501_kouhai⟧: underclassman\n\nCOMMON PATTERNS:\n- ⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦の→の：09472_no⟧{同級生|どうきゅうせい} (elementary school classmate)\n- {同級生|どうきゅうせい}⟦と→と：00512_to⟧⟦{再会|さいかい}→再会：11667_saikai⟧⟦する→する：00392_suru⟧ (reunite with classmates)",
-  "cross_references": [],
+  "notes": "{同級生|どうきゅうせい} combines {同|どう} (same) + {級|きゅう} (grade) + {生|せい} (student).\n\nUSAGE:\n- Refers to someone in the same school year, normally at the same school. The relationship keeps this name long after graduation, so ⟦{高校|こうこう}→高校：01083_koukou⟧⟦の→の：09472_no⟧{同級生|どうきゅうせい} works equally well for a classmate you saw yesterday and one you last saw thirty years ago.\n- It marks equal standing. Unlike ⟦{先輩|せんぱい}→先輩：01451_senpai⟧ and ⟦{後輩|こうはい}→後輩：02501_kouhai⟧, which encode who is senior, {同級生|どうきゅうせい} implies no ranking, and speech between {同級生|どうきゅうせい} is normally plain and casual.\n- Used of other people far more than of oneself. To say who your own classmate is, the natural pattern is ⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{同級生|どうきゅうせい}⟦です→です：09485_desu⟧, not a self-description.\n\nDISTINCTIONS:\n- {同級生|どうきゅうせい}: classmate in the sense of same ⟦{学年|がくねん}→学年：00056_gakunen⟧ (grade level); the two need not share a homeroom\n- ⟦クラスメート→クラスメート：20969_kurasumeeto⟧: classmate in the narrower sense of same ⟦クラス→クラス：01084_kurasu⟧; a loanword, lighter and more school-bound\n- ⟦{同期|どうき}→同期：12029_douki⟧: the workplace equivalent — someone who joined the company in the same year\n- ⟦{先輩|せんぱい}→先輩：01451_senpai⟧: upperclassman\n- ⟦{後輩|こうはい}→後輩：02501_kouhai⟧: underclassman\n\nCOMMON PATTERNS:\n- ⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦の→の：09472_no⟧{同級生|どうきゅうせい} (elementary school classmate)\n- {同級生|どうきゅうせい}⟦と→と：00512_to⟧⟦{再会|さいかい}→再会：11667_saikai⟧⟦する→する：00392_suru⟧ (reunite with classmates)",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "20969_kurasumeeto",
+      "reading": "くらすめーと",
+      "headword": "クラスメート",
+      "label": "classmate (same class)"
+    },
+    {
+      "type": "related",
+      "target_id": "12029_douki",
+      "reading": "どうき",
+      "headword": "{同期|どうき}",
+      "label": "same-year colleague at work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01451_senpai",
+      "reading": "せんぱい",
+      "headword": "{先輩|せんぱい}",
+      "label": "senior, upperclassman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02501_kouhai",
+      "reading": "こうはい",
+      "headword": "{後輩|こうはい}",
+      "label": "junior, underclassman"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-08-03T06:22:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
