@@ -1,78 +1,15 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "daily_cap_usd": 5.0,
-  "spent_usd": 0.545,
+  "spent_usd": 0.0087,
   "calls": [
     {
-      "ts": "2026-08-02T03:28:26Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 23,
-      "est_usd": 0.0104
-    },
-    {
-      "ts": "2026-08-02T06:27:14Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy",
-      "entries": 300,
-      "est_usd": 0.1335
-    },
-    {
-      "ts": "2026-08-02T06:27:14Z",
-      "mode": "accuracy-review",
-      "phase": "screening",
-      "entries": 103,
-      "est_usd": 0.0079
-    },
-    {
-      "ts": "2026-08-02T06:27:14Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 8,
-      "est_usd": 0.0035
-    },
-    {
-      "ts": "2026-08-02T09:28:52Z",
+      "ts": "2026-08-03T00:27:39Z",
       "mode": "self-check",
       "phase": "self-check",
       "entries": 20,
       "est_usd": 0.0087
-    },
-    {
-      "ts": "2026-08-02T12:27:17Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 16,
-      "est_usd": 0.0071
-    },
-    {
-      "ts": "2026-08-02T18:51:09Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy",
-      "entries": 592,
-      "est_usd": 0.2601
-    },
-    {
-      "ts": "2026-08-02T18:51:09Z",
-      "mode": "accuracy-review",
-      "phase": "screening",
-      "entries": 294,
-      "est_usd": 0.1
-    },
-    {
-      "ts": "2026-08-02T18:51:09Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 16,
-      "est_usd": 0.0071
-    },
-    {
-      "ts": "2026-08-02T21:28:27Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 15,
-      "est_usd": 0.0067
     }
   ]
 }
