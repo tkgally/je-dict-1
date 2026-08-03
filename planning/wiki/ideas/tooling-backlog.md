@@ -1127,6 +1127,28 @@ Measured blast radius of the two bugs together: **6,529 of 29,993 entries (22%) 
 
 This item took **25 days** from first symptom (2026-07-04, まあ scored as `verb-godan`) to fix, and the fix was two lines. The gating factor was mechanism, not effort: it moved the day a run traced the symptom to `'verb' in "adverb"` rather than re-reporting it.
 
+### Update 2026-08-03 — what the post-fix lane is actually finding (and it is not missing notes)
+
+The first substantive report from a post-fix priority lane, from the 2026-08-02 polish run: **all
+six entries it worked had structured notes with sections.** They did not score low for absence.
+They scored low because the notes are **inventories** — a list of similar words, a list of
+patterns — with no statement of what distinguishes the headword from its neighbours. The run's
+high-value edit on every one was converting a SIMILAR WORDS *list* into *contrasts* that say when
+each alternative is wrong.
+
+Two consequences:
+
+- **The lane is now finding real work**, which is the first evidence since the scorer fix that its
+  design is sound. The long no-op streak really was the scorer.
+- **The scorer appears to reward the right thing by accident.** It measures structure and length,
+  and a contrast paragraph is longer than a list — so the score improves for a reason adjacent to
+  the actual improvement. That is fine as a *ranking* signal and unreliable as a *quality* signal;
+  nobody should treat a rising note score as evidence that notes got more useful.
+
+If this item ever gains a follow-on, it is the one this report suggests: a signal for
+**inventory-shaped notes** (a SIMILAR WORDS section whose body is a bare list with no "use X when
+…" clause), which is both mechanically detectable and closer to what a learner needs than length.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -1690,6 +1712,36 @@ window). Because both passes share
 `polishing/tasks/cross-model-review/progress.txt`, the slower one sets the cursor, so the cost of
 keeping the screener is paid in accuracy-pass coverage — the dimension that *is* producing
 applied fixes.
+
+### Update 2026-08-03 — two more zero windows, and the false-positive families are now regex-shaped
+
+Two further accuracy-review runs reported the pass, both at zero:
+
+| Run | Range | Flags | Applied | Throughput |
+|---|---|---|---|---|
+| 2026-08-02 | 23908–24500 | 13 / 294 entries | **0** | ~7 s/entry vs ~1.5 for accuracy |
+| 2026-08-03 | 24501–25100 | 3 / 34 entries | **0** | **~1.3 entries/min** vs ~3 |
+
+That is **seven consecutive windows at zero** and roughly **0 applied of ~86 flags** post-fix. The
+second run killed the pass early and handed the remaining wall clock to the accuracy pass.
+
+The new datum is that the surviving false positives have collapsed to **two families, both
+mechanically recognisable without a model**:
+
+1. **Okurigana reading-splits** — the flag's quoted "correct" reading is the entry's reading plus
+   the trailing okurigana ({命取|いのちと}り flagged as いのちとり, {誤|あやま}り as あやまり).
+2. **Katakana adjacency** — a katakana run next to the braces is read as missing furigana
+   (フランス{料理|りょうり}, キャッシュフロー{計算書|けいさんしょ}).
+
+Both are a string comparison against the flag itself: *if the proposed reading equals the wrapped
+reading plus an adjacent kana/katakana run, the flag is a false positive by construction.* Several
+flags in these runs visibly argue themselves out mid-sentence — the model states the alternate
+reading is valid and flags it anyway.
+
+**Recommendation, now made independently by three runs**: gate the screening pass behind that
+pre-filter, or drop it from `accuracy-review` over already-polished ranges and keep only the
+deterministic non-hiragana-reading lint this item originally proposed. The seventh zero window
+plus the throughput gap makes this the clearest retire-or-gate case in the backlog.
 
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
@@ -2761,6 +2813,33 @@ actually write from, and (b) is arrears-clearing while the harvest-time filter a
 inflow. Sequenced: filter the inflow, score for the selector, then let the curator decide whether
 to restock or sweep.
 
+### Update 2026-08-03 — the variant-orthography check, measured, with the rule that works
+
+A 2026-08-02 polish run found two "seen in entry" candidates (気ぜわしい, ぶり) that were
+orthographic or notation variants of existing entries (気忙しい `15598`, 〜ぶり `28358`), and asked
+for a variant check at add time. The polish-mode capture step records the surface form *as written
+in the example*, so kana/kanji and 〜-prefixed variants of existing headwords enter the pool
+looking new.
+
+**Measured against the current 997 candidates:**
+
+| Rule | Hits | Useful? |
+|---|---|---|
+| candidate reading matches an existing entry's reading | 28 | no — mostly homophones (権使/剣士, 三重/見得, 試戦/支線) |
+| kana-only candidate whose reading matches an entry | 3 | too narrow — misses 気ぜわしい (mixed kana/kanji) |
+| **shared reading AND ≥1 shared character** | **13** | **yes** |
+
+The third rule is the one to implement. Its 13 hits are ~11 actionable: genuine variants
+(おどりこ/踊り子 `14344`, りんご農家/林檎農家 `24042`, 摺り寄せる/擦り寄せる `26584`), notation
+variants (〜着/着 `27655`, 中/〜中 `09840`), and coinages the pre-filter wants gone anyway
+(計量化 vs 軽量化 `19238`, 些道 vs 茶道, 印示 vs 印字, 晶体 vs 正体, 解退 vs 解体). The two
+arguable misses are 千人/仙人 and 自体/字体, real distinct words that share a character.
+
+Note this is a *warning* at add time, not a rejection — `manage_candidates.py add` should print
+the matching entry and let the caller decide, which also addresses
+[item 64](#64-manage_candidatespy-add-does-not-say-what-it-rejected-or-why)'s complaint that the
+command says nothing about what it did.
+
 ## 55. Detector: contrast words named in notes prose but absent from `cross_references`
 
 **Source**: 2026-07-31 routine polish run (priority lane, basic-tier verbs)
@@ -2884,6 +2963,26 @@ Two related refinements from the same run, both cheap:
   **does the dictionary give the two spellings separate glosses?** If it does, the distinction is
   real. That predicate could pre-sort the queue.
 
+### Update 2026-08-03 — the reading test is a *triage axis*, not just a suppression rule
+
+A 2026-08-02 polish run worked a 56-item `check_link_baseform.py` queue and reported the sharper
+form of this item's principle: the reliable split is **whether the proposal's reading matches the
+surface furigana**, not whether the base and the declared headword "look different".
+
+- **Reading MATCHES** → near-mechanical wrong-word repairs, decidable at a glance
+  (鮭→酒, 麺→面, 級/急→九).
+- **Reading MISMATCHES** → every trap in the queue: benign variant spellings (下/元, 球/玉,
+  敵/仇), cases where the target is right and only the link's base label is loose (お得), and cases
+  with **no correct target at all**.
+
+Splitting on that one predicate turned a 56-item adjudication into **44 fast + 12 careful**. So
+the refinement to this item is not only "suppress reading-changing proposals" but "**report the
+reading-match verdict as a field**" and sort by it — the suppression is then the caller's choice,
+and the queue arrives pre-triaged. The same run also recorded the honest outcome for the third
+class: when the correct word has no entry and the same-kanji entry would mislead (性質上 の 〜上
+じょう pointed at 状; 温帯 の 帯 たい pointed at 対), the fix is to rewrite the link to `noentry`
+and add a candidate, not to find a less-wrong target.
+
 ## 60. `onomatopoeia` is valid in both `pos` and `semantic` — and the corpus uses both
 
 **Source**: 2026-08-01 routine new-entries run, reporting that the accuracy reviewer flags
@@ -2987,6 +3086,83 @@ actively-growing defect the guard matters more than the sweep.
 Care is needed on the false-positive side — a legitimate link may point at a variant spelling —
 so the validation-time form should require *disagreement in both headword and reading* before
 failing, and the exploratory form stays in the detector.
+
+## 66. Detector: an inline link whose surface reading disagrees with its target entry's reading
+
+**Source**: 2026-08-02 routine polish run, which repaired 20 links in the number/date cluster —
+`{十|とお}` pointing at `00708_juu` (じゅう) when `28376_too` exists, `{間|かん}` pointing at
+`00914_aida` (あいだ) when the duration suffix `28469_kan` is the correct target — and proposed
+"flag links whose furigana reading disagrees with the target's `reading`". A second observation
+from the same run proposed a sibling rule: **adjacent-ID slips**, where 〜者 (しゃ) was linked to
+`04660_sha` 〜社 rather than `04662_sha`, two IDs away.
+
+**Measured 2026-08-03 across all 266,899 inline links (259,578 resolving).** The naive rule is
+unusable and the reason is instructive:
+
+| Rule | Hits | Verdict |
+|---|---|---|
+| surface reading ≠ target reading (all links) | **28,906** | unusable — dominated by inflection (した→する ×1,016, なった→なる ×467, あります→ある ×283) |
+| …restricted to targets with only non-conjugating POS | 2,790 | still noisy — particle/copula tails (ために, 静かに, では) |
+| …then stripping trailing particle/copula kana | 2,113 | the real residue, in 1,451 entries |
+| …**and an entry with exactly the surface reading exists** | **998** | the shippable slice |
+
+The last row is the one worth building. It is not "this link's reading is odd" but "**this link's
+reading is another entry's headword reading**" — a claim with a named alternative, which is what
+makes it adjudicable. It reproduces the reported family exactly: `{何|なん}`→`00498_nani` while
+`03100_nan` exists (107 links), `{会社|がいしゃ}`→`00607_kaisha` while `19013_gaisha` exists (19),
+`{通|どお}り`→`01475_toori` while `09884_doori` exists (17), `{国|こく}`→`02204_kuni` while
+`20672_koku` exists (13), `では`→`00502_de` while `02945_deha` exists (19).
+
+Two cautions for whoever builds it:
+
+- **Not every hit is a defect.** Rendaku and on-kun alternation inside a compound (`{日|び}`,
+  `{口|ぐち}`, `{型|がた}`) are the same morpheme, and pointing at the base entry may be the
+  intended convention. The output should be a *review queue*, not a fix list — and grouping by
+  `(surface, target)` collapses 998 links into a few dozen decisions, the same ~5× collapse
+  [item 59](#59-check_link_baseformpy-should-suppress-proposals-that-change-the-reading) records.
+- **The 1,115 hits with no alternate entry are a different question** — `{月|がつ}`, `{分|ぷん}`,
+  `{力|りょく}` are compound-only readings with no dedicated entry, so there is nothing to retarget
+  them to. They are candidates for suffix/counter entries, not link repairs.
+
+The adjacent-ID variant is cheap to add to the same scan: flag a link whose target is within ±3 of
+an entry whose headword matches the link's base form **exactly**. Both rules are read-only,
+deterministic, and need no model.
+
+## 67. Per-range off-vocabulary tag density report
+
+**Source**: 2026-08-02 routine accuracy-review run, observing that the CI ratchet cannot see this
+class by design.
+
+`validate_tags.py --check-no-new-unknown` compares against `unknown_semantic_baseline.json` and
+fails only on tags that are *new* relative to the baseline. That is the correct design for the
+inflow gate — but it means a block where **53% of entries carry off-vocabulary tags sits silently
+inside the baseline** and is discovered only when an accuracy-review sweep happens to reach it.
+Three consecutive high-ID blocks have now come in at 40–53% (23908–24500: 315/592; 24501–25100:
+246/600), each found by accident.
+
+What is missing is a **targeting** instrument, not a gate: a report that buckets entries by ID
+range (say per 500) and prints the count and share carrying baselined off-vocabulary semantic
+tags, so the Routine's `systemic-fix` and `accuracy-review` modes can be pointed at the worst
+block instead of the next sequential one. Everything it needs already exists — the `VALID_SEMANTIC`
+set, the baseline file, and the entry scan — so this is a reporting flag on `validate_tags.py`
+(`--density-by-range`), not a new tool. It pairs with
+[item 63](#63-validate_tagspy-collapses-13037-warnings-into-one-number-with-no-breakdown), which
+asks the same script for a breakdown by tag; this asks for the breakdown by *location*.
+
+## 68. `check_consistency.py`: `explanation` that is a verbatim copy of `gloss`
+
+**Source**: 2026-08-03 routine accuracy-review run (24542 突出, 24544 可憐).
+
+One-line check — `definitions[i].explanation == definitions[i].gloss`, string-exact — with a
+measured live scope of **201 senses in 179 entries**, all inside six contiguous creation blocks
+(see [Cleanup P39](cleanup-backlog.md#priority-39-definitionsexplanation-is-a-verbatim-copy-of-its-own-gloss-201-senses-179-entries)).
+Normalised comparison adds zero hits, so no fuzzy matching is needed. It belongs in
+`check_consistency.py` as a new issue type rather than in a standalone detector: it is an
+entry-internal invariant, which is exactly that script's remit, and the fix (drop the duplicate)
+is schema-safe because `explanation` is optional.
+
+Worth adding as a `validate.py` warning at the same time — the defect is created at generation
+time in batches, so catching it at entry-creation is what stops the seventh block from existing.
 
 ## Related pages
 

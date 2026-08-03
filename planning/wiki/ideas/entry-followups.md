@@ -1064,6 +1064,34 @@ A concrete instance of the class
 proposes to catch at validation time, and one that `check_link_baseform.py` should already
 surface today.
 
+## 24314 等身: the headword may be a bound morpheme
+
+**Source**: 2026-08-03 routine accuracy-review run (23908–24500 window).
+
+等身 is effectively bound in modern Japanese — every natural example the reviewing run could
+construct used 等身大 (life-size), not bare 等身. The run added an example containing the bare
+headword so the entry is not self-contradictory, but flagged the real question for the curator:
+**should the entry live at 等身大?**
+
+This is a **headword change, so it is not Routine work** — the five-digit ID is part of the live
+URL and the romaji is part of the filename, so moving the headword means either a new entry plus
+a redirect-by-cross-reference, or an accepted URL change. Related in kind to the 29452 猿人 reading
+correction (resolved 2026-06-26), but that one was caught before the entry had been indexed for
+long; this one has been live since April.
+
+## 07994 陳謝: off-vocabulary semantic tags
+
+**Source**: 2026-08-02 routine polish run, which spotted `apology` and `official` in
+`tags.semantic` while working a different range and correctly left them alone rather than reaching
+outside its own range.
+
+Both labels are outside `VALID_SEMANTIC`. This is an instance of
+[Cleanup P20](cleanup-backlog.md#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration),
+recorded here only so the ID is not lost — `apology` is a context-dependent label with no forced
+rename (the drop-vs-migrate rule says drop it), while `official` most plausibly maps to `formal`
+register rather than a semantic tag at all. It should be swept with the surrounding block rather
+than fixed alone.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

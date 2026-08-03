@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-08-02",
+  "updated": "2026-08-03",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -668,6 +668,21 @@
       "scope_estimate": 32,
       "severity": "warn",
       "notes": "Measured 2026-08-02 by the wiki harvest after a polish run standardised the four 皿 entries to ['tool']. 32 vessel/utensil entries carry 12 distinct tag-sets with no plurality: 7 ['general'] (also P13 sole-general), 7 ['tool'], 6 ['food'] (describes contents, not the object), 3 ['culture','food'], and nine one-offs of which five use off-vocabulary labels (tableware, objects, tools-plural, gardening, household -- also P20). Generalises: where a lexical family is enumerable, disagreement among its members is mechanically detectable and cannot be a false positive (cf. crossref-closed-paradigm-symmetry). Size 2-3 more families before building an instrument. Partly blocked on the P20 taxonomy decision (container/tableware tag, or collapse to 'tool')."
+    },
+    {
+      "id": "definition-explanation-duplicates-gloss",
+      "title": "definitions[].explanation is a verbatim copy of its own gloss (201 senses, 179 entries)",
+      "source": "ideas/cleanup-backlog.md#priority-39",
+      "detect": "python3 - : for each entry, flag any definitions[i] where explanation == gloss (string-exact); normalised comparison adds zero hits",
+      "filter": "none needed -- all 201 hits sit inside six contiguous creation blocks (04470-04563, 24159-24188, 24539-24558, 24786-24815, 25222-25245, 25301-25330)",
+      "fix_type": "mechanical",
+      "verify": "spot-check",
+      "priority": 8,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 201,
+      "severity": "warn",
+      "notes": "Measured 2026-08-03 by the wiki harvest, from a 2026-08-03 accuracy-review observation on 24542 and 24544. 201 senses in 179 entries out of 36,153 senses carrying an explanation; zero occurrences outside the six blocks, so it is a batch-creation signature (49 from 2026-01, 130 from 2026-04). The renderer emits gloss and explanation separately, so these entries show the learner the same text twice. Safe mechanical action is DROP the duplicate: schema.json requires only sense_number and gloss, so removing a verbatim duplicate removes no information and cannot introduce a false claim (same drop-vs-migrate asymmetry as the off-vocab tag work). Writing real explanations is a content task for the polish frontier, not a sweep. Detector belongs in check_consistency.py -- see tooling-backlog item 68."
     }
   ]
 }
