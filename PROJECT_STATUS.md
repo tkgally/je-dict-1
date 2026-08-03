@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-08-02
+**Last updated**: 2026-08-03
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-08-03 (Routine v2: new-entries — 20 New Entries, IDs 30338–30357)
+Created 20 general-tier entries, **draining the "seen in entry" lane down to 3** (25 available; 2 dropped as stale, 20 created). The two stale drops were orthographic/notation variants the candidate capture step cannot see: C22697 {気|き}ぜわしい, the mixed-kana spelling of existing 15598 {気忙|きぜわ}しい, and C22704 ぶり, already covered by 28358 〜ぶり. Three {派|は}-suffix performer types — {正統派|せいとうは}, {演技派|えんぎは}, {個性派|こせいは} — were created together and cross-describe each other and the existing 30319 {本格派|ほんかくは} / 30320 {実力派|じつりょくは}, with {正統派|せいとうは}↔{個性派|こせいは} linked as a `contrast` pair. {総資産|そうしさん} **completes the balance-sheet contrast set** with 30322 {純資産|じゅんしさん} created the day before. The counter/ordinal group is the other cluster: {何回目|なんかいめ}, {二|ふた}つ{目|め}, {二枚|にまい}, {七人|しちにん}, {何曜日|なんようび}, and the two-sense {十一日|じゅういちにち} (date and duration, with the irregular-through-{十日|とおか} reading rule documented). {自身|じしん} is tagged `["noun", "pronoun"]` and its notes spell out both restrictions learners get wrong — it never stands alone as a subject, and inanimate nouns take {自体|じたい} instead. The homophone pair {海草|かいそう} (sea grass, marine seed plants) vs. existing 06750 {海藻|かいそう} (algae) is now explicit in both directions. Rest: あっちこっち (with the "there-and-here" word-order note and the あちこち/{方々|ほうぼう} register ladder), {提唱者|ていしょうしゃ}, めかぶ, {蚊遣|かや}り{豚|ぶた}, {危|あや}うさ, ハイリスク, {打|う}ち{砕|くだ}く, and {別世界|べっせかい}. Conjugation table added to the one godan verb; **no new kanji**. 2 stale candidates removed, 5 added from words the new entries reference; 992 remain. §4 cross-model self-check on all 20 new entries: **2 entries flagged, 1 applied, 2 rejected** — applied the {二|ふた}つ{目|め} example translation ("two stops" → "the second stop", since the entry exists to teach the ordinal 〜{目|め}); rejected both {海草|かいそう} gloss nits, where "marine flowering plant" is precisely the botanical definition that separates it from {海藻|かいそう}. $0.0087.
+
+- **Performer / evaluation types (3)**: {正統派|せいとうは}, {演技派|えんぎは}, {個性派|こせいは}
+- **Counters / ordinals / dates (6)**: {何回目|なんかいめ}, {二|ふた}つ{目|め}, {二枚|にまい}, {七人|しちにん}, {何曜日|なんようび}, {十一日|じゅういちにち}
+- **Business / risk (2)**: {総資産|そうしさん}, ハイリスク
+- **Nature / food (2)**: めかぶ, {海草|かいそう}
+- **Abstract / grammar (4)**: {自身|じしん}, あっちこっち, {危|あや}うさ, {別世界|べっせかい}
+- **People / objects / verbs (3)**: {提唱者|ていしょうしゃ}, {蚊遣|かや}り{豚|ぶた}, {打|う}ち{砕|くだ}く
+
 ### 2026-08-02 (Routine v2: new-entries — 20 New Entries, IDs 30318–30337)
 Created 20 general-tier entries, **draining the "seen in entry" lane again** (15 available, 13 created). Two were dropped as stale before creation: C22687 エグい, a katakana orthographic variant of existing 05608 えぐい, and C22691 {白状|はくじょう}, already covered by 21378 {白状|はくじょう}する, whose POS tags are `["noun", "verb-suru"]`. The seen-in thirteen: the three {派|は}-suffix performer types {速球派|そっきゅうは} / {本格派|ほんかくは} / {実力派|じつりょくは}, which now cross-describe each other and 30317 {技巧派|ぎこうは}; the accounting pair {他人資本|たにんしほん} and {純資産|じゅんしさん}, **completing the {自己資本|じこしほん} contrast set** started on 2026-08-01; the mimetic ふにゃふにゃ (distinguished from ぐにゃぐにゃ, ふわふわ, and べちゃべちゃ by loss-of-firmness vs. bending vs. pleasant softness vs. wetness); {飛|と}び{乗|の}る (intransitive, に-marked, paired against {飛|と}び{降|お}りる); {忙|せわ}しい (the same kanji as {忙|いそが}しい read せわしい, linked to existing 06736 {忙|せわ}しない); はしたない, with a REGISTER section on its dated, prescriptive flavor; {何分|なんぷん} (two senses — duration and clock-minute — plus the ふん/ぷん counter alternation, and the {何分|なにぶん} homograph warning); {四時|よじ}, documenting the three irregular hour readings よじ/しちじ/くじ; {最期|さいご}, with the ✗{最後|さいご}を{看取|みと}る kanji-choice mistake called out; and {優良|ゆうりょう}. The other 7 are hand-picked, because the ~990-strong non-seen pool is **still heavily polluted** — filtered scans of the C11000–C20000 blocks returned mostly numeric fragments (三百, 六歳, 四人), transparent compounds (全商品, 追加機能, 調達費), and apparent non-words (個尊, 些道, 怒燥, 老健); the `[pattern]` observation now also notes that `routine_next.py`'s `candidates_low` signal reads raw count and so reports "plentiful" while real supply is ~15/run. The seven: {完了形|かんりょうけい} (grammar term, with the {進行形|しんこうけい}/{受動態|じゅどうたい}/{仮定法|かていほう} series), {避難口|ひなんぐち} (contrasted with the commoner 07045 {非常口|ひじょうぐち}), {国章|こくしょう}, {推進者|すいしんしゃ}, {受取先|うけとりさき} (placed in the 〜{先|さき} series with 12275 {宛先|あてさき} / 23506 {送|おく}り{先|さき} / 11083 {取引先|とりひきさき}), {不許可|ふきょか}, and {内通者|ないつうしゃ}. Conjugation tables added to the godan verb and the 2 i-adjectives; **no new kanji**. 2 stale candidates removed, 5 added from words the new entries reference; 1,004 remain. §4 cross-model self-check on all 20 new entries: **2 flagged, 2 applied, 0 rejected** — both `tags.formality` `formal`→`neutral` on {避難口|ひなんぐち} and {受取先|うけとりさき}, applied because the dictionary's own comparable entries (非常口, 宛先, 送り先) all tag `neutral`. $0.0087.
 
@@ -92,13 +102,3 @@ Created 20 general-tier entries, **draining the entire "seen in entry" candidate
 - **Verbs / adjectives (4)**: {飛|と}び{掛|か}かる, やかましい, おしとやか, {気|き}が{強|つよ}い
 - **Administration / finance (3)**: {行政機関|ぎょうせいきかん}, {譲渡費用|じょうとひよう}, {開設|かいせつ}する
 - **Other (3)**: {平常時|へいじょうじ}, {下痢止|げりど}め, {反対方向|はんたいほうこう}
-
-### 2026-07-30 (Routine v2: new-entries — 18 New Entries, IDs 30241–30258)
-Created 18 general-tier entries, **draining the entire "seen in entry" candidate pool again** (21 available; 18 created, 3 removed as stale). The three dropped were {逆転|ぎゃくてん}する (06839 already carries `noun` + `verb-suru`), {心掛|こころが}ける (okurigana variant of 10015 {心|こころ}がける), and {引|ひ}っ{越|こ}し (okurigana variant of 03704 {引越|ひっこ}し) — `check_duplicate.py` returned `OK` for all three and surfaced two of them only as parenthetical homophone notes, the same gap logged as a `[tooling]` observation on 2026-07-29. The batch completes the accounting cluster the last four runs have been building ({仮払金|かりばらいきん} finishing the {仮払|かりばら}い pair from 30222–30240, {取得費|しゅとくひ} joining the 費-expense family) and adds **three grammar entries** the dictionary had referenced but never defined: the general conditional ば (cross-referenced against 09575 なら, with the four-way ば/たら/なら/と contrast) and the feminine sentence-final combinations わよ and のよ, which join the existing ね/よ/ぜ/かしら particle set. {創|つく}る completes the つくる orthography trio alongside 00481 {作|つく}る and 17751 {造|つく}る, with a three-way ORTHOGRAPHY note and reciprocal cross-references. Conjugation table added to the one godan verb; **no new kanji**. 5 referenced-but-missing words added as candidates (C22635–C22639); the other 13 words named in the new notes were already entries or candidates. §4 cross-model self-check on all 18 changed entries: **17 clean, 1 flagged — 1 applied, 0 rejected** (`person` removed from {青春時代|せいしゅんじだい}'s semantic tags; it is a period, not a person). $0.0079.
-
-- **Grammar / particles (3)**: ば, わよ, のよ
-- **Accounting / finance (2)**: {仮払金|かりばらいきん}, {取得費|しゅとくひ}
-- **Work / school life (4)**: {歓送迎会|かんそうげいかい}, {三学期|さんがっき}, {本試験|ほんしけん}, {時間切|じかんぎ}れ
-- **Tools / technical (2)**: {充電式|じゅうでんしき}, {刈|か}り{払|はら}い{機|き}
-- **Places / people / nature (4)**: {滞在者|たいざいしゃ}, {本国|ほんごく}, {水遊|みずあそ}び, {細流|さいりゅう}
-- **Other (3)**: {非常時|ひじょうじ}, {青春時代|せいしゅんじだい}, {創|つく}る
