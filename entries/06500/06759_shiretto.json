@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06759_shiretto_ex1",
-      "japanese": "{遅刻|ちこく}したのにしれっとした{顔|かお}で{入|はい}ってきた。",
+      "japanese": "⟦{遅刻|ちこく}した→遅刻：03465_chikoku⟧⟦のに→のに：10529_noni⟧しれっと⟦した→する：00392_suru⟧⟦{顔|かお}→顔：00558_kao⟧⟦で→で：00502_de⟧⟦{入|はい}って→入る：00494_hairu⟧⟦きた→来る：00254_kuru⟧。",
       "english": "They came in with a nonchalant face despite being late.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06759_shiretto_ex2",
-      "japanese": "{嘘|うそ}をついてもしれっとしている。",
+      "japanese": "⟦{嘘|うそ}をついても→嘘をつく：21763_usowotsuku⟧しれっと⟦している→する：00392_suru⟧。",
       "english": "Even after lying, they remain cool and unbothered.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06759_shiretto_ex3",
-      "japanese": "{彼|かれ}はしれっと{約束|やくそく}を{破|やぶ}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧しれっと⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧⟦{破|やぶ}った→破る：02321_yaburu⟧。",
       "english": "He brazenly broke the promise.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nしれっと + verb / しれっとした + noun\n\nDescribes acting unfazed when one should feel embarrassed or guilty:\n・しれっとした{顔|かお} (a nonchalant face)\n・しれっと{嘘|うそ}をつく (to lie brazenly)\n・しれっと{現|あらわ}れる (to appear as if nothing happened)\n・しれっと{言|い}う (to say coolly/brazenly)\n\nNUANCE:\nOften implies slight criticism or amazement at someone's audacity or lack of shame. Can be used both negatively (describing shameless behavior) or with grudging admiration for someone's composure.\n\nSIMILAR WORDS:\n・けろっと - nonchalantly, casually (less critical)\n・{平然|へいぜん}と - calmly, composedly (more formal)\n・{涼|すず}しい{顔|かお}で - with a cool face",
+  "notes": "USAGE:\nしれっと + verb / しれっと⟦した→する：00392_suru⟧ + noun\n\nDescribes acting unfazed when one should feel embarrassed or guilty:\n・しれっと⟦した→する：00392_suru⟧⟦{顔|かお}→顔：00558_kao⟧ (a nonchalant face)\n・しれっと⟦{嘘|うそ}をつく→嘘をつく：21763_usowotsuku⟧ (to lie brazenly)\n・しれっと⟦{現|あらわ}れる→現れる：01870_arawareru⟧ (to appear as if nothing happened)\n・しれっと⟦{言|い}う→言う：00515_iu⟧ (to say coolly/brazenly)\n\nNUANCE:\nOften implies slight criticism or amazement at someone's audacity or lack of shame. It can be used negatively, of shameless behavior, or with grudging admiration for someone's composure.\n\nREGISTER:\nA colloquial word, at home in conversation, blogs, and social media. It does not appear in formal writing; ⟦{平然|へいぜん}と→平然と：15737_heizento⟧ is the written equivalent.\n\nSIMILAR WORDS:\n・⟦けろっと→けろっと：06933_kerotto⟧ - nonchalantly, casually (describes recovering quickly or being unbothered; carries less criticism)\n・⟦{平然|へいぜん}と→平然と：15737_heizento⟧ - calmly, composedly (more formal, and neutral about whether the composure is deserved)\n・⟦{涼|すず}しい{顔|かお}→涼しい顔：21639_suzushiikao⟧⟦で→で：00502_de⟧ - with a cool face (a set phrase, close in meaning to しれっとした{顔|かお}⟦で→で：00502_de⟧)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "reading": "へいぜんと",
       "headword": "{平然|へいぜん}と",
       "label": "calmly, composedly"
+    },
+    {
+      "type": "related",
+      "target_id": "21639_suzushiikao",
+      "reading": "すずしいかお",
+      "headword": "{涼|すず}しい{顔|かお}",
+      "label": "calm face, acting as if nothing happened"
     }
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-08-03T15:18:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

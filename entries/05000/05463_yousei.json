@@ -153,11 +153,33 @@
       ]
     }
   ],
-  "notes": "{要請|ようせい} is a formal request, typically from an authority or organization to another party. Stronger and more official than ⟦{依頼|いらい}→依頼：02594_irai⟧ but less forceful than ⟦{要求|ようきゅう}→要求：03658_youkyuu⟧.\n\nCOMMON COLLOCATIONS:\n- {要請|ようせい}する: to make a formal request\n- {要請|ようせい}⟦に→に：00314_ni⟧⟦{応|こた}じる→応じる：02018_oujiru⟧: to comply with a request\n- {要請|ようせい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a request\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{要請|ようせい}: urgent request\n- ⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧{要請|ようせい}: request for cooperation\n- ⟦{支援|しえん}→支援：07778_shien⟧{要請|ようせい}: request for assistance\n\nUSAGE:\nOften used in government, military, and institutional contexts: ⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧⟦{自粛|じしゅく}→自粛：07650_jishuku⟧⟦を→を：00422_wo⟧{要請|ようせい}⟦した→する：00392_suru⟧ (the government requested restraint). Common during disasters and emergencies.\n\nFORMALITY SCALE (request words):\n- ⟦お{願|ねが}い→お願い：10299_onegai⟧: request (polite, everyday)\n- ⟦{依頼|いらい}→依頼：02594_irai⟧: request (business-level)\n- {要請|ようせい}: formal request (official/institutional)\n- ⟦{要求|ようきゅう}→要求：03658_youkyuu⟧: demand (strongest)",
-  "cross_references": [],
+  "notes": "{要請|ようせい} is a formal request, typically from an authority or organization to another party. Stronger and more official than ⟦{依頼|いらい}→依頼：02594_irai⟧ but less forceful than ⟦{要求|ようきゅう}→要求：03658_youkyuu⟧.\n\nCOMMON COLLOCATIONS:\n- {要請|ようせい}⟦する→する：00392_suru⟧: to make a formal request\n- {要請|ようせい}⟦に→に：00314_ni⟧⟦{応|おう}じる→応じる：02018_oujiru⟧: to comply with a request\n- {要請|ようせい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive a request\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{要請|ようせい}: urgent request\n- ⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧{要請|ようせい}: request for cooperation\n- ⟦{支援|しえん}→支援：07778_shien⟧{要請|ようせい}: request for assistance\n\nUSAGE:\nOften used in government, military, and institutional contexts: ⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧⟦{自粛|じしゅく}→自粛：07650_jishuku⟧⟦を→を：00422_wo⟧{要請|ようせい}⟦した→する：00392_suru⟧ (the government requested restraint). Common during disasters and emergencies.\n\nFORMALITY SCALE (request words):\n- ⟦お{願|ねが}い→お願い：10299_onegai⟧: request (polite, everyday)\n- ⟦{依頼|いらい}→依頼：02594_irai⟧: request (business-level)\n- {要請|ようせい}: formal request (official/institutional)\n- ⟦{要求|ようきゅう}→要求：03658_youkyuu⟧: demand (strongest)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02594_irai",
+      "reading": "いらい",
+      "headword": "{依頼|いらい}",
+      "label": "request (business-level, less official)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03658_youkyuu",
+      "reading": "ようきゅう",
+      "headword": "{要求|ようきゅう}",
+      "label": "demand (stronger)"
+    },
+    {
+      "type": "related",
+      "target_id": "10299_onegai",
+      "reading": "おねがい",
+      "headword": "お{願|ねが}い",
+      "label": "request (polite, everyday)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T07:40:15Z",
-    "modified": "2026-06-06T16:08:59Z",
+    "modified": "2026-08-03T15:18:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

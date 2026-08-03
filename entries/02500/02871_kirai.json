@@ -34,7 +34,7 @@
     },
     {
       "id": "02871_kirai_ex3",
-      "japanese": "⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦が→が：00051_ga⟧{嫌|きら}い⟦じゃない→じゃない：noentry⟧。",
+      "japanese": "⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦が→が：00051_ga⟧{嫌|きら}い⟦じゃない→じゃない：28483_janai⟧。",
       "english": "I don't dislike studying.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{嫌|きら}い is a na-adjective expressing dislike. Unlike English \"hate,\" it's commonly used for mild dislikes.\n\nFORMS:\n- {嫌|きら}い⟦だ→だ：09496_da⟧: (I) dislike\n- {嫌|きら}いな + noun: disliked ~\n- {嫌|きら}いではない: don't dislike\n\nINTENSITY SCALE:\n- ⟦{好|す}き→好き：02355_suki⟧: like\n- {嫌|きら}い⟦じゃない→じゃない：noentry⟧: don't dislike\n- {嫌|きら}い: dislike\n- ⟦{大嫌|だいきら}い→大嫌い：12178_daikirai⟧: really hate\n\nCOMMON PATTERNS:\n- 〜⟦が→が：00051_ga⟧{嫌|きら}い: dislike ~\n- {嫌|きら}い⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to come to dislike\n- {嫌|きら}いではありません: I don't dislike (polite denial)\n\nNOTE:\nThe particle が marks what is disliked: ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦が→が：00051_ga⟧{嫌|きら}い (dislike vegetables). The subject marker は can replace が for contrast.",
+  "notes": "{嫌|きら}い is a na-adjective expressing dislike. Unlike English \"hate,\" it covers mild dislikes as well as strong ones, so it is the ordinary word for \"I don't like it.\"\n\nFORMS:\n- {嫌|きら}い⟦だ→だ：09496_da⟧: (I) dislike\n- {嫌|きら}いな + noun: disliked ~\n- {嫌|きら}いではない / {嫌|きら}い⟦じゃない→じゃない：28483_janai⟧: don't dislike\n\nINTENSITY SCALE:\n- ⟦{好|す}き→好き：02355_suki⟧: like\n- {嫌|きら}い⟦じゃない→じゃない：28483_janai⟧: don't dislike\n- {嫌|きら}い: dislike\n- ⟦{大嫌|だいきら}い→大嫌い：12178_daikirai⟧: really hate\n\nCOMMON PATTERNS:\n- 〜⟦が→が：00051_ga⟧{嫌|きら}い: dislike ~\n- {嫌|きら}い⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to come to dislike\n- {嫌|きら}いではありません: I don't dislike (polite denial)\n\nPARTICLES:\n⟦が→が：00051_ga⟧ marks what is disliked: ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦が→が：00051_ga⟧{嫌|きら}い (dislike vegetables). The topic marker ⟦は→は：00079_ha⟧ replaces ⟦が→が：00051_ga⟧ when the item is contrasted with something else: ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦は→は：00079_ha⟧{嫌|きら}い⟦です→です：09485_desu⟧ (vegetables, at least, I don't like).\n\nCAUTION — PEOPLE:\nSaying {嫌|きら}い directly about a person is blunt and can sound harsh. In conversation speakers usually soften it: ⟦{苦手|にがて}→苦手：03513_nigate⟧ (not comfortable with), あまり{好|す}きではない (not very fond of), or ⟦{好|す}き→好き：02355_suki⟧⟦じゃない→じゃない：28483_janai⟧.\n\nCONTRAST WITH ⟦{苦手|にがて}→苦手：03513_nigate⟧:\n{嫌|きら}い states an emotional dislike; ⟦{苦手|にがて}→苦手：03513_nigate⟧ says the speaker is bad at something or ill at ease with it, and is the politer choice for foods, subjects, and people.",
   "cross_references": [
     {
       "type": "antonym",
@@ -85,11 +85,25 @@
       "reading": "きらう",
       "headword": "{嫌|きら}う",
       "label": "to dislike (verb form)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03513_nigate",
+      "reading": "にがて",
+      "headword": "{苦手|にがて}",
+      "label": "poor at, not comfortable with (softer)"
+    },
+    {
+      "type": "related",
+      "target_id": "12178_daikirai",
+      "reading": "だいきらい",
+      "headword": "{大嫌|だいきら}い",
+      "label": "to really hate (stronger)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:31:00Z",
-    "modified": "2026-05-22T19:10:13Z",
+    "modified": "2026-08-03T15:18:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -99,6 +113,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
+        "emotion",
         "descriptive"
       ]
     }

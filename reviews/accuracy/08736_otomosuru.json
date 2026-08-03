@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:29:33Z",
+  "reviewed_at": "2026-08-03T15:33:41Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Missing 'action' tag for a suru-verb.",
+      "suggestion": "Add 'action' to semantic_tags."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'social' is not in the valid tag list.",
+      "suggestion": "Replace 'social' with 'daily-life' or 'communication'."
+    }
+  ]
 }

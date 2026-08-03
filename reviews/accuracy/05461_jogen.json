@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-14T16:50:44Z",
+  "reviewed_at": "2026-08-03T15:33:13Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '助言' is not exclusively formal; it can be used in neutral contexts as well.",
+      "suggestion": "neutral"
+    }
+  ]
 }
