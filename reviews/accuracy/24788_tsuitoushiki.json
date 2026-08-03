@@ -1,0 +1,22 @@
+{
+  "entry_id": "24788_tsuitoushiki",
+  "headword": "{追悼式|ついとうしき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:28:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'religion' is not always applicable to a memorial service, which can be secular.",
+      "suggestion": "Remove 'religion' or replace with 'society' or 'daily-life' if a broader tag is desired."
+    }
+  ]
+}

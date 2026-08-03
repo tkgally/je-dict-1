@@ -1,0 +1,22 @@
+{
+  "entry_id": "24816_koushoku",
+  "headword": "{好色|こうしょく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:28:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'personality' is too narrow for the headword '好色' which also encompasses 'love of beauty; sensual appreciation' (sense 2).",
+      "suggestion": "Add 'cognition' or 'emotion' to reflect the broader meaning of appreciation or feeling."
+    }
+  ]
+}

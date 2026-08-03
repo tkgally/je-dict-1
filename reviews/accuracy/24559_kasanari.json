@@ -1,0 +1,24 @@
+{
+  "entry_id": "24559_kasanari",
+  "headword": "{重|かさ}なり",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:27:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'quantity' is incorrect for '重なり'.",
+      "suggestion": "Replace 'quantity' with 'general' or 'existence'."
+    }
+  ]
+}

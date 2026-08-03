@@ -1,0 +1,22 @@
+{
+  "entry_id": "24570_kasure",
+  "headword": "かすれ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:28:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'health' is too narrow and potentially misleading for the headword 'かすれ'. While 'hoarseness' (sense 1) can be related to health, 'blur; fading; faintness' (sense 2) is not. The tag implies a primary or exclusive connection to health, which is not the case for the word's full meaning.",
+      "suggestion": "Remove 'health'. The 'descriptive' tag is sufficient for the general nature of the word."
+    }
+  ]
+}

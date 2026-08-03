@@ -1,0 +1,22 @@
+{
+  "entry_id": "24805_nyuuinkanja",
+  "headword": "{入院|にゅういん}{患者|かんじゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:28:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'health' is too broad for a word specifically referring to a person. 'person' would be more appropriate.",
+      "suggestion": "person"
+    }
+  ]
+}

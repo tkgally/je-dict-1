@@ -1,0 +1,22 @@
+{
+  "entry_id": "24580_kankoubutsu",
+  "headword": "{刊行物|かんこうぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:28:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'education' is not directly related to the headword's meaning of 'publication'. While publications can be used in education, '刊行物' itself does not inherently mean 'education'.",
+      "suggestion": "Remove 'education'."
+    }
+  ]
+}

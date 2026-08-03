@@ -1,0 +1,22 @@
+{
+  "entry_id": "24933_jomou",
+  "headword": "{除毛|じょもう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:29:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '除毛' (hair removal). '除毛' is an action, not a body part.",
+      "suggestion": "Replace 'body-part' with 'action'."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entry_id": "24730_seiryokuhani",
+  "headword": "{勢力範囲|せいりょくはんい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-08-03T09:28:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'direction' is inappropriate for '勢力範囲' (sphere of influence).",
+      "suggestion": "Remove 'direction'."
+    }
+  ]
+}
