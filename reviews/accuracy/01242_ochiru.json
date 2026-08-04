@@ -2,51 +2,23 @@
   "entry_id": "01242_ochiru",
   "headword": "{落|お}ちる",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:46:27Z",
+  "reviewed_at": "2026-08-04T00:27:36Z",
   "summary": {
-    "flagged": 5
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "translation",
-      "location": "examples[1]",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The English translation 'I didn't get the job' is too specific. The Japanese '会社に落ちてしまった' implies failing an application or selection process for a company, which could be for a job, an internship, or even admission to a company-affiliated program. 'I failed the company application' or 'I didn't get into the company' would be more accurate.",
-      "suggestion": "I failed the company application."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "error",
-      "concern": "The English translation 'so I was stuck' is an unnatural and somewhat misleading rendering of '困った'. '困った' here means 'I was troubled' or 'it was a problem/bother'. 'Stuck' implies inability to proceed, which isn't the primary meaning here.",
-      "suggestion": "The dirt wouldn't come off even after washing, which was a problem."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "error",
-      "concern": "The parenthetical '(is on the ground)' is an unnecessary addition and makes the translation less natural. 'Your wallet has fallen' or 'Your wallet fell' is sufficient and more natural.",
-      "suggestion": "Your wallet has fallen."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "error",
-      "concern": "The translation 'Rain started to fall' is incorrect. '雨が落ちてきた' means 'Rain came down' or 'It started raining'. '落ちてきた' implies the rain is already falling, not just starting.",
-      "suggestion": "Rain came down."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[12]",
-      "severity": "error",
-      "concern": "The translation 'My makeup came off' is too literal and not the most natural English expression. 'My makeup rubbed off' or 'My makeup smudged' would be more common, depending on the context of how it 'came off'. Given the general sense of 'removed', 'My makeup came off' is acceptable but could be improved for naturalness.",
-      "suggestion": "My makeup rubbed off."
+      "concern": "The main gloss is incomplete and misleading as it only covers sense 1, ignoring senses 2 and 3 which are distinct meanings.",
+      "suggestion": "Expand the main gloss to include all primary meanings, e.g., 'to fall, to drop, to fail, to come off'."
     }
   ]
 }
