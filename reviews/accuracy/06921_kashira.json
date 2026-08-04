@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-18T09:29:13Z",
+  "reviewed_at": "2026-08-04T00:27:44Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.formality",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The particle かしら is not formal; it is typically used in informal or casual speech, especially by women.",
-      "suggestion": "neutral or informal"
+      "concern": "The gloss states '(feminine)' which is misleading. While traditionally associated with feminine speech, it is also used by men, especially in certain contexts or dialects, and is not exclusively feminine.",
+      "suggestion": "I wonder"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss states '(feminine)' which is misleading. While traditionally associated with feminine speech, it is also used by men, especially in certain contexts or dialects, and is not exclusively feminine.",
+      "suggestion": "I wonder"
     }
   ]
 }
