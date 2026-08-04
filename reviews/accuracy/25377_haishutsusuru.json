@@ -1,0 +1,24 @@
+{
+  "entry_id": "25377_haishutsusuru",
+  "headword": "{排出|はいしゅつ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:44:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'environment' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

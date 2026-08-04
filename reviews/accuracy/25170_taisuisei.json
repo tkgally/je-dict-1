@@ -1,0 +1,24 @@
+{
+  "entry_id": "25170_taisuisei",
+  "headword": "{耐水性|たいすいせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:34:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'material' is not a valid semantic tag.",
+      "suggestion": "Replace 'material' with a valid tag from the provided list. 'technology' is already present and appropriate. 'general' could be a fallback if another specific tag isn't suitable."
+    }
+  ]
+}

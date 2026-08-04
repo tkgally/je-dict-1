@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T23:41:13Z",
+  "reviewed_at": "2026-08-04T12:51:35Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'body' is not in the valid tag list.",
-      "suggestion": "body-part"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'time' is too broad for the headword's meaning, which specifically refers to a 'moment' or 'instant'.",
-      "suggestion": "time-general"
+      "concern": "The tag 'body-part' is incorrect for the headword '瞬き'. '瞬き' refers to the action of blinking, not a body part itself.",
+      "suggestion": "Remove 'body-part'."
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25505_senpukusuru",
+  "headword": "{潜伏|せんぷく}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:51:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'crime' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25231_happyousuru",
+  "headword": "{発表|はっぴょう}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:35:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'academics' is not in the valid tag list.",
+      "suggestion": "education"
+    }
+  ]
+}

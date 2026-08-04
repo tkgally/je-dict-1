@@ -1,0 +1,31 @@
+{
+  "entry_id": "25134_oodainose",
+  "headword": "{大台乗|おおだいの}せ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:29:50Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'economy' is not in the valid tag list.",
+      "suggestion": "finance"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'achievement' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

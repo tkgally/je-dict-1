@@ -1,0 +1,24 @@
+{
+  "entry_id": "25475_yuuwakusuru",
+  "headword": "{誘惑|ゆうわく}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:48:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'relationship' is not a valid semantic tag.",
+      "suggestion": "Remove 'relationship' or replace it with a valid tag like 'society' or 'person' if applicable, though 'emotion' and 'action' (implied by suru-verb) are sufficient."
+    }
+  ]
+}

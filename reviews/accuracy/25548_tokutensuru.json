@@ -1,0 +1,24 @@
+{
+  "entry_id": "25548_tokutensuru",
+  "headword": "{得点|とくてん}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:54:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '得点する' can also refer to scoring on a test, not just in sports. The tag 'sports' is too narrow.",
+      "suggestion": "Add 'education' to the semantic tags."
+    }
+  ]
+}

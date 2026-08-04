@@ -1,0 +1,24 @@
+{
+  "entry_id": "25481_buppin",
+  "headword": "{物品|ぶっぴん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:49:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'business' is too narrow and misleading for '物品'. While it can be used in business contexts, its core meaning is 'goods' or 'articles' in a general sense, not exclusively business-related.",
+      "suggestion": "general"
+    }
+  ]
+}

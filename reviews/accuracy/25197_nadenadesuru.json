@@ -1,0 +1,24 @@
+{
+  "entry_id": "25197_nadenadesuru",
+  "headword": "なでなでする",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:34:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword is an onomatopoeia, but the tag 'onomatopoeia' is missing.",
+      "suggestion": "Add 'onomatopoeia' to the semantic tags."
+    }
+  ]
+}

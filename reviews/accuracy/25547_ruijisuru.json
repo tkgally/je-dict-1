@@ -1,0 +1,24 @@
+{
+  "entry_id": "25547_ruijisuru",
+  "headword": "{類似|るいじ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:54:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'comparison' is not in the valid list.",
+      "suggestion": "general"
+    }
+  ]
+}

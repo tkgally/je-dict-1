@@ -1,0 +1,24 @@
+{
+  "entry_id": "25395_fukkisuru",
+  "headword": "{復帰|ふっき}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:45:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'movement' is too narrow and potentially misleading for '復帰する'. While some instances involve physical movement, the core meaning is about returning to a previous state, position, or role, which is more abstract.",
+      "suggestion": "action"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25268_shonendo",
+  "headword": "{初年度|しょねんど}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:37:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'time' is too broad. 'time-general' is a better fit.",
+      "suggestion": "time-general"
+    }
+  ]
+}

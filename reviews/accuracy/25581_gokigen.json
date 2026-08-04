@@ -1,0 +1,24 @@
+{
+  "entry_id": "25581_gokigen",
+  "headword": "ご{機嫌|きげん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:54:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'greeting' is incorrect for the headword 'ご機嫌'. While 'ご機嫌いかがですか' is a greeting, 'ご機嫌' itself refers to mood/spirits, not the act of greeting.",
+      "suggestion": "Remove 'greeting'."
+    }
+  ]
+}

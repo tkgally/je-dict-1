@@ -1,0 +1,24 @@
+{
+  "entry_id": "25214_o",
+  "headword": "{緒|お}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:35:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'object' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

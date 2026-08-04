@@ -1,0 +1,24 @@
+{
+  "entry_id": "25109_dekigokorode",
+  "headword": "{出来心|できごころ}で",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:25:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'behavior'",
+      "suggestion": "action"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25335_tekisetsuna",
+  "headword": "{適切|てきせつ}な",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:43:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword is tagged 'formal' in semantic_tags, but 'formality' is null. This is inconsistent and potentially misleading.",
+      "suggestion": "Set 'formality' to 'formal'."
+    }
+  ]
+}
