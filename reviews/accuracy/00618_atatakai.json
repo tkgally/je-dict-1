@@ -2,12 +2,13 @@
   "entry_id": "00618_atatakai",
   "headword": "{暖|あたた}かい",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:16Z",
+  "reviewed_at": "2026-08-04T09:26:10Z",
   "summary": {
     "flagged": 1
   },
@@ -16,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The 'weather' tag is too narrow for the headword, which also describes feelings and personalities.",
-      "suggestion": "Add 'emotions' or 'personality' to the semantic tags, or remove 'weather' and use a more general tag like 'general'."
+      "concern": "The semantic tag 'emotion' is not appropriate for the headword '暖かい' itself, even though it can describe warm feelings or personality. The word itself is an adjective describing warmth, not an emotion.",
+      "suggestion": "Remove 'emotion' tag."
     }
   ]
 }
