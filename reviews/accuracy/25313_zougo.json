@@ -1,0 +1,24 @@
+{
+  "entry_id": "25313_zougo",
+  "headword": "{造語|ぞうご}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:40:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '造語' (zougo) can refer to both the 'coined word' itself and the 'act of coining words'. The current semantic tag 'language' only covers the 'coined word' aspect. To fully represent the meaning of the headword, 'action' should also be included.",
+      "suggestion": "Add 'action' to the semantic tags."
+    }
+  ]
+}

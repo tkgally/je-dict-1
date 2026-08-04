@@ -5737,3 +5737,15 @@
 {"ts":"2026-08-04T09:28:00Z","entry":"00618","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"emotion wrong for adjective; used personality"}
 {"ts":"2026-08-04T09:28:00Z","entry":"06770","src":"self-check","dim":"gloss","sev":"error","decision":"reject","note":"standalone aisu is ice cream not koori"}
 {"ts":"2026-08-04T09:28:00Z","entry":"06770","src":"self-check","dim":"gloss","sev":"error","decision":"reject","note":"suggestion restates existing sense-2 gloss"}
+{"ts":"2026-08-04T13:02:23Z","src":"accuracy","dim":"tags","sev":"error","decision":"apply","n":136,"note":"family: off-vocab semantic tags migrated to VALID_SEMANTIC"}
+{"ts":"2026-08-04T13:02:23Z","src":"accuracy","dim":"tags","sev":"warn","decision":"apply","n":99,"note":"family: same off-vocab tags, warn severity"}
+{"ts":"2026-08-04T13:02:23Z","entry":"25192","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"sake koji is not sake lees"}
+{"ts":"2026-08-04T13:02:23Z","entry":"25509","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"translation dropped retake sense"}
+{"ts":"2026-08-04T13:02:23Z","entry":"25555","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"dissolve/fuse wrong for yuukai; melt only"}
+{"ts":"2026-08-04T13:02:23Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":11,"note":"family: okurigana splits, rendaku, parse failures"}
+{"ts":"2026-08-04T13:07:03Z","entry":"25143","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"tiptoe is posture not body-part; used movement"}
+{"ts":"2026-08-04T13:07:03Z","entry":"25375","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"weather tagged from example not headword"}
+{"ts":"2026-08-04T13:07:03Z","src":"self-check","dim":"tags","sev":"error","decision":"reject","n":4,"note":"family: invented suru-verbs-need-action convention"}
+{"ts":"2026-08-04T13:07:03Z","entry":"25455","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"food valid for restaurant; in-list nit"}
+{"ts":"2026-08-04T13:07:03Z","entry":"25478","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"habitat sense supports nature; breadth nit"}
+{"ts":"2026-08-04T13:07:03Z","entry":"25490","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"gloss includes cooking sense; food justified"}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25149_kanriryou",
+  "headword": "{管理料|かんりりょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:30:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'housing' is not in the valid tag list.",
+      "suggestion": "finance"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25154_gaichuukujo",
+  "headword": "{害虫駆除|がいちゅうくじょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:31:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "'nature' is not appropriate for 'pest control'",
+      "suggestion": "remove 'nature'"
+    }
+  ]
+}

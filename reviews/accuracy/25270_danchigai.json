@@ -1,0 +1,24 @@
+{
+  "entry_id": "25270_danchigai",
+  "headword": "{段違|だんちが}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:38:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'degree' is not in the valid tag list.",
+      "suggestion": "Replace 'degree' with a valid tag from the list, such as 'quantity' or 'descriptive'."
+    }
+  ]
+}

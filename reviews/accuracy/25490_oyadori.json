@@ -1,0 +1,24 @@
+{
+  "entry_id": "25490_oyadori",
+  "headword": "{親鳥|おやどり}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T13:05:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is not appropriate for the headword '親鳥' itself, which primarily refers to the bird as an animal, not as a food item. While one sense of the word relates to cooking, the headword's core meaning is 'parent bird' or 'adult bird'.",
+      "suggestion": "Remove the 'food' tag. The 'animal-bird' tag is sufficient and accurate for the headword."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25306_gazen",
+  "headword": "{俄然|がぜん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:40:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time' is too broad and misleading for '俄然'. While it relates to a change in time, it primarily describes the manner or suddenness of an action or state change, not a specific point or duration of time.",
+      "suggestion": "Replace 'time' with 'descriptive' or 'change'."
+    }
+  ]
+}

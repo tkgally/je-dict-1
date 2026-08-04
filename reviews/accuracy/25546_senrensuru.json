@@ -1,0 +1,24 @@
+{
+  "entry_id": "25546_senrensuru",
+  "headword": "{洗練|せんれん}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T13:06:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Missing 'action' tag for a suru-verb.",
+      "suggestion": "Add 'action' to semantic_tags."
+    }
+  ]
+}

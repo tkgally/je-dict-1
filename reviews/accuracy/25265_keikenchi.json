@@ -1,0 +1,24 @@
+{
+  "entry_id": "25265_keikenchi",
+  "headword": "{経験値|けいけんち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:37:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'gaming' is not in the list of valid semantic tags.",
+      "suggestion": "Replace 'gaming' with 'entertainment' or 'general'."
+    }
+  ]
+}

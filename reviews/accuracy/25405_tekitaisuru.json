@@ -1,0 +1,24 @@
+{
+  "entry_id": "25405_tekitaisuru",
+  "headword": "{敵対|てきたい}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:45:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'communication' is incorrect for '敵対する'. The word describes a state of hostility or opposition, not primarily an act of communication.",
+      "suggestion": "Replace 'communication' with 'action' or 'emotion' or 'society'."
+    }
+  ]
+}

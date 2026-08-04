@@ -1,0 +1,11 @@
+{
+  "entry_id": "25275",
+  "screened_at": "2026-08-04T12:54:14Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 大空 is given as おおぞら in the entry title, but later in the list, it's given as たいくう. While 大空 can be read as both, the entry implies おおぞら is the primary reading for the noun, and たいくう is a different reading or context. The prompt states 'Do NOT flag partial readings as errors — they are correct by design' and 'Judge ONLY the \"kanji → reading\" pair itself.' However, having two different readings for the same kanji in the same list without further context (like a different part of speech or specific compound) could be considered an inconsistency or error in a dictionary entry if not properly distinguished. Given the prompt's focus on 'kanji → reading' pair, and the fact that both are valid readings, it's a nuanced case. But if the entry is for the noun 'おおぞら', then 'たいくう' for '大空' might be an error in the context of *this specific entry's primary focus*.",
+    "The reading for 羽 is given as は. While 羽 can be read as は (e.g., in 一羽), the context 'ばたく: to spread one' suggests it's part of 羽ばたく (はばたく). If the reading 'は' is for the kanji 羽 in isolation, it's correct. However, if it's meant to be part of 羽ばたく, then 'は' is a partial reading, which the prompt says not to flag. But if it's presented as the reading for the kanji '羽' in the context of '羽ばたく', it's incomplete. Given the instruction 'the reading covers ONLY the kanji portion', 'は' for '羽' is technically correct, but the context makes it ambiguous if it's the full reading for the word '羽ばたく' or just the kanji '羽'. I will flag it as a potential ambiguity rather than a definitive error, as the prompt allows for partial readings."
+  ],
+  "confidence": 0.7
+}

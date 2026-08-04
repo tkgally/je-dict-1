@@ -1,0 +1,24 @@
+{
+  "entry_id": "25279_howaitodee",
+  "headword": "ホワイトデー",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:39:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid tag 'calendar'.",
+      "suggestion": "Replace 'calendar' with 'time-general'."
+    }
+  ]
+}

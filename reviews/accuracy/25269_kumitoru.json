@@ -1,0 +1,24 @@
+{
+  "entry_id": "25269_kumitoru",
+  "headword": "{汲|く}み{取|と}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:37:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'cognition' is not appropriate for the first sense of the word, which refers to physical action.",
+      "suggestion": "Remove 'cognition' as a headword tag, or add 'movement' or 'daily-life' to reflect the first sense."
+    }
+  ]
+}

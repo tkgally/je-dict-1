@@ -1,0 +1,24 @@
+{
+  "entry_id": "25591_juerii",
+  "headword": "ジュエリー",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:55:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'clothing' is misleading for 'jewelry'.",
+      "suggestion": "Replace 'clothing' with 'daily-life' or 'art'."
+    }
+  ]
+}

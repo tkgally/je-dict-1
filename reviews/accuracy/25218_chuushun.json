@@ -1,0 +1,24 @@
+{
+  "entry_id": "25218_chuushun",
+  "headword": "{仲春|ちゅうしゅん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T12:35:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'time' is not in the valid tag list.",
+      "suggestion": "time-general"
+    }
+  ]
+}
