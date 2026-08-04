@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T18:16:25Z",
+  "reviewed_at": "2026-08-04T18:29:19Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'work' is too narrow and misleading for the headword '得意' which has broader meanings like 'good at' and 'proud'.",
-      "suggestion": "Replace 'work' with 'general' or 'cognition' to better reflect the diverse meanings."
+      "concern": "The tag 'evaluation' is not appropriate for all senses of the headword. Sense 3, 'regular customer, valued client', does not fit this tag.",
+      "suggestion": "Add 'business' or 'person' to the semantic tags, or remove 'evaluation' and replace it with a more general tag like 'general' if a single tag must cover all senses."
     }
   ]
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06775_sunobo_ex1",
-      "japanese": "{冬|ふゆ}はスノボに{行|い}きたい。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧スノボ⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "I want to go snowboarding in winter.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06775_sunobo_ex2",
-      "japanese": "スノボを{始|はじ}めたばかりで、まだ{初心者|しょしんしゃ}だ。",
+      "japanese": "スノボ⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧⟦ばかり→ばかり：02006_bakari⟧⟦で→で：00502_de⟧、⟦まだ→まだ：00603_mada⟧⟦{初心者|しょしんしゃ}→初心者：10149_shoshinsha⟧⟦だ→だ：09496_da⟧。",
       "english": "I just started snowboarding and I'm still a beginner.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06775_sunobo_ex3",
-      "japanese": "スノボとスキー、どっちが{好|す}き?",
+      "japanese": "スノボ⟦と→と：00512_to⟧⟦スキー→スキー：03849_sukii⟧、⟦どっち→どっち：02922_docchi⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧?",
       "english": "Which do you like better, snowboarding or skiing?",
       "notes": null,
       "has_audio": false,
@@ -43,8 +43,15 @@
       ]
     }
   ],
-  "notes": "スノボ is a casual abbreviation of スノーボード (snowboard/snowboarding). Very common in spoken Japanese, especially among younger people.\n\nCOMMON COLLOCATIONS:\n- スノボをする: to snowboard\n- スノボに{行|い}く: to go snowboarding (as a trip)\n- スノボを{習|なら}う: to learn snowboarding\n- スノボ{用品|ようひん}: snowboarding gear\n- スノボウェア: snowboarding wear\n\nRELATED TERMS:\n- スノーボード: snowboard (full form, also used)\n- スキー: skiing\n- ゲレンデ: ski slope (from German)\n- リフト: ski lift\n\nUSAGE:\nThe full form スノーボード tends to appear in formal or written contexts (news, product names), while スノボ is the everyday spoken form. Both refer to the sport and the board itself.",
+  "notes": "スノボ is a casual abbreviation of ⟦スノーボード→スノーボード：23908_sunooboodo⟧ (snowboard/snowboarding). Very common in spoken Japanese, especially among younger people.\n\nCOMMON COLLOCATIONS:\n- スノボ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to snowboard\n- スノボ⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go snowboarding (as a trip)\n- スノボ⟦を→を：00422_wo⟧⟦{習|なら}う→習う：00479_narau⟧: to learn snowboarding\n- スノボ⟦{用品|ようひん}→用品：13526_youhin⟧: snowboarding gear\n- スノボ⟦ウェア→ウェア：noentry⟧: snowboarding wear\n\nRELATED TERMS:\n- ⟦スノーボード→スノーボード：23908_sunooboodo⟧: snowboard (full form, also used)\n- ⟦スキー→スキー：03849_sukii⟧: skiing\n- ⟦ゲレンデ→ゲレンデ：23907_gerende⟧: ski slope (from German)\n- ⟦リフト→リフト：noentry⟧: ski lift\n\nUSAGE:\nThe full form ⟦スノーボード→スノーボード：23908_sunooboodo⟧ tends to appear in formal or written contexts (news, product names), while スノボ is the everyday spoken form. Both refer to the sport and the board itself. The person who does it is スノーボーダー; スノボー with a long vowel is also seen in casual writing.",
   "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23908_sunooboodo",
+      "reading": "すのーぼーど",
+      "headword": "スノーボード",
+      "label": "full form"
+    },
     {
       "type": "contrast",
       "target_id": "03849_sukii",
@@ -55,7 +62,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-08-04T18:18:49Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
