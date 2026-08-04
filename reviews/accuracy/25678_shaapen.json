@@ -1,0 +1,24 @@
+{
+  "entry_id": "25678_shaapen",
+  "headword": "シャーペン",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T21:20:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'object'",
+      "suggestion": "tool"
+    }
+  ]
+}

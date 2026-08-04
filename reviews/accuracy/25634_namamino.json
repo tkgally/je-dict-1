@@ -1,0 +1,24 @@
+{
+  "entry_id": "25634_namamino",
+  "headword": "{生身|なまみ}の",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T21:19:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is too narrow and misleading for '生身の' which refers to the living, human aspect rather than just a body part or the physical body itself.",
+      "suggestion": "Replace 'body' with 'general' or 'descriptive' as it describes a state of being or a characteristic."
+    }
+  ]
+}

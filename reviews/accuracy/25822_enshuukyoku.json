@@ -1,0 +1,24 @@
+{
+  "entry_id": "25822_enshuukyoku",
+  "headword": "{演習曲|えんしゅうきょく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T21:24:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too broad and misleading for a specific musical term. '演習曲' refers to a type of musical composition, not leisure in general.",
+      "suggestion": "music"
+    }
+  ]
+}
