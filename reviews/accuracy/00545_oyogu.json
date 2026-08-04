@@ -2,36 +2,15 @@
   "entry_id": "00545_oyogu",
   "headword": "{泳|およ}ぐ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:54Z",
+  "reviewed_at": "2026-08-04T09:26:01Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The gloss 'to swim' is too narrow and doesn't fully capture the broader meaning of 泳ぐ, which can also refer to floating or moving through water without necessarily using limbs in a swimming motion.",
-      "suggestion": "Change gloss to 'to swim; to float; to move through water'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'to swim' is too narrow and doesn't fully capture the broader meaning of 泳ぐ, which can also refer to floating or moving through water without necessarily using limbs in a swimming motion.",
-      "suggestion": "Change gloss to 'to swim; to float; to move through water'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation 'To move through water using one's limbs' is too restrictive. 泳ぐ can also refer to floating or being carried by currents, where active limb movement isn't the primary action.",
-      "suggestion": "Change explanation to 'To move through or on water, either by using one's limbs, floating, or being carried by currents. Used for recreational activities, exercise, or competitive swimming, and also for objects or animals moving in water.'"
-    }
-  ]
+  "issues": []
 }
