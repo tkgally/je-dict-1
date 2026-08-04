@@ -1,0 +1,24 @@
+{
+  "entry_id": "25752_saifuire",
+  "headword": "{財布入|さいふい}れ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T21:23:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'accessories'",
+      "suggestion": "clothing"
+    }
+  ]
+}

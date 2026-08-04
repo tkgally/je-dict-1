@@ -1,0 +1,24 @@
+{
+  "entry_id": "25781_hitorikyaku",
+  "headword": "{一人客|ひとりきゃく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T21:23:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid tag 'food-and-drink'.",
+      "suggestion": "Replace 'food-and-drink' with 'consumption'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25722_hosuto",
+  "headword": "ホスト",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T21:21:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'culture' is too broad and doesn't specifically describe the headword's meaning. While 'host club' is a cultural phenomenon, the word 'host' itself isn't inherently 'culture'.",
+      "suggestion": "Remove 'culture' and add 'person' for the first two senses, and 'technology' is already present for the third sense."
+    }
+  ]
+}

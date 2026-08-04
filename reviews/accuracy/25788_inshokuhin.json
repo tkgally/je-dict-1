@@ -1,0 +1,24 @@
+{
+  "entry_id": "25788_inshokuhin",
+  "headword": "{飲食品|いんしょくひん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T21:24:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'food-and-drink'.",
+      "suggestion": "food"
+    }
+  ]
+}

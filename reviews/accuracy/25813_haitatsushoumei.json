@@ -1,0 +1,31 @@
+{
+  "entry_id": "25813_haitatsushoumei",
+  "headword": "{配達証明|はいたつしょうめい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-04T21:24:39Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and doesn't accurately reflect the specific nature of '配達証明'.",
+      "suggestion": "The term '配達証明' refers to a specific postal service, making 'business' or 'communication' more appropriate semantic tags."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "warn",
+      "concern": "The formality tag 'formal' might be slightly off. While it's a specific service term, it's not necessarily 'formal' in the sense of being highly elevated language. 'Neutral' might be more accurate for a service term.",
+      "suggestion": "neutral"
+    }
+  ]
+}
