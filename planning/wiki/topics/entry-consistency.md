@@ -1,6 +1,6 @@
 # Consistency in Form and Content Among Similar Entries
 
-**Last updated**: 2026-05-17
+**Last updated**: 2026-08-04
 
 ## Overview
 
@@ -144,6 +144,49 @@ This is especially important for:
 
 The [multi-model proofreading](../ideas/multi-model-proofreading.md) system could include a consistency dimension: show a reviewer model two related entries side by side and ask it to identify inconsistencies in structure, depth, or presentation.
 
+## The entry-internal contradiction: the consistency defect that costs nothing to find
+
+**Added 2026-08-04.** Everything above treats consistency as a *between-entry* property — do
+parallel entries present information comparably? That framing is what makes consistency work
+expensive: comparing entries means enumerating a cluster, a family, or a whole range before any
+defect is visible, and most of the instruments this file proposes are ways of paying that cost.
+
+A year of backlog measurements has surfaced a second class that behaves completely differently.
+An **entry-internal contradiction** is a defect where two fields of the *same* entry disagree with
+each other. No cluster, no corpus scan, no model: open the file, compare two fields, decide. Every
+instance found so far was found this way, and each one is a true positive by construction — the
+entry cannot be right both ways.
+
+| Contradiction | Fields that disagree | Measured scope |
+|---|---|---|
+| Prose says the verb is already a potential form; the conjugation table still generates a potential of it | `notes`/`gloss` vs `conjugation.forms` | 6 exact, ~15 with the known list ([P41](../ideas/cleanup-backlog.md#priority-41-conjugation-tables-generate-the-potential-of-a-verb-that-is-already-potential)) |
+| Notes say the word is the everyday form; the tag says `formality: "formal"` | `notes` vs `tags.formality` | 24 katakana entries carry `formal`; several self-refuting ([P37 update](../ideas/cleanup-backlog.md#priority-37-politeness-polite-on-plain-vocabulary--and-the-detector-that-reports-zero)) |
+| `explanation` is a verbatim copy of the sense's own `gloss` | `definitions[].explanation` vs `.gloss` | 201 senses / 179 entries ([P39](../ideas/cleanup-backlog.md#priority-39-definitionsexplanation-is-a-verbatim-copy-of-its-own-gloss-201-senses-179-entries)) |
+| `tags.verb_class` says `suru`; `tags.pos` says `verb-godan` (or the reverse) | tag vs tag | 5 live, all fixed 2026-08-03 ([Tooling 71](../ideas/tooling-backlog.md)) |
+| Free-text `part_of_speech` states transitivity; `tags.transitivity` is absent | display field vs structured tag | 50 ([P22 update](../ideas/cleanup-backlog.md#priority-22-inconsistent-free-text-part_of_speech-display-field)) |
+| An inline link's declared base form contradicts its target entry's headword | link label vs target | detector exists, ratchet missing ([Tooling 65](../ideas/tooling-backlog.md)) |
+
+**Why this class deserves its own name.** The project's most expensive quality instrument is the
+cross-model accuracy review, and the [deterministic-vs-semantic](deterministic-vs-semantic-tasks.md)
+analysis established the rule that you should pay a model for *judgment*, never for *detection*
+that has a mechanical signature. Entry-internal contradictions are the extreme case of that rule:
+detection is not merely mechanical, it is nearly free — one file open, one comparison — and there
+is no false-positive family to calibrate against, because a self-contradicting entry is wrong
+whichever way it is resolved.
+
+They are also the class most likely to be *created* rather than inherited. Every instance in the
+table above arrived through a generator or a batch: a conjugation script that applies correct
+morphology to a verb whose semantics forbid it, a creation template that stamps `formal` on a
+whole loanword cohort, a generation run that fills `explanation` by copying `gloss`. That is why
+the recurring recommendation in the tooling backlog is a **ratchet rather than a sweep** — the
+population is small at any moment and regenerates continuously, so a check that runs forever beats
+a queue that is drained once.
+
+**Practical consequence for consistency work**: before designing a cluster-based review (the
+expensive instrument this page recommends), scan for the contradictions the entries already
+contain. They are cheaper to find, they are unarguable, and — because they come from generators —
+fixing the generator retires the defect instead of the batch.
+
 ## Relationship to other initiatives
 
 - **Expository articles** ([ideas/expository-articles.md](../ideas/expository-articles.md)): Articles synthesize information across entries, which naturally reveals and motivates fixing inconsistencies
@@ -165,3 +208,5 @@ The [multi-model proofreading](../ideas/multi-model-proofreading.md) system coul
 - [Multi-Model Proofreading](../ideas/multi-model-proofreading.md) — cross-model consistency checking
 - [Expository Articles](../ideas/expository-articles.md) — articles that could drive consistency improvements
 - [Dictionary Evaluation and Metalexicography](../research/dictionary-evaluation-metalexicography.md) — consistency as one dimension of systematic dictionary evaluation
+- [Deterministic vs Semantic Tasks](deterministic-vs-semantic-tasks.md) — why detection and judgment should be paid for separately; entry-internal contradictions are the extreme case
+- [Cleanup Backlog](../ideas/cleanup-backlog.md) / [Tooling Backlog](../ideas/tooling-backlog.md) — where the individual contradiction measurements are filed

@@ -1149,6 +1149,23 @@ If this item ever gains a follow-on, it is the one this report suggests: a signa
 **inventory-shaped notes** (a SIMILAR WORDS section whose body is a bare list with no "use X when
 …" clause), which is both mechanically detectable and closer to what a learner needs than length.
 
+### Update 2026-08-04 — three more entries that top the list and are never worked
+
+Two polish runs reported the same shape from opposite ends of the priority file: `00755_shizuka`
+sits at the top of `polishing/priority/notes.txt` but was polished 2026-07-25, and `06481_kikinaosu`
+and `00118_ii` likewise rank high but fall inside the 30-day recency skip. Both runs drew the same
+conclusion independently — *if an entry still ranks near the top after `make priorities`
+regenerates, the scorer is probably penalising something the polishing passes do not actually fix.*
+
+That is a testable claim and the test is cheap: after the next regeneration, take the entries that
+rank top-20 in **both** the old and the new file despite having been polished in between, and read
+what the scorer is docking them for. The 2026-08-03 harvest already found one such mechanism — the
+scorer rewards length, so an inventory-shaped SIMILAR WORDS list scores well while a short,
+contrastive note scores badly — and a second confirmed instance would turn this item from "the
+ranking excludes recently-polished entries" into a concrete scoring-function bug. Until then the
+practical cost is small but real: the priority lane spends its first minutes skipping the same
+three entries every run.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -1743,6 +1760,26 @@ pre-filter, or drop it from `accuracy-review` over already-polished ranges and k
 deterministic non-hiragana-reading lint this item originally proposed. The seventh zero window
 plus the throughput gap makes this the clearest retire-or-gate case in the backlog.
 
+### Update 2026-08-04 — eighth consecutive zero window, and the flag rate is partly an artifact
+
+The 2026-08-04 accuracy-review screened 25101–25320 and flagged **11 of 217 entries (5.1%),
+precision 0%**. The itemised disposition is the familiar list with nothing new in it: okurigana
+reading-splits (`{手入|てい}れ`, `{鉢植|はちう}え`, `{爆|は}ぜる`), katakana+kanji compounds
+(`ラジオ{体操|たいそう}`), rendaku (`鳴き{声|ごえ}`) — and **3 of the 11 were not flags at all** but
+parse failures recorded as flags (see item 73). The deep pass was skipped under the known-noise
+shortcut, as designed.
+
+Two things follow. First, eight windows at zero is no longer evidence being accumulated; it is a
+settled result, and the run also confirmed the pre-filter design — every one of the 8 real flags
+falls inside a family expressible as a regex over the flag text itself. Second, the **measured
+flag rate has been running ~25–30% high** for the whole series because parse failures inflate it,
+which slightly understates how noisy the pass is rather than overstating it.
+
+The throughput datum was taken a fourth time: screening covered only the first 220 of a 500-entry
+range before the run wrapped up, against the accuracy pass's full coverage of the same range. The
+cost of keeping the screener continues to be paid in accuracy-pass coverage, and the accuracy pass
+is the one with measured precision.
+
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
 **Source**: 2026-06-19 routine systemic-fix run (missing-target-id lane)
@@ -1915,6 +1952,20 @@ curator (the one editorial choice). Read-only `--json` queue + a separate `--app
 sibling to `check_artifacts.py`; this is what would convert Cleanup P22 from a prose item to
 a `batch_ready` systemic-fix item. Low risk (display-only), but it changes visible header
 text on thousands of pages, so spot-check after the canonical map is fixed.
+
+**Update 2026-08-04 — "display-only" is true for 30,116 entries and false for 71.** The field was
+measured dictionary-wide (401 distinct values; 6,573 entries deviating from their tag set's
+plurality spelling; full tables in
+[Cleanup P22 → Update 2026-08-04](cleanup-backlog.md#update-2026-08-04--measured-and-the-display-only-no-information-lost-premise-is-wrong-for-71-entries)).
+The normalizer as specified here would delete transitivity from **50** verbs that state it only in
+the free text, plus `proverb` from 8 and `idiom` from 13 entries, and would drop the "verb phrase"
+qualifier from 19 with no structured field to receive it.
+
+So this item needs a **step 0**: a backfill pass that parses the free text and writes what it
+finds into `tags.transitivity` / `semantic` before anything rewrites the display string. The
+backfill is a separate, smaller, and independently useful tool — it turns English prose into
+queryable tags — and it is the batch-ready half. Only after it runs is the normalizer's
+"deterministic table lookup" description actually true.
 
 ## 30. `sweep-stranded-prs.py` fails with HTTP 403 against api.github.com under the agent proxy — RESOLVED 2026-06-26
 
@@ -2840,6 +2891,26 @@ the matching entry and let the caller decide, which also addresses
 [item 64](#64-manage_candidatespy-add-does-not-say-what-it-rejected-or-why)'s complaint that the
 command says nothing about what it did.
 
+### Update 2026-08-04 — the supply is inside the pool, not outside it
+
+A full scan of the non-"seen in entry" candidate pool (~980 words) by a 2026-08-04 systemic-fix run
+found it "heavily polluted" in the ways this item already describes — compositional phrases
+(裸足で歩く, 速やかに処理する), numeric fragments (四十五, 三千円), apparent non-words (権使, 些道,
+個尊, 怒燥) — but added the observation that changes what the filter should *do*:
+
+> The genuinely useful base words are usually buried **inside** a longer compound candidate —
+> 換気扇掃除 (換気扇), 五月病患者 (五月病), 皆無である (皆無), 目盛り線 (目盛り), 人影もない (人影).
+
+So the same string that fails the quality filter often *contains* a word worth an entry. A filter
+that only rejects therefore throws away supply at the moment it identifies it, and the cheap
+addition is a **split** step: when a compound candidate fails, try its plausible head (longest
+prefix or suffix that is itself a known word or a plausible noun), check that against
+`entries_index.json` and the candidate list, and queue the head instead of the whole string.
+
+This matters because of the ratio this item has now measured twice: roughly 1 usable candidate in
+10. A splitter recovers real supply from the 9 without any new harvesting — which is the cheapest
+source of candidates available, and it does not depend on the corpus tooling at all.
+
 ## 55. Detector: contrast words named in notes prose but absent from `cross_references`
 
 **Source**: 2026-07-31 routine polish run (priority lane, basic-tier verbs)
@@ -2982,6 +3053,23 @@ and the queue arrives pre-triaged. The same run also recorded the honest outcome
 class: when the correct word has no entry and the same-kanji entry would mislead (性質上 の 〜上
 じょう pointed at 状; 温帯 の 帯 たい pointed at 対), the fix is to rewrite the link to `noentry`
 and add a candidate, not to find a less-wrong target.
+
+### Update 2026-08-04 — the benign family the reading test already separates, and one it does not
+
+A fourth `link-target-baseform` systemic-fix batch named the largest benign family explicitly:
+**"imprecise base label, correct target"** — a link whose declared base is written with a kanji
+spelling the target entry files under kana or different okurigana (様→`01114_you` よう;
+臭い→`00874_nioi` におい as a spelling of 匂い). The link resolves to the right word; only the label
+is spelled unhelpfully. The batch-3 reading test separates these reliably and the rule is worth
+stating as code: *if the surface furigana reading matches the **declared** target's reading and the
+proposal's reading differs, reject the proposal.*
+
+The same batch found a family the reading test does **not** catch, because both sides read
+identically: **noun ↔ suru-verb pairs cross-linked to each other's opposite form** (入院/入院する,
+退院/退院する mutually pointing at the other's する entry). Where a bare-noun entry exists, a
+bare-noun base should target it. Small, mechanical once spotted, and it is the same distinction
+the `Xする` label Informational in the cleanup backlog is about — seen from the target side rather
+than the label side.
 
 ## 60. `onomatopoeia` is valid in both `pos` and `semantic` — and the corpus uses both
 
@@ -3163,6 +3251,117 @@ is schema-safe because `explanation` is optional.
 
 Worth adding as a `validate.py` warning at the same time — the defect is created at generation
 time in batches, so catching it at entry-creation is what stops the seventh block from existing.
+
+## 69. `add_conjugations.py` picks the する branch from the *reading*, not the headword
+
+**Source**: 2026-08-03 routine polish run, which found `09300_disuru` (ディスる) and `09318_misuru`
+(ミスる) carrying suru-verb conjugation tables — publishing the non-words ディスるした / ディスるして
+on the live site — and traced it to `reading.endswith('する')` at `build/add_conjugations.py:238`.
+Both entries were fixed by hand that run.
+
+**Measured 2026-08-04: the family is exactly 4 entries, and 2 of them are not loanwords.** Entries
+whose reading ends in する while the headword does not: ディスる (でぃする), ミスる (みする),
+**{擦|こす}る (こする)** and **{啜|すす}る (すする)**. The two native verbs currently hold correct
+godan tables — they were generated before the branch existed or written by hand — but they sit on
+the same trap and any `--force` regeneration would corrupt them.
+
+That is the useful part for the fix: **a "skip katakana loanwords" guard would miss half the
+family**. The reliable tests are the two the entry already carries — `metadata.tags.verb_class`
+(all four say `godan-ru`) and the headword's own final characters (none ends in する) — so the
+branch should read
+
+```python
+if headword_plain.endswith('する') and verb_class != 'godan-ru':
+```
+
+rather than testing the reading. Zero live defects after the hand fixes; this is a **guard against
+regeneration**, not a sweep — the same category as items 65 and 56, where the cheap permanent win
+is refusing to create the defect again.
+
+## 70. Suppress `Potential` / `Passive` / `Imperative` rows for lexicalized potential verbs
+
+**Source**: 2026-08-03 routine new-entries run (`30367 待ちきれる` → 待ちきれられる, 待ちきれろ) —
+"a potential-derived verb flag on such entries could suppress those rows". Corpus side of
+[Cleanup P41](cleanup-backlog.md#priority-41-conjugation-tables-generate-the-potential-of-a-verb-that-is-already-potential).
+
+`add_conjugations.py` derives every row from the verb class, which is correct morphology and wrong
+Japanese for verbs that are already potential in meaning: `00557_dekiru` publishes **できられる**
+and **できろ**, `01165_mieru` 見えられる, `01229_kikoeru` 聞こえられる. できる is basic tier.
+
+**The mechanical test that works is entry-internal.** Detecting the class from the headword fails
+(the `-きれる` shape returns 9 entries but mixes 待ちきれる with ordinary intransitives like 途切れる).
+Detecting it from the entry's *own prose* works: 6 entries describe themselves as a potential form
+in notes or gloss **and** still carry a Potential row — 取れる, 眠れる, いける, 聞こえる, できる,
+待ちきれる, all true positives. That check belongs in `check_consistency.py` (prose contradicting
+generated data is its remit), and the generator needs a small curated `NO_POTENTIAL` list seeded
+from those 6 plus 見える, since the prose test under-generates.
+
+Suppression is asymmetric in the same way P39's drop is: an omitted row teaches nothing, a wrong
+row teaches ungrammatical Japanese to a learner who has no way to know.
+
+## 71. `check_tag_drift.py`: `metadata.tags.pos` and `metadata.tags.verb_class` can disagree
+
+**Source**: 2026-08-03 routine polish run, which scanned for the disagreement after hitting it on
+`06762_ishukusuru` and fixed all live cases the same run: `06762`, `08736_otomosuru`,
+`02941_kopiisuru` (suru verbs tagged `verb-godan`) and `09300_disuru`, `09318_misuru` (godan verbs
+tagged `verb_class: "suru"`). `00392_suru` is the one legitimate mismatch (`verb-irregular`).
+
+Live scope after that run: **0 of 7,226 entries carrying `verb_class`.** The item is therefore a
+*ratchet*, not a queue: flag any entry where `verb_class == "suru"` but `pos` lacks `verb-suru`,
+or where `pos` contains `verb-godan`/`verb-ichidan` while `verb_class` says `suru`, with
+`00392_suru` allow-listed. Two fields that must agree and nothing checking that they do is the
+same gap items 61 and 65 describe; the fix is a dozen lines and it protects the conjugation
+generator (item 69) which reads both.
+
+## 72. Detector: "naked Japanese" in examples and notes (link-coverage checking, mechanically)
+
+**Source**: 2026-08-04 routine polish run — "written ad hoc twice now in polish runs; belongs in
+build/ as a proper check script."
+
+Tier-1 link coverage is currently judged by eye: a run reads an example, notices which Japanese
+runs sit outside `⟦…⟧`, and decides which of them should be linked. The mechanical half of that is
+a scan — report every maximal run of Japanese characters in `examples[].japanese` and in `notes`
+that is **not** inside a `⟦…⟧` wrapper and is not the entry's own headword — and it is the half
+that costs a polish run its attention.
+
+Two design notes from the runs that wrote it ad hoc:
+
+- It should report **counts per entry**, not just hits, because the decision it informs is
+  "is this entry linked at all?" (0 links = the frontier case, P-Informational) versus "which
+  tokens did the pass miss?" (partial coverage, the marginal case).
+- It must **not** treat particles and copula mentions inside notes prose as noise. A 2026-08-04
+  polish run found that even fully-linked entries leave 「The location is marked with で」,
+  「takes を for what is felt」 and 「Type: 他動詞」 unlinked, because the linking pass stops at
+  collocation lists and never enters explanatory prose (fixed on 00545 and 02044). Those runs are
+  exactly what this detector would surface and a naive stop-word list would hide.
+
+Complements item 49 (the link *suggester*): this one says where to look, that one says what to
+write. Cheap, read-only, and it converts the most repetitive part of frontier polish into a queue.
+
+## 73. `review_runner.py --pass screening` records parse failures as flags
+
+**Source**: 2026-08-04 routine accuracy-review run. Screening over 25101–25320 wrote
+`"Parse failure"` as the sole concern for **3 of 217 entries** (25207, 25213, 25268) while still
+setting `flagged: true`.
+
+Two costs, both small but compounding: the run must open and adjudicate an entry about which
+nothing was actually reported, and the flag rate that item 24's precision argument depends on is
+inflated by an unrelated failure mode. The screening result should carry `"error": "parse"` with
+`flagged: false`, and the summary should count parse failures separately — a rising parse-failure
+rate is a *model or prompt* signal, which is worth seeing rather than burying in the flag count.
+
+## 74. `check_consistency.py`: literal `\n` stored in a notes field
+
+**Source**: 2026-08-04 routine polish run — notes rewritten programmatically are easy to corrupt,
+because writing `"\\n"` in a Python heredoc stores a literal backslash-n that validates cleanly and
+renders as visible garbage on the site.
+
+**Measured 2026-08-04: exactly 1 entry** (`17662_kakuyasushimu`) in 30,187. So this is not a sweep
+— it is a two-line guard against a failure mode that only exists because entries are increasingly
+edited by scripts rather than by hand. Worth adding for the same reason as item 69: the check costs
+nothing to run forever, and the defect is invisible to `validate.py` by construction (a literal
+backslash-n is a perfectly valid JSON string). The single live instance is filed on
+[Entry Follow-ups](entry-followups.md).
 
 ## Related pages
 
