@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{有名|ゆうめい} is a na-adjective meaning famous or well-known.\n\nKANJI MEANING:\n{有|ゆう} (have) + {名|めい} (name) = \"having a name\" (notable)\n\nFORMS:\n- {有名|ゆうめい}な + noun: famous (attributive)\n- {有名|ゆうめい}だ/です: is famous (predicate)\n- {有名|ゆうめい}じゃない: not famous\n- {有名|ゆうめい}だった: was famous\n\nCOMMON PATTERNS:\n- 〜⟦で→で：00502_de⟧{有名|ゆうめい}: famous for ~\n- ⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧{有名|ゆうめい}: world-famous\n- ⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧: celebrity, famous person\n\nANTONYM: ⟦{無名|むめい}→無名：13420_mumei⟧ (unknown, obscure)",
+  "notes": "{有名|ゆうめい} is a na-adjective meaning famous or well-known.\n\nKANJI MEANING:\n{有|ゆう} (have) + {名|めい} (name) = \"having a name\" (notable)\n\nFORMS:\n- {有名|ゆうめい}な + noun: famous (attributive)\n- {有名|ゆうめい}だ/です: is famous (predicate)\n- {有名|ゆうめい}じゃない: not famous\n- {有名|ゆうめい}だった: was famous\n\nCOMMON PATTERNS:\n- 〜⟦で→で：00502_de⟧{有名|ゆうめい}: famous for ~\n- ⟦{世界的|せかいてき}→世界的：20935_sekaiteki⟧⟦に→に：00314_ni⟧{有名|ゆうめい}: world-famous\n- ⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧: celebrity, famous person\n\nANTONYM: ⟦{無名|むめい}→無名：13420_mumei⟧ (unknown, obscure)\n\n〜⟦で→で：00502_de⟧{有名|ゆうめい} VS 〜⟦として→として：06802_toshite⟧{有名|ゆうめい}:\nで names what makes something famous — ⟦この→この：00962_kono⟧⟦{町|まち}→町：00613_machi⟧⟦は→は：00079_ha⟧⟦{桜|さくら}→桜：02212_sakura⟧⟦で→で：00502_de⟧{有名|ゆうめい}です (famous for its cherry blossoms). として names the role or category it is famous in — ⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦として→として：06802_toshite⟧{有名|ゆうめい}です (famous as a singer, though he may do other things too).\n\n{有名|ゆうめい} VS ⟦{人気|にんき}→人気：01488_ninki⟧:\n{有名|ゆうめい} means many people know of it; ⟦{人気|にんき}→人気：01488_ninki⟧ means many people like it. The two come apart: a politician can be {有名|ゆうめい} without being ⟦{人気|にんき}→人気：01488_ninki⟧, and a neighborhood restaurant can be ⟦{人気|にんき}→人気：01488_ninki⟧ without being {有名|ゆうめい}. ⟦{人気|にんき}→人気：01488_ninki⟧ is a noun, so it takes ⟦が→が：00051_ga⟧ある or 〜⟦に→に：00314_ni⟧{人気|にんき}⟦が→が：00051_ga⟧ある.\n\nREGISTER:\n{有名|ゆうめい} itself is neutral — it can report unwelcome fame as easily as welcome fame, and ⟦{悪|わる}い→悪い：00908_warui⟧⟦{意味|いみ}→意味：01155_imi⟧⟦で→で：00502_de⟧{有名|ゆうめい} (famous in a bad sense) is a common way to say notorious.",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,25 @@
       "reading": "むめい",
       "headword": "{無名|むめい}",
       "label": "unknown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01488_ninki",
+      "reading": "にんき",
+      "headword": "{人気|にんき}",
+      "label": "popular vs merely known"
+    },
+    {
+      "type": "related",
+      "target_id": "17812_yuumeijin",
+      "reading": "ゆうめいじん",
+      "headword": "{有名人|ゆうめいじん}",
+      "label": "celebrity"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:40:51Z",
-    "modified": "2026-05-13T23:19:17Z",
+    "modified": "2026-08-04T18:18:49Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

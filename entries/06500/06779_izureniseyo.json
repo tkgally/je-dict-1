@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06779_izureniseyo_ex1",
-      "japanese": "いずれにせよ、{明日|あした}までに{決|き}めなければならない。",
+      "japanese": "いずれにせよ、⟦{明日|あした}→明日：00501_ashita⟧⟦までに→まで：00490_made⟧⟦{決|き}めなければならない→決める：00858_kimeru⟧。",
       "english": "In any case, we have to decide by tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06779_izureniseyo_ex2",
-      "japanese": "{理由|りゆう}はどうあれ、いずれにせよ{謝|あやま}るべきだ。",
+      "japanese": "⟦{理由|りゆう}→理由：01102_riyuu⟧⟦は→は：00079_ha⟧どうあれ、いずれにせよ⟦{謝|あやま}る→謝る：01177_ayamaru⟧⟦べき→べき：10016_beki⟧⟦だ→だ：09496_da⟧。",
       "english": "Whatever the reason, you should apologize anyway.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06779_izureniseyo_ex3",
-      "japanese": "いずれにせよ、{結果|けっか}は{来週|らいしゅう}{分|わ}かる。",
+      "japanese": "いずれにせよ、⟦{結果|けっか}→結果：02486_kekka⟧⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦{分|わ}かる→分かる：00463_wakaru⟧。",
       "english": "At any rate, we'll know the result next week.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "いずれにせよ is a formal conjunction-like adverb used to introduce a conclusion that holds true regardless of the preceding circumstances. It typically appears at the beginning of a sentence.\n\nREGISTER:\nThis is a written/formal expression, common in essays, news, speeches, and business communication. It sounds stiff in casual conversation.\n\nVARIATIONS:\n- いずれにせよ: most formal\n- いずれにしても: formal, slightly softer\n- どちらにせよ: formal, implies choosing between two options\n- どちらにしても: somewhat formal, between two options\n\nCASUAL EQUIVALENTS:\n- とにかく: anyway (general-purpose, casual)\n- ともかく: anyhow (casual, slightly literary)\n- どっちにしても: either way (casual spoken form)\n\nGRAMMAR:\nFollowed by a statement of conclusion or decision. Often pairs with expressions of uncertainty or multiple possibilities in the preceding clause.",
+  "notes": "いずれにせよ is a formal conjunction-like adverb used to introduce a conclusion that holds true regardless of the preceding circumstances. It typically appears at the beginning of a sentence.\n\nREGISTER:\nThis is a written/formal expression, common in essays, news, speeches, and business communication. It sounds stiff in casual conversation.\n\nVARIATIONS:\n- いずれにせよ: most formal\n- いずれにしても: formal, slightly softer\n- どちらにせよ: formal, implies choosing between two stated options\n- ⟦どちらにしても→どちらにしても：22124_dochiranishitemo⟧: somewhat formal, between two options\n\nいずれ〜 forms cover any number of possibilities, while どちら〜 forms assume exactly two. せよ (the classical imperative of する) is stiffer than しても in every pair.\n\nCASUAL EQUIVALENTS:\n- ⟦とにかく→とにかく：03464_tonikaku⟧: anyway (general-purpose, casual)\n- ⟦ともかく→ともかく：06780_tomokaku⟧: anyhow (casual, slightly literary)\n- どっちにしても: either way (casual spoken form)\n\nGRAMMAR:\nFollowed by a statement of conclusion or decision — often an obligation (⟦なければならない→なければならない：27600_nakerebanaranai⟧) or a prediction. It typically follows a clause that raises alternatives or admits uncertainty: 〜か〜か⟦{分|わ}からない→分かる：00463_wakaru⟧⟦が→が：00051_ga⟧、いずれにせよ…",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,18 @@
       "reading": "とにかく",
       "headword": "とにかく",
       "label": "anyway (casual)"
+    },
+    {
+      "type": "related",
+      "target_id": "22124_dochiranishitemo",
+      "reading": "どちらにしても",
+      "headword": "どちらにしても",
+      "label": "between two options"
     }
   ],
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-04-18T07:11:09Z",
+    "modified": "2026-08-04T18:18:49Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

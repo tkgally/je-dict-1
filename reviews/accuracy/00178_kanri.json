@@ -2,36 +2,15 @@
   "entry_id": "00178_kanri",
   "headword": "{管理|かんり}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:42:58Z",
+  "reviewed_at": "2026-08-04T18:28:57Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'action' is too broad and doesn't specifically describe the headword's meaning.",
-      "suggestion": "Replace 'action' with more specific semantic tags like 'business', 'administration', 'supervision'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "warn",
-      "concern": "The English translation 'health management' is a bit unnatural in this context.",
-      "suggestion": "Translate as 'I'm careful about my health' or 'I'm careful about managing my health'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "error",
-      "concern": "The English translation 'manager' for 管理者 is incorrect as the headword is 管理 (management/control), not 管理者 (manager).",
-      "suggestion": "Translate as 'Please contact the administration' or 'Please contact the person in charge of management'."
-    }
-  ]
+  "issues": []
 }
