@@ -702,6 +702,16 @@ The important part is *why* the reviewer keeps suggesting it: those seven string
 
 **Co-occurring defect worth reading at the same time** — 06687 物覚え carried sole-`general` **and** `formality: formal`, for an everyday spoken word. Both fields look like creation-time template values rather than judgments, and they are cheap to check together since a run already has the file open. This is the [P17](#priority-17-formal-formality-tag-over-applied-in-early-entries) family arriving on the same entries as this one; the standing recommendation is now explicitly **re-read `formality` whenever the frontier lane touches a sole-`general` entry**, rather than treating the two sweeps as independent.
 
+**Update 2026-08-04 — the katakana slice, measured.** A polish run over the 06763–06774 loanword
+block found sole-`general` on 06763 フィードバック and 06764 プロジェクト and proposed a
+`--check sole-general` pass filtered to katakana headwords as "high-yield". Measured: **350 entries
+whose headword is pure katakana carry `semantic: ["general"]` and nothing else** — about 9% of this
+priority's queue, concentrated in the low IDs (00005 アップ, 00017 ボール, 00032 ダイヤ, 00034 ダム,
+00058 ガム, 00073 ゴム …). The filter is worth using because loanwords are the easiest sole-`general`
+entries to retag: the English source word usually names the destination directly (ボール→`sports`,
+ゴム→`material`… noting that `material` is itself off-vocabulary, so P20 and this item land on the
+same entries). Not a separate item — a targeting hint for this one.
+
 ## Priority 14: Notes content copied from wrong entry
 
 **Source**: Comprehensive-polish 2026-05-25 session 021 (entries 03491–03510)
@@ -1198,6 +1208,17 @@ Two further measurements from the same window:
 
 **Named residue**: the off-vocabulary tag `interrogative` survives on exactly three entries — 00534 誰, 00543 どう, 23898 でしょうか — after a 2026-08-02 polish run migrated 00536 いつ to `grammatical`. Too small for its own item; fold into the next systemic-fix or accuracy-review pass. Recorded so it is not rediscovered a fourth time.
 
+**Update 2026-08-04 — a fourth consecutive high-ID block at the same density.** The 2026-08-04
+accuracy-review over 25101–25600 found **201 of 495 entries (41%) carrying tags outside
+`VALID_SEMANTIC`** (top labels: `body` 19, `time` 14, `transport` 8, `people` 7, `material` 7), of
+which the reviewer's `tags` dimension independently caught ~136. The run recorded the reading that
+matters for adjudication policy: **the standing ">20% of entries flagged means reviewer noise"
+heuristic misfires on this cohort**, because the underlying rate really is ~40%. Off-vocabulary
+density is now measured at 40–53% across four consecutive 500-entry blocks from 23908 to 25600,
+which makes it a property of the high-ID creation cohort rather than of any one batch — and
+strengthens the case for tooling item 67 (a per-range density report), since the CI ratchet can
+gate but cannot target.
+
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
 **Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
@@ -1490,6 +1511,57 @@ territory once a normalizer/detector exists** (see
 a safe text substitution validated against the structured tag. Low risk (display-only), and
 the canonical map should be agreed with the curator before a bulk run since it changes
 visible header text on thousands of pages.
+
+### Update 2026-08-04 — measured, and the "display-only, no information lost" premise is wrong for 71 entries
+
+A 2026-08-03 polish run re-filed this item ("`part_of_speech` has no house style … candidate for a
+mechanical normalization pass driven by `metadata.tags.pos`"), so the 2026-08-04 wiki harvest
+measured it. The scale first: **401 distinct values across 30,187 entries**, and the disagreement
+is *within* categories, not between them —
+
+| `pos` tag set | Entries | Distinct spellings | Top spellings |
+|---|---|---|---|
+| `noun` + `verb-suru` | 4,033 | 39 | `noun, suru verb` 1,206 · `noun` 604 · `noun, verb (suru)` 381 · `noun, suru-verb` 331 |
+| `verb-godan` | 1,720 | 26 | `verb (godan)` 724 · `godan verb` 405 · `verb-godan` 180 · `verb` 88 |
+| `verb-ichidan` | 859 | 15 | `verb (ichidan)` 376 · `ichidan verb` 173 · `verb-ichidan` 102 |
+| `adjective-na` | 849 | 8 | `na-adjective` 495 · `adjective-na` 157 · `adjective` 88 · `な-adjective` 19 |
+| `adjective-na` + `noun` | 716 | 30 | `noun, na-adjective` 157 · `na-adjective, noun` 155 · `noun / na-adjective` 82 |
+| `adjective-no` + `noun` | 415 | 19 | `noun` 155 · `noun, no-adjective` 123 |
+
+**6,573 entries (21.8%) deviate from their own tag set's plurality spelling.** Separator (`,` vs
+`/` vs `;`), affix order (`noun, na-adjective` vs `na-adjective, noun`) and naming convention
+(`verb-godan` vs `godan verb` vs `verb (godan)`) vary independently — which is how one category
+acquires 39 spellings.
+
+**The part that changes the plan.** This item and tooling item 29 both assert the transform is
+"deterministic" and "display-only" because `tags.pos` encodes the category unambiguously. It does
+not encode everything the free text says. Regenerating the field from tags would silently delete:
+
+| Information only in the free text | Entries | Structured home that already exists |
+|---|---|---|
+| transitivity (`godan verb, transitive`) | 486 stated · **50 with no `tags.transitivity`** | `metadata.tags.transitivity` (3,230 entries use it) |
+| proverb | 18 stated · **8 without the tag** | `semantic: proverb` (in `VALID_SEMANTIC`) |
+| idiom / four-character idiom | 18 stated · **13 without the tag** | `semantic: idiom` (in `VALID_SEMANTIC`) |
+| humble / slang | 2 | `politeness` / `style` |
+| "verb phrase" (`expression, verb phrase`) | 19 | **none** |
+
+So the field is the *sole* record of something for **71 entries** — all with a structured
+destination — plus **19** whose "verb phrase" qualifier has no home in the schema at all.
+
+**This inverts the sequencing.** The first step is not the normalizer, it is a **backfill**, and
+the backfill is worth doing whether or not the sweep ever happens: it adds 50 machine-readable
+transitivity tags (which `find_missing_transitivity.py` reports as missing today), 8 `proverb` and
+13 `idiom` tags that currently exist only as English prose no query can reach. Afterwards the
+regeneration is lossless by construction for 30,168 of 30,187 entries, and the residue is a
+one-line curator decision (keep the qualifier on those 19, or add a `verb-phrase` pos tag).
+
+The normalizer itself stays blocked on the house-style choice — `verb (godan)` is the plurality,
+`verb-godan` matches `tags.pos` and the CLAUDE.md convention. The **backfill is batch-ready and
+carries no style question**: queue item `pos-freetext-transitivity-backfill`.
+
+The generalisable point, and the reason this update exists: *"regenerate a derived field from its
+source" is only safe once you have checked that the field really is derived.* Here 99.8% of it was
+and 0.2% was not, and the 0.2% is recoverable rather than fatal — but only if someone counts first.
 
 ## Priority 23: 20 entries (29181–29200) missing `metadata.vocabulary_tier`
 
@@ -2232,6 +2304,17 @@ Useful for targeting: a sweep aimed at register should work upward from the low 
 aimed at tag vocabulary should work downward from the top. Running either across the whole
 dictionary spends most of its budget on the half that does not have the defect.
 
+**Update 2026-08-04 — the low-ID rule has an exception, and it is the loanword blocks.** A polish
+run over 06769–06774 (ピザ, アイス, ロフト, バルコニー, バスケ, バレー) found `formality: "formal"`
+on abbreviated loanwords whose own notes say the opposite — 06773 バスケ: "バスケ is the everyday
+form. Use バスケットボール in formal writing" — and fixed it to `informal`. Measured: **24 pure-katakana
+headwords carry `formality: "formal"`**, including パート, バイク, レシート, ライブ, ミーティング,
+バイト. Some are defensible (リポート, エネルギー); the abbreviations are not. This is the same
+*template-default* mechanism as the low-ID pockets, arriving on a later cohort through a different
+route, and it is small enough to clear in one pass. Note the diagnostic the run used: the entry's
+own notes contradicting its own tag is an **entry-internal** contradiction — no corpus comparison,
+no model needed — which is the same shape as P41 and tooling item 68.
+
 ## Informational: Entries with zero inline links (23,294) are the polish frontier, not a defect
 
 **Source**: 2026-07-31 and 2026-08-01 routine polish runs, both reporting a frontier block
@@ -2264,6 +2347,16 @@ genuinely new nuance worth keeping: above the frontier the deficit is not *parti
 needing completion but *no* coverage needing creation from scratch — the expensive case, and the
 one Tooling 49 is aimed at. That nuance is now on the topic page; the block itself needs no
 further filing.
+
+**Filed an eighth and ninth time on 2026-08-03/04** by two more polish runs (06763–06768 「zero
+inline links … 25–40 links per entry, almost all mechanical」; 06769–06774 「every entry in this
+cohort needs full tier-1 linking from scratch, ~3x the cost of a normal polish entry」). Both
+propose the same targeted linking sweep over 06758–07000. The measurement stands and the answer
+is unchanged — this is the frontier, not a defect — but the **cost estimate has now been taken
+three times independently and agrees**: ~25–40 links per entry, ~3x a normal polish entry, 4–8
+entries per run. That number, not the existence of the block, is the thing to carry into any
+scheduling decision (see the frontier-versus-growth gap on
+[Quality Metrics](../topics/quality-metrics.md)).
 
 ## Informational: Inline-link base forms labelled `Xする` while targeting the bare noun entry (441 links)
 
@@ -2381,6 +2474,102 @@ about that example, and the cheap thing to do before designing an instrument is 
 ## Informational: Pre-polished cohort around 00083–00090
 
 Four entries in the 00074–00096 range (00083 俳句, 00086 発揮, 00087 花火, 00088 判事) were already fully linked — suggesting a prior polish pass touched that range. Subsequent sessions entering this area should expect occasional entries needing no work.
+
+## Priority 40: `body-part` on entries that cannot denote a body part (41 verb-POS entries)
+
+**Source**: 2026-08-03 routine accuracy-review run, which corrected six entries in one 531-entry
+range where `body-part` had been applied to actions (脱毛, 除毛, 大あくび, 姿勢矯正), measurements
+(体脂肪率), conditions (しもやけ), products (コンディショナー) and physique descriptions (中肉中背),
+and proposed a dictionary-wide rule. **Measured 2026-08-04.**
+
+The project's semantic tags are **denotational** — the accuracy reviewer's `tags` dimension judges
+each tag against the *headword*, not against the example topics — so a verb can never denote a
+body part. That makes one slice of the family mechanically decidable with no judgment at all:
+**41 entries carry `body-part` while their `pos` includes a verb class.**
+
+Splitting them by whether a body part appears in the headword separates two very different cases:
+
+- **11 entries name a body part in the headword** — 目を伏せる, 目を逸らす, 目が回る, 首を傾げる,
+  息が詰まる, 声が枯れる, 頬杖をつく, 手術, 発汗, 整髪, 洗髪. Here `body-part` is a *topical* read
+  of a phrase that contains one. Defensible under a loose reading of the tag, wrong under the
+  denotational one, and worth deciding once rather than per entry.
+- **30 entries contain no body part anywhere** — and these are pure drift: 調査 "investigation",
+  舞う "to dance", 描く "to draw", 溢れる "to overflow", 染まる "to be dyed", なびく "to sway",
+  ときめく "to throb", タヌキ寝入り "pretending to be asleep", 火傷, 日焼け, 閉経, 大便, 出産する.
+
+**There are in-list destinations**, so this is not the tag-vocabulary gap that P20 documents:
+`health` covers 火傷 / 日焼け / 閉経 / 大便 / 化膿 / しもやけ, `appearance` covers 中肉中背 / カール,
+`action` covers あくびをする / さする, and `body-internal` exists for organs. The correct action is
+per-entry (migrate or drop), not a single mapping — but the *detection* is free, which is the same
+economics P39 and the `VALID_SEMANTIC` diff have: pay for the destination, never for the search.
+
+This is the third measured shape of the same underlying defect after P11 (batch-creation topical
+tags) and P38 (families that drift apart when polished at different times). What makes this one
+distinct is that the mismatch is provable from the entry's own `pos` tag — no corpus comparison,
+no family enumeration. **Generalisable check**: any semantic tag naming a concrete *thing*
+(`body-part`, `body-internal`, `tool`, `furniture`, `clothing`, `animal-*`, `plant-*`) on an entry
+whose `pos` is verb-only is a type error. Queue item: `tag-bodypart-non-denotational`.
+
+## Priority 41: Conjugation tables generate the potential of a verb that is already potential
+
+**Source**: 2026-08-03 routine new-entries run, which noticed `add_conjugations.py` producing
+待ちきれられる and 待ちきれろ for `30367 待ちきれる` and suggested a suppression flag.
+**Measured 2026-08-04, and the scope reaches basic-tier vocabulary.**
+
+Conjugation tables are hard-coded into the entry JSON and rendered as a full table on the entry
+page, so every wrong row is live on the site. Three of the dictionary's most common verbs publish
+a potential form of a potential:
+
+| Entry | Headword | Published "Potential" / "Passive" | Published "Imperative" |
+|---|---|---|---|
+| `00557_dekiru` | できる | できられる | できろ |
+| `01165_mieru` | {見\|み}える | 見えられる | 見えろ |
+| `01229_kikoeru` | {聞\|き}こえる | 聞こえられる | 聞こえろ |
+
+できる is a **basic-tier** entry — the highest-traffic band in the dictionary.
+
+**Two mechanical tests, and only one of them is usable.**
+
+- *Headword shape* (`-きれる`): returns 9 entries, all carrying a Potential row — but it mixes the
+  lexicalized potentials (待ちきれる, 割り切れる) with ordinary intransitive pair members (千切れる,
+  途切れる, 振り切れる) whose potential is merely rare, not ungrammatical. **Unusable as a rule.**
+- *Self-declaration*: the entry's own notes or gloss describe it as a potential form, and its
+  conjugation table still carries a Potential row. Returns **6 — 取れる, 眠れる, いける, 聞こえる,
+  できる, 待ちきれる — and all 6 are true positives.** This is an entry-internal contradiction:
+  the prose and the generated table disagree with each other, which is exactly the class of defect
+  `check_consistency.py` exists for.
+
+The self-declaration test under-generates (見える does not say so in prose), so the shippable form
+is: run the contradiction check, hand-add the small list of known lexicalized potentials, and
+suppress `Potential`/`Passive`/`Imperative` rows for that set. Suppression is safe by construction
+— a row that is not rendered teaches nothing wrong, while a wrong row teaches ungrammatical
+Japanese. Queue item: `conjugation-potential-of-potential`; generator-side fix in tooling item 70.
+
+## Informational: 105 entries have no semantic tag at all — and it is two populations, not one
+
+**Source**: 2026-08-03 polish run (「pronoun semantic tagging is inconsistent overall; 12 entries
+carry no semantic tag at all」) and a 2026-08-04 polish run (`06781 っぽい` has no semantic tags).
+**Measured 2026-08-04: 105 entries dictionary-wide** (19 basic, 4 core, 82 general).
+
+The distribution by `pos` splits them cleanly:
+
+| Class | Entries | Examples |
+|---|---|---|
+| **Closed-class function words** | 53 | suffix 18, prefix 14, pronoun 12, pre-noun-adjectival 5, auxiliary 3, interjection 1 (`01994_in`, `02003_chan`, `01574_anna`, `02185_ore`, `06781_ppoi`) |
+| **Open-class content words** | 52 | noun 15, noun+verb-suru 8, verb-godan 6, adjective-i 6, verb-ichidan 4, … |
+
+For the second group an empty `semantic` is simply an omission and the ordinary polish pass fixes
+it. For the first, "no semantic tag" is arguably *correct* under a denotational reading — a suffix
+denotes nothing — and the project's own convention is inconsistent about it: person-referring
+pronouns are tagged `person` on 7 entries and `grammatical` on 12, and two second-person pronouns
+(てめえ, 貴公) were the only entries in the dictionary tagged `language` until a polish run fixed
+them. `grammatical` exists in `VALID_SEMANTIC` precisely for this class.
+
+Filed as Informational rather than a priority because the closed-class half needs a one-sentence
+convention ("function words take `grammatical`") before any sweep, and with that convention the
+work is 53 mechanical additions plus 52 ordinary polish decisions. The useful measurement is that
+the population is **small and bounded** — this is not a systemic hole, and it does not justify an
+instrument.
 
 ## Related pages
 

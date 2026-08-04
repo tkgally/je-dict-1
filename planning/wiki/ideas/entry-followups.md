@@ -1092,6 +1092,38 @@ rename (the drop-vs-migrate rule says drop it), while `official` most plausibly 
 register rather than a semantic tag at all. It should be swept with the surrounding block rather
 than fixed alone.
 
+## 17662 格安SIM: a literal `\n` inside the notes field
+
+**Source**: 2026-08-04 wiki harvest, measuring a 2026-08-03 polish run's warning that notes
+rewritten programmatically can store `"\\n"` (backslash + n) where a newline was meant.
+
+**Scope: exactly one entry in 30,187.** `17662_kakuyasushimu` has it in the COMMON COLLOCATIONS
+block, one bullet in:
+
+```
+- {格安|かくやす}SIMに{乗|の}り{換|か}える: to switch to a budget SIM\n- {格安|かくやす}SIMを{契約|けいやく}する: …
+```
+
+The two collocation bullets therefore render as one run-on line with a visible `\n` between them.
+The fix is a single character: replace the literal `\n` with a real newline. `validate.py` cannot
+see it — a literal backslash-n is a valid JSON string — which is why it is filed as a permanent
+cheap guard in [Tooling Backlog item 74](tooling-backlog.md#74-check_consistencypy-literal-n-stored-in-a-notes-field)
+rather than as a sweep.
+
+## 03654 豊か: an inline link with no correct target
+
+**Source**: 2026-08-04 systemic-fix run (link-target-baseform batch 4), which stopped rather than
+guess.
+
+`03654_yutaka` example [3] uses `{採|と}れる` in the "to be harvested / to be gathered" sense but
+links base 取れる to `00565_toru` (取る "to take"). The detector proposed `02376_toreru` (取れる
+"to come off"). **Neither fits**: the harvest sense of 採れる is a third word that the dictionary
+does not currently have an entry for. The honest resolutions are (a) rewrite the link to `noentry`
+and add 採れる as a candidate, or (b) create the entry and link it — the pattern the 2026-08-03
+harvest recorded for exactly this situation (see Tooling 59's update: *when the correct word has
+no entry and the same-kanji entry would mislead, rewrite to `noentry` and add a candidate, do not
+find a less-wrong target*). Left for the curator because 採れる may deserve its own entry.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

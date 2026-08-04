@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-08-03",
+  "updated": "2026-08-04",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -683,6 +683,51 @@
       "scope_estimate": 201,
       "severity": "warn",
       "notes": "Measured 2026-08-03 by the wiki harvest, from a 2026-08-03 accuracy-review observation on 24542 and 24544. 201 senses in 179 entries out of 36,153 senses carrying an explanation; zero occurrences outside the six blocks, so it is a batch-creation signature (49 from 2026-01, 130 from 2026-04). The renderer emits gloss and explanation separately, so these entries show the learner the same text twice. Safe mechanical action is DROP the duplicate: schema.json requires only sense_number and gloss, so removing a verbatim duplicate removes no information and cannot introduce a false claim (same drop-vs-migrate asymmetry as the off-vocab tag work). Writing real explanations is a content task for the polish frontier, not a sweep. Detector belongs in check_consistency.py -- see tooling-backlog item 68."
+    },
+    {
+      "id": "conjugation-potential-of-potential",
+      "title": "Conjugation tables publish the potential/passive/imperative of verbs that are already potential (できられる, 見えられる)",
+      "source": "ideas/cleanup-backlog.md#priority-41",
+      "detect": "python3 - : flag entries whose notes/gloss describe the headword as a potential form AND whose conjugation.forms still contains a 'Potential' row; seed list = 00557 dekiru, 01165 mieru, 01229 kikoeru, 02376 toreru, 15166 nemureru, 06957 ikeru, 30367 machikireru",
+      "filter": "do NOT use the headword-shape test (-kireru returns 9 but mixes lexicalized potentials with ordinary intransitive pair members like 途切れる/千切れる, whose potential is rare but not ungrammatical)",
+      "fix_type": "verify",
+      "verify": "per-entry",
+      "priority": 4,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 15,
+      "severity": "error",
+      "notes": "Measured 2026-08-04 by the wiki harvest from a 2026-08-03 new-entries observation on 30367 待ちきれる (待ちきれられる / 待ちきれろ). Conjugation tables are hard-coded in the entry JSON and rendered in full, so every wrong row is live: 00557 できる (BASIC tier) publishes できられる and できろ; 01165 見える publishes 見えられる; 01229 聞こえる publishes 聞こえられる. The entry-internal self-declaration test (prose says 'potential form', table still has a Potential row) returns 6 and all 6 are true positives; it under-generates (見える does not say so in prose), so a short curated list is needed. Fix = delete the Potential/Passive/Imperative rows for that set; suppression is safe by construction (an omitted row teaches nothing, a wrong row teaches ungrammatical Japanese). Generator-side guard in tooling-backlog item 70."
+    },
+    {
+      "id": "tag-bodypart-non-denotational",
+      "title": "semantic 'body-part' on entries whose pos is a verb class (41 entries)",
+      "source": "ideas/cleanup-backlog.md#priority-40",
+      "detect": "python3 - : flag entries where 'body-part' in metadata.tags.semantic AND metadata.tags.pos intersects {verb-godan, verb-ichidan, verb-suru, verb-irregular}",
+      "filter": "work the 30 entries with no body-part character in the headword first (pure drift: 調査, 舞う, 描く, 溢れる, 染まる, なびく, ときめく, 火傷, 日焼け, 閉経, 大便, 出産する); the 11 whose headword names a body part (目を伏せる, 首を傾げる, 手術, 発汗, 整髪, 洗髪 …) are a topical-vs-denotational convention question -- decide once, not per entry",
+      "fix_type": "verify",
+      "verify": "per-entry",
+      "priority": 11,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 41,
+      "severity": "warn",
+      "notes": "Measured 2026-08-04 by the wiki harvest, from a 2026-08-03 accuracy-review run that corrected six body-adjacent mistags in one 531-entry range. The project's tags are denotational (the accuracy reviewer judges each tag against the headword), so a verb can never denote a body part -- detection is free and needs no corpus comparison, only the destination needs judgment. In-list destinations exist and this is NOT the P20 vocabulary gap: health (火傷, 日焼け, 閉経, 大便, 化膿), appearance (中肉中背, カール), action (あくびをする, さする), body-internal (organs). Generalises to any concrete-thing tag (body-part, body-internal, tool, furniture, clothing, animal-*, plant-*) on a verb-only entry: that is a type error."
+    },
+    {
+      "id": "pos-freetext-transitivity-backfill",
+      "title": "Backfill transitivity/proverb/idiom into structured tags from the free-text part_of_speech field (71 entries)",
+      "source": "ideas/cleanup-backlog.md#priority-22",
+      "detect": "python3 - : entries whose part_of_speech text states transitivity but have no metadata.tags.transitivity (50); whose text says 'proverb' but lack semantic 'proverb' (8); whose text says 'idiom'/'four-character idiom' but lack semantic 'idiom' (13)",
+      "filter": "none -- the three sets are disjoint and each has an unambiguous destination field",
+      "fix_type": "verify",
+      "verify": "spot-check",
+      "priority": 6,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 71,
+      "severity": "warn",
+      "notes": "Measured 2026-08-04 by the wiki harvest after a 2026-08-03 polish run re-filed Cleanup P22 (the free-text part_of_speech field: 401 distinct values across 30,187 entries, 6,573 deviating from their own tag-set's plurality spelling). The key finding is that P22 and tooling item 29 both call the normalizer 'display-only' and 'deterministic', which is false for 71 entries where the free text is the SOLE record of something -- a tags.pos-driven rewrite would delete it. This backfill is the safe, style-question-free half and is worth doing whether or not the normalizer ever runs: it adds 50 machine-readable transitivity tags that find_missing_transitivity.py reports as missing today, plus 8 proverb and 13 idiom tags. NOT included: 19 entries whose 'verb phrase' qualifier has no schema home (curator decision). The normalizer itself stays blocked on the house-style choice."
     }
   ]
 }
