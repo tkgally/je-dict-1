@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06781_ppoi_ex1",
-      "japanese": "この{色|いろ}、ちょっとピンクっぽいね。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{色|いろ}→色：00849_iro⟧、⟦ちょっと→ちょっと：00595_chotto⟧⟦ピンク→ピンク：04718_pinku⟧っぽい⟦ね→ね：09474_ne⟧。",
       "english": "This color is kind of pinkish, isn't it?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06781_ppoi_ex2",
-      "japanese": "{彼|かれ}は{子供|こども}っぽいところがある。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{子供|こども}→子供：00554_kodomo⟧っぽい⟦ところ→ところ：01137_tokoro⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "He has a childish side to him.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06781_ppoi_ex3",
-      "japanese": "{今日|きょう}は{雨|あめ}が{降|ふ}りそうっぽい。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}り→降る：00839_furu⟧そうっぽい。",
       "english": "It looks like it might rain today.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "っぽい is a highly productive suffix meaning \"-ish,\" \"-like,\" or \"tending toward.\" It creates i-adjectives from nouns, verb stems, and adjective stems.\n\nATTACHMENT PATTERNS:\n- Noun + っぽい: {子供|こども}っぽい (childish), {大人|おとな}っぽい (mature/adult-like)\n- Verb stem + っぽい: {忘|わす}れっぽい (forgetful), {飽|あ}きっぽい (easily bored)\n- Adjective stem + っぽい: {安|やす}っぽい (cheap-looking), {白|しろ}っぽい (whitish)\n\nNUANCE:\nWith nouns, っぽい often implies a slightly negative or superficial resemblance — {子供|こども}っぽい suggests \"childish\" rather than genuinely childlike. With colors, it simply means \"-ish\": {青|あお}っぽい (bluish).\n\nCONJUGATION:\nBehaves as an i-adjective:\n- っぽくない (negative)\n- っぽかった (past)\n- っぽく (adverbial)\n\nSIMILAR SUFFIXES:\n- 〜らしい: befitting, typical of (more positive: {男|おとこ}らしい = manly)\n- 〜みたい: looks like, resembles (more neutral)\n- 〜{的|てき}: -like, -esque (formal: {子供|こども}{的|てき})",
+  "notes": "っぽい is a highly productive suffix meaning \"-ish,\" \"-like,\" or \"tending toward.\" It creates i-adjectives from nouns, verb stems, and adjective stems.\n\nATTACHMENT PATTERNS:\n- Noun + っぽい: ⟦{子供|こども}→子供：00554_kodomo⟧っぽい (childish), ⟦{大人|おとな}→大人：02856_otona⟧っぽい (mature/adult-like)\n- Verb stem + っぽい: ⟦{忘|わす}れ→忘れる：00474_wasureru⟧っぽい (forgetful), ⟦{飽|あ}き→飽きる：01815_akiru⟧っぽい (easily bored)\n- Adjective stem + っぽい: ⟦{安|やす}→安い：00464_yasui⟧っぽい (cheap-looking), ⟦{白|しろ}→白い：00587_shiroi⟧っぽい (whitish)\n\nNUANCE:\nWith nouns, っぽい often implies a slightly negative or superficial resemblance — ⟦{子供|こども}→子供：00554_kodomo⟧っぽい suggests \"childish\" rather than genuinely childlike. With colors, it simply means \"-ish\": ⟦{青|あお}→青い：00586_aoi⟧っぽい (bluish).\n\nCONJUGATION:\nBehaves as an i-adjective:\n- っぽくない (negative)\n- っぽかった (past)\n- っぽく (adverbial)\n\nSIMILAR SUFFIXES:\n- 〜⟦らしい→らしい：09502_rashii⟧: befitting, typical of (more positive: ⟦{男|おとこ}→男：00561_otoko⟧らしい = manly)\n- 〜⟦みたい→みたい：10755_mitai⟧: looks like, resembles (more neutral)\n- 〜⟦{的|てき}→的：09839_teki⟧: -like, -esque (formal: ⟦{子供|こども}→子供：00554_kodomo⟧⟦{的|てき}→的：09839_teki⟧)",
   "cross_references": [
     {
       "type": "contrast",
@@ -62,7 +62,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-04-18T07:11:09Z",
+    "modified": "2026-08-05T03:18:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -70,7 +70,10 @@
         "suffix"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "grammatical"
+      ]
     }
   }
 }

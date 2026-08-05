@@ -2,50 +2,15 @@
   "entry_id": "00486_toshi",
   "headword": "{年|とし}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:52:09Z",
+  "reviewed_at": "2026-08-05T03:24:33Z",
   "summary": {
-    "flagged": 5
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'year, age' is incomplete. It misses the nuance of 'age' as in 'years of age' or 'a person's age', which is a distinct and common usage of 年.",
-      "suggestion": "Change 'year, age' to 'year; age (of a person)' or similar to clarify the second meaning."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for sense 1 is slightly redundant and could be clearer. 'A calendar year or a period of one year' is a bit circular.",
-      "suggestion": "Change 'A calendar year or a period of one year.' to 'A calendar year or a period of 12 months.'"
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'age' for sense 2 is a bit too broad and could be misinterpreted as 'era' or 'period'.",
-      "suggestion": "Change 'age' to 'age (of a person)' or 'years of age' to be more specific."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].explanation",
-      "severity": "warn",
-      "concern": "The explanation 'A person's age' is good, but the examples provided are phrases, not just single words, which might be confusing for an intermediate learner expecting single-word examples for 'age'.",
-      "suggestion": "While the examples are good, consider adding a simpler example like '何歳ですか？' (How old are you?) or '私の年は20歳です' (My age is 20) if the goal is to illustrate 'age' directly as a noun."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The English translation 'I got older' for '年を取った。' is grammatically correct but might not fully capture the nuance in all contexts. It can imply a more significant aging process or a realization of getting older, rather than just a simple past event.",
-      "suggestion": "Consider 'I've gotten older' or 'I've aged' for a more natural and nuanced translation, depending on context. Or, if it's a general statement, 'One gets older.'"
-    }
-  ]
+  "issues": []
 }

@@ -2,22 +2,15 @@
   "entry_id": "00507_heya",
   "headword": "{部屋|へや}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:52:47Z",
+  "reviewed_at": "2026-08-05T03:24:34Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'building' is too broad and not specific enough for '部屋'.",
-      "suggestion": "Change 'building' to 'housing' or 'architecture' or 'interior'."
-    }
-  ]
+  "issues": []
 }
