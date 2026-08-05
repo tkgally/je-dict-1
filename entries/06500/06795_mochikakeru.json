@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06795_mochikakeru_ex1",
-      "japanese": "{彼|かれ}は{私|わたし}に{新|あたら}しいビジネスの{話|はなし}を{持|も}ちかけてきた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦に→に：00314_ni⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦ビジネス→ビジネス：11162_bijinesu⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{持|も}ちかけて⟦きた→来る：00254_kuru⟧。",
       "english": "He came to me with a new business proposal.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06795_mochikakeru_ex2",
-      "japanese": "{取引先|とりひきさき}から{共同|きょうどう}{開発|かいはつ}の{話|はなし}を{持|も}ちかけられた。",
+      "japanese": "⟦{取引先|とりひきさき}→取引先：11083_torihikisaki⟧⟦から→から：00504_kara⟧⟦{共同|きょうどう}→共同：02591_kyoudou⟧⟦{開発|かいはつ}→開発：06746_kaihatsu⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{持|も}ちかけられた。",
       "english": "Our business partner proposed a joint development project.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06795_mochikakeru_ex3",
-      "japanese": "{怪|あや}しい{投資話|とうしばなし}を{持|も}ちかける{詐欺|さぎ}に{注意|ちゅうい}。",
+      "japanese": "⟦{怪|あや}しい→怪しい：10267_ayashii⟧⟦{投資話|とうしばなし}→投資話：noentry⟧⟦を→を：00422_wo⟧{持|も}ちかける⟦{詐欺|さぎ}→詐欺：09789_sagi⟧⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧。",
       "english": "Be careful of scams that approach you with suspicious investment proposals.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive).\n\nCOMPOUND VERB: Formed from {持|も}つ (to hold) + かける (to apply/bring to). The combination conveys bringing something (usually a proposal) to someone.\n\nCOMMON COLLOCATIONS:\n・{話|はなし}を{持|も}ちかける (bring up a topic/proposal)\n・{相談|そうだん}を{持|も}ちかける (approach with a consultation)\n・{取引|とりひき}を{持|も}ちかける (propose a deal)\n・{縁談|えんだん}を{持|も}ちかける (propose a marriage arrangement)\n\nUSAGE: Often used with passive form {持|も}ちかけられる when receiving a proposal. Can have slightly negative nuance when describing unsolicited or suspicious proposals.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). The proposal takes ⟦を→を：00422_wo⟧ and the person approached takes ⟦に→に：00314_ni⟧.\n\nCOMPOUND VERB: Formed from ⟦{持|も}つ→持つ：00478_motsu⟧ (to hold) + ⟦かける→かける：00854_kakeru⟧ (to apply/bring to). The combination conveys bringing something (usually a proposal) to someone.\n\nCOMMON COLLOCATIONS:\n・⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{持|も}ちかける (bring up a topic/proposal)\n・⟦{相談|そうだん}→相談：02089_soudan⟧⟦を→を：00422_wo⟧{持|も}ちかける (approach with a consultation)\n・⟦{取引|とりひき}→取引：04700_torihiki⟧⟦を→を：00422_wo⟧{持|も}ちかける (propose a deal)\n・⟦{縁談|えんだん}→縁談：13847_endan⟧⟦を→を：00422_wo⟧{持|も}ちかける (propose a marriage arrangement)\n\nUSAGE: Often used in the passive, {持|も}ちかけられる, when describing receiving a proposal, and with てくる ({持|も}ちかけてくる) when the approach comes toward the speaker. It can carry a slightly negative nuance when the proposal is unsolicited or suspicious.",
   "metadata": {
     "created": "2026-01-18T07:17:46Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-08-05T21:18:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,5 +151,21 @@
       ],
       "verb_class": "ichidan"
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "もつ",
+      "headword": "{持|も}つ",
+      "label": "base verb",
+      "target_id": "00478_motsu"
+    },
+    {
+      "type": "related",
+      "reading": "そうだん",
+      "headword": "{相談|そうだん}",
+      "label": "typical object",
+      "target_id": "02089_soudan"
+    }
+  ]
 }

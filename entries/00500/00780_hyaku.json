@@ -24,7 +24,7 @@
     },
     {
       "id": "00780_hyaku_ex2",
-      "japanese": "{二百|にひゃく}⟦{人|にん}→〜人：00658_nin⟧⟦が→が：00051_ga⟧⟦{来|き}ました→来る：00254_kuru⟧。",
+      "japanese": "⟦{二百|にひゃく}→二百：noentry⟧⟦{人|にん}→〜人：00658_nin⟧⟦が→が：00051_ga⟧⟦{来|き}ました→来る：00254_kuru⟧。",
       "english": "200 people came.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{百|ひゃく} is the number one hundred, used as a base for counting in hundreds.\n\nSOUND CHANGES:\nThe reading changes when combined with certain numbers:\n- {三百|さんびゃく} (300) - びゃく\n- {六百|ろっぴゃく} (600) - っぴゃく\n- {八百|はっぴゃく} (800) - っぴゃく\n- Others: {二百|にひゃく}, {四百|よんひゃく}, {五百|ごひゃく}, {七百|ななひゃく}, {九百|きゅうひゃく}\n\nCOMMON EXPRESSIONS:\n- {百|ひゃく}⟦{円|えん}→円：00774_en⟧⟦ショップ→ショップ：08913_shoppu⟧: 100-yen shop (discount store)\n- {百|ひゃく}⟦パーセント→パーセント：01537_paasento⟧: 100 percent\n- ⟦{百点|ひゃくてん}→百点：26343_hyakuten⟧: perfect score (100 points)\n- ⟦{百人|ひゃくにん}→百人：10985_hyakunin⟧: 100 people\n\nIDIOMS:\n- {百聞|ひゃくぶん}⟦は→は：00079_ha⟧⟦{一見|いっけん}→一見：17699_ikken⟧⟦にしかず→にしかず：noentry⟧: seeing is believing (lit: hearing 100 times is not as good as seeing once)",
-  "cross_references": [],
+  "notes": "{百|ひゃく} is the number one hundred, used as a base for counting in hundreds.\n\nSOUND CHANGES:\nThe reading changes when combined with certain numbers:\n- ⟦{三百|さんびゃく}→三百：noentry⟧ (300) - びゃく\n- ⟦{六百|ろっぴゃく}→六百：noentry⟧ (600) - っぴゃく\n- ⟦{八百|はっぴゃく}→八百：noentry⟧ (800) - っぴゃく\n- Others: ⟦{二百|にひゃく}→二百：noentry⟧, ⟦{四百|よんひゃく}→四百：noentry⟧, ⟦{五百|ごひゃく}→五百：12738_gohyaku⟧, ⟦{七百|ななひゃく}→七百：noentry⟧, ⟦{九百|きゅうひゃく}→九百：noentry⟧\n\nCOMMON EXPRESSIONS:\n- {百|ひゃく}⟦{円|えん}→円：00774_en⟧⟦ショップ→ショップ：08913_shoppu⟧: 100-yen shop (discount store)\n- {百|ひゃく}⟦パーセント→パーセント：01537_paasento⟧: 100 percent\n- ⟦{百点|ひゃくてん}→百点：26343_hyakuten⟧: perfect score (100 points)\n- ⟦{百人|ひゃくにん}→百人：10985_hyakunin⟧: 100 people\n\nIDIOMS:\n- ⟦{百聞|ひゃくぶん}→百聞：15586_hyakubun⟧⟦は→は：00079_ha⟧⟦{一見|いっけん}→一見：17699_ikken⟧⟦にしかず→にしかず：noentry⟧: seeing is believing (lit: hearing 100 times is not as good as seeing once)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00708_juu",
+      "reading": "じゅう",
+      "headword": "{十|じゅう}",
+      "label": "ten"
+    },
+    {
+      "type": "related",
+      "target_id": "00809_sen",
+      "reading": "せん",
+      "headword": "{千|せん}",
+      "label": "thousand"
+    },
+    {
+      "type": "related",
+      "target_id": "00795_man",
+      "reading": "まん",
+      "headword": "{万|まん}",
+      "label": "ten thousand"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:07:26Z",
-    "modified": "2026-05-12T20:13:40Z",
+    "modified": "2026-08-05T21:18:04Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

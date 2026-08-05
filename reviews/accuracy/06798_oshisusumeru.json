@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:08:43Z",
+  "reviewed_at": "2026-08-05T21:26:08Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'transportation' is incorrect for '押し進める'. The word refers to advancing or promoting plans/policies, not physical transportation.",
-      "suggestion": "Replace 'transportation' with 'action' or 'change'."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect. '押し進める' is a neutral verb commonly used in various contexts, not exclusively formal.",
-      "suggestion": "Change 'formal' to 'neutral'."
+      "concern": "The formality tag 'formal' is incorrect for this verb. While it can be used in formal contexts, the verb itself is not inherently formal and can be used in neutral contexts as well.",
+      "suggestion": "neutral"
     }
   ]
 }
