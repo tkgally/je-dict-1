@@ -1,0 +1,24 @@
+{
+  "entry_id": "30432_kasenbu",
+  "headword": "{下線部|かせんぶ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T15:34:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is too narrow and misleading for '下線部'. While often used in educational contexts, '下線部' itself is a general descriptive term for any underlined portion of text, not exclusively tied to education.",
+      "suggestion": "Replace 'education' with 'general' or 'descriptive'."
+    }
+  ]
+}
