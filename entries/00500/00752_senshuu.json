@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{先週|せんしゅう} means 'last week' and is part of the time reference system.\n\nTIME SERIES - WEEKS:\n- ⟦{先々週|せんせんしゅう}→先々週：11496_sensenshuu⟧: the week before last\n- {先週|せんしゅう}: last week\n- ⟦{今週|こんしゅう}→今週：00721_konshuu⟧: this week\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧: next week\n- ⟦{再来週|さらいしゅう}→再来週：01416_saraishuu⟧: the week after next\n\nKANJI BREAKDOWN:\n- {先|せん}: previous, before\n- {週|しゅう}: week\n\nSIMILAR WORDS WITH {先|せん}:\n- ⟦{先月|せんげつ}→先月：00751_sengetsu⟧: last month\n- ⟦{先日|せんじつ}→先日：03305_senjitsu⟧: the other day\n- ⟦{先年|せんねん}→先年：noentry⟧: years ago\n\nGRAMMAR NOTES:\n- Used as time adverb without particle: {先週|せんしゅう}⟦{会|あ}った→会う：00482_au⟧ (I met [them] last week)\n- With specific day: {先週|せんしゅう}⟦の→の：09472_no⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧ (last Monday)\n\nCOMMON PATTERNS:\n- {先週|せんしゅう}⟦の→の：09472_no⟧⟦{末|まつ}→末：03362_sue⟧: end of last week\n- {先週|せんしゅう}⟦から→から：00504_kara⟧: since last week",
-  "cross_references": [],
+  "notes": "{先週|せんしゅう} means 'last week' and is part of the time reference system.\n\nTIME SERIES - WEEKS:\n- ⟦{先々週|せんせんしゅう}→先々週：11496_sensenshuu⟧: the week before last\n- {先週|せんしゅう}: last week\n- ⟦{今週|こんしゅう}→今週：00721_konshuu⟧: this week\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧: next week\n- ⟦{再来週|さらいしゅう}→再来週：01416_saraishuu⟧: the week after next\n\nKANJI BREAKDOWN:\n- {先|せん}: previous, before\n- {週|しゅう}: week\n\nSIMILAR WORDS WITH {先|せん}:\n- ⟦{先月|せんげつ}→先月：00751_sengetsu⟧: last month\n- ⟦{先日|せんじつ}→先日：03305_senjitsu⟧: the other day\n- ⟦{先年|せんねん}→先年：27634_sennen⟧: years ago\n\nGRAMMAR NOTES:\n- Used as time adverb without particle: {先週|せんしゅう}⟦{会|あ}った→会う：00482_au⟧ (I met [them] last week)\n- With specific day: {先週|せんしゅう}⟦の→の：09472_no⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧ (last Monday)\n\nCOMMON PATTERNS:\n- {先週|せんしゅう}⟦の→の：09472_no⟧⟦{末|すえ}→末：03362_sue⟧: end of last week\n- {先週|せんしゅう}⟦から→から：00504_kara⟧: since last week",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00721_konshuu",
+      "reading": "こんしゅう",
+      "headword": "{今週|こんしゅう}",
+      "label": "this week"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00746_raishuu",
+      "reading": "らいしゅう",
+      "headword": "{来週|らいしゅう}",
+      "label": "next week"
+    },
+    {
+      "type": "related",
+      "target_id": "11496_sensenshuu",
+      "reading": "せんせんしゅう",
+      "headword": "{先々週|せんせんしゅう}",
+      "label": "the week before last"
+    },
+    {
+      "type": "related",
+      "target_id": "00751_sengetsu",
+      "reading": "せんげつ",
+      "headword": "{先月|せんげつ}",
+      "label": "last month"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:13:07Z",
-    "modified": "2026-05-12T18:11:28Z",
+    "modified": "2026-08-05T12:27:45Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

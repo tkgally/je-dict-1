@@ -35,7 +35,7 @@
     {
       "id": "00706_isu_ex3",
       "japanese": "⟦この→この：00962_kono⟧{椅子|いす}⟦は→は：00079_ha⟧⟦{高|たか}い→高い：00500_takai⟧⟦です→です：09485_desu⟧⟦ね→ね：09474_ne⟧。",
-      "english": "This chair is tall, isn't it?",
+      "english": "This chair is expensive, isn't it?",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{椅子|いす} is the general word for chair, often written in hiragana as いす.\n\nCOMMON EXPRESSIONS:\n- {椅子|いす}に⟦{座|すわ}る→{座|すわ}る：00757_suwaru⟧: to sit on a chair\n- {椅子|いす}から⟦{立|た}つ→{立|た}つ：00758_tatsu⟧: to stand up from a chair\n- {椅子|いす}を⟦{引|ひ}く→{引|ひ}く：01978_hiku⟧: to pull out a chair\n- {椅子|いす}を⟦{並|なら}べる→{並|なら}べる：01091_naraberu⟧: to line up chairs\n\nCOUNTER:\n⟦{脚|きゃく}→{脚|きゃく}：noentry⟧ for chairs (because they have legs). Also つ or ⟦{個|こ}→〜{個|こ}：00645_ko⟧ in casual speech.\n\nTYPES OF SEATING:\n- ⟦ソファー→ソファー：05607_sofaa⟧: sofa\n- ⟦ベンチ→ベンチ：00013_benchi⟧: bench\n- ⟦{回転|かいてん}→{回転|かいてん}：00141_kaiten⟧{椅子|いす}: swivel chair\n- ⟦{折|お}りたたみ→{折|お}りたたみ：11332_oritatami⟧{椅子|いす}: folding chair\n\nNote: For traditional Japanese floor seating, see ⟦{座布団|ざぶとん}→{座布団|ざぶとん}：06120_zabuton⟧ (floor cushion).",
-  "cross_references": [],
+  "notes": "{椅子|いす} is the general word for chair, often written in hiragana as いす.\n\nCOMMON EXPRESSIONS:\n- {椅子|いす}⟦に→に：00314_ni⟧⟦{座|すわ}る→座る：00757_suwaru⟧: to sit on a chair\n- {椅子|いす}⟦から→から：00504_kara⟧⟦{立|た}つ→立つ：00758_tatsu⟧: to stand up from a chair\n- {椅子|いす}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: to pull out a chair\n- {椅子|いす}⟦を→を：00422_wo⟧⟦{並|なら}べる→並べる：01091_naraberu⟧: to line up chairs\n\nCOUNTER:\n⟦{脚|きゃく}→脚：noentry⟧ for chairs (because they have legs). Also つ or ⟦{個|こ}→〜個：00645_ko⟧ in casual speech.\n\nTYPES OF SEATING:\n- ⟦ソファー→ソファー：05607_sofaa⟧: sofa\n- ⟦ベンチ→ベンチ：00013_benchi⟧: bench\n- ⟦{回転|かいてん}→回転：00141_kaiten⟧{椅子|いす}: swivel chair\n- ⟦{折|お}りたたみ→折りたたみ：11332_oritatami⟧{椅子|いす}: folding chair\n\nNote: For traditional Japanese floor seating, see ⟦{座布団|ざぶとん}→座布団：06120_zabuton⟧ (floor cushion).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05607_sofaa",
+      "reading": "そふぁー",
+      "headword": "ソファー",
+      "label": "sofa"
+    },
+    {
+      "type": "related",
+      "target_id": "00013_benchi",
+      "reading": "べんち",
+      "headword": "ベンチ",
+      "label": "bench"
+    },
+    {
+      "type": "related",
+      "target_id": "06120_zabuton",
+      "reading": "ざぶとん",
+      "headword": "{座布団|ざぶとん}",
+      "label": "floor cushion (traditional seating)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:35:07Z",
-    "modified": "2026-05-12T17:12:19Z",
+    "modified": "2026-08-05T12:27:45Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

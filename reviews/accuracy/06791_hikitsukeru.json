@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:08:38Z",
+  "reviewed_at": "2026-08-05T12:37:51Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'action' is too general and does not capture the specific meanings of the headword, especially for sense 3.",
+      "suggestion": "Add 'cognition' for sense 1, 'movement' for sense 2, and 'health' for sense 3. The headword should have multiple semantic tags to reflect its different senses."
+    }
+  ]
 }

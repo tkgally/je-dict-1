@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:08:34Z",
+  "reviewed_at": "2026-08-05T12:37:46Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
       "severity": "error",
-      "concern": "The semantic tag 'time-general' is incorrect for '末端'.",
-      "suggestion": "Replace 'time-general' with 'general' or 'body-part' (given examples)."
+      "concern": "The gloss 'lowest level; bottom rung (of an organization)' is too narrow for the examples provided. '末端価格' (retail price) in example 1 does not fit this definition.",
+      "suggestion": "Expand the gloss to include 'retail' or 'final' in a commercial context."
     }
   ]
 }
