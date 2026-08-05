@@ -1,0 +1,24 @@
+{
+  "entry_id": "26048_mahoujin",
+  "headword": "{魔法陣|まほうじん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:25:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with specific meanings in fantasy/occult and mathematics. More specific tags would be more helpful.",
+      "suggestion": "Add 'art' (for the visual aspect of magic circles), 'cognition' (for the mathematical concept of magic squares), and 'culture' (for its prevalence in anime/manga/games). 'general' can be removed."
+    }
+  ]
+}

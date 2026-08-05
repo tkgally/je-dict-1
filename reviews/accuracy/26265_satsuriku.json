@@ -1,0 +1,24 @@
+{
+  "entry_id": "26265_satsuriku",
+  "headword": "{殺戮|さつりく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:31:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'military' is too narrow for '殺戮'. While massacres can occur in military contexts, the word itself describes the act of killing on a large scale, which can happen in various situations beyond just military operations (e.g., genocide, natural disasters leading to mass deaths, etc.).",
+      "suggestion": "Replace 'military' with 'action' or 'general' to better reflect the broad nature of the word."
+    }
+  ]
+}

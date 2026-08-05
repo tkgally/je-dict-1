@@ -1,0 +1,38 @@
+{
+  "entry_id": "26011_kajiya",
+  "headword": "{鍛冶屋|かじや}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:23:19Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'smithy' which is a place, while the headword primarily refers to a person (blacksmith). While the explanation clarifies this, the initial gloss is misleading.",
+      "suggestion": "blacksmith"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'smithy' which is a place, while the headword primarily refers to a person (blacksmith). While the explanation clarifies this, the initial gloss is misleading.",
+      "suggestion": "blacksmith"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation 'at the blacksmith's' implies buying from the blacksmith as a person, but the Japanese '鍛冶屋で' (at the kajiya) can also mean 'at the blacksmith's shop/smithy'. Given the headword's dual meaning (person/place), the translation should reflect the place aspect more clearly if the purchase is made there.",
+      "suggestion": "I bought a kitchen knife at the blacksmith's shop."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "26275_kaishuuritsu",
+  "headword": "{回収率|かいしゅうりつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:32:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'nature' is inappropriate for '回収率' (collection rate/recovery rate).",
+      "suggestion": "Remove 'nature'. Consider 'business' or 'economics' if applicable, but 'number' is sufficient."
+    }
+  ]
+}

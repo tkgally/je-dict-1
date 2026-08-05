@@ -727,3 +727,41 @@ Also filed: **new Tooling 75** — the accuracy reviewer assigns `error` to some
 **Activity H — thirty-first metrics refresh** (14 new lines, 423→437 runs): new queue floor **12,018**, escalations closed a third refresh, `tags` at 83.0%, and the frontier-versus-growth gap reproduced a third time at a stable ~50% (dictionary +57 entries, frontier +29 IDs).
 **Carried forward to the curator**: the frontier-versus-growth rate, now a three-refresh trend and a mode-mix decision; the furigana-screener retire-on-cost call; and the thematic-`RELATED*` convention that gates half of P42.
 All 16 observations cleared.)_
+
+## 2026-08-05 — routine accuracy-review (entries 25872–26440 tags; 25872–26188 reviewed)
+
+- [pattern] **P20, sixth consecutive high-ID block in the same band.** 208 of the 569 entries in
+  25872–26440 (37%) carried off-vocabulary semantic tags — 251 flags across ~100 distinct
+  off-list tag names, all migrated this run. The band across the last six measured blocks is now
+  33–53%, so the population above the polish frontier is uniform, not clustered: any high-ID
+  block sampled will return ~a third of its entries. At ~200 entries/run against a 2,600-entry
+  baselined remainder, this lane needs ~13 more runs.
+- [tooling] **Tooling 46 confirmed a sixth time, and the ratio is now stable.** 118 of the 146
+  reviewer `tags` flags in 25872–26188 (81%) were the same off-vocab family the free
+  `check_tag_drift.py --check unknown-semantic` diff finds for $0. The 28 that were *not*
+  off-vocab are the ones worth paying for, and 11 of those 28 were sole-`general` entries with an
+  obvious replacement. The reviewer's marginal value on this dimension is ~19% of its flags.
+- [pattern] **sole-`general` looks more mechanically fixable than P13 assumes.** Of the range's
+  sole-`general` entries the reviewer flagged, 11 had an in-list tag that follows directly from
+  the gloss text: 視覚障害/低体温症/癒合/抗菌薬 → `health`, 選挙運動 → `politics`, 不敬罪 →
+  `law`, 相対性 → `science`, 国名 → `geography`, 丸括弧/角括弧 → `language`, 忌中 →
+  `culture`+`religion`. Only 2 (魔法陣, 害悪) had no clearly-applying field. A gloss-keyword
+  suggester over the 3,791-entry `sole-general` queue would likely propose a defensible tag for
+  most of it, leaving a small residue for judgment — the same shape as the `TAG_MIGRATION` map.
+- [tooling] **Tooling 53 is misdiagnosed and should be reworded, not fixed.** The
+  "`review_accuracy.py` writes an empty `description` on every issue" complaint is a
+  reader-side field-name mismatch: the issue objects carry `concern`, not `description`. Nothing
+  is lost in the reports. The backlog item as written would send someone to patch a script that
+  is behaving correctly.
+- [tooling] **Tooling 24 — seventh consecutive zero window, and the throughput case is now the
+  whole case.** `review_runner.py --pass screening` returned **0 flags on 69 entries** before
+  this run stopped it deliberately (not a crash) on throughput grounds. Cost was $0.0073. The
+  precision argument is exhausted; what remains is that the screener consumes wall-clock the
+  accuracy pass needs, and this run also saw the *accuracy* pass slow to a crawl in its second
+  half (316 of a planned 569 entries before it was stopped), which is the first time the
+  throughput ceiling has bound the paying dimension too.
+- [entry] **26031 {格上|かくじょう}** — escalated to `reviews/needs_curator.txt`: an entry built
+  on a reading that does not exist (格上 is かくうえ, 格上げ is かくあげ), whose gloss and all
+  three examples are 格上げ with the non-word furigana かくじょうげ, and which duplicates two
+  existing entries (07405 格上/かくうえ, 13122 格上げ/かくあげ). Every repair changes the
+  filename, hence the live URL, so it is a curator call.

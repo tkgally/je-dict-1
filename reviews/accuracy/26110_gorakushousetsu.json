@@ -1,0 +1,24 @@
+{
+  "entry_id": "26110_gorakushousetsu",
+  "headword": "{娯楽|ごらく}{小説|しょうせつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:26:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'literature' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

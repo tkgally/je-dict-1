@@ -1,0 +1,24 @@
+{
+  "entry_id": "26262_sokuseki",
+  "headword": "{足跡|そくせき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:31:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'evaluation' is not appropriate for the headword '足跡'. While achievements can be evaluated, the word itself does not inherently mean 'evaluation'.",
+      "suggestion": "Remove 'evaluation'."
+    }
+  ]
+}

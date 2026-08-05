@@ -1,0 +1,24 @@
+{
+  "entry_id": "26151_koitsura",
+  "headword": "こいつら",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:28:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'communication' is incorrect for a pronoun. Pronouns refer to people or things, not communication itself.",
+      "suggestion": "Replace 'communication' with 'person' or 'general'."
+    }
+  ]
+}

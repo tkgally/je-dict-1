@@ -1,0 +1,24 @@
+{
+  "entry_id": "26416_toshikeikan",
+  "headword": "{都市|とし}{景観|けいかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:33:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'nature' is inappropriate for '都市景観' (urban landscape/cityscape). While a cityscape might include natural elements like parks, the term itself refers to a man-made environment.",
+      "suggestion": "Remove 'nature'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25955_baketsuriree",
+  "headword": "バケツリレー",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:21:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'disaster' is not in the valid tag list.",
+      "suggestion": "Remove 'disaster' or replace it with a valid tag if appropriate, such as 'daily-life' or 'action'."
+    }
+  ]
+}

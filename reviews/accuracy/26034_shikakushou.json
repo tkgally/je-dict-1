@@ -1,0 +1,24 @@
+{
+  "entry_id": "26034_shikakushou",
+  "headword": "{資格証|しかくしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:23:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'document'.",
+      "suggestion": "Replace 'document' with 'general' or 'work'."
+    }
+  ]
+}

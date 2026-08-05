@@ -1,0 +1,24 @@
+{
+  "entry_id": "26049_marukakko",
+  "headword": "{丸括弧|まるかっこ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:25:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific punctuation mark.",
+      "suggestion": "Replace 'general' with 'language'."
+    }
+  ]
+}
