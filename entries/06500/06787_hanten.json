@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06787_hanten_ex1",
-      "japanese": "てんとう{虫|むし}には{赤|あか}い{羽|はね}に{黒|くろ}い{斑点|はんてん}がある。",
+      "japanese": "⟦てんとう{虫|むし}→てんとう虫：06497_tentoumushi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{赤|あか}い→赤い：00585_akai⟧⟦{羽|はね}→羽根：03696_hane⟧⟦に→に：00314_ni⟧⟦{黒|くろ}い→黒い：00588_kuroi⟧{斑点|はんてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Ladybugs have black spots on their red wings.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06787_hanten_ex2",
-      "japanese": "バナナに{茶色|ちゃいろ}い{斑点|はんてん}が{出|で}てきた。",
+      "japanese": "⟦バナナ→バナナ：01013_banana⟧⟦に→に：00314_ni⟧⟦{茶色|ちゃいろ}い→茶色い：00922_chairoi⟧{斑点|はんてん}⟦が→が：00051_ga⟧⟦{出|で}てきた→出てくる：29121_detekuru⟧。",
       "english": "Brown spots appeared on the banana.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06787_hanten_ex3",
-      "japanese": "{肌|はだ}に{斑点|はんてん}ができたので{病院|びょういん}に{行|い}った。",
+      "japanese": "⟦{肌|はだ}→肌：02243_hada⟧⟦に→に：00314_ni⟧{斑点|はんてん}⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧⟦ので→ので：09501_node⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to the hospital because spots appeared on my skin.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{斑点|はんてん} refers to spots or markings that appear on surfaces — animal fur, fruit skin, human skin, etc.\n\nCOMMON CONTEXTS:\n- {動物|どうぶつ}の{斑点|はんてん}: spots on animals (leopards, ladybugs)\n- {果物|くだもの}の{斑点|はんてん}: spots on fruit (browning)\n- {皮膚|ひふ}の{斑点|はんてん}: spots on skin (rashes, age spots)\n\nCOMMON COLLOCATIONS:\n- {斑点|はんてん}がある: to have spots\n- {斑点|はんてん}が{出|で}る: spots appear\n- {斑点|はんてん}{模様|もよう}: spotted pattern\n\nSIMILAR WORDS:\n- {点|てん}: dot, point (abstract, general)\n- {水玉|みずたま}: polka dots (decorative pattern)\n- まだら: mottled, patchy (irregular pattern)\n- しみ: stain, blemish (on skin or fabric)",
+  "notes": "{斑点|はんてん} refers to spots or markings that appear on surfaces — animal fur, fruit skin, human skin, etc.\n\nCOMMON CONTEXTS:\n- ⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦の→の：09472_no⟧{斑点|はんてん}: spots on animals (leopards, ladybugs)\n- ⟦{果物|くだもの}→果物：00509_kudamono⟧⟦の→の：09472_no⟧{斑点|はんてん}: spots on fruit (browning)\n- ⟦{皮膚|ひふ}→皮膚：03987_hifu⟧⟦の→の：09472_no⟧{斑点|はんてん}: spots on skin (rashes, age spots)\n\nCOMMON COLLOCATIONS:\n- {斑点|はんてん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have spots\n- {斑点|はんてん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: spots appear\n- {斑点|はんてん}⟦{模様|もよう}→模様：03635_moyou⟧: spotted pattern\n\nSIMILAR WORDS:\n- ⟦{点|てん}→点：01553_ten⟧: dot, point (abstract, general)\n- ⟦{水玉|みずたま}→水玉：16173_mizutama⟧: polka dots (decorative pattern)\n- ⟦まだら→まだら：27149_madara⟧: mottled, patchy (irregular pattern)\n- ⟦しみ→染み：05426_shimi⟧: stain, blemish (on skin or fabric)",
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-04-06T04:02:27Z",
+    "modified": "2026-08-05T12:27:45Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -59,5 +59,35 @@
         "general"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27149_madara",
+      "reading": "まだら",
+      "headword": "まだら",
+      "label": "mottled, patchy"
+    },
+    {
+      "type": "related",
+      "target_id": "16173_mizutama",
+      "reading": "みずたま",
+      "headword": "{水玉|みずたま}",
+      "label": "polka dots"
+    },
+    {
+      "type": "related",
+      "target_id": "05426_shimi",
+      "reading": "しみ",
+      "headword": "{染|し}み",
+      "label": "stain, blemish"
+    },
+    {
+      "type": "related",
+      "target_id": "03635_moyou",
+      "reading": "もよう",
+      "headword": "{模様|もよう}",
+      "label": "pattern, design"
+    }
+  ]
 }

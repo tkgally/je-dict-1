@@ -2,7 +2,7 @@
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
   "date": "2026-08-05",
   "daily_cap_usd": 5.0,
-  "spent_usd": 0.1935,
+  "spent_usd": 0.1993,
   "calls": [
     {
       "ts": "2026-08-05T00:26:48Z",
@@ -31,6 +31,13 @@
       "phase": "self-check",
       "entries": 97,
       "est_usd": 0.0423
+    },
+    {
+      "ts": "2026-08-05T12:38:37Z",
+      "mode": "self-check",
+      "phase": "self-check",
+      "entries": 13,
+      "est_usd": 0.0058
     }
   ]
 }

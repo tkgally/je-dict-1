@@ -765,3 +765,9 @@ All 16 observations cleared.)_
   three examples are 格上げ with the non-word furigana かくじょうげ, and which duplicates two
   existing entries (07405 格上/かくうえ, 13122 格上げ/かくあげ). Every repair changes the
   filename, hence the live URL, so it is a curator call.
+
+- [pattern] The 06787–06792 frontier block has **zero** inline-link coverage — neither examples nor notes carry ⟦…⟧ links, unlike the polished ranges below it. Entries created in this block appear to predate the inline-link requirement; expect the whole 6700s–6800s stretch to need full linking rather than touch-ups. (2026-08-05 routine polish)
+- [pattern] Legacy inline links in low-ID basic entries use two nonstandard base-form styles: the reading instead of the dictionary form (`→せんしゅう：00752_senshuu`) and furigana braces inside the base (`→{座|すわ}る：00757_suwaru`). Both resolve, so validation passes and they are invisible to the checkers. Seen in 00706, 00746, 00751. (2026-08-05 routine polish)
+- [tooling] A detector for stale `noentry` markers would pay for itself: 00751 and 00752 both marked 先年 as `noentry` although 27634_sennen exists. Scan every `→X：noentry⟧` against `build/word_id_lookup.json` and report ones that now resolve. (2026-08-05 routine polish)
+- [entry] 気持ち has two entries with different IDs — 01385_kimochi and 02485_kimochi, both glossed "feeling, mood". Candidate for consolidation via `prompts/fix_duplicate_ids.md` / `consolidate_entries.md`. (2026-08-05 routine polish)
+- [pattern] Basic-tier nouns polished from the priority-notes lane (00651, 00679, 00706, 00726, 00746, 00751, 00752) all had rich "RELATED"/"SIMILAR WORDS" note sections but an **empty** `cross_references` array — the neighbors were documented in prose only. Prose-to-cross-reference extraction remains the highest-yield fix in this lane. (2026-08-05 routine polish)
