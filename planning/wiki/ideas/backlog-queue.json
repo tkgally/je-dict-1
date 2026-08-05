@@ -545,9 +545,9 @@
       "priority": 7,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 6,
+      "scope_estimate": 5,
       "severity": "warn",
-      "notes": "Measured 2026-07-30: 06955, 07352, 07365, 07367, 07398, 07411 — all 'REGISTER: Casual' with formality:formal. Converse (informal/vulgar tag vs 'REGISTER: Formal') = 0. Precision depends on anchoring to the POSITION of the word in the REGISTER line: the loose variant (informal/casual appearing anywhere in notes) returns 1,238 and is mostly noise, because notes routinely say 'more formal than the informal X'. Correction target is `informal` — the enum is formal/neutral/informal/vulgar, there is no `casual`."
+      "notes": "Measured 2026-08-05: exactly 5 entries dictionary-wide (07352 ぼやく, 07367 ややこしい, 07397 待ち合わせ, 07398 後回し, 07411 しんどい -- one contiguous creation cohort) whose REGISTER/FORMALITY section describes the headword itself as Casual/Neutral while the tag says formal. The naive predicate (formal tag + any casual mention in notes) returns 1,560 and is unusable: a formal word listing its CASUAL EQUIVALENTS is correct content, which is why 06779 いずれにせよ was mis-filed as a defect. Only 555 of 5,068 formal entries have a REGISTER section at all, so this predicate is a ratchet for new entries, not a sweep. See cleanup-backlog.md Priority 37 update 2026-08-05."
     },
     {
       "id": "inline-link-stale-noentry",
@@ -598,16 +598,16 @@
       "id": "crossref-missing-from-notes-prose",
       "title": "Contrast words named in notes prose but absent from `cross_references`",
       "source": "ideas/tooling-backlog.md#55-detector-contrast-words-named-in-notes-prose-but-absent-from-cross_references",
-      "detect": "needs detector: diff ⟦…：entry_id⟧ targets inside SIMILAR WORDS / Different from / Opposite: note sections against the entry's cross_references target IDs",
-      "filter": "only sees already-inline-linked (below-frontier) entries",
+      "detect": "scan notes for a link at the HEAD of its bullet inside a discrimination section (SIMILAR WORDS / CONTRAST / OPPOSITE / COMPARISON / SYNONYMS) and diff its target ID against cross_references + prominent_see_also target IDs",
+      "filter": "bullet-leading links only (mid-bullet links are collocational tokens, not the named neighbour); discrimination sections only -- the thematic RELATED* half (1,470 entries / 2,999 refs) needs a convention decision first",
       "fix_type": "verify",
       "verify": "per-entry",
-      "priority": 9,
-      "batch_ready": false,
-      "status": "needs-detector",
-      "scope_estimate": null,
+      "priority": 6,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 1402,
       "severity": "info",
-      "notes": "6 of 8 basic-tier priority-lane entries on 2026-07-31 named a contrast word in prose with no structured ref (覚える→習う, 洗う→拭く/すすぐ/磨く, やめる→続ける, 軽蔑→見下す/馬鹿にする). The note section heading supplies the relation type, so the detector can propose the `type` value. Mirror image of item 52 (prominent_see_also)."
+      "notes": "Measured 2026-08-05 across 30,205 entries: 2,795 entries / 5,391 bullet-leading refs missing, splitting into 1,402 entries / 2,395 refs in discrimination sections (batch-ready, header supplies the `type`: related 4,820 / contrast 488 / antonym 41 / homophone 22 / synonym 20 across both halves) and 1,470 entries / 2,999 refs in thematic RELATED* sections (curator convention question, same shape as P38). 858 of the affected entries have an empty cross_references array. Per-entry load small: 676 need 1 ref, 509 need 2, max 5. Bounded by the link frontier by construction -- 3,043 of 3,050 below ID 07000 -- so the queue grows as the polish lane advances. Filed six times by polish runs 2026-07-31..2026-08-05. See cleanup-backlog.md Priority 42."
     },
     {
       "id": "headword-missing-furigana",

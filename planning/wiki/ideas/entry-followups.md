@@ -1124,6 +1124,34 @@ harvest recorded for exactly this situation (see Tooling 59's update: *when the 
 no entry and the same-kanji entry would mislead, rewrite to `noentry` and add a candidate, do not
 find a less-wrong target*). Left for the curator because 採れる may deserve its own entry.
 
+## 30380 使いやすい: a cross-reference with no `target_id`
+
+**Source**: 2026-08-04 routine polish run.
+
+`30380_tsukaiyasui` carries a `cross_references` entry for 使いにくい with the `target_id` field
+absent — `validate.py` reports it as a note rather than an error (the schema gap written up in
+[Tooling 51](tooling-backlog.md#51-a-cross-reference-with-no-target_id-validates-cleanly--but-the-obvious-schema-fix-would-break-59-intentional-refs)),
+so it renders as an unlinked label.
+
+Self-resolving: the run added 使いにくい to the candidate list, and the ref becomes valid the
+moment that entry exists. Filed so that whoever creates 使いにくい knows to come back and fill in
+the `target_id` — and as one more instance of the pattern that makes 51's "intentional
+target-less ref" population hard to separate from the accidental one.
+
+## 00486 年: no sense-1 example uses the headword on its own
+
+**Source**: 2026-08-05 routine polish run (notes-priority lane).
+
+`00486_toshi` 年 is a basic-tier entry, and its sense-1 examples (ex1–ex3) illustrate 今年, 去年
+and 来年 — compounds that each have their own entry. The headword never appears standalone in a
+sense-1 example, so the entry teaches its own compounds instead of itself.
+
+The fix is one added example using 年 alone (年を取る is the obvious candidate, or a counting use:
+三年前). Worth doing carefully because this is a basic-tier, high-traffic entry, and worth noting
+as a shape: an entry whose examples are all *compounds containing* the headword is a defect the
+example-count checks cannot see, and one that would be mechanically detectable for
+single-character noun headwords.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

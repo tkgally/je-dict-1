@@ -1780,6 +1780,21 @@ range before the run wrapped up, against the accuracy pass's full coverage of th
 cost of keeping the screener continues to be paid in accuracy-pass coverage, and the accuracy pass
 is the one with measured precision.
 
+> **Update 2026-08-05 — the zero streak ends at one, and the one is real.** Two data points this
+> window. (a) A 2026-08-04 run screened 25601–25792 and raised **0 flags on 78 entries** — the
+> first sample taken after the context-window repair, and consistent with the repair having
+> removed the false-positive family rather than with the pass being uninformative. (b) The
+> 2026-08-03 screen produced the first genuine hit since the repair: `24842`, katakana `プロ`
+> sealed inside a kanji group, applied. The window closes at **1 applied of 27 flags (3.7%)**.
+>
+> This is the first evidence in nine windows that argues *against* retirement, and it should be
+> weighed honestly: one true positive is not a rate, and the class it belongs to (a non-hiragana
+> character inside a reading) is exactly the one this item proposes to catch with a regex for
+> free. What the datum actually settles is the *diagnosis* — the pass is not broken, it is
+> low-yield — which leaves the throughput argument (~1.3–2 entries/min against the accuracy
+> pass's ~3–13, on a shared cursor) as the whole of the retire-or-gate case. Recommendation
+> unchanged, evidence now cleanly separated: **retire on cost, not on precision**.
+
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
 **Source**: 2026-06-19 routine systemic-fix run (missing-target-id lane)
@@ -2911,6 +2926,17 @@ This matters because of the ratio this item has now measured twice: roughly 1 us
 10. A splitter recovers real supply from the 9 without any new harvesting — which is the cheapest
 source of candidates available, and it does not depend on the corpus tooling at all.
 
+### Update 2026-08-05 — the ~1-in-10 ratio, measured a third time
+
+A `new-entries` run sampled ~200 candidates across the non-"seen in entry" pool and reported
+"almost nothing entry-worthy", against 16 "seen in entry" candidates that were "all high-value by
+contrast" — the same ratio, taken a third time by a third method, and the same three junk families
+already enumerated above: transparent compounds (参加者数, 全商品, 三千円), inflected forms mistaken
+for words (潔くない, 戦わない, 動かない), and coinages (権使, 些道, 個尊). No new family and no
+change of recommendation. Recorded because three independent measurements agreeing is what makes
+the ~980-candidate headline count safe to plan against as **~100 usable words** — which is the
+number that should drive the curator-restock cadence, not the raw count the selector reports.
+
 ## 55. Detector: contrast words named in notes prose but absent from `cross_references`
 
 **Source**: 2026-07-31 routine polish run (priority lane, basic-tier verbs)
@@ -2932,6 +2958,46 @@ not every prose mention deserves a structured ref, so this is a `verify: per-ent
 than a mechanical sweep. Closely related to
 [item 52](#52-does-check_semantic_clusterspy-count-a-prominent_see_also-mention-as-satisfying-the-pair-requirement),
 which asks the mirror-image question about `prominent_see_also`.
+
+### Measured 2026-08-05 (sixth and seventh filing) — 2,795 entries, and it is two populations
+
+Two more runs filed this shape (basic/core nouns 00486 年 / 00507 部屋 / 00631 一月 with rich
+notes and an empty `cross_references`; a priority lane that hit it 6 times out of 6), so the
+2026-08-05 harvest ran the detector this item specifies against all 30,205 entries. It works, and
+the result splits cleanly:
+
+| Predicate | Entries | Missing refs |
+|---|---|---|
+| Any inline link anywhere in a relation-bearing section | 3,050 | 6,755 |
+| **Link at the head of its bullet** (the reliable signal) | **2,795** | **5,391** |
+| ├─ discrimination sections (`SIMILAR WORDS`, `CONTRAST`, `OPPOSITE`, `COMPARISON`, …) | 1,402 | 2,395 |
+| └─ thematic sections (`RELATED TERMS`, `RELATED WORDS`, `RELATED VOLCANIC TERMS`, …) | 1,470 | 2,999 |
+| of the bullet-leading set: `cross_references` empty entirely | 858 | — |
+
+Four things the measurement settles:
+
+1. **Bullet position is the filter.** Requiring the link to *lead* its bullet removes 1,364
+   hits, and inspection says they are the right ones to remove: mid-bullet links are
+   collocational tokens, not the named neighbour. `00053 学科`'s CONTRAST bullet reads
+   `学科試験 vs 実技試験`, so a position-blind scan proposes a `contrast` ref to
+   `01422_shiken` (試験) — a word the bullet merely uses.
+2. **The two halves are different asks.** `SIMILAR WORDS` / `CONTRAST` is near-synonym
+   discrimination — precisely what `cross_references` exists to record, and where the section
+   heading supplies the `type`. `RELATED VOLCANIC TERMS` on `00045 噴火` is a semantic-field
+   roster; promoting its four links would make `cross_references` a topic index. The
+   discrimination half (1,402 entries / 2,395 refs) is the batch-ready one; the thematic half
+   is a convention question of the same shape as [Cleanup P38](cleanup-backlog.md)'s lexical
+   families.
+3. **The relation type is derivable**: `related` 4,820, `contrast` 488, `antonym` 41,
+   `homophone` 22, `synonym` 20 — from the header alone, against the corpus's existing
+   `related`/`synonym`/`antonym`/`contrast`/`homophone`/`see_also`/`pair`/`keigo` vocabulary.
+4. **The caveat above is confirmed exactly**: 3,043 of the 3,050 affected entries sit below ID
+   07000, 5 in the 7000s, 2 in the 9000s. This item can only ever see the inline-linked corpus,
+   so its scope grows only as the frontier lane advances — and each entry the lane polishes is
+   an entry this detector can then check.
+
+Per-entry load is small (676 entries need 1 ref, 509 need 2, none more than 5), which is what
+makes the discrimination half worth a queue rather than a curator decision.
 
 ## 56. Nothing checks that a headword carries furigana
 
@@ -3362,6 +3428,53 @@ edited by scripts rather than by hand. Worth adding for the same reason as item 
 nothing to run forever, and the defect is invisible to `validate.py` by construction (a literal
 backslash-n is a perfectly valid JSON string). The single live instance is filed on
 [Entry Follow-ups](entry-followups.md).
+
+## 75. The accuracy reviewer assigns different severities to the same defect class
+
+**Source**: 2026-08-04 routine accuracy-review run (25601–26200).
+
+Identical "this semantic tag is not in the valid list" findings came back as `severity: "error"`
+on some entries and `severity: "warn"` on others *within a single range*. The defect class is
+binary and machine-checkable — a tag either is or is not in `VALID_SEMANTIC` — so there is no
+entry-level fact the model could be responding to.
+
+This matters more than a cosmetic inconsistency because
+[`routine2.md` §A step 4](../../../prompts/routine2.md) **triages by severity**: error-severity
+issues are worked individually, warn-severity ones are sampled ~10 per dimension and the rest
+bulk-rejected as a family. A tag-vocabulary flag that lands in the `warn` bucket is therefore
+liable to be bulk-rejected even though its class runs at the highest apply rate of any dimension
+(83.0% this window; see [Quality Metrics](../topics/quality-metrics.md)).
+
+Two fixes, either sufficient: have the prompt fix the severity per issue *type* rather than
+letting the model choose, or — better, and consistent with
+[item 46](#46-pre-scan-off-vocabulary-tags-deterministically-and-feed-the-list-to-the-accuracy-reviewer)'s finding
+that the free `VALID_SEMANTIC` diff already finds 110 of 118 and 38 of 54 of what the reviewer
+flags — stop routing tag-vocabulary flags through severity at all and adjudicate them against
+the deterministic list. The standing rule for the Routine in the meantime: **severity is not a
+triage axis for `dim: tags`**.
+
+## 76. `word_id_lookup.json` answers katakana lookups from `by_headword` only
+
+**Source**: 2026-08-05 routine polish run — a linker looked up ピンク, got nothing, and was about
+to write a `noentry` marker for a word that has an entry (`04718_pinku`).
+
+**Measured 2026-08-05**: `by_reading` holds **0** pure-katakana keys — a katakana entry is keyed
+there under its hiragana transliteration (ピンク → ぴんく) — while `by_headword` holds **2,159**,
+including every katakana headword. So the lookup is not missing; it is **asymmetric**, and a
+caller that consults `by_reading` first (the natural choice when working from an example
+sentence's furigana) silently gets nothing for the entire loanword vocabulary.
+
+This is the same transliteration trap already recorded for `cross_references` in
+[Cross-References](../topics/cross-references.md) (a katakana headword's `reading` must be
+hiragana), showing up one layer down. Three options, in increasing order of cost: document it in
+the `inline-word-links` skill (a two-line note — the cheap fix, and the one that would have
+prevented this instance); have `generate_word_lookup.py` additionally key katakana headwords into
+`by_reading` under their own surface; or give callers a single `lookup(word)` helper that tries
+both maps. The first is worth doing regardless — a stale `noentry` marker written today becomes
+[Cleanup P35](cleanup-backlog.md) tomorrow.
+
+**[skill] recommendation** (this session does not modify skills): add the katakana note to
+`inline-word-links`.
 
 ## Related pages
 
