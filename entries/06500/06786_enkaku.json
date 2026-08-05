@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06786_enkaku_ex1",
-      "japanese": "{会社|かいしゃ}の{沿革|えんかく}を{調|しら}べた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{沿革|えんかく}⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "I researched the company's history.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06786_enkaku_ex2",
-      "japanese": "{沿革|えんかく}のページには{創業|そうぎょう}から{現在|げんざい}までの{歴史|れきし}が{書|か}かれている。",
+      "japanese": "{沿革|えんかく}⟦の→の：09472_no⟧⟦ページ→ページ：02961_peeji⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{創業|そうぎょう}→創業：11792_sougyou⟧⟦から→から：00504_kara⟧⟦{現在|げんざい}→現在：01556_genzai⟧⟦まで→まで：00490_made⟧⟦の→の：09472_no⟧⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦が→が：00051_ga⟧⟦{書|か}かれている→書く：00477_kaku⟧。",
       "english": "The history page describes the story from founding to the present.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06786_enkaku_ex3",
-      "japanese": "{学校|がっこう}の{沿革|えんかく}は100{年|ねん}にわたる。",
+      "japanese": "⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{沿革|えんかく}⟦は→は：00079_ha⟧100⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧⟦わたる→渡る：02441_wataru⟧。",
       "english": "The school's history spans 100 years.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{沿革|えんかく} refers to the historical development of an organization.\n\nCOMMON CONTEXTS:\n・{会社|かいしゃ}の{沿革|えんかく} - company history\n・{学校|がっこう}の{沿革|えんかく} - school history\n・{組織|そしき}の{沿革|えんかく} - organizational history\n\nWEBSITE USAGE:\nMany Japanese corporate websites have a {沿革|えんかく} page providing a timeline of key events.\n\nRELATED:\n・{歴史|れきし} - history (general)\n・{変遷|へんせん} - transition, changes over time\n・{由来|ゆらい} - origin, derivation",
+  "notes": "{沿革|えんかく} refers to the historical development of an organization.\n\nCOMMON CONTEXTS:\n・⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{沿革|えんかく} - company history\n・⟦{学校|がっこう}→学校：00055_gakkou⟧⟦の→の：09472_no⟧{沿革|えんかく} - school history\n・⟦{組織|そしき}→組織：03320_soshiki⟧⟦の→の：09472_no⟧{沿革|えんかく} - organizational history\n\nWEBSITE USAGE:\nMany Japanese corporate websites have a {沿革|えんかく} page providing a timeline of key events.\n\nRELATED:\n・⟦{歴史|れきし}→歴史：02267_rekishi⟧ - history (general)\n・⟦{変遷|へんせん}→変遷：05571_hensen⟧ - transition, changes over time\n・⟦{由来|ゆらい}→由来：05451_yurai⟧ - origin, derivation",
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-08-05T03:18:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -66,6 +66,22 @@
       "reading": "えんかく",
       "headword": "{遠隔|えんかく}",
       "note": "remote, distant"
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "れきし",
+      "headword": "{歴史|れきし}",
+      "label": "history (general)",
+      "target_id": "02267_rekishi"
+    },
+    {
+      "type": "related",
+      "reading": "へんせん",
+      "headword": "{変遷|へんせん}",
+      "label": "transition over time",
+      "target_id": "05571_hensen"
     }
   ]
 }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06785_shikibetsu_ex1",
-      "japanese": "AIが{顔|かお}を{識別|しきべつ}する。",
+      "japanese": "⟦AI→AI：07764_eeai⟧⟦が→が：00051_ga⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧{識別|しきべつ}⟦する→する：00392_suru⟧。",
       "english": "AI identifies faces.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06785_shikibetsu_ex2",
-      "japanese": "{本物|ほんもの}と{偽物|にせもの}を{識別|しきべつ}するのは{難|むずか}しい。",
+      "japanese": "⟦{本物|ほんもの}→本物：03628_honmono⟧⟦と→と：00512_to⟧⟦{偽物|にせもの}→偽物：11521_nisemono⟧⟦を→を：00422_wo⟧{識別|しきべつ}⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "It's difficult to distinguish genuine from fake.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06785_shikibetsu_ex3",
-      "japanese": "バーコードで{商品|しょうひん}を{識別|しきべつ}する。",
+      "japanese": "⟦バーコード→バーコード：10282_baakoodo⟧⟦で→で：00502_de⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦を→を：00422_wo⟧{識別|しきべつ}⟦する→する：00392_suru⟧。",
       "english": "Products are identified by barcode.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{識別|しきべつ} means identification or distinction.\n\nCOLLOCATIONS:\n・{識別|しきべつ}する - to identify, distinguish\n・{識別|しきべつ}できる - can identify\n・{識別|しきべつ}{番号|ばんごう} - identification number\n・{識別|しきべつ}コード - identification code\n\nCOMPOUNDS:\n・{顔|かお}{識別|しきべつ} - facial recognition\n・{音声|おんせい}{識別|しきべつ} - voice recognition\n・{指紋|しもん}{識別|しきべつ} - fingerprint identification\n\nRELATED:\n・{区別|くべつ} - distinction, differentiation\n・{認識|にんしき} - recognition, perception",
+  "notes": "{識別|しきべつ} means identification or distinction.\n\nCOLLOCATIONS:\n・{識別|しきべつ}⟦する→する：00392_suru⟧ - to identify, distinguish\n・{識別|しきべつ}⟦できる→できる：00557_dekiru⟧ - can identify\n・{識別|しきべつ}⟦{番号|ばんごう}→番号：02939_bangou⟧ - identification number\n・{識別|しきべつ}⟦コード→コード：00241_koodo⟧ - identification code\n\nCOMPOUNDS:\n・⟦{顔|かお}→顔：00558_kao⟧{識別|しきべつ} - facial recognition\n・⟦{音声|おんせい}→音声：04445_onsei⟧{識別|しきべつ} - voice recognition\n・⟦{指紋|しもん}→指紋：12728_shimon⟧{識別|しきべつ} - fingerprint identification\n\nRELATED:\n・⟦{区別|くべつ}→区別：01555_kubetsu⟧ - distinction, differentiation\n・⟦{認識|にんしき}→認識：05090_ninshiki⟧ - recognition, perception",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "headword": "{区別|くべつ}",
       "label": "distinction",
       "target_id": "01555_kubetsu"
+    },
+    {
+      "type": "related",
+      "reading": "にんしき",
+      "headword": "{認識|にんしき}",
+      "label": "recognition, perception",
+      "target_id": "05090_ninshiki"
     }
   ],
   "metadata": {
     "created": "2026-01-18T06:56:58Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-08-05T03:18:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

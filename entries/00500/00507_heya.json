@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{部屋|へや} is the general word for any room in a building.\n\nCOMMON EXPRESSIONS:\n- {部屋|へや}を⟦{借|か}りる→借りる：00532_kariru⟧: to rent a room\n- {部屋|へや}を⟦{掃除|そうじ}する→掃除：02889_souji⟧: to clean a room\n- {部屋|へや}に⟦{入|はい}る→入る：00494_hairu⟧: to enter a room\n- {空|あ}き{部屋|べや}: vacant room\n\nROOM TYPES:\n- ⟦{和室|わしつ}→和室：10437_washitsu⟧: Japanese-style room (tatami)\n- ⟦{洋室|ようしつ}→洋室：15741_youshitsu⟧: Western-style room\n- ⟦{寝室|しんしつ}→寝室：05300_shinshitsu⟧: bedroom\n- ⟦{居間|いま}→居間：01745_ima⟧: living room\n- ⟦{客間|きゃくま}→客間：00257_kyakuma⟧: guest room\n\nCOUNTER:\nRooms are counted with {部屋|へや}: 1{部屋|へや}, 2{部屋|へや}. For apartments: 2LDK, 3LDK, etc.",
-  "cross_references": [],
+  "notes": "{部屋|へや} is the general word for any room in a building.\n\nCOMMON EXPRESSIONS:\n- {部屋|へや}を⟦{借|か}りる→借りる：00532_kariru⟧: to rent a room\n- {部屋|へや}を⟦{掃除|そうじ}する→掃除：02889_souji⟧: to clean a room\n- {部屋|へや}に⟦{入|はい}る→入る：00494_hairu⟧: to enter a room\n- ⟦{空|あ}き{部屋|べや}→空き部屋：noentry⟧: vacant room\n\nROOM TYPES:\n- ⟦{和室|わしつ}→和室：10437_washitsu⟧: Japanese-style room (tatami)\n- ⟦{洋室|ようしつ}→洋室：15741_youshitsu⟧: Western-style room\n- ⟦{寝室|しんしつ}→寝室：05300_shinshitsu⟧: bedroom\n- ⟦{居間|いま}→居間：01745_ima⟧: living room\n- ⟦{客間|きゃくま}→客間：00257_kyakuma⟧: guest room\n\nCOUNTER:\nRooms are counted with {部屋|へや}: 1{部屋|へや}, 2{部屋|へや}. For apartments: 2LDK, 3LDK, etc.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10437_washitsu",
+      "reading": "わしつ",
+      "headword": "{和室|わしつ}",
+      "label": "Japanese-style room"
+    },
+    {
+      "type": "related",
+      "target_id": "15741_youshitsu",
+      "reading": "ようしつ",
+      "headword": "{洋室|ようしつ}",
+      "label": "Western-style room"
+    },
+    {
+      "type": "related",
+      "target_id": "01458_tatemono",
+      "reading": "たてもの",
+      "headword": "{建物|たてもの}",
+      "label": "building containing rooms"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:31:48Z",
-    "modified": "2026-05-11T17:26:36Z",
+    "modified": "2026-08-05T03:18:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
