@@ -1,0 +1,38 @@
+{
+  "entry_id": "25872_houshinjoutai",
+  "headword": "{放心状態|ほうしんじょうたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:18:04Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'emotions' is not in the valid tag list.",
+      "suggestion": "cognition"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'psychology' is not in the valid tag list.",
+      "suggestion": "cognition"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'state of shock' misrepresents the Japanese '放心状態'. While related, '放心状態' is more about being dazed or absent-minded, not necessarily 'shock'.",
+      "suggestion": "I was in a dazed state upon hearing the news of the accident."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "25989_shihen",
+  "headword": "{紙片|しへん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:22:27Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'stationery' is incorrect for '紙片' (scrap of paper). 'Stationery' refers to writing materials like paper, envelopes, etc., in their intended, usable form. A 'scrap of paper' is typically a discarded or incidental piece, not stationery.",
+      "suggestion": "Remove 'stationery'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'materials' is too broad and not specific enough for '紙片'. While paper is a material, 'scrap of paper' is more specifically a type of object or item.",
+      "suggestion": "Replace 'materials' with 'general' or 'daily-life' if a more specific tag isn't available."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25918_amasutokoronaku",
+  "headword": "{余|あま}すところなく",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:19:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'degree' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

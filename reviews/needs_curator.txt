@@ -299,3 +299,18 @@
 22896  しゃきっと  semantic=['food', 'manner']  off-vocab=['manner']
 23656 {齧歯類|げっしるい} — example furigana {兎形目|うさぎがたもく}: screener suggests うさぎもく/とけいもく; taxonomic reading unverified (2026-08-02, routine accuracy-review)
 24314 — 等身: bound morpheme in modern Japanese; every natural example uses 等身大. Consider whether the entry should be re-headed as 等身大 (would change the entry ID/URL, so curator's call). Flagged by both the §A accuracy pass and the §4 self-check on 2026-08-02.
+
+## 2026-08-05 — routine(accuracy-review), block 25872–26440
+
+- **26031 {格上|かくじょう} — spurious entry with an invented reading; recommend deletion or
+  merge (curator decision: touches a live URL).** Found while adjudicating a `gloss` error flag
+  from the accuracy reviewer, which caught the gloss/headword mismatch but not the full picture.
+  - The reading かくじょう is not a reading of 格上. 格上 is かくうえ ("higher rank; superior"),
+    and 格上げ is かくあげ ("upgrading; elevation").
+  - The gloss ("upgrading; raising in status or rank") and **all three examples** are 格上げ,
+    not 格上 — and their furigana reads {格上|かくじょう}げ, i.e. かくじょうげ, not a word.
+  - Both real words already have entries: **07405 {格上|かくうえ}** and **13122 {格上|かくあ}げ**.
+    26031 therefore duplicates existing coverage under a non-existent reading.
+  - Not fixed in this run because every available repair (change the reading, or repoint the
+    entry at 格上げ) changes `romaji` and the filename, i.e. the live URL — out of scope for an
+    unattended run per CLAUDE.md's "never renumber" rule. `delete-entry` / `resolve-duplicates`.

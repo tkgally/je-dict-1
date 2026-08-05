@@ -1,0 +1,24 @@
+{
+  "entry_id": "26150_nega",
+  "headword": "ネガ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:28:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'communication' is not appropriate for the headword 'ネガ' which primarily refers to photographic negatives or a negative outlook. While photography can be a form of communication, 'ネガ' itself does not directly mean communication.",
+      "suggestion": "Remove 'communication'."
+    }
+  ]
+}

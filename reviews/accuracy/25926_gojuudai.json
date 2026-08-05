@@ -1,0 +1,24 @@
+{
+  "entry_id": "25926_gojuudai",
+  "headword": "{五十代|ごじゅうだい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:20:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and 'people' is not a valid tag.",
+      "suggestion": "Replace 'time' with 'time-general' and 'people' with 'person'."
+    }
+  ]
+}

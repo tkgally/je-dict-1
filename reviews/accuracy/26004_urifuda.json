@@ -1,0 +1,31 @@
+{
+  "entry_id": "26004_urifuda",
+  "headword": "{売札|うりふだ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:23:07Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'commerce' is not in the valid tag list.",
+      "suggestion": "shopping"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'objects' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

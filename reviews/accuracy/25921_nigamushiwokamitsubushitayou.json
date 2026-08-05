@@ -1,0 +1,24 @@
+{
+  "entry_id": "25921_nigamushiwokamitsubushitayou",
+  "headword": "{苦虫|にがむし}を{噛|か}み{潰|つぶ}したよう",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:19:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'emotions' is not in the valid tag list.",
+      "suggestion": "emotion"
+    }
+  ]
+}

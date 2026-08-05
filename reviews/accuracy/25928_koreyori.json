@@ -1,0 +1,31 @@
+{
+  "entry_id": "25928_koreyori",
+  "headword": "これより",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:20:06Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and 'time-general' would be more appropriate for the temporal aspect of the headword.",
+      "suggestion": "time-general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'spatial' is not in the valid tag list. 'direction' or 'geography' might be more appropriate depending on the specific nuance.",
+      "suggestion": "direction"
+    }
+  ]
+}

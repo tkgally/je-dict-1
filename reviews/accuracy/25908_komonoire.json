@@ -1,0 +1,31 @@
+{
+  "entry_id": "25908_komonoire",
+  "headword": "{小物|こもの}{入|い}れ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:19:25Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'household' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'objects' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

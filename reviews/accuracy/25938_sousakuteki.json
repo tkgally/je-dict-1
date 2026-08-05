@@ -1,0 +1,24 @@
+{
+  "entry_id": "25938_sousakuteki",
+  "headword": "{創作的|そうさくてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:20:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'arts'.",
+      "suggestion": "art"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "25875_tetsusei",
+  "headword": "{鉄製|てつせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:18:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'materials' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

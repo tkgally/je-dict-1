@@ -1,0 +1,24 @@
+{
+  "entry_id": "26181_gorouku",
+  "headword": "ご{労苦|ろうく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-05T09:29:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'social' is not a valid semantic tag.",
+      "suggestion": "Replace 'social' with a valid tag like 'general' or 'daily-life' or 'expression'."
+    }
+  ]
+}
