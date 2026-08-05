@@ -1219,6 +1219,18 @@ which makes it a property of the high-ID creation cohort rather than of any one 
 strengthens the case for tooling item 67 (a per-range density report), since the CI ratchet can
 gate but cannot target.
 
+**Update 2026-08-05 — a fifth consecutive block, and the first sign of the density falling.** The
+2026-08-04 accuracy-review measured **197 of ~600 entries (33%)** off-vocabulary in 25601–26200
+(`time`, `body`, `people`, `social`, `emotions`, `place`, `transport`, `household`) and migrated 45
+of them in range. The label families are the same ones the four earlier blocks named, so this is
+the same cohort continuing rather than a new one; the datum worth keeping is that 33% is the first
+reading below the 40–53% band, on the highest block measured so far. The repo-wide baseline still
+counts **2,808 affected entries**, and the arithmetic that has driven this item for three harvests
+is unchanged: a per-range paid pass migrates tens per run against a residue in the thousands, so
+the **step-1 sweep of the nine mappings already shipped in `TAG_MIGRATION`** — still unrun after
+four harvests recommending it — remains the highest-yield action available and needs no new
+detector, no budget, and no curator decision.
+
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
 **Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
@@ -2315,6 +2327,32 @@ route, and it is small enough to clear in one pass. Note the diagnostic the run 
 own notes contradicting its own tag is an **entry-internal** contradiction — no corpus comparison,
 no model needed — which is the same shape as P41 and tooling item 68.
 
+### Update 2026-08-05 — the entry-internal test is sound, nearly exhausted, and blind to 89% of the population
+
+A 2026-08-04 polish run proposed generalising that diagnostic into a sweep, having found
+`06779 いずれにせよ` and `06780 ともかく` both tagged `formality: "formal"` while 06779's notes list
+ともかく under `CASUAL EQUIVALENTS`. The 2026-08-05 harvest measured it, and the result corrects
+the premise as well as sizing the item:
+
+- **The naive predicate is unusable.** "Entry tagged `formal`, notes mention casual/colloquial/
+  neutral" returns **1,560 of the 5,068 `formal` entries** — and the great majority are *correct*.
+  A formal word's notes listing its casual equivalents is exactly what a good entry does. 06779 is
+  one of them: its own REGISTER section reads "written/formal expression … sounds stiff in casual
+  conversation", so `formal` is right and the CASUAL EQUIVALENTS section names *other words*. The
+  run's real find was 06780, which it fixed (now `neutral`), and 06776 キャンセル's sole-`general`
+  semantic tag.
+- **The sound predicate is nearly exhausted.** Reading only the REGISTER/FORMALITY section's
+  description *of the headword itself* returns **5 entries dictionary-wide** — 07352 ぼやく,
+  07367 ややこしい, 07397 待ち合わせ, 07398 後回し, 07411 しんどい — all in one contiguous
+  07352–07411 creation cohort, each with a REGISTER note that opens "Casual" or "Neutral". That
+  is the whole live scope of the `tag-formality-contradicts-register-note` queue item (previously
+  estimated 6; measured 5).
+- **And it cannot be the instrument for this priority**, because only **555 of 5,068** `formal`
+  entries have a REGISTER or FORMALITY section at all. The test is unarguable where it fires and
+  silent for 89% of the population — a ratchet for new entries, not a sweep for old ones. The
+  katakana-abbreviation slice above stays the batch-ready half of P37, because it is identified by
+  headword shape rather than by prose the entry may not contain.
+
 ## Informational: Entries with zero inline links (23,294) are the polish frontier, not a defect
 
 **Source**: 2026-07-31 and 2026-08-01 routine polish runs, both reporting a frontier block
@@ -2357,6 +2395,12 @@ three times independently and agrees**: ~25–40 links per entry, ~3x a normal p
 entries per run. That number, not the existence of the block, is the thing to carry into any
 scheduling decision (see the frontier-versus-growth gap on
 [Quality Metrics](../topics/quality-metrics.md)).
+
+**Filed a tenth and eleventh time on 2026-08-04/05** (06775–06780 and 06781–06786, the latter noting
+all six were created 2026-01-18 in one batch). Nothing new; the band is now traced continuously from
+~06150 to 06786 with no exception found by any run. Recorded only to keep the count honest — this
+is the single most-refiled observation in the project, and every filing has been a correct
+observation of the frontier.
 
 ## Informational: Inline-link base forms labelled `Xする` while targeting the bare noun entry (441 links)
 
@@ -2570,6 +2614,52 @@ convention ("function words take `grammatical`") before any sweep, and with that
 work is 53 mechanical additions plus 52 ordinary polish decisions. The useful measurement is that
 the population is **small and bounded** — this is not a systemic hole, and it does not justify an
 instrument.
+
+## Priority 42: Neighbours named in notes prose but absent from `cross_references` (1,402 entries, discrimination half)
+
+**Source**: six independent polish runs between 2026-07-31 and 2026-08-05, most recently a
+priority lane that hit the shape **6 times out of 6** (00486 年, 00507 部屋, 00631 一月 — rich
+notes naming obvious neighbours, `cross_references` empty or holding one item).
+**Measured dictionary-wide by the 2026-08-05 wiki harvest**; full numbers and method in
+[Tooling 55](tooling-backlog.md#55-detector-contrast-words-named-in-notes-prose-but-absent-from-cross_references).
+
+An entry's notes say `SIMILAR WORDS: ⟦科目⟧ ⟦教科⟧ ⟦専攻⟧` and its `cross_references` array lists
+one of the three. The relation is stated in prose, where the site's navigation cannot use it and
+`check_semantic_clusters.py` cannot see it, while the structured field that exists to carry it
+sits half-empty. This is not missing knowledge — the entry already *did* the lexicographic work,
+including finding the target's ID — it is knowledge stranded in the wrong field.
+
+**Scope**: 2,795 entries / 5,391 refs where a link *leads its bullet* inside a relation-bearing
+note section and is absent from `cross_references`. That splits into two populations that should
+not be worked the same way:
+
+| Population | Entries | Refs | Disposition |
+|---|---|---|---|
+| **Discrimination** — `SIMILAR WORDS`, `CONTRAST`, `OPPOSITE`, `COMPARISON`, `SYNONYMS` | **1,402** | **2,395** | batch-ready; the header supplies the `type` |
+| Thematic — `RELATED TERMS`, `RELATED WORDS`, `RELATED VOLCANIC TERMS`, … | 1,470 | 2,999 | convention question first |
+
+The discrimination half is the near-synonym contrast material `cross_references` was designed
+for, and 676 of those entries need exactly one ref (509 need two, none more than five). The
+thematic half is a semantic-field roster: promoting 噴火's four `RELATED VOLCANIC TERMS` links
+would turn `cross_references` into a topic index, which is a curator decision of the same shape
+as [P38](#priority-38-semantic-tags-disagree-within-a-closed-lexical-family-tableware-32-entries-12-tag-sets)'s
+lexical families — and should be decided once rather than 1,470 times.
+
+**Two constraints on any sweep.** (1) The link must *lead* its bullet: mid-bullet links are
+collocational tokens, not the named neighbour — 00053 学科's CONTRAST bullet reads
+`学科試験 vs 実技試験`, and a position-blind scan proposes a `contrast` ref to 試験. Requiring
+bullet-leading position removes 1,364 of 6,755 raw hits. (2) The population is bounded by the
+link frontier by construction — 3,043 of 3,050 affected entries are below ID 07000 — so this
+queue *grows* as the polish lane advances, and every entry the lane links becomes an entry this
+check can then verify. Adding the back-link on the target side is the second half of each fix and
+is not counted above.
+
+Queue item: `crossref-missing-from-notes-prose` (now scoped and batch-ready for the
+discrimination half). Mirror image of
+[Tooling 52](tooling-backlog.md#52-does-check_semantic_clusterspy-count-a-prominent_see_also-mention-as-satisfying-the-pair-requirement);
+the above-frontier cases it cannot see are
+[Tooling 57](tooling-backlog.md#57-check_semantic_clusterspy-has-no-closed-paradigm-symmetry-rule)'s
+closed-paradigm problem.
 
 ## Related pages
 

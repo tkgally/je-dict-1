@@ -1,6 +1,6 @@
 # Cross-Reference Design
 
-**Last updated**: 2026-06-09
+**Last updated**: 2026-08-05
 
 ## Overview
 
@@ -93,6 +93,48 @@ Over 16,300 cross-references exist across 28,800+ entries (roughly 0.57 cross-re
 - Entry creation (new entries include initial cross-refs)
 - Polishing passes
 - The `find_merge_candidates.py` tool, which also detects missing cross-references
+
+## The prose/structure gap (measured 2026-08-05)
+
+The coverage number above counts what is in `cross_references`. It does not count the
+relationships the dictionary has already identified and written down *somewhere else*.
+
+A dictionary-wide scan of all 30,205 entries found **2,795 entries carrying 5,391 relationships
+stated in notes prose — with the target's entry ID already resolved and inline-linked — that have
+no corresponding object in `cross_references`.** Against ~17,500 structured refs, that is roughly
+a quarter again as many relationships already discovered and not recorded where the site can use
+them. Full method and tables: [Cleanup P42](../ideas/cleanup-backlog.md#priority-42-neighbours-named-in-notes-prose-but-absent-from-cross_references-1402-entries-discrimination-half).
+
+Three things about this gap are worth carrying as design knowledge rather than as a backlog entry.
+
+**It is a field-choice failure, not a coverage failure.** The lexicographic work — deciding that
+学科 contrasts with 実技, finding 実技's entry, writing the distinction — is *done* in every one of
+those 2,795 entries. What is missing is the transfer into the structured field. That makes this
+much cheaper than it looks (676 of the entries need exactly one ref, and none needs more than
+five) and it makes the *cause* worth fixing upstream: whatever writes a `SIMILAR WORDS` bullet
+should be writing the `cross_references` object in the same edit.
+
+**Two note sections look alike and are not.** `SIMILAR WORDS` / `CONTRAST` / `OPPOSITE` sections
+do near-synonym discrimination — the thing the `synonym` / `antonym` / `contrast` types exist for,
+and where the section heading itself supplies the type (1,402 entries / 2,395 refs). `RELATED
+TERMS` / `RELATED VOLCANIC TERMS` sections are semantic-field rosters (1,470 entries / 2,999
+refs). Promoting the second kind wholesale would convert `cross_references` from a
+discrimination aid into a topic index and quietly repeal design principle 3 below. The distinction
+matters because both populations are the same size, and only one of them is a defect.
+
+**Prose position carries meaning.** A link that *leads* its bullet is the word the bullet is
+about; a link in the middle of one is a word the bullet happens to use. 00053 学科's contrast
+bullet reads `学科試験 vs 実技試験`, so a position-blind reading proposes a `contrast` reference to
+試験 — a word with no contrastive relationship to the headword at all. Requiring bullet-leading
+position drops 1,364 of 6,755 raw hits, and inspection says those are the right ones to drop.
+The general lesson: the notes field is structured text, and reading it as a bag of links loses
+information that is actually there.
+
+One structural consequence: because this check can only see entries that are already
+inline-linked, and inline links exist only below the polish frontier (3,043 of the 3,050 affected
+entries are below ID 07000), the queue **grows as the frontier advances**. Every entry the polish
+lane links becomes an entry this check can then verify — which is an argument for building the
+check now, while the population it can see is still small.
 
 ## Design principles
 
