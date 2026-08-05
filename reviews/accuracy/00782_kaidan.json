@@ -2,23 +2,15 @@
   "entry_id": "00782_kaidan",
   "headword": "{階段|かいだん}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:49:15Z",
+  "reviewed_at": "2026-08-05T21:26:00Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for a concrete noun like '階段'.",
-      "suggestion": "building"
-    }
-  ]
+  "issues": []
 }

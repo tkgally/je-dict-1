@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06796_mochikotaeru_ex1",
-      "japanese": "{会社|かいしゃ}はなんとか{不況|ふきょう}を{持|も}ち{堪|こた}えた。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦なんとか→なんとか：01126_nantoka⟧⟦{不況|ふきょう}→不況：04844_fukyou⟧⟦を→を：00422_wo⟧{持|も}ち{堪|こた}えた。",
       "english": "The company somehow managed to hold out through the recession.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06796_mochikotaeru_ex2",
-      "japanese": "{堤防|ていぼう}が{洪水|こうずい}に{持|も}ち{堪|こた}えるか{心配|しんぱい}だ。",
+      "japanese": "⟦{堤防|ていぼう}→堤防：19409_teibou⟧⟦が→が：00051_ga⟧⟦{洪水|こうずい}→洪水：05065_kouzui⟧⟦に→に：00314_ni⟧{持|も}ち{堪|こた}える⟦か→か：09473_ka⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧⟦だ→だ：09496_da⟧。",
       "english": "I'm worried whether the levee will hold against the flood.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06796_mochikotaeru_ex3",
-      "japanese": "あと{少|すこ}し{持|も}ち{堪|こた}えれば、{救援|きゅうえん}が{来|く}る。",
+      "japanese": "⟦あと→後：09580_ato⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{持|も}ち{堪|こた}えれば、⟦{救援|きゅうえん}→救援：07864_kyuuen⟧⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧。",
       "english": "If we can just hold out a little longer, help will arrive.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive).\n\nCOMPOUND VERB: Formed from {持|も}つ (to hold) + {堪|こた}える (to endure). The combination emphasizes sustained endurance or resistance.\n\nCOMMON COLLOCATIONS:\n・{不況|ふきょう}を{持|も}ち{堪|こた}える (weather a recession)\n・{攻撃|こうげき}に{持|も}ち{堪|こた}える (withstand an attack)\n・{困難|こんなん}に{持|も}ち{堪|こた}える (endure hardships)\n・なんとか{持|も}ち{堪|こた}える (somehow hold out)\n\nSIMILAR WORDS: {耐|た}える emphasizes bearing pain or difficulty; {持|も}ち{堪|こた}える emphasizes maintaining a position or continuing to function.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). The subject is whatever is holding out, marked with ⟦が→が：00051_ga⟧ or ⟦は→は：00079_ha⟧.\n\nPARTICLES: Although the verb is intransitive, the hardship weathered is regularly marked with ⟦を→を：00422_wo⟧ (⟦{不況|ふきょう}→不況：04844_fukyou⟧⟦を→を：00422_wo⟧{持|も}ち{堪|こた}える, 'weather the recession') — a traversal ⟦を→を：00422_wo⟧ rather than a true direct object. The pressure resisted can also be marked with ⟦に→に：00314_ni⟧ (⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦に→に：00314_ni⟧{持|も}ち{堪|こた}える).\n\nCOMPOUND VERB: Formed from ⟦{持|も}つ→持つ：00478_motsu⟧ (to hold) + ⟦{堪|こた}える→堪える：noentry⟧ (to endure). The combination emphasizes sustained endurance or resistance.\n\nCOMMON COLLOCATIONS:\n・⟦{不況|ふきょう}→不況：04844_fukyou⟧⟦を→を：00422_wo⟧{持|も}ち{堪|こた}える (weather a recession)\n・⟦{攻撃|こうげき}→攻撃：02748_kougeki⟧⟦に→に：00314_ni⟧{持|も}ち{堪|こた}える (withstand an attack)\n・⟦{困難|こんなん}→困難：01410_konnan⟧⟦に→に：00314_ni⟧{持|も}ち{堪|こた}える (endure hardships)\n・⟦なんとか→なんとか：01126_nantoka⟧{持|も}ち{堪|こた}える (somehow hold out)\n\nSIMILAR WORDS: ⟦{耐|た}える→耐える：12087_taeru⟧ emphasizes bearing pain or difficulty; {持|も}ち{堪|こた}える emphasizes maintaining a position or continuing to function. ⟦{堪|こら}える→堪える：08995_koraeru⟧ (same kanji, read こらえる) is a different verb meaning to hold back a feeling or urge.",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,25 @@
       "headword": "{耐|た}える",
       "label": "similar verb",
       "target_id": "12087_taeru"
+    },
+    {
+      "type": "related",
+      "reading": "もつ",
+      "headword": "{持|も}つ",
+      "label": "base verb",
+      "target_id": "00478_motsu"
+    },
+    {
+      "type": "homophone",
+      "reading": "こらえる",
+      "headword": "{堪|こら}える",
+      "label": "same kanji, こらえる",
+      "target_id": "08995_koraeru"
     }
   ],
   "metadata": {
     "created": "2026-01-18T07:17:46Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-08-05T21:18:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

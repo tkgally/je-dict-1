@@ -2,23 +2,15 @@
   "entry_id": "00792_kubi",
   "headword": "{首|くび}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:49:23Z",
+  "reviewed_at": "2026-08-05T21:26:01Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The headword '首' has two distinct meanings, 'neck' and 'dismissal/firing'. The current semantic tag 'body-part' only covers the first meaning. The second meaning, 'dismissal/firing', is not covered by any tag.",
-      "suggestion": "Add 'action' to the semantic tags to cover the 'dismissal/firing' meaning, as it refers to an action. The tag should be ['body-part', 'action']."
-    }
-  ]
+  "issues": []
 }
