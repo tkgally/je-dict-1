@@ -1,0 +1,38 @@
+{
+  "_doc": "Verified same-word (base form, entry id) pairs for build/check_link_baseform.py. A pair belongs here ONLY when the link's base form and the declared entry are the SAME WORD under a different spelling or a kana headword, so the link takes the reader to the right word and the disagreement is an indexing artifact. Never add a pair to silence a link that points at a different word — repair the link instead. Every pair below was verified in context during the link-target-baseform-disagreement sweep (batches 1-7, 2026-07-31..2026-08-06); see planning/wiki/ideas/cleanup-backlog.md and the session logs for the per-family reasoning.",
+  "_classes": {
+    "variant-spelling": "One word, two written forms (or a kana headword). Nothing to fix; the entry is the correct destination.",
+    "near-duplicate-pair": "Both spellings exist as SEPARATE entries, so either target is defensible and the disagreement can never be driven to zero by link repair. These are consolidate_entries.md work, tracked as the entry-pair-consolidation backlog item; when a pair is merged, delete its line here."
+  },
+  "gate_max": 0,
+  "pairs": [
+    {"base": "頃", "target": "03091_koro", "class": "variant-spelling", "why": "same word ころ; entry headword is the kana affix 〜ころ"},
+    {"base": "上げる", "target": "00546_ageru", "class": "variant-spelling", "why": "same word あげる; entry headword is kana (the genuine 上がる mislinks were repaired in batch 4)"},
+    {"base": "付ける", "target": "00562_tsukeru", "class": "variant-spelling", "why": "same word つける; entry headword is kana"},
+    {"base": "通り", "target": "09884_doori", "class": "variant-spelling", "why": "same suffix どおり; entry headword is kana"},
+    {"base": "いい", "target": "02350_yoi", "class": "variant-spelling", "why": "いい/良い are the same adjective"},
+    {"base": "良い", "target": "00118_ii", "class": "variant-spelling", "why": "reverse direction of the same いい/良い pair"},
+    {"base": "羽", "target": "03696_hane", "class": "variant-spelling", "why": "羽/羽根 are the same word はね; the lookup proposal 01007_wa is the bird counter and would be wrong"},
+    {"base": "被る", "target": "00709_kaburu", "class": "variant-spelling", "why": "same word かぶる; entry headword is kana (the proposal 18070_koumuru is a different reading)"},
+    {"base": "空く", "target": "00756_suku", "class": "variant-spelling", "why": "すいている sense; entry headword is kana すく (the proposal 11062_aku is the あく reading)"},
+    {"base": "すくい", "target": "09994_sukuu", "class": "variant-spelling", "why": "金魚すくい = the すくう 'scoop' entry; the proposal 12884_sukui '救い salvation' would be wrong"},
+    {"base": "一昨年", "target": "02895_ototoshi", "class": "variant-spelling", "why": "same word おととし under a kana headword; the proposal is the separate いっさくねん reading"},
+    {"base": "明後日", "target": "00828_asatte", "class": "variant-spelling", "why": "same word あさって under a kana headword; the proposal is the separate みょうごにち reading"},
+    {"base": "下", "target": "03878_moto", "class": "variant-spelling", "why": "もと written 下/元 is the same word"},
+    {"base": "本", "target": "03878_moto", "class": "variant-spelling", "why": "もと written 本/元 is the same word"},
+    {"base": "巨大な", "target": "02586_kyodai", "class": "variant-spelling", "why": "na-form of the noun entry 巨大"},
+    {"base": "得", "target": "07739_otoku", "class": "variant-spelling", "why": "the sentence word is お得; only the link's base label is clipped"},
+    {"base": "敵", "target": "11476_kataki", "class": "variant-spelling", "why": "かたき written 敵/仇 is the same word"},
+    {"base": "様", "target": "01114_you", "class": "variant-spelling", "why": "よう written with its kanji; the proposal 01549_sama is the honorific suffix"},
+    {"base": "球", "target": "02221_tama", "class": "variant-spelling", "why": "たま written 球/玉 is the same word"},
+    {"base": "臭い", "target": "00874_nioi", "class": "variant-spelling", "why": "におい written 臭い/匂い is the same word (the くさい adjective is 01133 and is linked as its own base)"},
+
+    {"base": "捩じる", "target": "03937_nejiru", "class": "near-duplicate-pair", "why": "03937 捻る / 04474 捩じる are both entries for ねじる"},
+    {"base": "焼きたて", "target": "08344_yakitate", "class": "near-duplicate-pair", "why": "08344 焼き立て / 16735 焼きたて"},
+    {"base": "霞む", "target": "07982_kasumu", "class": "near-duplicate-pair", "why": "07982 翳む / 14680 霞む are both entries for かすむ"},
+    {"base": "追いかける", "target": "04628_oikakeru", "class": "near-duplicate-pair", "why": "04628 追い掛ける / 16734 追いかける"},
+    {"base": "控えめ", "target": "09160_hikaeme", "class": "near-duplicate-pair", "why": "09160 控え目 / 17234 控えめ"},
+    {"base": "見積もり", "target": "04699_mitsumori", "class": "near-duplicate-pair", "why": "04699 見積り / 05153 見積もり"},
+    {"base": "時", "target": "10077_toki", "class": "near-duplicate-pair", "why": "02918 / 10077 are both entries for とき; the declared target is the same word under a kana headword"}
+  ]
+}

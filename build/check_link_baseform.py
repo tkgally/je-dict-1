@@ -26,6 +26,15 @@ signal drowns in indexing artifacts:
   alternative of a ``優しい／易しい`` style headword) *is* the base form, so the
   link is correct and only the lookup table indexes it differently.
 
+A fourth acceptance path is the curated allowlist in
+``build/data/link_baseform_allowlist.json``: ``(base form, entry id)`` pairs that
+are the **same word** under a different spelling or a kana headword
+(``頃``/``〜ころ``, ``羽``/``羽根``, ``いい``/``良い``).  String comparison cannot
+see that they are one word, and no normalization generalizes them safely, so each
+pair carries a written reason and was verified in context before being listed.
+The allowlist is only for same-word pairs; a link that points at a *different*
+word gets repaired, never allowlisted.
+
 The script never modifies entries.
 
 Usage:
@@ -33,6 +42,8 @@ Usage:
     python3 build/check_link_baseform.py --summary        # counts only
     python3 build/check_link_baseform.py --json           # machine-readable queue
     python3 build/check_link_baseform.py --count          # single integer (ratchet)
+    python3 build/check_link_baseform.py --gate           # CI ratchet: exit 1 over gate_max
+    python3 build/check_link_baseform.py --no-allowlist   # raw queue, allowlist ignored
     python3 build/check_link_baseform.py --by-base        # group by base form
     python3 build/check_link_baseform.py --resolvable     # only unique-proposal links
     python3 build/check_link_baseform.py --ambiguous      # only links needing judgment
@@ -50,6 +61,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 ENTRIES_DIR = ROOT / "entries"
 LOOKUP_PATH = ROOT / "build" / "word_id_lookup.json"
+ALLOWLIST_PATH = ROOT / "build" / "data" / "link_baseform_allowlist.json"
 
 NOENTRY = "noentry"
 
@@ -121,6 +133,18 @@ def resolve(base: str, by_headword: dict, by_reading: dict) -> list[dict]:
     return []
 
 
+def load_allowlist() -> tuple[dict[tuple[str, str], dict], int]:
+    """Return ``{(normalized base, target id): pair}`` and the gate threshold."""
+    if not ALLOWLIST_PATH.exists():
+        return {}, 0
+    data = json.loads(ALLOWLIST_PATH.read_text(encoding="utf-8"))
+    pairs = {
+        (normalize(strip_furigana(p["base"])), p["target"]): p
+        for p in data.get("pairs", [])
+    }
+    return pairs, int(data.get("gate_max", 0))
+
+
 def accepted_by_normalization(
     base: str, target: str, forms: dict, by_headword: dict, by_reading: dict
 ) -> str | None:
@@ -157,8 +181,11 @@ def accepted_by_normalization(
     return None
 
 
-def scan(id_range: tuple[int, int] | None = None) -> tuple[list[dict], dict]:
+def scan(
+    id_range: tuple[int, int] | None = None, use_allowlist: bool = True
+) -> tuple[list[dict], dict]:
     by_headword, by_reading = load_lookup()
+    allowlist = load_allowlist()[0] if use_allowlist else {}
 
     paths = sorted(ENTRIES_DIR.glob("*/*.json"))
     entries: dict[str, dict] = {}
@@ -182,6 +209,7 @@ def scan(id_range: tuple[int, int] | None = None) -> tuple[list[dict], dict]:
         "headword-identity": 0,
         "affix-headword": 0,
         "suru-noun": 0,
+        "allowlist": 0,
         "disagree": 0,
     }
 
@@ -224,6 +252,10 @@ def scan(id_range: tuple[int, int] | None = None) -> tuple[list[dict], dict]:
                 )
                 if why:
                     stats[why] += 1
+                    continue
+
+                if (normalize(strip_furigana(base)), target) in allowlist:
+                    stats["allowlist"] += 1
                     continue
 
                 stats["disagree"] += 1
@@ -305,6 +337,7 @@ def summarize(findings: list[dict], stats: dict) -> None:
     print(f"  accepted (headword): {stats['headword-identity']}")
     print(f"  accepted (affix):    {stats['affix-headword']}")
     print(f"  accepted (suru):     {stats['suru-noun']}")
+    print(f"  accepted (allowlist):{stats['allowlist']}")
     print(f"  DISAGREE:            {len(findings)}")
     print(f"    entries affected:  {len(entries)}")
     print(f"    resolvable (1 hit):{resolvable}")
@@ -316,6 +349,16 @@ def main() -> int:
     parser.add_argument("--json", action="store_true", help="machine-readable output")
     parser.add_argument("--summary", action="store_true", help="counts only")
     parser.add_argument("--count", action="store_true", help="print the link count only")
+    parser.add_argument(
+        "--gate",
+        action="store_true",
+        help="CI ratchet: exit 1 if the queue exceeds gate_max in the allowlist file",
+    )
+    parser.add_argument(
+        "--no-allowlist",
+        action="store_true",
+        help="ignore build/data/link_baseform_allowlist.json (raw queue)",
+    )
     parser.add_argument("--by-base", action="store_true", help="group by base form")
     parser.add_argument("--resolvable", action="store_true", help="only unique-proposal links")
     parser.add_argument("--ambiguous", action="store_true", help="only links needing judgment")
@@ -325,11 +368,28 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    findings, stats = scan(tuple(args.range) if args.range else None)
+    findings, stats = scan(
+        tuple(args.range) if args.range else None, use_allowlist=not args.no_allowlist
+    )
     if args.resolvable:
         findings = [f for f in findings if f["status"] == "resolvable"]
     if args.ambiguous:
         findings = [f for f in findings if f["status"] != "resolvable"]
+
+    if args.gate:
+        gate_max = load_allowlist()[1]
+        if len(findings) > gate_max:
+            report(findings, by_base=True)
+            print(
+                f"\nFAIL: {len(findings)} inline link(s) resolve to an entry that is not "
+                f"their own base form (allowed: {gate_max}).\n"
+                "Repair the link's entry_id, or — only if the base form and the declared "
+                "entry are the SAME word under a different spelling — add the pair with a "
+                "reason to build/data/link_baseform_allowlist.json."
+            )
+            return 1
+        print(f"OK: base-form disagreements {len(findings)} <= {gate_max}")
+        return 0
 
     if args.count:
         print(len(findings))
