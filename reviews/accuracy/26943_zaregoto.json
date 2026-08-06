@@ -1,0 +1,24 @@
+{
+  "entry_id": "26943_zaregoto",
+  "headword": "{戯言|ざれごと}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:47:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '戯言' (zaregoto) is not formal. It is typically used in a more informal or literary context, often with a slightly dismissive or critical nuance. Labeling it as 'formal' is misleading.",
+      "suggestion": "neutral"
+    }
+  ]
+}

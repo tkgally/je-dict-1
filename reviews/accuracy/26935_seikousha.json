@@ -1,0 +1,24 @@
+{
+  "entry_id": "26935_seikousha",
+  "headword": "{成功者|せいこうしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:46:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'people' is not in the valid tag list.",
+      "suggestion": "person"
+    }
+  ]
+}

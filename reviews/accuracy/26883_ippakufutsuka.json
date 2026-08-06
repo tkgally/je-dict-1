@@ -1,0 +1,24 @@
+{
+  "entry_id": "26883_ippakufutsuka",
+  "headword": "{一泊二日|いっぱくふつか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:44:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The English translation misrepresents the Japanese. '一泊二日では時間が足りない' means 'One night and two days isn't enough time', not just 'One night isn't enough time'. The 'two days' part is crucial to the headword's meaning.",
+      "suggestion": "Change 'One night isn't enough time' to 'One night and two days isn't enough time' or 'A one-night, two-day trip isn't enough time'."
+    }
+  ]
+}

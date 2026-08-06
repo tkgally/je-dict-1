@@ -1,0 +1,24 @@
+{
+  "entry_id": "26888_tsugunai",
+  "headword": "{償|つぐな}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:45:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'ethics'",
+      "suggestion": "abstract"
+    }
+  ]
+}

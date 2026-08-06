@@ -1,0 +1,24 @@
+{
+  "entry_id": "26795_atamawosageru",
+  "headword": "{頭|あたま}を{下|さ}げる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:40:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'I take my hat off to his effort' for '彼の努力には頭が下がる' is a common idiom, but it doesn't fully capture the nuance of '頭が下がる' in this context. '頭が下がる' implies a deeper sense of admiration and respect, often to the point of feeling humbled or impressed by someone's effort, rather than just acknowledging it.",
+      "suggestion": "A more accurate translation would be 'I am deeply impressed by his effort' or 'I am humbled by his effort.'"
+    }
+  ]
+}

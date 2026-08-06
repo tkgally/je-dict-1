@@ -1,0 +1,24 @@
+{
+  "entry_id": "27035_kashikinko",
+  "headword": "{貸金庫|かしきんこ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:50:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'objects' is not a valid semantic tag.",
+      "suggestion": "Replace 'objects' with 'general' or 'tool'."
+    }
+  ]
+}

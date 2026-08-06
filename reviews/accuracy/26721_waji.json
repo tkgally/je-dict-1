@@ -1,0 +1,59 @@
+{
+  "entry_id": "26721_waji",
+  "headword": "{和字|わじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:38:41Z",
+  "summary": {
+    "flagged": 6
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss includes 'kana', which is only one of the two senses of 和字, and not the primary one. The primary sense is 'kokuji' (Japanese-made kanji).",
+      "suggestion": "Japanese-made kanji; kokuji"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'Japanese writing; kana characters' is misleading. While kana are a form of Japanese writing, the sense refers to the broader concept of Japanese writing systems (kana) as distinct from Chinese characters, not just kana characters themselves.",
+      "suggestion": "Japanese writing systems (kana)"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The translation 'Among Japanese-made characters, there are many kanji that are not used in China' is misleading. The Japanese '和字の中には、中国では使われない漢字が多く含まれている' refers to kokuji (Japanese-made kanji), not 'Japanese-made characters' in general, which could include kana. The example is specifically about kanji.",
+      "suggestion": "Among Japanese-made kanji, there are many characters that are not used in China."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The translation 'Kana developed as Japanese writing during the Heian period' is too broad. '和字として仮名が発達した' specifically means 'kana developed as a form of Japanese writing (waji)', implying its distinction from kanji, which is the core of sense 2.",
+      "suggestion": "Kana developed as a form of Japanese writing (waji) during the Heian period."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[4]",
+      "severity": "error",
+      "concern": "The translation 'The combination of kana and kanji in writing is a characteristic feature of Japanese' is too specific. '和字と漢字を組み合わせた表記' refers to the combination of Japanese writing systems (kana) and kanji, not just kana and kanji themselves.",
+      "suggestion": "The combination of Japanese writing (kana) and kanji in writing is a characteristic feature of Japanese."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[5]",
+      "severity": "error",
+      "concern": "The translation 'Old documents contain a mix of Japanese writing and classical Chinese text' is too broad. '和字と漢文が混在している' refers to the mix of Japanese writing (kana) and classical Chinese text, not just 'Japanese writing' in general.",
+      "suggestion": "Old documents contain a mix of Japanese writing (kana) and classical Chinese text."
+    }
+  ]
+}

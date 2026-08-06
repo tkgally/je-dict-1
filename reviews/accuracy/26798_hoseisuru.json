@@ -1,0 +1,24 @@
+{
+  "entry_id": "26798_hoseisuru",
+  "headword": "{補正|ほせい}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:41:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a verb that specifically means 'to correct' or 'to adjust'.",
+      "suggestion": "action"
+    }
+  ]
+}

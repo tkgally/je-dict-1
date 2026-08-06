@@ -1,0 +1,24 @@
+{
+  "entry_id": "26720_keiseniri",
+  "headword": "{罫線入|けいせんい}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:38:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "warn",
+      "concern": "Invalid tag 'stationery'",
+      "suggestion": "daily-life"
+    }
+  ]
+}

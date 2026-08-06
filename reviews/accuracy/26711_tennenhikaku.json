@@ -1,0 +1,31 @@
+{
+  "entry_id": "26711_tennenhikaku",
+  "headword": "{天然皮革|てんねんひかく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:38:25Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'material' is not in the valid tag list.",
+      "suggestion": "clothing"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'fashion' is not in the valid tag list.",
+      "suggestion": "clothing"
+    }
+  ]
+}

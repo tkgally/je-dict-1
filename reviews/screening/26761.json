@@ -1,0 +1,10 @@
+{
+  "entry_id": "26761",
+  "screened_at": "2026-08-06T12:35:34Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 侯爵夫人 is given as こうしゃくふじん, but 侯爵 is typically こうしゃく, making 侯爵夫人 こうしゃくふじん. However, the entry for 公爵夫人 is also こうしゃくふじん. Given that 侯爵夫人 is defined as 'marchioness' and 公爵夫人 as 'duchess', these are distinct titles. The reading for 侯爵夫人 should be こうしゃくふじん, but the kanji 侯爵 is distinct from 公爵. If the intention was to show a common reading for both, it's confusing. If 侯爵夫人 is meant to be read as こうしゃくふじん, it's correct, but the context implies a distinction from 公爵夫人. However, since the prompt states to \"Judge ONLY the 'kanji → reading' pair itself\" and \"Do NOT flag partial readings as errors\", and \"If you are not confident a reading is actually wrong, do not flag it\", I will not flag this as an error, as こうしゃくふじん is a valid reading for 侯爵夫人. The potential confusion arises from the similarity to 公爵夫人, but the reading itself is not incorrect."
+  ],
+  "confidence": 0.8
+}

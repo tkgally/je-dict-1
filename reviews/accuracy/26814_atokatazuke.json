@@ -1,0 +1,24 @@
+{
+  "entry_id": "26814_atokatazuke",
+  "headword": "{後片付|あとかたづ}け",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:41:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'cleanliness'",
+      "suggestion": "daily-life"
+    }
+  ]
+}
