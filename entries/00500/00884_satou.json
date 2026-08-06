@@ -63,11 +63,36 @@
       ]
     }
   ],
-  "notes": "{砂糖|さとう} is sugar, one of the basic cooking ingredients in Japanese cuisine.\n\nTYPES OF SUGAR:\n- ⟦{白|しろ}{砂糖|さとう}→白砂糖：26404_shirozatou⟧: white sugar\n- ⟦{黒|くろ}{砂糖|さとう}→黒砂糖：18292_kurozatou⟧: brown sugar/muscovado\n- ⟦グラニュー{糖|とう}→グラニュー糖：23996_guranyuutou⟧: granulated sugar\n- ⟦{角砂糖|かくざとう}→角砂糖：18293_kakuzatou⟧: sugar cube\n\nCOMMON EXPRESSIONS:\n- {砂糖|さとう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to add sugar\n- {砂糖|さとう}⟦{抜|ぬ}き→抜き：23505_nuki⟧: without sugar, sugar-free\n- {砂糖|さとう}⟦{控|ひか}えめ→控えめ：17234_hikaeme⟧: low sugar\n\nIN COOKING:\nUnlike Western cooking, Japanese cuisine uses sugar in many savory dishes (⟦{煮物|にもの}→煮物：04971_nimono⟧, teriyaki, etc.).\n\nCOMMON MISTAKE:\n{砂糖|さとう} and ⟦{塩|しお}→塩：00887_shio⟧ (salt) look similar - a common mix-up in the kitchen!\n\nNOTE:\n⟦{佐藤|さとう}→佐藤：noentry⟧ (same pronunciation) is one of the most common Japanese surnames.",
-  "cross_references": [],
+  "notes": "{砂糖|さとう} is sugar, one of the basic cooking ingredients in Japanese cuisine.\n\nTYPES OF SUGAR:\n- ⟦{白|しろ}{砂糖|さとう}→白砂糖：26404_shirozatou⟧: white sugar\n- ⟦{黒|くろ}{砂糖|さとう}→黒砂糖：18292_kurozatou⟧: brown sugar/muscovado\n- ⟦グラニュー{糖|とう}→グラニュー糖：23996_guranyuutou⟧: granulated sugar\n- ⟦{角砂糖|かくざとう}→角砂糖：18293_kakuzatou⟧: sugar cube\n\nCOMMON EXPRESSIONS:\n- {砂糖|さとう}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to add sugar\n- {砂糖|さとう}⟦{抜|ぬ}き→抜き：23505_nuki⟧: without sugar, sugar-free\n- {砂糖|さとう}⟦{控|ひか}えめ→控えめ：17234_hikaeme⟧: low sugar\n\nIN COOKING:\nUnlike Western cooking, Japanese cuisine uses sugar in many savory dishes (⟦{煮物|にもの}→煮物：04971_nimono⟧, teriyaki, etc.).\n\nCOMMON MISTAKE:\n{砂糖|さとう} and ⟦{塩|しお}→塩：00887_shio⟧ (salt) look similar - a common mix-up in the kitchen!\n\nNOTE:\n⟦{佐藤|さとう}→佐藤：27597_satou⟧ (same pronunciation) is one of the most common Japanese surnames.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00887_shio",
+      "reading": "しお",
+      "headword": "{塩|しお}"
+    },
+    {
+      "type": "related",
+      "target_id": "00617_amai",
+      "reading": "あまい",
+      "headword": "{甘|あま}い"
+    },
+    {
+      "type": "related",
+      "target_id": "26404_shirozatou",
+      "reading": "しろざとう",
+      "headword": "{白砂糖|しろざとう}"
+    },
+    {
+      "type": "related",
+      "target_id": "18292_kurozatou",
+      "reading": "くろざとう",
+      "headword": "{黒砂糖|くろざとう}"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:38:15Z",
-    "modified": "2026-05-13T13:15:47Z",
+    "modified": "2026-08-06T15:34:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

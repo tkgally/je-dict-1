@@ -64,10 +64,29 @@
     }
   ],
   "notes": "{正|ただ}しい is an i-adjective meaning \"correct\" (factually accurate) or \"right\" (morally proper).\n\nFORMS:\n- Adverb: {正|ただ}しく (correctly)\n- Noun: {正|ただ}しさ (correctness; righteousness)\n- Negative: {正|ただ}しくない\n\nMEANINGS:\n1. Factually correct: ⟦{答|こた}え→答え：00790_kotae⟧⟦が→が：00051_ga⟧{正|ただ}しい (the answer is correct)\n2. Morally right: {正|ただ}しい⟦こと→こと：01164_koto⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to do the right thing)\n3. Proper/appropriate: {正|ただ}しい⟦{使|つか}い{方|かた}→使い方：07797_tsukaikata⟧ (proper usage)\n\nCOMMON EXPRESSIONS:\n- {正|ただ}しい⟦{答|こた}え→答え：00790_kotae⟧: correct answer\n- {正|ただ}しい⟦{日本語|にほんご}→日本語：00614_nihongo⟧: correct Japanese\n- {正|ただ}しい⟦{判断|はんだん}→判断：03571_handan⟧: right judgment\n- {正|ただ}しい⟦{行動|こうどう}→行動：02728_koudou⟧: proper behavior\n\nOPPOSITES:\n- ⟦{間違|まちが}っている→間違う：03036_machigau⟧: wrong, mistaken (factual)\n- ⟦{悪|わる}い→悪い：00908_warui⟧: bad, wrong (moral)\n\nRELATED:\n- ⟦{正解|せいかい}→正解：03083_seikai⟧: correct answer\n- ⟦{正義|せいぎ}→正義：05097_seigi⟧: justice, righteousness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "03036_machigau",
+      "reading": "まちがう",
+      "headword": "{間違|まちが}う"
+    },
+    {
+      "type": "related",
+      "target_id": "03083_seikai",
+      "reading": "せいかい",
+      "headword": "{正解|せいかい}"
+    },
+    {
+      "type": "related",
+      "target_id": "05097_seigi",
+      "reading": "せいぎ",
+      "headword": "{正義|せいぎ}"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:42:32Z",
-    "modified": "2026-05-13T13:24:28Z",
+    "modified": "2026-08-06T15:34:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

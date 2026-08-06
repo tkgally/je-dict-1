@@ -64,10 +64,43 @@
     }
   ],
   "notes": "だんだん is an adverb meaning 'gradually' or 'little by little,' describing slow progressive change over time.\n\nKANJI:\nCan be written as {段々|だんだん} but hiragana is more common.\n\nCOMMON PATTERNS:\n- だんだん～く⟦なる→なる：01970_naru⟧: to gradually become ~\n- だんだん～て⟦くる→来る：00254_kuru⟧: to gradually come to ~\n- だんだん～て⟦いく→行く：00119_iku⟧: to gradually go toward ~\n- だんだん⟦わかる→分かる：00463_wakaru⟧: to gradually understand\n\nSIMILAR WORDS:\n- ⟦{少|すこ}しずつ→少しずつ：20047_sukoshizutsu⟧: little by little (emphasizes small increments)\n- ⟦{徐々|じょじょ}に→徐々に：04131_jojoni⟧: gradually (more formal)\n- ⟦{次第|しだい}に→次第に：05531_shidaini⟧: gradually (literary)\n\nCONTRAST:\n- ⟦{急|きゅう}に→急に：00263_kyuuni⟧: suddenly\n- ⟦いきなり→いきなり：09379_ikinari⟧: all of a sudden",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "20047_sukoshizutsu",
+      "reading": "すこしずつ",
+      "headword": "{少|すこ}しずつ"
+    },
+    {
+      "type": "synonym",
+      "target_id": "04131_jojoni",
+      "reading": "じょじょに",
+      "headword": "{徐々|じょじょ}に",
+      "label": "more formal"
+    },
+    {
+      "type": "synonym",
+      "target_id": "05531_shidaini",
+      "reading": "しだいに",
+      "headword": "{次第|しだい}に",
+      "label": "literary"
+    },
+    {
+      "type": "antonym",
+      "target_id": "00263_kyuuni",
+      "reading": "きゅうに",
+      "headword": "{急|きゅう}に"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09379_ikinari",
+      "reading": "いきなり",
+      "headword": "いきなり"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:57:47Z",
-    "modified": "2026-05-12T22:18:10Z",
+    "modified": "2026-08-06T15:34:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

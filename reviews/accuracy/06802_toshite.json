@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:08:59Z",
+  "reviewed_at": "2026-08-06T15:39:21Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'geography' is incorrect for the headword 'として'.",
-      "suggestion": "Replace 'geography' with 'grammatical' or 'expression'."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for the headword 'として'.",
-      "suggestion": "Replace 'formal' with 'neutral'."
+      "concern": "The formality tag 'formal' is incorrect for 'として'. While it can be used in formal contexts, it is also very common in neutral and informal speech and writing, making 'neutral' a more appropriate general tag.",
+      "suggestion": "neutral"
     }
   ]
 }
