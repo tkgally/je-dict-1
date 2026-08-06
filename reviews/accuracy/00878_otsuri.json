@@ -2,22 +2,29 @@
   "entry_id": "00878_otsuri",
   "headword": "お{釣|つ}り",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:50:56Z",
+  "reviewed_at": "2026-08-06T15:39:11Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
       "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific financial term.",
+      "suggestion": "finance"
+    },
+    {
+      "dimension": "tags",
       "location": "tags.politeness",
       "severity": "error",
-      "concern": "The politeness tag 'honorific' is incorrect for お釣り. While お is an honorific prefix, the word itself is not used to show respect to the listener or the subject of the sentence in the way that true honorifics (keigo) are. It's a common noun that happens to have an honorific prefix.",
+      "concern": "The politeness tag 'polite' is incorrect. The 'お' in お釣り is an honorific prefix, but the word itself is not inherently polite in the same way as keigo. It's a neutral term for 'change'.",
       "suggestion": "plain"
     }
   ]
