@@ -1,0 +1,24 @@
+{
+  "entry_id": "26588_suidoukouji",
+  "headword": "{水道工事|すいどうこうじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:35:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific type of construction/repair work.",
+      "suggestion": "Replace 'general' with 'work' or 'building'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "26237_shimamoyou",
+  "headword": "{縞模様|しまもよう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:29:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'clothing' is too narrow for '縞模様' (striped pattern), which can apply to many things beyond clothing.",
+      "suggestion": "Replace 'clothing' with 'appearance' or 'general'."
+    }
+  ]
+}

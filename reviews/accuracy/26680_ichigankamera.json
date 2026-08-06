@@ -1,0 +1,31 @@
+{
+  "entry_id": "26680_ichigankamera",
+  "headword": "{一眼|いちがん}カメラ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:37:20Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'interchangeable-lens camera' is misleading as '一眼カメラ' specifically refers to single-lens cameras, which typically have interchangeable lenses, but the term itself emphasizes the single lens, not the interchangeability.",
+      "suggestion": "single-lens camera"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'interchangeable-lens camera' is misleading as '一眼カメラ' specifically refers to single-lens cameras, which typically have interchangeable lenses, but the term itself emphasizes the single lens, not the interchangeability.",
+      "suggestion": "single-lens camera"
+    }
+  ]
+}

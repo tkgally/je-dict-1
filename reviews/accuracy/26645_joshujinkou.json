@@ -1,0 +1,24 @@
+{
+  "entry_id": "26645_joshujinkou",
+  "headword": "{女主人公|じょしゅじんこう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:36:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for '女主人公'.",
+      "suggestion": "Replace 'general' with 'person'."
+    }
+  ]
+}

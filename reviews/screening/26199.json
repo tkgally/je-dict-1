@@ -1,0 +1,10 @@
+{
+  "entry_id": "26199",
+  "screened_at": "2026-08-06T00:19:34Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 楽 in item 20 is たの, but the kanji 楽 can also be read as らく, which is the reading used in 娯楽 (ごらく). While たの is a valid reading for 楽, in the context of 娯楽映画, it's more likely to be らく. However, the example provided is 楽しむ, which uses the たの reading. Given the instruction to not flag partial readings as errors, and that たの is a valid reading for 楽, this is a borderline case. I will flag it for review, as it might be an instance where the reading is correct for a different usage of the kanji than the primary context of the entry."
+  ],
+  "confidence": 0.7
+}

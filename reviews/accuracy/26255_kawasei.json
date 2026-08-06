@@ -1,0 +1,24 @@
+{
+  "entry_id": "26255_kawasei",
+  "headword": "{革製|かわせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:29:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'clothing' is too narrow for '革製' (made of leather). While leather is used for clothing, it's also used for many other items like bags, wallets, and shoes, which are not exclusively 'clothing'.",
+      "suggestion": "Replace 'clothing' with 'general' or 'daily-life' or 'material'."
+    }
+  ]
+}

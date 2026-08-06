@@ -1,0 +1,31 @@
+{
+  "entry_id": "26489_touzakouza",
+  "headword": "{当座口座|とうざこうざ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:33:33Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific financial term.",
+      "suggestion": "finance"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. While a financial term, it's standard vocabulary, not formal language.",
+      "suggestion": "neutral"
+    }
+  ]
+}

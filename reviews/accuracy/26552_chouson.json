@@ -1,0 +1,52 @@
+{
+  "entry_id": "26552_chouson",
+  "headword": "{長孫|ちょうそん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:34:49Z",
+  "summary": {
+    "flagged": 5
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'eldest grandchild' is misleading as it implies the first-born grandchild, but the term '長孫' specifically refers to the eldest grandson, not a grandchild of any gender.",
+      "suggestion": "eldest grandson"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'eldest grandchild' is misleading as it implies the first-born grandchild, but the term '長孫' specifically refers to the eldest grandson, not a grandchild of any gender.",
+      "suggestion": "eldest grandson"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation 'their first grandchild' is inaccurate. '長孫' refers specifically to the eldest grandson, not a grandchild of any gender.",
+      "suggestion": "The grandparents were overjoyed when their eldest grandson was born."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation 'As the eldest grandchild' is inaccurate. '長孫' refers specifically to the eldest grandson, not a grandchild of any gender.",
+      "suggestion": "As the eldest grandson, I always attend family events."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'his eldest grandchild' is inaccurate. '長孫' refers specifically to the eldest grandson, not a grandchild of any gender.",
+      "suggestion": "My grandfather often told me, his eldest grandson, about our ancestors."
+    }
+  ]
+}

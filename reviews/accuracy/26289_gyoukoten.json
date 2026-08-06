@@ -1,0 +1,24 @@
+{
+  "entry_id": "26289_gyoukoten",
+  "headword": "{凝固点|ぎょうこてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:30:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific scientific term.",
+      "suggestion": "science"
+    }
+  ]
+}

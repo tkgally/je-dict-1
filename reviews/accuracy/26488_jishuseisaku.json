@@ -1,0 +1,24 @@
+{
+  "entry_id": "26488_jishuseisaku",
+  "headword": "{自主制作|じしゅせいさく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:33:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too narrow and misleading for '自主制作'. While some independent productions might be leisure activities, the term itself refers to the act or product of independent creation, which can be professional or amateur.",
+      "suggestion": "Replace 'leisure' with 'creation' or 'art' or 'general'."
+    }
+  ]
+}

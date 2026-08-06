@@ -1,0 +1,24 @@
+{
+  "entry_id": "26222_taikakusa",
+  "headword": "{体格差|たいかくさ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:29:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '体格差'. '体格差' refers to a difference in overall build or physique, not a specific body part.",
+      "suggestion": "Replace 'body-part' with 'general' or 'descriptive' or 'appearance'."
+    }
+  ]
+}

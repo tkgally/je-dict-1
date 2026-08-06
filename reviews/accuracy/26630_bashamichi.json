@@ -1,0 +1,24 @@
+{
+  "entry_id": "26630_bashamichi",
+  "headword": "{馬車道|ばしゃみち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:36:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'historical' is not in the valid tag list.",
+      "suggestion": "history"
+    }
+  ]
+}

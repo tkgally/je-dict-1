@@ -1,0 +1,52 @@
+{
+  "entry_id": "26473_utou",
+  "headword": "{右党|うとう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:46:23Z",
+  "summary": {
+    "flagged": 5
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'teetotaler' which is too strong. The word 右党 (utou) means someone who prefers tea or non-alcoholic drinks, not necessarily someone who abstains completely from alcohol. The explanation clarifies this nuance, but the gloss itself is misleading.",
+      "suggestion": "tea drinker; person who prefers non-alcoholic drinks"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'teetotaler' which is too strong. The word 右党 (utou) means someone who prefers tea or non-alcoholic drinks, not necessarily someone who abstains completely from alcohol. The explanation clarifies this nuance, but the gloss itself is misleading.",
+      "suggestion": "tea drinker; person who prefers non-alcoholic drinks"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The translation uses 'teetotaler' which implies complete abstinence. While the Japanese sentence states 'お酒は一切飲まない' (doesn't drink alcohol at all), the headword 右党 itself doesn't inherently mean 'teetotaler' but rather someone who prefers non-alcoholic drinks. The example sentence is a specific instance of a 右党, but the translation should reflect the nuance of the headword more accurately, or at least not use a term that overstates the headword's general meaning.",
+      "suggestion": "My father prefers non-alcoholic drinks and doesn't drink alcohol at all."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The translation 'non-drinkers' is too strong. 右党 (utou) refers to people who prefer non-alcoholic drinks, not necessarily those who abstain completely. 'Non-drinkers' implies abstinence, which is not the primary meaning of 右党.",
+      "suggestion": "This drinking party has a menu that people who prefer non-alcoholic drinks can enjoy too."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The translation 'I who don't' is too strong. 右党 (utou) refers to people who prefer non-alcoholic drinks, not necessarily those who abstain completely. 'I who don't' implies abstinence, which is not the primary meaning of 右党.",
+      "suggestion": "My friend who drinks and I who prefer non-alcoholic drinks enjoy drinking parties in different ways."
+    }
+  ]
+}
