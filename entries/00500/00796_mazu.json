@@ -49,7 +49,7 @@
     },
     {
       "id": "00796_mazu_ex4",
-      "japanese": "まず⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦で→で：00502_de⟧⟦{話|はな}して→話す：00467_hanasu⟧みて⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "まず⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦で→で：00502_de⟧⟦{話|はな}して→話す：00467_hanasu⟧⟦みて→みる：00283_miru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "First, try speaking in Japanese.",
       "notes": null,
       "has_audio": false,
@@ -89,7 +89,7 @@
     },
     {
       "id": "00796_mazu_ex8",
-      "japanese": "まず⟦{食|た}べて→食べる：00396_taberu⟧、⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧⟦それから→それから：00996_sorekara⟧だ。",
+      "japanese": "まず⟦{食|た}べて→食べる：00396_taberu⟧、⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧⟦それから→それから：00996_sorekara⟧⟦だ→だ：09496_da⟧。",
       "english": "Let's eat first, and talk after that.",
       "notes": null,
       "has_audio": false,
@@ -99,7 +99,7 @@
     },
     {
       "id": "00796_mazu_ex9",
-      "japanese": "まず⟦は→は：00079_ha⟧⟦{乾杯|かんぱい}→乾杯：00176_kanpai⟧しましょう。",
+      "japanese": "まず⟦は→は：00079_ha⟧⟦{乾杯|かんぱい}→乾杯：00176_kanpai⟧⟦しましょう→する：00392_suru⟧。",
       "english": "For now, let's make a toast.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "00796_mazu_ex11",
-      "japanese": "まず⟦お{茶|ちゃ}→お茶：00576_ocha⟧でも⟦{飲|の}んで→飲む：00322_nomu⟧、⟦ゆっくり→ゆっくり：00910_yukkuri⟧して⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "まず⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦でも→でも：00925_demo⟧⟦{飲|の}んで→飲む：00322_nomu⟧、⟦ゆっくり→ゆっくり：00910_yukkuri⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "For now, have some tea and relax.",
       "notes": null,
       "has_audio": false,
@@ -128,11 +128,40 @@
       ]
     }
   ],
-  "notes": "まず is an adverb used to indicate the first step or action in a sequence. It's essential for giving instructions and explaining procedures.\n\nCOMMON PATTERNS:\n- まず〜てください: First, please do...\n- まず〜⟦から→から：00504_kara⟧⟦{始|はじ}める→始める：00531_hajimeru⟧: to start with...\n- まず〜て、それから〜: First do..., then...\n\nSEQUENCE WORDS:\n- まず: first\n- ⟦それから→それから：00996_sorekara⟧ / ⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧: then, next\n- ⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧: finally, lastly\n\nVARIANT:\nまずは is a slightly more emphatic form, often used to suggest doing something \"for now\" or \"as a first step\" before addressing other matters.\n\nUSAGE NOTE: まず typically appears at the beginning of a sentence or clause. It's neutral in formality and used in both casual and polite speech.",
-  "cross_references": [],
+  "notes": "まず is an adverb used to indicate the first step or action in a sequence. It's essential for giving instructions and explaining procedures.\n\nCOMMON PATTERNS:\n- まず〜てください: First, please do...\n- まず〜⟦から→から：00504_kara⟧⟦{始|はじ}める→始める：00531_hajimeru⟧: to start with...\n- まず〜て、それから〜: First do..., then...\n\nSEQUENCE WORDS:\n- まず: first\n- ⟦それから→それから：00996_sorekara⟧ / ⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧: then, next\n- ⟦{最後|さいご}→最後：01413_saigo⟧⟦に→に：00314_ni⟧: finally, lastly\n\nVARIANT:\nまず⟦は→は：00079_ha⟧ is a slightly more emphatic form, often used to suggest doing something \"for now\" or \"as a first step\" before addressing other matters.\n\nUSAGE NOTE: まず typically appears at the beginning of a sentence or clause. It's neutral in formality and used in both casual and polite speech.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00996_sorekara",
+      "reading": "それから",
+      "headword": "それから",
+      "label": "then, after that"
+    },
+    {
+      "type": "related",
+      "target_id": "00819_tsugi",
+      "reading": "つぎ",
+      "headword": "{次|つぎ}",
+      "label": "next"
+    },
+    {
+      "type": "antonym",
+      "target_id": "01413_saigo",
+      "reading": "さいご",
+      "headword": "{最後|さいご}",
+      "label": "last, finally"
+    },
+    {
+      "type": "synonym",
+      "target_id": "29374_hajimeni",
+      "reading": "はじめに",
+      "headword": "はじめに",
+      "label": "to begin with, first of all"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:59:13Z",
-    "modified": "2026-05-12T20:13:40Z",
+    "modified": "2026-08-06T06:24:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -142,7 +171,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "descriptive"
+        "time-general"
       ]
     }
   }

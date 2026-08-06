@@ -64,10 +64,46 @@
     }
   ],
   "notes": "{味|あじ} refers to the sensation of flavor when eating or drinking.\n\nCOMMON PATTERNS:\n- {味|あじ}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to taste (of something)\n- {味|あじ}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: tastes good\n- {味|あじ}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to taste, to sample\n- {味|あじ}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00562_tsukeru⟧: to season, to add flavor\n\nFLAVOR TYPES:\n- ⟦{甘|あま}い→甘い：00617_amai⟧{味|あじ}: sweet taste\n- ⟦{辛|から}い→辛い：00638_karai⟧{味|あじ}: spicy taste\n- ⟦{苦|にが}い→苦い：01201_nigai⟧{味|あじ}: bitter taste\n- ⟦{酸|す}っぱい→酸っぱい：02346_suppai⟧{味|あじ}: sour taste\n- ⟦{旨味|うまみ}→旨味：06998_umami⟧: umami (savory taste)\n\nCOMPOUNDS:\n- ⟦{味見|あじみ}→味見：08158_ajimi⟧: tasting, sampling\n- ⟦{調味料|ちょうみりょう}→調味料：04941_choumiryou⟧: seasoning\n- ⟦{味付|あじつ}け→味付け：05830_ajitsuke⟧: seasoning, flavoring\n\nFiguratively used to describe character: ⟦{人生|じんせい}→人生：03355_jinsei⟧⟦の→の：09472_no⟧{味|あじ} (the flavor of life).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08158_ajimi",
+      "reading": "あじみ",
+      "headword": "{味見|あじみ}",
+      "label": "tasting, sampling"
+    },
+    {
+      "type": "related",
+      "target_id": "05830_ajitsuke",
+      "reading": "あじつけ",
+      "headword": "{味付|あじつ}け",
+      "label": "seasoning, flavoring"
+    },
+    {
+      "type": "related",
+      "target_id": "04424_mikaku",
+      "reading": "みかく",
+      "headword": "{味覚|みかく}",
+      "label": "the sense of taste"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00874_nioi",
+      "reading": "におい",
+      "headword": "{匂|にお}い",
+      "label": "smell, scent"
+    },
+    {
+      "type": "related",
+      "target_id": "06998_umami",
+      "reading": "うまみ",
+      "headword": "{旨味|うまみ}",
+      "label": "umami, savory taste"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:43:18Z",
-    "modified": "2026-05-12T22:15:45Z",
+    "modified": "2026-08-06T06:24:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -77,7 +113,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "food"
       ]
     }
   }
