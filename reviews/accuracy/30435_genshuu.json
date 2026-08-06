@@ -1,0 +1,24 @@
+{
+  "entry_id": "30435_genshuu",
+  "headword": "{減収|げんしゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T09:30:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '減収' (genshū) can refer to a reduced yield/harvest in agriculture, which is not covered by 'business' or 'economics'.",
+      "suggestion": "Add 'agriculture' to the semantic tags."
+    }
+  ]
+}

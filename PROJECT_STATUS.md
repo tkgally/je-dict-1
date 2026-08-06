@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-08-05
+**Last updated**: 2026-08-06
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-08-06 (Routine v2: new-entries — 20 New Entries, IDs 30434–30453)
+Created 20 general-tier entries, all drawn from the **"seen in entry" lane** (33 available). Six of the ten source entries were yesterday's own batch, so this run largely closes the dictionary back over itself: {増益|ぞうえき} and {減収|げんしゅう} were referenced by 30424 {増収|ぞうしゅう}, {馬刺|ばさ}し by 30430 {馬肉|ばにく}, {傍線部|ぼうせんぶ} by 30432 {下線部|かせんぶ} (now linked as `synonym`), and {楽|たの}しさ by 30422. {増益|ぞうえき}/{減収|げんしゅう} complete the four-way earnings-report set with existing 13511 {減益|げんえき} and 30424 {増収|ぞうしゅう}, each carrying the {増収|ぞうしゅう}{増益|ぞうえき}-style set phrases and an explicit revenue-vs-profit distinction; {減収|げんしゅう} is two-sense (revenue drop / smaller harvest) with 6 examples. {楽|たの}しさ documents the さ-nominalization pattern and is `contrast`-linked to 01651 {楽|たの}しみ — the distinction learners actually get wrong. {堪|こた}える is entered as **the third こたえる kanji**: intransitive ichidan, marked formal/written, with the note that learners meet it mainly inside 06796 {持|も}ち{堪|こた}える (whose inline link had it as `noentry`), plus disambiguation from 08995 {堪|こら}える, 12087 {耐|た}える, and a `homophone` link to 09893 {応|こた}える. The **hundreds series** was completed from 00780 {百|ひゃく}'s references: {四百|よんひゃく}, {六百|ろっぴゃく}, {七百|ななひゃく}, {八百|はっぴゃく}, {九百|きゅうひゃく}, each carrying the same three-item sound-change table (only {三百|さんびゃく}/{六百|ろっぴゃく}/{八百|はっぴゃく} change) and a per-entry reading note — しひゃく as an archaism, なな-over-しち for clarity, {八百|やお} for the "a great many" sense, きゅう-not-く. Rest: ジンギスカン (Genghis Khan link documented as marketing legend), セルフィー (flagged as media-register; everyday Japanese is 16863 {自撮|じど}り), {半円|はんえん}, らせん{階段|かいだん}, {鍵穴|かぎあな}, {留置場|りゅうちじょう} (with the {留置場|りゅうちじょう}/{拘置所|こうちしょ}/{刑務所|けいむしょ} three-way legal distinction), {投資話|とうしばなし} (rendaku plus a REGISTER note on why the word smells of fraud), {当校|とうこう} (the {当|とう}〜 self-reference family), and {三回|さんかい}. Conjugation table added to the one ichidan verb; **no new kanji**. 1 stale candidate removed (C22792 {化|か}, duplicating 28335 〜{化|か}); C22806 {夏目漱石|なつめそうせき} skipped as a person name with no precedent in the dictionary (logged for curator decision) and C22795 {三十人|さんじゅうにん} as purely compositional; the 千/万 compounds remain queued. 7 candidates added from words the new entries reference; 990 remain. §4 cross-model self-check on all 20 new entries: **2 flagged, 0 applied, 2 rejected** — rejected the {減収|げんしゅう} request for an `agriculture` semantic tag (not in `VALID_SEMANTIC`, and no in-list tag covers the yield sense) and the {堪|こた}える `formal`→`neutral` flag, since the entry's own USAGE section documents it as formal/written. $0.0087.
+
+- **Business / finance (3)**: {増益|ぞうえき}, {減収|げんしゅう}, {投資話|とうしばなし}
+- **Numbers / counters (6)**: {四百|よんひゃく}, {六百|ろっぴゃく}, {七百|ななひゃく}, {八百|はっぴゃく}, {九百|きゅうひゃく}, {三回|さんかい}
+- **Food (2)**: {馬刺|ばさ}し, ジンギスカン
+- **Objects / buildings (3)**: {半円|はんえん}, らせん{階段|かいだん}, {鍵穴|かぎあな}
+- **Education / law (3)**: {傍線部|ぼうせんぶ}, {当校|とうこう}, {留置場|りゅうちじょう}
+- **Abstract / verbs / loanwords (3)**: {楽|たの}しさ, {堪|こた}える, セルフィー
+
 ### 2026-08-05 (Routine v2: new-entries — 19 New Entries, IDs 30415–30433)
 Created 19 general-tier entries. The **"seen in entry" lane** offered 14 candidates; 10 became entries and 4 were removed as stale — {軟|やわ}らかい (C22762) is a kanji variant already documented inside 01096 {柔|やわ}らかい, while {二羽|にわ} (C22765), {三羽|さんば} (C22766), and {一足|いっそく} (C22768) are number+counter combinations covered by the counter entries 01007 {羽|わ} and 00992 {足|そく}. The ten: ミートソース (noted as usually meaning the whole dish, not just the sauce), {湯垢|ゆあか} (paired against 30399 {水垢|みずあか}, its source entry), {空|あ}き{部屋|べや}, the suffix {月|がつ} (**with the {月|つき}/がつ/か{月|げつ} three-way split spelled out**, plus the し/しち/く irregular readings, cross-referenced to 02230 {月|つき}), the counter {脚|きゃく} for chairs and legged furniture (with the note that {三脚|さんきゃく} is separately a tripod), {行|い}き{届|とど}く (**ASPECT section**: the plain present is rare; the live forms are {行|い}き{届|とど}いている and the negative {行|い}き{届|とど}かない), {悲|かな}しさ and {嬉|うれ}しさ (both distinguished from the -み/{喜|よろこ}び emotion nouns and linked to their base adjectives), {熱性|ねっせい} (medical, bound form, with the ねっせい-not-ねつせい reading warning), and the two-sense {増収|ぞうしゅう} (revenue / harvest yield, with the {増収|ぞうしゅう}{増益|ぞうえき} set phrase).
 
@@ -93,14 +103,3 @@ Created 19 general-tier entries, **draining the "seen in entry" lane completely*
 - **Place / nature (3)**: {別天地|べってんち}, {藻場|もば}, {地|ち}
 - **Business / health (3)**: ローリスク, {症候群|しょうこうぐん}, {使|つか}いやすさ
 - **Communication / evaluation (2)**: ディベート, {待|ま}ちきれる
-
-### 2026-08-03 (Routine v2: new-entries — 20 New Entries, IDs 30338–30357)
-Created 20 general-tier entries, **draining the "seen in entry" lane down to 3** (25 available; 2 dropped as stale, 20 created). The two stale drops were orthographic/notation variants the candidate capture step cannot see: C22697 {気|き}ぜわしい, the mixed-kana spelling of existing 15598 {気忙|きぜわ}しい, and C22704 ぶり, already covered by 28358 〜ぶり. Three {派|は}-suffix performer types — {正統派|せいとうは}, {演技派|えんぎは}, {個性派|こせいは} — were created together and cross-describe each other and the existing 30319 {本格派|ほんかくは} / 30320 {実力派|じつりょくは}, with {正統派|せいとうは}↔{個性派|こせいは} linked as a `contrast` pair. {総資産|そうしさん} **completes the balance-sheet contrast set** with 30322 {純資産|じゅんしさん} created the day before. The counter/ordinal group is the other cluster: {何回目|なんかいめ}, {二|ふた}つ{目|め}, {二枚|にまい}, {七人|しちにん}, {何曜日|なんようび}, and the two-sense {十一日|じゅういちにち} (date and duration, with the irregular-through-{十日|とおか} reading rule documented). {自身|じしん} is tagged `["noun", "pronoun"]` and its notes spell out both restrictions learners get wrong — it never stands alone as a subject, and inanimate nouns take {自体|じたい} instead. The homophone pair {海草|かいそう} (sea grass, marine seed plants) vs. existing 06750 {海藻|かいそう} (algae) is now explicit in both directions. Rest: あっちこっち (with the "there-and-here" word-order note and the あちこち/{方々|ほうぼう} register ladder), {提唱者|ていしょうしゃ}, めかぶ, {蚊遣|かや}り{豚|ぶた}, {危|あや}うさ, ハイリスク, {打|う}ち{砕|くだ}く, and {別世界|べっせかい}. Conjugation table added to the one godan verb; **no new kanji**. 2 stale candidates removed, 5 added from words the new entries reference; 992 remain. §4 cross-model self-check on all 20 new entries: **2 entries flagged, 1 applied, 2 rejected** — applied the {二|ふた}つ{目|め} example translation ("two stops" → "the second stop", since the entry exists to teach the ordinal 〜{目|め}); rejected both {海草|かいそう} gloss nits, where "marine flowering plant" is precisely the botanical definition that separates it from {海藻|かいそう}. $0.0087.
-
-- **Performer / evaluation types (3)**: {正統派|せいとうは}, {演技派|えんぎは}, {個性派|こせいは}
-- **Counters / ordinals / dates (6)**: {何回目|なんかいめ}, {二|ふた}つ{目|め}, {二枚|にまい}, {七人|しちにん}, {何曜日|なんようび}, {十一日|じゅういちにち}
-- **Business / risk (2)**: {総資産|そうしさん}, ハイリスク
-- **Nature / food (2)**: めかぶ, {海草|かいそう}
-- **Abstract / grammar (4)**: {自身|じしん}, あっちこっち, {危|あや}うさ, {別世界|べっせかい}
-- **People / objects / verbs (3)**: {提唱者|ていしょうしゃ}, {蚊遣|かや}り{豚|ぶた}, {打|う}ち{砕|くだ}く
-
