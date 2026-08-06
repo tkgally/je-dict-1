@@ -1795,6 +1795,25 @@ is the one with measured precision.
 > pass's ~3–13, on a shared cursor) as the whole of the retire-or-gate case. Recommendation
 > unchanged, evidence now cleanly separated: **retire on cost, not on precision**.
 
+> **Update 2026-08-06 — the throughput number measured directly, and the cost now falls on the
+> paying pass.** Two runs this window put figures on the wall-clock argument. A 2026-08-05
+> accuracy-review stopped screening deliberately (not a crash) after **0 flags on 69 entries**,
+> $0.0073 spent, and recorded the ratio as **~8 entries/min for screening against ~50/min for
+> `review_accuracy.py`** — a 512-entry range is ~10 minutes of accuracy review and ~65 minutes of
+> furigana screening. The 2026-08-06 run truncated screening at 26418 of a planned 26700 for the
+> same reason. **The new datum is second-order and worse**: in the run that measured it, the
+> *accuracy* pass also fell short (316 of a planned 569 entries) — the first time the throughput
+> ceiling has bound the dimension that produces applied fixes. Precision that window was **1 of 9**
+> (26189–26418), and the eight rejects were the documented false-positive families (rendaku,
+> okurigana splits, pair-index confusion), so the numbers keep landing in the same place: the
+> screener is not wrong, it is slow, and it is now slow *at the expense of* the paying pass.
+>
+> One incidental finding is worth keeping for whatever replaces it: the single true positive,
+> `{歴史書|れきしょ}` for れきししょ in 26418, was in a **notes COMMON COLLOCATIONS block** — not a
+> headword, not an example. Both true positives this month came from the least-swept surface.
+> A cheap replacement (the non-hiragana-reading regex this item proposes, plus a
+> reading-length sanity check) should run over notes furigana, which nothing else inspects.
+
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
 **Source**: 2026-06-19 routine systemic-fix run (missing-target-id lane)
@@ -2609,6 +2628,25 @@ This also composes with the §A budget rule. Detection currently consumes a shar
 per-run OpenRouter budget to produce an incomplete answer; moving it out leaves the same
 dollars buying only judgment, which is the scarce thing.
 
+**Update 2026-08-06 — a sixth confirmation, a stable ratio, and the ceiling on the pre-scan's own
+map.** The 2026-08-06 accuracy-review over 25872–26188 measured the split again: **118 of 146
+reviewer `tags` flags (81%) were the same off-vocabulary family the free
+`check_tag_drift.py --check unknown-semantic` diff finds for $0**, leaving 28 flags of genuine
+marginal value, 11 of those being sole-`general` entries with an obvious in-list replacement. Six
+measurements now agree that the paid reviewer's marginal contribution on this dimension is
+**~19% of its flags**, which is the number this item's ordering argument rests on.
+
+The same run proposed the natural extension — grow `TAG_MIGRATION` by "~55 more 1:1 mappings" so
+the pre-scan suggests destinations as well as detecting offenders. That premise was measured in
+the [P20 2026-08-06 update](cleanup-backlog.md#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration)
+and it bounds this item rather than extending it: the off-list population is **687 distinct names
+over 3,208 instances**, 55 more head mappings reach 40.6% cumulative coverage, and every rule
+that generates a mapping *without judgment* covers only 78 names / 196 instances. So the honest
+specification for the pre-scan is: **detect exhaustively (it already does), suggest for the ~11%
+the shipped map covers plus whatever head mappings get added, and hand the rest over as
+detected-but-undestined**. A pre-scan that promises destinations it cannot supply would re-import
+the judgment cost this item exists to move off the paid pass.
+
 ## 47. Cross-reference `headword` fields are invisible to every furigana instrument (7 confirmed defects)
 
 **Source**: 2026-07-30 routine wiki harvest (raised while checking whether `check_artifacts.py` covers a target-less cross-reference shape reported by the 2026-07-29 polish run)
@@ -2833,6 +2871,27 @@ Two candidate causes, cheap to distinguish: the field is being dropped by the re
 or it is never requested in the prompt for that dimension. Worth checking whether the same
 emptiness appears on `gloss`/`translation` issues or only on `tags` — if only `tags`, it is a
 prompt-template gap rather than a parser bug.
+
+**Resolved 2026-08-06 — misdiagnosed. There is no `description` field; the field is `concern`,
+and it is populated.** A 2026-08-06 accuracy-review run reported this item as a reader-side
+field-name mismatch, and the check confirms it: `build/review_accuracy.py:185` specifies the issue
+object as `{"dimension", "location", "severity", "concern", "suggestion"}` — `description` was
+never in the contract — and a scan of the most recent reports finds `concern` present and
+non-empty on every issue. Nothing is being dropped by the parser and nothing is missing from the
+prompt. **The two candidate causes above are both answered "neither".**
+
+Kept rather than deleted, for two reasons. The first is that as written this item would send
+someone to patch a script that is behaving correctly — the concrete cost of leaving a
+misdiagnosis on a backlog. The second is that the *residual* point survives its own diagnosis: a
+flag whose evidence is a severity label and a bare destination is thin, and that is a real
+property of the `tags` dimension's output, where `suggestion` really does read `"-> general"`. But
+the fix for that is a prompt asking for a denotational justification, not a field-plumbing repair
+— and it belongs with [item 75](#75-the-accuracy-reviewer-assigns-different-severities-to-the-same-defect-class), which is about the same dimension's other unreliable
+metadata. **Status: no code change. Read together with 75.**
+
+*Process note*: this is the second backlog item in three days whose premise dissolved when
+someone ran the check instead of re-reading the item ([P22](cleanup-backlog.md#priority-22-inconsistent-free-text-part_of_speech-display-field)
+was the first, 2026-08-04). Both had sat for weeks. See [Instrument Defects](../topics/instrument-defects.md).
 
 ## 54. Candidate-list quality filter: reject inflected forms and number+counter strings at harvest time
 
@@ -3136,6 +3195,24 @@ identically: **noun ↔ suru-verb pairs cross-linked to each other's opposite fo
 bare-noun base should target it. Small, mechanical once spotted, and it is the same distinction
 the `Xする` label Informational in the cleanup backlog is about — seen from the target side rather
 than the label side.
+
+**Update 2026-08-06 — the `ambiguous` bucket is not a curator queue, and treating it as one cost
+four batches.** Four prior systemic-fix batches deferred the detector's 13 "ambiguous" findings
+(more than one lookup candidate) to the curator. A 2026-08-05 run worked them and found **all 13
+decidable, by the test this item already specifies**: the surface's own furigana names the reading,
+and the reading selects exactly one candidate — 後 あと → 09580, 分 ぶん → 26216, 船 せん → 09875,
+方 かた → 10665, 館 かん → 17308. The rule worth keeping is one line long:
+
+> **Lookup ambiguity is not decision ambiguity.** `by_headword` returning several entries means
+> the *index* cannot choose; it does not mean the *link* is unclear, because the link carries a
+> reading the index did not consult.
+
+Two consequences. The detector should apply the reading filter *before* bucketing, so ambiguous
+means "still ambiguous after the reading is known" — which would have emptied this bucket to 1.
+And the one genuine residual (05020_youtsuu's 持ち上げたとき) is not a link defect at all but a
+symptom of the 02918/10077 とき duplication — see [Entry Follow-ups](entry-followups.md). A
+bucket that shrinks from 13 to 1 under a filter the detector already implements is a labelling
+bug, not a judgment queue.
 
 ## 60. `onomatopoeia` is valid in both `pos` and `semantic` — and the corpus uses both
 

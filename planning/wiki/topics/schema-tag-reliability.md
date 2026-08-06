@@ -1,6 +1,8 @@
 # Schema Tag Reliability: When Metadata Drifts from Reality
 
-**Last updated**: 2026-06-13 (added `general`-tag reverse-direction noise finding to "The tag-vocabulary contradiction" section: ~88% of tag flags in the 03301–04300 range flag `general` as "too broad"; bulk-rejected; fix tracked in Tooling Backlog item 17)
+**Last updated**: 2026-08-06 (new section "The shape of the semantic-tag debt": the off-vocabulary queue measured whole-corpus at 2,530 entries / 3,208 instances / 687 names, with the taxonomy gap — `place`/`location`/`object`/`state`/`quality`/`manner`/`degree` — as its largest single block at 322 instances, confirmed from the corpus side after the reviewer side reached the same ten strings; and the sole-`general` gloss-keyword suggester measured and closed at 14.8% coverage, since inference from surrounding prose cannot be denotational and would manufacture P11 defects)
+
+Prior 2026-06-13 (added `general`-tag reverse-direction noise finding to "The tag-vocabulary contradiction" section: ~88% of tag flags in the 03301–04300 range flag `general` as "too broad"; bulk-rejected; fix tracked in Tooling Backlog item 17)
 
 ## Overview
 
@@ -312,6 +314,98 @@ gradual-migration policy and turn CI red on ~56% of the dictionary:
 This is deterministic-defense-at-the-boundary (Implication 2, below) applied to
 the semantic field: the controlled vocabulary is enforced at PR time for new
 content, while the legacy tail stays on the gradual lane.
+
+## The shape of the semantic-tag debt (measured 2026-08-06)
+
+Two years of tag observations have produced two standing recommendations that
+sound like engineering and turn out not to be: *extend the migration map until
+the off-vocabulary queue is batch-fixable*, and *infer the missing specific tag
+from the gloss*. Both were measured in the 2026-08-06 harvest, against the whole
+corpus rather than against the range that prompted them, and both failed — for
+the same underlying reason, which is worth stating once here rather than
+re-deriving per item.
+
+### The off-vocabulary queue is a long tail with a taxonomy gap at its head
+
+The repo-wide count: **2,530 entries carry 3,208 off-list semantic-tag instances
+across 687 distinct tag names.** The nine mappings shipped in
+`check_tag_drift.py`'s `TAG_MIGRATION` cover 364 of those instances (11.3%);
+438 of the names occur two times or fewer.
+
+| lever | reach |
+|---|---|
+| the 9 shipped mappings | 364 instances (11.3%) |
+| every mechanically-derivable mapping (depluralize, strip qualifier, add `-general`, normalize separators) | 78 names / 196 instances (6.1%) |
+| the 55 highest-frequency unmapped names, hand-mapped | 1,304 instances (40.6%), leaving 623 names |
+| top 100 names | 62.4% · top 249 names | 82.1% |
+
+The distribution is the finding. A frequency-ranked map cannot finish this
+queue, and the mechanical family — the one that needs no judgment — is 6% of the
+mass, not the bulk of it. What sits at the head instead is a block of names for
+concepts the controlled vocabulary has no slot for: `place` (54), `location`
+(50), `object` (46), `state` (32), `quality` (32), `manner` (30), `degree` (30),
+`document` (20), `position` (14), `objects` (14) — **322 instances in one
+conceptual region.**
+
+That region was independently identified from the opposite direction. The
+2026-07-30 accuracy-review found roughly a quarter of the reviewer's tag
+suggestions were "replace this off-vocabulary tag with `general`", on exactly
+`location, place, position, object, space, status, document`, and concluded the
+model was answering honestly: asked for an in-list destination for `position`,
+the only truthful answer available is the catch-all. **A reviewer-behaviour
+observation and a corpus count converging on the same ten strings is the
+strongest evidence this wiki has that the gap is in the vocabulary, not in the
+tagger or the model.** It is also the reason the migration lane keeps stalling:
+its largest single block is blocked on a curator taxonomy decision, and no
+amount of mapping work reaches it.
+
+One prioritization datum falls out of the same scan. Of the 2,530 affected
+entries, **1,121 carry off-list tags and nothing else** — zero valid semantic
+tags, hence functionally untagged for search and browse — while 1,409 already
+carry a valid tag alongside. Only the first half is a user-visible defect.
+
+### Tags cannot be inferred from gloss text, because inference is not denotation
+
+The other standing proposal is a gloss-keyword suggester for the 3,741 entries
+whose only semantic tag is `general`. Built empirically — 899 gloss tokens that
+concentrate ≥80% on a single tag across the 20,257 specifically-tagged entries —
+it proposes a tag for **14.8%** of the queue at that threshold and **2.9%** at a
+threshold worth trusting, and roughly one proposal in five is wrong.
+
+The errors all have one shape: 眉 (eyebrow) → `nature` because its explanation
+says "ridge"; 保険料 (insurance premium) → `transportation` because the gloss
+illustrates car insurance; 負け惜しみ (sour grapes) → `food`. The tag is taken
+from the *context the gloss mentions* rather than from what the headword
+*denotes* — which is precisely the [P11](../ideas/cleanup-backlog.md) defect the
+tag lane exists to clean up, and precisely why the project defines semantic tags
+denotationally. **A tool that infers a tag from surrounding text cannot be
+denotational.** It is not that this instrument is low-yield; it is pointed the
+wrong way, and running it would manufacture the defect class it was meant to
+reduce.
+
+The population resists it for a structural reason, too: an entry ends up with
+sole `general` *because* no domain was obvious to the tagger, so the set is
+enriched for words with no domain signal at all (万端, 概説, 座標, 型, 連鎖,
+特価). The transparent domain compounds that observing runs keep noticing —
+視覚障害 → `health`, 選挙運動 → `politics` — are the visible slice, together
+with the 350 katakana entries retaggable from their English source word. Between
+them, ~10–15% of the queue.
+
+### Why both failures are one failure
+
+Neither result is about tooling quality. Both are cases of an **instrument being
+asked to supply judgment that was never encoded in the data it reads.** The
+migration map reads a tag name and can only rewrite it into another name — it
+cannot invent a category the vocabulary lacks. The gloss suggester reads
+English prose written to explain a word and can only correlate — it cannot
+recover which of the concepts the prose mentions is the one the headword *is*.
+Where the missing judgment is small and bounded (the 78 mechanical names, the
+350 katakana loanwords), automation works and should be used. Where it is the
+substance of the task, the honest queue entry is "N entries need a
+lexicographer", and the useful engineering is the part that **sizes** that
+number and **routes** the blocked share to whoever can unblock it — which for
+322 of these instances is a curator answering one taxonomy question, not a
+script.
 
 ## Implications for je-dict-1
 

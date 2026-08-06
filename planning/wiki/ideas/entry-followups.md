@@ -1152,6 +1152,66 @@ as a shape: an entry whose examples are all *compounds containing* the headword 
 example-count checks cannot see, and one that would be mechanically detectable for
 single-character noun headwords.
 
+## 26031 {格上|かくじょう} — an entry built on a reading that does not exist (curator, URL-changing)
+
+**Source**: 2026-08-05 routine accuracy-review (25872–26188); already escalated by that run to
+`reviews/needs_curator.txt`.
+
+The headword reading is wrong in a way that cannot be patched in place. 格上 is **かくうえ**;
+格上げ is **かくあげ**. This entry's ID encodes かくじょう, its gloss and all three examples are
+actually 格上げ, and they carry the furigana かくじょうげ — a reading of a word that does not
+exist. It also duplicates two entries that are already correct: **07405 格上 / かくうえ** and
+**13122 格上げ / かくあげ**.
+
+Every honest repair (fix the reading, or merge into 13122) changes the filename and therefore the
+live URL, which CLAUDE.md reserves to the curator. Recorded here so the next reviewer that reaches
+this range does not re-derive it. Note the shape for the ratchet pile: **a five-digit ID is a
+promise about the reading**, and nothing currently checks that `id`'s romaji agrees with
+`reading`.
+
+## 04230_uchiakeru — an etymology note whose component gloss has no correct target
+
+**Source**: 2026-08-05 routine polish.
+
+The notes derive 打ち明ける from 打つ + 明ける and gloss the second component as "(to open)".
+Neither existing entry supports that: **00563_akeru is 開ける** "to open", **21288_akeru is 明ける**
+"to dawn; to end (a period)". The link currently points at 00563, which matches the English gloss
+but the wrong kanji; pointing it at 21288 matches the kanji but contradicts the gloss the note
+itself wrote.
+
+The real issue is the note, not the link: in 打ち明ける the 明 component carries a "reveal / bring
+into the open" sense that neither entry heads. Either rewrite the etymology to say so without
+claiming it is the entry 明ける, or drop the component gloss. A curator call because it is a
+content decision, not a link repair.
+
+## 02918_toki ({時|とき}) & 10077_toki (とき) — near-duplicate entries for the same word
+
+**Source**: 2026-08-05 routine systemic-fix (`check_link_baseform.py` batch).
+
+Two entries for とき differing only in whether the headword is written in kanji. Consolidation
+candidate for `prompts/consolidate_entries.md`, with the usual "keep the lower ID, redirect the
+links" default.
+
+Worth recording *how it surfaced*, because that is the more useful part: the pair is the sole
+cause of the one remaining "ambiguous" finding in `check_link_baseform.py`
+(05020_youtsuu's 持ち上げたとき). That finding is not a link error at all — it is this duplication
+seen from the link side. **A detector's residual ambiguity bucket can be a symptom of a data
+defect rather than a limit of the detector.**
+
+## Missing hundreds: 二百 … 九百 (五百 has an entry, its eight siblings do not)
+
+**Source**: 2026-08-05 routine polish (00780).
+
+12738 covers 五百; 二百/三百/四百/六百/七百/八百/九百 have no entries, so 00780's SOUND CHANGES
+list mixes one live link with eight `noentry` markers — which is exactly the shape that later gets
+refiled as a stale-`noentry` finding ([P35](cleanup-backlog.md#priority-35-stale-noentry-inline-links--3797-markers-now-resolve-2887-mechanically)).
+This is a **decision, not a task**: either the hundreds are in scope (in which case eight entries
+close it permanently, and they are among the cheapest entries the project could create, since the
+sound changes are the entire content) or they are out of scope, in which case the exclusion should
+be written down somewhere the next run will find it. What should not happen is a third run
+rediscovering the asymmetry. Related: [Cleanup P35](cleanup-backlog.md), and the number/date
+cluster its 2026-08-03 update describes.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

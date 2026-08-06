@@ -470,6 +470,12 @@ The useful change is therefore not a new check but a **subpattern split**, becau
 
 Splitting them turns 258 instances from "review queue" into "mechanical sweep with a validation pass", which is the distinction §B draws between what may be applied mechanically and what needs eyes. The residue that still needs judgment shrinks to 115. Distribution across fields is even (`examples` 197 / `notes` 175), so this is not a note-field-specific artifact like the 2026-07-29 slice above.
 
+**Update 2026-08-06 — the slice that sits inside an inline-link surface, and why it should lead the sweep.** A 2026-08-05 polish run found `⟦{あの|あの}→あの：00915_ano⟧` in 00792 首 and asked for "a targeted scan for `{かな|same-かな}` wrappers inside link surfaces". Measured across all entries: **108 instances across 94 entries** where a pure-kana `{…|…}` wrapper sits inside the surface or base-form field of a `⟦…⟧` link — **84 katakana** (`{バイク|ばいく}`, `{ニュース|にゅーす}`, `{グループ|ぐるーぷ}`) and 24 hiragana (`{どんどん|どんどん}`, `{ここ|ここ}`, `{なる|なる}`). These are a subset of the 373 `pure-kana` findings above, not a new family, so this is a targeting hint rather than a new item — but three properties make it the right slice to sweep first:
+
+- **It is where the defect stops being cosmetic.** Elsewhere a pure-kana wrapper renders a redundant reading; inside a link surface it is text a lookup may be matched against. All 108 currently resolve (5 point at `noentry`), so nothing is broken today — the risk is that the *next* tool to read link surfaces has to know about the wrapper.
+- **The katakana majority (84) inherits the unconditional fix rule** established for the 258 above: delete the wrapper, keep the surface. And the same 24 hiragana that need judgment as wrappers need none as link surfaces, since a link surface has no reason to carry a reading gloss at all.
+- **It has an obvious neighbour in the tooling backlog.** The dominant shape — a katakana word wrapped with a hiragana pseudo-reading — is the same script asymmetry [Tooling 76](tooling-backlog.md#76-word_id_lookupjson-answers-katakana-lookups-from-by_headword-only) describes in `word_id_lookup.json`, where `by_reading` holds zero katakana keys. A writer who believes a katakana word needs a hiragana reading to be looked up produces exactly this wrapper. Worth fixing the belief in the `inline-word-links` skill at the same time as the 108 instances.
+
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
@@ -711,6 +717,54 @@ priority's queue, concentrated in the low IDs (00005 アップ, 00017 ボール,
 entries to retag: the English source word usually names the destination directly (ボール→`sports`,
 ゴム→`material`… noting that `material` is itself off-vocabulary, so P20 and this item land on the
 same entries). Not a separate item — a targeting hint for this one.
+
+**Update 2026-08-06 — the gloss-keyword suggester measured, and it does not work.** The
+2026-08-06 accuracy-review saw 11 sole-`general` entries whose correct tag "follows directly from
+the gloss text" (視覚障害/低体温症/癒合/抗菌薬 → `health`, 選挙運動 → `politics`, 不敬罪 → `law`,
+相対性 → `science`, 丸括弧/角括弧 → `language`, 忌中 → `culture`+`religion`) and proposed that
+"a gloss-keyword suggester over the 3,791-entry queue would likely propose a defensible tag for
+most of it". This is the oldest recommendation on this item — the original 2026-05-23 entry
+proposes the same instrument via [Tooling 6](tooling-backlog.md#6-tag-drift-detector) — so it was
+measured rather than filed again.
+
+The suggester was built empirically rather than by hand, which is the strongest version of the
+idea: for every English token in the gloss/explanation text of the **20,257** entries that carry a
+specific tag, compute the distribution of tags among entries containing it, and keep the tokens
+that concentrate ≥80% on one tag (n≥5). That yields 899 discriminating tokens. Run against the
+**3,741** sole-`general` entries:
+
+| threshold | discriminating tokens | entries receiving any proposal |
+|---|---|---|
+| ≥80% concentration, n≥5 | 899 | **554 / 3,741 (14.8%)** |
+| ≥90% concentration, n≥10 | 146 | 109 / 3,741 (2.9%) |
+
+So "most of it" is 15% at the loose threshold and 3% at a threshold you would actually trust —
+and the loose threshold's proposals are visibly wrong about one time in five. From a random 16:
+**眉** (eyebrow) → `nature` because its explanation says "ridge"; **保険料** (insurance premium) →
+`transportation` because the gloss illustrates car insurance; **負け惜しみ** (sour grapes) →
+`food`; **田んぼ** (rice paddy) → `food`.
+
+Two things follow, and the second is the one worth keeping:
+
+- **The population is not gloss-legible, and that is structural.** An entry ends up with sole
+  `general` precisely *because* no domain was obvious to the tagger, so the sole-`general` set is
+  enriched for words whose gloss carries no domain signal. A random sample reads: 万端, 概説,
+  座標, 型, 連鎖, 特価, 書斎, リベラル, 抱き合わせ. The 11 transparent domain compounds the
+  observing run saw are the visible slice, not a sample of the population — and the katakana
+  slice measured 2026-08-04 (350 entries, retaggable from the English source word) is the other
+  visible slice. **Between them they are ~10–15% of the queue; the rest needs a lexicographer.**
+- **An automated gloss-keyword pass would manufacture [P11](#priority-11-batch-creation-semantic-tag-transportation-misapplied) defects.** Every error above has the same
+  shape: the tag was taken from the *context the gloss mentions* rather than from what the
+  headword *denotes* — 保険料 is not about transportation, it is about money, and the word "car"
+  appears only because insurance was being illustrated. That is the exact defect P11 exists to
+  clean up and the exact reason the project's semantic tags are defined denotationally. **A tool
+  that infers tags from surrounding text cannot be denotational**, so this instrument is not
+  merely low-yield, it is pointed the wrong way. Tooling 6 should record that.
+
+**Status of the instrument question**: closed. The remaining levers on this item are the ones
+already named — the katakana filter (350), the within-block-inconsistency heuristic (2026-07-30
+update: neighbours where one sibling carries a specific tag and the other sole-`general`, the
+06690/06691 exam pair being the control case), and frontier applies. None of them read the gloss.
 
 ## Priority 14: Notes content copied from wrong entry
 
@@ -1230,6 +1284,57 @@ is unchanged: a per-range paid pass migrates tens per run against a residue in t
 the **step-1 sweep of the nine mappings already shipped in `TAG_MIGRATION`** — still unrun after
 four harvests recommending it — remains the highest-yield action available and needs no new
 detector, no budget, and no curator decision.
+
+**Update 2026-08-06 — the whole population counted, and the map-extension premise sized against
+it.** The 2026-08-06 accuracy-review proposed extending `TAG_MIGRATION` with "~55 more 1:1
+mappings" to make "the remaining ~2,500 baselined entries batch-fixable". The full repo scan that
+proposal implies had never been run, so this harvest ran it. Current state of the whole queue:
+
+| measure | value |
+|---|---|
+| entries carrying ≥1 off-list semantic tag | **2,530** (was 2,808 at the last harvest — the lane *is* converging) |
+| off-list tag instances | **3,208** |
+| distinct off-list tag *names* | **687** |
+| instances the 9 shipped `TAG_MIGRATION` mappings already cover | **364 (11.3%)** |
+| names occurring ≤2 times | 438 names / 574 instances |
+
+Four results, in the order they change decisions:
+
+1. **The standing step-1 sweep is a 364-instance job, not a thousands-instance one.** Five
+   harvests have recommended sweeping the nine already-shipped mappings without anyone counting
+   what they cover. They cover 364 instances — one bounded systemic-fix batch, verifiable per
+   entry, needing no detector, no budget and no curator decision. The reason to do it is no
+   longer "highest-yield"; it is that it is *small*, and it has been deferred five times on the
+   assumption that it was not.
+2. **"~55 more mappings" buys 40.6%, not the remainder.** Mapping the 55 highest-frequency
+   unmapped names covers 1,304 of 3,208 instances and leaves **1,540 instances across 623
+   names**. The distribution is the reason: the top 20 names carry 28.3% of the mass, the top 100
+   carry 62.4%, and you need 249 names for 82%. A frequency-ranked map cannot finish this queue;
+   it can only decapitate it.
+3. **The head is not spelling variants — that family is 6% of the mass.** Applying every
+   mechanical rule that could generate a mapping without judgment (depluralize, strip a
+   `-qualifier` suffix, add `-general`, normalize separators/case) yields exactly **78 names /
+   196 instances (6.1%)** — `arts`→`art`, `tools`→`tool`, `food-drink`/`food-cooking`→`food`,
+   `emotion-feeling`→`emotion`, `daily life`/`daily_life`→`daily-life`. Everything above them in
+   the ranking requires a decision.
+4. **What the head actually is, is the taxonomy gap this backlog already named from the other
+   direction.** The ten largest unmapped names after `body`(85) are `place`(54), `location`(50),
+   `object`(46), `state`(32), `quality`(32), `manner`(30), `degree`(30), `document`(20),
+   `position`(14), `objects`(14) — **322 instances in the spatial/positional/metadata region
+   `VALID_SEMANTIC` has no slot for**. [P13](#priority-13-overuse-of-general-as-sole-semantic-tag)'s
+   2026-07-30 update reached the same seven strings (`location, place, position, object, space,
+   status, document`) from the *reviewer* side and concluded the model was answering honestly
+   about a gap in the list. This count confirms it from the *corpus* side and adds the number:
+   the gap is not a reviewer artifact, it is the single largest identifiable block of this
+   migration queue, and no mapping work can touch it until the curator answers the taxonomy
+   question.
+
+**Prioritization datum, new here**: of the 2,530 affected entries, **1,121 carry off-list tags
+*and nothing else*** — they have zero valid semantic tags today, so they are functionally
+untagged for search and browse — while 1,409 already carry a valid tag alongside the off-list one.
+The two halves are not equally urgent: the migration changes user-visible behaviour for the 1,121
+and is bookkeeping for the 1,409. If this queue is ever worked by priority rather than by ID
+range, that is the split to use.
 
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
@@ -2407,6 +2512,14 @@ all six were created 2026-01-18 in one batch). Nothing new; the band is now trac
 ~06150 to 06786 with no exception found by any run. Recorded only to keep the count honest — this
 is the single most-refiled observation in the project, and every filing has been a correct
 observation of the frontier.
+
+**Filed a twelfth and thirteenth time on 2026-08-05/06** (06787–06792 and 06793–06798, the latter
+the 2026-01-18 compound-verb batch). The band now runs continuously from ~06150 to 06798. Two runs
+independently recommended a dedicated link-coverage pass over the whole 067xx–068xx compound-verb
+block rather than one-entry-at-a-time frontier work, which is the same recommendation the eighth
+and ninth filings made about 06000–07999. **The count is the argument now**: thirteen filings, one
+answer, and the answer has never changed — the band is the frontier, not a defect, and it will be
+refiled every run until either the frontier passes it or someone schedules the block sweep.
 
 ## Informational: Inline-link base forms labelled `Xする` while targeting the bare noun entry (441 links)
 
