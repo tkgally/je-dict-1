@@ -1,0 +1,24 @@
+{
+  "entry_id": "26624_ransou",
+  "headword": "{乱走|らんそう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:36:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'news' is not a valid semantic tag.",
+      "suggestion": "Remove 'news' or replace with a valid tag if applicable (e.g., 'media' if referring to news as a medium, but 'news' itself is not a valid semantic category for a headword)."
+    }
+  ]
+}

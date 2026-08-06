@@ -1,0 +1,24 @@
+{
+  "entry_id": "26660_suichuumegane",
+  "headword": "{水中|すいちゅう}めがね",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:36:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'equipment' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

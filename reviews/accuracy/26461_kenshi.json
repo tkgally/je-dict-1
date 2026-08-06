@@ -1,0 +1,24 @@
+{
+  "entry_id": "26461_kenshi",
+  "headword": "{繭糸|けんし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:33:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tags 'culture' and 'history' are too broad and not directly descriptive of the headword '繭糸' (silk thread). While silk production has cultural and historical significance, the word itself refers to a material.",
+      "suggestion": "Replace 'culture' and 'history' with 'material' or 'textile'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "26533_usugataka",
+  "headword": "{薄型化|うすがたか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:34:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'technology' is too narrow for the headword's meaning. While often applied to technology, the concept of 'thinning down' or 'making thinner' is not exclusive to technology and can apply to various products or even abstract concepts (e.g., 'thinning down' a budget).",
+      "suggestion": "Replace 'technology' with a more general tag like 'change' or 'general' to reflect the broader applicability of the term."
+    }
+  ]
+}

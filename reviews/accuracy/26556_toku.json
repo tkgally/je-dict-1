@@ -1,0 +1,24 @@
+{
+  "entry_id": "26556_toku",
+  "headword": "{溶|と}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:34:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation 'Beat the eggs.' for '卵を溶く。' is misleading. While '溶く' can be used for eggs, it specifically refers to mixing them until the yolk and white are combined, not necessarily 'beating' them vigorously.",
+      "suggestion": "Change the translation to 'Mix the eggs.' or 'Whisk the eggs.'"
+    }
+  ]
+}

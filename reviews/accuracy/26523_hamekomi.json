@@ -1,0 +1,24 @@
+{
+  "entry_id": "26523_hamekomi",
+  "headword": "{嵌|は}め{込|こ}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:34:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'crafts' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

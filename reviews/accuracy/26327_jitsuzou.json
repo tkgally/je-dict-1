@@ -1,0 +1,24 @@
+{
+  "entry_id": "26327_jitsuzou",
+  "headword": "{実像|じつぞう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:30:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'society' is not appropriate for the headword '実像' (jitsuzō) itself. While one sense of the word can be applied to societal concepts, the word itself does not inherently mean 'society' or belong to that category.",
+      "suggestion": "Remove 'society'."
+    }
+  ]
+}

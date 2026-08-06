@@ -1,0 +1,24 @@
+{
+  "entry_id": "26625_shinzai",
+  "headword": "{芯材|しんざい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:36:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'construction' is not in the valid tag list.",
+      "suggestion": "building"
+    }
+  ]
+}

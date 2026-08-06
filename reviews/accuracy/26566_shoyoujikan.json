@@ -1,0 +1,24 @@
+{
+  "entry_id": "26566_shoyoujikan",
+  "headword": "{所要時間|しょようじかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:35:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is not a valid semantic tag. It should be more specific.",
+      "suggestion": "time-general"
+    }
+  ]
+}

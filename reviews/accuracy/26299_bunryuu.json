@@ -1,0 +1,24 @@
+{
+  "entry_id": "26299_bunryuu",
+  "headword": "{分流|ぶんりゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:30:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '分流' (bunryū) has a broader meaning than just 'geography'. It also refers to the diversion or separation of traffic, people, or processes, which falls under 'action' or 'general'.",
+      "suggestion": "Add 'action' to the semantic tags."
+    }
+  ]
+}

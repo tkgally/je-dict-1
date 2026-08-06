@@ -1,0 +1,24 @@
+{
+  "entry_id": "26296_suikei",
+  "headword": "{水系|すいけい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:30:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss combines two distinct senses without indicating they are separate, which is misleading. The second sense ('water-based; aqueous') is a different usage (as a prefix/modifier) than the first ('water system; river system; watershed').",
+      "suggestion": "Split the main gloss into two distinct senses or rephrase to clearly separate them, e.g., 'water system; river system; watershed; (as prefix) water-based; aqueous'."
+    }
+  ]
+}

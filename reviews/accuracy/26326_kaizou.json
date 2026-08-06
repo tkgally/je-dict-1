@@ -1,0 +1,31 @@
+{
+  "entry_id": "26326_kaizou",
+  "headword": "{解像|かいぞう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:30:56Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The headword 解像 (kaizou) itself does not mean 'resolution (of an image)'. It is the root for 解像度 (kaizoudo), which means resolution. 解像 on its own is rarely used as a noun meaning resolution.",
+      "suggestion": "Change gloss to 'image analysis; image processing' or similar, reflecting its use as a verb stem or part of a compound, or remove the entry if it's not a standalone noun."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'resolution; image resolution' for 解像 (kaizou) is incorrect. This meaning belongs to 解像度 (kaizoudo). 解像 itself is not typically used as a standalone noun with this meaning.",
+      "suggestion": "Change gloss to 'image analysis; image processing' or similar, reflecting its use as a verb stem or part of a compound, or remove the entry if it's not a standalone noun."
+    }
+  ]
+}

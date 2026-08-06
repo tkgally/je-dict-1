@@ -1,0 +1,24 @@
+{
+  "entry_id": "26672_ikokujin",
+  "headword": "{異国人|いこくじん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:37:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '異国人' is described as 'formal', but the explanation states it is 'literary or somewhat old-fashioned' and carries a 'romantic or exotic nuance'. This suggests it's not necessarily formal in the sense of polite or official language, but rather archaic or poetic. 'Formal' is misleading.",
+      "suggestion": "Change 'formal' to 'neutral' or remove the formality tag if it's not strictly formal but rather stylistic/archaic."
+    }
+  ]
+}

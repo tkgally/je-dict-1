@@ -1,0 +1,24 @@
+{
+  "entry_id": "26249_chuuoushuuken",
+  "headword": "{中央集権|ちゅうおうしゅうけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T00:29:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and inaccurate for a specific political concept.",
+      "suggestion": "politics"
+    }
+  ]
+}

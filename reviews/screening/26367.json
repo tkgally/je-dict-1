@@ -1,0 +1,10 @@
+{
+  "entry_id": "26367",
+  "screened_at": "2026-08-06T00:39:17Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '立入' is 'たちい' but the full word is '立入る'. The reading 'たちい' is a partial reading of '立入る' and not the full reading of '立入' as a standalone word. While partial readings are allowed, this specific instance seems to imply '立入' as a standalone word, which would typically be 'たちいり'. However, given the context 'る (without okuriga', it's likely intended as the kanji portion of '立入る'. If '立入' is meant to be a standalone word, the reading 'たちい' is incorrect. If it's part of '立入る', then 'たちい' is the correct reading for the kanji portion. Given the instruction \"The reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors\", this is technically correct for the kanji portion of '立入る'. However, the phrasing '立入 → たちい (followed by: 「る (without okuriga」)' is a bit ambiguous. If '立入' is meant to be a compound word, its reading is 'たちいり'. If it's just the kanji part of '立入る', then 'たちい' is correct. I will flag it for ambiguity but acknowledge it might be correct depending on interpretation."
+  ],
+  "confidence": 0.7
+}
