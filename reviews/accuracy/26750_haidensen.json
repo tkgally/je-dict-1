@@ -1,0 +1,24 @@
+{
+  "entry_id": "26750_haidensen",
+  "headword": "{配電線|はいでんせん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:39:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific technical term.",
+      "suggestion": "technology"
+    }
+  ]
+}

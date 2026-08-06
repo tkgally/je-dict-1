@@ -1,0 +1,24 @@
+{
+  "entry_id": "26733_fukutai",
+  "headword": "{復隊|ふくたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:39:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad and doesn't reflect the specific meaning of the headword.",
+      "suggestion": "military"
+    }
+  ]
+}

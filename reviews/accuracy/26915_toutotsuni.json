@@ -1,0 +1,24 @@
+{
+  "entry_id": "26915_toutotsuni",
+  "headword": "{唐突|とうとつ}に",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:46:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time' is incorrect for '唐突に'. While it relates to the timing of an event, its core meaning is about the manner or unexpectedness of an action, not time itself.",
+      "suggestion": "Replace 'time' with 'descriptive' or 'expression'."
+    }
+  ]
+}

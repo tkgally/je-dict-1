@@ -1,0 +1,24 @@
+{
+  "entry_id": "26789_daisansha",
+  "headword": "{第三者|だいさんしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:40:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. While it can appear in formal contexts, the word itself is not inherently formal and is used in everyday language.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "26728_kesshoutai",
+  "headword": "{結晶体|けっしょうたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:38:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is too broad and misleading for 'lens of the eye'.",
+      "suggestion": "Replace 'body' with 'body-part'."
+    }
+  ]
+}

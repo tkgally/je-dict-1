@@ -1,0 +1,24 @@
+{
+  "entry_id": "26754_inbousha",
+  "headword": "{陰謀者|いんぼうしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:39:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific type of person. 'Person' is a more appropriate tag.",
+      "suggestion": "person"
+    }
+  ]
+}

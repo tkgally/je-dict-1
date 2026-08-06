@@ -1,0 +1,24 @@
+{
+  "entry_id": "26821_uneri",
+  "headword": "うねり",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:41:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'society' is not appropriate for the headword 'うねり' itself, which primarily refers to a physical phenomenon (waves, undulation) or a metaphorical 'surge' that can apply to various contexts, not exclusively society.",
+      "suggestion": "Remove 'society'."
+    }
+  ]
+}

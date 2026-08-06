@@ -1,0 +1,24 @@
+{
+  "entry_id": "26866_eigyoubi",
+  "headword": "{営業日|えいぎょうび}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:44:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '営業日'. This is an everyday term used in various contexts, not exclusively formal ones.",
+      "suggestion": "neutral"
+    }
+  ]
+}

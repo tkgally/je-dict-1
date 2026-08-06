@@ -1,0 +1,24 @@
+{
+  "entry_id": "26987_shussansuru",
+  "headword": "{出産|しゅっさん}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:48:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '出産する' (to give birth). Giving birth is a physiological process, not a body part.",
+      "suggestion": "Remove 'body-part'. 'action' is appropriate."
+    }
+  ]
+}

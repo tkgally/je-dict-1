@@ -1,0 +1,24 @@
+{
+  "entry_id": "26972_ikkansuru",
+  "headword": "{一貫|いっかん}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:48:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The English translation misrepresents the Japanese. 'consistently' is not the best translation for 一貫して in this context, which implies 'from start to finish' or 'integrated'.",
+      "suggestion": "We handle everything in-house from design through manufacturing."
+    }
+  ]
+}

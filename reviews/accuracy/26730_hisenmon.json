@@ -1,0 +1,24 @@
+{
+  "entry_id": "26730_hisenmon",
+  "headword": "{非専門|ひせんもん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-06T12:38:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'category' is not a valid semantic tag.",
+      "suggestion": "cognition"
+    }
+  ]
+}

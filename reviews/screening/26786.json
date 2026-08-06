@@ -1,0 +1,10 @@
+{
+  "entry_id": "26786",
+  "screened_at": "2026-08-06T12:39:16Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "Reading 21: 黒子 (kuroko) is incorrectly read as ほくろ (hokuro). While 黒子 can also mean 'mole' and be read as ほくろ, in the context of the dictionary entry (which defines 黒子 as 'kuroko' and provides examples related to kabuki and behind-the-scenes work), this reading is out of place and likely an error in the context of this specific entry's primary definition. The entry itself is for 黒子 (くろこ), and then it states \"黒子 can also be read as ほくろ\", which is a separate meaning. However, the task is to judge the 'kanji -> reading' pair itself. If the entry is for 黒子 (くろこ), then 黒子 -> ほくろ is a different word/meaning, even if it shares the kanji. The prompt asks to judge ONLY the 'kanji -> reading' pair itself. In this case, 黒子 (kuroko) is not read as ほくろ. 黒子 (hokuro) is read as ほくろ. These are two different words that happen to share the same kanji. Therefore, for the entry of 黒子 (くろこ), 黒子 -> ほくろ is an incorrect mapping for *that specific word*."
+  ],
+  "confidence": 0.9
+}
