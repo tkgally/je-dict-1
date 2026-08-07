@@ -63,21 +63,40 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{居|い} (to be, to stay) + {間|ま} (room, space). Literally \"the room where one stays.\"\n\nSIMILAR WORDS:\n- {居間|いま}: living room (traditional Japanese term)\n- ⟦リビング→リビング：11198_ribingu⟧: living room (loanword, very common in modern speech)\n- ⟦リビングルーム→リビングルーム：noentry⟧: living room (full loanword, less common)\n- ⟦{茶|ちゃ}の{間|ま}→茶の間：10660_chanoma⟧: family sitting room (traditional, associated with tatami)\n\nREGISTER:\n{居間|いま} sounds slightly formal or literary compared to ⟦リビング→リビング：11198_ribingu⟧. In real estate listings and modern conversation, ⟦リビング→リビング：11198_ribingu⟧ or ⟦LDK→LDK：07757_erudiikee⟧ (living-dining-kitchen) is far more common.\n\nNOTE:\nIn traditional Japanese houses, the {居間|いま} was the central gathering room with tatami flooring. In modern usage, it simply means the main living area regardless of style.",
-  "cross_references": [],
+  "notes": "WORD FORMATION:\n⟦{居|い}→いる：00495_iru⟧ (to be, to stay) + ⟦{間|ま}→間：noentry⟧ (room, space). Literally \"the room where one stays.\"\n\nSIMILAR WORDS:\n- {居間|いま}: living room (traditional Japanese term)\n- ⟦リビング→リビング：11198_ribingu⟧: living room (loanword, very common in modern speech)\n- ⟦リビングルーム→リビングルーム：28876_ribinguruumu⟧: living room (full loanword, less common)\n- ⟦{茶|ちゃ}の{間|ま}→茶の間：10660_chanoma⟧: family sitting room (traditional, associated with tatami)\n\nREGISTER:\n{居間|いま} is an ordinary, neutral everyday word. It sounds slightly more traditional than ⟦リビング→リビング：11198_ribingu⟧. In real estate listings and modern conversation, ⟦リビング→リビング：11198_ribingu⟧ or ⟦LDK→LDK：07757_erudiikee⟧ (living-dining-kitchen) is far more common.\n\nNOTE:\nIn traditional Japanese houses, the {居間|いま} was the central gathering room with tatami flooring. In modern usage, it simply means the main living area regardless of style.",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "11198_ribingu",
+      "reading": "りびんぐ",
+      "headword": "リビング",
+      "label": "loanword, more common"
+    },
+    {
+      "type": "related",
+      "target_id": "10660_chanoma",
+      "reading": "ちゃのま",
+      "headword": "{茶|ちゃ}の{間|ま}",
+      "label": "traditional sitting room"
+    },
+    {
+      "type": "synonym",
+      "target_id": "28876_ribinguruumu",
+      "reading": "りびんぐるーむ",
+      "headword": "リビングルーム",
+      "label": "full loanword"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T21:08:51Z",
+    "modified": "2026-08-07T13:00:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
-      "style": [
-        "literary"
-      ],
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "building"

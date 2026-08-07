@@ -109,7 +109,7 @@
     },
     {
       "id": "01332_hige_ex10",
-      "japanese": "⟦この→この：00962_kono⟧⟦キャラクター→キャラクター：noentry⟧⟦は→は：00079_ha⟧ひげ⟦が→が：00051_ga⟧⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧⟦だ→だ：09496_da⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦キャラクター→キャラクター：23518_kyarakutaa⟧⟦は→は：00079_ha⟧ひげ⟦が→が：00051_ga⟧⟦{特徴|とくちょう}→特徴：03456_tokuchou⟧⟦だ→だ：09496_da⟧。",
       "english": "This character's distinguishing feature is its whiskers.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "01332_hige_ex11",
-      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦の→の：09472_no⟧ひげ⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧なので、⟦{絶対|ぜったい}→絶対：00435_zettai⟧⟦に→に：00314_ni⟧⟦{切|き}って→切る：02693_kiru⟧はいけない。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦の→の：09472_no⟧ひげ⟦は→は：00079_ha⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦ので→ので：09501_node⟧、⟦{絶対|ぜったい}→絶対：00435_zettai⟧⟦に→に：00314_ni⟧⟦{切|き}って→切る：02693_kiru⟧⟦は→は：00079_ha⟧⟦いけない→いけない：02335_ikenai⟧。",
       "english": "A cat's whiskers are important, so you must never cut them.",
       "notes": null,
       "has_audio": false,
@@ -129,10 +129,25 @@
     }
   ],
   "notes": "ひげ is a general term for facial hair — it covers beards, mustaches, and whiskers without distinguishing between them. More specific kanji exist for each type.\n\nSPECIFIC TYPES (by kanji):\n- {髭|ひげ}: mustache (above the lip)\n- {鬚|ひげ}: beard (chin and jaw)\n- {髯|ひげ}: sideburns, cheek whiskers\nIn practice, hiragana ひげ is most common and covers all types.\n\nCOMMON COLLOCATIONS:\n- ひげ⟦を→を：00422_wo⟧⟦{剃|そ}る→剃る：00384_soru⟧: to shave\n- ひげ⟦を→を：00422_wo⟧⟦{生|は}やす→生やす：02399_hayasu⟧: to grow a beard/mustache\n- ひげ⟦を→を：00422_wo⟧⟦{伸|の}ばす→伸ばす：01973_nobasu⟧: to let one's beard grow\n- ひげ⟦が→が：00051_ga⟧⟦{濃|こ}い→濃い：02344_koi⟧: to have thick facial hair\n- ひげ⟦が→が：00051_ga⟧⟦{薄|うす}い→薄い：00764_usui⟧: to have thin facial hair\n\nANIMALS:\nFor cats and other animals, ひげ means 'whiskers.' ⟦{猫|ねこ}→猫：02237_neko⟧⟦の→の：09472_no⟧ひげ (cat's whiskers) is a common usage.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02196_kami",
+      "reading": "かみ",
+      "headword": "{髪|かみ}",
+      "label": "hair (on the head)"
+    },
+    {
+      "type": "related",
+      "target_id": "01392_ke",
+      "reading": "け",
+      "headword": "{毛|け}",
+      "label": "hair, fur (general)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-05-14T23:12:20Z",
+    "modified": "2026-08-07T12:48:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

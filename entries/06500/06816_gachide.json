@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06816_gachide_ex1",
-      "japanese": "ガチで{美味|おい}しい。",
+      "japanese": "ガチで⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "It's seriously delicious.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06816_gachide_ex2",
-      "japanese": "ガチで{言|い}ってるの？",
+      "japanese": "ガチで⟦{言|い}ってる→言う：00515_iu⟧⟦の→の：09472_no⟧？",
       "english": "Are you saying that for real?",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "06816_gachide_ex3",
-      "japanese": "これガチで{怖|こわ}かった。",
+      "japanese": "⟦これ→これ：00963_kore⟧ガチで⟦{怖|こわ}かった→怖い：00864_kowai⟧。",
       "english": "This was genuinely scary.",
       "sense_numbers": [
         1
@@ -38,20 +38,21 @@
     },
     {
       "id": "06816_gachide_ex4",
-      "japanese": "ガチで{勉強|べんきょう}しないとやばい。",
+      "japanese": "ガチで⟦{勉強|べんきょう}しない→勉強する：00527_benkyousuru⟧⟦と→と：00512_to⟧⟦やばい→やばい：04747_yabai⟧。",
       "english": "I seriously need to study or I'm in trouble.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "ETYMOLOGY: From ガチ, short for ガチンコ (a sumo/wrestling term meaning 'genuine bout' as opposed to fixed matches).\n\nREGISTER: Casual slang, primarily used by younger generations. Avoid in formal contexts.\n\nRELATED FORMS:\n・ガチ (adjective-like): ガチの{勝負|しょうぶ} (serious competition)\n・ガチ{勢|ぜい} - people who are serious/hardcore about something\n・ガチる - to do something seriously (verb form)\n\nALTERNATIVE: {本気|ほんき}で (seriously) is the standard equivalent.\n\nSIMILAR SLANG:\n・マジで (from {本当|ほんとう}に) - really, seriously\n・{本当|ほんとう}に - standard form for 'really'",
+  "notes": "ETYMOLOGY: From ⟦ガチ→ガチ：04758_gachi⟧, short for ⟦ガチンコ→ガチンコ：21362_gachinko⟧ (a sumo/wrestling term meaning 'genuine bout' as opposed to fixed matches).\n\nREGISTER: Casual slang, primarily used by younger generations. Avoid in formal contexts.\n\nRELATED FORMS:\n・⟦ガチ→ガチ：04758_gachi⟧ (adjective-like): ⟦ガチ→ガチ：04758_gachi⟧⟦の→の：09472_no⟧⟦{勝負|しょうぶ}→勝負：01437_shoubu⟧ (serious competition)\n・⟦ガチ→ガチ：04758_gachi⟧⟦{勢|ぜい}→勢：noentry⟧ - people who are serious/hardcore about something\n・⟦ガチ→ガチ：04758_gachi⟧る - to do something seriously (verb form)\n\nALTERNATIVE: ⟦{本気|ほんき}→本気：03153_honki⟧⟦で→で：00502_de⟧ (seriously) is the standard equivalent.\n\nSIMILAR SLANG:\n・⟦マジで→マジで：09319_majide⟧ (from ⟦{本当|ほんとう}に→本当に：04714_hontouni⟧) - really, seriously\n・⟦{本当|ほんとう}に→本当に：04714_hontouni⟧ - standard form for 'really'",
   "cross_references": [
     {
       "type": "synonym",
       "reading": "ほんきで",
       "headword": "{本気|ほんき}で",
-      "label": "standard equivalent"
+      "label": "standard equivalent (本気 + で)",
+      "target_id": "03153_honki"
     },
     {
       "type": "synonym",
@@ -63,7 +64,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T07:17:46Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-08-07T12:48:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
