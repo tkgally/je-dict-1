@@ -1,0 +1,24 @@
+{
+  "entry_id": "27649_rokkagetsu",
+  "headword": "{六|ろっ}ヶ{月|げつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:51:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and not specific enough for '六ヶ月'.",
+      "suggestion": "time-period"
+    }
+  ]
+}

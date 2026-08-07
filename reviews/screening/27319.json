@@ -1,0 +1,11 @@
+{
+  "entry_id": "27319",
+  "screened_at": "2026-08-07T15:22:11Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 柱 (ぱしら) in item 20 is incorrect. The correct reading for 鼻っ柱 (はなっぱしら) is はなっぱしら, where 柱 is ぱしら due to rendaku, but the kanji 柱 itself is not read as ぱしら in isolation or in other contexts. However, given the context of 鼻っ柱, this is a correct rendaku application. Re-evaluating based on the rule 'Rendaku (sequential voicing) in compounds and suffixes: 会社→がいしゃ inside 株式会社, 好き→ずき in the 〜好き suffix (甘いもの好き), 小屋→ごや in 山小屋.' this is actually a correct reading.",
+    "The reading for 凹 (おう) in item 23 is a valid reading for the kanji, but it's not the reading used in the verb へこます. However, the prompt states 'Do NOT flag partial readings as errors — they are correct by design.' and 'Judge ONLY the \"kanji → reading\" pair itself.' This reading is a valid reading for the kanji 凹, even if it's not the one used in the main entry. Therefore, it should not be flagged as an error."
+  ],
+  "confidence": 0.0
+}

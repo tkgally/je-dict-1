@@ -1,0 +1,24 @@
+{
+  "entry_id": "27768_kumogakure",
+  "headword": "{雲隠|くもがく}れ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:55:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word with a specific meaning of 'vanishing suddenly' or 'disappearing from sight'.",
+      "suggestion": "action"
+    }
+  ]
+}

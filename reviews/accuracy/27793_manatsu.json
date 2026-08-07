@@ -1,0 +1,24 @@
+{
+  "entry_id": "27793_manatsu",
+  "headword": "{真夏|まなつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:56:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for a specific period like 'midsummer'.",
+      "suggestion": "Replace 'time' with 'time-period'."
+    }
+  ]
+}

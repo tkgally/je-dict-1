@@ -1,0 +1,24 @@
+{
+  "entry_id": "27454_sakujitsu",
+  "headword": "{昨日|さくじつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:43:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'time' is too broad and not in the valid list. Should be more specific.",
+      "suggestion": "time-general"
+    }
+  ]
+}

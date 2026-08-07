@@ -1,0 +1,24 @@
+{
+  "entry_id": "27633_juugonichi",
+  "headword": "{十五日|じゅうごにち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:51:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and 'calendar' is not a valid tag.",
+      "suggestion": "Replace 'time' and 'calendar' with 'time-general' or 'time-day-of-month'."
+    }
+  ]
+}

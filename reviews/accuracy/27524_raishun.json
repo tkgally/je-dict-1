@@ -1,0 +1,24 @@
+{
+  "entry_id": "27524_raishun",
+  "headword": "{来春|らいしゅん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:47:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too general and not in the valid tag list. A more specific tag is available.",
+      "suggestion": "time-season"
+    }
+  ]
+}

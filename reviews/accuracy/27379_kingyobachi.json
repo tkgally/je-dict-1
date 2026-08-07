@@ -1,0 +1,38 @@
+{
+  "entry_id": "27379_kingyobachi",
+  "headword": "{金魚鉢|きんぎょばち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:40:51Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'objects' is not in the valid tag list.",
+      "suggestion": "tool"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'animals' is not in the valid tag list.",
+      "suggestion": "animal-general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'metaphor' is not in the valid tag list.",
+      "suggestion": "expression"
+    }
+  ]
+}

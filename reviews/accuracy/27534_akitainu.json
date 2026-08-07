@@ -1,0 +1,24 @@
+{
+  "entry_id": "27534_akitainu",
+  "headword": "{秋田犬|あきたいぬ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:48:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid tag 'animals'",
+      "suggestion": "animal-mammal"
+    }
+  ]
+}

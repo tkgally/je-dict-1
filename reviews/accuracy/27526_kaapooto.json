@@ -1,0 +1,24 @@
+{
+  "entry_id": "27526_kaapooto",
+  "headword": "カーポート",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:47:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'housing' is not a valid semantic tag.",
+      "suggestion": "Replace 'housing' with 'building'."
+    }
+  ]
+}

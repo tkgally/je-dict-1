@@ -1,0 +1,31 @@
+{
+  "entry_id": "27384_kiboubi",
+  "headword": "{希望日|きぼうび}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:41:01Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and not specific enough for '希望日'.",
+      "suggestion": "time-general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'request' is not in the valid tag list.",
+      "suggestion": "communication"
+    }
+  ]
+}

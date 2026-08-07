@@ -1,0 +1,14 @@
+{
+  "entry_id": "27316",
+  "screened_at": "2026-08-07T15:21:47Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '通' in pair 6 is 'どお', but the common reading for '通' when followed by 'り' (as in 通り) is 'とお'. 'どお' would typically be a rendaku form, but '通り' itself doesn't usually undergo rendaku in this context. However, given the instruction to not flag partial readings as errors and to not infer truncation, and that 'どお' *can* be a valid reading for '通' in some contexts (e.g., どおり), it's borderline. But in the context of '通り営業', 'とおり' is the standard. I'll flag it as a potential error.",
+    "Pair 8: 'この' is hiragana, not kanji. The instruction states 'kanji → reading'. This entry should not be present in a list of kanji-reading mappings.",
+    "Pair 28: 'に' is hiragana, not kanji. This entry should not be present in a list of kanji-reading mappings.",
+    "Pair 32: 'コース' is katakana, not kanji. This entry should not be present in a list of kanji-reading mappings.",
+    "Pair 33: 'は' is hiragana, not kanji. This entry should not be present in a list of kanji-reading mappings."
+  ],
+  "confidence": 0.9
+}

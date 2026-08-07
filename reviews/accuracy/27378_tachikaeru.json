@@ -1,0 +1,24 @@
+{
+  "entry_id": "27378_tachikaeru",
+  "headword": "{立|た}ち{返|かえ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:40:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'thought' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "27767_karu",
+  "headword": "{狩|か}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:55:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'action' is too general and does not capture the specific meaning of '狩る'.",
+      "suggestion": "animal-general"
+    }
+  ]
+}

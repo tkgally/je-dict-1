@@ -1,0 +1,24 @@
+{
+  "entry_id": "27786_hishi",
+  "headword": "{皮脂|ひし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:55:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-internal' is incorrect for '皮脂' (sebum). Sebum is secreted on the skin surface, not an internal body part.",
+      "suggestion": "Change 'body-internal' to 'body-part' or 'health'."
+    }
+  ]
+}

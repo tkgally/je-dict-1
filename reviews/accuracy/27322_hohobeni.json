@@ -1,0 +1,24 @@
+{
+  "entry_id": "27322_hohobeni",
+  "headword": "{頬紅|ほほべに}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:36:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'tool' is incorrect for '頬紅' (blush/rouge). While blush is applied with a tool, it is not a tool itself.",
+      "suggestion": "Replace 'tool' with 'cosmetics' or 'appearance'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "27804_ian",
+  "headword": "{慰安|いあん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:56:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too narrow and potentially misleading for '慰安'. While 'recreation' is one aspect, the core meaning of 'comfort' and 'solace' is broader than just leisure activities.",
+      "suggestion": "Replace 'leisure' with 'general' or 'emotion' or 'daily-life' to better encompass the meaning of comfort and solace."
+    }
+  ]
+}

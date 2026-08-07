@@ -1,0 +1,24 @@
+{
+  "entry_id": "27491_yooyoogenshou",
+  "headword": "ヨーヨー{現象|げんしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:45:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'health' is too narrow for 'yo-yo effect'. While it relates to health, it's more broadly about changes in body weight.",
+      "suggestion": "change"
+    }
+  ]
+}
