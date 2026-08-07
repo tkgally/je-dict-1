@@ -28,3 +28,10 @@ jobs:
         # VALID_SEMANTIC that isn't already in build/data/unknown_semantic_baseline.json.
         # The legacy off-vocab tail stays tolerated; new drift is blocked at CI.
         run: python3 build/validate_tags.py --check-no-new-unknown
+
+      - name: Check inline-link base forms
+        # Ratchet gate: fails if any inline link resolves to an entry that is not
+        # the entry for its own base form (the "wrong word, live link" class).
+        # Verified same-word spelling pairs live in
+        # build/data/link_baseform_allowlist.json with a written reason.
+        run: python3 build/check_link_baseform.py --gate
