@@ -1,0 +1,31 @@
+{
+  "entry_id": "27615_tsuribori",
+  "headword": "{釣|つ}り{堀|ぼり}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:50:42Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'place' is not in the valid tag list.",
+      "suggestion": "leisure"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'hobbies' is not in the valid tag list.",
+      "suggestion": "leisure"
+    }
+  ]
+}

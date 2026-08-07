@@ -1,0 +1,24 @@
+{
+  "entry_id": "27714_buriifu",
+  "headword": "ブリーフ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:53:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The Japanese sentence refers to 'boxer pants' (ボクサーパンツ), which are boxer briefs, but the English translation says 'boxer briefs than plain briefs'. This implies that 'ブリーフ' in this context means 'plain briefs', which is redundant and potentially misleading given the headword's gloss.",
+      "suggestion": "Change the English translation to 'These days more young people wear boxer briefs than briefs.'"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "27587_nipponhousoukyoukai",
+  "headword": "{日本放送協会|にっぽんほうそうきょうかい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:49:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'organization' is not in the valid tag list.",
+      "suggestion": "Replace 'organization' with 'society'."
+    }
+  ]
+}

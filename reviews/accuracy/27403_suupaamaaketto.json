@@ -1,0 +1,31 @@
+{
+  "entry_id": "27403_suupaamaaketto",
+  "headword": "スーパーマーケット",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:41:51Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "warn",
+      "concern": "Tag 'place' is not in the valid tag list.",
+      "suggestion": "shopping"
+    },
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "warn",
+      "concern": "Tag 'commerce' is not in the valid tag list.",
+      "suggestion": "business"
+    }
+  ]
+}

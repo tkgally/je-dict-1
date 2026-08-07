@@ -1,0 +1,24 @@
+{
+  "entry_id": "27730_bunpouteki",
+  "headword": "{文法的|ぶんぽうてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:54:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'grammar' is not in the valid tag list.",
+      "suggestion": "language"
+    }
+  ]
+}

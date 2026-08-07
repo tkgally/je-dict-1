@@ -1,0 +1,24 @@
+{
+  "entry_id": "27636_chisou",
+  "headword": "{馳走|ちそう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:51:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '馳走' is not formal. While the explanation mentions the honorific prefix ご- (ご馳走), which can elevate the formality, the bare form 馳走 itself is not inherently formal. It's more neutral or slightly archaic/literary as noted in the explanation.",
+      "suggestion": "neutral"
+    }
+  ]
+}

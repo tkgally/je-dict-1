@@ -1,0 +1,24 @@
+{
+  "entry_id": "27445_aoringo",
+  "headword": "{青|あお}りんご",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:43:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'plants' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    }
+  ]
+}

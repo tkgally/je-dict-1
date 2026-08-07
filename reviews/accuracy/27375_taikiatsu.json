@@ -1,0 +1,24 @@
+{
+  "entry_id": "27375_taikiatsu",
+  "headword": "{大気圧|たいきあつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:40:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'physics' is not in the valid tag list.",
+      "suggestion": "science"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "27758_memoriisutikku",
+  "headword": "メモリースティック",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:54:59Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss conflates 'Memory Stick' (a specific Sony format) with 'USB flash drive' (a different, more common type of portable storage). While both are portable storage, they are distinct technologies.",
+      "suggestion": "memory stick (Sony format); USB flash drive"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss conflates 'Memory Stick' (a specific Sony format) with 'USB flash drive' (a different, more common type of portable storage). While both are portable storage, they are distinct technologies.",
+      "suggestion": "memory stick (Sony format); USB flash drive"
+    }
+  ]
+}

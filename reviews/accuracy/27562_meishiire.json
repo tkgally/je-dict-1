@@ -1,0 +1,24 @@
+{
+  "entry_id": "27562_meishiire",
+  "headword": "{名刺入|めいしい}れ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:48:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'objects'",
+      "suggestion": "tool"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "27431_motteiku",
+  "headword": "{持|も}っていく",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:43:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'motion' is not in the valid tag list.",
+      "suggestion": "movement"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "27734_shumoku",
+  "headword": "{種目|しゅもく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:54:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'sports' is too narrow for the headword's meaning, which includes categories/items in general, not just sports.",
+      "suggestion": "Replace 'sports' with 'general' or 'action' or 'cognition' or 'daily-life' or 'expression' or 'movement' or 'society' or 'work'."
+    }
+  ]
+}

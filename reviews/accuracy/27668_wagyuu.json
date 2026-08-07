@@ -1,0 +1,24 @@
+{
+  "entry_id": "27668_wagyuu",
+  "headword": "{和牛|わぎゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:52:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword refers to the animal as well as the food product, but the tag 'food' only covers the food product.",
+      "suggestion": "Add 'animal-mammal' to the semantic tags."
+    }
+  ]
+}

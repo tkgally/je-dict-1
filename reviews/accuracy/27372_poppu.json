@@ -1,0 +1,31 @@
+{
+  "entry_id": "27372_poppu",
+  "headword": "ポップ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:39:30Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'aesthetics' is not in the valid tag list.",
+      "suggestion": "Replace 'aesthetics' with a valid tag. 'descriptive' or 'art' might be suitable depending on the intended nuance for the 'pop-style' sense."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'advertising' is not in the valid tag list.",
+      "suggestion": "Replace 'advertising' with a valid tag. 'business' or 'communication' could be considered for the 'point-of-purchase display card' sense."
+    }
+  ]
+}

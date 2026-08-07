@@ -1,0 +1,24 @@
+{
+  "entry_id": "27448_imoutosan",
+  "headword": "{妹|いもうと}さん",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T15:43:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "Formality tag is wrong. '妹さん' is polite, but not formal. It's commonly used in everyday polite conversation.",
+      "suggestion": "neutral"
+    }
+  ]
+}
