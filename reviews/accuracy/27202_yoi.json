@@ -1,0 +1,24 @@
+{
+  "entry_id": "27202_yoi",
+  "headword": "{宵|よい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T06:32:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '宵' is not formal. It is a common word used in everyday language, often with a slightly literary or poetic nuance, but not formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

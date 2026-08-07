@@ -1,0 +1,24 @@
+{
+  "entry_id": "27252_zenkeishisei",
+  "headword": "{前傾姿勢|ぜんけいしせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T06:32:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '前傾姿勢' (forward-leaning posture). A posture is not a body part.",
+      "suggestion": "Replace 'body-part' with 'movement' or 'health'."
+    }
+  ]
+}

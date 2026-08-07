@@ -1,0 +1,24 @@
+{
+  "entry_id": "27052_oshokujiken",
+  "headword": "{汚職事件|おしょくじけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T06:25:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for '汚職事件'.",
+      "suggestion": "politics"
+    }
+  ]
+}

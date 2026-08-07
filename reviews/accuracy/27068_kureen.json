@@ -1,0 +1,24 @@
+{
+  "entry_id": "27068_kureen",
+  "headword": "クレーン",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T06:32:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Duplicate tag 'tools' is not in the valid tag list. 'tool' is already present.",
+      "suggestion": "tool"
+    }
+  ]
+}

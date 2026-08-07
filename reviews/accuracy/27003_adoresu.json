@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-06T12:49:48Z",
+  "reviewed_at": "2026-08-07T06:24:37Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is too narrow and misleading. While it often refers to email/web addresses, it can also refer to physical addresses, especially in older or more formal contexts, or when context makes it clear.",
+      "suggestion": "address"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 1 is too narrow and misleading. While it often refers to email/web addresses, it can also refer to physical addresses, especially in older or more formal contexts, or when context makes it clear.",
+      "suggestion": "address"
+    }
+  ]
 }

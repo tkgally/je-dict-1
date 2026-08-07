@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-06T12:51:15Z",
+  "reviewed_at": "2026-08-07T06:32:12Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid semantic tag 'medical'",
-      "suggestion": "health"
+      "severity": "error",
+      "concern": "Missing semantic tag for 'action' as it is a suru-verb.",
+      "suggestion": "Add 'action' to semantic_tags."
     }
   ]
 }

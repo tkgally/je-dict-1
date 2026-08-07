@@ -1,0 +1,24 @@
+{
+  "entry_id": "27083_riisu",
+  "headword": "リース",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T06:26:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'daily-life' is too broad and doesn't specifically describe the headword's meaning in either sense. While wreaths are part of daily life, 'daily-life' is not a specific semantic category for 'wreath'.",
+      "suggestion": "Remove 'daily-life'. For sense 2 (wreath), 'art' or 'culture' might be more appropriate if a specific tag is needed, but 'general' would also suffice if no more specific tag fits."
+    }
+  ]
+}
