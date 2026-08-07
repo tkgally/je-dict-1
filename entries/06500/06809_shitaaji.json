@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06809_shitaaji_ex1",
-      "japanese": "{肉|にく}に{下味|したあじ}を{付|つ}けてから{焼|や}く。",
+      "japanese": "⟦{肉|にく}→肉：02240_niku⟧⟦に→に：00314_ni⟧{下味|したあじ}⟦を→を：00422_wo⟧⟦{付|つ}けて→付ける：00761_tsukeru⟧⟦から→から：00504_kara⟧⟦{焼|や}く→焼く：01123_yaku⟧。",
       "english": "Season the meat beforehand, then grill it.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06809_shitaaji_ex2",
-      "japanese": "{下味|したあじ}には{塩|しお}と{胡椒|こしょう}を{使|つか}った。",
+      "japanese": "{下味|したあじ}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{塩|しお}→塩：00887_shio⟧⟦と→と：00512_to⟧⟦{胡椒|こしょう}→胡椒：10321_koshou⟧⟦を→を：00422_wo⟧⟦{使|つか}った→使う：00473_tsukau⟧。",
       "english": "I used salt and pepper for the preliminary seasoning.",
       "sense_numbers": [
         1
@@ -30,17 +30,17 @@
     },
     {
       "id": "06809_shitaaji_ex3",
-      "japanese": "{鶏肉|とりにく}を{下味|したあじ}に{漬|つ}けて{一晩|ひとばん}{置|お}く。",
+      "japanese": "⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧⟦を→を：00422_wo⟧{下味|したあじ}⟦に→に：00314_ni⟧⟦{漬|つ}けて→漬ける：09861_tsukeru⟧⟦{一晩|ひとばん}→一晩：08887_hitoban⟧⟦{置|お}く→置く：01092_oku⟧。",
       "english": "Marinate the chicken in the seasoning and leave it overnight.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "FORMATION: {下|した} (under/preliminary) + {味|あじ} (taste/flavor).\n\nCOOKING CONTEXT: A fundamental Japanese cooking technique used to prepare ingredients before the main cooking process.\n\nCOMMON COLLOCATIONS:\n・{下味|したあじ}を{付|つ}ける (apply preliminary seasoning)\n・{下味|したあじ}に{漬|つ}ける (marinate in seasoning)\n・{下味|したあじ}を{染|し}み{込|こ}ませる (let the seasoning soak in)\n\nTYPICAL SEASONINGS:\n・{塩|しお} (salt)\n・{胡椒|こしょう} (pepper)\n・{醤油|しょうゆ} (soy sauce)\n・{酒|さけ} (sake)\n・{生姜|しょうが} (ginger) - for removing odors",
+  "notes": "FORMATION: ⟦{下|した}→下：00670_shita⟧ (under/preliminary) + ⟦{味|あじ}→味：00826_aji⟧ (taste/flavor).\n\nCOOKING CONTEXT: A fundamental Japanese cooking technique used to prepare ingredients before the main cooking process. It both deepens flavor and, for fish and meat, helps remove unwanted odors.\n\nCOMMON COLLOCATIONS:\n・{下味|したあじ}⟦を→を：00422_wo⟧⟦{付|つ}ける→付ける：00761_tsukeru⟧ (apply preliminary seasoning)\n・{下味|したあじ}⟦に→に：00314_ni⟧⟦{漬|つ}ける→漬ける：09861_tsukeru⟧ (marinate in seasoning)\n・{下味|したあじ}⟦を→を：00422_wo⟧⟦{染|し}み{込|こ}ませる→染み込む：07893_shimikomu⟧ (let the seasoning soak in)\n\nTYPICAL SEASONINGS:\n・⟦{塩|しお}→塩：00887_shio⟧ (salt)\n・⟦{胡椒|こしょう}→胡椒：10321_koshou⟧ (pepper)\n・⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ (soy sauce)\n・⟦{酒|さけ}→酒：02211_sake⟧ (sake)\n・⟦{生姜|しょうが}→生姜：05191_shouga⟧ (ginger) — for removing odors",
   "metadata": {
     "created": "2026-01-18T07:17:46Z",
-    "modified": "2026-01-19T12:17:44.708186Z",
+    "modified": "2026-08-07T03:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -50,8 +50,25 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "cooking",
+        "food"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00826_aji",
+      "reading": "あじ",
+      "headword": "{味|あじ}",
+      "label": "taste, flavor"
+    },
+    {
+      "type": "related",
+      "target_id": "09861_tsukeru",
+      "reading": "つける",
+      "headword": "{漬|つ}ける",
+      "label": "to marinate, to soak"
+    }
+  ]
 }

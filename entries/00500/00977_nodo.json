@@ -18,7 +18,9 @@
       "english": "I'm thirsty.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00977_nodo_ex2",
@@ -26,7 +28,9 @@
       "english": "I have a sore throat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00977_nodo_ex3",
@@ -34,7 +38,9 @@
       "english": "Your throat is red.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00977_nodo_ex4",
@@ -42,7 +48,9 @@
       "english": "I have a sore throat from a cold. I don't want to eat anything.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00977_nodo_ex5",
@@ -50,14 +58,38 @@
       "english": "I was thirsty, so I went to buy water. The cold water was very refreshing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{喉|のど} refers to the throat. The kanji {喉|のど} is complex, so it is frequently written in hiragana as のど.\n\nCOMMON EXPRESSIONS:\n- {喉|のど}⟦が→が：00051_ga⟧⟦{渇|かわ}く→{渇|かわ}く：10965_kawaku⟧: to be thirsty (literally 'throat dries')\n- {喉|のど}⟦が→が：00051_ga⟧⟦{痛|いた}い→{痛|いた}い：01108_itai⟧: to have a sore throat\n- {喉|のど}⟦{飴|あめ}→{飴|あめ}：00687_ame⟧: throat lozenge/drop\n- {喉|のど}⟦が→が：00051_ga⟧⟦{詰|つ}まる→{詰|つ}まる：02079_tsumaru⟧: to choke, to get a lump in one's throat\n- {喉|のど}⟦を→を：00422_wo⟧⟦{潤|うるお}す→{潤|うるお}す：08249_uruosu⟧: to wet one's throat, to have a drink\n\nPROVERB:\n⟦{喉|のど}もと→{喉元|のどもと}：22093_nodomoto⟧⟦{過|す}ぎれば→{過|す}ぎる：01219_sugiru⟧⟦{熱|あつ}さ→{熱|あつ}さ：20971_atsusa⟧⟦を→を：00422_wo⟧⟦{忘|わす}れる→{忘|わす}れる：00474_wasureru⟧ — 'Once past the throat, one forgets the heat.' Equivalent to 'Danger past, God forgotten.'\n\nNOTE:\nIn Japanese, thirst is expressed as a throat sensation ({喉|のど}⟦が→が：00051_ga⟧⟦{渇|かわ}いた→{渇|かわ}く：10965_kawaku⟧), not a stomach or body feeling as in some other languages.",
-  "cross_references": [],
+  "notes": "{喉|のど} refers to the throat. The kanji {喉|のど} is complex, so it is frequently written in hiragana as のど.\n\nCOMMON EXPRESSIONS:\n- {喉|のど}⟦が→が：00051_ga⟧⟦{渇|かわ}く→渇く：10965_kawaku⟧: to be thirsty (literally 'throat dries')\n- {喉|のど}⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧: to have a sore throat\n- {喉|のど}⟦{飴|あめ}→飴：00687_ame⟧: throat lozenge/drop\n- {喉|のど}⟦が→が：00051_ga⟧⟦{詰|つ}まる→詰まる：02079_tsumaru⟧: to choke, to get a lump in one's throat\n- {喉|のど}⟦を→を：00422_wo⟧⟦{潤|うるお}す→潤す：08249_uruosu⟧: to wet one's throat, to have a drink\n\nPROVERB:\n⟦{喉|のど}もと→喉元：22093_nodomoto⟧⟦{過|す}ぎれば→過ぎる：01219_sugiru⟧⟦{熱|あつ}さ→熱さ：20971_atsusa⟧⟦を→を：00422_wo⟧⟦{忘|わす}れる→忘れる：00474_wasureru⟧ — 'Once past the throat, one forgets the heat.' Equivalent to 'Danger past, God forgotten.'\n\nNOTE:\nIn Japanese, thirst is expressed as a throat sensation ({喉|のど}⟦が→が：00051_ga⟧⟦{渇|かわ}いた→渇く：10965_kawaku⟧), not a stomach or body feeling as in some other languages.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00792_kubi",
+      "reading": "くび",
+      "headword": "{首|くび}",
+      "label": "neck (the outside of the same area)"
+    },
+    {
+      "type": "related",
+      "target_id": "02207_koe",
+      "reading": "こえ",
+      "headword": "{声|こえ}",
+      "label": "voice (produced in the throat)"
+    },
+    {
+      "type": "related",
+      "target_id": "10965_kawaku",
+      "reading": "かわく",
+      "headword": "{渇|かわ}く",
+      "label": "to be thirsty (喉が渇く)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:03:13Z",
-    "modified": "2026-05-13T18:23:35Z",
+    "modified": "2026-08-07T03:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

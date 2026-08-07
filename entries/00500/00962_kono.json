@@ -64,10 +64,39 @@
     }
   ],
   "notes": "この is a pre-noun demonstrative meaning 'this' - it must directly precede a noun.\n\nKO-SO-A-DO SERIES (adjectival):\n- この: this (near speaker)\n- ⟦その→その：00993_sono⟧: that (near listener)\n- ⟦あの→あの：00915_ano⟧: that (far from both)\n- ⟦どの→どの：00551_dono⟧: which?\n\nRELATED FORMS:\n- ⟦これ→これ：00963_kore⟧: this (standalone pronoun)\n- ⟦ここ→ここ：00961_koko⟧: here (place)\n- ⟦こちら→こちら：00960_kochira⟧: this way/person (polite)\n\nCOMMON EXPRESSIONS:\n- この⟦{辺|へん}→辺：00937_hen⟧: around here\n- この⟦{間|あいだ}→間：00914_aida⟧: the other day\n- この⟦{頃|ごろ}→頃：00932_goro⟧: these days, lately\n- この⟦{前|まえ}→前：02255_mae⟧: before this, last time\n\nIMPORTANT:\nこの cannot stand alone. Use ⟦これ→これ：00963_kore⟧ for 'this' without a noun.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00993_sono",
+      "reading": "その",
+      "headword": "その",
+      "label": "that (near listener)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00915_ano",
+      "reading": "あの",
+      "headword": "あの",
+      "label": "that (far from both)"
+    },
+    {
+      "type": "related",
+      "target_id": "00551_dono",
+      "reading": "どの",
+      "headword": "どの",
+      "label": "which? (the question form)"
+    },
+    {
+      "type": "related",
+      "target_id": "00963_kore",
+      "reading": "これ",
+      "headword": "これ",
+      "label": "this (standalone pronoun)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:11:50Z",
-    "modified": "2026-05-13T17:11:56Z",
+    "modified": "2026-08-07T03:17:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

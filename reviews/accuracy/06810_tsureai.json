@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:09:17Z",
+  "reviewed_at": "2026-08-07T03:24:32Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'work' is incorrect for '連れ合い' (spouse/partner).",
-      "suggestion": "Replace 'work' with 'family' or 'person'."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for '連れ合い'. It is generally considered a neutral or slightly informal term.",
-      "suggestion": "Change 'formal' to 'neutral'."
+      "concern": "The term '連れ合い' is generally considered neutral or slightly informal, not formal.",
+      "suggestion": "neutral"
     }
   ]
 }

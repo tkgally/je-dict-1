@@ -109,8 +109,8 @@
     },
     {
       "id": "00972_mune_ex10",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦が→が：00051_ga⟧⟦{笑|わら}っている→笑う：00685_warau⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧⟦と→と：00512_to⟧、⟦いつも→いつも：00599_itsumo⟧{胸|むね}⟦が→が：00051_ga⟧⟦{嬉|うれ}しく→嬉しい：00822_ureshii⟧⟦なる→なる：01970_naru⟧。⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧⟦いい→いい：00118_ii⟧⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦に→に：00314_ni⟧⟦なります→なる：01970_naru⟧。",
-      "english": "Seeing the children laugh always makes my heart happy. It truly makes me feel good.",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦が→が：00051_ga⟧⟦{笑|わら}っている→笑う：00685_warau⟧⟦の→の：09472_no⟧⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧⟦と→と：00512_to⟧、⟦いつも→いつも：00599_itsumo⟧{胸|むね}⟦が→が：00051_ga⟧⟦{温|あたた}かく→温かい：13395_atatakai⟧⟦なります→なる：01970_naru⟧。⟦{本当|ほんとう}→本当：00779_hontou⟧⟦に→に：00314_ni⟧⟦いい→いい：00118_ii⟧⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦に→に：00314_ni⟧⟦なります→なる：01970_naru⟧。",
+      "english": "Seeing the children laugh always warms my heart. It truly makes me feel good.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -118,11 +118,33 @@
       ]
     }
   ],
-  "notes": "{胸|むね} refers to both the physical chest and figuratively to one's heart/emotions.\n\nMEANINGS:\n1. Physical: chest, breast area\n2. Figurative: heart, feelings, emotions\n\nCOMMON EXPRESSIONS:\n- {胸|むね}⟦が→が：00051_ga⟧⟦{痛|いた}い→{痛|いた}い：01108_itai⟧: chest hurts / heartache\n- {胸|むね}⟦が→が：00051_ga⟧⟦いっぱい→{一杯|いっぱい}：01793_ippai⟧: heart is full (with emotion)\n- {胸|むね}⟦を→を：00422_wo⟧⟦{張|は}る→{張|は}る：12583_haru⟧: to be proud (lit. puff out chest)\n- {胸|むね}⟦が→が：00051_ga⟧⟦{熱|あつ}く→{熱|あつ}い：09888_atsui⟧⟦なる→なる：01970_naru⟧: to be moved emotionally\n- {胸|むね}⟦が→が：00051_ga⟧⟦どきどき→どきどき：05157_dokidoki⟧⟦する→する：00392_suru⟧: heart is pounding\n\nRELATED BODY PARTS:\n- ⟦{心臓|しんぞう}→{心臓|しんぞう}：03262_shinzou⟧: heart (organ)\n- ⟦{肺|はい}→{肺|はい}：12334_hai⟧: lungs\n- ⟦{背中|せなか}→{背中|せなか}：00810_senaka⟧: back",
-  "cross_references": [],
+  "notes": "{胸|むね} refers to both the physical chest and figuratively to one's heart/emotions.\n\nMEANINGS:\n1. Physical: chest, breast area\n2. Figurative: heart, feelings, emotions\n\nCOMMON EXPRESSIONS:\n- {胸|むね}⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧: chest hurts / heartache\n- {胸|むね}⟦が→が：00051_ga⟧⟦いっぱい→一杯：01793_ippai⟧: heart is full (with emotion)\n- {胸|むね}⟦を→を：00422_wo⟧⟦{張|は}る→張る：12583_haru⟧: to be proud (lit. puff out chest)\n- {胸|むね}⟦が→が：00051_ga⟧⟦{熱|あつ}く→熱い：09888_atsui⟧⟦なる→なる：01970_naru⟧: to be moved emotionally\n- {胸|むね}⟦が→が：00051_ga⟧⟦どきどき→どきどき：05157_dokidoki⟧⟦する→する：00392_suru⟧: heart is pounding\n\nRELATED BODY PARTS:\n- ⟦{心臓|しんぞう}→心臓：03262_shinzou⟧: heart (organ)\n- ⟦{肺|はい}→肺：12334_hai⟧: lungs\n- ⟦{背中|せなか}→背中：00810_senaka⟧: back",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03262_shinzou",
+      "reading": "しんぞう",
+      "headword": "{心臓|しんぞう}",
+      "label": "heart (the organ)"
+    },
+    {
+      "type": "related",
+      "target_id": "01321_kokoro",
+      "reading": "こころ",
+      "headword": "{心|こころ}",
+      "label": "heart, mind (the inner self)"
+    },
+    {
+      "type": "related",
+      "target_id": "00810_senaka",
+      "reading": "せなか",
+      "headword": "{背中|せなか}",
+      "label": "back (opposite side of the torso)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:26:59Z",
-    "modified": "2026-05-13T18:23:35Z",
+    "modified": "2026-08-07T03:17:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
