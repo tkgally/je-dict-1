@@ -1212,6 +1212,32 @@ be written down somewhere the next run will find it. What should not happen is a
 rediscovering the asymmetry. Related: [Cleanup P35](cleanup-backlog.md), and the number/date
 cluster its 2026-08-03 update describes.
 
+## Added 2026-08-07 (wiki harvest)
+
+**01385 気持ち / 02485 気持ち — refiled.** Two entries, same headword, same gloss ("feeling,
+mood"). This pair was first filed in the 2026-06-10 harvest and has now been reported again by a
+2026-08-06 polish run, which means it survived two months and at least one
+`find_merge_candidates.py` pass. It belongs with the `entry-pair-consolidation` queue item
+rather than here — the item is a *decision* the curator has not made, not a task waiting for
+someone to notice it. Adding **02586 巨大 / 25544 巨大な** to that item's list as well: it is the
+same one-word-two-entries shape, and it is also the source of a
+`check_link_baseform.py` false-positive class ([Tooling 83](tooling-backlog.md)).
+
+**Fixed in the run that found them** (recorded so a future run does not refile them):
+
+- **00897 店員** — the note linked 店長 to `07537_tenchou`, which is 転調 "modulation (in
+  music)": a live link to the wrong word, not a missing one. Corrected to `noentry` and 店長
+  added as a candidate. The class is now [Tooling 78](tooling-backlog.md) shape 1.
+- **00445 開放的 / 02627 外交的な** — the adjectival suffix 〜的 linked to `03546_teki` 敵
+  "enemy" instead of `09839_teki` 〜的. Repaired; the class is [Tooling 78](tooling-backlog.md)
+  shape 2.
+- **06809 下味** — sole `semantic: ["general"]`, retagged `["cooking","food"]`.
+- **03654 豊か** — the 採れる link had sat deferred through two `systemic-fix` batches because
+  two candidate targets (取る, `02376_toreru`) were compared against each other and neither fit.
+  The answer was a *third* entry nobody had searched for: **20862 採る**. Worth keeping as a
+  worked example — when both the declared target and the detector's proposal are wrong, the
+  answer is usually a fourth entry rather than `noentry`.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

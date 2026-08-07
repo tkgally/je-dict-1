@@ -3553,6 +3553,204 @@ both maps. The first is worth doing regardless — a stale `noentry` marker writ
 **[skill] recommendation** (this session does not modify skills): add the katakana note to
 `inline-word-links`.
 
+## 77. The accuracy reviewer's `formality` flags run at 10% — split them out or suppress them
+
+**Status**: open, measured 2026-08-07
+**Effort**: small (a paragraph in the reviewer prompt) — or zero, if §A simply stops reading them
+
+`dim: tags` carries three unrelated sub-families, and the `formality` one is noise. Measured
+across the 2026-08-05 → 2026-08-07 ledger window: **3 applied of 30 decided (10.0%)**, against
+99.4% for off-vocabulary migrations and 28.1% for in-list substitutions in the same window
+(see [Quality Metrics §14](../topics/quality-metrics.md)).
+
+Two runs found the same failure independently and described it the same way. On 26701–27000
+the reviewer ran 1 applied of 10; on 27001–27313 it ran **0 of 5** (27098 短期大学, 27170 通俗的,
+27194 積乱雲, 27208 手違い, 27232 眠りにつく), and in four of those five **the entry's own notes
+state that the word is the formal or literary term** — "the formal name for…", "the formal
+meteorological term", "commonly used in… formal apologies", "more refined than 寝る". The
+reviewer is judging register from the headword alone while holding a register description that
+contradicts it.
+
+This is the same defect shape as `check_tag_drift.py`'s formality check, which routine2.md §A
+already resolves correctly at the policy level: *apply a formality flag only when the entry's
+own notes/register description contradicts the label*. The reviewer is not being told the
+rule its adjudicator uses.
+
+**Fix, in cost order:**
+1. One line in the reviewer prompt: before flagging `formality`, read the entry's REGISTER /
+   FORMALITY section; if it describes the headword as formal, written, literary or refined, do
+   not flag.
+2. Emit `formality` findings under their own `dim` so the ledger separates them without
+   note-string heuristics — which would also make Quality Metrics §14's split a query rather
+   than a reconstruction.
+3. If (1) does not move the rate, drop the sub-dimension. At 10% it costs more adjudication
+   than it returns.
+
+Related: [75](#75-the-accuracy-reviewer-assigns-different-severities-to-the-same-defect-class) (severity is not a triage axis for `dim: tags`) — the note-family split is the axis that is.
+
+## 78. Detector: inline links that resolve, but to the wrong word
+
+**Status**: open, specified 2026-08-07
+**Effort**: small — one pass over the link corpus answers both shapes
+
+`check_link_targets.py` asks "does this ID exist?"; `check_link_baseform.py` asks "is this ID
+the base form's own entry?". A link can pass both and still send the reader to a different
+word. Three runs hit instances of it in the first week of August. Full analysis:
+[Inline Link Integrity → the two wrong-target classes](../topics/inline-link-integrity.md).
+
+**Shape 1 — reading agrees, headword does not.** 00897 店員's note linked 店長 to
+`07537_tenchou` = 転調 "modulation (in music)". Rule: for each inline link, compare the base
+form to the target entry's headword *and* reading; report where the reading matches and the
+headword does not. This is the mirror of item 59's reading test — same two fields, opposite
+sign.
+
+**Shape 2 — bound suffix linked to its free-standing homophone.** Both remaining 的 findings
+(00445 開放的, 02627 外交的な) linked the adjectival suffix 〜的 to `03546_teki` 敵 "enemy"
+instead of `09839_teki` 〜的. Rule: base form is a single kanji that also heads a `〜X` suffix
+entry, but the declared target is the free-standing noun of the same reading. The `〜` in the
+suffix entry's headword makes the pair machine-separable.
+
+Neither shape needs a judgment queue: everything required to decide is already in the two
+entries. Both were fixed by hand this month, which is the argument for the detector — nothing
+stops them being written again.
+
+## 79. `backlog-queue.json`'s `scope_estimate` has no unit
+
+**Status**: open, filed 2026-08-07
+**Effort**: trivial (one field, plus a pass over 51 items)
+
+`scope_estimate` counts entries for some items, instances for others, and distinct target
+strings for a third group. Nothing records which. Twice in one week a run has read one unit and
+reported the other as a contradiction:
+
+- `inline-link-braced-base-form` carries **36** (entries); a 2026-08-07 run measured **226**
+  (instances) and reported the item as understated. Both numbers are correct.
+- `inline-link-stale-noentry` carries **2,887**; the same population has been published as
+  7,386 (all markers), 3,809 (occurrences), 2,633 (resolving instances) and 2,351 (distinct
+  base forms) in different places.
+
+Add `scope_unit` (`entries` | `instances` | `targets`) and backfill it. The value is not
+tidiness — it is that a `systemic-fix` run sizes its batch from this field, and "226 things to
+fix" and "36 files to open" are different afternoons.
+
+## 80. `validate.yml` has no `workflow_dispatch:` escape hatch
+
+**Status**: open, filed 2026-08-07 — **preparedness, not repair**
+**Effort**: trivial (three lines of YAML)
+
+`validate.yml` triggers on `pull_request` only, so a run whose checks never appear cannot
+re-trigger them. During the 2026-08-06 outage (see
+[Content Pipeline → the 2026-08-06 CI outage](../project/content-pipeline.md)) two PRs sat with
+`total_count: 0` check runs and no way forward.
+
+Adding `workflow_dispatch:` would let a stranded run call `actions_run_trigger` with
+`ref: <its own branch>`; the resulting run attaches a check run to that branch's head SHA,
+which is the PR's head SHA, so the §7 `get_check_runs` gate would see it.
+
+File it as preparedness rather than as a fix, because the outage self-resolved after 8 h 54 m
+and the work was recovered by commit absorption, not by dispatch. The reason to build it anyway
+is that absorption only works while a *later* run is still scheduled to absorb into.
+
+## 81. The §0b stranded-PR sweep can discard `systemic-fix` work
+
+**Status**: open, filed 2026-08-06, confirmed 2026-08-07
+**Effort**: small (one predicate in the sweep description)
+
+§0b closes an open `claude/*` PR when the maximum entry ID among the entry files it touches is
+below `polishing/tasks/comprehensive/progress.txt`'s `next:`. That heuristic assumes a PR's
+entry IDs track the polish frontier. True for `polish` PRs; **false for `systemic-fix` PRs,
+which touch low IDs by nature** — the 2026-08-06 batch spanned 00445–06031, entirely below the
+6809 frontier.
+
+Two runs in a row (#3130, #3131) had to leave manual "do not sweep me" comments, and they were
+stranded by a CI outage, i.e. the sweep was most dangerous exactly when the failure it was
+cleaning up after was not the failure it assumes.
+
+**Options, in preference order:**
+1. Exempt PRs whose title starts with `routine(systemic-fix)` from the max-ID test.
+2. Require positive evidence of supersession — main already contains an equivalent change —
+   rather than inferring it from ID ordering.
+3. Gate on age (older than one run interval) rather than on entry IDs alone. Weakest: it would
+   not have protected #3130 either.
+
+## 82. `build/propose_inline_links.py` — the mechanical half of inline linking
+
+**Status**: open, prototyped and discarded 2026-08-06
+**Effort**: medium
+
+Inline linking is the dominant cost of the polish frontier (see item 72 and
+[Cleanup P43](cleanup-backlog.md)). A 2026-08-06 polish run wrote a throwaway proposer —
+tokenize `{kanji|furigana}` markup, greedy longest-match against `build/word_id_lookup.json`,
+emit `id` + gloss candidates for human adjudication — and reported that it "cut the per-entry
+cost of full link coverage on 15-example entries by a large factor". Then it threw it away.
+
+The split is the point: **matching is mechanical, and only conjugated-form base lookup and
+homograph choice need judgment.** A proposer that emits candidates and refuses to write them
+keeps the judgment where it belongs while removing the typing.
+
+Known gaps in the prototype, to fix in the real one:
+- No inflection handling — `{描|えが}かれた` splits wrong.
+- Should skip ASCII runs in notes.
+- Should consult `by_headword` as well as `by_reading` (item 76): the katakana vocabulary is
+  invisible to a `by_reading`-first lookup, which is how spurious `noentry` markers get written.
+
+## 83. `check_link_baseform.py`: accept na-adjective normalization
+
+**Status**: open, filed 2026-08-06
+**Effort**: trivial (strip a trailing な before the headword-identity test)
+
+Base `巨大な` → entry `巨大` is the same accepted relationship as base `参加する` → entry `参加`,
+which the script already normalizes. Without the な rule it reports a whole false-positive class
+as disagreements. Cheap, and it shrinks the residue the judgment tail has to read.
+
+## Updates 2026-08-07 to existing items
+
+**Item 24 (retire or gate the furigana screener) — the cost case closes.** A fourth
+consecutive run stopped the screening pass early and skipped the deep pass under §A step 2:
+on 27001–27313 the screener covered **~14 entries in the time `review_accuracy.py` covered
+~150**, roughly 10× slower per entry, which is not what a "cheap bulk" pass is for. Its single
+flag was a textbook okurigana-split false positive **that the model itself annotated
+"technically not an error"**. The ledger window puts it at 1 applied of 24 (**4.2%**), a
+second consecutive window at exactly one true positive. The precision argument has been settled
+in the screener's favour for a month — it is not broken, it is low-yield — so the whole case
+now rests on cost, and the cost is measured twice: ~8 entries/min vs ~50, and a paying pass
+that falls short in the same run because the screener consumed the wall clock. Item 12's
+observation that `RATE_LIMIT_INTERVAL = 6.0` caps it near 7 entries/min is the mechanism.
+**Recommendation unchanged and now four-times-evidenced**: gate it to entries never previously
+screened, or retire it in favour of the free non-hiragana lint.
+
+**Item 46 (pre-scan the free detectors before paying the reviewer) — the reviewer turns out to
+be the migration-map generator the 2026-08-06 measurement said could not exist.** That
+measurement concluded that a frequency-ranked `TAG_MIGRATION` map decapitates the P20 queue but
+cannot finish it (55 more head mappings reach 40.6%; 249 names needed for 82%). The 2026-08-07
+accuracy-review adds the complement: on 27001–27313, off-vocabulary tags were **the entire
+applicable yield — 34 of 39 applied tag fixes** — and *the reviewer itself supplied an
+unambiguous in-list destination for every one* (`places`/`place`→5, `medical`→3, `people`→3,
+`location`→3, `conflict`→3, `fashion`→2, `body`→3, plus singletons). The two results are
+compatible and jointly decisive: a static map cannot cover the 687-name tail because it must
+choose a destination per *name*, whereas the reviewer chooses one per *entry* and therefore
+never has to generalise. **Extending `TAG_MIGRATION` beyond the mechanical 78 names is the
+wrong lever**; the accuracy-review lane already resolves the tail at 99.4% precision and $0.5
+per 1,000 entries. The pre-scan item survives unchanged — detect exhaustively for free, then
+let the paid reviewer supply destinations.
+
+**Item 73 (screening records parse failures as flags) — now quantified.** ~4% of screened
+entries return a bare `"Parse failure"` concern (5 of 124 in 26701–26866, 2026-08-06). These
+are unparsed model responses, not entry defects, and they land in `reviews/screening/*.json` as
+`flagged: true`, inflating the apparent flag rate — which matters because the screener's flag
+rate is the number item 24's retirement argument is measured against. Log the raw response and
+retry once before recording a flag.
+
+**Item 6 / Cleanup P13 (sole-`general` tags) — the lane is settled even though the instrument
+was refuted.** The 2026-08-06 measurement closed the gloss-keyword suggester as structurally
+mis-aimed. The 2026-08-07 evidence says the work is being done anyway by a different route:
+**44 sole-`general` entries were corrected to specific in-list tags in a single accuracy-review
+block** (26701–27000), most of them suru-verbs and technical compound nouns from one creation
+batch. The reviewer's `tags` dimension detects this class reliably because it judges the
+*headword*, not the gloss's surrounding prose — precisely the property the refuted suggester
+lacked. **P13 needs no sweep and no detector; it needs the accuracy-review lane to keep
+running.**
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address

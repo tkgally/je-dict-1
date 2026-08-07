@@ -1,6 +1,6 @@
 # Vocabulary Tier System
 
-**Last updated**: 2026-06-11
+**Last updated**: 2026-08-07 (added the two open headword-scope questions — person names, and number+counter compounds)
 
 ## Overview
 
@@ -16,7 +16,7 @@ Foundational survival vocabulary. Words a learner needs from day one: numbers, c
 
 Essential vocabulary for functioning as an adult in Japanese society. Covers everyday topics: work, shopping, health, transportation, weather, food. A learner who knows all basic + core words can handle most daily situations. This tier is also frozen.
 
-### General (26,150 entries, growing)
+### General (27,461 entries, growing)
 
 All other vocabulary. Ranges from common words that just missed the core cutoff to specialized terms, literary vocabulary, and technical language. All new entries are added to this tier.
 
@@ -62,6 +62,38 @@ A systematic reassessment is planned:
 
 Until reassessment is complete, the tiers remain closed to new additions — all new entries continue to go in the general tier.
 
+## Two open headword-scope questions (2026-08-07)
+
+Neither of these is a tier question — both are prior to tiering, because they ask whether a
+string is a headword at all. Both surfaced because consecutive `new-entries` runs made
+*different* decisions about the same class, which is the signal that the rule is missing rather
+than merely unwritten. Both are routed to the curator.
+
+**1. Are person names in scope?** `candidate_words.json` contains proper-noun person names —
+C22806 夏目漱石, harvested from entry 06801. The dictionary already has place names (東京,
+富士山), so proper nouns as a category are not excluded; but there are no biographical
+headwords, and a biographical entry needs a different shape (dates, significance, works) than
+the entry schema currently expresses. The 2026-08-06 `new-entries` run skipped the candidate
+rather than guess. Until the curator answers, such candidates will accumulate and be skipped
+individually by every run that meets them.
+
+**2. When is a number+counter compound entry-worthy?** Two consecutive runs disagreed. The
+2026-08-06 run skipped C22795 三十人 as "purely compositional"; the 2026-08-07 run created it,
+on the evidence that 10978 三人, 28475 十人 and 10985 百人 are all existing entries — i.e. the
+dictionary's own practice already contradicted the "compositional" reasoning. The 08-07
+decision is the consistent one, but consistency reached by inspecting neighbours is expensive
+and will not survive the next run that does not think to look.
+
+The rule that would settle it, and that both runs would have applied the same way:
+**a number+counter combination is entry-worthy when the counter's reading changes in that
+combination (三人 さんにん, 十人 じゅうにん, 一杯 いっぱい) or when the combination is a common
+round figure.** Purely regular combinations (三十人 さんじゅうにん) are compositional by that
+test — which would have meant *skipping* C22795, the opposite of what was decided, so writing
+the rule down is a real decision and not a rationalisation of current practice.
+
+**[skill] recommendation** (wiki sessions do not modify skills): the rule belongs in
+`find-candidates` or `vocabulary-tiers`, whichever the curator prefers as the gate.
+
 ## Future considerations
 
 - Should the general tier have sub-bands (e.g., "common general" vs. "specialized")?
@@ -72,6 +104,7 @@ Until reassessment is complete, the tiers remain closed to new additions — all
 
 - [Project Overview](overview.md)
 - [Corpus Linguistics](../research/corpus-linguistics.md)
+- [Dictionary Growth](../ideas/dictionary-growth.md)
 - [Vocabulary Acquisition](../research/vocabulary-acquisition.md)
 - [Controlled Defining Vocabulary](../research/controlled-defining-vocabulary.md) — the monolingual-dictionary tradition that the tier system parallels
 - [Vocabulary Size and Text Coverage](../research/vocabulary-size-coverage.md) — how the tier system maps to research on lexical thresholds

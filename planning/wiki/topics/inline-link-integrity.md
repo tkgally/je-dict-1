@@ -1,6 +1,8 @@
 # Inline Link Integrity
 
-**Last updated**: 2026-08-02
+**Last updated**: 2026-08-07 (measured the braced-base-form class, which turned out to be
+36 entries and 226 instances — one small cohort, not a sweep — and added the two
+*wrong-target* classes that three runs surfaced in the first week of August)
 
 ## Overview
 
@@ -25,7 +27,7 @@ are batch-ready from the four that are not.
 | Class | Scope | Nature | Where filed |
 |---|---|---|---|
 | Dead `target_id` (points at no entry) | 292 → gated | Defect | [Cleanup P27](../ideas/cleanup-backlog.md#priority-27-dead-inline-link-target-ids), CI ratchet |
-| Base form written with furigana braces | 36 | Defect, provably safe | [Cleanup P24](../ideas/cleanup-backlog.md#priority-24-inline-link-base-forms-written-with-furigana-braces) |
+| Base form written with furigana braces | **36 entries / 226 instances** | Defect, provably safe | [Cleanup P24](../ideas/cleanup-backlog.md#priority-24-inline-link-base-forms-written-with-furigana-braces) |
 | Base form written in kana, not dictionary form | 3,567 | Cosmetic/lookup | [Cleanup P32](../ideas/cleanup-backlog.md#priority-32-inline-link-base-forms-written-in-kana-instead-of-the-dictionary-form) |
 | Target disagrees with the base form (homophone substitution) | 405 → 318 | Defect, per-entry | `link-target-baseform-disagreement` |
 | **Stale `noentry` markers** | **3,809** (2,887 unique-target; 447 never correct) | **Defect, batch-ready** | [Cleanup P35](../ideas/cleanup-backlog.md) *(new, this page's measurement)* |
@@ -239,6 +241,74 @@ are right:
 All four are skill-level conventions, which a `wiki` run may not write. They are recorded here and
 routed to the curator as one decision rather than four, because they share a single cause: **the
 link rule was written for words, and the corpus contains Japanese that is not a word.**
+
+## Braced base forms: 226 instances, but only 36 files — measured 2026-08-07
+
+A 2026-08-07 polish run reported "inline-link base forms are sometimes furigana-braced
+(`→{痛|いた}い：01108_itai`) where the convention is plain kanji; **220 occurrences repo-wide**",
+and proposed a bulk `systemic-fix` item with a one-line regex. The queue item
+(`inline-link-braced-base-form`) had carried `scope_estimate: 36` since it was filed. The two
+numbers looked like a contradiction and were reported as one.
+
+They are not. **The measurement is 226 instances across 36 entries** — the queue's field counts
+files and the observation counted occurrences, and both were right. But the ratio is the part
+that matters, because it changes what the item *is*:
+
+- **6.3 braced base forms per affected entry.** This is not a thin defect scattered over the
+  corpus; it is a handful of files where the convention was applied wrongly and then applied
+  wrongly again on every link in the file.
+- **33 of the 36 entries sit below ID 01000**, and they cluster tighter than that: 00697–00716
+  (the numerals and counters — 一, 二, 人, 枚, 個, 中, 時, 歳) and 00966–00984. One authoring
+  cohort, one habit, one afternoon.
+- The remaining three are singletons at 01xxx, 04xxx and 09xxx.
+
+So the honest description is **not** "a 226-occurrence dictionary-wide sweep" but "**36 files,
+one basic-tier cohort, one regex**" — which is a single bounded batch well inside one
+`systemic-fix` run, and which needs no sampling strategy, no priority ordering, and no cursor.
+It is also genuinely provably safe in the sense P24 claims: the `entry_id` is what resolves the
+link, and the base form is display-adjacent text, so stripping `{…|…}` to the kanji cannot
+change what the link points at. The one caution is that the affected entries are basic tier,
+so the resulting diff is on the dictionary's most-read pages and should be spot-checked in the
+rendered output rather than only in JSON.
+
+**The generalisable point is about the queue's own schema.** `backlog-queue.json`'s
+`scope_estimate` has no unit. Some items count entries, some count instances, some count
+distinct target strings — and this is the second time in a week that a run has read one unit
+and reported the other as a discrepancy (the stale-`noentry` item carries 2,887 for a
+population that has also been described as 7,386, 3,809 and 2,633 depending on what is being
+counted). The fix is one field, not a convention: `scope_unit`. Filed as
+[Tooling 79](../ideas/tooling-backlog.md).
+
+## The two *wrong-target* classes — where the link resolves but points at the wrong word
+
+`check_link_targets.py` asks "does this ID exist?" and `check_link_baseform.py` asks "is this
+ID the base form's own entry?". Both pass on a link whose ID exists and whose base form
+matches *some* entry — which leaves a class where the link is live, renders normally, and
+sends the reader to a different word. Three runs found instances of it in the first week of
+August, and they fall into two shapes with different detection stories.
+
+**Shape 1 — the homophone that isn't the word.** 00897 店員's note linked 店長 to
+`07537_tenchou`, which is 転調 "modulation (in music)". The reading matches (てんちょう); the
+headword does not. This is mechanically detectable and the check is a one-liner: for every
+inline link, compare the base form against the target entry's headword *and* reading, and
+report where the reading agrees but the headword does not. It is the mirror image of
+[Tooling 59](../ideas/tooling-backlog.md#59-check_link_baseformpy-should-suppress-proposals-that-change-the-reading)'s reading test — that test suppresses proposals that change the reading, and this one
+promotes disagreements that keep it. Both read the same two fields.
+
+**Shape 2 — the bound suffix linked to its free-standing homophone.** A 2026-08-06
+`systemic-fix` batch found both remaining 的 cases (00445 開放的, 02627 外交的な) linking the
+adjectival suffix 〜的 to `03546_teki` 敵 "enemy" rather than to `09839_teki` 〜的. The same
+shape repaired 〜社/者 and 〜軒/件 in an earlier batch, but those were suffix-vs-noun confusions
+in the *surface*; here the base form genuinely is the suffix and the target genuinely is a
+free-standing noun that shares its reading. The detection rule is narrower and fully
+deterministic: **a link whose base form is a single kanji that also heads a `〜X` suffix entry,
+but whose declared target is the free-standing noun of the same reading.** The `〜` prefix in
+the suffix entry's headword is what makes the pair machine-separable.
+
+Both shapes share the property that makes them worth building: the evidence needed to decide
+them is already in the two entries, so there is no judgment queue and no curator step. They
+are filed together as [Tooling 78](../ideas/tooling-backlog.md), because one pass over the link
+corpus answers both.
 
 ## Why these keep being rediscovered
 
