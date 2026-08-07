@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06810_tsureai_ex1",
-      "japanese": "{連|つ}れ{合|あ}いと{旅行|りょこう}に{行|い}ってきた。",
+      "japanese": "{連|つ}れ{合|あ}い⟦と→と：00512_to⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}ってきた→行く：00119_iku⟧。",
       "english": "I went on a trip with my spouse.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06810_tsureai_ex2",
-      "japanese": "{長年|ながねん}の{連|つ}れ{合|あ}いを{亡|な}くした。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧{連|つ}れ{合|あ}い⟦を→を：00422_wo⟧⟦{亡|な}くした→亡くす：noentry⟧。",
       "english": "They lost their spouse of many years.",
       "sense_numbers": [
         1
@@ -30,43 +30,54 @@
     },
     {
       "id": "06810_tsureai_ex3",
-      "japanese": "お{連|つ}れ{合|あ}いはお{元気|げんき}ですか。",
+      "japanese": "お{連|つ}れ{合|あ}い⟦は→は：00079_ha⟧お⟦{元気|げんき}→元気：00696_genki⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "How is your spouse doing?",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "ETYMOLOGY: From {連|つ}れ{合|あ}う 'to accompany each other.' Literally 'companion.'\n\nREGISTER: Slightly formal and respectful. Often used when referring to someone else's spouse with お{連|つ}れ{合|あ}い.\n\nNUANCE: A warm, traditional term that emphasizes the companionship aspect of marriage. Gender-neutral, making it useful when the speaker doesn't want to specify husband or wife.\n\nCONTRAST WITH OTHER TERMS:\n・{夫|おっと} / {妻|つま} - formal for own spouse (documents, etc.)\n・{旦那|だんな} / {奥|おく}さん - common colloquial terms\n・{主人|しゅじん} / {家内|かない} - traditional, becoming less common\n・パートナー - modern, gender-neutral loanword",
+  "notes": "ETYMOLOGY: From ⟦{連|つ}れ{合|あ}う→連れ合う：noentry⟧ 'to accompany each other.' Literally 'companion.'\n\nREGISTER: Neutral and somewhat old-fashioned — favoured by older speakers about their own spouse. It becomes respectful with the honorific prefix お: お{連|つ}れ{合|あ}い is a polite way to refer to someone else's spouse. For the strictly formal, documentary term, see ⟦{配偶者|はいぐうしゃ}→配偶者：07430_haiguusha⟧.\n\nNUANCE: A warm, traditional term that emphasizes the companionship aspect of marriage. Gender-neutral, making it useful when the speaker doesn't want to specify husband or wife.\n\nCONTRAST WITH OTHER TERMS:\n・⟦{夫|おっと}→夫：00982_otto⟧ / ⟦{妻|つま}→妻：01005_tsuma⟧ — formal for own spouse (documents, etc.)\n・⟦{旦那|だんな}→旦那：12330_danna⟧ / ⟦{奥|おく}さん→奥さん：02853_okusan⟧ — common colloquial terms\n・⟦{主人|しゅじん}→主人：00987_shujin⟧ / ⟦{家内|かない}→家内：00958_kanai⟧ — traditional, becoming less common\n・⟦パートナー→パートナー：11287_paatonaa⟧ — modern, gender-neutral loanword",
   "cross_references": [
     {
       "type": "related",
+      "target_id": "01005_tsuma",
       "reading": "つま",
       "headword": "{妻|つま}",
-      "label": "wife",
-      "target_id": "01005_tsuma"
+      "label": "wife"
     },
     {
       "type": "related",
+      "target_id": "00982_otto",
       "reading": "おっと",
       "headword": "{夫|おっと}",
-      "label": "husband",
-      "target_id": "00982_otto"
+      "label": "husband"
+    },
+    {
+      "type": "synonym",
+      "target_id": "11287_paatonaa",
+      "reading": "ぱーとなー",
+      "headword": "パートナー",
+      "label": "partner (modern gender-neutral term)"
+    },
+    {
+      "type": "related",
+      "target_id": "07430_haiguusha",
+      "reading": "はいぐうしゃ",
+      "headword": "{配偶者|はいぐうしゃ}",
+      "label": "spouse (formal, legal/documentary term)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T07:17:46Z",
-    "modified": "2026-06-28T12:19:44Z",
+    "modified": "2026-08-07T03:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
-      "domain": [
-        "colloquial"
-      ],
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "family"

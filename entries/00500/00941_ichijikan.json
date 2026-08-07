@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{一時間|いちじかん} means \"one hour\" of duration.\n\nCOUNTING HOURS:\n⟦{時間|じかん}→時間：00468_jikan⟧ is the counter for hours of duration:\n- {一時間|いちじかん}: one hour\n- ⟦{二時間|にじかん}→二時間：noentry⟧: two hours\n- ⟦{三時間|さんじかん}→三時間：noentry⟧: three hours\n- ⟦{何時間|なんじかん}→何時間：noentry⟧: how many hours?\n\nCONTRAST WITH TIME:\n- ⟦{時間|じかん}→時間：00468_jikan⟧: duration (how long)\n- ⟦{時|じ}→時：09869_ji⟧: time of day (o'clock)\n\nExample: {一時間|いちじかん}⟦{待|ま}った→待つ：00469_matsu⟧ (waited one hour) vs. ⟦{一時|いちじ}→一時：01799_ichiji⟧⟦に→に：00314_ni⟧⟦{会|あ}う→会う：00482_au⟧ (meet at one o'clock)\n\nCOMMON EXPRESSIONS:\n- {一時間|いちじかん}⟦かかる→かかる：00711_kakaru⟧: to take one hour\n- ⟦{一時間|いちじかん}{半|はん}→一時間半：16688_ichijikanhan⟧: one and a half hours",
-  "cross_references": [],
+  "notes": "{一時間|いちじかん} means \"one hour\" of duration.\n\nCOUNTING HOURS:\n⟦{時間|じかん}→時間：00468_jikan⟧ is the counter for hours of duration:\n- {一時間|いちじかん}: one hour\n- ⟦{二時間|にじかん}→二時間：27637_nijikan⟧: two hours\n- ⟦{三時間|さんじかん}→三時間：noentry⟧: three hours\n- ⟦{何時間|なんじかん}→何時間：30372_nanjikan⟧: how many hours?\n\nCONTRAST WITH TIME:\n- ⟦{時間|じかん}→時間：00468_jikan⟧: duration (how long)\n- ⟦{時|じ}→時：09869_ji⟧: time of day (o'clock)\n\nExample: {一時間|いちじかん}⟦{待|ま}った→待つ：00469_matsu⟧ (waited one hour) vs. ⟦{一時|いちじ}→一時：01799_ichiji⟧⟦に→に：00314_ni⟧⟦{会|あ}う→会う：00482_au⟧ (meet at one o'clock)\n\nCOMMON EXPRESSIONS:\n- {一時間|いちじかん}⟦かかる→かかる：00711_kakaru⟧: to take one hour\n- ⟦{一時間|いちじかん}{半|はん}→一時間半：16688_ichijikanhan⟧: one and a half hours",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00468_jikan",
+      "reading": "じかん",
+      "headword": "{時間|じかん}",
+      "label": "the counter for hours of duration"
+    },
+    {
+      "type": "related",
+      "target_id": "27637_nijikan",
+      "reading": "にじかん",
+      "headword": "{二時間|にじかん}",
+      "label": "two hours"
+    },
+    {
+      "type": "related",
+      "target_id": "16688_ichijikanhan",
+      "reading": "いちじかんはん",
+      "headword": "{一時間半|いちじかんはん}",
+      "label": "one and a half hours"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01799_ichiji",
+      "reading": "いちじ",
+      "headword": "{一時|いちじ}",
+      "label": "one o'clock (time of day, not duration)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:10:25Z",
-    "modified": "2026-05-13T15:16:20Z",
+    "modified": "2026-08-07T03:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{半時間|はんじかん} means 'half an hour' (30 minutes) - a common duration expression.\n\nALTERNATIVE:\n⟦{三十|さんじゅっ}{分|ぷん}→三十分：09672_sanjuppun⟧/⟦{三十|さんじゅう}→三十：00984_sanjuu⟧⟦{分間|ふんかん}→分間：noentry⟧ (30 minutes) can also be used.\n\nTELLING TIME:\nFor 'half past' the hour, use ～⟦{時|じ}→時：09869_ji⟧⟦{半|はん}→半：10460_han⟧:\n- ⟦{三時|さんじ}→三時：10983_sanji⟧⟦{半|はん}→半：10460_han⟧: 3:30\n- {八時|はちじ}⟦{半|はん}→半：10460_han⟧: 8:30\n\nCOMMON EXPRESSIONS:\n- {半時間|はんじかん}⟦{後|ご}→後：09580_ato⟧/⟦{後|あと}→後：09580_ato⟧: in half an hour\n- {半時間|はんじかん}⟦ぐらい→ぐらい：02900_gurai⟧: about half an hour\n- {半時間|はんじかん}⟦{待|ま}つ→待つ：00469_matsu⟧: to wait half an hour\n\nDURATION PATTERN:\nX⟦{時間|じかん}→時間：00468_jikan⟧⟦{半|はん}→半：10460_han⟧: X and a half hours\n- ⟦{一時間|いちじかん}→一時間：00941_ichijikan⟧⟦{半|はん}→半：10460_han⟧: 1.5 hours\n- ⟦{二時間|にじかん}→二時間：noentry⟧⟦{半|はん}→半：10460_han⟧: 2.5 hours\n\nRELATED:\n- ⟦{半|はん}→半：10460_han⟧: half\n- ⟦{時間|じかん}→時間：00468_jikan⟧: hour, time",
-  "cross_references": [],
+  "notes": "{半時間|はんじかん} means 'half an hour' (30 minutes) - a common duration expression.\n\nALTERNATIVE:\n⟦{三十|さんじゅっ}{分|ぷん}→三十分：09672_sanjuppun⟧/⟦{三十|さんじゅう}→三十：00984_sanjuu⟧⟦{分間|ふんかん}→分間：noentry⟧ (30 minutes) can also be used.\n\nTELLING TIME:\nFor 'half past' the hour, use ～⟦{時|じ}→時：09869_ji⟧⟦{半|はん}→半：10460_han⟧:\n- ⟦{三時|さんじ}→三時：10983_sanji⟧⟦{半|はん}→半：10460_han⟧: 3:30\n- {八時|はちじ}⟦{半|はん}→半：10460_han⟧: 8:30\n\nCOMMON EXPRESSIONS:\n- {半時間|はんじかん}⟦{後|ご}→後：09580_ato⟧/⟦{後|あと}→後：09580_ato⟧: in half an hour\n- {半時間|はんじかん}⟦ぐらい→ぐらい：02900_gurai⟧: about half an hour\n- {半時間|はんじかん}⟦{待|ま}つ→待つ：00469_matsu⟧: to wait half an hour\n\nDURATION PATTERN:\nX⟦{時間|じかん}→時間：00468_jikan⟧⟦{半|はん}→半：10460_han⟧: X and a half hours\n- ⟦{一時間|いちじかん}→一時間：00941_ichijikan⟧⟦{半|はん}→半：10460_han⟧: 1.5 hours\n- ⟦{二時間|にじかん}→二時間：27637_nijikan⟧⟦{半|はん}→半：10460_han⟧: 2.5 hours\n\nRELATED:\n- ⟦{半|はん}→半：10460_han⟧: half\n- ⟦{時間|じかん}→時間：00468_jikan⟧: hour, time",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "09672_sanjuppun",
+      "reading": "さんじゅっぷん",
+      "headword": "{三十分|さんじゅっぷん}",
+      "label": "thirty minutes (the numeric equivalent)"
+    },
+    {
+      "type": "related",
+      "target_id": "00468_jikan",
+      "reading": "じかん",
+      "headword": "{時間|じかん}",
+      "label": "hour, time"
+    },
+    {
+      "type": "related",
+      "target_id": "10460_han",
+      "reading": "はん",
+      "headword": "{半|はん}",
+      "label": "half"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:23:01Z",
-    "modified": "2026-05-13T15:16:20Z",
+    "modified": "2026-08-07T03:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

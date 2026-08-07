@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "レストラン refers to restaurants, typically Western-style or formal dining establishments.\n\nETYMOLOGY:\nFrom French/English 'restaurant.'\n\nTYPES OF EATING ESTABLISHMENTS:\n- レストラン: restaurant (usually Western-style)\n- ⟦ファミレス→ファミレス：11141_famiresu⟧: family restaurant (casual chain)\n- ⟦{料理屋|りょうりや}→料理屋：noentry⟧: Japanese restaurant (traditional)\n- ⟦{食堂|しょくどう}→食堂：01054_shokudou⟧: cafeteria, dining hall\n- ⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧: Japanese pub\n\nCOMMON EXPRESSIONS:\n- レストラン⟦で→で：00502_de⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦する→する：00392_suru⟧: to dine at a restaurant\n- レストラン⟦を→を：00422_wo⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦する→する：00392_suru⟧: to reserve a restaurant\n- レストラン⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for a restaurant\n\nRELATED:\n- ⟦メニュー→メニュー：11166_menyuu⟧: menu\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧: order\n- ⟦{会計|かいけい}→会計：02536_kaikei⟧: bill, check",
-  "cross_references": [],
+  "notes": "レストラン refers to restaurants, typically Western-style or formal dining establishments.\n\nETYMOLOGY:\nFrom French/English 'restaurant.'\n\nTYPES OF EATING ESTABLISHMENTS:\n- レストラン: restaurant (usually Western-style)\n- ⟦ファミレス→ファミレス：11141_famiresu⟧: family restaurant (casual chain)\n- ⟦{料理屋|りょうりや}→料理屋：27551_ryouriya⟧: Japanese restaurant (traditional)\n- ⟦{食堂|しょくどう}→食堂：01054_shokudou⟧: cafeteria, dining hall\n- ⟦{居酒屋|いざかや}→居酒屋：09635_izakaya⟧: Japanese pub\n\nCOMMON EXPRESSIONS:\n- レストラン⟦で→で：00502_de⟧⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦する→する：00392_suru⟧: to dine at a restaurant\n- レストラン⟦を→を：00422_wo⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦する→する：00392_suru⟧: to reserve a restaurant\n- レストラン⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧: to look for a restaurant\n\nRELATED:\n- ⟦メニュー→メニュー：11166_menyuu⟧: menu\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧: order\n- ⟦{会計|かいけい}→会計：02536_kaikei⟧: bill, check",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01054_shokudou",
+      "reading": "しょくどう",
+      "headword": "{食堂|しょくどう}",
+      "label": "cafeteria, dining hall (plainer)"
+    },
+    {
+      "type": "related",
+      "target_id": "09635_izakaya",
+      "reading": "いざかや",
+      "headword": "{居酒屋|いざかや}",
+      "label": "izakaya, Japanese pub"
+    },
+    {
+      "type": "related",
+      "target_id": "11141_famiresu",
+      "reading": "ふぁみれす",
+      "headword": "ファミレス",
+      "label": "family restaurant (casual chain)"
+    },
+    {
+      "type": "related",
+      "target_id": "01079_kissaten",
+      "reading": "きっさてん",
+      "headword": "{喫茶店|きっさてん}",
+      "label": "coffee shop"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:04:47Z",
-    "modified": "2026-05-13T21:13:25Z",
+    "modified": "2026-08-07T03:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
