@@ -1,0 +1,24 @@
+{
+  "entry_id": "30484_tsureau",
+  "headword": "{連|つ}れ{合|あ}う",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T18:28:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword is marked as 'formal', but the explanation states it is 'dated, literary', which is a different register. 'Formal' implies current usage in formal contexts, while 'dated, literary' suggests it's not commonly used in contemporary speech or writing, even formal.",
+      "suggestion": "Change 'formal' to 'literary' or 'dated'."
+    }
+  ]
+}

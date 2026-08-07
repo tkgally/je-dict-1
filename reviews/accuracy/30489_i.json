@@ -1,0 +1,24 @@
+{
+  "entry_id": "30489_i",
+  "headword": "{意|い}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-07T18:28:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '意' is not inherently formal. While it appears in formal set phrases, the word itself is neutral.",
+      "suggestion": "neutral"
+    }
+  ]
+}
