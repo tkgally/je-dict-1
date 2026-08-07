@@ -128,11 +128,33 @@
       ]
     }
   ],
-  "notes": "{気持ち|きもち} refers to feelings, sensations, or emotional states.\n\nSENSE 1 - PHYSICAL SENSATION:\n- {気持ち|きもち}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: feels good, pleasant\n- {気持ち|きもち}⟦{悪|わる}い→悪い：00908_warui⟧: feels bad, disgusting, creepy\n- {気持ち|きもち}⟦よく→よく：00601_yoku⟧⟦{眠|ねむ}る→眠る：01181_nemuru⟧: to sleep comfortably\n\nSENSE 2 - EMOTIONS/MOOD:\n- {気持ち|きもち}⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧: to convey feelings\n- {気持ち|きもち}⟦が→が：00051_ga⟧⟦{分|わ}かる→分かる：00463_wakaru⟧: to understand someone's feelings\n- {気持ち|きもち}⟦が→が：00051_ga⟧⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧: to calm down\n- {気持ち|きもち}⟦を→を：00422_wo⟧⟦{込|こ}める→込める：01945_komeru⟧: to put one's heart into\n\nCOMMON EXPRESSIONS:\n- お{気持ち|きもち}: your feelings/sentiment (polite)\n- {気持ち|きもち}⟦だけ→〜だけ：03093_dake⟧: just the thought (declining a gift politely)\n- {気持ち|きもち}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧: a matter of feelings/attitude",
-  "cross_references": [],
+  "notes": "{気持ち|きもち} refers to feelings, sensations, or emotional states.\n\nSENSE 1 - PHYSICAL SENSATION:\n- {気持ち|きもち}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧: feels good, pleasant\n- {気持ち|きもち}⟦{悪|わる}い→悪い：00908_warui⟧: feels bad, disgusting, creepy\n- {気持ち|きもち}⟦よく→よく：00601_yoku⟧⟦{眠|ねむ}る→眠る：01181_nemuru⟧: to sleep comfortably\n\nSENSE 2 - EMOTIONS/MOOD:\n- {気持ち|きもち}⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧: to convey feelings\n- {気持ち|きもち}⟦が→が：00051_ga⟧⟦{分|わ}かる→分かる：00463_wakaru⟧: to understand someone's feelings\n- {気持ち|きもち}⟦が→が：00051_ga⟧⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧: to calm down\n- {気持ち|きもち}⟦を→を：00422_wo⟧⟦{込|こ}める→込める：01945_komeru⟧: to put one's heart into\n\nCOMMON EXPRESSIONS:\n- お{気持ち|きもち}: your feelings/sentiment (polite)\n- {気持ち|きもち}⟦だけ→〜だけ：03093_dake⟧: just the thought (declining a gift politely)\n- {気持ち|きもち}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧: a matter of feelings/attitude\n\nCONTRAST WITH {気分|きぶん}:\nBoth translate as \"feeling\" or \"mood,\" but they differ in what they point at.\n- {気持ち|きもち} is directed at something: a sensation caused by a stimulus, or an emotion held toward a person or situation. ⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{気持ち|きもち} = his feelings (toward someone or something).\n- ⟦{気分|きぶん}→気分：01306_kibun⟧ is a general state you are in, with no particular object. ⟦{気分|きぶん}→気分：01306_kibun⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧ = I feel unwell (my own condition), while {気持ち|きもち}⟦{悪|わる}い→悪い：00908_warui⟧ usually means something is disgusting or creepy.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01306_kibun",
+      "reading": "きぶん",
+      "headword": "{気分|きぶん}",
+      "label": "mood, general state"
+    },
+    {
+      "type": "related",
+      "target_id": "09583_kimochiii",
+      "reading": "きもちいい",
+      "headword": "{気持|きも}ちいい",
+      "label": "feels good"
+    },
+    {
+      "type": "related",
+      "target_id": "01321_kokoro",
+      "reading": "こころ",
+      "headword": "{心|こころ}",
+      "label": "heart, mind"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:11:01Z",
-    "modified": "2026-05-15T14:08:18Z",
+    "modified": "2026-08-07T12:48:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

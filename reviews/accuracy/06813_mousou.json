@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:09:20Z",
+  "reviewed_at": "2026-08-07T12:59:37Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "Semantic tags are completely wrong for the headword '妄想' (delusion, fantasy).",
-      "suggestion": "Replace 'building', 'electronics', 'geography' with 'cognition', 'emotion', 'action'."
+      "concern": "The tag 'emotion' is incorrect for the headword '妄想'. While delusions or fantasies can evoke emotions, the word itself describes a cognitive state or process, not an emotion.",
+      "suggestion": "Remove 'emotion'."
     }
   ]
 }

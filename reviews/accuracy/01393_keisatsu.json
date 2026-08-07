@@ -2,23 +2,15 @@
   "entry_id": "01393_keisatsu",
   "headword": "{警察|けいさつ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:48:20Z",
+  "reviewed_at": "2026-08-07T12:59:29Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'building' is incorrect for '警察' (police). While police stations are buildings, '警察' primarily refers to the organization or the people, not the physical structure itself.",
-      "suggestion": "Replace 'building' with 'occupation' or 'general'."
-    }
-  ]
+  "issues": []
 }

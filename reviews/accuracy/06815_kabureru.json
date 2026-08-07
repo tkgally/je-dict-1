@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:09:23Z",
+  "reviewed_at": "2026-08-07T12:59:44Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'leisure' is inappropriate for the headword 'かぶれる'.",
-      "suggestion": "Remove 'leisure'. The word's meanings (getting a rash, being influenced) do not directly relate to leisure activities."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'body-part' is inappropriate for the headword 'かぶれる'.",
-      "suggestion": "Remove 'body-part'. While one sense relates to a rash on the body, the word itself is a verb describing an action/state, not a body part."
+      "concern": "The headword has two distinct meanings, only one of which is covered by the 'health' tag.",
+      "suggestion": "Add 'cognition' or 'emotion' to cover the second sense of being influenced/infatuated."
     }
   ]
 }

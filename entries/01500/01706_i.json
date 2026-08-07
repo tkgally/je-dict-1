@@ -64,10 +64,32 @@
     }
   ],
   "notes": "{胃|い} refers specifically to the stomach organ.\n\nCOMMON PATTERNS:\n- {胃|い}⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧ (stomach hurts)\n- {胃|い}⟦の→の：09472_no⟧⟦{調子|ちょうし}→調子：03491_choushi⟧ (stomach condition)\n- {胃|い}⟦に→に：00314_ni⟧⟦{優|やさ}しい→優しい：02640_yasashii⟧ (gentle on the stomach)\n\nCOMPOUND WORDS:\n- ⟦{胃腸|いちょう}→胃腸：15503_ichou⟧: stomach and intestines, digestive system\n- {胃|い}⟦カメラ→カメラ：04417_kamera⟧: gastroscope\n- {胃|い}⟦がん→癌：02629_gan⟧/⟦{胃癌|いがん}→胃癌：noentry⟧: stomach cancer\n- ⟦{胃薬|いぐすり}→胃薬：26782_igusuri⟧: stomach medicine\n\nNOTE:\n- {胃|い}: the organ (medical/anatomical)\n- ⟦お{腹|なか}→お腹：00805_onaka⟧: belly, tummy (general/conversational)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00805_onaka",
+      "reading": "おなか",
+      "headword": "お{腹|なか}",
+      "label": "belly (conversational)"
+    },
+    {
+      "type": "related",
+      "target_id": "15503_ichou",
+      "reading": "いちょう",
+      "headword": "{胃腸|いちょう}",
+      "label": "digestive system"
+    },
+    {
+      "type": "related",
+      "target_id": "26782_igusuri",
+      "reading": "いぐすり",
+      "headword": "{胃薬|いぐすり}",
+      "label": "stomach medicine"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T19:11:35Z",
+    "modified": "2026-08-07T12:48:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

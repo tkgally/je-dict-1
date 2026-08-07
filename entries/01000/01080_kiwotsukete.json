@@ -64,17 +64,32 @@
     }
   ],
   "notes": "{気|き}をつけて is a common expression meaning \"take care\" or \"be careful.\" It's the te-form of ⟦{気|き}をつける→気をつける：09771_kiwotsukeru⟧ (to pay attention, be careful).\n\nFORMALITY:\n- {気|き}をつけて: casual\n- {気|き}をつけて⟦ね→ね：09474_ne⟧: casual with softening particle\n- {気|き}をつけて⟦ください→ください：02899_kudasai⟧: polite\n- お{気|き}をつけて: honorific/polite\n\nUSES:\n\n1. FAREWELL (when someone is leaving):\n- {気|き}をつけて⟦{行|い}ってきて→行ってきます：01029_ittekimasu⟧⟦ね→ね：09474_ne⟧: Take care on your way\n- {気|き}をつけて⟦{帰|かえ}って→帰る：00508_kaeru⟧⟦ね→ね：09474_ne⟧: Get home safely\n\n2. WARNING (about specific dangers):\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦に→に：00314_ni⟧{気|き}をつけて: Watch out for cars\n- ⟦{足元|あしもと}→足元：04096_ashimoto⟧⟦に→に：00314_ni⟧{気|き}をつけて: Watch your step\n- ⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧{気|き}をつけて: Take care of your health\n\n3. GENERAL CAUTION:\n- ⟦{夜道|よみち}→夜道：17541_yomichi⟧⟦は→は：00079_ha⟧{気|き}をつけて: Be careful on dark streets at night\n\nBASE VERB:\n⟦{気|き}をつける→気をつける：09771_kiwotsukeru⟧ can also mean:\n- to be careful/mindful: ⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦に→に：00314_ni⟧⟦{気|き}をつける→気をつける：09771_kiwotsukeru⟧ (to be careful with one's words)\n- military command: ⟦{気|き}をつけ→気をつける：09771_kiwotsukeru⟧！(Attention!)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09771_kiwotsukeru",
+      "reading": "きをつける",
+      "headword": "{気|き}をつける",
+      "label": "base verb"
+    },
+    {
+      "type": "related",
+      "target_id": "01029_ittekimasu",
+      "reading": "いってきます",
+      "headword": "{行|い}ってきます",
+      "label": "farewell pair"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:23:34Z",
-    "modified": "2026-05-13T22:08:57Z",
+    "modified": "2026-08-07T12:48:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "expression"
       ],
-      "politeness": "polite",
+      "politeness": "plain",
       "formality": "neutral",
       "semantic": [
         "expression"
