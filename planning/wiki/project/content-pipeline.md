@@ -1,6 +1,7 @@
 # Content Pipeline
 
-**Last updated**: 2026-06-10
+**Last updated**: 2026-08-07 (added the CI-outage incident record and the recovery
+procedure that actually worked)
 
 ## Overview
 
@@ -114,6 +115,55 @@ Every stage has validation:
 - **Furigana check** — `find_missing_furigana.py` catches unmarked kanji
 - **Duplicate check** — `check_duplicate.py` prevents duplicate entries
 - **CI** — GitHub Actions runs validation on every push
+
+### The 2026-08-06 CI outage — an incident record, and what actually recovered it
+
+On 2026-08-06 a `systemic-fix` run reported that "GitHub Actions has dispatched no workflow
+run repo-wide since 2026-08-06 15:50 UTC" and that "three consecutive Routine runs have now
+been unable to reach the §7 CI gate". Two PRs (#3130, #3131) were left open with
+`total_count: 0` check runs and hand-written "do not sweep me" comments. The proposed fix was
+to add `workflow_dispatch:` to `validate.yml`'s `on:` block so a stranded run could
+re-trigger its own checks.
+
+The 2026-08-07 wiki run measured it against the workflow-run history rather than filing it,
+and all three parts of the picture changed:
+
+**The outage was real and is bounded.** `Validate Entries` runs form an almost perfectly
+regular series — one per Routine run, ~2.5–3.5 h apart, 30 of the last 30 concluding
+`success`. There is exactly one gap in it: **2026-08-06T15:43Z → 2026-08-07T00:37Z, 8 h 54 m**,
+about three scheduled slots. The `total_count: 0` observation is the strong evidence, because
+a PR that exists with zero check runs cannot be explained by "no PR was opened".
+
+**The outage is over.** Three consecutive `Validate Entries` runs since the gap (00:37, 03:28,
+06:36 on 2026-08-07) all completed `success`, alongside the usual push-triggered `Update
+Brief` and `Queue Reviews` on main. Whatever it was, it was on GitHub's side and it
+self-resolved; nothing in the repository was changed to fix it.
+
+**No work was lost, and the thing that saved it is not written down anywhere.** #3130 and
+#3131 never merged as themselves — main's history goes #3129 → #3132 — but their content is
+on main: `build/check_link_baseform.py` is present, and both 的 repairs the batch made
+(00445 開放的, 02627 外交的な) now point at `09839_teki`. The next run **fetched the stranded
+branch and absorbed its commits into its own branch**, so the work rode in under #3132 and
+got CI coverage there. That is the recovery procedure, it is proven, and it should be the
+documented response to a stranded PR whose checks never appear:
+
+> When a PR has `total_count: 0` check runs and the head branch is not the branch you are on,
+> merge that branch into your own before pushing. Its commits get CI coverage under your PR
+> and reach main; the stranded PR can then be closed as superseded truthfully rather than
+> heuristically.
+
+The `workflow_dispatch:` proposal survives, but as **preparedness, not repair**. Dispatched
+against the PR's head branch it would attach a check run to the PR's head SHA, so
+`get_check_runs` would see it — the escape hatch works. It is worth adding because the next
+outage will look the same and commit absorption only works while a *later* run is still
+scheduled. It is filed as [Tooling 80](../ideas/tooling-backlog.md), not as an emergency.
+
+One further consequence for the §0b stranded-PR sweep: during the gap, two runs had to leave
+manual "do not sweep me" comments because the sweep's rule — close a `claude/*` PR when the
+maximum entry ID it touches is below the comprehensive frontier — misfires on `systemic-fix`
+work, which touches low IDs by nature (#3130 spanned 00445–06031, all below the 6809
+frontier). A sweep that fires during an outage can therefore discard exactly the work the
+outage stranded. See [Tooling 81](../ideas/tooling-backlog.md).
 
 ## Session workflow
 

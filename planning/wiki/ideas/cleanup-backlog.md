@@ -2795,6 +2795,119 @@ the above-frontier cases it cannot see are
 [Tooling 57](tooling-backlog.md#57-check_semantic_clusterspy-has-no-closed-paradigm-symmetry-rule)'s
 closed-paradigm problem.
 
+## Priority 43: The 06800–07100 block is 96% unlinked — a bounded batch, not a frontier problem
+
+**Scope**: 288 of 301 entries (**96%**) have zero inline word links in examples or notes
+**Status**: open, batch-ready
+**Filed**: 2026-08-06 (measured); the underlying band has now been reported by fifteen runs
+
+The 06000–07999 zero-link band is the most-refiled observation in the project — traced
+continuously from ~06150 to 06798 with no exception found by any run — and the standing wiki
+position has been that it is *not* a defect: zero-link entries are the polish frontier, and
+[the informational item below](#informational-entries-with-zero-inline-links-23294-are-the-polish-frontier-not-a-defect)
+says so at length. That position is still right about the 23,294 entries as a whole. It is
+wrong about this block, for one measured reason.
+
+**The frontier crawls through it at roughly one-fifth normal speed.** These are largely
+grammar-expression and advanced-vocabulary entries created in one batch on 2026-01-18 (として,
+にとって, に伴い, DM, プライバシー, 運休 …), and a comprehensive-polish run that meets them
+spends its entire entry budget writing links from scratch instead of polishing. Runs
+immediately below the block (06802–06808) and immediately above it, polished more recently,
+are fully linked — so the block is not a frontier position, it is a **wall the frontier is
+grinding through at a cost the frontier cadence was not sized for**.
+
+That is what makes it a batch rather than a backlog entry. The work is the same work either
+way; doing it as a dedicated `systemic-fix` sweep over 06800–07100 removes it from the
+critical path of every polish run for the next several weeks, and it is exactly the workload
+[Tooling 82](tooling-backlog.md)'s link proposer was prototyped against — the run that wrote
+the prototype reported it cut per-entry cost on 15-example entries "by a large factor".
+
+**Sequencing note**: run [Tooling 78](tooling-backlog.md)'s wrong-target detector and the
+[P35](#priority-35-stale-noentry-inline-links--3797-markers-now-resolve-2887-mechanically)
+stale-`noentry` resolution *before* the sweep, not after. Writing 288 entries' worth of new
+links against a lookup that answers katakana from `by_headword` only
+([Tooling 76](tooling-backlog.md#76-word_id_lookupjson-answers-katakana-lookups-from-by_headword-only))
+is how a fresh cohort of spurious `noentry` markers gets created — and a `noentry` written
+today is a P35 item tomorrow.
+
+## Priority 44: Naked sentence-final です/だ in the 00700–00900 basic block
+
+**Scope**: not yet counted (reported across the 00700–00900 basic-tier band)
+**Status**: needs-detector
+**Filed**: 2026-08-06
+
+Entries in this band link every particle and content word in their examples but leave the
+sentence-final copula bare — inconsistently with their own notes, which discuss です/だ as a
+form worth knowing. The pattern is mechanical to detect (a sentence-final です/だ/でした/だった
+outside any `⟦…⟧` span, in an entry that has links elsewhere) and mechanical to fix.
+
+Two cautions before it is swept:
+
+- It needs a count first. "The 00700–00900 block" is a report from one run's working range,
+  and the band's neighbours were the subject of two other measurements this week that both
+  came back concentrated in one authoring cohort rather than spread across the tier.
+- Whether the sentence-final copula *should* be linked at all is a convention question, not
+  a defect finding — the same shape as the `Xする` label convention and the `ている`-has-no-entry
+  question already filed as informational items. If the answer is "yes", this is a sweep; if
+  "no", the inconsistency is in the entries that *do* link it.
+
+## Updates 2026-08-07 (wiki harvest)
+
+**P20 (off-vocabulary semantic tags) — the density series now has five points and is falling.**
+Per-block off-vocabulary density measured by consecutive accuracy-review sweeps:
+53% (23908–24500) → 41% (24501–25100) → 33% (25601–26200) → **28%** (26701–27000, 92 tags
+across 83 entries) → the 27001–27313 block, where off-vocabulary tags were **the entire
+applicable yield: 34 of 39 applied tag fixes** (`places`/`place` 5, `medical` 3, `people` 3,
+`location` 3, `conflict` 3, `body` 3, `fashion` 2, plus singletons). Two consequences. First,
+the falling density is the mechanical cause of the `tags` dimension's apparent precision
+decline — see [Quality Metrics §14](../topics/quality-metrics.md), which retires the blended
+number. Second, a new sub-slice: **counter entries carry the same drift** (27625 二回 tagged
+`time`, which is not in `VALID_SEMANTIC`; `time-general` is). A `check_tag_drift.py` sweep
+restricted to `pos: counter` would size that family cheaply, and counters are enumerable, so
+disagreement within the family cannot be a false positive — the P38 argument.
+
+**P24 (braced inline-link base forms) — measured, and it is one cohort.** **226 instances
+across 36 entries**, 6.3 per affected entry, with **33 of the 36 below ID 01000** and most of
+those in two tight runs: 00697–00716 (numerals and counters — 一, 二, 人, 枚, 個, 中, 時, 歳)
+and 00966–00984. So this is not a 226-occurrence dictionary-wide sweep; it is **36 files, one
+basic-tier authoring cohort, one regex**, comfortably inside a single `systemic-fix` run. The
+transformation is provably safe (the `entry_id` resolves the link; the base form is
+display-adjacent), but the diff lands on the dictionary's most-read pages, so spot-check the
+rendered output rather than only the JSON. Full analysis:
+[Inline Link Integrity](../topics/inline-link-integrity.md).
+
+**P35 (stale `noentry` markers) — the whole-corpus scan, and the half that must not be
+touched.** A 2026-08-07 scan against `build/word_id_lookup.json` found **7,386 `noentry`
+markers total**, of which **2,633 instances across 2,351 distinct multi-character base forms
+now resolve to a real entry**. Hand-confirmed in the same run: 二時間→27637, 何時間→30372,
+お願いいたします→27603, 料理屋→27551; and by a second run: リスト→09786,
+ネットショッピング→29757, 釣り銭→27568, 佐藤→27597, 便数→30234, 粉薬→27515, 三階→27617,
+一万→27599, 千万→28267. **The exclusion is the important part**: a further 403 instances on 189
+*single-character* bases must **not** be bulk-fixed — they are mostly bound morphemes inside
+compounds (業, 形, 角), where the marker is correct and the "resolving" entry is a different
+word. Restrict any detector to multi-character bases. This is now the highest-yield mechanical
+item on this page and it **grows with every new-entries run**, which is the argument for
+building the detector rather than sweeping by hand.
+
+**P42 (neighbours named in notes prose but absent from `cross_references`) — 8 of 8 again, and
+a prioritization gap.** A 2026-08-06 priority lane hit the shape in **all eight** entries it
+processed (00832, 00849, 00853, 00878, 00879, 00884, 00893, 00897) and a 2026-08-07 lane hit it
+in all eight of its own — following 6-of-6 on 2026-08-04. In every case the cross-references
+could be lifted straight out of the existing notes. The new datum is *why they keep
+resurfacing*: **the `notes` priority score cannot see this defect**, because the notes are
+good — that is the whole point of the item. Proposal, and it is cheap: add a
+"notes name neighbours but `cross_references` is empty" signal to
+`prioritize_polishing.py`, or to `check_consistency.py`. Without it the priority lane will keep
+rediscovering the same population one run at a time.
+
+**P13 (sole-`general`) — no sweep needed.** 44 entries in one block (26701–27000) were
+corrected to specific in-list tags by the accuracy-review lane, mostly suru-verbs and technical
+compound nouns from one creation batch. Combined with the 2026-08-06 refutation of the
+gloss-keyword suggester, the position is now settled: **P13 is tractable through the
+accuracy-review lane and needs no instrument of its own.** One local confirmation from a polish
+run: 06809 下味 carried sole `["general"]`, retagged `["cooking","food"]` — and the rest of the
+06800–06900 block, created in the same 2026-01-18 batch as [P43](#priority-43-the-0680007100-block-is-96-unlinked--a-bounded-batch-not-a-frontier-problem), likely shares the default.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns
