@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02234_namae_ex1",
-      "japanese": "お{名前|なまえ}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧です⟦か→か：09473_ka⟧。",
+      "japanese": "お{名前|なまえ}⟦は→は：00079_ha⟧⟦{何|なん}→何〜：03100_nan⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "What is your name?",
       "notes": null,
       "has_audio": false,
@@ -64,23 +64,49 @@
     }
   ],
   "notes": "{名前|なまえ} is the general word for name.\n\nWORD FORMATION:\n⟦{名|な}→名：03496_na⟧ (name) + ⟦{前|まえ}→前：02255_mae⟧ (front) – literally \"the front name.\"\n\nJAPANESE NAME ORDER:\nFamily name (⟦{名字|みょうじ}→苗字：14012_myouji⟧/⟦{苗字|みょうじ}→苗字：14012_myouji⟧) comes before given name (⟦{下|した}→下：00670_shita⟧⟦の→の：09472_no⟧{名前|なまえ}).\n\nCOMMON EXPRESSIONS:\n- お{名前|なまえ}⟦は→は：00079_ha⟧?: What is your name? (polite)\n- {名前|なまえ}⟦を→を：00422_wo⟧⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧: to call someone's name\n- {名前|なまえ}⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧: to remember a name\n- {名前|なまえ}⟦を→を：00422_wo⟧⟦{付|つ}ける→つける：00562_tsukeru⟧: to give a name\n- {名前|なまえ}⟦{負|ま}け→負け：02569_make⟧: not living up to one's name\n\nNAME-RELATED VOCABULARY:\n- ⟦{名字|みょうじ}→苗字：14012_myouji⟧/⟦{苗字|みょうじ}→苗字：14012_myouji⟧: surname, family name\n- ⟦{下|した}→下：00670_shita⟧⟦の→の：09472_no⟧{名前|なまえ}: first name, given name\n- ⟦{本名|ほんみょう}→本名：13034_honmyou⟧: real name\n- ⟦{偽名|ぎめい}→偽名：18259_gimei⟧: false name\n- ⟦{名札|なふだ}→名札：12338_nafuda⟧: name tag\n- ⟦{名刺|めいし}→名刺：01090_meishi⟧: business card\n\nRELATED: ⟦{名|な}→名：03496_na⟧ is the shorter literary form for \"name.\"",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14012_myouji",
+      "reading": "みょうじ",
+      "headword": "{苗字|みょうじ}",
+      "label": "family name"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03496_na",
+      "reading": "な",
+      "headword": "{名|な}",
+      "label": "name (literary)"
+    },
+    {
+      "type": "related",
+      "target_id": "13034_honmyou",
+      "reading": "ほんみょう",
+      "headword": "{本名|ほんみょう}",
+      "label": "real name"
+    },
+    {
+      "type": "related",
+      "target_id": "01090_meishi",
+      "reading": "めいし",
+      "headword": "{名刺|めいし}",
+      "label": "business card"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:17:01Z",
-    "modified": "2026-05-18T21:14:20Z",
+    "modified": "2026-08-07T21:19:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "noun"
       ],
-      "domain": [
-        "business"
-      ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "language"
       ]
     }
   }
