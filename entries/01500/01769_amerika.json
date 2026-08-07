@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "In everyday Japanese, アメリカ almost always refers to the United States. To refer to the continents, specify ⟦{北|きた}アメリカ→北アメリカ：26752_kitaamerika⟧ or ⟦{南|みなみ}アメリカ→南アメリカ：26753_minamiamerika⟧.\n\nFORMAL NAMES:\n- アメリカ⟦{合衆国|がっしゅうこく}→合衆国：noentry⟧: United States of America (official)\n- ⟦{米国|べいこく}→米国：19596_beikoku⟧: USA (formal, used in news and writing)\n\nTHE AMERICAS:\n- ⟦{北|きた}アメリカ→北アメリカ：26752_kitaamerika⟧: North America\n- ⟦{南|みなみ}アメリカ→南アメリカ：26753_minamiamerika⟧: South America\n- ⟦{中央|ちゅうおう}アメリカ→中央アメリカ：noentry⟧: Central America\n\nCOMMON COMPOUNDS WITH {米|べい}:\n- {米|べい}⟦{軍|ぐん}→軍：02677_gun⟧: US military\n- ⟦{日|にち}{米|べい}→日米：13092_nichibei⟧: Japan-US (relations)\n- {米|べい}⟦ドル→ドル：01554_doru⟧: US dollar\n- ⟦{渡|と}{米|べい}→渡米：14811_tobei⟧: going to America\n\nDERIVED:\n- アメリカ⟦{人|じん}→〜人：09849_jin⟧: American person\n- アメリカ⟦{製|せい}→〜製：02001_sei⟧: made in America",
-  "cross_references": [],
+  "notes": "In everyday Japanese, アメリカ almost always refers to the United States. To refer to the continents, specify ⟦{北|きた}アメリカ→北アメリカ：26752_kitaamerika⟧ or ⟦{南|みなみ}アメリカ→南アメリカ：26753_minamiamerika⟧.\n\nFORMAL NAMES:\n- アメリカ⟦{合衆国|がっしゅうこく}→合衆国：noentry⟧: United States of America (official)\n- ⟦{米国|べいこく}→米国：19596_beikoku⟧: USA (formal, used in news and writing)\n\nTHE AMERICAS:\n- ⟦{北|きた}アメリカ→北アメリカ：26752_kitaamerika⟧: North America\n- ⟦{南|みなみ}アメリカ→南アメリカ：26753_minamiamerika⟧: South America\n- ⟦{中央|ちゅうおう}アメリカ→中央アメリカ：27742_chuuouamerika⟧: Central America\n\nCOMMON COMPOUNDS WITH ⟦{米|べい}→米：28297_bei⟧:\n- ⟦{米|べい}→米：28297_bei⟧⟦{軍|ぐん}→軍：02677_gun⟧: US military\n- ⟦{日|にち}{米|べい}→日米：13092_nichibei⟧: Japan-US (relations)\n- ⟦{米|べい}→米：28297_bei⟧⟦ドル→ドル：01554_doru⟧: US dollar\n- ⟦{渡|と}{米|べい}→渡米：14811_tobei⟧: going to America\n\nDERIVED:\n- アメリカ⟦{人|じん}→〜人：09849_jin⟧: American person\n- アメリカ⟦{製|せい}→〜製：02001_sei⟧: made in America",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "19596_beikoku",
+      "reading": "べいこく",
+      "headword": "{米国|べいこく}",
+      "label": "formal"
+    },
+    {
+      "type": "related",
+      "target_id": "26752_kitaamerika",
+      "reading": "きたあめりか",
+      "headword": "{北|きた}アメリカ",
+      "label": "North America"
+    },
+    {
+      "type": "related",
+      "target_id": "26753_minamiamerika",
+      "reading": "みなみあめりか",
+      "headword": "{南|みなみ}アメリカ",
+      "label": "South America"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:57:54Z",
-    "modified": "2026-05-16T22:11:50Z",
+    "modified": "2026-08-07T21:19:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

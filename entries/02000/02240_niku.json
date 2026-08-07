@@ -70,7 +70,7 @@
     {
       "id": "02240_niku_ex6",
       "japanese": "{肉|にく}⟦が→が：00051_ga⟧⟦{落|お}ちた→落ちる：01242_ochiru⟧。",
-      "english": "I lost weight.",
+      "english": "I've lost flesh (gotten thinner).",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -90,7 +90,7 @@
     {
       "id": "02240_niku_ex8",
       "japanese": "⟦{歳|とし}→年：00486_toshi⟧⟦を→を：00422_wo⟧⟦{取|と}ると→取る：00565_toru⟧⟦{体|からだ}→体：00784_karada⟧⟦の→の：09472_no⟧{肉|にく}⟦が→が：00051_ga⟧⟦{落|お}ちやすく→落ちる：01242_ochiru⟧⟦なる→なる：01970_naru⟧。",
-      "english": "As you get older, you tend to lose weight more easily.",
+      "english": "As you get older, you tend to lose flesh from your body more easily.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -118,11 +118,47 @@
       ]
     }
   ],
-  "notes": "{肉|にく} refers to meat (for food) or flesh (body tissue).\n\nTYPES OF MEAT:\n- ⟦{牛肉|ぎゅうにく}→牛肉：02874_gyuuniku⟧: beef\n- ⟦{豚肉|ぶたにく}→豚肉：02956_butaniku⟧: pork\n- ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧/⟦{鳥肉|とりにく}→鳥肉：noentry⟧: chicken\n- ⟦{羊肉|ようにく}→羊肉：noentry⟧: lamb, mutton\n- ⟦{馬肉|ばにく}→馬肉：noentry⟧: horse meat\n\nCOMMON COMPOUNDS:\n- ⟦{焼肉|やきにく}→焼肉：04984_yakiniku⟧: grilled meat (Korean-style BBQ)\n- ⟦{肉屋|にくや}→肉屋：15233_nikuya⟧: butcher shop\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧: muscle\n- ⟦{肉料理|にくりょうり}→肉料理：19402_nikuryouri⟧: meat dishes\n- ⟦ひき{肉|にく}→挽肉：14783_hikiniku⟧: ground meat\n\nUSAGE NOTE:\nWhen used alone, {肉|にく} often defaults to beef or pork depending on context. In casual speech, people may say お{肉|にく} with the polite prefix.",
-  "cross_references": [],
+  "notes": "{肉|にく} refers to meat (for food) or flesh (body tissue).\n\nTYPES OF MEAT:\n- ⟦{牛肉|ぎゅうにく}→牛肉：02874_gyuuniku⟧: beef\n- ⟦{豚肉|ぶたにく}→豚肉：02956_butaniku⟧: pork\n- ⟦{鶏肉|とりにく}→鶏肉：02919_toriniku⟧/⟦{鳥肉|とりにく}→鳥肉：noentry⟧: chicken\n- ⟦{羊肉|ようにく}→羊肉：30426_youniku⟧: lamb, mutton\n- ⟦{馬肉|ばにく}→馬肉：30430_baniku⟧: horse meat\n\nCOMMON COMPOUNDS:\n- ⟦{焼肉|やきにく}→焼肉：04984_yakiniku⟧: grilled meat (Korean-style BBQ)\n- ⟦{肉屋|にくや}→肉屋：15233_nikuya⟧: butcher shop\n- ⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧: muscle\n- ⟦{肉料理|にくりょうり}→肉料理：19402_nikuryouri⟧: meat dishes\n- ⟦ひき{肉|にく}→挽肉：14783_hikiniku⟧: ground meat\n\nUSAGE NOTE:\nWhen used alone, {肉|にく} often defaults to beef or pork depending on context. In casual speech, people may say お{肉|にく} with the polite prefix.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02874_gyuuniku",
+      "reading": "ぎゅうにく",
+      "headword": "{牛肉|ぎゅうにく}",
+      "label": "beef"
+    },
+    {
+      "type": "related",
+      "target_id": "02956_butaniku",
+      "reading": "ぶたにく",
+      "headword": "{豚肉|ぶたにく}",
+      "label": "pork"
+    },
+    {
+      "type": "related",
+      "target_id": "02919_toriniku",
+      "reading": "とりにく",
+      "headword": "{鶏肉|とりにく}",
+      "label": "chicken"
+    },
+    {
+      "type": "related",
+      "target_id": "02646_kinniku",
+      "reading": "きんにく",
+      "headword": "{筋肉|きんにく}",
+      "label": "muscle"
+    },
+    {
+      "type": "related",
+      "target_id": "15233_nikuya",
+      "reading": "にくや",
+      "headword": "{肉屋|にくや}",
+      "label": "butcher shop"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:23:26Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-08-07T21:27:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
