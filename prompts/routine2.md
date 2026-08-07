@@ -77,6 +77,19 @@ previous run's CI-timeout strand instead of leaving it for the curator):
   below `polishing/tasks/comprehensive/progress.txt`'s `next:` value. **Do not run
   `pipeline/sweep-stranded-prs.py`** — direct GitHub REST 403s in this environment,
   so the script is a no-op here; the MCP sweep is the working safety net.
+- **Sweep orphan branches via MCP.** A run that pushes its branch but dies before
+  `create_pull_request` (e.g. the 2026-08-07 GitHub-API outage,
+  `polishing/sessions/routine_2026-08-07_005.md`) leaves work no PR-based check
+  can see. Perform the orphan-branch sweep described in `CLAUDE.md` → "Sweep
+  orphan `claude/*` branches via MCP": `mcp__github__list_branches`; for each
+  `claude/*` branch that is neither this session's branch nor an open PR's head,
+  classify it using its PR history (`mcp__github__list_pull_requests`,
+  `head: "tkgally:<branch>"`, `state: "all"`) plus the local-git absorption test
+  defined there, then (a) absorbed → append a `prune-branch` line to
+  `reviews/needs_curator.txt` (MCP cannot delete branches), (b) never-PR'd live
+  work that merges cleanly → rescue it with `mcp__github__create_pull_request`
+  so the §0a machinery owns it from now on, (c) anything else → flag it for the
+  curator. Zero orphans is the normal case; this costs one `list_branches` call.
 - **Acquire the lock:**
   ```bash
   python3 pipeline/routine_lock.py acquire --session "$(git rev-parse --abbrev-ref HEAD)"
@@ -455,6 +468,7 @@ to tune which dimensions deserve trust, consensus checks, or retirement.
 # Pre-flight
 mcp__github__list_pull_requests                         # §0a rescue check + §0b sweep source (MCP)
 # §0b sweep: for un-rescued claude/* PRs, get_files → close superseded via MCP (sweep-stranded-prs.py 403s here)
+mcp__github__list_branches                              # §0b orphan-branch sweep (CLAUDE.md → "Sweep orphan claude/* branches")
 python3 pipeline/routine_lock.py acquire --session X    # §0b lock (exit 1 = stop)
 python3 pipeline/routine_next.py                        # §1 pick mode (persists state)
 python3 pipeline/routine_next.py --explain              # why this mode (no persist)

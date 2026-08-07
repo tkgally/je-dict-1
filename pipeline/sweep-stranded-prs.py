@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Close stranded Routine PRs whose entry range is already on main.
+"""Close stranded Routine PRs and sweep orphan claude/* branches.
 
 A "stranded" PR is one created by a previous Claude Code session
 (`claude/*` head branch) that never got merged — typically because
@@ -7,7 +7,30 @@ the session ended before reaching the merge step. If a later session
 covered the same range and merged successfully, the older PR is
 obsolete. This script detects that and cleans up.
 
-Algorithm:
+An "orphan" branch is a pushed `claude/*` branch with no open PR at
+all — either its session died before create_pull_request (the
+2026-08-07 GitHub-API outage produced exactly this), or its PR was
+closed unmerged and the branch lingered (branch auto-delete only fires
+on merge). Orphans are invisible to any PR-based check, so they are
+swept separately, by content:
+
+  - "absorbed" — every durable file the branch changed is byte-identical
+    on main now, or its exact blob appeared somewhere in main's history
+    (carried over by a later run's squash-merge, evolved since). The
+    branch is a dead leftover: delete it.
+  - otherwise — the branch holds real unmerged work. Never delete it;
+    print an ACTION-REQUIRED line telling the curator to either open a
+    rescue PR for it (never-PR'd work) or make a call on it (a
+    closed-unmerged PR is a decision someone already took once).
+
+Durability is defined by the GENERATED_*/VOLATILE_* constants below:
+build artifacts are rebuilt by `make build` and per-run state files are
+superseded by every later merge, so neither blocks deletion. These
+constants are the authoritative path lists — the MCP-path instructions
+in CLAUDE.md ("Sweep orphan claude/* branches via MCP") defer to them.
+The absorption test needs a local git clone (run from the repo).
+
+Stranded-PR algorithm:
   1. Read polishing/tasks/comprehensive/progress.txt from main via API.
   2. List open PRs in the repo.
   3. For each PR whose head branch matches `claude/*`:
@@ -17,10 +40,13 @@ Algorithm:
          the PR is fully superseded — comment, close, and delete the branch.
   4. PRs that don't touch entry files, or that include any entry at or
      above the next: cursor, are left untouched.
+  5. Then the orphan-branch sweep described above.
 
 Designed to be run as the first step of a Routine session so stranded
 branches don't accumulate. Idempotent: a second run sees no stranded
-PRs left to close.
+PRs left to close. When run from inside an active session, that
+session's own not-yet-PR'd branch will show up as an orphan with live
+work — an ACTION-REQUIRED report line, never a deletion.
 
 Requires GITHUB_TOKEN and direct api.github.com access. In the Routine / web
 execution environment direct REST is blocked (HTTP 403 "GitHub access is not
@@ -44,6 +70,7 @@ import base64
 import json
 import os
 import re
+import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -155,6 +182,138 @@ def delete_branch(branch):
     gh_api(f"/git/refs/heads/{branch}", method="DELETE")
 
 
+# --- Orphan-branch sweep -----------------------------------------------------
+
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Authoritative durability lists (the MCP-path sweep in CLAUDE.md defers here).
+# Generated paths are rebuilt from source by `make build`; volatile paths are
+# per-run state or append streams that every later merge to main supersedes.
+# Everything else — entries, articles, build code and data, prompts, planning,
+# session logs, workflows, skills, root docs — is durable: a branch may only be
+# deleted when all of its durable changes are provably on main.
+GENERATED_PREFIXES = ("docs/", "kanji/")
+GENERATED_EXACT = {"entries_index.json", "build/word_id_lookup.json"}
+VOLATILE_PREFIXES = ("pipeline/logs/", "polishing/tasks/", "polishing/priority/", "reviews/")
+VOLATILE_EXACT = {
+    "candidate_words.json",
+    "polishing/observations.md",
+    "pipeline/routine-state.json",
+    "pipeline/openrouter-ledger.json",
+    "pipeline/metrics-history.jsonl",
+    "pipeline/budget.json",
+    "pipeline/task_queue.json",
+    "PROJECT_CONTEXT_BRIEF.md",
+    "PROJECT_STATUS.md",
+}
+
+
+def is_durable(path):
+    if path.startswith(GENERATED_PREFIXES) or path in GENERATED_EXACT:
+        return False
+    if path.startswith(VOLATILE_PREFIXES) or path in VOLATILE_EXACT:
+        return False
+    return True
+
+
+def _git(*args):
+    return subprocess.run(["git", *args], cwd=REPO_ROOT, capture_output=True, text=True)
+
+
+def branch_absorption(branch):
+    """Classify a branch's durable content against main.
+
+    Returns (verdict, residue): verdict is "absorbed" (safe to delete),
+    "live" (residue lists durable files whose branch content never reached
+    main), or "unverifiable" (no usable local clone — never delete).
+    """
+    if _git("rev-parse", "--is-inside-work-tree").returncode != 0:
+        return "unverifiable", []
+    if _git("fetch", "origin", "main", branch).returncode != 0:
+        return "unverifiable", []
+    ref = f"origin/{branch}"
+    mb = _git("merge-base", "origin/main", ref)
+    if mb.returncode != 0:
+        return "unverifiable", []
+    changed = _git("diff", "--name-status", mb.stdout.strip(), ref)
+    residue = []
+    for line in changed.stdout.splitlines():
+        parts = line.split("\t")
+        if len(parts) < 2:
+            continue
+        status, path = parts[0], parts[-1]
+        if not is_durable(path):
+            continue
+        if status.startswith(("D", "R")):
+            # Deletions/renames of durable files: never auto-judge.
+            residue.append(f"{path} ({status})")
+            continue
+        # Identical on main right now?
+        if _git("diff", "--quiet", "origin/main", ref, "--", path).returncode == 0:
+            continue
+        # Or did this exact blob land on main at some point (absorbed by a
+        # later run's squash, evolved further since)?
+        blob = _git("rev-parse", f"{ref}:{path}")
+        if blob.returncode == 0:
+            seen = _git("log", "-n", "1", "--format=%H",
+                        f"--find-object={blob.stdout.strip()}", "origin/main")
+            if seen.returncode == 0 and seen.stdout.strip():
+                continue
+        residue.append(path)
+    return ("absorbed" if not residue else "live"), residue
+
+
+def list_claude_branches():
+    names = []
+    page = 1
+    while True:
+        chunk = gh_api(f"/branches?per_page=100&page={page}")
+        if not chunk:
+            break
+        names.extend(b["name"] for b in chunk)
+        if len(chunk) < 100:
+            break
+        page += 1
+    return [n for n in names if n.startswith(HEAD_PREFIX)]
+
+
+def branch_pr_history(branch):
+    owner = REPO.split("/")[0]
+    return gh_api(f"/pulls?head={owner}:{branch}&state=all&per_page=10") or []
+
+
+def sweep_orphan_branches(open_prs, dry_run):
+    open_heads = {pr["head"]["ref"] for pr in open_prs}
+    orphans = [b for b in list_claude_branches() if b not in open_heads]
+    print(f"{len(orphans)} claude/* branch(es) without an open PR")
+    deleted = 0
+    for branch in orphans:
+        verdict, residue = branch_absorption(branch)
+        if verdict == "unverifiable":
+            print(f"  ?? {branch}: no usable local clone to verify absorption — leaving alone")
+            continue
+        if verdict == "absorbed":
+            print(f"  absorbed {branch}: every durable file it changed is on main — deleting")
+            if dry_run:
+                continue
+            try:
+                delete_branch(branch)
+                deleted += 1
+            except urllib.error.HTTPError as e:
+                print(f"    failed to delete {branch}: HTTP {e.code}", file=sys.stderr)
+            continue
+        shown = ", ".join(residue[:5]) + ("…" if len(residue) > 5 else "")
+        history = branch_pr_history(branch)
+        if history:
+            print(f"  ACTION-REQUIRED {branch}: durable content not on main, but PR #{history[0]['number']} "
+                  f"was already closed unmerged — that decision is the curator's to revisit. Residue: {shown}")
+        else:
+            print(f"  ACTION-REQUIRED {branch}: pushed but never had a PR, and its durable content is not "
+                  f"on main — open a rescue PR for it or delete it deliberately. Residue: {shown}")
+    print(f"deleted {deleted} absorbed orphan branch(es)")
+    return deleted
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.split("\n", 1)[0])
     parser.add_argument("--dry-run", action="store_true", help="report what would be closed without modifying anything")
@@ -195,6 +354,8 @@ def main():
         except urllib.error.HTTPError as e:
             print(f"    failed to clean up #{number}: HTTP {e.code} {e.read().decode()[:200]}", file=sys.stderr)
     print(f"closed {closed} stranded PR(s)")
+
+    sweep_orphan_branches(prs, args.dry_run)
     return 0
 
 
