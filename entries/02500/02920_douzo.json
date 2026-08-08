@@ -39,7 +39,7 @@
     },
     {
       "id": "02920_douzo_ex3",
-      "japanese": "「これ、⟦お{土産|みやげ}→お土産：01353_omiyage⟧⟦です→です：09485_desu⟧。」「どうぞ。」",
+      "japanese": "「⟦これ→これ：00963_kore⟧、⟦お{土産|みやげ}→お土産：01353_omiyage⟧⟦です→です：09485_desu⟧。」「どうぞ。」",
       "english": "\"This is a souvenir.\" \"Here you are.\"",
       "notes": null,
       "has_audio": false,
@@ -129,10 +129,39 @@
     }
   ],
   "notes": "どうぞ is a polite expression for inviting, offering, or giving permission.\n\nTWO MAIN USES:\n1. Invitation/permission: \"please go ahead\"\n2. Offering: \"here you are\"\n\nCOMMON EXPRESSIONS:\n- どうぞ⟦お{入|はい}り→入る：00494_hairu⟧⟦ください→下さい：02899_kudasai⟧: Please come in\n- どうぞ⟦お{先|さき}→先：02883_saki⟧⟦に→に：00314_ni⟧: Please go ahead (before me)\n- どうぞ⟦よろしく→よろしく：01070_yoroshiku⟧⟦お{願|ねが}いします→お願いする：05654_onegaisuru⟧: Nice to meet you / Please treat me well\n- どうぞ⟦ごゆっくり→ゆっくり：00910_yukkuri⟧: Please take your time\n- どうぞ⟦お{使|つか}い→使う：00473_tsukau⟧⟦ください→下さい：02899_kudasai⟧: Please feel free to use it\n\nCONTRAST WITH SIMILAR WORDS:\n- どうぞ: polite invitation/offer\n- ⟦どうか→どうか：09854_douka⟧: emphatic, pleading (please, I beg you)\n- ⟦ぜひ→ぜひ：00911_zehi⟧: by all means, definitely (strong recommendation)\n\nNOTE:\nWhen handing something to someone, どうぞ alone is sufficient—no verb needed.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09854_douka",
+      "reading": "どうか",
+      "headword": "どうか",
+      "label": "emphatic, pleading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00911_zehi",
+      "reading": "ぜひ",
+      "headword": "ぜひ",
+      "label": "by all means"
+    },
+    {
+      "type": "related",
+      "target_id": "02921_doumo",
+      "reading": "どうも",
+      "headword": "どうも",
+      "label": "thanks; the usual reply"
+    },
+    {
+      "type": "related",
+      "target_id": "02899_kudasai",
+      "reading": "ください",
+      "headword": "ください",
+      "label": "please (request)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-05-22T21:43:00Z",
+    "modified": "2026-08-08T06:20:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -140,7 +169,7 @@
         "adverb"
       ],
       "formality": "neutral",
-      "politeness": "plain",
+      "politeness": "polite",
       "semantic": [
         "greeting"
       ]

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06834_kaomishiri_ex1",
-      "japanese": "{彼|かれ}とは{顔見知|かおみし}り{程度|ていど}の{関係|かんけい}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦と→と：00512_to⟧⟦は→は：00079_ha⟧{顔見知|かおみし}り⟦{程度|ていど}→程度：01468_teido⟧⟦の→の：09472_no⟧⟦{関係|かんけい}→関係：01298_kankei⟧⟦だ→だ：09496_da⟧。",
       "english": "He and I are just acquaintances.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06834_kaomishiri_ex2",
-      "japanese": "{近所|きんじょ}に{顔見知|かおみし}りが{増|ふ}えてきた。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦に→に：00314_ni⟧{顔見知|かおみし}り⟦が→が：00051_ga⟧⟦{増|ふ}えてきた→増える：01183_fueru⟧。",
       "english": "I've gotten to know more people in the neighborhood by sight.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "06834_kaomishiri_ex3",
-      "japanese": "{駅|えき}で{顔見知|かおみし}りに{会|あ}って{挨拶|あいさつ}した。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{顔見知|かおみし}り⟦に→に：00314_ni⟧⟦{会|あ}って→会う：00482_au⟧⟦{挨拶|あいさつ}した→挨拶する：01797_aisatsusuru⟧。",
       "english": "I ran into an acquaintance at the station and greeted them.",
       "sense_numbers": [
         1
@@ -38,14 +38,14 @@
     },
     {
       "id": "06834_kaomishiri_ex4",
-      "japanese": "{友達|ともだち}というより{顔見知|かおみし}りだ。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦というより→というより：17867_toiuyori⟧{顔見知|かおみし}り⟦だ→だ：09496_da⟧。",
       "english": "They're more of an acquaintance than a friend.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "{顔見知|かおみし}り describes someone you recognize but don't know well.\n\nETYMOLOGY:\n{顔|かお} (face) + {見知|みし}り (from {見知|みし}る, to come to know by sight) - someone whose face you have come to know.\n\nUSAGE NOTE:\nImplies a limited relationship - you might nod or say hello when you see them, but you wouldn't socialize or share personal matters. Often used to describe neighbors, regular customers, or people from the same school/workplace you don't interact with closely.\n\nCOMMON EXPRESSIONS:\n- {顔見知|かおみし}り{程度|ていど} - just an acquaintance (emphasizes the limited nature)\n- {顔見知|かおみし}りになる - to become acquaintances\n\nSIMILAR WORDS:\n- {顔見知|かおみし}り vs. {知|し}り{合|あ}い: Similar meaning, but {顔見知|かおみし}り emphasizes recognizing by face; {知|し}り{合|あ}い can include people you know by name/reputation\n- {顔見知|かおみし}り vs. {友達|ともだち}: {顔見知|かおみし}り is more distant than {友達|ともだち}",
+  "notes": "{顔見知|かおみし}り describes someone you recognize but don't know well.\n\nETYMOLOGY:\n⟦{顔|かお}→顔：00558_kao⟧ (face) + {見知|みし}り (from ⟦{見知|みし}る→見知る：14589_mishiru⟧, to come to know by sight) - someone whose face you have come to know.\n\nUSAGE NOTE:\nImplies a limited relationship - you might nod or say hello when you see them, but you wouldn't socialize or share personal matters. Often used to describe neighbors, regular customers, or people from the same school/workplace you don't interact with closely.\n\nCOMMON EXPRESSIONS:\n- {顔見知|かおみし}り⟦{程度|ていど}→程度：01468_teido⟧ - just an acquaintance (emphasizes the limited nature)\n- {顔見知|かおみし}り⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ - to become acquaintances\n\nSIMILAR WORDS:\n- {顔見知|かおみし}り vs. ⟦{知|し}り{合|あ}い→知り合い：03253_shiriai⟧: Similar meaning, but {顔見知|かおみし}り emphasizes recognizing by face; ⟦{知|し}り{合|あ}い→知り合い：03253_shiriai⟧ can include people you know by name/reputation\n- {顔見知|かおみし}り vs. ⟦{友達|ともだち}→友達：01478_tomodachi⟧: {顔見知|かおみし}り is more distant than ⟦{友達|ともだち}→友達：01478_tomodachi⟧",
   "cross_references": [
     {
       "type": "related",
@@ -53,11 +53,25 @@
       "headword": "{知|し}り{合|あ}い",
       "label": "acquaintance",
       "target_id": "03253_shiriai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01478_tomodachi",
+      "reading": "ともだち",
+      "headword": "{友達|ともだち}",
+      "label": "friend (closer)"
+    },
+    {
+      "type": "related",
+      "target_id": "14589_mishiru",
+      "reading": "みしる",
+      "headword": "{見知|みし}る",
+      "label": "to know by sight"
     }
   ],
   "metadata": {
     "created": "2026-01-18T07:41:56Z",
-    "modified": "2026-01-19T12:17:44.725363Z",
+    "modified": "2026-08-08T06:20:01Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -66,7 +80,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "person"
       ]
     }
   }

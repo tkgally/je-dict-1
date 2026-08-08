@@ -63,11 +63,47 @@
       ]
     }
   ],
-  "notes": "もう{一度|いちど} means \"once more\" or \"one more time.\" Very common in everyday conversation.\n\nCOMPONENTS:\n- もう: another, more, again\n- {一度|いちど}: one time\n\nCOMMON PATTERNS:\n- もう{一度|いちど}⟦{言|い}って→言う：00515_iu⟧⟦ください→下さい：02899_kudasai⟧: Please say it again\n- もう{一度|いちど}⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check once more\n- もう{一度|いちど}⟦だけ→〜だけ：03093_dake⟧: just one more time\n- もう{一度|いちど}⟦{最初|さいしょ}→最初：00882_saisho⟧⟦から→から：00504_kara⟧: once more from the beginning\n\nSIMILAR EXPRESSIONS:\n- ⟦また→また：00969_mata⟧: again (general repetition)\n- ⟦もう→もう：00602_mou⟧⟦{一回|いっかい}→一回：08925_ikkai⟧: one more time (interchangeable, slightly more casual)\n- ⟦{再|ふたた}び→再び：03600_futatabi⟧: again (literary/formal)\n- ⟦{改|あらた}めて→改めて：08526_aratamete⟧: anew, afresh (starting over)\n\nNUANCE:\nもう{一度|いちど} emphasizes \"one more\" specific attempt, while ⟦また→また：00969_mata⟧ suggests general repetition without counting.",
-  "cross_references": [],
+  "notes": "もう{一度|いちど} means \"once more\" or \"one more time.\" Very common in everyday conversation.\n\nCOMPONENTS:\n- ⟦もう→もう：00602_mou⟧: another, more, again\n- ⟦{一度|いちど}→一度：01312_ichido⟧: one time\n\nCOMMON PATTERNS:\n- もう{一度|いちど}⟦{言|い}って→言う：00515_iu⟧⟦ください→下さい：02899_kudasai⟧: Please say it again\n- もう{一度|いちど}⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check once more\n- もう{一度|いちど}⟦だけ→〜だけ：03093_dake⟧: just one more time\n- もう{一度|いちど}⟦{最初|さいしょ}→最初：00882_saisho⟧⟦から→から：00504_kara⟧: once more from the beginning\n\nSIMILAR EXPRESSIONS:\n- ⟦また→また：00969_mata⟧: again (general repetition)\n- ⟦もう→もう：00602_mou⟧⟦{一回|いっかい}→一回：08925_ikkai⟧: one more time (interchangeable, slightly more casual)\n- ⟦{再|ふたた}び→再び：03600_futatabi⟧: again (literary/formal)\n- ⟦{改|あらた}めて→改めて：08526_aratamete⟧: anew, afresh (starting over)\n\nNUANCE:\nもう{一度|いちど} emphasizes \"one more\" specific attempt, while ⟦また→また：00969_mata⟧ suggests general repetition without counting.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01312_ichido",
+      "reading": "いちど",
+      "headword": "{一度|いちど}",
+      "label": "once, one time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00969_mata",
+      "reading": "また",
+      "headword": "また",
+      "label": "again (general repetition)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03600_futatabi",
+      "reading": "ふたたび",
+      "headword": "{再|ふたた}び",
+      "label": "again (literary/formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "08526_aratamete",
+      "reading": "あらためて",
+      "headword": "{改|あらた}めて",
+      "label": "anew, afresh"
+    },
+    {
+      "type": "related",
+      "target_id": "08925_ikkai",
+      "reading": "いっかい",
+      "headword": "{一回|いっかい}",
+      "label": "once (as もう一回)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-05-23T13:13:36Z",
+    "modified": "2026-08-08T06:20:01Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "basic",

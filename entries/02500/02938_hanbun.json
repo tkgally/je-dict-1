@@ -63,11 +63,47 @@
       ]
     }
   ],
-  "notes": "{半分|はんぶん} means 'half' as a noun, representing one of two equal parts.\n\nCOMPONENTS:\n- {半|はん}: half\n- {分|ぶん}: portion, part\n\nCOMMON PATTERNS:\n- {半分|はんぶん}⟦に→に：00314_ni⟧⟦{切|き}る→切る：02693_kiru⟧ (to cut in half)\n- {半分|はんぶん}⟦に→に：00314_ni⟧⟦{分|わ}ける→分ける：02333_wakeru⟧ (to divide in half)\n- {半分|はんぶん}⟦ずつ→〜ずつ：03092_zutsu⟧ (half each)\n- {半分|はんぶん}くらい (about half)\n- {半分|はんぶん}⟦も→も：00484_mo⟧⟦{残|のこ}っていない→残る：01187_nokoru⟧ (not even half remains)\n\nRELATED COMPOUNDS WITH {半|はん}:\n- ⟦{半額|はんがく}→半額：09546_hangaku⟧: half price\n- ⟦{半年|はんとし}→半年：03139_hantoshi⟧: half a year, six months\n- {半日|はんにち}: half a day\n- {半数|はんすう}: half the number\n- ⟦{半径|はんけい}→半径：04331_hankei⟧: radius (half diameter)\n- ⟦{半島|はんとう}→半島：04333_hantou⟧: peninsula (half island)\n\nCONTRAST:\n- {半分|はんぶん}: half (noun - the half portion itself)\n- {半|はん}: half (prefix - attaches to other words)\n- {二分|にぶん}の{一|いち}: one-half (fractional expression)",
-  "cross_references": [],
+  "notes": "{半分|はんぶん} means 'half' as a noun, representing one of two equal parts.\n\nCOMPONENTS:\n- ⟦{半|はん}→半：10460_han⟧: half\n- ⟦{分|ぶん}→分：26216_bun⟧: portion, part\n\nCOMMON PATTERNS:\n- {半分|はんぶん}⟦に→に：00314_ni⟧⟦{切|き}る→切る：02693_kiru⟧ (to cut in half)\n- {半分|はんぶん}⟦に→に：00314_ni⟧⟦{分|わ}ける→分ける：02333_wakeru⟧ (to divide in half)\n- {半分|はんぶん}⟦ずつ→〜ずつ：03092_zutsu⟧ (half each)\n- {半分|はんぶん}⟦くらい→ぐらい：02900_gurai⟧ (about half)\n- {半分|はんぶん}⟦も→も：00484_mo⟧⟦{残|のこ}っていない→残る：01187_nokoru⟧ (not even half remains)\n\nRELATED COMPOUNDS WITH {半|はん}:\n- ⟦{半額|はんがく}→半額：09546_hangaku⟧: half price\n- ⟦{半年|はんとし}→半年：03139_hantoshi⟧: half a year, six months\n- ⟦{半日|はんにち}→半日：27978_hannichi⟧: half a day\n- ⟦{半数|はんすう}→半数：noentry⟧: half the number\n- ⟦{半径|はんけい}→半径：04331_hankei⟧: radius (half diameter)\n- ⟦{半島|はんとう}→半島：04333_hantou⟧: peninsula (half island)\n\nCONTRAST:\n- {半分|はんぶん}: half (noun - the half portion itself)\n- ⟦{半|はん}→半：10460_han⟧: half (prefix - attaches to other words)\n- ⟦{二分|にぶん}→二分：noentry⟧⟦の→の：09472_no⟧⟦{一|いち}→一：00705_ichi⟧: one-half (fractional expression)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10460_han",
+      "reading": "はん",
+      "headword": "{半|はん}",
+      "label": "half (prefix)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "02888_zenbu",
+      "reading": "ぜんぶ",
+      "headword": "{全部|ぜんぶ}",
+      "label": "all, the whole"
+    },
+    {
+      "type": "related",
+      "target_id": "03715_bubun",
+      "reading": "ぶぶん",
+      "headword": "{部分|ぶぶん}",
+      "label": "part, portion"
+    },
+    {
+      "type": "related",
+      "target_id": "09546_hangaku",
+      "reading": "はんがく",
+      "headword": "{半額|はんがく}",
+      "label": "half price"
+    },
+    {
+      "type": "related",
+      "target_id": "03139_hantoshi",
+      "reading": "はんとし",
+      "headword": "{半年|はんとし}",
+      "label": "half a year"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-05-22T22:07:52Z",
+    "modified": "2026-08-08T06:20:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -77,7 +113,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "quantity"
       ]
     }
   }
