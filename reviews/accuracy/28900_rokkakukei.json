@@ -1,0 +1,24 @@
+{
+  "entry_id": "28900_rokkakukei",
+  "headword": "{六角形|ろっかくけい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:29:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'mathematics' is not in the valid tag list.",
+      "suggestion": "science"
+    }
+  ]
+}

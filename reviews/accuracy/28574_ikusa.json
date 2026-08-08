@@ -1,0 +1,24 @@
+{
+  "entry_id": "28574_ikusa",
+  "headword": "{戦|いくさ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:29:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'conflict' is not in the valid tag list.",
+      "suggestion": "Replace 'conflict' with 'military'."
+    }
+  ]
+}

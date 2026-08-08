@@ -1,0 +1,24 @@
+{
+  "entry_id": "28361_jun",
+  "headword": "{純|じゅん}〜",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:28:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'business' is too narrow for the headword's meaning, which also includes 'pure' and 'unmixed' in a general sense, not just financial.",
+      "suggestion": "general"
+    }
+  ]
+}

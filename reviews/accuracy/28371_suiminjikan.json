@@ -1,0 +1,24 @@
+{
+  "entry_id": "28371_suiminjikan",
+  "headword": "{睡眠時間|すいみんじかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:28:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for '睡眠時間'.",
+      "suggestion": "Replace 'time' with 'time-general'."
+    }
+  ]
+}

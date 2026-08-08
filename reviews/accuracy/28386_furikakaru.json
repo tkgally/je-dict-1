@@ -1,0 +1,24 @@
+{
+  "entry_id": "28386_furikakaru",
+  "headword": "{降|ふ}りかかる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:28:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'misfortune' is not a valid semantic tag.",
+      "suggestion": "Remove 'misfortune' or replace with a valid tag if applicable (e.g., 'emotion' if referring to the feeling, or 'general' if no specific tag fits)."
+    }
+  ]
+}

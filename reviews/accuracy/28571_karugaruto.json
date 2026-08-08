@@ -1,0 +1,24 @@
+{
+  "entry_id": "28571_karugaruto",
+  "headword": "{軽々|かるがる}と",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:29:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'manner' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "28854_zeisei",
+  "headword": "{税制|ぜいせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:28:54Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'economy' is not in the valid tag list.",
+      "suggestion": "finance"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'government' is not in the valid tag list.",
+      "suggestion": "politics"
+    }
+  ]
+}

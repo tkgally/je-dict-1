@@ -1,0 +1,24 @@
+{
+  "entry_id": "28881_owabisuru",
+  "headword": "お{詫|わ}びする",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:29:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'humble' is incorrect for 'お詫びする'. While it is a humble form, the tag 'humble' is reserved for in-group reference forms like kinship terms in this dictionary's conventions. This verb is a general humble expression.",
+      "suggestion": "plain"
+    }
+  ]
+}

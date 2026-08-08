@@ -1,0 +1,24 @@
+{
+  "entry_id": "28370_iroenpitsu",
+  "headword": "{色鉛筆|いろえんぴつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:28:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'stationery' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

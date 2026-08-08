@@ -1,0 +1,66 @@
+{
+  "entry_id": "28702_furui",
+  "headword": "ふるい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:28:57Z",
+  "summary": {
+    "flagged": 7
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword 'ふるい' (furui) means 'old' or 'outdated' as an adjective, not a 'sieve' or 'sifter' as a noun. The semantic tags 'tool' and 'cooking' are incorrect for the adjective 'ふるい'.",
+      "suggestion": "Remove 'tool' and 'cooking'. The correct semantic tags for the adjective 'ふるい' would be 'descriptive' or 'time-general' (referring to age)."
+    },
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'sieve; sifter; strainer' is incorrect. The headword 'ふるい' (furui) is an adjective meaning 'old' or 'outdated'. The noun for 'sieve' is usually 'ふるい' (furui) written with kanji 篩 or 篩い, or sometimes just in hiragana, but the provided entry is for the adjective.",
+      "suggestion": "Change the gloss to 'old; outdated; antique'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'sieve; sifter; strainer' is incorrect. The headword 'ふるい' (furui) is an adjective meaning 'old' or 'outdated'.",
+      "suggestion": "Change the gloss to 'old; outdated; antique'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].explanation",
+      "severity": "error",
+      "concern": "The explanation describes a 'sieve' or 'sifter', which is incorrect for the adjective 'ふるい' (furui) meaning 'old' or 'outdated'.",
+      "suggestion": "Change the explanation to describe the meaning of 'old' or 'outdated', e.g., 'Having existed for a long time; no longer new or fresh; belonging to an earlier period'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The Japanese sentence '小麦粉をふるいにかける。' uses 'ふるい' as a noun meaning 'sieve' (to sift flour), but the headword is presented as the adjective 'ふるい' meaning 'old'. This example is inconsistent with the headword's implied part of speech and meaning.",
+      "suggestion": "Replace with an example sentence that uses the adjective 'ふるい' (old), e.g., 'これはふるい本です。' (This is an old book.)"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The Japanese sentence 'ふるいで粉砂糖を振りかけた。' uses 'ふるい' as a noun meaning 'sieve', but the headword is presented as the adjective 'ふるい' meaning 'old'. This example is inconsistent with the headword's implied part of speech and meaning.",
+      "suggestion": "Replace with an example sentence that uses the adjective 'ふるい' (old), e.g., 'ふるい考え方を変える。' (Change old ways of thinking.)"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The Japanese sentence '細かい砂利と土を分けるために、庭でふるいを使った。' uses 'ふるい' as a noun meaning 'sieve', but the headword is presented as the adjective 'ふるい' meaning 'old'. This example is inconsistent with the headword's implied part of speech and meaning.",
+      "suggestion": "Replace with an example sentence that uses the adjective 'ふるい' (old), e.g., 'この家はふるいが、とても居心地が良い。' (This house is old, but very comfortable.)"
+    }
+  ]
+}
