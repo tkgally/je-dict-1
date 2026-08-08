@@ -1,0 +1,38 @@
+{
+  "entry_id": "28050_shinkeika",
+  "headword": "{神経科|しんけいか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:28:18Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading. While 'neurology department' is correct, 'neurology' alone is not the primary meaning of 神経科. 神経科 refers to the department or a doctor, not the field of study itself.",
+      "suggestion": "Change 'neurology department; neurology' to 'neurology department'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading. While 'neurology department' is correct, 'neurology' alone is not the primary meaning of 神経科. 神経科 refers to the department or a doctor, not the field of study itself.",
+      "suggestion": "Change 'neurology department; neurology' to 'neurology department'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The translation 'To see a neurologist' is incorrect. 神経科を受診する means 'to consult the neurology department' or 'to be examined at the neurology department', not specifically to see a neurologist (though that is implied). The Japanese refers to the department, not the person.",
+      "suggestion": "Change 'To see a neurologist.' to 'To consult the neurology department.' or 'To be examined at the neurology department.'"
+    }
+  ]
+}

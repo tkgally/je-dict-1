@@ -1,0 +1,31 @@
+{
+  "entry_id": "28095_momo",
+  "headword": "もも",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:22:54Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading by including 'leg (cut of meat)'. While 'もも' can refer to the thigh as a cut of meat, it does not mean 'leg' in general, even as a cut of meat. The 'leg' cut of meat is typically '脚 (ashi)' or 'レッグ (regu)'.",
+      "suggestion": "Change 'thigh; leg (cut of meat)' to 'thigh; thigh (cut of meat)' or simply 'thigh'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'thigh meat' is misleading. While 'もも' can refer to the thigh as a cut of meat, it doesn't mean 'thigh meat' as a standalone term. It's 'もも肉 (momoniku)' for 'thigh meat'.",
+      "suggestion": "Change 'thigh; upper leg; thigh meat' to 'thigh; upper leg; thigh (cut of meat)'."
+    }
+  ]
+}

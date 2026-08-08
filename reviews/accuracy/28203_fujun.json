@@ -1,0 +1,24 @@
+{
+  "entry_id": "28203_fujun",
+  "headword": "{不順|ふじゅん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:24:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'weather' is too narrow for the headword's meaning, which also applies to bodily cycles.",
+      "suggestion": "Add 'health' and 'general' to the semantic tags."
+    }
+  ]
+}

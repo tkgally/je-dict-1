@@ -1,0 +1,24 @@
+{
+  "entry_id": "27883_wazurau",
+  "headword": "患う",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:19:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'action' is too general and doesn't capture the specific meaning of '患う'.",
+      "suggestion": "health"
+    }
+  ]
+}

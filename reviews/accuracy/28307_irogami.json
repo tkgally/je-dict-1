@@ -1,0 +1,31 @@
+{
+  "entry_id": "28307_irogami",
+  "headword": "{色紙|いろがみ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:26:33Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'object' is not in the valid tag list.",
+      "suggestion": "tool"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'crafts' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

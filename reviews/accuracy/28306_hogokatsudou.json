@@ -1,0 +1,24 @@
+{
+  "entry_id": "28306_hogokatsudou",
+  "headword": "{保護活動|ほごかつどう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:26:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'environment' is not in the valid tag list.",
+      "suggestion": "nature"
+    }
+  ]
+}

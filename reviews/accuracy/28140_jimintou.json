@@ -1,0 +1,24 @@
+{
+  "entry_id": "28140_jimintou",
+  "headword": "{自民党|じみんとう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:23:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'organization' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

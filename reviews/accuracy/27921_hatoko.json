@@ -1,0 +1,31 @@
+{
+  "entry_id": "27921_hatoko",
+  "headword": "はとこ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:19:54Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading. A second cousin is not necessarily the child of a parent's cousin. It is the child of one's grandparent's sibling's child, or the grandchild of one's grandparent's sibling.",
+      "suggestion": "second cousin"
+    },
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading. A second cousin is not necessarily the child of a parent's cousin. It is the child of one's grandparent's sibling's child, or the grandchild of one's grandparent's sibling.",
+      "suggestion": "second cousin"
+    }
+  ]
+}

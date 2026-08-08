@@ -1,0 +1,24 @@
+{
+  "entry_id": "28146_mannen",
+  "headword": "{万年|まんねん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:23:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and doesn't capture the nuance of 'perpetual' or 'forever stuck in one state' as described in the gloss and explanation.",
+      "suggestion": "change to 'time-general'"
+    }
+  ]
+}

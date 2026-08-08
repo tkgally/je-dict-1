@@ -1,0 +1,24 @@
+{
+  "entry_id": "28346_sen",
+  "headword": "〜{戦|せん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:27:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'sports' is too narrow for the headword's meaning, which encompasses various types of competitions beyond just sports.",
+      "suggestion": "Replace 'sports' with 'general' or 'competition' (if 'competition' were a valid tag, but it's not, so 'general' is the best fit from the list)."
+    }
+  ]
+}
