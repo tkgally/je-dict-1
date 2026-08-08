@@ -1,0 +1,24 @@
+{
+  "entry_id": "28527_meishu",
+  "headword": "{名手|めいしゅ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:28:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'people'",
+      "suggestion": "person"
+    }
+  ]
+}

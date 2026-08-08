@@ -1,0 +1,24 @@
+{
+  "entry_id": "28655_kousoudate",
+  "headword": "{高層建|こうそうだ}て",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:37:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'high-rise construction' is misleading. The word refers to the building itself, not the act of construction.",
+      "suggestion": "high-rise building; multi-story building"
+    }
+  ]
+}

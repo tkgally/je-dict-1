@@ -1,0 +1,24 @@
+{
+  "entry_id": "28614_gendaiteki",
+  "headword": "{現代的|げんだいてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:29:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is not appropriate for '現代的'. While it relates to the present time, the word itself describes a characteristic or style, not a unit or concept of time.",
+      "suggestion": "Remove 'time' tag."
+    }
+  ]
+}

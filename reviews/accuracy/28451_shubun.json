@@ -1,0 +1,31 @@
+{
+  "entry_id": "28451_shubun",
+  "headword": "{主文|しゅぶん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:29:49Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'grammar' is not in the valid tag list.",
+      "suggestion": "language"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'legal' is not in the valid tag list.",
+      "suggestion": "law"
+    }
+  ]
+}

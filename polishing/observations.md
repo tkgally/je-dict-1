@@ -842,3 +842,29 @@ All 20 observations cleared.)_
   margins/aesthetics) and 逆転 (06839, sports comebacks) both carried it. Reads as a template
   default rather than a judgment; worth a pass over `domain` tags the way check_tag_drift.py
   handles `semantic`. (routine_2026-08-08_006)
+
+## 2026-08-08 (routine accuracy-review, 28351-28900)
+
+- [pattern] The 28351-28900 block carried off-vocabulary semantic tags in 236 of
+  549 entries (270 instances, 101 distinct labels: `time`, `people`, `animal`,
+  `plant`, `object`, `mathematics`, `sensation`, …). This is batch-creation tag
+  drift: the creating session invented plausible-sounding labels instead of
+  drawing from `VALID_SEMANTIC`. All 236 migrated this run. Dictionary-wide,
+  1,902 entries still carry baselined off-vocab tags — the single largest
+  remaining tag-quality item.
+- [tooling] The `tags` dimension of `review_accuracy.py` is by far the highest-
+  yield reviewer signal: 235 of 253 tag flags in this range were "not in the
+  valid tag list", which is correct by definition. Gloss/translation flags were
+  the opposite — 9 of 14 rejected as model error (including confident arithmetic
+  nonsense on 数十億円 and a misidentification of ふるい as the adjective 古い).
+- [tooling] `review_accuracy.py` runs ~2.4 entries/min single-process; four
+  parallel processes over disjoint subranges hit ~30/min with no rate-limit
+  errors. Worth building parallelism into the script.
+- [tooling] `review_runner.py --pass screening` is ~5x slower per entry than the
+  accuracy pass and much lower yield: 175 entries screened, 7 flagged, 1 real
+  error (私 split as {私|わたく}し). The other 6 were the documented okurigana-split
+  and compound-rendaku families. Furigana screening for 28526-28900 was NOT run
+  this session — the pass was stopped at 28525 to protect the wrap-up budget.
+- [entry] 28655 {高層建|こうそうだ}て: two model passes gave directly contradictory
+  readings of the headword (construction style vs. the building itself). Gloss
+  now hedges both; escalated to `reviews/needs_curator.txt`.

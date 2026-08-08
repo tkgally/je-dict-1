@@ -1,0 +1,24 @@
+{
+  "entry_id": "28735_indo",
+  "headword": "インド",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T18:29:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'place-name' is not in the valid tag list.",
+      "suggestion": "geography"
+    }
+  ]
+}

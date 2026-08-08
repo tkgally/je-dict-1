@@ -1,0 +1,11 @@
+{
+  "entry_id": "28460",
+  "screened_at": "2026-08-08T18:29:55Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "13. 経 → た: The reading for 経 as 'た' is incorrect. It should be 'へ' for 経る (へる) or 'けい' for 経験 (けいけん) etc. Given the context \"経った\", the kanji 経 is part of 経つ (たつ), so the reading should be 'た' for 経. However, the provided reading 'た' for 経 alone is not a standard reading for the kanji in isolation. It's a partial reading of 経つ. But the instructions say \"Do NOT flag partial readings as errors — they are correct by design.\" So this is not an error. Let's re-evaluate. The instruction is \"the reading covers ONLY the kanji portion.\" For 経った, the kanji is 経, and the reading is た. This is correct as a partial reading of 経つ. No error here.",
+    "28. 何時 → いつ: While 'いつ' is a common reading for 何時, the instruction states \"the reading covers ONLY the kanji portion.\" In this case, 何時 is read as 'いつ' as a whole word, not 'いつ' as a reading for 何. If it were 何, the reading would be 'なに' or 'なん'. Therefore, 'いつ' for 何時 is a correct reading for the compound, but not a reading for the kanji 何 alone. However, the instruction also says \"the reading covers ONLY the kanji portion.\" This implies that if the kanji is part of a compound, the reading provided should be for that kanji within the compound. But here, 何時 is a single entry, and 'いつ' is the reading for the entire compound. If the entry was {何|いつ}時, then it would be an error. But it's {何時|いつ}. This is a correct reading for the compound. The instruction \"the reading covers ONLY the kanji portion\" is a bit ambiguous here. If it means the reading provided is for the entire kanji string in the entry, then it's correct. If it means the reading should be for the first kanji only, then it's incorrect. Given the example {走|はし}る, where 走 is はし, it implies the reading is for the kanji part of the word. So, for 何時, the reading 'いつ' is for the entire compound. This is not an error based on the provided examples and rules."
+  ],
+  "confidence": 0.0
+}
