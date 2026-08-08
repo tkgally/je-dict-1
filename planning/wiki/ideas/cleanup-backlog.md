@@ -2269,6 +2269,48 @@ the surface reading is exactly some *other* entry's headword reading — filed a
 Run the two scans together when this item is swept: they share the cluster, and fixing only the
 `noentry` half leaves the wrong-target half looking correct.
 
+### Update 2026-08-08 — detector built, 999 pairs swept, and the "mechanical" claim is wrong for short bases
+
+The 2026-08-08 `systemic-fix` run built the standing detector this item had been asking for —
+**`build/check_stale_noentry.py`** (read-only; classes A1/A2/A3/B/C/D plus a new R, a
+`wrong_when_written` column, `--mechanical`, `--json`) — and swept the safe half of the batch:
+**999 pairs / 1,129 instances across 739 entries**. An independent model checked a stratified
+60-pair sample of the applied fixes and flagged none; the same checker, run as a control over
+known-bad class-R cases, did flag them, so the clean result is informative rather than
+agreeable.
+
+**What was applied**: every mechanical pair whose base is **4+ characters** (903 pairs — a
+45-pair spot check across the whole ID span was clean), plus the 2–3 character pairs below entry
+00443 that were hand-read with context.
+
+**What the sweep disproved.** This page predicted precision "near 1.0" for all of A1+A2 because
+"the evidence needed to accept each fix is entirely inside the link". That holds for long
+compounds and fails for short bases. Hand review of 110 short-base pairs found ~4% false
+positives in three families:
+
+| Family | Example | Caught by |
+|---|---|---|
+| Polysemous loanword in another sense | baseball ⟦フライ⟧ → `11124_furai` *deep-fried food* | judgment only |
+| Abbreviation inside a compound | ⟦パン⟧ in 海パン (swim trunks) → `00553_pan` *bread* | judgment only |
+| Homograph read differently | ⟦{臭\|にお}い⟧ → `01133_kusai` (くさい) | **detector class R** |
+| Bound, rendaku'd compound element | ⟦{張\|ば}る⟧ in 形式張る → `12583_haru` (はる) | **detector class R** |
+
+The last two are now mechanical: class **R** compares the marker's own furigana against the
+target entry's reading (with prefix/honorific/suru-verb tolerances) and refuses the substitution
+when they contradict. The first two are invisible to any string test, so **the remaining 1,580
+pairs — all of them 2–3 character bases — are `verify: per-entry`, not mechanical.** The item's
+`fix_type` in `backlog-queue.json` was changed accordingly.
+
+**Free by-product**: class R is a 40-pair queue of *genuine furigana errors in source entries*,
+found by an inline-link scan rather than a furigana instrument — 来春/らいはる (らいしゅん),
+農作物/のうさくもつ (のうさくぶつ), 墓石/はかいし (ぼせき), 完全試合/かんぜんしあい (かんぜんじあい),
+白和え/しろあえ (しらあえ), 部屋干し/へやほし (へやぼし), 言い及ぶ written {言|い}{及|およ}ぶ.
+This is the same "a field outside examples/notes falls through every net" shape as P36: the
+furigana screener reads example *text*, and these errors sit inside link surfaces.
+
+Remaining after the sweep: 1,580 mechanical-class pairs (1,827 instances), 406 B, 352 C, 42 D,
+40 R, 3,082 markers that still do not resolve.
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword
