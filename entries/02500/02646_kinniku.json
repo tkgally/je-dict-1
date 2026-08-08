@@ -53,11 +53,47 @@
       "sense_numbers": [1]
     }
   ],
-  "notes": "{筋肉|きんにく} refers to muscle tissue in the body.\n\nCOMMON PATTERNS:\n- {筋肉|きんにく}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧ (to train/build muscles)\n- {筋肉|きんにく}⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧ (to gain muscle)\n- {筋肉|きんにく}⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧ (to lose muscle)\n\nCOMPOUND WORDS:\n- {筋肉|きんにく}⟦{痛|つう}→痛：noentry⟧ (muscle pain, DOMS)\n- {筋肉|きんにく}⟦{質|しつ}→質：01425_shitsu⟧ (muscular build)\n- {筋肉|きんにく}⟦トレーニング→トレーニング：00408_toreeningu⟧ (muscle training, weightlifting)\n\nCASUAL TERM:\n- ⟦{筋トレ|きんとれ}→筋トレ：04915_kintore⟧ (muscle training - abbreviation)",
-  "cross_references": [],
+  "notes": "{筋肉|きんにく} refers to muscle tissue in the body.\n\nCOMMON PATTERNS:\n- {筋肉|きんにく}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧ (to train/build muscles)\n- {筋肉|きんにく}⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧ (to gain muscle)\n- {筋肉|きんにく}⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧ (to lose muscle)\n\nCOMPOUND WORDS:\n- ⟦{筋肉痛|きんにくつう}→筋肉痛：06298_kinnikutsuu⟧ (muscle pain, DOMS)\n- {筋肉|きんにく}⟦{質|しつ}→質：01425_shitsu⟧ (muscular build)\n- {筋肉|きんにく}⟦トレーニング→トレーニング：00408_toreeningu⟧ (muscle training, weightlifting)\n\nCASUAL TERM:\n- ⟦{筋トレ|きんとれ}→筋トレ：04915_kintore⟧ (muscle training - abbreviation)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06298_kinnikutsuu",
+      "reading": "きんにくつう",
+      "headword": "{筋肉痛|きんにくつう}",
+      "label": "muscle soreness"
+    },
+    {
+      "type": "related",
+      "target_id": "04915_kintore",
+      "reading": "きんとれ",
+      "headword": "{筋|きん}トレ",
+      "label": "strength training"
+    },
+    {
+      "type": "related",
+      "target_id": "15891_fukkin",
+      "reading": "ふっきん",
+      "headword": "{腹筋|ふっきん}",
+      "label": "abdominal muscles"
+    },
+    {
+      "type": "related",
+      "target_id": "02166_hone",
+      "reading": "ほね",
+      "headword": "{骨|ほね}",
+      "label": "bone"
+    },
+    {
+      "type": "related",
+      "target_id": "02240_niku",
+      "reading": "にく",
+      "headword": "{肉|にく}",
+      "label": "flesh, meat"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T06:58:10Z",
-    "modified": "2026-05-21T17:09:23Z",
+    "modified": "2026-08-08T06:20:01Z",
     "ai_model": "claude-sonnet-4-6",
     "vocabulary_tier": "basic",
     "tags": {
