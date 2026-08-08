@@ -777,6 +777,57 @@
       "scope_measured_at": "2026-08-07",
       "severity": "warn",
       "notes": "Measured across the 2026-08-05..2026-08-07 ledger window: 3 applied of 30 decided (10.0%), against 99.4% for off-vocabulary migration and 28.1% for in-list substitution in the SAME dim. Two runs found it independently (1/10 on 26701-27000; 0/5 on 27001-27313, where four of the five entries' own notes state the word IS the formal term). routine2.md §A already has the right policy — apply a formality flag only when the entry's own register description contradicts the label — but the reviewer is not told the rule its adjudicator uses. Fix in cost order: (1) one line in the reviewer prompt; (2) emit formality findings under their own dim so the ledger separates them without note-string heuristics; (3) drop the sub-dimension if (1) does not move the rate."
+    },
+    {
+      "id": "furigana-unbalanced-braces",
+      "title": "Unbalanced furigana braces (34 instances / 33 entries) — renders as a literal brace on the live site",
+      "source": "ideas/cleanup-backlog.md#priority-45-unbalanced-furigana-braces-34-instances--33-entries--visible-on-the-live-site",
+      "detect": "python3 - : for every string field of every entry, flag where count('{') != count('}')",
+      "filter": "none — all 34 are real; 04471 needs re-authoring rather than a brace fix (a wrapper and a link are interleaved)",
+      "fix_type": "semantic-verified",
+      "verify": "re-run the count check; spot-check rendered docs/ output for the notes cases",
+      "priority": 6,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 34,
+      "scope_unit": "instances",
+      "scope_measured_at": "2026-08-08",
+      "severity": "warn",
+      "notes": "20 in notes, 14 in examples[].japanese. Imbalance runs both directions. Confirmed visible: 08385 renders 'ぎ}' in English prose. Was half of Tooling 8's June proposal; the other half is retired (see brace-mention-quote informational)."
+    },
+    {
+      "id": "noentry-affix-tilde-forms",
+      "title": "Stale `noentry` markers that resolve only via an affix tilde form (全 -> 全〜)",
+      "source": "ideas/cleanup-backlog.md#updates-2026-08-08-wiki-harvest",
+      "detect": "for each ⟦…：noentry⟧ marker, look the base up in word_id_lookup.json by_headword, then retry as '〜'+base and base+'〜'",
+      "filter": "MUST land after check_link_baseform.py accepts affix-tilde normalization (Tooling 83), or the sweep manufactures 159 new baseform findings",
+      "fix_type": "mechanical",
+      "verify": "python3 build/check_link_baseform.py --no-allowlist",
+      "priority": 14,
+      "batch_ready": false,
+      "status": "blocked",
+      "scope_estimate": 159,
+      "scope_unit": "instances",
+      "scope_measured_at": "2026-08-08",
+      "severity": "info",
+      "notes": "47 distinct bases, essentially all the 28xxx affix cohort (〜感 28578, 〜代 28331, 〜書 28467, 〜賃 28343, 〜化 28335, 〜展 28468, 〜系 28466, 〜士 28352, 〜史 28471). Extends inline-link-stale-noentry by ~4.5%. Blocked on Tooling 83."
+    },
+    {
+      "id": "reviewer-flag-rate-carve-out",
+      "title": "routine2.md §A step 4: compute the noise heuristic per dimension after removing off-vocabulary tag flags",
+      "source": "ideas/tooling-backlog.md#85-the-20-reviewer-noise-heuristic-misreads-a-tag-contaminated-block",
+      "detect": "n/a — prompt change",
+      "filter": null,
+      "fix_type": "prompt-change",
+      "verify": "n/a",
+      "priority": 11,
+      "batch_ready": true,
+      "status": "needs-decision",
+      "scope_estimate": 1,
+      "scope_unit": "prompt edits",
+      "scope_measured_at": "2026-08-08",
+      "severity": "info",
+      "notes": "Measured on 27314-27850: blended flag rate 41% (would read as noise); after removing off-vocab tag flags, gloss 3.4% and translation 0.9%, inside the predicted band. Converges with quality-metrics.md §14 from the opposite direction."
     }
   ]
 }

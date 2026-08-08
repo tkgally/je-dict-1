@@ -3751,6 +3751,117 @@ batch. The reviewer's `tags` dimension detects this class reliably because it ju
 lacked. **P13 needs no sweep and no detector; it needs the accuracy-review lane to keep
 running.**
 
+## 84. `review_runner.py`'s 6-second serial rate limit is what bounds an accuracy-review run
+
+**Source**: 2026-08-07 accuracy-review run, measured directly.
+**Status**: open, cheap, high-leverage.
+
+Two review scripts ran concurrently over the same block against the same model. Throughput:
+
+| Script | Rate | Coverage |
+|---|---|---|
+| `review_runner.py --pass screening` | **~6.6 entries/min** | 332 entries in 50 min, killed by its own `timeout` |
+| `review_accuracy.py` | **~19 entries/min** | 534 entries in 28 min |
+
+The difference is not the model and not the prompt — it is `RATE_LIMIT_INTERVAL = 6.0`, a
+serial inter-request sleep that `review_accuracy.py` does not have. The two ran **concurrently
+with no rate-limit errors** for **$0.31 combined**, which is the evidence that the interval is
+not buying anything: if 19/min plus 6.6/min against the same endpoint provokes no throttling,
+6 s of enforced idle per request is pure wall clock.
+
+The consequence is not academic. §A sizes a run at 400–600 entries in both dimensions; at
+6.6/min the screening pass cannot finish that range in a session, so recent accuracy-review
+runs have covered the full range on the accuracy side and **~62% of it on the furigana side**
+— a coverage gap created entirely by a constant. Lowering the interval (or threading the pass
+the way the cost figures suggest is safe) would let one run cover its whole range in both
+dimensions. Note this interacts with [Tooling 24](#24-non-hiragana-reading-lint-cheap-replacement-for-the-furigana-screeners-true-positive-class):
+if the screener is retired on cost, this item becomes moot — but it is *far* cheaper to test,
+and it changes the cost side of that very argument.
+
+## 85. The 20% "reviewer noise" heuristic misreads a tag-contaminated block
+
+**Source**: 2026-08-07 accuracy-review run (27314–27850).
+**Status**: open — a prompt change to `routine2.md` §A step 4, not a script.
+
+§A step 4 says that if more than ~20% of entries come back flagged, that is reviewer noise
+rather than dictionary error. On this block **221 of 534 entries (41%)** were flagged, which
+the rule would classify as noise. It was not: **234 of the 257 issues were tag flags**, and
+**156 of those correctly reported a tag genuinely absent from `VALID_SEMANTIC`** — which §A's
+own semantic-tag policy makes *correct by definition*.
+
+The proposed carve-out is one line: **compute the flag rate per dimension after removing
+off-vocabulary tag flags.** On this block that yields gloss 18/534 (**3.4%**) and translation
+5/534 (**0.9%**) — precisely inside the 4–13% error-severity band the prompt already predicts
+elsewhere. The heuristic then works as intended instead of firing on the one dimension whose
+high yield is structural.
+
+This converges independently on [Quality Metrics §14](../topics/quality-metrics.md), which
+retired the blended `tags` precision figure for the same underlying reason: **off-vocabulary
+tag flags are a different instrument from the rest of the reviewer's output, and any statistic
+that pools them moves with cohort composition rather than with reviewer behaviour.** Two
+different runs reached that conclusion from different directions in the same week, which is
+about as strong as evidence gets here. The triage axis both imply — "does this flag name a tag
+outside the closed list?" — is answerable by a two-line check before any flag is read.
+
+## 86. Cheap validator check: Hangul outside a documented loanword etymology
+
+**Source**: 2026-08-07 accuracy-review run (27316 `{通常|つうじょう}` carried `(often used for
+"평상시" …)` — 平常時 rendered in Hangul inside an English note).
+**Status**: open, trivially cheap, scope 1 — file as a validator line, not a sweep.
+
+A whole-corpus scan found **only 4 entries containing Hangul**, and the other three are
+legitimate Korean-loanword etymologies (10838 キムチ, 12729 明太子, 16310 ナムル). So this is a
+one-off, not a family — but it is the right *shape* for a permanent one-line check in
+`check_consistency.py`, because the rule is exact (Hangul outside a documented loanword
+etymology is always a defect), the false-positive set is enumerable at 3, and the cost of
+carrying the check forever is one regex. Worth having precisely because the next instance will
+not be found by anyone looking for it.
+
+## Updates 2026-08-08 to existing items
+
+**Item 8 (furigana format validator) — both June enhancements measured; one ships, one is
+retired.** The 2026-06-17 update proposed two additional rules, neither ever sized. Measured
+over the whole corpus on 2026-08-08:
+
+- **(b) unbalanced braces: 34 instances / 33 entries.** Real, deterministic, and *visible on
+  the live site* (`08385` renders "ぎ}" in English prose). **Ship it** — now filed as
+  [Cleanup P45](cleanup-backlog.md#priority-45-unbalanced-furigana-braces-34-instances--33-entries--visible-on-the-live-site).
+- **(a) pipe-less `{…}` spans: 931 instances / 623 entries, ~100% false.** The rule collides
+  head-on with an undocumented convention — braces are also used as **mention-quotes** around
+  a word, reading, or character under discussion (`Usually read as {だて}`). **Retire it.**
+
+The bundling is the lesson worth keeping: these two rules were proposed together, in one
+sentence, from one entry (`06147_jiboujiki`) that genuinely contained both shapes. They have
+sat unbuilt for seven weeks because the pair looked like one medium-sized job. Sized
+separately they are a 33-file afternoon and a rule that should never be written. **When an
+item bundles two detection rules, size them separately before scheduling either** — the
+bundle's cost is the sum, but its value is not.
+
+**Item 19 (stale-`noentry` detector) — add affix-tilde forms to the lookup, and the
+normalization to `check_link_baseform.py` first.** Two 2026-08-07 polish runs independently
+hit the same shape: a marker whose base form is bare (`全`, `感`, `代`) while the entry that now
+exists carries a tilde (`全〜`, `〜感`, `〜代`). Measured at **159 instances / 47 distinct
+bases**, essentially all of them the 28xxx affix cohort. The detector change is two extra
+lookup attempts per marker; the *sequencing* matters more than the change, because the links
+it produces are exactly what [item 83](#83-check_link_baseformpy-accept-na-adjective-normalization)
+exists to stop flagging. See [Cleanup P35 update 2026-08-08](cleanup-backlog.md#updates-2026-08-08-wiki-harvest).
+
+**Item 19, second update — the four-times-filed detector is now filed a fifth and sixth time.**
+Both 2026-08-07 polish runs proposed `build/check_stale_noentry.py` from scratch, each citing
+its own incidental catches (01332 キャラクター → 23518, 01447 全 → 28337, 01745 リビングルーム →
+28876; and 01763's four アジア compounds, 01769's 中央アメリカ + 米, 02211's 冷や/洋酒, 02240's
+羊肉/馬肉). Neither run knew the item existed. The dictionary-side scope has been measured five
+times and the detector still does not exist; this is now the longest-running gap between a
+sized item and its instrument on this page, and it is the direct upstream dependency of
+[Cleanup P43](cleanup-backlog.md#priority-43-the-0680007100-block-is-96-unlinked--a-bounded-batch-not-a-frontier-problem)'s
+sequencing constraint.
+
+**Item 76 (`word_id_lookup.json` answers katakana from `by_headword` only) — reinforced by the
+tilde measurement.** The 159-instance affix finding was produced by trying `X〜`/`〜X` against
+`by_headword`; `by_reading` would not have helped, for the same structural reason item 76
+records. Both findings say the lookup's key space is narrower than its callers assume, and
+both were discovered by a caller working around it rather than by reading it.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address

@@ -2908,6 +2908,100 @@ accuracy-review lane and needs no instrument of its own.** One local confirmatio
 run: 06809 下味 carried sole `["general"]`, retagged `["cooking","food"]` — and the rest of the
 06800–06900 block, created in the same 2026-01-18 batch as [P43](#priority-43-the-0680007100-block-is-96-unlinked--a-bounded-batch-not-a-frontier-problem), likely shares the default.
 
+## Priority 45: Unbalanced furigana braces (34 instances / 33 entries) — visible on the live site
+
+**Source**: 2026-08-07 routine polish observation (06824 `magirawashii` carried a stray closing
+brace, `{分|わ}かりにくい}`, fixed in-run); sized 2026-08-08 by whole-corpus scan.
+**Detect**: for every string field in every entry, compare `count('{')` with `count('}')`.
+**Scope**: **34 instances across 33 entries** — 20 in `notes`, 14 in `examples[].japanese`.
+**Status**: open, batch-ready, no cursor needed.
+
+This is the smallest genuinely-broken class currently on this page, and the only one on the
+furigana side that is **plainly visible to a reader**. `08385`'s rendered page reads
+"**ぎ} tends to be used for**" — a literal brace sitting in English prose. The imbalance runs
+in both directions (dropped `}` in 04471/09020/09801; extra `}` in 08385/11708/12060/16849),
+so the repair is per-entry rather than one regex, but 33 files is a single sitting.
+
+One instance is worse than cosmetic and should be looked at first: **04471** contains
+`かき{混→かき{混：noentry⟧|ま}ぜ`, a furigana wrapper and an inline `⟦…⟧` link interleaved into
+one another. Neither structure parses; the link cannot be recovered mechanically and the
+phrase needs re-authoring.
+
+**Why it went unnoticed for two months**: the check was proposed on 2026-06-17 as half of
+[Tooling 8](tooling-backlog.md#8-furigana-format-validator)'s enhancement, bundled with a
+second rule that turned out to be worthless (see the Informational entry below). Bundling a
+34-instance real defect with a 931-instance false positive is what kept both unbuilt.
+
+## Informational: the brace is also a mention-quote (1,084 spans) — a convention, not a defect
+
+**Measured 2026-08-08.** The other half of Tooling 8's June proposal — "flag any `{…}` span
+whose interior contains no `|`" — fires **931 times across 623 entries**, and essentially none
+of them is a malformed wrapper. Braces are doing a **second, undocumented job**: quoting a
+linguistic object under discussion, the way an English style guide italicises a mentioned word.
+
+- `The reading {じゅうぶん} means 'enough' while {じゅっぷん/じっぷん} means '10 minutes'` (01614)
+- `Usually read as {だて}, sometimes {たて}` (02002)
+- `The kanji {匂} is used for general smells, while {臭} specifically refers to bad ones` (00319)
+- `- {〜て}たまらない: So ~ that one can't stand it` (03409, grammar-pattern notation)
+
+855 of the 931 are kana-only spans in `notes`/`explanation` prose; 54 are kanji mentions; 168
+are grouping wrappers that nest a valid `{X|Y}` (`{お{正月|しょうがつ}}`); 7 are `{WO}`/`{NI}`
+pattern placeholders; 22 sit inside `⟦…⟧` link surfaces (P24-adjacent). Adding the obvious
+refinement — "flag only spans containing kanji" — does **not** rescue the rule: in the kanji
+cases a reading is often actively wrong, since 00319 exists precisely to contrast 匂 and 臭,
+which share the reading にお.
+
+**Disposition: retire the rule and document the convention instead.** Full analysis in
+[Furigana Wrapper Anomalies → "The brace is also a mention-quote"](../topics/furigana-wrapper-anomalies.md).
+The convention appears in no skill, no schema, and not in `CLAUDE.md`, and that gap is the
+measurable cause of a recurring cost: **three sessions across two months have proposed
+detectors against it**, because a reader who knows only the documented rule
+(`{漢字|かんじ}`) correctly concludes that `{だて}` is malformed.
+
+## Updates 2026-08-08 (wiki harvest)
+
+**P35 (stale `noentry` markers) — the affix cohort resolves only through a tilde form (+159).**
+A polish run noted that `01447`'s `⟦{全|ぜん}→全：noentry⟧` should resolve to `28337_zen`, whose
+headword is `全〜` with a tilde, and that a lookup must therefore try both the bare and the
+affixed form. Measured: **159 instances across 47 distinct bases** resolve *only* via `〜X` or
+`X〜`, against 3,536 that resolve on the bare headword and 3,686 that stay unresolved. The
+population has a single clear provenance — it is almost entirely the **28xxx suffix cohort**
+(〜感 28578, 〜代 28331, 〜書 28467, 〜賃 28343, 〜化 28335, 〜展 28468, 〜系 28466, 〜士 28352,
+〜史 28471, …), a deliberate affix batch created *after* the entries that reference those
+morphemes. That is the same "correct when written, rotted as the dictionary grew" mechanism
+P35 already documents, arriving through a batch rather than one entry at a time.
+
++4.5% on the mechanically-fixable set is small, but the item is worth recording for a
+different reason: applying it writes links whose **label is bare (`全`) while the target
+headword carries a tilde (`全〜`)**, which is exactly the shape
+[`check_link_baseform.py`](tooling-backlog.md#83-check_link_baseformpy-accept-na-adjective-normalization)
+flags. The affix-tilde relationship needs to join na-adjective normalization (巨大な → 巨大)
+and する-normalization (参加する → 参加) in that script's accepted-relationship list, **before**
+the P35 sweep runs — otherwise the sweep manufactures 159 new baseform findings.
+
+**P42 (neighbours named in notes prose but absent from `cross_references`) — 8 of 8 and 7 of 7,
+again.** Two independent 2026-08-07 polish runs each reported that *every* priority-lane entry
+they touched had `"cross_references": []` while its notes named 2–4 neighbours in prose under
+`RELATED TERMS:` / `SIMILAR WORDS:` / `CONTRAST` headings (01080, 01332, 01385, 01393, 01447,
+01606, 01706, 01745; and 01763, 01769, 02204, 02210, 02211, 02234, 02240). This is the third
+and fourth consecutive 100% hit rate. The diagnosis on file is unchanged and was restated
+independently by both runs: `score_note_quality` ranks these entries low **because the notes
+are good** — long, structured, full of prose neighbours — so the `notes` priority lane keeps
+delivering entries whose actual defect is a different, empty field. Both runs also supply the
+extraction signal in the same words: a note section headed RELATED/SIMILAR/CONTRAST whose
+inline links carry target IDs absent from `cross_references` is a near-certain miss, and the
+IDs are already in the file.
+
+**P43 (the 06800–07100 block is 96% unlinked) — confirmed at the frontier, with a cost figure.**
+The first polish run to reach the block reported **7 of 7 frontier entries (06813–06819) with
+literally zero inline links** in examples *and* notes, matching the 96% measured on 2026-08-06.
+It also priced the block: **~4× a normal frontier entry**, and named the technique that made
+seven affordable — batch the lookups (one `by_reading`/`by_headword` query for the whole
+entry, then a single scripted write) rather than per-word `Edit` calls. A second run
+independently budgeted "~2 entries per 10% of context" for 06820–06825. Both figures belong
+with the queue item `inline-link-block-06800-07100`, which is sized in entries but whose real
+constraint is context per entry.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns
