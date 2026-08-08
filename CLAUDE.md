@@ -223,6 +223,7 @@ python3 build/check_furigana_format.py --summary   # Malformed furigana wrappers
 python3 build/check_artifacts.py --summary         # [Register:]/{ている}/dup-conjugation/missing target_id (P16/P15/P10/P4/P2)
 python3 build/check_tag_drift.py --summary         # conjugation-no-verb-pos, politeness, sole-general, semantic-mismatch (P6/P7/P13/P11)
 python3 build/check_example_headword.py --summary  # Noun examples that never contain their headword (P19)
+python3 build/check_stale_noentry.py --summary     # `noentry` inline links whose word now has an entry (P35); --mechanical for the safe class
 
 # Unified Routine selector and metrics
 python3 pipeline/routine_next.py --explain         # Why the next Routine run would pick a given mode
