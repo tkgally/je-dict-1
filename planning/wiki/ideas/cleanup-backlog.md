@@ -3044,6 +3044,206 @@ independently budgeted "~2 entries per 10% of context" for 06820–06825. Both f
 with the queue item `inline-link-block-06800-07100`, which is sized in entries but whose real
 constraint is context per entry.
 
+## Priority 46: Notes fully linked, examples completely bare (33 entries) — behind the frontier
+
+**Source**: 2026-08-08 routine polish observation on 06835–06841 ("entries have fully-linked
+notes but zero inline links in their examples … looks like a creation-era batch signature").
+**Sized 2026-08-08 by whole-corpus scan**, and the measurement changes the diagnosis.
+
+**Detect**: entry has ≥1 `⟦…⟧` in `notes` **and** zero `⟦…⟧` across every
+`examples[].japanese`. Mechanical, no judgment.
+**Scope**: **33 entries**. **Status**: open, batch-ready, no cursor needed.
+
+The observing run's own block does not appear in the result — it fixed it in-run. What remains
+is a different and more interesting population, because **32 of the 33 sit behind the polish
+frontier** (`next: 06842`) in six tight consecutive runs, plus one outlier far beyond it:
+
+| Run | IDs | n |
+|---|---|---|
+| 1 | 06038–06047 | 10 |
+| 2 | 06457–06462 | 6 |
+| 3 | 06631–06638 | 8 |
+| 4 | 06669 | 1 |
+| 5 | 06723–06729 | 7 |
+| — | 18725 | 1 |
+
+**These are not unlinked entries — they are half-linked ones.** Each carries 8–11 links in its
+notes while its examples, which are full of linkable vocabulary, carry none: 06038 `閉め出す`
+has ten note links and examples containing 鍵/忘れる/家/猫/外; 06631 `面影` has eleven and
+examples containing 町/昔/母親/残る. Their `modified` stamps are polish-run dates
+(06631: 2026-07-26; 06723: 2026-08-08), so **the frontier passed them and left the examples
+bare** — this is not a creation-era signature but a *session-shape* one. The runs are
+contiguous and end abruptly, which is what a session that linked notes for a batch and then
+ran out of context before the examples looks like.
+
+**Why it matters beyond 33 entries**: [P43](#priority-43-the-06800-07100-block-is-96-unlinked)
+treats unlinked stretches as work the frontier has not yet reached. This class is work the
+frontier *did* reach and completed only half of, so no cursor will ever return to it. That
+makes the detector worth keeping as a standing check rather than a one-off sweep — it is the
+cheapest available audit of whether the inline-link step actually finished.
+
+## Priority 47: Compounds split across two adjacent links although the compound has an entry (443 pairs / 391 entries)
+
+**Source**: 2026-08-08 routine polish observation (02274 linked フランス+語 and ドイツ+語
+separately although `24509_furansugo` / `28074_doitsugo` exist; 02646 split 筋肉+痛 although
+`06298_kinnikutsuu` exists), proposing "a detector for any adjacent link pair whose
+concatenated surface form matches an existing headword."
+
+**This is already project policy, not an open question.** The `inline-word-links` skill's
+common-mistakes table has carried the rule since the skill was written: *"Compound splitting —
+日本語 → 日本 + 語 — should link as single compound if entry exists."* The observation
+rediscovered a documented standard, which is the useful part: the standard has no instrument.
+
+**Measured 2026-08-08 against `build/word_id_lookup.json`**, and the naive rule is **not**
+batch-ready — it fires **1,579 times across 1,296 entries**, and more than half of that is a
+single false-positive family:
+
+| Family | n | Verdict |
+|---|---|---|
+| Second half is a short kana grammatical element (に 291, する 204, も 96, の 54, な 45, で 26, から 20, でも 16, ずつ 15, たち 12 …) | **847** | **Exclude by rule.** 前+に, 一緒+に, 少し+ずつ are correct links that happen to concatenate into a lexicalized entry. |
+| Second half is a 1-character morpheme (人 58, 円 12, 中 11, 的 11 …) | 289 | Mixed; needs judgment per base. |
+| **Both halves ≥2 characters** (写真+撮影, 身分+証明書, 婚約+指輪, 運転+免許, 最高+裁判所, 災害+対策) | **443 pairs / 391 entries** | **The real class.** Unambiguously covered by the skill's rule. |
+
+**Detect**: adjacent `⟦…⟧⟦…⟧` pairs, de-furigana both surfaces, concatenate, look up in
+`by_headword`; keep only pairs where both surfaces are ≥2 characters.
+**Scope**: **443 pairs / 391 entries**. **Status**: open, needs detector, then batch-ready.
+
+The `する` sub-family (204) is the same rule applied to suru-verbs — 勉強+する where
+`00527_benkyousuru` exists — and deserves a **separate decision** rather than inclusion here:
+the split is legible, both halves resolve, and reversing 204 of them is a larger change to
+reader-facing text than the compound-noun case. Note the shape this shares with the
+2026-08-08 stale-`noentry` finding: **precision splits on the length and script of the second
+element, not on the pair as a whole**, which is now the second sweep where that axis carved a
+clean batch out of a noisy population.
+
+## Priority 48: Inline links with the base-form segment missing entirely (17 instances / 7 entries)
+
+**Source**: 2026-08-08 routine polish observation; **sized 2026-08-08**, and the scan found one
+shape the observation did not.
+
+`validate.py` already reports these, so they are not undetected — they are unfixed.
+The malformed links are `⟦surface→noentry⟧`: the base-form segment and its full-width colon
+are gone, where the well-formed shape is `⟦surface→base：entry_id⟧`. Because every `noentry`
+scan in the project anchors on `→base：noentry`, **these are invisible to
+[P35](#priority-35-stale-noentry-markers)'s sweep and to `check_stale_noentry.py`**, and would
+have survived it silently.
+
+**Scope**: **17 instances across 7 entries** — 01340, 03022, 04757, 06443, 06444 (5 instances),
+06447 and one other; concentrated in 064xx as reported. **Status**: open, batch-ready.
+
+**Two shapes, not one.** Fifteen are the reported `⟦X→noentry⟧`, repairable mechanically: the
+base form equals the de-furigana'd surface in every sampled case
+(`⟦{数十万円|すうじゅうまんえん}→noentry⟧` → `…→数十万円：noentry⟧`). The other two, both in
+**03022**, are `⟦{観光|かんこう}⟧` — **no arrow at all**, neither base form nor target. Those
+need a lookup (観光 has an entry) rather than a rewrite, so handle 03022 by hand.
+
+## Priority 49: Wrong furigana inside inline-link surfaces (40 pairs) — a blind spot in every furigana instrument
+
+**Source**: 2026-08-08 routine polish observation on `check_stale_noentry.py`'s class R
+(link surface's furigana contradicts the target entry's reading).
+
+The detector was built to find stale `noentry` markers; class R is an **unintended furigana-error
+detector**, and the hand-checked pairs are genuine errors in the source entries:
+来春 written らいはる, 農作物 のうさくもつ, 墓石 はかいし, 完全試合 かんぜんしあい,
+白和え しろあえ, 部屋干し へやほし, and 言い及ぶ wrapped as `{言|い}{及|およ}ぶ`.
+
+**Scope**: **40 pairs**. **Status**: open; verify each against the target entry before applying
+(the target's reading is the authority, but a link surface may legitimately carry an inflected
+reading).
+
+**Why these survived every net**: all 40 sit inside a `⟦…⟧` link *surface*, and both
+`find_missing_furigana.py` and the OpenRouter furigana screener read past link surfaces to the
+sentence text. This is the third instance of the same shape —
+[P36](#priority-36-headwords-missing-furigana) (headword field) and
+[Tooling 47](tooling-backlog.md#47-cross-reference-headword-reading-disagreement)
+(cross-reference headwords) were the first two: **a field outside `examples[].japanese` and
+`notes` falls through every furigana instrument the project owns.** The recurring fix is not 40
+edits but folding link surfaces into the instruments, which is why this is filed here *and*
+noted against Tooling 47's family.
+
+## Informational: the `〜的` note skeleton is templated, but the link gap is 234 entries wide
+
+**Measured 2026-08-08.** A polish run observed that 06826–06830 share an identical note
+skeleton — ETYMOLOGY as `{X}` + `{的|てき}`, then FORMS with adverbial に / predicative だ /
+attributive な — needing the same five links every time (`09839_teki`, `00314_ni`, `09496_da`,
+`09497_na`, plus the base noun), and proposed a templated linker as "a safe, high-yield
+mechanical sweep."
+
+The corpus holds **281 `〜的` entries**, of which **47 already link `09839_teki` in their notes
+and 234 do not**. The convention is therefore real and established, and the gap is an order of
+magnitude larger than the observing block. But 234 is an *upper bound on the opportunity, not a
+batch*: only the subset carrying the full ETYMOLOGY/FORMS skeleton takes all five links
+positionally, and the rest need the base-noun link resolved per entry. Recorded here as the
+sizing so the next run that proposes this sweep does not re-measure it; it needs the skeleton
+sub-count before it becomes a queue item.
+
+## Updates 2026-08-08 (wiki harvest, run 2)
+
+**P11 (semantic tag drift) — the largest single migration yet, and the remaining scope is now
+known.** The 2026-08-08 accuracy-review of 28351–28900 found off-vocabulary semantic tags in
+**236 of 549 entries** (270 instances, 101 distinct invented labels: `time`, `people`,
+`animal`, `plant`, `object`, `mathematics`, `sensation`, …) and migrated all 236 in-run. The
+provenance is unambiguous batch-creation drift — the creating session invented plausible labels
+instead of drawing from `VALID_SEMANTIC`. **Dictionary-wide, 1,902 entries still carry
+baselined off-vocabulary tags**, which makes this the largest remaining tag-quality item on this
+page by an order of magnitude, and the one with the highest measured apply rate (see the
+quality-metrics note below).
+
+**New: `domain` has the same shape as `semantic` did, and no instrument.** Two polish
+observations flagged `domain: business` on entries with no business character (06838 余白,
+margins and aesthetics; 06839 逆転, sports comebacks) and `domain: medical` on 06830 劇的 from
+a single medical example — the same single-example-contamination shape as P11. **Measured
+2026-08-08: 3,593 domain instances across 3,278 entries**, and the distribution is lopsided in
+exactly the way a template default looks:
+
+| domain | n | | domain | n |
+|---|---|---|---|---|
+| `business` | **1,162** | | `colloquial` | 328 |
+| `academic` | 566 | | `internet` | 70 |
+| `technical` | 556 | | | |
+| `legal` | 476 | | | |
+| `medical` | 435 | | | |
+
+`business` alone is 32% of all domain tags. Unlike `semantic`, `domain` has a closed
+`VALID_DOMAIN` list that these all satisfy, so `check_tag_drift.py` and the
+off-vocabulary reviewer flag — the two instruments that made P11 tractable — are both blind
+here **by construction**: every one of these tags is valid, just wrong. Status: open, needs a
+detection idea before it can be sized. The reviewer's `tags` dimension judges semantic tags
+against the headword and could plausibly be pointed at `domain` the same way; that is the
+cheapest available route and is filed as a tooling item rather than assumed here.
+
+**Reinforced: reviewer formality flags remain a clean noise family (5/5, third window).** All
+five formality flags in 27851–28350 (27906, 27918, 27965, 27989, 27995) were contradicted by
+the entry's own REGISTER line. §A's guard — apply only when the entry's own notes contradict
+the label — held perfectly again. This is now measured across three windows and belongs with
+the queue item `reviewer-formality-noise`; the standing recommendation is unchanged (have the
+reviewer prompt read the notes before judging register).
+
+**Reinforced: P43 confirmed at 9 of 9.** The 06826–06834 frontier block was uniformly
+pre-inline-link — all nine entries had zero links in examples *and* notes, eight of nine needed
+the notes' ETYMOLOGY/COLLOCATIONS sections linked from scratch — and the run independently
+re-derived the ~2-entries-per-10%-of-context budget for the 06800+ stretch. Fourth consecutive
+confirmation; no change to the item.
+
+**Reinforced: basic-tier entries arrive with empty `cross_references` and template-default
+tags.** All six priority-lane entries in the 2026-08-08 polish run had zero cross-references,
+and three carried a default (`general` semantic on 02907/02938; `plain` politeness on the
+explicitly-polite どうぞ). This is the same population as
+[P42](#priority-42-neighbours-named-in-notes-prose-but-absent-from-cross_references), and the
+run restated its diagnosis independently: the notes already name the neighbours in prose, so
+extraction is largely mechanical.
+
+**Curator taxonomy question — a third gap, and this one is bigger than reported.**
+`VALID_SEMANTIC` has no category for sound or acoustic phenomena. The observing run met three
+in 27851–28350 (28327 爆発音, 28328 銃声, and one more) and had to migrate them to weaker
+destinations (`abstract`, `military`) because nothing in the list fits, filing it as a minor
+vocabulary addition. **Measured: 896 entries have a gloss naming a sound, voice, noise or
+acoustic concept**, and their current tags are dominated by catch-alls — `general` (92),
+`action` (77), `descriptive` (48). That keyword net is loose and 896 is an upper bound, but it
+is enough to move this off the "minor addition" pile: it joins the **spatial/positional and
+document-type gaps (322 instances)** already routed to the curator as one taxonomy decision,
+not three small ones.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns

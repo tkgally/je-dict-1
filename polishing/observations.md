@@ -814,57 +814,109 @@ already-routed number+counter one; the taxonomy question (spatial/positional and
 tags, 322 instances); and the frontier-versus-growth rate, now a fifth time.
 
 All 20 observations cleared.)_
+## 2026-08-08 (routine wiki harvest, run 2 — all prior observations cleared)
 
-- [tooling] Running `build/review_runner.py --pass screening` and `build/review_accuracy.py` concurrently against the same OpenRouter model starves the screening pass: 67 entries in ~45 min (~1.2/min) versus ~19/min for the accuracy pass in the same window. Screening recovered as soon as it was the only job. Tooling 84 measured `RATE_LIMIT_INTERVAL` as the bound; concurrency with a second pass on the same model is a second, larger one. Run the two passes sequentially, or point screening at a different model.
-- [pattern] `VALID_SEMANTIC` has no category for sound/acoustic phenomena. 27851–28350 held three (28327 {爆発音|ばくはつおん}, 28328 {銃声|じゅうせい}, plus a third off-vocab `sound`), all of which had to be migrated to weaker destinations (`abstract`, `military`) because nothing in the list fits. Candidate vocabulary addition.
-- [pattern] Reviewer formality flags are a clean noise family: 5 of 5 in the 27851–28350 block (27906, 27918, 27965, 27989, 27995) were contradicted by the entry's own REGISTER/notes line, which the reviewer prompt evidently does not weigh. §A's "apply only when the entry's own notes contradict the label" guard held perfectly — consider having the reviewer prompt read the notes before judging register.
-- [pattern] Furigana screening over 27646–27712 returned zero flags across 67 entries, extending the 0–5%-precision trend on already-polished ranges (2026-06-10/11, 2026-08-07). The screening pass is now the slow, low-yield half of accuracy-review mode; its coverage gap for 27713–28350 sits behind the accuracy cursor and is unlikely to repay a backfill.
-- [entry] The dictionary does contain place-name entries — 28138 {横浜|よこはま}, 28139 {札幌|さっぽろ}, 28144 オーストラリア, 28145 {青森県|あおもりけん}, 28283 イギリス, 28300 {中国|ちゅうごく} — all of which carried off-vocab `place-name`/`country` tags (now `geography`). This contradicts the standing curator note that "the dictionary holds no person or place names", which is being used to reject proper-noun candidates. The policy and the corpus disagree; one of them should move.
-- [pattern] The 06826–06834 frontier block is uniformly pre-inline-link: all nine entries had *zero* links in examples and notes, and eight of nine needed the notes' ETYMOLOGY/COLLOCATIONS sections linked from scratch. This confirms the 2026-08-07 estimate; the whole 06800+ stretch should be budgeted at ~2 entries per 10% of context, not the ~4 typical of already-linked ranges.
-- [pattern] `〜的` na-adjectives (06826–06830) share an identical note skeleton — ETYMOLOGY as `{X}` + `{的|てき}`, then FORMS with adverbial に / predicative だ / attributive な. Every one of the five needed the same five links (`09839_teki`, `00314_ni`, `09496_da`, `09497_na`, plus the base noun). A templated linker for this family would be a safe, high-yield mechanical sweep — the pattern is positionally fixed and cannot introduce homograph errors.
-- [tooling] Stale *split* links are a second family alongside stale `noentry` markers: 02274 linked フランス+語 and ドイツ+語 as separate morphemes even though 24509_furansugo / 28074_doitsugo / 25980_supeingo now exist, and 02646 split 筋肉+痛 although 06298_kinnikutsuu exists. A detector could flag any adjacent link pair whose concatenated surface form matches an existing headword — mechanically checkable against `word_id_lookup.json`.
-- [pattern] Basic-tier entries continue to arrive with `cross_references: []` and template-default tags: all six priority-lane entries this run had zero cross-references, and three carried a default (`general` on 02907/02938, `plain` politeness on the explicitly-polite どうぞ). The notes already name the neighbours in prose, so extraction is largely mechanical — this is why the block sits low on the notes priority ranking.
-- [entry] 06830 {劇的|げきてき} carried `domain: ["medical"]` although only one of its four examples is medical and the word is general-register; dropped this run. Worth checking whether other `〜的` adjectives picked up a domain tag from a single example's topic — the same single-example-contamination shape as the P11 semantic drift.
-- [tooling] `build/check_stale_noentry.py` class R (surface furigana contradicts the target entry's reading) is an unexpected furigana-error detector: 40 pairs, of which the hand-checked ones are genuine errors in source entries — 来春/らいはる, 農作物/のうさくもつ, 墓石/はかいし, 完全試合/かんぜんしあい, 白和え/しろあえ, 部屋干し/へやほし, 言い及ぶ written {言|い}{及|およ}ぶ. Every one sits inside an inline-link *surface*, which `find_missing_furigana.py` and the OpenRouter screener both read past. Same "field outside examples/notes falls through every net" shape as P36/Tooling 47; worth folding link surfaces into the furigana instruments rather than fixing 40 by hand.
-- [pattern] `validate.py` reports 17 malformed inline links of the shape `⟦surface→noentry⟧` — the base-form segment and its full-width colon are missing entirely (04757, 01340, 06447, 06444 and others, concentrated in 064xx). They are invisible to every `noentry` scan that anchors on `→base：noentry`, including the new detector, so they will survive the P35 sweep. Small, provably mechanical cleanup: re-insert the base form (it equals the de-furigana'd surface in all sampled cases).
-- [pattern] The stale-`noentry` sweep's own precision splits on base length, not on script: 4+ character bases were 45/45 clean in a spot check and 60/60 clean in an external sample, while 2–3 character bases ran ~4% wrong (polysemous loanwords, compound abbreviations). Length is a cheap, reusable safety axis for any future link-substitution sweep — worth applying to the Tooling 66 wrong-target family too.
+_(Harvested by the second 2026-08-08 routine `wiki` run: all **23** loose observations from the
+2026-08-08 polish run (priority + frontier lanes), the 2026-08-08 new-entries run, and the
+2026-08-08 accuracy-review (28351–28900). **Five premises were measured against the whole corpus
+before filing, and four of the five came back a different size or a different shape than
+proposed — one of them inverting its own diagnosis.**
 
-- [pattern] The "seen in entry" candidate lane is now essentially drained (23 present at 2026-08-08, 18 turned into entries 30494–30511, 3 were duplicates of existing entries, 2 left as out-of-scope). Future new-entries runs will fall back to the general candidate pool until comprehensive polish refills this lane.
-- [entry] Two "seen in entry" candidates were left unbuilt as out-of-scope and need a curator ruling: C22806 夏目漱石 (a novelist's personal name — the dictionary carries place names such as 東京/大阪 but no personal names) and C22851 画期 (a bound morpheme that only occurs in 画期的, which already exists as 06826).
-- [tooling] `build/get_next_id.py` reports the next ID but nothing warns when the ID crosses a 500 boundary, so entries 30495–30499 were first written into `entries/30500/` (the block for 30500–30999) before `validate.py` caught the directory mismatch. `get_entry_path.py` computes this correctly; having `get_next_id.py` print the target directory alongside the ID would remove the trap.
+- **"a detector for entry has ⟦…⟧ in notes but none in any example would find the rest of that
+  block cheaply"** — measured at **33 entries**, and the observing run's own block is not among
+  them (it fixed it in-run). What remains inverts the diagnosis: **32 of the 33 sit BEHIND the
+  polish frontier** (`next: 06842`) in six contiguous runs (06038–06047, 06457–06462,
+  06631–06638, 06669, 06723–06729) plus one outlier at 18725, with `modified` stamps that are
+  polish-run dates. So it is not a creation-era batch signature but a **session-shape** one —
+  the frontier linked the notes and ran out of context before the examples. Filed as
+  **Cleanup P46**, and worth keeping as a standing check rather than a one-off sweep, because
+  no cursor ever returns to entries the frontier already passed.
 
-- [pattern] Entries created in the 06835–06841 block have fully-linked notes but **zero inline
-  links in their examples** (06835, 06837, 06838, 06839, 06840, 06841 all had bare example
-  sentences while their notes were linked). This looks like a creation-era batch signature rather
-  than random drift — a detector for "entry has ⟦…⟧ in notes but none in any example" would find
-  the rest of that block cheaply. (routine_2026-08-08_006)
-- [pattern] `domain: business` shows up on entries with no business character — 余白 (06838,
-  margins/aesthetics) and 逆転 (06839, sports comebacks) both carried it. Reads as a template
-  default rather than a judgment; worth a pass over `domain` tags the way check_tag_drift.py
-  handles `semantic`. (routine_2026-08-08_006)
+- **"a detector could flag any adjacent link pair whose concatenated surface matches an existing
+  headword"** — measured at **1,579 pairs / 1,296 entries**, and **more than half is a
+  false-positive family the naive rule cannot survive**: 847 pairs are content word + short kana
+  grammatical element (に 291, する 204, も 96, の 54, な 45 …), where 前+に and 少し+ずつ are
+  correct links that merely concatenate into a lexicalized entry. With both halves required to
+  be ≥2 characters the real class is **443 pairs / 391 entries** (写真+撮影, 身分+証明書,
+  婚約+指輪). Also settled: this is **already project policy** — the `inline-word-links` skill
+  has said "link as single compound if entry exists" since it was written, so the observation
+  rediscovered a documented standard that has no instrument. Filed as **Cleanup P47**; the
+  204-instance する sub-family is split out for a separate decision.
 
-## 2026-08-08 (routine accuracy-review, 28351-28900)
+- **"17 malformed `⟦surface→noentry⟧` links, concentrated in 064xx"** — confirmed at exactly
+  **17 instances**, but across only **7 entries**, and the scan found a shape the observation
+  did not: two of the seventeen (both in **03022**) are `⟦{観光|かんこう}⟧` with **no arrow at
+  all**, so they need a lookup rather than the mechanical base-form re-insertion that fixes the
+  other fifteen. Filed as **Cleanup P48**. The observation's key point held: these are invisible
+  to every `noentry` scan in the project, because all of them anchor on the `→base：` segment
+  these links are missing, so they would have survived the P35 sweep silently.
 
-- [pattern] The 28351-28900 block carried off-vocabulary semantic tags in 236 of
-  549 entries (270 instances, 101 distinct labels: `time`, `people`, `animal`,
-  `plant`, `object`, `mathematics`, `sensation`, …). This is batch-creation tag
-  drift: the creating session invented plausible-sounding labels instead of
-  drawing from `VALID_SEMANTIC`. All 236 migrated this run. Dictionary-wide,
-  1,902 entries still carry baselined off-vocab tags — the single largest
-  remaining tag-quality item.
-- [tooling] The `tags` dimension of `review_accuracy.py` is by far the highest-
-  yield reviewer signal: 235 of 253 tag flags in this range were "not in the
-  valid tag list", which is correct by definition. Gloss/translation flags were
-  the opposite — 9 of 14 rejected as model error (including confident arithmetic
-  nonsense on 数十億円 and a misidentification of ふるい as the adjective 古い).
-- [tooling] `review_accuracy.py` runs ~2.4 entries/min single-process; four
-  parallel processes over disjoint subranges hit ~30/min with no rate-limit
-  errors. Worth building parallelism into the script.
-- [tooling] `review_runner.py --pass screening` is ~5x slower per entry than the
-  accuracy pass and much lower yield: 175 entries screened, 7 flagged, 1 real
-  error (私 split as {私|わたく}し). The other 6 were the documented okurigana-split
-  and compound-rendaku families. Furigana screening for 28526-28900 was NOT run
-  this session — the pass was stopped at 28525 to protect the wrap-up budget.
-- [entry] 28655 {高層建|こうそうだ}て: two model passes gave directly contradictory
-  readings of the headword (construction style vs. the building itself). Gloss
-  now hedges both; escalated to `reviews/needs_curator.txt`.
+- **"`domain: business` reads as a template default; worth a pass over `domain` tags the way
+  check_tag_drift.py handles `semantic`"** — measured at **3,593 instances / 3,278 entries**,
+  with `business` alone at **1,162 (32%)**. The premise is sound and the scale is large, but the
+  proposed method cannot work: **every instrument that made the `semantic` cleanup tractable
+  keys on off-vocabulary values, and `domain` has none** — all 3,593 are in `VALID_DOMAIN`, just
+  sometimes wrong. Filed to the **Cleanup Backlog 2026-08-08 run-2 updates** and as a tooling
+  note; the only viable instrument is the reviewer's `tags` dimension pointed at `domain`, to be
+  tried on a 100-entry sample before anything is sized.
+
+- **"`VALID_SEMANTIC` has no category for sound/acoustic phenomena … candidate vocabulary
+  addition"** (filed from 3 instances) — measured at **896 entries whose gloss names a sound,
+  voice, noise or acoustic concept**, currently absorbed by catch-alls (`general` 92, `action`
+  77, `descriptive` 48). The keyword net is loose and 896 is an upper bound, but it is enough to
+  move this off the minor-addition pile: it joins the spatial/positional and document-type gaps
+  (322 instances) already with the curator as **one taxonomy decision, not three small ones**.
+
+- **The `〜的` templated-linker proposal** was measured too: **281 `〜的` entries, 47 already
+  linking `09839_teki` in their notes and 234 not**. Recorded as an Informational sizing rather
+  than a queue item — 234 is the opportunity, but only the subset carrying the full
+  ETYMOLOGY/FORMS skeleton takes all five links positionally.
+
+Also filed: **new Cleanup P49** (wrong furigana inside inline-link *surfaces*, 40 pairs, found
+by accident by `check_stale_noentry.py`'s class R — 来春/らいはる, 農作物/のうさくもつ,
+墓石/はかいし and others; the **third confirmed member of the Tooling 47 family**, where a field
+outside `examples`/`notes` falls through every furigana instrument the project owns); **new
+Tooling 87** (`review_accuracy.py` parallel workers — measured ~2.4 entries/min serial against
+**~30/min across four processes** with no rate-limit errors) and **88** (`get_next_id.py` should
+print the target directory; the 500-boundary trap cost a session when 30495–30499 were written
+into `entries/30500/`). **Updates**: **P11** — the largest single migration yet (236 of 549
+entries in 28351–28900, 270 instances, 101 distinct invented labels), with **1,902 entries
+dictionary-wide still carrying baselined off-vocab tags**; **Tooling 84** — a second and larger
+throughput bound, cross-pass concurrency starving the furigana screener to **~1.2 entries/min**
+against the accuracy pass's ~19 on the same model, so §A should run the two passes sequentially
+or on distinct models (and Tooling 87 must land with a shared throttle, not on its own);
+**reviewer formality noise** at **5 of 5** for a third window, §A's notes-contradiction guard
+holding perfectly; **P43** confirmed at **9 of 9**; **P42** reinforced by six priority-lane
+basic-tier entries with zero cross-references and three template-default tags.
+**Entry Follow-ups**: 28655's contradictory headword readings, the proper-noun scope
+contradiction (six live place-name entries against the standing "no place names" policy — third
+filing, blocking C22806 and C22820; C22851 画期 is a simple drop), and 06830's `domain: medical`.
+
+**Activity H run** (12 new metrics lines, 454 → 466): thirty-third refresh written to
+`topics/quality-metrics.md` as Finding §15. Headlines — the frontier-versus-growth gap broke its
+four-refresh 44–50% band to **76%**, but **on the supply side**: the frontier column barely moved
+(26 → 29 IDs) while new-entry growth fell 59 → 38 because the "seen in entry" candidate lane
+drained. **§14's mixture-weight reading reproduced with the prediction made first** — pointed at
+a 43%-contaminated block, the blended `tags` figure rose 71.0% → 76.2% while off-vocabulary
+migration held at 97.2% and the in-list remainder ran 5.0%. Third consecutive record
+review-queue floor (**10,297**, −839). Escalations light (319 → 323). OpenRouter peak day
+**$0.551** of $5.
+
+**Carried forward to the curator**: the proper-noun scope question (third filing); the taxonomy
+question, now three gaps (sound/acoustic ~896, spatial/positional and document-type 322); and
+the frontier-versus-growth rate, which this window's 76% does **not** close.
+
+All 23 observations cleared.)_
+
+- [tooling] `reviews/decisions.jsonl` has no family key on `tags` lines, so each metrics refresh
+  re-derives the off-vocabulary / in-list / formality split by keyword-matching the free-text
+  `note`. The split is now the headline of two consecutive refreshes (§14, §15) and the
+  classifier is the weakest link in it — the 5.0% in-list figure this refresh is not strictly
+  comparable to the 28.1% last refresh. An explicit `"fam"` key on `tags` lines, with the same
+  fixed lowercase vocabulary discipline §C already applies to `src`/`dim`/`decision`, would
+  remove the classifier entirely and cost one field.
+- [pattern] The frontier-versus-growth gap closed to 76% this window only because the "seen in
+  entry" candidate lane ran dry (growth 59 → 38); the polish frontier itself moved 26 → 29 IDs,
+  i.e. not at all. Since that lane refills from comprehensive polish, the mechanism that closed
+  the gap is the one that will reopen it within days. Planning should keep using the 44–50%
+  band until a window shows the frontier column moving on its own.
