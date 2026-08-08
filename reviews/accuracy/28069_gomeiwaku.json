@@ -1,0 +1,24 @@
+{
+  "entry_id": "28069_gomeiwaku",
+  "headword": "ご{迷惑|めいわく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:22:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation misrepresents the Japanese. The Japanese asks for permission to guide, while the English asks for permission to be guided.",
+      "suggestion": "If it's not too much trouble, please let me guide you."
+    }
+  ]
+}

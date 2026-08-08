@@ -1,0 +1,24 @@
+{
+  "entry_id": "28327_bakuhatsuon",
+  "headword": "{爆発音|ばくはつおん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:26:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'sound' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

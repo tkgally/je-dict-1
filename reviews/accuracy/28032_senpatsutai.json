@@ -1,0 +1,24 @@
+{
+  "entry_id": "28032_senpatsutai",
+  "headword": "先発隊",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:21:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'military' is too narrow and misleading for '先発隊', which is used broadly in various contexts beyond just military operations.",
+      "suggestion": "general"
+    }
+  ]
+}

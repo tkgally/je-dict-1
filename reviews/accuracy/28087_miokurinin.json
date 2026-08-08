@@ -1,0 +1,31 @@
+{
+  "entry_id": "28087_miokurinin",
+  "headword": "{見送|みおく}り{人|にん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:22:45Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'people' is not in the valid tag list.",
+      "suggestion": "person"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'social' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

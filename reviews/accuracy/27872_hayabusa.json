@@ -1,0 +1,24 @@
+{
+  "entry_id": "27872_hayabusa",
+  "headword": "{隼|はやぶさ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:19:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'nature' is too broad for a specific animal.",
+      "suggestion": "animal-bird"
+    }
+  ]
+}

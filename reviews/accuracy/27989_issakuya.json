@@ -1,0 +1,31 @@
+{
+  "entry_id": "27989_issakuya",
+  "headword": "{一昨夜|いっさくや}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:21:02Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '一昨夜'. This word is common and neutral in everyday speech.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The semantic tag 'time' is too broad. A more specific tag is available.",
+      "suggestion": "time-general"
+    }
+  ]
+}

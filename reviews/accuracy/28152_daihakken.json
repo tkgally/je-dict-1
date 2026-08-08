@@ -1,0 +1,24 @@
+{
+  "entry_id": "28152_daihakken",
+  "headword": "{大発見|だいはっけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:23:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tag 'knowledge' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

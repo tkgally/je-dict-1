@@ -1,0 +1,24 @@
+{
+  "entry_id": "27986_maishuumatsu",
+  "headword": "{毎週末|まいしゅうまつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:20:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and not specific enough for '毎週末'.",
+      "suggestion": "time-general"
+    }
+  ]
+}

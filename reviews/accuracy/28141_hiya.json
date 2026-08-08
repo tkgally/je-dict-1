@@ -1,0 +1,24 @@
+{
+  "entry_id": "28141_hiya",
+  "headword": "{冷|ひ}や",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:23:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is inappropriate for '冷や' as it primarily refers to beverages (water, sake) rather than solid food items.",
+      "suggestion": "Replace 'food' with 'consumption' or 'drink'."
+    }
+  ]
+}

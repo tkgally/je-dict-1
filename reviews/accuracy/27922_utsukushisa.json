@@ -1,0 +1,24 @@
+{
+  "entry_id": "27922_utsukushisa",
+  "headword": "{美|うつく}しさ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:19:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word that specifically refers to 'beauty'.",
+      "suggestion": "Replace 'general' with 'appearance' or 'descriptive'."
+    }
+  ]
+}

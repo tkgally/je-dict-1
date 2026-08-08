@@ -1,0 +1,31 @@
+{
+  "entry_id": "28345_sachi",
+  "headword": "{幸|さち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:27:15Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is incorrect for the headword '幸' (sachi) itself. While 'sachi' can be used in expressions like '海の幸' (seafood) or '山の幸' (mountain produce), the word 'sachi' on its own does not mean 'food'. It means 'happiness' or 'bounty'. The 'food' aspect comes from the context of 'sea' or 'mountain' bounty, not from 'sachi' itself.",
+      "suggestion": "Remove the 'food' tag."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. The explanation for sense 1 states 'Rare in everyday speech but common in formal writing, classical poetry, and fixed expressions.' This indicates a more literary or archaic usage rather than strictly 'formal' in the sense of polite or official language. 'Literary' or 'archaic' would be more accurate, but since those are not valid tags, 'neutral' is the most appropriate fallback for a word that isn't inherently formal in register but rather in usage context.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

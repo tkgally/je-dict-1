@@ -1,0 +1,24 @@
+{
+  "entry_id": "28088_rittaishi",
+  "headword": "{立体視|りったいし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:22:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'perception' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

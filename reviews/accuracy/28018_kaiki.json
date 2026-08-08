@@ -1,0 +1,24 @@
+{
+  "entry_id": "28018_kaiki",
+  "headword": "会期",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:21:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading. The gloss clearly indicates a specific type of time period.",
+      "suggestion": "Replace 'time' with 'time-period'."
+    }
+  ]
+}

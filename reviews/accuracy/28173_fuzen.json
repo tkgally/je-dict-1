@@ -1,0 +1,24 @@
+{
+  "entry_id": "28173_fuzen",
+  "headword": "不全",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:24:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word primarily used in medical contexts for organ failure.",
+      "suggestion": "health"
+    }
+  ]
+}

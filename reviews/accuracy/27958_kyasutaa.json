@@ -1,0 +1,24 @@
+{
+  "entry_id": "27958_kyasutaa",
+  "headword": "キャスター",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-08T03:20:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword 'キャスター' has two distinct meanings, one of which is 'caster (wheel)', which is not an 'occupation'. The current tag 'occupation' only applies to the 'newscaster' meaning.",
+      "suggestion": "Add 'tool' or 'furniture' to the semantic tags to cover the 'caster (wheel)' meaning. 'tool' is more general and fits better."
+    }
+  ]
+}
