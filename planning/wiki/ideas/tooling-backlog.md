@@ -3862,6 +3862,80 @@ tilde measurement.** The 159-instance affix finding was produced by trying `X〜
 records. Both findings say the lookup's key space is narrower than its callers assume, and
 both were discovered by a caller working around it rather than by reading it.
 
+## 87. `review_accuracy.py` should run its own subranges in parallel
+
+**Source**: 2026-08-08 accuracy-review run, measured in-run.
+**Status**: open, well-evidenced, and the highest-leverage throughput item currently filed.
+
+The script runs at **~2.4 entries/min single-process**. The same run launched **four parallel
+processes over disjoint subranges and measured ~30 entries/min with no rate-limit errors** —
+better than 4× because the serial path is latency-bound, not quota-bound. At the single-process
+rate a 550-entry range costs ~4 hours of wall clock, which is what forces runs to stop mid-range
+to protect the wrap-up budget; at 30/min it is under 20 minutes.
+
+Build it into the script (`--workers N`, splitting the range into N contiguous chunks, each
+writing its own `reviews/accuracy/{id}.json`) rather than leaving each run to hand-roll it. The
+per-entry output files are independent, so there is no merge step and no shared state beyond the
+cost tally — which should be summed across workers before the ledger write.
+
+This is the same bound [item 84](#84-review_runnerpys-6-second-serial-rate-limit-is-what-bounds-an-accuracy-review-run)
+identified from the other side: 84 says the *furigana* pass is rate-limited by a hard-coded
+6-second interval, this says the *accuracy* pass is latency-limited by seriality. Together they
+explain why recent runs cover their whole range on the accuracy side and a fraction of it on the
+furigana side.
+
+## 88. `get_next_id.py` should print the target directory alongside the ID
+
+**Source**: 2026-08-08 new-entries run.
+**Status**: open, trivial, and it has already cost a session once.
+
+Entries 30495–30499 were written into `entries/30500/` before `validate.py` caught the mismatch.
+The ID/directory rule is "round *down* to the nearest 500", so an ID like 30495 belongs in
+`entries/30000/`, but the visual similarity of `304xx`/`305xx` to the directory name `30500`
+makes the wrong choice look right — and the trap is worst **exactly at a 500 boundary**, which is
+where new-entry batches inevitably sit as they extend the corpus.
+
+`get_entry_path.py` already computes this correctly. The fix is to have `get_next_id.py` print
+the directory it implies (`30495 → entries/30000/`) and, better, to warn when a batch of the
+requested size would cross a boundary. One line of output removes a class of error that
+currently depends on `validate.py` catching it after the files are written.
+
+## Updates 2026-08-08 (run 2) to existing items
+
+**Item 84 (`review_runner.py`'s 6-second rate limit) — a second, larger bound found:
+cross-pass concurrency starves the screener.** A 2026-08-08 run executed
+`review_runner.py --pass screening` and `review_accuracy.py` concurrently against the same
+OpenRouter model and measured screening at **67 entries in ~45 minutes (~1.2/min) versus ~19/min
+for the accuracy pass in the same window**. Screening recovered its normal rate as soon as it
+was the only job. So item 84's `RATE_LIMIT_INTERVAL = 6.0` is the *floor*; running a second pass
+on the same model is a larger and undocumented one. **Operational rule for §A until this is
+fixed: run the two passes sequentially, or point screening at a different model.** Note this
+interacts directly with new item 87 — parallelising the accuracy pass will make the starvation
+worse, so 87 should land with a shared throttle or distinct models, not on its own.
+
+**Item 47 (fields outside `examples`/`notes` fall through every furigana instrument) — third
+confirmed member, and this one arrived with 40 instances attached.**
+`check_stale_noentry.py`'s class R compares an inline link's *surface* furigana against the
+target entry's reading, and in doing so found 40 pairs of genuine furigana errors
+(来春/らいはる, 農作物/のうさくもつ, 墓石/はかいし, 完全試合/かんぜんしあい, 白和え/しろあえ,
+部屋干し/へやほし, 言い及ぶ as `{言|い}{及|およ}ぶ`). It found them **by accident** — it was built
+to detect stale `noentry` markers. Every one sits inside a `⟦…⟧` surface, which
+`find_missing_furigana.py` and the OpenRouter screener both read past. Filed as
+[Cleanup P49](cleanup-backlog.md#priority-49-wrong-furigana-inside-inline-link-surfaces-40-pairs--a-blind-spot-in-every-furigana-instrument);
+the durable fix is to fold link surfaces into the furigana instruments' input, not to hand-fix
+40 pairs and wait for the fourth member.
+
+**Items 5/6 (tag-drift detection) — the `domain` field needs the same treatment and cannot get
+it the same way.** The 2026-08-08 measurement of `domain` (3,593 instances / 3,278 entries,
+`business` alone 1,162) is described in
+[Cleanup Backlog → Updates 2026-08-08 run 2](cleanup-backlog.md#updates-2026-08-08-wiki-harvest-run-2).
+The tooling point: every instrument that made the `semantic` cleanup tractable keys on
+**off-vocabulary values**, and `domain` has no off-vocabulary values — all 3,593 are in
+`VALID_DOMAIN`. The only instrument in the project that could see the defect is the reviewer's
+`tags` dimension, which already judges a semantic tag against the *headword* rather than the
+example topics; extending its prompt to judge `domain` the same way is the cheap experiment, and
+should be tried on a 100-entry sample before anything is sized.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address

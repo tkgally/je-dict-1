@@ -1292,6 +1292,37 @@ a polish run's: **does the dictionary admit figure-form headwords at all?** It b
 on the number+counter scope question already routed to the curator (C22795 三十人), because
 both are asking when a numeral-containing string is entry-worthy and in what orthography.
 
+## Added 2026-08-08 (wiki harvest, run 2)
+
+**28655 `{高層建|こうそうだ}て` — two model passes read the headword differently, and the entry
+now hedges.** An accuracy-review run got directly contradictory readings from two passes: the
+construction *style* versus the *building itself*. The gloss was rewritten to cover both and the
+entry escalated to `reviews/needs_curator.txt`. Recorded here as well because the hedge is a
+holding action, not a resolution — the headword segmentation itself
+(`{高層建|こうそうだ}て` for 高層建て) is the thing to check first, since a wrapper spanning
+高層建 as a unit is unusual and may be what confused both passes.
+
+**The proper-noun scope question now has corpus evidence against the standing policy — third
+filing.** A curator note holds that "the dictionary holds no person or place names", and
+new-entries runs use it to reject candidates. The 2026-08-08 accuracy-review found the corpus
+disagrees: **28138 {横浜|よこはま}, 28139 {札幌|さっぽろ}, 28144 オーストラリア,
+28145 {青森県|あおもりけん}, 28283 イギリス, 28300 {中国|ちゅうごく}** are all live entries, and
+all six carried off-vocabulary `place-name`/`country` tags (migrated to `geography` in-run).
+Place names are therefore *in* the dictionary in practice while the policy says they are not.
+Two candidates are blocked on this and have been re-picked by successive runs: **C22806 夏目漱石**
+(personal name) and **C22820 成田**. The policy and the corpus need to be reconciled in one
+direction or the other; until then every new-entries run re-litigates it. **C22851 画期** is a
+separate and easier call — a bound morpheme occurring only in 画期的, which already exists as
+06826, so it should simply be dropped from the candidate list.
+
+**06830 {劇的|げきてき} — fixed in-run, but check its siblings.** The entry carried
+`domain: ["medical"]` although only one of its four examples is medical and the word is
+general-register; the tag was dropped. The shape is single-example contamination, identical to
+the P11 semantic drift, and `〜的` adjectives are a plausible cohort for it — they take their
+examples from whatever field the base noun suggests. See
+[Cleanup Backlog → Updates 2026-08-08 run 2](cleanup-backlog.md#updates-2026-08-08-wiki-harvest-run-2)
+for the corpus-wide `domain` measurement this belongs to.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
