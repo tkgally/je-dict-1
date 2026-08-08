@@ -832,3 +832,13 @@ All 20 observations cleared.)_
 - [pattern] The "seen in entry" candidate lane is now essentially drained (23 present at 2026-08-08, 18 turned into entries 30494–30511, 3 were duplicates of existing entries, 2 left as out-of-scope). Future new-entries runs will fall back to the general candidate pool until comprehensive polish refills this lane.
 - [entry] Two "seen in entry" candidates were left unbuilt as out-of-scope and need a curator ruling: C22806 夏目漱石 (a novelist's personal name — the dictionary carries place names such as 東京/大阪 but no personal names) and C22851 画期 (a bound morpheme that only occurs in 画期的, which already exists as 06826).
 - [tooling] `build/get_next_id.py` reports the next ID but nothing warns when the ID crosses a 500 boundary, so entries 30495–30499 were first written into `entries/30500/` (the block for 30500–30999) before `validate.py` caught the directory mismatch. `get_entry_path.py` computes this correctly; having `get_next_id.py` print the target directory alongside the ID would remove the trap.
+
+- [pattern] Entries created in the 06835–06841 block have fully-linked notes but **zero inline
+  links in their examples** (06835, 06837, 06838, 06839, 06840, 06841 all had bare example
+  sentences while their notes were linked). This looks like a creation-era batch signature rather
+  than random drift — a detector for "entry has ⟦…⟧ in notes but none in any example" would find
+  the rest of that block cheaply. (routine_2026-08-08_006)
+- [pattern] `domain: business` shows up on entries with no business character — 余白 (06838,
+  margins/aesthetics) and 逆転 (06839, sports comebacks) both carried it. Reads as a template
+  default rather than a judgment; worth a pass over `domain` tags the way check_tag_drift.py
+  handles `semantic`. (routine_2026-08-08_006)

@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "06839_gyakuten_ex1",
-      "japanese": "{立場|たちば}が{逆転|ぎゃくてん}した。",
+      "japanese": "⟦{立場|たちば}→立場：03403_tachiba⟧⟦が→が：00051_ga⟧{逆転|ぎゃくてん}⟦した→する：00392_suru⟧。",
       "english": "Our positions were reversed.",
       "sense_numbers": [
         1
@@ -117,7 +117,7 @@
     },
     {
       "id": "06839_gyakuten_ex2",
-      "japanese": "{形勢|けいせい}が{逆転|ぎゃくてん}して{劣勢|れっせい}になった。",
+      "japanese": "⟦{形勢|けいせい}→形勢：16342_keisei⟧⟦が→が：00051_ga⟧{逆転|ぎゃくてん}⟦して→する：00392_suru⟧⟦{劣勢|れっせい}→劣勢：08647_ressei⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "The situation reversed and we fell behind.",
       "sense_numbers": [
         1
@@ -125,7 +125,7 @@
     },
     {
       "id": "06839_gyakuten_ex3",
-      "japanese": "9{回|かい}{裏|うら}に{逆転|ぎゃくてん}ホームランを{打|う}った。",
+      "japanese": "9⟦{回|かい}→回：00957_kai⟧⟦{裏|うら}→裏：02178_ura⟧⟦に→に：00314_ni⟧{逆転|ぎゃくてん}⟦ホームラン→ホームラン：20814_hoomuran⟧⟦を→を：00422_wo⟧⟦{打|う}った→打つ：01221_utsu⟧。",
       "english": "He hit a come-from-behind home run in the bottom of the ninth.",
       "sense_numbers": [
         2
@@ -133,14 +133,14 @@
     },
     {
       "id": "06839_gyakuten_ex4",
-      "japanese": "{大逆転|だいぎゃくてん}{勝利|しょうり}を{収|おさ}めた。",
+      "japanese": "⟦{大逆転|だいぎゃくてん}→大逆転：21652_daigyakuten⟧⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦を→を：00422_wo⟧⟦{収|おさ}めた→収める：02022_osameru⟧。",
       "english": "They achieved a stunning comeback victory.",
       "sense_numbers": [
         2
       ]
     }
   ],
-  "notes": "{逆転|ぎゃくてん} describes a reversal of positions or situations.\n\nETYMOLOGY:\n{逆|ぎゃく} (reverse, opposite) + {転|てん} (turn) - turning to the opposite.\n\nCOMMON COLLOCATIONS:\n- {逆転|ぎゃくてん}する - to reverse, to make a comeback\n- {逆転|ぎゃくてん}{勝利|しょうり} - comeback victory\n- {逆転|ぎゃくてん}ホームラン - come-from-behind home run\n- {大逆転|だいぎゃくてん} - major turnaround\n- {形勢|けいせい}{逆転|ぎゃくてん} - tables turned\n\nUSAGE NOTE:\nVery common in sports commentary, especially baseball. Also used in business, politics, and everyday situations where positions or advantages change.\n\nSIMILAR WORDS:\n- {逆転|ぎゃくてん} vs. {転換|てんかん}: {逆転|ぎゃくてん} implies reversal to opposite; {転換|てんかん} is a change or shift (not necessarily opposite)\n- {逆転|ぎゃくてん} vs. カムバック: Similar in sports contexts; カムバック is the loanword",
+  "notes": "{逆転|ぎゃくてん} describes a reversal of positions or situations.\n\nETYMOLOGY:\n⟦{逆|ぎゃく}→逆：02649_gyaku⟧ (reverse, opposite) + {転|てん} (turn) - turning to the opposite.\n\nCOMMON COLLOCATIONS:\n- {逆転|ぎゃくてん}⟦する→する：00392_suru⟧ - to reverse, to make a comeback\n- {逆転|ぎゃくてん}⟦{勝利|しょうり}→勝利：11795_shouri⟧ - comeback victory\n- {逆転|ぎゃくてん}⟦ホームラン→ホームラン：20814_hoomuran⟧ - come-from-behind home run\n- ⟦{大逆転|だいぎゃくてん}→大逆転：21652_daigyakuten⟧ - major turnaround\n- ⟦{形勢|けいせい}→形勢：16342_keisei⟧{逆転|ぎゃくてん} - tables turned\n\nUSAGE NOTE:\nVery common in sports commentary, especially baseball. Also used in business, politics, and everyday situations where positions or advantages change.\n\nSIMILAR WORDS:\n- {逆転|ぎゃくてん} vs. ⟦{転換|てんかん}→転換：19439_tenkan⟧: {逆転|ぎゃくてん} implies reversal to the opposite; ⟦{転換|てんかん}→転換：19439_tenkan⟧ is a change or shift in direction, not necessarily to the opposite\n- {逆転|ぎゃくてん} vs. カムバック: Similar in sports contexts; カムバック is the loanword",
   "cross_references": [
     {
       "type": "related",
@@ -148,24 +148,50 @@
       "headword": "{敗退|はいたい}",
       "label": "defeat",
       "target_id": "06840_haitai"
+    },
+    {
+      "type": "related",
+      "target_id": "21652_daigyakuten",
+      "reading": "だいぎゃくてん",
+      "headword": "{大逆転|だいぎゃくてん}",
+      "label": "dramatic reversal"
+    },
+    {
+      "type": "related",
+      "target_id": "02649_gyaku",
+      "reading": "ぎゃく",
+      "headword": "{逆|ぎゃく}",
+      "label": "reverse, opposite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19439_tenkan",
+      "reading": "てんかん",
+      "headword": "{転換|てんかん}",
+      "label": "shift, conversion"
+    },
+    {
+      "type": "related",
+      "target_id": "11795_shouri",
+      "reading": "しょうり",
+      "headword": "{勝利|しょうり}",
+      "label": "victory"
     }
   ],
   "metadata": {
     "created": "2026-01-18T07:44:13Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-08-08T15:27:08Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun",
         "verb-suru"
       ],
-      "domain": [
-        "business"
-      ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "change"
+        "change",
+        "sports"
       ],
       "verb_class": "suru"
     }

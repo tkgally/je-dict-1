@@ -24,7 +24,7 @@
     },
     {
       "id": "04972_suihanki_ex2",
-      "japanese": "⟦この→この：00962_kono⟧{炊飯器|すいはんき}⟦は→は：00079_ha⟧⟦{三合|さんごう}→合：27628_gou⟧⟦{炊|だ}き→炊く：02127_taku⟧⟦です→です：09485_desu⟧。",
+      "japanese": "⟦この→この：00962_kono⟧{炊飯器|すいはんき}⟦は→は：00079_ha⟧⟦{三|さん}→三：00749_san⟧⟦{合|ごう}→合：27628_gou⟧⟦{炊|だ}き→炊く：02127_taku⟧⟦です→です：09485_desu⟧。",
       "english": "This rice cooker is a 3-cup model.",
       "notes": "{合|ごう} is the traditional unit for measuring rice",
       "has_audio": false,
@@ -63,11 +63,47 @@
       ]
     }
   ],
-  "notes": "An essential appliance in Japanese households. Types:\n- ⟦マイコン→マイコン：noentry⟧⟦{式|しき}→〜式：02000_shiki⟧ (microcomputer-controlled) - basic, affordable\n- IH⟦{式|しき}→〜式：02000_shiki⟧ (induction heating) - even heating, better quality\n- ⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧IH⟦{式|しき}→〜式：02000_shiki⟧ (pressure IH) - premium, fluffier rice\n- ⟦{土鍋|どなべ}→土鍋：07949_donabe⟧IH (clay pot IH) - mimics traditional cooking\n\nFeatures:\n- ⟦{保温|ほおん}→保温：17467_hoon⟧ (keep warm)\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦{炊飯|すいはん}→炊飯：13377_suihan⟧ (timer/scheduled cooking)\n- ⟦{早炊|はやだ}き→早炊き：noentry⟧ (quick cook)\n- ⟦{玄米|げんまい}→玄米：06100_genmai⟧モード (brown rice mode)\n- ⟦おかゆ→お粥：16857_okayu⟧モード (porridge mode)\n\nMajor Japanese brands: ⟦象印→象印：noentry⟧ (Zojirushi), ⟦タイガー→タイガー：noentry⟧ (Tiger), ⟦パナソニック→パナソニック：noentry⟧ (Panasonic), ⟦日立→日立：noentry⟧ (Hitachi), ⟦三菱→三菱：noentry⟧ (Mitsubishi).\n\nCapacity measured in ⟦{合|ごう}→合：27628_gou⟧: ⟦{三合炊|さんごうだ}き→三合炊き：noentry⟧ (3 cups), ⟦{五合炊|ごごうだ}き→五合炊き：noentry⟧ (5 cups), etc.",
-  "cross_references": [],
+  "notes": "An essential appliance in Japanese households. Types:\n- ⟦マイコン→マイコン：noentry⟧⟦{式|しき}→〜式：02000_shiki⟧ (microcomputer-controlled) - basic, affordable\n- IH⟦{式|しき}→〜式：02000_shiki⟧ (induction heating) - even heating, better quality\n- ⟦{圧力|あつりょく}→圧力：12014_atsuryoku⟧IH⟦{式|しき}→〜式：02000_shiki⟧ (pressure IH) - premium, fluffier rice\n- ⟦{土鍋|どなべ}→土鍋：07949_donabe⟧IH (clay pot IH) - mimics traditional cooking\n\nFeatures:\n- ⟦{保温|ほおん}→保温：17467_hoon⟧ (keep warm)\n- ⟦{予約|よやく}→予約：01522_yoyaku⟧⟦{炊飯|すいはん}→炊飯：13377_suihan⟧ (timer/scheduled cooking)\n- ⟦{早炊|はやだ}き→早炊き：noentry⟧ (quick cook)\n- ⟦{玄米|げんまい}→玄米：06100_genmai⟧モード (brown rice mode)\n- ⟦おかゆ→お粥：16857_okayu⟧モード (porridge mode)\n\nMajor Japanese brands: ⟦{象印|ぞうじるし}→象印：noentry⟧ (Zojirushi), ⟦タイガー→タイガー：noentry⟧ (Tiger), ⟦パナソニック→パナソニック：noentry⟧ (Panasonic), ⟦{日立|ひたち}→日立：noentry⟧ (Hitachi), ⟦{三菱|みつびし}→三菱：noentry⟧ (Mitsubishi).\n\nCapacity measured in ⟦{合|ごう}→合：27628_gou⟧: ⟦{三合炊|さんごうだ}き→三合炊き：noentry⟧ (3 cups), ⟦{五合炊|ごごうだ}き→五合炊き：noentry⟧ (5 cups), etc. A ⟦{五合炊|ごごうだ}き→五合炊き：noentry⟧ model is the standard size for a family.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13377_suihan",
+      "reading": "すいはん",
+      "headword": "{炊飯|すいはん}",
+      "label": "rice cooking"
+    },
+    {
+      "type": "related",
+      "target_id": "02127_taku",
+      "reading": "たく",
+      "headword": "{炊|た}く",
+      "label": "to cook (rice)"
+    },
+    {
+      "type": "related",
+      "target_id": "00776_gohan",
+      "reading": "ごはん",
+      "headword": "ご{飯|はん}",
+      "label": "cooked rice, meal"
+    },
+    {
+      "type": "related",
+      "target_id": "04966_kaden",
+      "reading": "かでん",
+      "headword": "{家電|かでん}",
+      "label": "home appliances"
+    },
+    {
+      "type": "see_also",
+      "target_id": "04973_denshirenji",
+      "reading": "でんしれんじ",
+      "headword": "{電子|でんし}レンジ",
+      "label": "microwave oven"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T12:52:12Z",
-    "modified": "2026-06-03T17:38:18Z",
+    "modified": "2026-08-08T15:21:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -77,7 +113,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "electronics",
+        "cooking"
       ]
     }
   }

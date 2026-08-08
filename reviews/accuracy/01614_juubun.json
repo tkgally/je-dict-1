@@ -2,23 +2,15 @@
   "entry_id": "01614_juubun",
   "headword": "{十分|じゅうぶん}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:50:45Z",
+  "reviewed_at": "2026-08-08T15:29:13Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "error",
-      "concern": "The translation 'Please be very careful.' for '十分気をつけてください。' misrepresents the nuance of 十分. While 'very' can sometimes be implied, '十分' here means 'sufficiently' or 'thoroughly' careful, not necessarily 'very'.",
-      "suggestion": "Please be sufficiently careful. / Please be thoroughly careful."
-    }
-  ]
+  "issues": []
 }

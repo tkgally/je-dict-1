@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06835_nakamahazure_ex1",
-      "japanese": "{彼女|かのじょ}は{仲間外|なかまはず}れにされている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{仲間外|なかまはず}れ⟦に→に：00314_ni⟧⟦されて→する：00392_suru⟧⟦いる→いる：00495_iru⟧。",
       "english": "She is being excluded from the group.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06835_nakamahazure_ex2",
-      "japanese": "{仲間外|なかまはず}れにされるのが{怖|こわ}い。",
+      "japanese": "{仲間外|なかまはず}れ⟦に→に：00314_ni⟧⟦される→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{怖|こわ}い→怖い：00864_kowai⟧。",
       "english": "I'm afraid of being left out.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "06835_nakamahazure_ex3",
-      "japanese": "{転校|てんこう}{直後|ちょくご}は{仲間外|なかまはず}れのように{感|かん}じた。",
+      "japanese": "⟦{転校|てんこう}→転校：03444_tenkou⟧⟦{直後|ちょくご}→直後：04525_chokugo⟧⟦は→は：00079_ha⟧{仲間外|なかまはず}れ⟦の→の：09472_no⟧⟦よう→よう：01114_you⟧⟦に→に：00314_ni⟧⟦{感|かん}じた→感じる：02044_kanjiru⟧。",
       "english": "Right after transferring schools, I felt like an outsider.",
       "sense_numbers": [
         1
@@ -38,14 +38,14 @@
     },
     {
       "id": "06835_nakamahazure_ex4",
-      "japanese": "{仲間外|なかまはず}れはいじめの{一種|いっしゅ}だ。",
+      "japanese": "{仲間外|なかまはず}れ⟦は→は：00079_ha⟧⟦いじめ→いじめ：09092_ijime⟧⟦の→の：09472_no⟧⟦{一種|いっしゅ}→一種：01628_isshu⟧⟦だ→だ：09496_da⟧。",
       "english": "Exclusion is a form of bullying.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "{仲間外|なかまはず}れ describes being excluded from a peer group.\n\nETYMOLOGY:\n{仲間|なかま} (peer group, companions) + {外|はず}れ (being off, deviation) - being outside the group.\n\nCOMMON COLLOCATIONS:\n- {仲間外|なかまはず}れにする - to exclude someone\n- {仲間外|なかまはず}れにされる - to be excluded (passive)\n- {仲間外|なかまはず}れにあう - to experience exclusion\n\nUSAGE NOTE:\nOften discussed in the context of school bullying ({いじめ}) in Japan. Deliberate exclusion from a group is considered a form of {いじめ}. The term emphasizes the social pain of not belonging.\n\nSIMILAR WORDS:\n- {仲間外|なかまはず}れ vs. いじめ: {仲間外|なかまはず}れ is a specific type of いじめ (exclusion-based)\n- {仲間外|なかまはず}れ vs. {疎外|そがい}: {仲間外|なかまはず}れ is colloquial, often about peers; {疎外|そがい} is more formal/abstract (alienation)",
+  "notes": "{仲間外|なかまはず}れ describes being excluded from a peer group.\n\nETYMOLOGY:\n⟦{仲間|なかま}→仲間：03498_nakama⟧ (peer group, companions) + ⟦{外|はず}れ→外れ：10487_hazure⟧ (being off, deviation) - being outside the group.\n\nCOMMON COLLOCATIONS:\n- {仲間外|なかまはず}れ⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ - to exclude someone\n- {仲間外|なかまはず}れ⟦に→に：00314_ni⟧⟦される→する：00392_suru⟧ - to be excluded (passive)\n- {仲間外|なかまはず}れ⟦に→に：00314_ni⟧⟦あう→合う：10466_au⟧ - to experience exclusion\n\nUSAGE NOTE:\nOften discussed in the context of school bullying (⟦いじめ→いじめ：09092_ijime⟧) in Japan. Deliberate exclusion from a group is considered a form of ⟦いじめ→いじめ：09092_ijime⟧. The term emphasizes the social pain of not belonging.\n\nSIMILAR WORDS:\n- {仲間外|なかまはず}れ vs. ⟦いじめ→いじめ：09092_ijime⟧: {仲間外|なかまはず}れ is a specific type of ⟦いじめ→いじめ：09092_ijime⟧ (exclusion-based)\n- {仲間外|なかまはず}れ vs. ⟦{疎外|そがい}→疎外：13553_sogai⟧: {仲間外|なかまはず}れ is colloquial, often about peers; ⟦{疎外|そがい}→疎外：13553_sogai⟧ is more formal/abstract (alienation)\n- {仲間外|なかまはず}れ vs. ⟦{孤立|こりつ}→孤立：12229_koritsu⟧: ⟦{孤立|こりつ}→孤立：12229_koritsu⟧ is being cut off from others for any reason (including geography or circumstance); {仲間外|なかまはず}れ is specifically excluded *by* a group",
   "cross_references": [
     {
       "type": "antonym",
@@ -60,23 +60,44 @@
       "headword": "いじめ",
       "label": "bullying",
       "target_id": "09092_ijime"
+    },
+    {
+      "type": "related",
+      "target_id": "03498_nakama",
+      "reading": "なかま",
+      "headword": "{仲間|なかま}",
+      "label": "companion, peer group"
+    },
+    {
+      "type": "related",
+      "target_id": "13553_sogai",
+      "reading": "そがい",
+      "headword": "{疎外|そがい}",
+      "label": "alienation (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "12229_koritsu",
+      "reading": "こりつ",
+      "headword": "{孤立|こりつ}",
+      "label": "isolation"
     }
   ],
   "metadata": {
     "created": "2026-01-18T07:42:24Z",
-    "modified": "2026-02-03T14:48:46Z",
+    "modified": "2026-08-08T15:24:36Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
+      "formality": "informal",
       "domain": [
         "colloquial"
       ],
       "politeness": "plain",
       "semantic": [
-        "general"
+        "society"
       ]
     }
   }
