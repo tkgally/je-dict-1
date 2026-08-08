@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:09:42Z",
+  "reviewed_at": "2026-08-08T15:29:23Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'geography' is incorrect for the headword '敗退' (defeat, elimination).",
-      "suggestion": "Replace 'geography' with 'sports' or 'action'."
+      "concern": "The semantic tag 'sports' is too narrow for the headword's meaning, which applies to any competition or contest, not just sports.",
+      "suggestion": "Add 'general' or 'competition' (if 'competition' were a valid tag, but it's not, so 'general' is the best fit from the list) to reflect the broader applicability of the word."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The English translation for example 3 uses 'losing the election' which is correct, but the Japanese '敗退' in this context implies not just losing, but being eliminated or forced to withdraw from the political arena as a result of that loss, which is not fully captured by 'losing the election'.",
+      "suggestion": "The translation should reflect the 'elimination' or 'withdrawal' aspect more clearly, e.g., 'He retired from politics after being defeated in the election' or 'He retired from politics after his defeat in the election'."
     }
   ]
 }

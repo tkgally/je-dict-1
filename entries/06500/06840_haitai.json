@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06840_haitai_ex1",
-      "japanese": "{準決勝|じゅんけっしょう}で{敗退|はいたい}した。",
+      "japanese": "⟦{準決勝|じゅんけっしょう}→準決勝：04911_junkesshou⟧⟦で→で：00502_de⟧{敗退|はいたい}⟦した→する：00392_suru⟧。",
       "english": "They were eliminated in the semifinals.",
       "sense_numbers": [
         1
@@ -112,7 +112,7 @@
     },
     {
       "id": "06840_haitai_ex2",
-      "japanese": "{優勝候補|ゆうしょうこうほ}がまさかの{一回戦|いっかいせん}{敗退|はいたい}。",
+      "japanese": "⟦{優勝|ゆうしょう}→優勝：03647_yuushou⟧⟦{候補|こうほ}→候補：02804_kouho⟧⟦が→が：00051_ga⟧⟦まさか→まさか：03732_masaka⟧⟦の→の：09472_no⟧⟦{一回戦|いっかいせん}→一回戦：08960_ikkaisen⟧{敗退|はいたい}。",
       "english": "The tournament favorite was shockingly eliminated in the first round.",
       "sense_numbers": [
         1
@@ -120,7 +120,7 @@
     },
     {
       "id": "06840_haitai_ex3",
-      "japanese": "ワールドカップで{予選|よせん}{敗退|はいたい}となった。",
+      "japanese": "⟦ワールドカップ→ワールドカップ：27456_waarudokappu⟧⟦で→で：00502_de⟧⟦{予選|よせん}→予選：04745_yosen⟧{敗退|はいたい}⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧。",
       "english": "They were knocked out in the World Cup qualifiers.",
       "sense_numbers": [
         1
@@ -128,14 +128,14 @@
     },
     {
       "id": "06840_haitai_ex4",
-      "japanese": "{選挙|せんきょ}で{敗退|はいたい}して{政界|せいかい}を{引退|いんたい}した。",
+      "japanese": "⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦で→で：00502_de⟧{敗退|はいたい}⟦して→する：00392_suru⟧⟦{政界|せいかい}→政界：15196_seikai⟧⟦を→を：00422_wo⟧⟦{引退|いんたい}→引退：01848_intai⟧⟦した→する：00392_suru⟧。",
       "english": "He retired from politics after losing the election.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "{敗退|はいたい} means being defeated and leaving a competition.\n\nETYMOLOGY:\n{敗|はい} (defeat) + {退|たい} (withdraw) - defeated and withdrawing.\n\nCOMMON COLLOCATIONS:\n- {敗退|はいたい}する - to be eliminated, to lose and exit\n- {一回戦|いっかいせん}{敗退|はいたい} - first-round elimination\n- {予選|よせん}{敗退|はいたい} - elimination in qualifiers\n- まさかの{敗退|はいたい} - unexpected defeat\n\nUSAGE NOTE:\nCommonly used in sports, tournaments, and elections. Implies not just losing a single match but being knocked out of the overall competition.\n\nSIMILAR WORDS:\n- {敗退|はいたい} vs. {敗北|はいぼく}: {敗退|はいたい} implies exit from competition; {敗北|はいぼく} is defeat in general (may continue)\n- {敗退|はいたい} vs. {脱落|だつらく}: Both mean dropping out; {敗退|はいたい} is due to defeat, {脱落|だつらく} can be for other reasons",
+  "notes": "{敗退|はいたい} means being defeated and leaving a competition.\n\nETYMOLOGY:\n{敗|はい} (defeat) + {退|たい} (withdraw) - defeated and withdrawing.\n\nCOMMON COLLOCATIONS:\n- {敗退|はいたい}⟦する→する：00392_suru⟧ - to be eliminated, to lose and exit\n- ⟦{一回戦|いっかいせん}→一回戦：08960_ikkaisen⟧{敗退|はいたい} - first-round elimination\n- ⟦{予選|よせん}→予選：04745_yosen⟧{敗退|はいたい} - elimination in qualifiers\n- ⟦まさか→まさか：03732_masaka⟧⟦の→の：09472_no⟧{敗退|はいたい} - a defeat nobody saw coming\n\nUSAGE NOTE:\nCommonly used in sports, tournaments, and elections. Implies not just losing a single match but being knocked out of the overall competition.\n\nSIMILAR WORDS:\n- {敗退|はいたい} vs. ⟦{敗北|はいぼく}→敗北：12872_haiboku⟧: {敗退|はいたい} implies exit from the competition; ⟦{敗北|はいぼく}→敗北：12872_haiboku⟧ is defeat in general, after which the contest may go on\n- {敗退|はいたい} vs. ⟦{脱落|だつらく}→脱落：23109_datsuraku⟧: both mean dropping out; {敗退|はいたい} is specifically through defeat, while ⟦{脱落|だつらく}→脱落：23109_datsuraku⟧ can be for any reason (injury, withdrawal, falling behind)",
   "cross_references": [
     {
       "type": "related",
@@ -150,11 +150,25 @@
       "headword": "{敗北|はいぼく}",
       "label": "defeat",
       "target_id": "12872_haiboku"
+    },
+    {
+      "type": "related",
+      "target_id": "23109_datsuraku",
+      "reading": "だつらく",
+      "headword": "{脱落|だつらく}",
+      "label": "dropping out"
+    },
+    {
+      "type": "antonym",
+      "target_id": "03647_yuushou",
+      "reading": "ゆうしょう",
+      "headword": "{優勝|ゆうしょう}",
+      "label": "winning the championship"
     }
   ],
   "metadata": {
     "created": "2026-01-18T07:44:43Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-08-08T15:27:54Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

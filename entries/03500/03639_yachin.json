@@ -24,7 +24,7 @@
     },
     {
       "id": "03639_yachin_ex2",
-      "japanese": "⟦{東京|とうきょう}→東京：noentry⟧⟦は→は：00079_ha⟧{家賃|やちん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦は→は：00079_ha⟧{家賃|やちん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "Rent is expensive in Tokyo.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03639_yachin_ex3",
-      "japanese": "{家賃|やちん}⟦は→は：00079_ha⟧⟦{月|つき}→月：noentry⟧⟦に→に：00314_ni⟧10⟦{万円|まんえん}→〜万円：noentry⟧⟦です→です：09485_desu⟧。",
+      "japanese": "{家賃|やちん}⟦は→は：00079_ha⟧⟦{月|つき}→月：02230_tsuki⟧⟦に→に：00314_ni⟧10⟦{万円|まんえん}→万円：09900_manen⟧⟦です→です：09485_desu⟧。",
       "english": "The rent is 100,000 yen per month.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03639_yachin_ex5",
-      "japanese": "{家賃|やちん}⟦を→を：00422_wo⟧3か⟦{月|げつ}→〜月：noentry⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧してしまい、⟦{大家|おおや}→大家：01907_ooya⟧さん⟦から→から：00504_kara⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
+      "japanese": "{家賃|やちん}⟦を→を：00422_wo⟧3⟦か{月|げつ}→ヶ月：00956_kagetsu⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧してしまい、⟦{大家|おおや}→大家：01907_ooya⟧さん⟦から→から：00504_kara⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I fell three months behind on rent and received a warning from the landlord.",
       "notes": "{家賃|やちん}⟦を→を：00422_wo⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧する = to be behind on rent; ⟦{大家|おおや}→大家：01907_ooya⟧ = landlord",
       "has_audio": false,
@@ -63,10 +63,47 @@
       ]
     }
   ],
-  "notes": "USAGE: {家賃|やちん} specifically refers to residential rent. For office or commercial rent, 賃貸料 or テナント料 may be used.\n\nCOMMON PATTERNS:\n・{家賃|やちん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay rent)\n・{家賃|やちん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{安|やす}い→安い：00464_yasui⟧ (rent is expensive/cheap)\n・{家賃|やちん}⟦を→を：00422_wo⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧する (to be behind on rent)\n・{家賃|やちん}⟦{込|こ}み→〜込み：noentry⟧ (rent inclusive)",
+  "notes": "USAGE: {家賃|やちん} is the everyday word for residential rent — what a tenant pays a ⟦{大家|おおや}→大家：01907_ooya⟧ each month for a house or apartment. In contracts, and for office or commercial space, the more formal ⟦{賃料|ちんりょう}→賃料：30029_chinryou⟧ or ⟦テナント→テナント：23088_tenanto⟧⟦{料|りょう}→料：28172_ryou⟧ is used instead.\n\nCOMMON PATTERNS:\n・{家賃|やちん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay rent)\n・{家賃|やちん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{安|やす}い→安い：00464_yasui⟧ (rent is expensive/cheap)\n・{家賃|やちん}⟦を→を：00422_wo⟧⟦{滞納|たいのう}→滞納：09323_tainou⟧する (to be behind on rent)\n・{家賃|やちん}⟦{込|こ}み→込み：28615_komi⟧ (rent included, e.g. in a quoted total)\n\nRELATED COSTS: when you sign a lease you normally also pay ⟦{敷金|しききん}→敷金：06079_shikikin⟧ (a refundable security deposit) and ⟦{礼金|れいきん}→礼金：06080_reikin⟧ (non-refundable key money) on top of the first month's {家賃|やちん}.",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "30029_chinryou",
+      "reading": "ちんりょう",
+      "headword": "{賃料|ちんりょう}",
+      "label": "rent (formal/legal term)"
+    },
+    {
+      "type": "related",
+      "target_id": "01907_ooya",
+      "reading": "おおや",
+      "headword": "{大家|おおや}",
+      "label": "landlord, landlady"
+    },
+    {
+      "type": "related",
+      "target_id": "06079_shikikin",
+      "reading": "しききん",
+      "headword": "{敷金|しききん}",
+      "label": "security deposit"
+    },
+    {
+      "type": "related",
+      "target_id": "06080_reikin",
+      "reading": "れいきん",
+      "headword": "{礼金|れいきん}",
+      "label": "key money"
+    },
+    {
+      "type": "related",
+      "target_id": "06081_chintai",
+      "reading": "ちんたい",
+      "headword": "{賃貸|ちんたい}",
+      "label": "rental, lease"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T16:01:00Z",
-    "modified": "2026-05-26T19:11:30Z",
+    "modified": "2026-08-08T15:19:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -76,7 +113,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "money",
+        "daily-life"
       ]
     }
   }

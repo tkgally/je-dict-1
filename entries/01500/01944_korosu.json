@@ -99,7 +99,7 @@
     },
     {
       "id": "01944_korosu_ex9",
-      "japanese": "⟦{個性|こせい}→個性：11536_kosei⟧⟦を→を：00422_wo⟧{殺|ころ}してはいけない。",
+      "japanese": "⟦{個性|こせい}→個性：11536_kosei⟧⟦を→を：00422_wo⟧{殺|ころ}して⟦は→は：00079_ha⟧⟦いけない→いけない：02335_ikenai⟧。",
       "english": "You shouldn't suppress your individuality.",
       "notes": null,
       "has_audio": false,
@@ -118,11 +118,40 @@
       ]
     }
   ],
-  "notes": "{殺|ころ}す is a transitive godan verb with both literal and figurative meanings.\n\nTRANSITIVITY:\n⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive) - takes ⟦を→を：00422_wo⟧ for the object.\n\nLITERAL MEANING (Sense 1):\nTo kill, cause death. Used for people, animals, insects, bacteria, etc.\n\nFIGURATIVE MEANING (Sense 2):\nTo suppress, deaden, or restrain something.\n\nCOMMON EXPRESSIONS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{殺|ころ}す: to kill time\n- ⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧{殺|ころ}す: to suppress one's voice\n- ⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧{殺|ころ}す: to hold one's breath\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦を→を：00422_wo⟧{殺|ころ}す: to suppress emotions\n\nRELATED WORDS:\n- ⟦{殺人|さつじん}→殺人：13236_satsujin⟧: murder, homicide\n- {殺|ころ}される: to be killed (passive)",
-  "cross_references": [],
+  "notes": "{殺|ころ}す is a transitive godan verb with both literal and figurative meanings.\n\nTRANSITIVITY:\n⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive) - takes ⟦を→を：00422_wo⟧ for the object.\n\nLITERAL MEANING (Sense 1):\nTo kill, cause death. Used for people, animals, insects, bacteria, etc.\n\nFIGURATIVE MEANING (Sense 2):\nTo suppress, deaden, or restrain something.\n\nCOMMON EXPRESSIONS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{殺|ころ}す: to kill time\n- ⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧{殺|ころ}す: to suppress one's voice\n- ⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧{殺|ころ}す: to hold one's breath\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦を→を：00422_wo⟧{殺|ころ}す: to suppress emotions\n\nRELATED WORDS:\n- ⟦{殺人|さつじん}→殺人：13236_satsujin⟧: murder, homicide\n- ⟦{自殺|じさつ}→自殺：03336_jisatsu⟧: suicide\n- {殺|ころ}される: to be killed (passive)\n- ⟦{死|し}ぬ→死ぬ：00669_shinu⟧: to die (the intransitive event; {殺|ころ}す names the agent who causes it)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00669_shinu",
+      "reading": "しぬ",
+      "headword": "{死|し}ぬ",
+      "label": "to die"
+    },
+    {
+      "type": "related",
+      "target_id": "13236_satsujin",
+      "reading": "さつじん",
+      "headword": "{殺人|さつじん}",
+      "label": "murder, homicide"
+    },
+    {
+      "type": "related",
+      "target_id": "03336_jisatsu",
+      "reading": "じさつ",
+      "headword": "{自殺|じさつ}",
+      "label": "suicide"
+    },
+    {
+      "type": "antonym",
+      "target_id": "00895_tasukeru",
+      "reading": "たすける",
+      "headword": "{助|たす}ける",
+      "label": "to help, to save"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:10:50Z",
-    "modified": "2026-05-17T18:34:05Z",
+    "modified": "2026-08-08T15:18:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
