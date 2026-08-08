@@ -1,6 +1,6 @@
 # Furigana Wrapper Anomalies
 
-**Last updated**: 2026-07-29
+**Last updated**: 2026-08-08 (the pipe-less-brace detector rule proposed in June is measured and **retired**: 931 of its 931 findings are a mention-quoting convention, not wrappers — see "The brace is also a mention-quote". Its sibling rule, unbalanced braces, is sized at **34 instances / 33 entries** and is a genuine live-site defect.)
 
 ## Overview
 
@@ -208,6 +208,88 @@ kanji wrapped (`{丸|まる}ノコ`), and this is easy to miss because the surro
 English: the eye reads the Japanese fragment as a citation form rather than as text that
 the furigana rules apply to. Worth remembering whenever an entry documents orthographic
 variants — the variant list is prose, and prose is in scope.
+
+## The brace is also a mention-quote — and it is not documented anywhere (measured 2026-08-08)
+
+Since 2026-06-17 the [Tooling Backlog](../ideas/tooling-backlog.md) item 8 has carried two
+proposed enhancements to `check_furigana_format.py`, both prompted by a single entry
+(`06147_jiboujiki`, which really did contain both shapes):
+
+- **(a)** flag any `{` … `}` span whose interior contains no `|`
+- **(b)** flag any field whose `{` and `}` counts are unequal
+
+Neither was ever sized. Running both over the whole corpus splits them decisively: **one is
+ready to ship and the other should be deleted from the backlog.**
+
+### Rule (b): unbalanced braces — 34 instances / 33 entries, and visibly broken
+
+Real, bounded, and deterministic. The imbalance runs **both ways** — some fields drop a `}`
+(`04471`, `09020`, `09801`), others carry an extra one (`08385`, `11708`, `12060`) — so the
+fix is not a single regex but it is a single sitting. Two things make this the highest-value
+item on this page:
+
+1. **It is visible on the live site.** `08385`'s rendered page reads
+   `…{引|ひ}き{継|つ}ぎ} tends to be used for…` → **"ぎ} tends to be used for"**, a literal
+   brace in running English prose. This is not the "mostly invisible" class the rest of this
+   page describes.
+2. **It can corrupt an inline link, not just display.** `04471` contains
+   `かき{混→かき{混：noentry⟧|ま}ぜ` — a furigana wrapper and a `⟦…⟧` link interleaved into each
+   other. Neither structure survives; the link is unrecoverable without re-authoring.
+
+Fields: 20 in `notes`, 14 in `examples[].japanese`. No cursor, no sampling, no priority order
+needed — 33 files.
+
+### Rule (a): pipe-less spans — 931 instances, and ~100% of them are a convention
+
+The rule fires 931 times across 623 entries. It decomposes into four populations, and **none
+of them is the defect the rule was written to catch**:
+
+| Population | Instances | Entries | What it is |
+|---|---:|---:|---|
+| Kana-only, in `notes`/`explanation` prose | 855 | 574 | **Mention-quoting** |
+| Grouping wrapper nesting a valid `{X\|Y}` | 168 | 128 | Convention (`{お{正月\|しょうがつ}}`) |
+| Kanji, in `notes` prose | 54 | 40 | **Mention-quoting** a character |
+| Kana-only, inside a `⟦…⟧` link surface | 22 | 20 | Display slot; P24-adjacent |
+| `{WO}`/`{NI}` pattern placeholders | 7 | 4 | Convention (pattern notation) |
+
+The two large populations are the same thing: **the brace is being used as a quotation mark
+around a linguistic object under discussion**, exactly as an English style guide would
+italicise a mentioned word. The samples are unambiguous:
+
+- `The reading {じゅうぶん} means 'enough' while {じゅっぷん/じっぷん} means '10 minutes'` (01614)
+- `Usually read as {だて}, sometimes {たて}` (02002)
+- `The kanji {匂} is used for general smells, while {臭} specifically refers to bad ones` (00319)
+- `The distinction {制作} vs {製作} is frequently confused` (23765)
+- `- {〜て}たまらない: So ~ that one can't stand it` (03409, grammar-pattern notation)
+
+For the kanji cases a reading would frequently be **wrong to add**: 00319 exists to contrast
+匂 and 臭, which share the reading にお — annotating them would erase the distinction the note
+is making. This is why the rule cannot be rescued with a "flag only spans containing kanji"
+refinement, which was the obvious first repair and the one this measurement was expected to
+recommend.
+
+### The actual finding: an undocumented convention generates recurring false detectors
+
+Roughly **1,084 spans** across the corpus use braces for mention-quoting, and the convention
+appears in **no skill, no schema, and not in `CLAUDE.md`**. Its absence is not cosmetic — it
+is the direct cause of a recurring failure mode:
+
+> Three separate sessions across two months (2026-06-17, 2026-06-20, and the 2026-08-07 polish
+> run that filed the 06824 stray-brace observation) have proposed detectors against this
+> convention, because a reader encountering `{だて}` in a notes field and knowing only the
+> documented rule — "furigana notation is `{漢字|かんじ}`" — correctly concludes it is malformed.
+
+The fix is documentation, not tooling. `CLAUDE.md` and the `vocabulary-notes` skill state that
+all kanji must carry furigana but say nothing about what a brace means when it has no pipe.
+Writing the convention down is what stops the fourth detector proposal — and it is cheaper
+than the detector would have been.
+
+One caveat worth carrying: mention-quoting braces and furigana wrappers are **the same
+delimiter doing two jobs**, which is a latent ambiguity. `{匂}` is a mention; `{匂|にお}` is a
+wrapper; a future author adding a reading to a mention silently changes it into an annotation.
+If the project ever wants to disambiguate, the moment to do it is before the count grows past
+1,084 — but the cost of the migration is almost certainly higher than the cost of the
+ambiguity, so the recommendation here is to document, not to migrate.
 
 ## Implications for je-dict-1
 

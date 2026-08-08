@@ -1238,6 +1238,60 @@ same one-word-two-entries shape, and it is also the source of a
   worked example — when both the declared target and the detector's proposal are wrong, the
   answer is usually a fourth entry rather than `noentry`.
 
+## Added 2026-08-08 (wiki harvest)
+
+### The five furigana wrappers whose reading does not match the wrapped kana
+
+A 2026-08-07 accuracy-review run found `27447` carrying `{弟|おとうと}{さん|くん}` — ruby くん over
+the kana さん, where the intended text was 弟くん — and proposed tightening
+`check_furigana_format.py` to separate "kana wrapped with its own reading" (cosmetic) from
+"kana wrapped with a *different* reading" (a real content error). **Measured: the second class
+is 5 instances corpus-wide** (against 339 cosmetic), and 27447 is not among them because that
+run fixed it. A five-item list is a fix-on-sight batch, not a detector — and the five are not
+even one class:
+
+| Entry | Instance | What it actually is |
+|---|---|---|
+| 23394 `二枚貝` | `{カキ\|がき}` | Oyster かき given the rendaku form がき, stranded from a compound |
+| 28929 `苦悶` | `{に\|み}` | **A dropped kanji**: 苦悶に満ちた声 lost the 満 from `{満\|み}ちた` |
+| 00961 `ここ` | `{どこ\|}` | Empty reading slot |
+| 23799 `野宿` | `{キャンプ\|}` | Empty reading slot |
+| 25376 `循環する` | `{うまく\|}` | Empty reading slot |
+
+The proposed detector category would have **mislabelled the most serious one**: 28929 is not a
+mis-wrapped kana at all but a kanji deletion that happens to leave a well-formed-looking
+wrapper behind. Three of the remaining four are a third shape — `{X|}`, empty after the pipe —
+which is the degenerate form the [P9 update of 2026-06-20](cleanup-backlog.md) flagged as an
+open question about whether the detector sees it. It does not, and at scope 3 it does not need
+to.
+
+### 00823_wakai / 01525_wakai — 若い held by two entries
+
+Both entries have headword `{若|わか}い`, reading わかい, and the gloss "young". Surfaced twice
+independently by 2026-08-07 polish runs, both times via `word_id_lookup.json` returning two
+identical-looking hits while linking a frontier entry. Note the pair is already implicated
+elsewhere on this page's sibling analysis: `01525_wakai` is the entry
+[Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md) records as **missing its
+i-adjective conjugation table** because `{若い|わかい}` over-wraps the okurigana and
+`add_adjective_conjugations.py` cannot extract the stem. Whichever entry survives
+consolidation, the surviving headword must be `{若|わか}い` or the conjugation table will still
+not generate. Candidate for `consolidate_entries.md` / `resolve-duplicates`; add to the
+`entry-pair-consolidation` queue item.
+
+### 02005_nikui / 02458_nikui — にくい held by two entries
+
+Same shape, found in the same run: both glossed "hard to ~, difficult to ~". Add to
+`entry-pair-consolidation`.
+
+### 30493 {百十番|ひゃくとおばん} — a figure-form headword written in kanji
+
+Created by a 2026-08-07 new-entries run because `01393_keisatsu` referenced it as
+`⟦{百十番|ひゃくとおばん}→百十番：noentry⟧`. The standard orthography is **110番**. The entry and the
+inline link have to be revisited together — and the underlying question is the curator's, not
+a polish run's: **does the dictionary admit figure-form headwords at all?** It bears directly
+on the number+counter scope question already routed to the curator (C22795 三十人), because
+both are asking when a numeral-containing string is entry-worthy and in what orthography.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

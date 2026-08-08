@@ -747,27 +747,70 @@ Also filed: **new Cleanup P43** (the 06800–07100 block measured at 288 of 301 
 
 All 39 observations cleared.)_
 
-## 2026-08-07 — routine(polish), claude/determined-rubin-rltni4
+## 2026-08-08 (routine wiki harvest — all prior observations cleared)
 
-- [tooling] **Stale `noentry` markers are a measurable, cheaply-detectable family.** Three of the eight priority-lane entries this run carried `⟦X→X：noentry⟧` markers whose target entry now exists: 01332 `キャラクター` → `23518_kyarakutaa`, 01447 `{全|ぜん}` → `28337_zen` (as `全〜`), 01745 `リビングルーム` → `28876_ribinguruumu`. These were correct when written and rotted as the dictionary grew. A read-only detector — scan every `：noentry⟧` marker, look the base form up in `build/word_id_lookup.json` by headword *and* reading, report the resolvable ones — would turn this into a one-pass systemic-fix batch instead of an incidental catch. Note the `全〜`/`〜的` shape: the base form in the marker is bare (`全`) but the entry headword carries a tilde (`全〜`), so the lookup must try both.
-- [pattern] **The `notes` priority list keeps surfacing entries whose real defect is empty `cross_references`.** All 8 priority-lane entries this run (01080, 01332, 01385, 01393, 01447, 01606, 01706, 01745) had `"cross_references": []` while their notes already named 2–4 obvious neighbours in prose ("RELATED TERMS:", "SIMILAR WORDS:", "CONTRAST"). The notes are not thin — they are good, which is why `score_note_quality` ranks them low for the wrong reason (this is the same blind spot recorded as P42). The extractable signal is concrete: a note section headed RELATED/SIMILAR/CONTRAST whose linked entry IDs do **not** appear in `cross_references` is a near-certain missing cross-reference, and the inline links already carry the target IDs.
-- [entry] **00823_wakai and 01525_wakai are a duplicate pair** — same headword {若|わか}い, same reading わかい, same gloss "young". Surfaced by `word_id_lookup.json` returning two identical-looking hits while linking 06815. Candidate for `consolidate_entries.md` / `resolve-duplicates`.
-- [pattern] **Cleanup P43 (06800–07100 zero-link block) confirmed at the frontier.** All seven frontier entries this run (06813–06819) had literally zero inline links in examples *and* notes, matching the 96% figure the 2026-08-06 wiki run measured. Cost per entry is roughly 4× a normal frontier entry (one lookup batch of 20–35 words, then a whole-file rewrite). Batching the lookups (one `by_reading`/`by_headword` query for the whole entry, then a single scripted write) is what made seven entries affordable; per-word `Edit` calls would not have.
+_(Harvested by the 2026-08-08 routine `wiki` run: all **20** loose observations from the two
+2026-08-07 polish runs (priority + frontier lanes) and the 2026-08-07 accuracy-review run.
+**Three premises were measured against the whole corpus before filing, and all three changed
+their item — one of them by retiring it.**
 
-## 2026-08-07 — routine(accuracy-review), claude/determined-rubin-1nnj89
+- **"a tightened detector could separate cosmetic kana wrappers from ones whose reading is
+  actually wrong"** (from 27447's `{弟|おとうと}{さん|くん}`) — measured at **5 instances
+  corpus-wide** against 339 cosmetic, and they are three different shapes, not one: two genuine
+  wrong readings (23394 `{カキ|がき}`, 28929 `{に|み}`) and three empty reading slots (`{X|}`).
+  The proposed category would have **mislabelled the worst of the five**: 28929 is not a
+  mis-wrapped kana but a **dropped kanji** — 苦悶に満ちた声 lost the 満 out of `{満|み}ちた` —
+  which leaves a well-formed-looking wrapper behind. Filed as a fix-on-sight list in
+  **Entry Follow-ups**, not a detector.
 
-- [pattern] **The off-vocabulary semantic-tag block is 77% clearable from the reviewer's own output, and the residue has a single named shape.** Measured on 27314–27850: 239 off-vocab instances across 201 of 537 entries (91 distinct names) — the same density the 2026-08-06 whole-corpus scan found (2,530 entries). Two mechanical steps cleared 183 of them: `check_tag_drift.TAG_MIGRATION`'s 9-name 1:1 map (45 instances / 46 entries), then the reviewer's per-entry `suggestion` field (138 instances / 126 entries), which confirms Tooling 46 — the reviewer *is* the per-entry migration-map generator. The residue is 55 instances / 51 entries and is almost entirely **the taxonomy gap**: `place`/`places`/`location`/`object`/`objects`/`state`/`manner`/`degree`/`disaster`/`modality`, i.e. exactly the block the wiki measured at 322 instances corpus-wide. **Two guards are load-bearing and should be written into any future sweep**: (a) refuse any migration whose destination is `general` — 13 flags here proposed exactly that, and applying them would have manufactured the sole-`general` defect that P13/`check_tag_drift` separately hunts; (b) override the reviewer where it maps a *substance* noun to an *act* tag (`drink`→`consumption` ×4; `food` is correct). A scripted sweep with those two guards plus a printed source→dest table for eyeball review is a genuinely batch-ready systemic-fix item.
-- [tooling] **The 41%-flag rate on this range is real debt, not reviewer noise — the 20% noise heuristic misreads a tag-contaminated block.** 221 of 534 entries came back flagged, which §A step 4 says to treat as reviewer noise. It is not: 234 of the 257 issues are tag flags, and 156 of those correctly report a tag that is genuinely absent from `VALID_SEMANTIC`. The heuristic needs a carve-out: **compute the flag rate per dimension after removing off-vocab tag flags**, which here gives gloss 18/534 (3.4%) and translation 5/534 (0.9%) — precisely the 4–13% error-severity band the prompt already predicts. Precision this run: gloss 6 applied / 12 rejected, translation 3 applied / 2 rejected, furigana 2 applied / 22 rejected.
-- [tooling] **Screening parse failures measured at 2.1%, and `review_runner.py`'s serial 6 s rate limit is what bounds an accuracy-review run — not dollars.** 7 of 332 screened entries returned `"Parse failure"` (27371, 27386, 27562, 27595, 27601, 27632, 27643), consistent with the ~4% recorded against Tooling 73. Throughput is the real constraint: screening managed **~6.6 entries/min** (332 in 50 min, killed by its own `timeout`), while `review_accuracy.py` — same model, no inter-request sleep — managed **~19/min** (534 in 28 min). The two ran concurrently with no rate-limit errors and $0.31 combined, so `RATE_LIMIT_INTERVAL = 6.0` in `review_runner.py` is costing roughly 3× wall clock for no observed benefit. Lowering it (or threading it the way the cost figures suggest is safe) would let one run cover the whole 500-entry range in both dimensions instead of 62% of it.
-- [entry] **27316 {通常|つうじょう} had a Korean string in an English note** — `(often used for "평상시" ...)`, i.e. 平常時 rendered in Hangul. A whole-corpus scan found only 4 entries containing Hangul and the other three are legitimate Korean-loanword etymologies (10838 キムチ, 12729 明太子, 16310 ナムル), so this is a one-off, not a family. Worth keeping the one-line scan in mind as a cheap validator check: Hangul outside a documented loanword etymology is always a defect.
-- [entry] **27447 {弟|おとうと}さん carried `{弟|おとうと}{さん|くん}`** — a furigana wrapper putting ruby くん over the kana さん, where the intended text was 弟くん. This is the `pure-kana` subpattern that `check_furigana_format.py` already counts (377 instances corpus-wide) but with a twist worth noting: the reading does not match the wrapped kana at all, which makes it a *content* error rather than cosmetic over-wrapping. A tightened detector could separate "kana wrapped with its own reading" (cosmetic) from "kana wrapped with a different reading" (a real defect) — the second set is small and should be fixed on sight.
-- [pattern] candidate_words.json holds proper-noun candidates the dictionary's scope excludes (C22806 夏目漱石, C22820 成田). The dictionary contains no place or person names (東京, 日本, 大阪 all absent), so these can never be created and will be re-picked by every new-entries run. Curator decision needed: drop them, or state a proper-noun policy in the find-candidates skill so polish runs stop logging them. (routine 2026-08-07, new-entries)
-- [entry] 110番 is referenced from 01393_keisatsu as ⟦{百十番|ひゃくとおばん}→百十番：noentry⟧, so entry 30493 was created under the kanji headword {百十番|ひゃくとおばん} even though the standard orthography is 110番. If the project wants figure-form headwords, this entry and the inline link should be revisited together. (routine 2026-08-07, new-entries)
+- **"a lint for unbalanced `{`/`}` in furigana wrappers would catch residue like 06824's"** —
+  measured, and it turns out to settle a **seven-week-old bundled backlog item**. Tooling 8 has
+  carried two proposed rules since 2026-06-17, never sized. Rule (b) unbalanced braces =
+  **34 instances / 33 entries**, real, deterministic, and **visible on the live site**
+  (`08385` renders "**ぎ}**" in English prose; `04471` has a furigana wrapper and a `⟦…⟧` link
+  interleaved into each other). Filed as **new Cleanup P45** + queue item
+  `furigana-unbalanced-braces`, batch-ready at 33 files.
 
-## 2026-08-07 (routine polish, priority + frontier lanes)
+- **Rule (a) of the same item — "flag any `{…}` span with no `|`" — is measured at 931
+  instances / 623 entries and RETIRED.** It collides with an **undocumented convention**:
+  braces are also used as **mention-quotes** around a word, reading, or character under
+  discussion (`The reading {じゅうぶん} means 'enough'`; `Usually read as {だて}, sometimes
+  {たて}`; `The kanji {匂} is used for general smells, while {臭} …`). 855 kana mentions in
+  notes prose, 54 kanji mentions, 168 grouping wrappers, 22 in link surfaces, 7 pattern
+  placeholders. The obvious repair — "flag only spans containing kanji" — does **not** rescue
+  it: in the kanji cases a reading is often actively *wrong*, since 00319 exists to contrast
+  匂 and 臭, which share the reading にお. **The convention is written down for the first time**
+  in `topics/furigana-wrapper-anomalies.md`, because its absence is the measurable cause of a
+  recurring cost — three sessions across two months have now proposed detectors against it.
 
-- [tooling] **Stale `noentry` markers are a large, mechanically-detectable debt.** 6 of the 7 priority-lane entries processed (01763, 01769, 02211, 02240, plus checks on others) carried `noentry` markers for words that now have entries — 南アジア/中央アジア/西アジア/オーストラリア (01763), 中央アメリカ + bare {米|べい} (01769), 冷や/洋酒 (02211), 羊肉/馬肉 (02240). All were created months after the host entry was last polished. A read-only detector (`build/check_stale_noentry.py`) that scans every `⟦…：noentry⟧` marker, looks its base form up in `build/word_id_lookup.json`, and emits the 1:1 resolvable ones as a JSON review queue would turn this into a high-precision `systemic-fix` batch. `check_link_baseform.py` already reports "noentry: 7381" — that number is an upper bound on the backlog.
-- [pattern] **Basic-tier entries systematically have empty `cross_references`.** All seven priority-lane entries (01763, 01769, 02204, 02210, 02211, 02234, 02240) had `"cross_references": []` despite their notes listing the obvious neighbours in prose (compound lists, "SIMILAR WORDS", "TYPES OF …" sections). The relationships are already written down; they just were never lifted into the structured field. This is likely why these entries rank low on `polishing/priority/notes.txt`. A targeted sweep that extracts already-linked note neighbours into `cross_references` would be high-yield across the basic tier.
-- [pattern] **Frontier-range entries (06820+) have zero inline-link coverage.** 06820–06825 had no `⟦…⟧` links at all in examples or notes — they predate the inline-link convention. Full coverage is the dominant per-entry cost in this ID range; budget ~2 entries per 10% of context.
-- [entry] Duplicate-ID candidates spotted while linking: にくい has both 02005_nikui and 02458_nikui with identical glosses ("hard to ~, difficult to ~"); 若い has both 00823_wakai and 01525_wakai, both glossed "young". Both pairs look like merge candidates for `consolidate_entries.md`.
-- [entry] 06824 magirawashii: notes contained a stray closing brace (`{分|わ}かりにくい}`) — fixed this run, but suggests a lint for unbalanced `{`/`}` in furigana wrappers inside notes would catch similar residue.
+Also filed: **new Tooling 84** (`review_runner.py`'s `RATE_LIMIT_INTERVAL = 6.0` measured as
+the binding constraint on accuracy-review coverage — ~6.6 entries/min vs `review_accuracy.py`'s
+~19/min, same model, run concurrently with no throttling for $0.31, which is why recent runs
+cover their whole range on the accuracy side and ~62% on the furigana side), **85** (the §A
+20%-noise heuristic misreads a tag-contaminated block: 41% blended becomes gloss 3.4% /
+translation 0.9% once off-vocabulary tag flags are removed — converging independently on
+`quality-metrics.md` §14, which retired the blended `tags` figure for the same reason in the
+same week), **86** (Hangul-outside-loanword-etymology as a permanent one-line validator check;
+scope 1, false-positive set enumerable at 3). **Updates**: **P35** — the affix cohort measured
+at **159 instances / 47 bases** resolving only through a tilde form (全 → 全〜), essentially all
+of it the 28xxx suffix batch, and **blocked** behind Tooling 83 because applying it manufactures
+159 new baseform findings; **Tooling 19** filed a fifth and sixth time by two runs that did not
+know it existed, now the longest-standing gap between a sized item and its instrument;
+**Tooling 76** reinforced by the same tilde measurement; **P42** at 8-of-8 and 7-of-7 (third and
+fourth consecutive 100%), with both runs independently restating the diagnosis — the `notes`
+score ranks these entries low *because the notes are good*; **P43** confirmed at the frontier
+(7 of 7 zero-link, ~4× normal cost, and the batching technique that made it affordable).
+**Entry Follow-ups**: the five mismatch wrappers, 00823/01525 若い (which is also the entry
+missing its conjugation table for the *same* over-wrapped headword), 02005/02458 にくい, and
+30493 百十番's figure-form headword question.
+
+**Activity H not run**: 5 new metrics lines since the thirty-second refresh (454 → 459), below
+the ≥10 threshold.
+
+**Carried forward to the curator**: the proper-noun scope question (C22806 夏目漱石, C22820
+成田 — second filing, and every new-entries run will keep re-picking them until a policy exists);
+the figure-form-headword question (110番 vs 百十番), which is the same question as the
+already-routed number+counter one; the taxonomy question (spatial/positional and document-type
+tags, 322 instances); and the frontier-versus-growth rate, now a fifth time.
+
+All 20 observations cleared.)_
