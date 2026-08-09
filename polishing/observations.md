@@ -981,3 +981,15 @@ All 23 observations cleared.)_
   stranding 25 artifacts outside the PR (recovered in a follow-up commit). Only
   `kill -9 <pid>` stopped it. Routines that stop a review pass early should
   confirm termination by PID before committing.
+- [tooling] The GitHub **MCP check-run status is cached and can be badly stale**,
+  which is a direct cause of stranded Routine PRs. On PR #3152 the `validate`
+  check actually completed `success` 67 seconds after starting
+  (`started_at` 06:45:18 → `completed_at` 06:46:25), but
+  `pull_request_read method=get_check_runs` kept reporting
+  `status: "in_progress"` for ~30 minutes afterwards, and
+  `actions_get method=get_workflow_run` agreed, with its `updated_at` frozen at
+  the run's start time. Polling to the documented ~8-minute cap would have left
+  a green PR open for no reason. Mitigations for §7 step 5.2: treat a frozen
+  `updated_at` as "no fresh data" rather than "still running", and re-poll once
+  more after a long gap before declaring a timeout — the §0a rescue is the
+  backstop, but it costs a whole extra run.
