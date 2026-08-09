@@ -998,3 +998,11 @@ which this run measured moving the **wrong way** — the zero-link population gr
 against new-entry supply.
 
 All 24 observations cleared.)_
+
+- [tooling] Second same-day reproduction of the stale MCP check-run cache (PR #3156: `validate`
+  green at 15:33:12, still reported `in_progress` at 15:51). The important half is a
+  **falsification**: `actions_get method=get_workflow_job`'s per-step timestamps are stale too
+  — it reported step 7 `in_progress` since 15:33:03 when that step had finished at 15:33:09 —
+  so the cache is not per-endpoint and cross-checking endpoints only produces confidently wrong
+  agreement. Observed TTL ~15–19 min, longer than routine2.md's ~8-min polling cap, which is why
+  the cap itself is the strand mechanism. Details and revised prescription in Tooling 91.

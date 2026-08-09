@@ -4033,6 +4033,48 @@ cannot distinguish this from a genuinely slow check, because both look like `in_
 The §0a rescue remains the correct backstop and should not be removed — but it is a backstop
 that costs an entire run, so the polling loop should stop feeding it avoidable cases.
 
+### Second reproduction, same day — and it kills mitigation 3 (measured 2026-08-09, PR #3156)
+
+The run that filed this item reproduced it on its own PR within the hour, with better
+instrumentation. Ground truth from the completed record: `validate` ran **15:32:04 → 15:33:12,
+conclusion `success` — 68 seconds**, almost exactly PR #3152's 67. Every `get_check_runs` poll
+from 15:33 to **15:51** reported `in_progress`. Eight polls over ~19 minutes, all stale, on a
+check that had been green since the second minute.
+
+**The new and more useful finding is that mitigation 3 does not work.** Reaching for a second
+endpoint, the run called `actions_get method=get_workflow_job`, which returns *per-step*
+timestamps — apparently the ideal discriminator, since a cached top-level status cannot fake
+step-level progress. At ~15:47 it returned:
+
+> step 7 "Check inline-link base forms" — `status: in_progress`, `started_at: 15:33:03`
+
+and the run concluded, reasonably, that the job was genuinely still executing. **It was not.**
+Step 7 had completed `success` at **15:33:09**. The per-step view was stale too — it was a
+cached snapshot of the state at ~15:33:05, served fourteen minutes later. `get_check_run`
+(singular) and `actions_get method=get_workflow_run` were consulted in the same window and both
+agreed with the stale value.
+
+So the cache is **not** per-endpoint: every Actions-derived read in the MCP surface appears to
+be served from one snapshot, and cross-checking endpoints only produces mutually-consistent
+wrong answers with more confidence attached. Strike mitigation 3, and note that a future run
+reading this item would otherwise reach for exactly the endpoint that cost this one fourteen
+minutes.
+
+Two facts survive and sharpen the remaining mitigations:
+
+- **The observed staleness window is ~15–19 minutes**, twice measured, which is longer than the
+  documented ~8-minute polling cap. **A loop capped below the cache TTL can never observe the
+  transition it is waiting for** — that, not slow CI, is the mechanism behind this strand class.
+- **`updated_at` frozen at `run_started_at` remains the one honest tell.** In both incidents the
+  workflow run reported `updated_at` equal to its start time while wall-clock advanced. That is
+  mitigation 1, it is free, and it is now the only proposed check not falsified.
+
+**Revised prescription**: keep mitigation 1 as the staleness detector; extend the effective cap
+past the cache TTL for the *last* poll only (one re-poll at ~15 minutes costs one call and would
+have merged both PRs in-run); drop mitigation 3. Both incidents ended in a merge only because a
+long-gap re-poll eventually crossed the TTL — PR #3156 merged in-run at 15:51 on exactly that
+move, so the fix is validated even though the item is unshipped.
+
 ## Updates 2026-08-09 to existing items
 
 **Item 27 (`validate_tags.py` unknown-semantic warnings) — the reporting gap is why the class
