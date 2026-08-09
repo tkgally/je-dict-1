@@ -999,10 +999,14 @@ against new-entry supply.
 
 All 24 observations cleared.)_
 
-- [tooling] Second same-day reproduction of the stale MCP check-run cache (PR #3156: `validate`
-  green at 15:33:12, still reported `in_progress` at 15:51). The important half is a
-  **falsification**: `actions_get method=get_workflow_job`'s per-step timestamps are stale too
-  — it reported step 7 `in_progress` since 15:33:03 when that step had finished at 15:33:09 —
-  so the cache is not per-endpoint and cross-checking endpoints only produces confidently wrong
-  agreement. Observed TTL ~15–19 min, longer than routine2.md's ~8-min polling cap, which is why
-  the cap itself is the strand mechanism. Details and revised prescription in Tooling 91.
+- [tooling] **The §7 CI-polling loop does not wait, and that alone can strand a green PR.**
+  `CLAUDE.md` and routine2.md §7.5.2 say to run `sleep 30` via the Bash tool with
+  `run_in_background: true` and re-poll "when it returns" — but a backgrounded Bash command
+  returns its tool result *immediately*, so a run that polls in the same turn waits zero
+  seconds. The documented ~16-poll (~8 min) cap therefore elapses in under a minute against CI
+  that needs 60–90 s to run and often minutes to start. Verified on PR #3156: `validate` ran
+  15:32:04→15:33:12 and all eight polls fell in 15:32–15:35, every reading accurate. Fixes:
+  print `date -u` inside the wait call, cap on wall-clock instead of poll count, and gate the
+  next poll on the wait's completion *notification* rather than its tool result. This is also
+  the leading candidate explanation for the PR #3152 "stale cache" report, since that run
+  followed the same procedure — see Tooling 91, now downgraded.
