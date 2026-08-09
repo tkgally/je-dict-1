@@ -1,0 +1,24 @@
+{
+  "entry_id": "30520_maikon",
+  "headword": "マイコン",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T03:24:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading. 'Built-in computer control' is not a synonym for 'microcontroller' but rather a function or application of it. The term 'microcomputer' is a better fit for the second part of the gloss.",
+      "suggestion": "microcontroller; microcomputer"
+    }
+  ]
+}
