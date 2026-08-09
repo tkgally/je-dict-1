@@ -2,22 +2,15 @@
   "entry_id": "29078_tsuburu",
   "headword": "つぶる",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T01:50:42Z",
+  "reviewed_at": "2026-08-09T06:32:25Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'action' is too broad and not specific enough for 'つぶる'. While closing eyes is an action, a more precise tag would be beneficial for learners.",
-      "suggestion": "Consider adding a more specific semantic tag like 'body_movement' or 'physical_action' to better categorize 'つぶる'."
-    }
-  ]
+  "issues": []
 }

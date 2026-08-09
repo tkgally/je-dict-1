@@ -1,0 +1,24 @@
+{
+  "entry_id": "28984_kissa",
+  "headword": "{喫茶|きっさ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T06:30:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is incorrect for '喫茶'. While it relates to beverages, 'food' is too broad and misleading. The primary meaning is the act of drinking tea/coffee or a place where it's done.",
+      "suggestion": "Replace 'food' with 'consumption' or 'daily-life'."
+    }
+  ]
+}

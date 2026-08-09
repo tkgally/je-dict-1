@@ -2,22 +2,15 @@
   "entry_id": "29076_chuukijou",
   "headword": "{駐機場|ちゅうきじょう}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T01:50:40Z",
+  "reviewed_at": "2026-08-09T06:32:24Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is redundant with the first sense gloss and could be more concise.",
-      "suggestion": "Remove the top-level gloss or make it more concise, e.g., 'apron; aircraft parking area'."
-    }
-  ]
+  "issues": []
 }

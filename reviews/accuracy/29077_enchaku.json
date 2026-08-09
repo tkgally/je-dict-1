@@ -2,22 +2,15 @@
   "entry_id": "29077_enchaku",
   "headword": "{延着|えんちゃく}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T01:50:41Z",
+  "reviewed_at": "2026-08-09T06:32:25Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'transportation' is too narrow. While often used for transportation, '延着' can apply to any scheduled arrival, including mail or deliveries, which aren't strictly 'transportation' in the sense of people moving.",
-      "suggestion": "Consider adding 'logistics' or 'delivery' or making the tag more general, or removing it if it's not universally applicable."
-    }
-  ]
+  "issues": []
 }

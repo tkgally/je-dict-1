@@ -1,0 +1,24 @@
+{
+  "entry_id": "29054_akuji",
+  "headword": "{悪事|あくじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T06:32:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'ethics' is not in the valid tag list.",
+      "suggestion": "Replace 'ethics' with 'general' or 'society' (already present)."
+    }
+  ]
+}

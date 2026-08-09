@@ -1,0 +1,31 @@
+{
+  "entry_id": "29041_aruhara",
+  "headword": "アルハラ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T06:31:47Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'work' is too narrow and potentially misleading for 'アルハラ'. While the explanation mentions 'Japanese workplace drinking culture', the term itself is not exclusive to work settings and can occur in any social context involving alcohol.",
+      "suggestion": "Remove 'work' and add 'society' or 'daily-life' to better reflect the broader applicability of the term."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is too narrow and potentially misleading for 'アルハラ'. While drinking often occurs during leisure, the act of harassment itself is not inherently 'leisure'.",
+      "suggestion": "Remove 'leisure' and add 'society' or 'daily-life' to better reflect the broader applicability of the term."
+    }
+  ]
+}

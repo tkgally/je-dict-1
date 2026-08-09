@@ -2,36 +2,15 @@
   "entry_id": "29069_himatsu",
   "headword": "{飛沫|ひまつ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T01:50:28Z",
+  "reviewed_at": "2026-08-09T06:32:16Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The gloss 'splash' is misleading as 飛沫 refers to the *result* of splashing (the tiny drops), not the act or larger quantity of liquid itself.",
-      "suggestion": "Remove 'splash' from the top-level gloss."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "error",
-      "concern": "The gloss 'splash' is misleading as 飛沫 refers to the *result* of splashing (the tiny drops), not the act or larger quantity of liquid itself.",
-      "suggestion": "Remove 'splash' from the sense gloss."
-    },
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "The semantic tag 'health' is too narrow. While 飛沫 is commonly associated with health contexts (e.g., droplet infection), its core meaning is simply 'tiny drops of liquid' regardless of the source or context. The explanation itself notes it's 'widely known from {飛沫感染...}', implying the health connection is a common *association* rather than an inherent semantic property of the word itself.",
-      "suggestion": "Consider removing or broadening the 'health' tag, or adding a more general tag like 'liquid' or 'physical phenomenon'."
-    }
-  ]
+  "issues": []
 }

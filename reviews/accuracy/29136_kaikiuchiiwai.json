@@ -2,23 +2,15 @@
   "entry_id": "29136_kaikiuchiiwai",
   "headword": "{快気内祝|かいきうちいわ}い",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T11:46:10Z",
+  "reviewed_at": "2026-08-09T06:33:25Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tags 'culture' and 'social' are not in the allowed list.",
-      "suggestion": "Replace 'culture' and 'social' with appropriate tags from the valid list. 'action' or 'general' might be suitable, given it's a type of gift-giving."
-    }
-  ]
+  "issues": []
 }

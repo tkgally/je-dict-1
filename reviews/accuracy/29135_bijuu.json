@@ -2,30 +2,23 @@
   "entry_id": "29135_bijuu",
   "headword": "{鼻汁|びじゅう}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T11:46:09Z",
+  "reviewed_at": "2026-08-09T06:33:24Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "Invalid semantic tag 'health'.",
-      "suggestion": "body-internal"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "Invalid semantic tag 'body'.",
-      "suggestion": "body-internal"
+      "concern": "Nasal discharge is an external bodily fluid, not an internal body part or organ.",
+      "suggestion": "Change 'body-internal' to 'health' or 'body-part' (as a general category for bodily substances)."
     }
   ]
 }

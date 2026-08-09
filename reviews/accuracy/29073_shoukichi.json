@@ -2,12 +2,13 @@
   "entry_id": "29073_shoukichi",
   "headword": "{小吉|しょうきち}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T01:50:34Z",
+  "reviewed_at": "2026-08-09T06:32:21Z",
   "summary": {
     "flagged": 5
   },
@@ -15,37 +16,37 @@
     {
       "dimension": "gloss",
       "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss uses 'blessing' which is not the most common or direct translation for '吉' in 'おみくじ' context. 'Fortune' is more direct.",
-      "suggestion": "small fortune (omikuji fortune level)"
+      "severity": "error",
+      "concern": "The gloss 'small blessing' is misleading. Omikuji fortunes are not 'blessings' in the English sense, but rather predictions or divinations of luck.",
+      "suggestion": "small luck (omikuji fortune level)"
     },
     {
       "dimension": "gloss",
       "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The sense gloss uses 'blessing' which is not the most common or direct translation for '吉' in 'おみくじ' context. 'Fortune' is more direct.",
-      "suggestion": "small fortune; a slightly good fortune (on an omikuji)"
+      "severity": "error",
+      "concern": "The gloss 'small blessing' is misleading. Omikuji fortunes are not 'blessings' in the English sense, but rather predictions or divinations of luck.",
+      "suggestion": "small luck; a slightly good fortune (on an omikuji)"
     },
     {
       "dimension": "translation",
       "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The translation uses 'small blessing' which is less natural than 'small fortune' in this context.",
-      "suggestion": "The omikuji was a small fortune."
+      "severity": "error",
+      "concern": "Translating '小吉' as 'a small blessing' is unnatural and misleading in English. It should refer to the fortune level itself.",
+      "suggestion": "The omikuji was a 'small luck' fortune."
     },
     {
       "dimension": "translation",
       "location": "examples[1]",
-      "severity": "warn",
-      "concern": "The translation uses 'small blessing' which is less natural than 'small fortune' in this context.",
-      "suggestion": "Even though it was a small fortune, the words written on it were positive."
+      "severity": "error",
+      "concern": "Translating '小吉' as 'a small blessing' is unnatural and misleading in English. It should refer to the fortune level itself.",
+      "suggestion": "Even though it was a 'small luck' fortune, the words written on it were positive."
     },
     {
       "dimension": "translation",
       "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The translation uses 'small blessing' which is less natural than 'small fortune' in this context.",
-      "suggestion": "A small fortune isn't great fortune, but it carries the meaning that things can improve depending on your efforts."
+      "severity": "error",
+      "concern": "Translating '小吉' as 'A small blessing' is unnatural and misleading in English. It should refer to the fortune level itself.",
+      "suggestion": "A 'small luck' fortune isn't great fortune, but it carries the meaning that things can improve depending on your efforts."
     }
   ]
 }

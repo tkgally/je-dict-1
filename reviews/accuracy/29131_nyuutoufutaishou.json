@@ -2,23 +2,15 @@
   "entry_id": "29131_nyuutoufutaishou",
   "headword": "{乳糖不耐症|にゅうとうふたいしょう}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T11:46:05Z",
+  "reviewed_at": "2026-08-09T06:33:19Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'food' is incorrect for the headword '乳糖不耐症' (lactose intolerance).",
-      "suggestion": "Remove 'food'."
-    }
-  ]
+  "issues": []
 }

@@ -2,29 +2,15 @@
   "entry_id": "29070_koki",
   "headword": "{古希|こき}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T01:50:29Z",
+  "reviewed_at": "2026-08-09T06:32:17Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The top-level gloss is misleadingly specific, implying the headword *only* refers to the celebration, not the birthday itself.",
-      "suggestion": "Change '70th birthday celebration' to '70th birthday; 70th birthday celebration' or similar to reflect both meanings."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The English translation drops the nuance of '古希' as a specific milestone/celebration, rendering it as a simple age.",
-      "suggestion": "Change 'My father turns seventy this year.' to 'My father reaches his 70th birthday (koki) this year.' or 'My father celebrates his 70th birthday this year.'"
-    }
-  ]
+  "issues": []
 }

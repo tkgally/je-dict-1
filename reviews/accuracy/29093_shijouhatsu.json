@@ -2,23 +2,15 @@
   "entry_id": "29093_shijouhatsu",
   "headword": "{史上初|しじょうはつ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T12:40:21Z",
+  "reviewed_at": "2026-08-09T06:32:39Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "Semantic tags 'society' and 'history' are not in the allowed list.",
-      "suggestion": "Replace 'society' and 'history' with appropriate tags from the valid list, such as 'time-general' or 'general'."
-    }
-  ]
+  "issues": []
 }

@@ -2,22 +2,15 @@
   "entry_id": "29064_keidoumyaku",
   "headword": "{頸動脈|けいどうみゃく}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T01:50:21Z",
+  "reviewed_at": "2026-08-09T06:32:12Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The English translation is grammatically correct but unnatural. Carotid arteries are paired, so 'a carotid artery' sounds like there's only one.",
-      "suggestion": "Change 'There is a carotid artery in the neck.' to 'There are carotid arteries in the neck.' or 'The neck has carotid arteries.'"
-    }
-  ]
+  "issues": []
 }

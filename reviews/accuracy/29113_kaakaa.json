@@ -2,23 +2,15 @@
   "entry_id": "29113_kaakaa",
   "headword": "カーカー",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T19:44:11Z",
+  "reviewed_at": "2026-08-09T06:33:02Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'animals' is not a valid semantic tag. It should be 'animal-general'.",
-      "suggestion": "animal-general"
-    }
-  ]
+  "issues": []
 }

@@ -2,23 +2,15 @@
   "entry_id": "29109_mikageishi",
   "headword": "{御影石|みかげいし}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T19:44:07Z",
+  "reviewed_at": "2026-08-09T06:32:59Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'nature' is not a valid semantic tag.",
-      "suggestion": "geography"
-    }
-  ]
+  "issues": []
 }

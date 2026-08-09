@@ -2,23 +2,15 @@
   "entry_id": "29106_kamikorosu",
   "headword": "{噛|か}み{殺|ころ}す",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T19:44:05Z",
+  "reviewed_at": "2026-08-09T06:32:56Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'body' is too narrow and misleading for '噛み殺す'. While it involves a physical action, the core meaning is about suppressing an emotion or impulse, which is a cognitive or emotional action.",
-      "suggestion": "cognition or emotion or action"
-    }
-  ]
+  "issues": []
 }

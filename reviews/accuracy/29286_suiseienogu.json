@@ -8,24 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-16T15:27:15Z",
+  "reviewed_at": "2026-08-09T06:35:37Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The gloss includes 'watercolor-type paint', which is too specific. While watercolors are water-based, '水性絵具' refers to any water-based paint, including acrylics, tempera, etc., not just watercolors.",
-      "suggestion": "water-based paint"
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "error",
-      "concern": "The gloss includes 'water-soluble paint', which is too specific. While some water-based paints are water-soluble, others (like acrylics once dry) are not. '水性絵具' refers to any paint that uses water as a solvent for thinning and cleanup, regardless of its solubility after drying.",
-      "suggestion": "water-based paint"
-    }
-  ]
+  "issues": []
 }
