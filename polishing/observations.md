@@ -1038,3 +1038,47 @@ All 24 observations cleared.)_
   sole-general check, so the whole cluster is already detectable. Fixed 紛争 to
   `society`/`politics` this run; the other three are left for a systemic-fix pass so the cluster
   gets one consistent decision rather than four independent guesses.
+
+- [tooling] **The accuracy sweep is re-litigating settled decisions.** In the
+  2026-08-09 accuracy-review run over 29295–29743, **26 of 26** flagged entries
+  already carried a decision in `reviews/decisions.jsonl` on the *same*
+  dimension, and **24 of those were prior REJECTs** with reasoned notes
+  (e.g. 29345 "general ok fallback; noudouteki is behavioral not grammatical",
+  29469 "noun-primary; general fallback correct vs action"). Net applicable
+  flags this run: **zero**. The sweep is paying per-entry cost and, more
+  expensively, adjudication context to re-argue questions the project has
+  already answered. Concrete fix: have `build/review_accuracy.py` load
+  `decisions.jsonl` and, for each entry, either (a) suppress issues whose
+  `(entry, dimension)` already has a REJECT unless the entry's `modified`
+  timestamp is newer than that decision, or (b) pass the prior decision notes
+  into the reviewer prompt so the model can be told what was already
+  considered and why. Option (a) is the cheap one and would have made this
+  entire run a no-op detectable in seconds.
+
+- [tooling] **Reviewer oscillation on 29451 塁打.** A 2026-06-24 run APPLIED a
+  gloss change on the reasoning "ruida is total bases, not generic base hit";
+  the 2026-08-09 run flagged the *result* as an error and asked to revert to
+  "bases gained by a hit; a base hit". Without the decision ledger this would
+  have been applied, undoing a deliberate correction — and a later run would
+  presumably flip it back. 29634 ネガティブ is the same shape and even sharper:
+  a 2026-07-02 run APPLIED "removed technology; core sense is attitude", and
+  today's reviewer asks to **add `technology` back** for the photographic-negative
+  sense. Two independent oscillations in one 449-entry range is the strongest
+  single argument for feeding prior decisions into the reviewer prompt
+  (previous observation, option b).
+
+- [pattern] **Semantic-tag flags keep proposing off-vocabulary tags.** Of this
+  run's 21 tag flags, 6 suggested tags that are not in `VALID_SEMANTIC`
+  (`mathematics` ×2, `astronomy` ×2, `literature`, `manufacturing`) and the
+  rest were in-list breadth substitutions that §A policy rejects by
+  definition. The reviewer prompt embeds `VALID_SEMANTIC` but the model still
+  proposes outside it; constraining the suggestion field to an enum (or
+  post-filtering off-list suggestions before they reach adjudication) would
+  remove roughly half the tag-flag volume for free.
+
+- [tooling] **Furigana screening is far slower than the accuracy pass.** Run
+  concurrently, screening managed 28 entries in ~40 minutes (~1.7 min/entry)
+  while the accuracy pass did ~200; stopping the screener immediately sped the
+  accuracy pass up, so the two appear to contend for the same rate limit.
+  Running them sequentially, or dropping screening from runs that mainly want
+  accuracy coverage, would buy several hundred more entries of coverage per run.
