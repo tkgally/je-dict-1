@@ -2,30 +2,15 @@
   "entry_id": "29125_suranpu",
   "headword": "スランプ",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T11:45:52Z",
+  "reviewed_at": "2026-08-09T06:33:13Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'sports' is too narrow for the headword's meaning, which extends beyond sports to creative work and business as explained in the definition and shown in example 2.",
-      "suggestion": "Remove 'sports' and add 'cognition' or 'general' to better reflect the broader applicability of 'slump' to mental or general performance issues."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'achievement' is not a valid semantic tag from the provided list.",
-      "suggestion": "Replace 'achievement' with a valid tag like 'cognition' or 'general' if applicable, or remove it if no other tag fits."
-    }
-  ]
+  "issues": []
 }

@@ -2,13 +2,13 @@
   "entry_id": "29102_hoohokekyo",
   "headword": "ホーホケキョ",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T12:40:29Z",
+  "reviewed_at": "2026-08-09T06:32:53Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "Invalid semantic tags 'nature' and 'animals'.",
-      "suggestion": "Replace 'nature' with 'general' or remove it, and replace 'animals' with 'animal-bird'."
+      "concern": "Invalid tag 'animals'.",
+      "suggestion": "animal-bird"
     }
   ]
 }

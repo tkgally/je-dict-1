@@ -2,23 +2,15 @@
   "entry_id": "29137_taisoseikei",
   "headword": "{体組成計|たいそせいけい}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T11:46:11Z",
+  "reviewed_at": "2026-08-09T06:33:25Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'health' is not a valid semantic tag.",
-      "suggestion": "Replace 'health' with a valid tag from the provided list. 'electronics' or 'tool' might be more appropriate given the device nature."
-    }
-  ]
+  "issues": []
 }

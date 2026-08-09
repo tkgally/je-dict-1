@@ -2,23 +2,15 @@
   "entry_id": "29091_kakukaku",
   "headword": "カクカク",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T12:40:20Z",
+  "reviewed_at": "2026-08-09T06:32:37Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'technology' is not appropriate for the headword 'カクカク'. While it is often used in contexts related to technology (like video or games), the word itself describes a type of motion, not technology.",
-      "suggestion": "Remove 'technology'."
-    }
-  ]
+  "issues": []
 }

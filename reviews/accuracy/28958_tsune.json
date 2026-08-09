@@ -1,0 +1,24 @@
+{
+  "entry_id": "28958_tsune",
+  "headword": "{常|つね}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T06:30:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '常' (tsune) is not formal. It is a common word used in everyday language.",
+      "suggestion": "neutral"
+    }
+  ]
+}

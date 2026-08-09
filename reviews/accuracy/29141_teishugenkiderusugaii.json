@@ -2,23 +2,15 @@
   "entry_id": "29141_teishugenkiderusugaii",
   "headword": "{亭主元気|ていしゅげんき}で{留守|るす}がいい",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T11:46:14Z",
+  "reviewed_at": "2026-08-09T06:33:29Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tags 'culture' and 'social' are not in the allowed list of tags.",
-      "suggestion": "Remove 'culture' and 'social'. The tag 'family' is appropriate. Consider adding 'expression' as it is a common saying."
-    }
-  ]
+  "issues": []
 }

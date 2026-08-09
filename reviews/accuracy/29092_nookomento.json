@@ -2,30 +2,23 @@
   "entry_id": "29092_nookomento",
   "headword": "ノーコメント",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T12:40:21Z",
+  "reviewed_at": "2026-08-09T06:32:38Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'media' is not a valid semantic tag.",
-      "suggestion": "Remove 'media'."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for this word.",
-      "suggestion": "Change 'formal' to 'neutral'."
+      "concern": "The formality tag 'formal' is incorrect for 'ノーコメント'. While often used in formal settings like press conferences, the phrase itself is neutral in formality, simply stating a refusal to comment. It's not inherently formal language.",
+      "suggestion": "neutral"
     }
   ]
 }

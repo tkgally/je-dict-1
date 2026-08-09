@@ -1,0 +1,24 @@
+{
+  "entry_id": "28916_usukawa",
+  "headword": "{薄皮|うすかわ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T06:29:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food-drink' is too narrow for the headword '薄皮' (usukawa), which can refer to any thin skin or membrane, not just those related to food. Example 2 demonstrates a non-food usage.",
+      "suggestion": "Replace 'food-drink' with 'general' or 'body-part' (if referring to human/animal skin/membrane) or 'nature' (if referring to plant skin/membrane)."
+    }
+  ]
+}

@@ -2,29 +2,15 @@
   "entry_id": "29071_kiju",
   "headword": "{喜寿|きじゅ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T01:50:31Z",
+  "reviewed_at": "2026-08-09T06:32:18Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete and potentially misleading.",
-      "suggestion": "Change '77th birthday celebration' to '77th birthday; 77th birthday celebration' or similar, to reflect that it can refer to the age itself, not just the celebration."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The English translation drops the nuance of 'celebration' or 'reaching' the age, which is implied by 喜寿.",
-      "suggestion": "Change 'My grandfather turned seventy-seven.' to 'My grandfather celebrated his seventy-seventh birthday.' or 'My grandfather reached his seventy-seventh year.'"
-    }
-  ]
+  "issues": []
 }

@@ -943,3 +943,36 @@ All 23 observations cleared.)_
   mode is the instrument that catches these — deterministic checks never will.
 - [pattern] candidate_words.json quality is bimodal: the 16 `seen in entry` candidates were all dictionary-worthy, but sampling the ~970 corpus-harvested candidates from 2026-03/04/05 turned up mostly non-words (権使, 些道, 個尊, 怒燥, 区部分) and transparent compounds (片面印刷, 若い女性, 最大容量, 一週間前). A `new-entries` run that exhausts the `seen in entry` lane has no good fallback. This is the **third consecutive run** to report it (see PROJECT_STATUS 2026-08-05 and the 08-07/08-08 logs), and the `seen in entry` lane is now empty, so the next `new-entries` run has no clean source at all. Escalating: a `clean_up_candidates_list.md` pass over the 2026-03..05 batches should run before the next `new-entries` selection, or the selector will pick a mode it cannot execute well. (routine 2026-08-09)
 - [entry] Proper-noun candidates are being captured by polishing (C22806 夏目漱石, "seen in entry 06801") but the dictionary has no proper-noun precedent (no 東京/日本/富士山 entries). Left in the list pending a curator scope decision. (routine 2026-08-09)
+
+## 2026-08-09 — routine accuracy-review (28901–29294)
+
+- [pattern] Off-vocabulary semantic tags are dense in the 28901–29450 block: 54 of
+  550 entries (~10%) carried a tag absent from `VALID_SEMANTIC`. The recurring
+  families are `medical`→`health`, `food-drink`→`food`, `body`→`body-part`,
+  `motion`→`movement`, `sensation`/`manner`/`physical-property`→`descriptive`,
+  `people`→`person`, `time`→`time-general`, `animals`→`animal-bird`. A scripted
+  scan against `VALID_SEMANTIC` finds every one of them for free and is far
+  cheaper than waiting for the cross-model reviewer to surface them one at a
+  time. Worth extending `build/check_tag_drift.py`'s `TAG_MIGRATION` map with
+  the families above so a systemic-fix run can sweep the rest of the dictionary.
+  Dictionary-wide scope after this run: **1,848 entries** still carry a baselined
+  off-vocab semantic tag (2,436 uses) — a large, purely mechanical backlog that
+  a handful of systemic-fix runs could clear.
+- [tooling] `build/validate_tags.py` reports off-vocabulary semantic tags only
+  under `--verbose` (11,013 warnings are collapsed to a count), so the defect
+  class is effectively invisible in normal runs. A `--list-unknown` summary mode
+  (tag → count → entry IDs) would make it actionable.
+- [pattern] 65 furigana wrappers dictionary-wide wrap *hiragana* as if it were
+  kanji. Most are harmless identity wrappers (`{おもちゃ|おもちゃ}`,
+  `{すぐ|すぐ}`), but they hid one real error found this run: entry 28929 had
+  `{苦悶|くもん}{に|み}ちた` where the kanji 満 had been dropped entirely
+  (correct: `{苦悶|くもん}に{満|み}ちた`). A detector for "wrapper whose left
+  side contains no kanji" is a cheap, high-precision check.
+- [pattern] A further 274 wrappers give katakana a hiragana "reading"
+  (`{バイク|ばいく}`). This is a separate, larger, and probably deliberate
+  class — worth a policy decision in the wiki before any sweep.
+- [tooling] Cross-model reviewer precision this run: error-severity tag flags
+  were ~70% applicable, but almost all of the applicable ones were the
+  mechanical "tag not in the valid list" family. Every *in-list* substitution
+  flag ("too narrow"/"too broad") was rejected — 12 for 12. The reviewer prompt
+  could stop emitting in-list substitution suggestions entirely and lose nothing.

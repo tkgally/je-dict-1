@@ -2,23 +2,15 @@
   "entry_id": "29124_kissuru",
   "headword": "{喫|きっ}する",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T11:45:49Z",
+  "reviewed_at": "2026-08-09T06:37:12Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tags 'sports' and 'achievement' are too narrow and potentially misleading for the headword '喫する'. While the examples are sports-related, the gloss and explanation clearly state the meaning is 'to suffer; to sustain; to experience (something negative)', which is a more general concept.",
-      "suggestion": "Replace 'sports' and 'achievement' with 'general' or 'cognition' or 'existence' to better reflect the broader meaning of experiencing something negative."
-    }
-  ]
+  "issues": []
 }

@@ -1,0 +1,24 @@
+{
+  "entry_id": "29049_tekken",
+  "headword": "{鉄拳|てっけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T06:31:54Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'violence' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

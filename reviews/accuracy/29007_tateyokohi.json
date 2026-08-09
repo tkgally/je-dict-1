@@ -1,0 +1,38 @@
+{
+  "entry_id": "29007_tateyokohi",
+  "headword": "{縦横比|たてよこひ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T06:31:11Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss states 'height-to-width ratio', but the term 'aspect ratio' typically refers to width-to-height. The Japanese '縦横比' (tate-yoko-hi) literally means 'vertical-horizontal-ratio', which also implies height-to-width.",
+      "suggestion": "Change 'height-to-width ratio' to 'width-to-height ratio' or clarify that it refers to the ratio of the longer side to the shorter side, or explicitly state that it's height-to-width if that's the intended meaning for this specific term in Japanese context, but it contradicts the common English understanding of 'aspect ratio'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss states 'height-to-width ratio', but the term 'aspect ratio' typically refers to width-to-height. The Japanese '縦横比' (tate-yoko-hi) literally means 'vertical-horizontal-ratio', which also implies height-to-width.",
+      "suggestion": "Change 'height-to-width ratio' to 'width-to-height ratio' or clarify that it refers to the ratio of the longer side to the shorter side, or explicitly state that it's height-to-width if that's the intended meaning for this specific term in Japanese context, but it contradicts the common English understanding of 'aspect ratio'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].explanation",
+      "severity": "error",
+      "concern": "The explanation states 'The ratio of the height to the width', which is inconsistent with the common English understanding of 'aspect ratio' (width to height). The Japanese '縦横比' (tate-yoko-hi) literally means 'vertical-horizontal-ratio', which also implies height-to-width, but this needs to be explicitly stated if it deviates from the standard English term.",
+      "suggestion": "Clarify whether '縦横比' specifically refers to height-to-width in Japanese usage, or adjust the explanation to 'The ratio of the width to the height' to align with the standard English definition of aspect ratio, or specify that it's the ratio of the longer side to the shorter side."
+    }
+  ]
+}

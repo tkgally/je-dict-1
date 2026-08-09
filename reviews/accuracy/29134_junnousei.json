@@ -2,23 +2,15 @@
   "entry_id": "29134_junnousei",
   "headword": "{順応性|じゅんのうせい}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T11:46:08Z",
+  "reviewed_at": "2026-08-09T06:33:23Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'personality' is not a valid semantic tag.",
-      "suggestion": "Replace 'personality' with a valid tag from the provided list. 'cognition' or 'descriptive' might be more appropriate depending on the nuance."
-    }
-  ]
+  "issues": []
 }

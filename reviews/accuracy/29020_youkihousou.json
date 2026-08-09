@@ -1,0 +1,31 @@
+{
+  "entry_id": "29020_youkihousou",
+  "headword": "{容器包装|ようきほうそう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T06:31:22Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'environment'",
+      "suggestion": "daily-life"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'industry'",
+      "suggestion": "business"
+    }
+  ]
+}

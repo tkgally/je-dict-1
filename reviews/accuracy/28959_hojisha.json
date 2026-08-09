@@ -1,0 +1,24 @@
+{
+  "entry_id": "28959_hojisha",
+  "headword": "{保持者|ほじしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T06:30:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'people'",
+      "suggestion": "person"
+    }
+  ]
+}

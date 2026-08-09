@@ -2,30 +2,15 @@
   "entry_id": "29110_izumotaisha",
   "headword": "{出雲大社|いずもたいしゃ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T19:44:08Z",
+  "reviewed_at": "2026-08-09T06:32:59Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "Semantic tag 'religion' is not in the allowed list.",
-      "suggestion": "Replace 'religion' with 'general' or 'building' or 'expression'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "Semantic tag 'culture' is not in the allowed list.",
-      "suggestion": "Replace 'culture' with 'general' or 'expression'."
-    }
-  ]
+  "issues": []
 }

@@ -1,0 +1,24 @@
+{
+  "entry_id": "28917_shiromiso",
+  "headword": "{白味噌|しろみそ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-09T06:29:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'food-drink' is not in the valid tag list.",
+      "suggestion": "food"
+    }
+  ]
+}

@@ -2,13 +2,13 @@
   "entry_id": "29084_hoomushikku",
   "headword": "ホームシック",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T12:40:13Z",
+  "reviewed_at": "2026-08-09T06:32:30Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'life' is not a valid semantic tag.",
-      "suggestion": "Remove 'life' or replace it with a valid tag if applicable (e.g., 'general' if no other tag fits)."
+      "severity": "warn",
+      "concern": "Tag 'life' is not in the valid tag list.",
+      "suggestion": "daily-life"
     }
   ]
 }

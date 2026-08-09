@@ -2,29 +2,15 @@
   "entry_id": "29080_kuuzenzetsugo",
   "headword": "{空前絶後|くうぜんぜつご}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T01:50:45Z",
+  "reviewed_at": "2026-08-09T06:32:27Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is slightly redundant and could be more concise while retaining full meaning.",
-      "suggestion": "unprecedented and unrepeatable; the first and last of its kind -> unprecedented and unrepeatable; one of a kind"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English translation 'the greatest of all time' for 空前絶後 is a bit strong and doesn't fully capture the 'unprecedented and unrepeatable' nuance, especially the 'unrepeatable' part. While it implies greatness, it misses the unique, never-again aspect.",
-      "suggestion": "That record is said to be the greatest of all time, and it still has not been broken. -> That record is said to be unprecedented and unrepeatable, and it still has not been broken."
-    }
-  ]
+  "issues": []
 }
