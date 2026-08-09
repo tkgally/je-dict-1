@@ -8,38 +8,31 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T00:28:59Z",
+  "reviewed_at": "2026-08-09T21:19:30Z",
   "summary": {
-    "flagged": 4
+    "flagged": 3
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss is misleading. '塁打' (ruida) specifically refers to a 'base hit' or 'total bases' in baseball, not just 'a hit that reaches a base' in a general sense. The current gloss could imply any hit that results in a runner reaching a base, which isn't the primary meaning of 塁打.",
-      "suggestion": "Change gloss to 'base hit (baseball); total bases (baseball)'"
+      "concern": "The gloss is misleading. 'total bases' is a related concept (塁打数), but 塁打 itself refers to the act of hitting and gaining bases, or the bases gained from a single hit, not the cumulative 'total bases'.",
+      "suggestion": "bases gained by a hit; a base hit"
     },
     {
       "dimension": "gloss",
       "location": "definitions[0].gloss",
       "severity": "error",
-      "concern": "The gloss for sense 1 is misleading. '塁打' (ruida) specifically refers to a 'base hit' or 'total bases' in baseball, not just 'a hit that puts the batter on base' in a general sense. The current gloss could imply any hit that results in a runner reaching a base, which isn't the primary meaning of 塁打.",
-      "suggestion": "Change definitions[0].gloss to 'base hit; total bases'"
+      "concern": "The gloss is misleading. 'total bases' is a related concept (塁打数), but 塁打 itself refers to the act of hitting and gaining bases, or the bases gained from a single hit, not the cumulative 'total bases'.",
+      "suggestion": "bases gained by a hit; bases reached on one's own hit"
     },
     {
       "dimension": "translation",
       "location": "examples[0]",
       "severity": "error",
-      "concern": "The English translation 'to belt out a long hit' for '長い塁打を放つ' is inaccurate. '塁打' (ruida) in this context refers to 'total bases' or 'bases' (as in, a hit that results in multiple bases). 'Long hit' is too general and doesn't capture the specific baseball meaning of '塁打' here.",
-      "suggestion": "Change English translation to 'to hit for many bases' or 'to hit a long ball for extra bases.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "error",
-      "concern": "The English translation 'number of total bases per game' for '一試合あたりの塁打数' is inaccurate. While '塁打数' can refer to 'total bases', in the context of slugging percentage, it specifically refers to the sum of bases for all hits (single = 1, double = 2, etc.), not just the 'number of total bases' as a count of hits.",
-      "suggestion": "Change English translation to 'total bases accumulated per game' or 'number of bases accumulated per game.'"
+      "concern": "The English translation uses 'total bases', which refers to 塁打数 (total bases, a cumulative statistic), not 塁打 (bases gained from a single hit or the act of gaining bases).",
+      "suggestion": "to rack up bases (by hitting)"
     }
   ]
 }
