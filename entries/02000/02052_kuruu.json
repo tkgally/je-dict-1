@@ -149,7 +149,7 @@
     },
     {
       "id": "02052_kuruu_ex5",
-      "japanese": "{狂|くる}ったように⟦{踊|おど}った→踊る：01250_odoru⟧。",
+      "japanese": "{狂|くる}った⟦ように→ように：10081_youni⟧⟦{踊|おど}った→踊る：01250_odoru⟧。",
       "english": "I danced like crazy.",
       "notes": null,
       "has_audio": false,
@@ -209,7 +209,7 @@
     },
     {
       "id": "02052_kuruu_ex11",
-      "japanese": "⟦あの→あの：00915_ano⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦あと→後：09580_ato⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{狂|くる}ったように⟦{叫|さけ}んだ→叫ぶ：02108_sakebu⟧。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{事件|じけん}→事件：01568_jiken⟧⟦の→の：09472_no⟧⟦あと→後：09580_ato⟧、⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{狂|くる}った⟦ように→ように：10081_youni⟧⟦{叫|さけ}んだ→叫ぶ：02108_sakebu⟧。",
       "english": "After that incident, he screamed as if he had gone mad.",
       "notes": null,
       "has_audio": false,
@@ -218,11 +218,33 @@
       ]
     }
   ],
-  "notes": "{狂|くる}う is an intransitive verb meaning to go mad, go wrong, or malfunction, depending on the subject.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No transitive pair\n\nMEANINGS BY CONTEXT:\n1. People: to go mad, lose one's mind\n2. Machines/clocks: to malfunction, be inaccurate\n3. Plans/schedules: to go awry, be disrupted\n4. Senses/intuition: to be off, unreliable\n\nASPECT (ている):\n{狂|くる}っている describes the resulting state: 'is crazy,' 'is wrong,' 'is off.'\n\nCOMMON EXPRESSIONS:\n- ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{狂|くる}う: to go insane\n- {狂|くる}った⟦ように→ように：10081_youni⟧: like crazy, frantically\n- ⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧{狂|くる}っている: the clock is wrong\n- ⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧{狂|くる}う: the schedule goes awry\n- ～⟦に→に：00314_ni⟧{狂|くる}う: to go crazy over ~\n\nRELATED:\n- ⟦{狂気|きょうき}→狂気：noentry⟧: madness, insanity\n- ⟦{狂|くる}わせる→狂わせる：noentry⟧: to drive mad (causative)",
-  "cross_references": [],
+  "notes": "{狂|くる}う is an intransitive verb meaning to go mad, go wrong, or malfunction, depending on the subject.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No transitive pair\n\nMEANINGS BY CONTEXT:\n1. People: to go mad, lose one's mind\n2. Machines/clocks: to malfunction, be inaccurate\n3. Plans/schedules: to go awry, be disrupted\n4. Senses/intuition: to be off, unreliable\n\nASPECT (ている):\n{狂|くる}っている describes the resulting state: 'is crazy,' 'is wrong,' 'is off.'\n\nCOMMON EXPRESSIONS:\n- ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{狂|くる}う: to go insane\n- {狂|くる}った⟦ように→ように：10081_youni⟧: like crazy, frantically\n- ⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧{狂|くる}っている: the clock is wrong\n- ⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧{狂|くる}う: the schedule goes awry\n- ～⟦に→に：00314_ni⟧{狂|くる}う: to go crazy over ~\n\nRELATED:\n- ⟦{狂気|きょうき}→狂気：27800_kyouki⟧: madness, insanity\n- ⟦{狂|くる}わせる→狂わせる：noentry⟧: to drive mad (causative)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27800_kyouki",
+      "reading": "きょうき",
+      "headword": "{狂気|きょうき}",
+      "label": "madness"
+    },
+    {
+      "type": "related",
+      "target_id": "00791_kowareru",
+      "reading": "こわれる",
+      "headword": "{壊|こわ}れる",
+      "label": "to break"
+    },
+    {
+      "type": "related",
+      "target_id": "03370_zureru",
+      "reading": "ずれる",
+      "headword": "ずれる",
+      "label": "to be off/shifted"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:08:01Z",
-    "modified": "2026-05-18T13:16:13Z",
+    "modified": "2026-08-09T18:18:20Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {
@@ -233,7 +255,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "change"
       ],
       "verb_class": "godan-u"
     }

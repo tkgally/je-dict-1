@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06849_demeritto_ex1",
-      "japanese": "この{計画|けいかく}のデメリットは{費用|ひよう}がかかることだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦の→の：09472_no⟧デメリット⟦は→は：00079_ha⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧⟦こと→こと：01164_koto⟧⟦だ→だ：09496_da⟧。",
       "english": "The downside of this plan is that it's expensive.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06849_demeritto_ex2",
-      "japanese": "デメリットも{考|かんが}えた{上|うえ}で{判断|はんだん}してください。",
+      "japanese": "デメリット⟦も→も：00484_mo⟧⟦{考|かんが}えた→考える：00856_kangaeru⟧⟦{上|うえ}→上：00682_ue⟧⟦で→で：00502_de⟧⟦{判断|はんだん}→判断：03571_handan⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please make your decision after considering the disadvantages as well.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "06849_demeritto_ex3",
-      "japanese": "{在宅|ざいたく}{勤務|きんむ}のデメリットは{何|なん}ですか。",
+      "japanese": "⟦{在宅|ざいたく}→在宅：07696_zaitaku⟧⟦{勤務|きんむ}→勤務：04545_kinmu⟧⟦の→の：09472_no⟧デメリット⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "What are the disadvantages of working from home?",
       "sense_numbers": [
         1
@@ -38,14 +38,14 @@
     },
     {
       "id": "06849_demeritto_ex4",
-      "japanese": "デメリットがないわけではない。",
+      "japanese": "デメリット⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦わけ→訳：01095_wake⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧。",
       "english": "It's not without its drawbacks.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "デメリット is a loanword used to mean disadvantage or downside.\n\nUSAGE NOTE:\nAlmost always used in combination with or contrast to メリット. The pair メリット/デメリット is extremely common in Japanese discussions about options, decisions, and comparisons.\n\nCOMMON PATTERNS:\n- デメリットがある - to have a disadvantage\n- デメリットは〜だ - the disadvantage is...\n- メリットとデメリット - pros and cons\n- 〜するデメリット - the downside of doing...\n\nSIMILAR WORDS:\n- デメリット vs. {欠点|けってん}: Similar, but {欠点|けってん} emphasizes a flaw or defect\n- デメリット vs. {短所|たんしょ}: Similar; {短所|たんしょ} is more for people/character\n- デメリット vs. {弱点|じゃくてん}: {弱点|じゃくてん} emphasizes weakness\n\nETYMOLOGY NOTE:\nWhile \"demerit\" exists in English, Japanese デメリット is used more broadly to mean any disadvantage or downside, not just a negative mark or penalty.",
+  "notes": "デメリット is a loanword used to mean disadvantage or downside.\n\nUSAGE NOTE:\nAlmost always used in combination with or contrast to ⟦メリット→メリット：06848_meritto⟧. The pair ⟦メリット→メリット：06848_meritto⟧/デメリット is extremely common in Japanese discussions about options, decisions, and comparisons.\n\nCOMMON PATTERNS:\n- デメリット⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ - to have a disadvantage\n- デメリット⟦は→は：00079_ha⟧〜⟦だ→だ：09496_da⟧ - the disadvantage is...\n- ⟦メリット→メリット：06848_meritto⟧⟦と→と：00512_to⟧デメリット - pros and cons\n- 〜⟦する→する：00392_suru⟧デメリット - the downside of doing...\n\nSIMILAR WORDS:\n- デメリット vs. ⟦{欠点|けってん}→欠点：02702_ketten⟧: Similar, but ⟦{欠点|けってん}→欠点：02702_ketten⟧ emphasizes a flaw or defect\n- デメリット vs. ⟦{短所|たんしょ}→短所：04506_tansho⟧: Similar; ⟦{短所|たんしょ}→短所：04506_tansho⟧ is more for people/character\n- デメリット vs. ⟦{弱点|じゃくてん}→弱点：12497_jakuten⟧: ⟦{弱点|じゃくてん}→弱点：12497_jakuten⟧ emphasizes weakness\n\nETYMOLOGY NOTE:\nWhile \"demerit\" exists in English, Japanese デメリット is used more broadly to mean any disadvantage or downside, not just a negative mark or penalty.",
   "cross_references": [
     {
       "type": "antonym",
@@ -60,11 +60,18 @@
       "headword": "{欠点|けってん}",
       "label": "flaw",
       "target_id": "02702_ketten"
+    },
+    {
+      "type": "related",
+      "target_id": "04506_tansho",
+      "reading": "たんしょ",
+      "headword": "{短所|たんしょ}",
+      "label": "weak point (of a person)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T07:49:02Z",
-    "modified": "2026-06-18T09:33:05Z",
+    "modified": "2026-08-09T18:18:20Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -74,6 +81,9 @@
       "politeness": "plain",
       "semantic": [
         "abstract"
+      ],
+      "domain": [
+        "business"
       ]
     }
   }

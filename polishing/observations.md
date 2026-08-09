@@ -1010,3 +1010,31 @@ All 24 observations cleared.)_
   next poll on the wait's completion *notification* rather than its tool result. This is also
   the leading candidate explanation for the PR #3152 "stale cache" report, since that run
   followed the same procedure — see Tooling 91, now downgraded.
+
+- [pattern] **Onomatopoeia entries in the 06845–06849 block were created with zero inline
+  links.** All five frontier entries this run (06845 ぬめぬめ, 06846 コリコリ, 06847 プチプチ,
+  06848 メリット, 06849 デメリット) had *no* ⟦…⟧ links at all in examples or notes — not partial
+  coverage, but a complete absence, including the SIMILAR WORDS blocks that name other entries
+  the dictionary already has (ぬるぬる, つるつる, かりかり, さくさく, ぷりぷり, 利点, 長所, 欠点,
+  短所, 弱点 all existed and were sitting naked in the notes). This looks like a creation-batch
+  signature rather than scattered drift, so the zero-link population is probably clustered by ID
+  range and could be attacked in blocks rather than one entry at a time. Worth a detector that
+  reports contiguous runs of zero-link entries so a systemic-fix run can target the densest
+  block instead of the sequential frontier.
+
+- [pattern] **Stale `noentry` markers keep surfacing on words that now have entries.** Two more
+  this run: 02052 狂う marked 狂気 as `noentry` though 27800_kyouki exists, and 04438 報道 marked
+  各 as `noentry` though 00449_kaku exists. Both are the P35 class that
+  `build/check_stale_noentry.py` detects. Also related but *not* caught by that detector: words
+  left entirely naked (no link and no `noentry` marker) whose entries exist — エリア in 04438
+  resolved to 10726_eria. A naked-word detector would need tokenization, but a cheap
+  approximation is "katakana run of ≥2 chars in an example, outside any ⟦…⟧, that matches a
+  by_headword key" — katakana loanwords are the easy case and were the miss here.
+
+- [pattern] **Semantic-tag drift across the conflict/dispute cluster.** 05758 紛争 was tagged
+  `action`; its neighbours are no better — 01450 戦争 is `action`, 04500 対立 and 09992 争い are
+  both `general`. `action` on an abstract noun is the specific failure mode
+  `build/check_tag_drift.py` calls semantic-mismatch, and `general` as a sole tag is its
+  sole-general check, so the whole cluster is already detectable. Fixed 紛争 to
+  `society`/`politics` this run; the other three are left for a systemic-fix pass so the cluster
+  gets one consistent decision rather than four independent guesses.

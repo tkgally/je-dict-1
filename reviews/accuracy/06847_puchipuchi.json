@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-18T09:28:08Z",
+  "reviewed_at": "2026-08-09T18:27:52Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'food' is incorrect for the headword 'プチプチ'. While the word can describe the texture of food, its primary meaning and the second sense ('bubble wrap') are not related to food itself. The tag is likely derived from the example sentences rather than the headword's core meaning.",
+      "suggestion": "Remove 'food'."
+    }
+  ]
 }

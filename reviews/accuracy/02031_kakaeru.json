@@ -2,23 +2,15 @@
   "entry_id": "02031_kakaeru",
   "headword": "{抱|かか}える",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:37:48Z",
+  "reviewed_at": "2026-08-09T18:27:40Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'existence' is incorrect for the headword '抱える'.",
-      "suggestion": "action"
-    }
-  ]
+  "issues": []
 }
