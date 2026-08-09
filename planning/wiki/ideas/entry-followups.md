@@ -1323,6 +1323,53 @@ examples from whatever field the base noun suggests. See
 [Cleanup Backlog → Updates 2026-08-08 run 2](cleanup-backlog.md#updates-2026-08-08-wiki-harvest-run-2)
 for the corpus-wide `domain` measurement this belongs to.
 
+## 2026-08-09 (wiki harvest)
+
+**04262 {擦|こす}る — `vocabulary_tier: basic` is almost certainly a mislabel.** 擦る (to rub,
+to scrub) is not plausibly a member of the closed ~800-word basic tier. The tier lists are
+closed and must not be edited casually, so this is a **tier-audit item, not a polish fix**: it
+belongs in the next `audit_vocabulary_tiers.md` pass, which produces a report rather than
+changing entries. Flagged by the 2026-08-09 polish run, which correctly left it alone.
+
+**02992 {色|いろ}んな — the POS is wrong in a way the schema has no slot for.** The entry's
+`part_of_speech` is "adjectival noun" and its `pos` tags were `adjective-na` + `noun`, but
+色んな is a **連体詞** (pre-nominal adjectival): it modifies nouns directly and cannot be a
+predicate. *The entry's own notes say so.* The 2026-08-09 polish run removed the `noun` tag,
+which is unambiguous, and correctly stopped there — the remaining question is whether the
+project should have a 連体詞 category at all, which is a curator call with dictionary-wide
+consequences (こんな/そんな/あんな/大きな/小さな and the ある/あらゆる set are the same class).
+Until then `adjective-na` is a compromise that mislabels the predicate behaviour of every member.
+
+**00806 {両親|りょうしん} — fixed in-run, and it names a class.** The entry was tagged
+`formality: formal` + `politeness: honorific`; the honorific form is ご両親, while 両親 itself
+is the plain word. The 2026-08-09 polish run fixed it and suggested other family terms may
+carry the same drift. **Measured**: 16 noun entries are tagged honorific/humble without an
+お/ご prefix and without a gloss that says so —
+`03189_riyousha` 利用者 "user, customer" (honorific), `01454_sonkei` 尊敬 "respect, esteem"
+(honorific), `04142_kenson` 謙遜 "modesty" (humble), `07430_haiguusha` 配偶者 "spouse" (humble),
+`03147_busata` 無沙汰, `04987_chazuke` 茶漬け, `07059_haikanryou` 拝観料, `15316_futoku` 不徳,
+`27410_kouhai` 高配, `27411_hikitate` 引き立て, `00987_shujin` 主人, `01902_ousama` 王様,
+`02853_okusan` 奥さん, `03597_fujin` 夫人, `14566_heika` 陛下, `23324_sunshi` 寸志.
+
+The list is **not** a fix list — several are correct (陛下, 閣下, 寸志, 高配 and 引き立て are
+genuinely deferential in use). The four at the top are the 両親 error repeated: a word whose
+*meaning* is deference tagged as a word whose *use* is deferential. Needs per-entry judgment;
+sizing and rationale in
+[Cleanup Backlog → Updates 2026-08-09](cleanup-backlog.md#updates-2026-08-09-wiki-harvest).
+
+**06844 {切|き}り{崩|くず}す — parked deliberately, and the next polish run should expect it.**
+15 examples and a full notes block with **zero** inline-link coverage, too large to link inside
+one polish run's budget alongside other entries. The 2026-08-09 run left the frontier cursor at
+06844 so the next `polish` run can spend most of its frontier budget on this single entry. The
+entry's *content* is good (3 senses, well distributed) — this is a linking cost, not a quality
+problem. It is also a member of [Cleanup P50](cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46).
+
+**Proper-noun scope — fourth filing, now with a fresh candidate.** C22806 夏目漱石 was captured
+again by the 2026-08-09 polish run ("seen in entry 06801") and left in the candidate list
+pending the curator's decision. Nothing new to add to the argument above; recording the repeat
+because the re-capture rate is itself the point — every polishing run that meets a proper noun
+in an example will keep filing one until the policy and the corpus agree.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

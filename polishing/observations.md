@@ -908,98 +908,93 @@ the frontier-versus-growth rate, which this window's 76% does **not** close.
 
 All 23 observations cleared.)_
 
-- [tooling] `reviews/decisions.jsonl` has no family key on `tags` lines, so each metrics refresh
-  re-derives the off-vocabulary / in-list / formality split by keyword-matching the free-text
-  `note`. The split is now the headline of two consecutive refreshes (§14, §15) and the
-  classifier is the weakest link in it — the 5.0% in-list figure this refresh is not strictly
-  comparable to the 28.1% last refresh. An explicit `"fam"` key on `tags` lines, with the same
-  fixed lowercase vocabulary discipline §C already applies to `src`/`dim`/`decision`, would
-  remove the classifier entirely and cost one field.
-- [pattern] The frontier-versus-growth gap closed to 76% this window only because the "seen in
-  entry" candidate lane ran dry (growth 59 → 38); the polish frontier itself moved 26 → 29 IDs,
-  i.e. not at all. Since that lane refills from comprehensive polish, the mechanism that closed
-  the gap is the one that will reopen it within days. Planning should keep using the 44–50%
-  band until a window shows the frontier column moving on its own.
-- [entry] 06844 kirikuzusu: 15 examples and a full notes block with **zero** inline-link
-  coverage. Too large to link within one polish run's budget alongside other entries; the
-  frontier cursor is parked at 06844 so the next `polish` run can spend most of its frontier
-  budget on this one entry. Content itself is good (3 senses, well distributed).
-- [pattern] Two stale `noentry` markers surfaced in a single 8-entry priority batch this run
-  (05834 しょげる → 29029_shogeru; 01910 勃発する → 11823_boppatsu). Both are exactly the P35
-  family `build/check_stale_noentry.py` detects, and both sat in entries the sequential frontier
-  had already passed. The priority lane reaches entries the frontier cannot revisit, so P35
-  residue is likely much larger than the frontier's own rate suggests — worth a dedicated
-  `systemic-fix` run rather than waiting for polish to stumble on them.
-- [pattern] Frontier entries 06842–06844 (the 2026-01-18 compound-verb creation block) all have
-  zero inline links in both examples and notes, while priority-lane entries from earlier ranges
-  are fully linked. Inline linking appears to have been backfilled up to some ID and then
-  stopped; entries created after that point never got it. A detector that reports "entries with
-  Japanese examples containing no ⟦⟧ at all" would size this block precisely and is cheap to
-  write — it is a pure absence test, no judgment needed.
-- [pattern] Particle errors in the *notes* survive longer than errors in examples, because
-  nothing validates prose claims. 03743 味方 documented を as the object particle (correct is に)
-  and 01099 答える listed 電話に答える as a real collocation (the phrase is 電話に出る). Both had
-  passed multiple polish rounds. Cross-model accuracy review reads notes, so `accuracy-review`
-  mode is the instrument that catches these — deterministic checks never will.
-- [pattern] candidate_words.json quality is bimodal: the 16 `seen in entry` candidates were all dictionary-worthy, but sampling the ~970 corpus-harvested candidates from 2026-03/04/05 turned up mostly non-words (権使, 些道, 個尊, 怒燥, 区部分) and transparent compounds (片面印刷, 若い女性, 最大容量, 一週間前). A `new-entries` run that exhausts the `seen in entry` lane has no good fallback. This is the **third consecutive run** to report it (see PROJECT_STATUS 2026-08-05 and the 08-07/08-08 logs), and the `seen in entry` lane is now empty, so the next `new-entries` run has no clean source at all. Escalating: a `clean_up_candidates_list.md` pass over the 2026-03..05 batches should run before the next `new-entries` selection, or the selector will pick a mode it cannot execute well. (routine 2026-08-09)
-- [entry] Proper-noun candidates are being captured by polishing (C22806 夏目漱石, "seen in entry 06801") but the dictionary has no proper-noun precedent (no 東京/日本/富士山 entries). Left in the list pending a curator scope decision. (routine 2026-08-09)
+## 2026-08-09 (routine wiki harvest — all prior observations cleared)
 
-## 2026-08-09 — routine accuracy-review (28901–29294)
+_(Harvested by the 2026-08-09 routine `wiki` run: all **24** loose observations from the
+2026-08-09 polish run, the 2026-08-09 accuracy-review (28901–29294), and the 2026-08-09
+systemic-fix run (the 180-pair stale-`noentry` sweep). **Six premises were measured against the
+whole corpus before filing. Two were retired, two were re-scoped by an order of magnitude, one
+was cut from 82 to 16, and one confirmed exactly.**
 
-- [pattern] Off-vocabulary semantic tags are dense in the 28901–29450 block: 54 of
-  550 entries (~10%) carried a tag absent from `VALID_SEMANTIC`. The recurring
-  families are `medical`→`health`, `food-drink`→`food`, `body`→`body-part`,
-  `motion`→`movement`, `sensation`/`manner`/`physical-property`→`descriptive`,
-  `people`→`person`, `time`→`time-general`, `animals`→`animal-bird`. A scripted
-  scan against `VALID_SEMANTIC` finds every one of them for free and is far
-  cheaper than waiting for the cross-model reviewer to surface them one at a
-  time. Worth extending `build/check_tag_drift.py`'s `TAG_MIGRATION` map with
-  the families above so a systemic-fix run can sweep the rest of the dictionary.
-  Dictionary-wide scope after this run: **1,848 entries** still carry a baselined
-  off-vocab semantic tag (2,436 uses) — a large, purely mechanical backlog that
-  a handful of systemic-fix runs could clear.
-- [tooling] `build/validate_tags.py` reports off-vocabulary semantic tags only
-  under `--verbose` (11,013 warnings are collapsed to a count), so the defect
-  class is effectively invisible in normal runs. A `--list-unknown` summary mode
-  (tag → count → entry IDs) would make it actionable.
-- [pattern] 65 furigana wrappers dictionary-wide wrap *hiragana* as if it were
-  kanji. Most are harmless identity wrappers (`{おもちゃ|おもちゃ}`,
-  `{すぐ|すぐ}`), but they hid one real error found this run: entry 28929 had
-  `{苦悶|くもん}{に|み}ちた` where the kanji 満 had been dropped entirely
-  (correct: `{苦悶|くもん}に{満|み}ちた`). A detector for "wrapper whose left
-  side contains no kanji" is a cheap, high-precision check.
-- [pattern] A further 274 wrappers give katakana a hiragana "reading"
-  (`{バイク|ばいく}`). This is a separate, larger, and probably deliberate
-  class — worth a policy decision in the wiki before any sweep.
-- [tooling] Cross-model reviewer precision this run: error-severity tag flags
-  were ~70% applicable, but almost all of the applicable ones were the
-  mechanical "tag not in the valid list" family. Every *in-list* substitution
-  flag ("too narrow"/"too broad") was rejected — 12 for 12. The reviewer prompt
-  could stop emitting in-list substitution suggestions entirely and lose nothing.
-- [tooling] A background `review_runner.py` pass survived `pkill -f` at the §6
-  context checkpoint and kept writing result files after the run's `git add -A`,
-  stranding 25 artifacts outside the PR (recovered in a follow-up commit). Only
-  `kill -9 <pid>` stopped it. Routines that stop a review pass early should
-  confirm termination by PID before committing.
-- [tooling] The GitHub **MCP check-run status is cached and can be badly stale**,
-  which is a direct cause of stranded Routine PRs. On PR #3152 the `validate`
-  check actually completed `success` 67 seconds after starting
-  (`started_at` 06:45:18 → `completed_at` 06:46:25), but
-  `pull_request_read method=get_check_runs` kept reporting
-  `status: "in_progress"` for ~30 minutes afterwards, and
-  `actions_get method=get_workflow_run` agreed, with its `updated_at` frozen at
-  the run's start time. Polling to the documented ~8-minute cap would have left
-  a green PR open for no reason. Mitigations for §7 step 5.2: treat a frozen
-  `updated_at` as "no fresh data" rather than "still running", and re-poll once
-  more after a long gap before declaring a timeout — the §0a rescue is the
-  backstop, but it costs a whole extra run.
+- **"a detector for entries with Japanese examples containing no ⟦⟧ at all would size this
+  block precisely — a pure absence test, no judgment needed"** (filed **twice** independently
+  this run) — measured at **23,404 of 30,316 entries (77%)**, i.e. the detector returns the
+  polish frontier. That is already documented with a standing "do not file" instruction, making
+  these the **sixth and seventh** rediscoveries. **But splitting the same scan at the frontier
+  produced the item six earlier filings had missed**: **55 entries sit BEHIND `next: 06845`
+  with zero links**, work the cursor passed and will never revisit. Filed as **Cleanup P50**,
+  the strict sibling of P46. Mostly contiguous blocks — 21 of the 55 are the single-kanji
+  `〜` run 03949–03969, whose bound-morpheme headwords are the likely reason a linking pass
+  skipped the batch as a unit. Generalised rule recorded on the topic page: **when a coverage
+  detector returns most of the dictionary, the useful query is that detector intersected with a
+  cursor position.**
 
-- [entry] 04262 kosuru: vocabulary_tier is `basic`, but 擦る (to rub/scrub) is not plausibly a closed-basic-tier word — likely a tier mislabel worth checking in the next tier audit.
-- [pattern] Compound-verb entries created in the 2026-01-18 batch (06844, 06975, 07099) had **zero** inline links in examples or notes, while their same-era neighbours are fully linked. Worth a targeted detector for entries with kanji-bearing examples and no ⟦…⟧ at all — that class ranks low on note quality but the cause is missing linking, not thin notes.
-- [pattern] Two entries this run (06975, 07099) carried a hand-written CONJUGATION / negative-te-past list at the top of `notes` that merely duplicates the `conjugation` table the renderer already displays. This is the P10 duplicate-conjugation artifact; both were removed here.
-- [entry] 02992 ironna: 色んな is a pre-nominal (連体詞) only — its own notes say it cannot be a predicate — yet part_of_speech is "adjectival noun" and pos was tagged adjective-na + noun. Removed `noun` this run; the deeper POS question (連体詞 category) is a curator call.
-- [tooling] `build/check_stale_noentry.py` would have caught 04262's `⟦擦れる→擦れる：noentry⟧`, which has had an entry (28426_kosureru) for some time. Worth running that detector as its own systemic-fix pass soon.
-- [pattern] Stale `noentry` sweeps go much faster in entry-ID order than in detector order: consecutive entries repeat the same families (counter compounds 六千/八百/三十人, day-of-month readings 十四日/十五日, compass compounds 北側/西日本, katakana loanwords ウール/ミトン/コンポ), so one context read settles a dozen pairs. 180 pairs verified this run with zero polysemy false positives.
-- [tooling] The §4 self-check reviews whole entries, so on a link-only run every flag it returns is pre-existing content, not the change under test. That is useful (6 real tag/translation errors surfaced in entries the run happened to touch) but it means a link-only run gets no direct verification of its own edits. A `--dimensions links` mode for `review_accuracy.py`, or reusing `check_link_targets.py` + a context sample, would be the targeted instrument.
-- [pattern] Tag errors keep clustering on the *category* axis rather than the narrowness axis: 財布 tagged `clothing`, けが tagged `body-part`, 定期券 tagged `person`. These are flatly wrong parents, not too-narrow siblings, and unlike narrowness nits they are worth applying on sight. A detector for "concrete-noun semantic tag whose category contradicts the POS/gloss head" would find them deterministically.
-- [entry] 00806 両親 was tagged formality=formal + politeness=honorific; the honorific form is ご両親, and 両親 itself is the plain word. Fixed this run. Similar keigo-label drift may sit on other family-term entries.
+- **"extend `check_tag_drift.py`'s `TAG_MIGRATION` with these eight families so a systemic-fix
+  run can sweep the rest"** — the backlog size confirmed exactly (**1,848 entries / 2,436
+  uses**), but the proposed method measured and **re-scoped**: the uses spread over **643
+  distinct invented labels**, of which **300 are used exactly once** and 486 are used ≤3 times.
+  The current 9 rules cover **7%**; the ten families named cover **8%**; reaching 75% needs
+  ~200 hand-written rules. Head-only instrument. Prescription: extend with the top ~25 labels
+  (7% → 29%, nearly free) and plan the tail as accuracy-review coverage, whose off-vocabulary
+  flag already runs at ~97% apply rate and names a destination per instance without anyone
+  enumerating the vocabulary first.
+
+- **"a detector for a furigana wrapper whose left side contains no kanji is cheap and
+  high-precision"** — measured across all **1,110,639** wrappers: **391 hits, at most 3 real —
+  under 1% precision**, and the trigger case (28929) is not among them because the filing run
+  fixed it. **RETIRED.** The 47-item residue is a **fourth undocumented brace convention**:
+  numerals are wrapped to supply their spoken reading (`{1990|せんきゅうひゃくきゅうじゅう}`,
+  `{3|さん}`, `{〇|まる}`), so a mechanical sweep on this rule would have *stripped* useful
+  reading data. Four detector proposals in three months are now dead by undocumented
+  convention; documenting the two extensions is filed as the highest-value fix on that page.
+
+- **The one rule that survived**: wrappers with an **empty side** — `{どこ|}`, `{キャンプ|}`,
+  `{うまく|}`. **3 instances, zero false-positive family.** Queued as a permanent
+  `check_furigana_format.py` line rather than a sweep.
+
+- **"274 wrappers give katakana a hiragana reading; worth a policy decision"** — confirmed at
+  **276 / 230 entries / 208 distinct surfaces**, only 2 of them identity wrappers, so this is
+  deliberate and consistent. Two project rules collide on it. Queued as **blocked on a curator
+  decision**, explicitly not as cleanup.
+
+- **"similar keigo-label drift may sit on other family-term entries"** (from 00806 両親) — the
+  obvious rule (honorific/humble with no お/ご prefix) returns **82 and is mostly correct**,
+  because suppletive keigo verbs take no prefix. Adding "noun POS" + "gloss does not say so"
+  cuts it to **16**, roughly half genuine. The distinguishing error is named on
+  `topics/register.md`: **tagging a word that *denotes* deference (尊敬 "respect", 謙遜
+  "modesty") as one that *encodes* it** — the register-axis twin of the meaning-versus-use
+  confusion already documented for semantic tags.
+
+Also filed: **new Tooling 89** (an explicit `"fam"` key on `tags` lines in
+`reviews/decisions.jsonl` — the off-vocab / in-list / formality split is the headline of two
+consecutive metrics refreshes and is currently re-derived each time by keyword-matching
+free-text notes, which is why the in-list figure moved 28.1% → 5.0% without necessarily moving);
+**new Tooling 90** (`review_accuracy.py --dimensions links` — §4 reviews whole *entries*, so a
+link-only run verifies everything except the change under test; 180 link edits merged with zero
+independent review while the pass usefully surfaced 6 unrelated pre-existing errors); **new
+Tooling 91** (the **GitHub MCP check-run status is cached and can be ~30 minutes stale** — PR
+#3152's `validate` completed `success` in 67 s while `get_check_runs` reported `in_progress`
+for half an hour; a direct, measured cause of stranded PRs, with three mitigations proposed for
+§7's polling loop). **Updates**: **Tooling 27** (off-vocab tags print only under `--verbose`,
+collapsing 11,013 warnings to one integer — the reason the largest tag backlog stayed invisible;
+`--list-unknown` is the fix and the 643-label distribution is why); **Tooling 17** (in-list
+substitution flags **0 of 12** — twelfth-plus confirmation, still unshipped); **Tooling 84**
+(a backgrounded `review_runner.py` **survived `pkill -f`** and kept writing after `git add -A`,
+stranding 25 artifacts — confirm termination by PID, or stage results and promote on clean
+exit); **P35** (three independent sightings in one day; detector state 6,026 instances / 2,689
+entries, mechanical A1+A2 at 1,423 pairs — plus the method note that ID-order sweeps beat
+detector-order ones, 180 pairs at zero false positives).
+**Entry Follow-ups**: 04262 擦る `basic` tier mislabel (tier-audit item, not a polish fix);
+02992 色んな (連体詞 has no schema slot — `noun` removed, the category question is a curator
+call affecting こんな/そんな/大きな/あらゆる); the 16-entry keigo list; 06844 切り崩す parked
+at the frontier cursor for a dedicated run; the proper-noun scope question, **fourth filing**.
+
+**Activity H not run** (6 new metrics lines, 466 → 472 — below the ≥10 threshold).
+
+**Carried forward to the curator**: the katakana-wrapper convention; the 連体詞 category
+question; the proper-noun scope contradiction (fourth filing); and the link-coverage rate,
+which this run measured moving the **wrong way** — the zero-link population grew 23,294 →
+23,404 while the frontier advanced 122 IDs, so the linking lane is running at break-even
+against new-entry supply.
+
+All 24 observations cleared.)_
