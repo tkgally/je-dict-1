@@ -976,3 +976,8 @@ All 23 observations cleared.)_
   mechanical "tag not in the valid list" family. Every *in-list* substitution
   flag ("too narrow"/"too broad") was rejected — 12 for 12. The reviewer prompt
   could stop emitting in-list substitution suggestions entirely and lose nothing.
+- [tooling] A background `review_runner.py` pass survived `pkill -f` at the §6
+  context checkpoint and kept writing result files after the run's `git add -A`,
+  stranding 25 artifacts outside the PR (recovered in a follow-up commit). Only
+  `kill -9 <pid>` stopped it. Routines that stop a review pass early should
+  confirm termination by PID before committing.
