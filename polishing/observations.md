@@ -920,3 +920,24 @@ All 23 observations cleared.)_
   i.e. not at all. Since that lane refills from comprehensive polish, the mechanism that closed
   the gap is the one that will reopen it within days. Planning should keep using the 44–50%
   band until a window shows the frontier column moving on its own.
+- [entry] 06844 kirikuzusu: 15 examples and a full notes block with **zero** inline-link
+  coverage. Too large to link within one polish run's budget alongside other entries; the
+  frontier cursor is parked at 06844 so the next `polish` run can spend most of its frontier
+  budget on this one entry. Content itself is good (3 senses, well distributed).
+- [pattern] Two stale `noentry` markers surfaced in a single 8-entry priority batch this run
+  (05834 しょげる → 29029_shogeru; 01910 勃発する → 11823_boppatsu). Both are exactly the P35
+  family `build/check_stale_noentry.py` detects, and both sat in entries the sequential frontier
+  had already passed. The priority lane reaches entries the frontier cannot revisit, so P35
+  residue is likely much larger than the frontier's own rate suggests — worth a dedicated
+  `systemic-fix` run rather than waiting for polish to stumble on them.
+- [pattern] Frontier entries 06842–06844 (the 2026-01-18 compound-verb creation block) all have
+  zero inline links in both examples and notes, while priority-lane entries from earlier ranges
+  are fully linked. Inline linking appears to have been backfilled up to some ID and then
+  stopped; entries created after that point never got it. A detector that reports "entries with
+  Japanese examples containing no ⟦⟧ at all" would size this block precisely and is cheap to
+  write — it is a pure absence test, no judgment needed.
+- [pattern] Particle errors in the *notes* survive longer than errors in examples, because
+  nothing validates prose claims. 03743 味方 documented を as the object particle (correct is に)
+  and 01099 答える listed 電話に答える as a real collocation (the phrase is 電話に出る). Both had
+  passed multiple polish rounds. Cross-model accuracy review reads notes, so `accuracy-review`
+  mode is the instrument that catches these — deterministic checks never will.
