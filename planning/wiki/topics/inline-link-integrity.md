@@ -1,6 +1,12 @@
 # Inline Link Integrity
 
-**Last updated**: 2026-08-07 (measured the braced-base-form class, which turned out to be
+**Last updated**: 2026-08-09 (re-measured the zero-link population at **23,404** with the
+frontier at 06845: it **grew by 110 while the frontier advanced 122 IDs**, which is the
+frontier-versus-growth gap expressed on the link metric for the first time. Separated out the
+**55 zero-link entries that sit *behind* the frontier** — the actionable residue the "77% of
+the dictionary" headline hides — and filed them as Cleanup P50.)
+
+Prior 2026-08-07 (measured the braced-base-form class, which turned out to be
 36 entries and 226 instances — one small cohort, not a sweep — and added the two
 *wrong-target* classes that three runs surfaced in the first week of August)
 
@@ -31,7 +37,7 @@ are batch-ready from the four that are not.
 | Base form written in kana, not dictionary form | 3,567 | Cosmetic/lookup | [Cleanup P32](../ideas/cleanup-backlog.md#priority-32-inline-link-base-forms-written-in-kana-instead-of-the-dictionary-form) |
 | Target disagrees with the base form (homophone substitution) | 405 → 318 | Defect, per-entry | `link-target-baseform-disagreement` |
 | **Stale `noentry` markers** | **3,809** (2,887 unique-target; 447 never correct) | **Defect, batch-ready** | [Cleanup P35](../ideas/cleanup-backlog.md) *(new, this page's measurement)* |
-| **Entries with zero links** | **23,294** | **Not a defect — see below** | *(structural; do not file)* |
+| **Entries with zero links** | **23,404** (of which **55** behind the frontier) | **Not a defect above the frontier — see below**; the 55 are | *(structural; do not file)* + [Cleanup P50](../ideas/cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46) |
 | `Xする` base label on a bare-noun target | 441 (267 decidable) | Convention gap, not a defect | [Cleanup informational](../ideas/cleanup-backlog.md#informational-inline-link-base-forms-labelled-xする-while-targeting-the-bare-noun-entry-441-links) |
 
 The two bold rows were both proposed as backlog items by 2026-07-31 / 2026-08-01 polish runs
@@ -138,27 +144,35 @@ would delete a する the sentence actually contains. Filed as a
 with the three coherent options; only the "prefer the する entry where one exists" reading is a
 sweep, and it is a 267-link one.
 
-## Zero-link entries — 23,294, and *not* a defect
+## Zero-link entries — 23,404, and *not* a defect
 
 Two polish runs (2026-07-31, 2026-08-01) reported that a frontier block "was created with
 zero inline links … consistent with a creation batch that predates the inline-link
 requirement," and proposed both a `check_link_coverage.py` detector and a targeted backfill.
 
-The corpus says there is no batch. Zero-link entries by ID band:
+The corpus says there is no batch. Zero-link entries by ID band (re-measured 2026-08-09;
+the 2026-08-07 figures are in parentheses where they moved):
 
 | Band | Entries | Zero-link | % | Links in band |
 |---|---|---|---|---|
-| 00000–01999 | 1,989 | 0 | 0.0% | 86,455 |
-| 02000–03999 | 1,989 | 23 | 1.2% | 79,929 |
-| 04000–05999 | 1,987 | 3 | 0.2% | 72,782 |
-| 06000–07999 | 1,918 | 1,202 | 62.7% | 25,518 |
+| 00000–01999 | 1,989 | 0 | 0.0% | 86,851 |
+| 02000–03999 | 1,989 | 23 | 1.2% | 80,030 |
+| 04000–05999 | 1,987 | 3 | 0.2% | 72,829 |
+| 06000–07999 | 1,918 | **1,084** (1,202) | 56.5% | 30,111 |
 | 08000–09999 | 1,995 | 1,857 | 93.1% | 1,055 |
 | 10000–29999 | 19,912 | 19,911 | ~100% | 11 |
-| 30000+ | 298 | 298 | 100% | 0 |
+| 30000+ | **526** (298) | **526** | 100% | 0 |
 
 This is not a batch signature. It is a **cliff at the comprehensive-polish frontier**, which
-sits at 06723 — in the middle of the one band that is partially linked. Essentially every
+sits at 06845 — in the middle of the one band that is partially linked. Essentially every
 link in the dictionary lives below ID 08000, and essentially every entry above it has none.
+
+**The two-day delta is the whole strategic argument in miniature.** Between the two
+measurements the frontier advanced 122 IDs and the 06000–07999 band shed 118 zero-link
+entries — the lane working exactly as designed. Over the same window the 30000+ band grew from
+298 entries to 526, all of them unlinked. Net movement in the total: **23,294 → 23,404, up by
+110 while the lane was running at full speed.** The linking deficit is not merely failing to
+shrink; it is growing, and it would still be growing if the frontier ran twice as fast.
 
 Inline links are not added at creation time at all; `CLAUDE.md` says so explicitly ("Never
 add inline word links (⟦...⟧) during entry creation — those are added in a separate polishing
@@ -169,7 +183,7 @@ frontier lane *is* the backfill.**
 The consequence is worth stating plainly, because it is a strategic fact rather than a
 cleanup item:
 
-- 23,294 entries are unlinked.
+- 23,404 entries are unlinked.
 - The frontier lane advances **4–8 entries per Routine run** when it hits unlinked entries
   (06705–06712 in one run, 06713–06716 in another, 06717–06722 in a third).
 - At 6 entries/run and ~5 runs/day, the frontier reaches ID 30,000 in roughly **two years**,
@@ -197,6 +211,38 @@ and the remaining decisions are marginal. An entry with zero links offers none o
 token is an open question. The 4–8 entries/run figure above is measured on exactly this expensive
 case, which is why it is the right number to plan against, and why a suggester that pre-resolves
 the lookups changes the economics more above the frontier than below it.
+
+### The 55 that *are* actionable — filtering the same scan by the frontier
+
+Two more runs filed the detector on 2026-08-09 (sixth and seventh rediscovery), and this time
+the measurement was split at the frontier rather than reported as a total. That single filter
+turns a non-item into a real queue:
+
+| Population | Entries | Meaning |
+|---|---|---|
+| Zero-link **above** `next: 06845` | 23,349 | the frontier position, restated |
+| Zero-link **below** `next: 06845` | **55** | work the frontier reached and did not do |
+
+The 55 are the strict sibling of [Cleanup P46](../ideas/cleanup-backlog.md#priority-46-notes-fully-linked-examples-completely-bare-33-entries--behind-the-frontier)
+(notes linked, examples bare). P46 is half-finished linking; this is un-started linking in
+entries the cursor has already passed. **Neither will ever be revisited**, because the
+comprehensive cursor only moves forward — which is the entire reason a below-frontier filter
+makes a "do not file" detector worth running.
+
+They are also not scattered. 21 of the 55 are one contiguous run of single-kanji `〜` entries
+(03949–03969), 9 are an anatomy block (06006–06014), 7 an i-adjective block (06670–06676), and
+the rest fall into four smaller runs plus six isolates. Block shape has diagnostic value here:
+P46's blocks end abruptly mid-range, which reads as a session running out of context, whereas
+the 03949–03969 block is *complete* — every member of a creation batch skipped together. The
+likely cause is different: these entries' headwords are bound morphemes (空〜, 元〜, 後〜), so a
+linking pass that judges "is the headword linkable" rather than "are the examples linkable"
+would skip the whole batch consistently. Their examples are ordinary and full of linkable
+vocabulary (03949's contain 空港, 予約, 迎える, 行く).
+
+The operational lesson generalises past this class: **when a coverage detector returns most of
+the dictionary, the useful query is almost always the same detector intersected with a cursor
+position.** "77% of entries are unlinked" is a restatement of the schedule; "55 entries the
+schedule already passed are unlinked" is a bug report.
 
 ## The unlinkable residue: Japanese that no rule can currently handle
 
@@ -331,14 +377,31 @@ argues for the same treatment the dead-target check already got: wire
 `check_link_baseform.py --count` into the CI ratchet once the population is worked down, so
 the class cannot silently regrow.
 
+**The zero-link "class" is rediscovered by a different mechanism, and the count is now seven.**
+Two more runs proposed it on 2026-08-09, both describing it as cheap and judgment-free ("a pure
+absence test"). Unlike the defect classes above, this one is not invisible — it is *documented
+on this page with a standing instruction not to file it*. What keeps regenerating it is that
+every polish run meets the same local evidence: the block in front of the cursor has no links,
+and its neighbours behind the cursor do. From inside a six-entry window that is
+indistinguishable from a bad creation batch, and no amount of documentation reaches a run that
+has not read this page. The durable fix is not another paragraph here — it is to make the
+frontier position visible where the observation gets written, so "the entries ahead of the
+cursor are unlinked" reads as a tautology rather than a discovery. Until then, treat repeat
+filings as free measurements of an inaccessible fact rather than as noise: the 2026-08-09 pair
+is what produced the below-frontier split and P50, which six earlier filings had missed.
+
 ## Implications for je-dict-1
 
 1. **File the A1+A2 stale-`noentry` batch (2,887 links) as a high-priority systemic-fix
    item.** It is larger, safer, and more user-visible than anything currently in the top ten.
 2. **Close the source before the backlog.** The `manage_candidates.py sync` hook prevents the
    next few thousand; the sweep only clears the current ones.
-3. **Do not file a zero-link detector.** It measures the polish frontier, which is already
-   measured.
+3. **Do not file a zero-link detector — file a zero-link-*behind-the-frontier* detector.** The
+   unfiltered version measures the polish frontier, which is already measured. Intersected with
+   the cursor it returns 55 entries the schedule passed and left bare, which is a real queue
+   ([P50](../ideas/cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46)).
+   The same intersection is what makes P46 an item rather than an anecdote, and it is worth
+   applying to any future coverage detector before deciding it is useless.
 4. **Treat "this looks like a bad creation batch" as a hypothesis, not a finding.** Both
    observations this page corrects had the same shape, and both dissolved on contact with a
    band-level count. This is the corpus-side twin of the argument in

@@ -1,6 +1,10 @@
 # Register and Formality
 
-**Last updated**: 2026-08-01
+**Last updated**: 2026-08-09 (added the measured `politeness`-tag drift class: the 両親 error
+generalises to **16 noun entries**, about half of them genuine, and the distinguishing failure
+is tagging a word that *denotes* deference — 尊敬, 謙遜 — as one that *encodes* it)
+
+Prior 2026-08-01
 
 ## Why register matters
 
@@ -178,6 +182,56 @@ Same shape as the taxonomy question behind
 [Cleanup P13](../ideas/cleanup-backlog.md#priority-13-overuse-of-general-as-sole-semantic-tag):
 a real distinction with no slot, resolving by default into a field that means something else.
 **Curator decision** — a Routine run cannot add a schema field.
+
+## The `politeness` tag conflates *encoding* deference with *denoting* it (measured 2026-08-09)
+
+A 2026-08-09 polish run fixed entry 00806 {両親|りょうしん}, which carried
+`formality: formal` + `politeness: honorific`. The word 両親 is the ordinary, neutral term for
+"parents"; the honorific form is ご両親. The tag had migrated from the *honorific derivative* to
+the *plain base word*. The run suspected a family of similar drift on kinship terms and filed
+it for measurement.
+
+The obvious detector — `politeness` is `honorific` or `humble` while the headword carries no
+お/ご prefix — returns **82 entries and is mostly right to**. 申す, いらっしゃる, いたす, 参る,
+召し上がる, くださる, なさる and the rest of the suppletive keigo verbs are exactly the words
+this page's Axis 2 exists to label, and none of them takes a prefix. Prefix-absence is not
+evidence of anything.
+
+What isolates the error is **part of speech plus the gloss**: nouns tagged honorific/humble
+whose own gloss does not describe deferential use. That narrows 82 to **16**, and the 16 split
+cleanly in two:
+
+| | Entries | Why |
+|---|---|---|
+| **Genuine** | 陛下, 閣下, 寸志, 高配, 引き立て, 夫人, 奥さん, 王様, 主人 | The word itself is deferential in use — you cannot say 陛下 neutrally |
+| **Drift** | **利用者** "user, customer", **尊敬** "respect, esteem", **謙遜** "modesty", **配偶者** "spouse", 無沙汰, 茶漬け, 拝観料, 不徳 | The word *names* deference, or merely appears in deferential contexts |
+
+尊敬 is the clearest case: a noun meaning "respect" is not itself respectful language, any more
+than the English noun *politeness* is polite. 謙遜 "modesty" is its humble-side twin. 利用者
+"user" appears to have been tagged from the surrounding register of the texts it occurs in
+(service announcements), and 配偶者 from the formality of legal and administrative prose — both
+are **context contamination**, tagging the word with the register of its typical habitat rather
+than with a property of the word.
+
+**The general shape**: `politeness` is a property of *how a word positions speaker and
+referent*, not of *what the word is about* and not of *where the word tends to appear*. All
+three of those get confused, and the schema gives no way to distinguish them because there is
+only one field. This is the register-axis instance of the meaning-versus-use confusion that
+[Schema Tag Reliability](schema-tag-reliability.md) documents for semantic tags — 財布 tagged
+`clothing` because wallets live in pockets is the same error in a different field.
+
+Two consequences worth carrying:
+
+1. **The population is small and needs judgment, not a sweep.** 16 entries, roughly half
+   correct. No mechanical rule separates them, because the distinction is semantic. Filed at
+   [Cleanup Backlog → Updates 2026-08-09](../ideas/cleanup-backlog.md#updates-2026-08-09-wiki-harvest)
+   as open and explicitly *not* batch-ready.
+2. **It reinforces §A's formality guard from the opposite direction.** The Routine's rule for
+   external reviewers is to change a formality label only when the entry's own notes contradict
+   it — a guard measured at 5-of-5 correct rejections across three windows. The 両親 class shows
+   the same evidence source works for *finding* errors, not just rejecting them: in every one of
+   the eight drift cases the gloss already says the word is neutral. A tag that contradicts its
+   own entry's gloss is checkable without a model.
 
 ## Implementation roadmap
 

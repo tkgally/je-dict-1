@@ -1,6 +1,8 @@
 # Furigana Wrapper Anomalies
 
-**Last updated**: 2026-08-08 (the pipe-less-brace detector rule proposed in June is measured and **retired**: 931 of its 931 findings are a mention-quoting convention, not wrappers — see "The brace is also a mention-quote". Its sibling rule, unbalanced braces, is sized at **34 instances / 33 entries** and is a genuine live-site defect.)
+**Last updated**: 2026-08-09 (a **fourth** detector proposal — "flag wrappers whose left side contains no kanji" — is measured and **retired at under 1% precision**: 391 hits corpus-wide, of which 65 are harmless identity wrappers, 276 are the katakana class, 47 are a **previously undocumented numeral-reading convention** (`{1990|せんきゅうひゃくきゅうじゅう}`), and 3 are candidate defects. The one high-precision rule inside it — **empty side, 3 instances** — is worth a validator line. See "The left side is not always kanji, and mostly on purpose".)
+
+Prior 2026-08-08 (the pipe-less-brace detector rule proposed in June is measured and **retired**: 931 of its 931 findings are a mention-quoting convention, not wrappers — see "The brace is also a mention-quote". Its sibling rule, unbalanced braces, is sized at **34 instances / 33 entries** and is a genuine live-site defect.)
 
 ## Overview
 
@@ -291,6 +293,76 @@ If the project ever wants to disambiguate, the moment to do it is before the cou
 1,084 — but the cost of the migration is almost certainly higher than the cost of the
 ambiguity, so the recommendation here is to document, not to migrate.
 
+## The left side is not always kanji, and mostly on purpose (measured 2026-08-09)
+
+The 2026-08-09 accuracy-review found entry 28929 carrying `{苦悶|くもん}{に|み}ちた`, where the
+kanji 満 had been dropped outright (correct: `{苦悶|くもん}に{満|み}ちた`), and proposed the
+obvious generalisation: **"a detector for a wrapper whose left side contains no kanji is a
+cheap, high-precision check."** It follows directly from this page's own opening rule — the
+part before the pipe is *kanji only* — so it should be sound.
+
+Measured against all **1,110,639** wrappers in the corpus, it is not. 391 wrappers have a
+left side with no kanji, and they sort into four populations:
+
+| Left-side class | n | Example | Verdict |
+|---|---|---|---|
+| Hiragana, reading **identical** | 65 | `{おもちゃ\|おもちゃ}`, `{すぐ\|すぐ}` | Redundant but harmless; renders correctly |
+| **Katakana** | 276 | `{データ\|でーた}`, `{バランス\|ばらんす}` | Separate class — see below |
+| **Numeral / symbol** | 47 | `{3\|さん}`, `{400\|よんひゃく}`, `{1990\|せんきゅうひゃくきゅうじゅう}`, `{〇\|まる}`, `{々\|おの}` | **Correct and valuable** |
+| Hiragana, reading **differs** | **3** | `{どこ\|}`, `{うまく\|}`, `{はやぶさ2\|はやぶさに}` | The only candidates |
+
+At most 3 of 391 are worth a human look — **under 1% precision**, against a proposal that
+described itself as high-precision. The observation's own trigger case does not appear at all,
+because the run that filed it fixed 28929 in the same session.
+
+### The 47-item "other" bucket is a fourth undocumented convention
+
+This is the part worth writing down. Numerals in Japanese have readings that vary with their
+counter (三 is さん in 三人 but み in 三日; 一 is いち, いっ, or ひと), and the corpus resolves
+this exactly as it should — by wrapping the numeral and supplying the spoken reading:
+`{16|じゅうろく}`, `{50|ごじゅう}`, `{1990|せんきゅうひゃくきゅうじゅう}`. That is furigana doing
+precisely its job on a surface that happens not to be kanji. The same applies to `{〇|まる}`
+and the iteration mark `{々|おの}`.
+
+A naive "left side must contain kanji" rule flags every one of these as malformed, and a
+mechanical sweep acting on it would strip genuinely useful reading information from arabic
+numerals — a **regression**, not a cleanup. The convention appears in no skill and not in
+`CLAUDE.md`, which is why the rule looked safe.
+
+This makes **four** detector proposals in three months killed by an undocumented brace
+convention (pipe-less mention-quotes ×3 in June and August, numeral readings now). The pattern
+is stable enough to state as a rule of thumb: **when a furigana detector's specification comes
+from the documentation rather than from the corpus, measure it before filing it** — the
+documentation describes the intended core of the notation, and the corpus has grown several
+deliberate extensions around it that nobody recorded.
+
+### The rule that *does* survive: an empty side
+
+Inside the failed proposal is one high-precision rule: a wrapper with an **empty surface or an
+empty reading**. Corpus-wide that is **3 instances in 3 entries** — `00961_koko {どこ|}`,
+`23799_nojuku {キャンプ|}`, `25376_junkansuru {うまく|}` — all unambiguously malformed, and none
+caught by any current instrument. Three entries is not a sweep, but the rule is one regex with
+no false-positive family, so it belongs in `check_furigana_format.py` as a permanent line
+rather than in a backlog queue.
+
+### The katakana class (276) is a policy question, not a defect
+
+276 wrappers across 230 entries and 208 distinct surfaces give a katakana word a hiragana
+"reading": `{データ|でーた}` ×8, `{バランス|ばらんす}` ×5, `{チーム|ちーむ}` ×4. Only 2 are
+identity wrappers, so this is not sloppiness — it is consistent behaviour applied 276 times.
+
+It sits between two project rules that both apply and disagree. *Readings are always hiragana,
+never katakana* is stated in `CLAUDE.md` and these comply with it. *Furigana annotate kanji* is
+stated at the top of this page and these violate it. A learner who can read kana — the
+dictionary's stated audience — needs no reading aid on カタカナ, which argues the annotation is
+pure noise; but it is harmless noise that renders correctly.
+
+**Recommendation: decide, then enforce; do not sweep first.** If the decision is to remove
+them, it is a mechanical 276-instance edit. If the decision is to keep them, the convention
+needs one line in `entry-guidelines` so the fifth detector proposal does not come for it.
+Either way this should not be worked as a cleanup item until the policy exists — the failure
+mode this page documents four times over is a sweep that runs ahead of a convention decision.
+
 ## Implications for je-dict-1
 
 1. **Add a furigana-format validator.** A small `check_furigana_format.py` pass complements the existing `verify_furigana.py` (missing-furigana detector). Without one, the error pattern keeps recurring on every new creation batch.
@@ -302,6 +374,10 @@ ambiguity, so the recommendation here is to document, not to migrate.
 4. **Restate the convention in entry-creation skills.** The `entry-guidelines` skill (and the inline `furigana strategy` notes within other skills) should explicitly state "okurigana and お/ご prefixes go outside the wrapper" with both the right and the wrong examples. The current documentation says "all kanji must have furigana" but doesn't address where exactly the wrapper boundaries should sit.
 
 5. **Document why this matters.** Malformed wrappers are mostly invisible on the surface, which is why the pattern has accumulated 859 instances without notice. The notes-prose case is particularly insidious because notes don't get re-rendered as often as examples; problems can linger forever.
+
+6. **Write down the two extensions the corpus has grown: mention-quoting braces and numeral readings.** Between them they account for **1,131 spans** and four retired detector proposals. Both belong in `entry-guidelines` alongside the okurigana rule — the documentation currently describes only the notation's intended core, and every gap between that description and the corpus becomes a future false detector. This is now the single highest-value documentation fix on this page, because it is the only one that prevents work rather than performing it.
+
+7. **Ship the empty-side rule, hold the katakana question.** `{どこ|}` and its two siblings are three lines of validator away from never recurring. The 276 katakana wrappers need a curator policy decision *before* any instrument touches them — a sweep run ahead of the convention is exactly the failure this page has documented four times.
 
 ## Related pages
 

@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-08-08",
+  "updated": "2026-08-09",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -948,6 +948,74 @@
       "scope_measured_at": "2026-08-08",
       "severity": "warn",
       "notes": "3,593 instances / 3,278 entries; business 1,162 (32%), academic 566, technical 556, legal 476, medical 435, colloquial 328, internet 70. Same single-example-contamination shape as P11 semantic drift (06838 余白 and 06839 逆転 tagged business; 06830 劇的 tagged medical from one example). Cheapest route: point review_accuracy.py's tags dimension at domain on a 100-entry sample first."
+    },
+    {
+      "id": "zero-link-behind-frontier",
+      "title": "Zero inline links anywhere, in entries the polish frontier already passed (55)",
+      "source": "ideas/cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46",
+      "detect": "entry has >=1 examples[].japanese containing kanji, zero U+27E6 anywhere in the file, and numeric id < comprehensive frontier (next: in polishing/tasks/comprehensive/progress.txt)",
+      "filter": "numeric id below the comprehensive frontier ONLY — unfiltered the same scan returns 23,404 entries (77%), which is the frontier position, not a defect",
+      "fix_type": "content",
+      "verify": "add inline links per the inline-word-links skill; every link verified against build/word_id_lookup.json",
+      "priority": 9,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 55,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-09",
+      "severity": "warn",
+      "notes": "Sibling of P46 (notes linked / examples bare, 33 entries): both are work the frontier reached and left unfinished, and no cursor returns to them. Mostly contiguous blocks: 03949-03969 (21, single-kanji bound-morpheme headwords), 06006-06014 (9, anatomy), 06670-06676 (7, i-adjectives), 06593-06598 (6), 06363-06367 (4), 04620/04623, plus 6 isolates. Verified linkable by spot-check (03949's examples contain 空港/予約/迎える/行く). Take the 03949-03969 block LAST and settle the bound-morpheme-headword linking convention once rather than 21 times. 06844 kirikuzusu is a member and is already parked at the frontier cursor for a dedicated polish run."
+    },
+    {
+      "id": "furigana-wrapper-empty-side",
+      "title": "Furigana wrappers with an empty surface or empty reading (3)",
+      "source": "topics/furigana-wrapper-anomalies.md#the-rule-that-does-survive-an-empty-side",
+      "detect": "regex {([^{}|]*)\\|([^{}|]*)} where either capture group is empty/whitespace",
+      "filter": null,
+      "fix_type": "content",
+      "verify": "supply the missing surface or reading from the entry's own text",
+      "priority": 10,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 3,
+      "scope_unit": "instances",
+      "scope_measured_at": "2026-08-09",
+      "severity": "error",
+      "notes": "00961_koko {どこ|}, 23799_nojuku {キャンプ|}, 25376_junkansuru {うまく|}. Too small to be a sweep; the value is that the rule has NO false-positive family, so it belongs in check_furigana_format.py as a permanent validator line. It is the only survivor of the retired 'left side contains no kanji' proposal (391 hits, <1% precision)."
+    },
+    {
+      "id": "politeness-denotes-vs-encodes",
+      "title": "politeness=honorific/humble on nouns that denote deference rather than encode it (16)",
+      "source": "topics/register.md#the-politeness-tag-conflates-encoding-deference-with-denoting-it-measured-2026-08-09",
+      "detect": "metadata.tags.politeness in (honorific,humble) AND pos includes noun AND headword lacks お/ご/御 AND gloss does not contain humble/honorific/polite/respect",
+      "filter": "per-entry judgment required — roughly half the 16 are correct",
+      "fix_type": "content",
+      "verify": "the entry's own gloss is the evidence: a gloss describing a neutral word contradicts an honorific/humble label",
+      "priority": 11,
+      "batch_ready": false,
+      "status": "open",
+      "scope_estimate": 16,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-09",
+      "severity": "warn",
+      "notes": "Source case 00806 両親 (fixed in-run): honorific label belongs to ご両親, not to the plain base word. Clear drift: 03189 利用者, 01454 尊敬, 04142 謙遜, 07430 配偶者. Genuine and must NOT be changed: 14566 陛下, 27145 閣下, 23324 寸志, 27410 高配, 27411 引き立て. The naive 'no お/ご prefix' rule returns 82 and is mostly wrong — suppletive keigo verbs (申す, いらっしゃる, 参る) carry no prefix by nature."
+    },
+    {
+      "id": "katakana-hiragana-reading-wrappers",
+      "title": "Katakana wrapped with a hiragana reading (276) — policy decision, not a defect",
+      "source": "topics/furigana-wrapper-anomalies.md#the-katakana-class-276-is-a-policy-question-not-a-defect",
+      "detect": "furigana wrapper whose surface contains katakana and no kanji",
+      "filter": null,
+      "fix_type": "policy",
+      "verify": "n/a — blocked on a curator convention decision before any instrument touches it",
+      "priority": 20,
+      "batch_ready": false,
+      "status": "blocked",
+      "scope_estimate": 276,
+      "scope_unit": "instances",
+      "scope_measured_at": "2026-08-09",
+      "severity": "info",
+      "notes": "276 instances / 230 entries / 208 distinct surfaces ({データ|でーた} x8, {バランス|ばらんす} x5, {チーム|ちーむ} x4); only 2 are identity wrappers, so this is consistent deliberate behaviour, not sloppiness. Two project rules collide: 'readings are always hiragana' (satisfied) vs 'furigana annotate kanji' (violated). Decide first, then either sweep mechanically or document the convention in entry-guidelines — sweeping ahead of the decision is the exact failure this page documents four times."
     }
   ]
 }

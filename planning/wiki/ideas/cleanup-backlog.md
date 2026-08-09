@@ -3258,6 +3258,179 @@ is enough to move this off the "minor addition" pile: it joins the **spatial/pos
 document-type gaps (322 instances)** already routed to the curator as one taxonomy decision,
 not three small ones.
 
+## Priority 50: Zero links *anywhere*, behind the frontier (55 entries) — the other half of P46
+
+**Source**: two independent 2026-08-09 routine polish observations, both proposing the same
+instrument — "a detector that reports entries with Japanese examples containing no ⟦⟧ at all
+would size this block precisely and is cheap to write — it is a pure absence test, no judgment
+needed" (on 06842–06844), and "worth a targeted detector for entries with kanji-bearing
+examples and no ⟦…⟧ at all" (on 06844/06975/07099). **Sized 2026-08-09 by whole-corpus scan**,
+and as with P46 the measurement changes what the item is.
+
+**Run unfiltered, the proposed detector returns 23,404 of 30,316 entries (77%)** — and the
+split says exactly what it is measuring:
+
+| Population | Entries |
+|---|---|
+| Zero-link, **below** the polish frontier (`next: 06845`) | **55** |
+| Zero-link, **above** the frontier | 23,349 |
+
+To within 0.2%, "entries with kanji examples and no links" *is* "entries the frontier has not
+reached." That is the finding already recorded in the Informational note above and in
+[Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23404-and-not-a-defect),
+whose standing instruction is **"do not file a zero-link detector."** These two observations
+are its sixth and seventh independent rediscovery, which is itself the item's most useful
+signal (see P46 and the "why these keep being rediscovered" section on that page).
+
+**Filtered to below the frontier, however, the same scan yields a real 55-entry queue** — the
+strict sibling of [P46](#priority-46-notes-fully-linked-examples-completely-bare-33-entries--behind-the-frontier).
+P46 is *half*-linked entries the frontier passed; this is *un*-linked entries the frontier
+passed. Both are work no cursor will ever return to. The 55 are almost entirely contiguous
+blocks, not scattered singletons:
+
+| IDs | n | Character of the block |
+|---|---|---|
+| 03949–03969 | **21** | single-kanji `〜` entries (空/元/後/今/最/際/初/所/前/相/…), created 2026-01-13 |
+| 06006–06014 | 9 | anatomy block (脊椎, 人体, 毛細血管, リンパ, 骨髄, 呼吸器, 消化器, 循環器, のどぼとけ) |
+| 06670–06676 | 7 | i-adjective block (細長い, 平たい, みずみずしい, ずぶとい, かいがいしい, 生真面目, 愚か) |
+| 06593–06598 | 6 | mixed nouns (保存料, 納品書, 骨組み, オフサイド, オンデマンド, ペーパーレス) |
+| 06363–06367 | 4 | ピント, 編み物, ミシン, 断層 |
+| 04620, 04623 | 2 | 乗り越える, 追い越す (15 and 10 examples each) |
+| 03100, 03356, 04974, 06109, 06703, 06747 | 6 | isolated |
+
+**Detect**: entry has ≥1 `examples[].japanese` containing kanji, zero `⟦…⟧` anywhere in the
+file, and numeric ID < the comprehensive frontier. Mechanical.
+**Scope**: **55 entries**. **Status**: open, batch-ready, no cursor needed.
+
+**These are not unlinkable entries.** Spot-checks confirm ordinary linkable vocabulary sitting
+bare: 03949 空〜 has 空港/予約/迎える/行く; 06670 細長い has 廊下/指/島国; 06006 脊椎 has
+病気/手術/座る. And their `modified` stamps are polish-run dates spread across 2026-03 to
+2026-07 (03949: 2026-04-07; 06671: 2026-07-28; 06674: 2026-07-28), so these entries were
+*worked on* — repeatedly — and the linking step simply did not run on them.
+
+**Why the block shape matters**: 21 of the 55 are one run of single-kanji `〜` entries, whose
+own headword is a bound morpheme rather than a word. A linking pass that reached them may have
+stopped because the *headword* is not linkable and treated the entry as done — a plausible
+session-shape cause distinct from P46's "ran out of context." Whoever works this queue should
+take that block last and decide the convention for bound-morpheme entries once, rather than 21
+times.
+
+## Updates 2026-08-09 (wiki harvest)
+
+**Informational refresh: zero-link entries 23,294 → 23,404, and the frontier lost ground while
+the number was measured.** Between the 2026-08-07 sizing (frontier 06723) and this one
+(frontier 06845) the frontier advanced **122 IDs** and the zero-link population **grew by 110**.
+That is the [frontier-versus-growth gap](../topics/quality-metrics.md) expressed on the link
+metric for the first time, and it lands on the pessimistic side of the 44–50% band: the linking
+lane is running at roughly break-even against new-entry supply, so the two-year projection on
+`topics/inline-link-integrity.md` is not conservative. No change to the standing instruction —
+the answer remains Tooling 49/82 (a read-only link *suggester*), not a detector.
+
+**P11 (semantic tag drift) — the remaining scope is confirmed, but "extend `TAG_MIGRATION`" is
+now measured and will not close it.** The 2026-08-09 accuracy-review of 28901–29294 found
+off-vocabulary tags in **54 of 550 entries (~10%)** and proposed extending
+`build/check_tag_drift.py`'s migration map with the eight families it met
+(`medical`→`health`, `food-drink`→`food`, `body`→`body-part`, `motion`→`movement`,
+`sensation`/`manner`/`physical-property`→`descriptive`, `people`→`person`, `time`→`time-general`,
+`animals`→`animal-bird`). Whole-corpus scan, 2026-08-09:
+
+- **1,848 entries / 2,436 uses** still carry a baselined off-vocabulary semantic tag —
+  confirming the 08-08 figure (1,902) and its slow decline.
+- The uses are spread over **643 distinct invented labels**.
+- `TAG_MIGRATION`'s current **9 rules cover 181 uses (7%)**. The **ten families this
+  observation names cover 202 uses (8%)**.
+- Coverage curve: top 25 labels → 29%; top 50 → 43%; top 100 → 59%; top 200 → 75%.
+- **300 labels are used exactly once**; 486 labels (76% of the vocabulary) are used ≤3 times,
+  accounting for 734 uses.
+
+The head is thin and the tail is enormous, so a hand-maintained 1:1 map is the wrong shape for
+this item: doubling the map from 9 rules to ~25 would take it from 7% to 29%, and reaching even
+three-quarters of the backlog needs **200 hand-written rules**. This does not retire the
+mechanical path — it re-scopes it. The right instrument for the tail is the one already
+measured at ~97% apply rate on exactly this class: the reviewer's off-vocabulary flag, which
+names a destination per instance without anyone enumerating the vocabulary in advance. Extend
+`TAG_MIGRATION` with the top ~25 labels because it is nearly free, and plan the remaining ~70%
+as accuracy-review coverage, not as map maintenance.
+
+**Retired before filing: "a detector for furigana wrappers whose left side contains no kanji."**
+The 2026-08-09 accuracy-review offered this as "a cheap, high-precision check" after entry
+28929's `{苦悶|くもん}{に|み}ちた` (dropped 満) was found. Measured against all **1,110,639**
+wrappers in the corpus:
+
+| Left-side class | n | Verdict |
+|---|---|---|
+| hiragana, reading identical (`{おもちゃ\|おもちゃ}`) | 65 | harmless identity wrapper |
+| **katakana** (`{データ\|でーた}`) | **276** | separate class, see below |
+| numeral / symbol (`{3\|さん}`, `{400\|よんひゃく}`, `{〇\|まる}`, `{々\|おの}`) | 47 | **correct and useful** |
+| hiragana, reading differs | **3** | the only candidate defects |
+
+391 hits, of which at most 3 are worth looking at — **under 1% precision**, not "high." The
+observation's own trigger case is not in the result, because that run fixed it. Worse, the
+47-item "other" bucket is a **fourth undocumented brace convention**: numerals are wrapped to
+give their spoken reading (`{1990|せんきゅうひゃくきゅうじゅう}`), which is precisely what
+furigana is for, and a naive no-kanji rule would flag every one as malformed. Filed to
+[Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md); this is the *fourth*
+detector proposal in three months killed by an undocumented convention, which is the same
+mechanism recorded in [Instrument Defects vs. Corpus Defects](../topics/instrument-defects.md).
+
+**Informational (new, and genuinely tiny): wrappers with an empty side — 3 instances.** The one
+high-precision rule hiding inside the proposal above is "a wrapper with an empty surface or an
+empty reading": `00961_koko {どこ|}`, `23799_nojuku {キャンプ|}`, `25376_junkansuru {うまく|}`.
+All three are malformed and none is caught by any current instrument. Three entries is not a
+sweep, but the rule costs one regex and belongs in the validator rather than in a queue.
+
+**Open policy question: 276 katakana wrappers give katakana a hiragana "reading."** Measured at
+276 instances / 230 entries / 208 distinct surfaces (`{データ|でーた}` ×8, `{バランス|ばらんす}`
+×5, `{チーム|ちーむ}` ×4 …), with only 2 identity cases. This is large, consistent, and looks
+deliberate rather than accidental, so it needs a **policy decision before any sweep** — the
+project's stated rule is that readings are always hiragana and that furigana annotate kanji;
+katakana needs no reading aid, but a hiragana gloss of a katakana word is at least internally
+consistent with "readings are hiragana." Recorded, not queued.
+
+**Refined: keigo-label drift on plain vocabulary (16 entries, not 82).** The 2026-08-09 polish
+run fixed 00806 両親 (tagged `formality: formal` + `politeness: honorific`, although the
+honorific form is ご両親 and 両親 itself is plain) and suggested "similar keigo-label drift may
+sit on other family-term entries." The obvious rule — `politeness` is honorific/humble but the
+headword has no お/ご prefix — returns **82 entries and is mostly correct**: 申す, いらっしゃる,
+いたす, 参る, 召し上がる are genuinely keigo verbs with no prefix. Adding "POS is a noun" and
+"the gloss does not itself say humble/honorific/polite/respect" narrows it to **16**, of which
+several are unambiguous drift of the 両親 kind — `03189_riyousha` 利用者 "user, customer" tagged
+honorific; `01454_sonkei` 尊敬 "respect, esteem" tagged honorific (the word *means* respect, it
+does not *encode* it); `04142_kenson` 謙遜 "modesty" tagged humble; `07430_haiguusha` 配偶者
+"spouse" tagged humble — while others are genuine (`14566_heika` 陛下, `27145_kakka` 閣下,
+`23324_sunshi` 寸志). **The distinguishing error is treating a word whose *meaning* is
+deference as a word whose *use* is deferential**, which is the same meaning-versus-use confusion
+[Schema Tag Reliability](../topics/schema-tag-reliability.md) documents for semantic tags.
+Status: open, 16 entries, needs per-entry judgment (not batch-ready).
+
+**Reinforced: P35 stale `noentry` residue is much larger than the frontier's own rate suggests.**
+Two 2026-08-09 observations independently make this point — a single 8-entry priority batch
+turned up two stale markers (05834 しょげる → 29029_shogeru; 01910 勃発する → 11823_boppatsu),
+both in entries the sequential frontier had already passed, and a separate run found 04262's
+`⟦擦れる→擦れる：noentry⟧` resolving to 28426_kosureru. Current detector state: **6,026 `noentry`
+instances / 5,348 distinct pairs in 2,689 entries**, with the mechanical A1+A2 classes at
+**1,423 pairs / 1,658 instances**. The priority lane reaches entries the frontier cannot
+revisit, which is why it keeps surfacing these; the standing recommendation — run
+`check_stale_noentry.py --mechanical` as its own `systemic-fix` pass rather than waiting for
+polish to stumble on them — is now backed by three independent sightings in one day.
+
+**Method note carried from the same run: sweep stale `noentry` in entry-ID order, not detector
+order.** The 2026-08-09 systemic-fix run verified **180 pairs with zero polysemy false
+positives** and reported why: consecutive entries repeat the same families (counter compounds
+六千/八百/三十人, day-of-month readings 十四日/十五日, compass compounds 北側/西日本, katakana
+loanwords ウール/ミトン/コンポ), so one context read settles a dozen pairs. This is a
+throughput property of the *ordering*, and it should be the default for any future P35 batch.
+
+**Reinforced: tag errors cluster on the category axis, not the narrowness axis.** The
+2026-08-09 accuracy-review adds 財布 tagged `clothing`, けが tagged `body-part`, 定期券 tagged
+`person` to the pile, and restates the operational consequence: these are flatly wrong parents,
+worth applying on sight, and unlike in-list narrowness nits they are not a matter of taste. The
+same run measured its in-list substitution flags at **0 of 12 applied** — the twelfth-plus
+consecutive confirmation of that noise family. Both halves belong to the standing prescription
+in [Tooling 17](tooling-backlog.md): suppress in-list narrowness suggestions entirely, keep
+off-list migrations and category errors. No change to the item; the evidence is now
+overwhelming and the fix remains unshipped.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns

@@ -3936,6 +3936,147 @@ The tooling point: every instrument that made the `semantic` cleanup tractable k
 example topics; extending its prompt to judge `domain` the same way is the cheap experiment, and
 should be tried on a 100-entry sample before anything is sized.
 
+## 89. `reviews/decisions.jsonl` needs an explicit `fam` key on `tags` lines
+
+**Source**: 2026-08-09 wiki-harvest observation, filed by the run that wrote the thirty-third
+metrics refresh.
+**Status**: open, one field, and it removes the weakest link in the project's headline metric.
+
+The `tags` dimension's apply rate is no longer a single number — the last two metrics refreshes
+(§14, §15 of [Quality Metrics Trend](../topics/quality-metrics.md)) headline it as a *mixture*:
+off-vocabulary migrations at ~97%, in-list substitutions at ~5%, formality/register at ~18%.
+That decomposition is the most useful thing the ledger produces, because it is what justifies
+keeping one sub-family and retiring another.
+
+But `decisions.jsonl` has no family key. Each refresh **re-derives the split by keyword-matching
+the free-text `note` field**, which is a ≤10-word telegraphic string written by a different run
+each time. The classifier is therefore the least stable component of the most-cited statistic:
+the in-list figure moved 28.1% → 5.0% between consecutive refreshes, and the two are not
+strictly comparable because the note vocabulary drifted, not necessarily the underlying rate.
+
+**Fix**: add an optional `"fam"` key on `tags`-dimension lines, under the same fixed-lowercase
+discipline §C already imposes on `src`/`dim`/`decision`:
+
+| `fam` | Meaning |
+|---|---|
+| `offvocab` | tag absent from `VALID_SEMANTIC`; migrate to the named destination |
+| `inlist` | substitution between two in-list tags ("too narrow"/"too broad") |
+| `formality` | formality/politeness/register label |
+| `category` | flatly wrong parent category (財布 → `clothing`) |
+
+Cost: one key in §C of `prompts/routine2.md` and one line in the metrics script. Benefit: the
+decomposition becomes a `collections.Counter` over a controlled field instead of a regex over
+prose, and the series becomes comparable across refreshes for the first time. Backfill is not
+required — an absent `fam` can keep using today's classifier, so the series improves forward
+from whenever this ships.
+
+## 90. `review_accuracy.py --dimensions links` — a link-only run currently verifies nothing it did
+
+**Source**: 2026-08-09 systemic-fix run (the 180-pair stale-`noentry` sweep).
+**Status**: open; the gap is structural, not a bug.
+
+§4 of the Routine sends *the entries the run changed* to an independent model, which is the
+right unit for a content run. On a **link-only** run it silently stops being a self-check: the
+reviewer reads glosses, example translations, and tags — none of which the run touched — so
+every flag it returns is about **pre-existing content**, and the change actually under test
+(which base form a `⟦…⟧` link points at) is never examined.
+
+The observing run measured both halves of this. The pass was *useful*: six real tag and
+translation errors surfaced in entries the run happened to open. It was also *not verification*:
+180 link edits went to merge with zero independent review, on a run whose whole content was
+those 180 edits.
+
+Two candidate instruments, cheapest first:
+
+1. **`check_link_targets.py` + a context sample.** Resolution correctness is mostly mechanical —
+   does the target ID exist, does its reading match the surface, is the base form the entry's
+   headword. That is a deterministic check the project can already almost do, and it needs no
+   model calls. It cannot judge *sense* selection (the homograph trap documented in
+   `topics/homographs.md`), so pair it with a sampled model read of N links in context.
+2. **A `--dimensions links` mode** on `review_accuracy.py` that shows the model the example
+   sentence and each link's target gloss, and asks only "is this the word being used here."
+   Costs a model call per entry but catches the sense errors the deterministic check cannot.
+
+Either way the principle generalises past links: **§4's unit should be the change, not the
+entry.** Any future run whose edits live outside gloss/translation/tag space will hit the same
+silent gap.
+
+## 91. The GitHub MCP check-run status is cached, and it strands green PRs
+
+**Source**: 2026-08-09 accuracy-review run, observed on PR #3152.
+**Status**: open; affects `prompts/routine2.md` §7 step 5.2 and `CLAUDE.md`'s MCP path.
+**Severity**: this is a direct, measured cause of the stranded-PR class the §0a rescue exists
+to clean up.
+
+Measured behaviour on PR #3152: the `validate` check ran for **67 seconds**
+(`started_at` 06:45:18 → `completed_at` 06:46:25, conclusion `success`). For roughly **30
+minutes afterwards**, `pull_request_read method=get_check_runs` continued to report
+`status: "in_progress"`. `actions_get method=get_workflow_run` agreed, with its `updated_at`
+frozen at the run's start time.
+
+A Routine polling to the documented ~8-minute cap therefore sees "pending" for the entire
+window, gives up, and leaves a **green** PR open — costing a full extra run for the next §0a
+rescue to merge something that was mergeable minutes after the push. The current polling loop
+cannot distinguish this from a genuinely slow check, because both look like `in_progress`.
+
+**Proposed mitigations for the §7 polling loop**, in order of cheapness:
+
+1. **Treat a frozen `updated_at` as "no fresh data," not "still running."** If `updated_at` has
+   not moved across several consecutive polls while wall-clock time has, the response is a
+   cached one; the loop is measuring the cache, not the check.
+2. **Re-poll once after a long gap before declaring timeout.** A single extra poll ~2 minutes
+   after the cap costs one call and converts a large fraction of these into same-run merges.
+3. **Cross-check with a second endpoint on the last poll only.** `get_commit`'s check-run
+   summary and `actions_list` are populated by different paths and may not share the stale
+   cache; worth one probe before giving up, not on every iteration.
+
+The §0a rescue remains the correct backstop and should not be removed — but it is a backstop
+that costs an entire run, so the polling loop should stop feeding it avoidable cases.
+
+## Updates 2026-08-09 to existing items
+
+**Item 27 (`validate_tags.py` unknown-semantic warnings) — the reporting gap is why the class
+stayed invisible for months.** The 2026-08-09 accuracy-review notes that off-vocabulary semantic
+tags are printed **only under `--verbose`**, where 11,013 warnings collapse to a bare count in
+normal runs. So the single largest tag-quality backlog on this page
+([P11](cleanup-backlog.md), 1,848 entries / 2,436 uses) is, in the tool that already detects it
+perfectly, rendered as one integer. A `--list-unknown` summary mode — tag → count → entry IDs,
+sorted by frequency — turns it into a work queue at the cost of a `Counter` and a print loop,
+and it is the natural companion to the ratchet this item already shipped
+(`--check-no-new-unknown`). **The 2026-08-09 measurement makes the case sharper**: the
+vocabulary is 643 distinct labels with 300 of them used exactly once, which is precisely the
+distribution a human cannot see without the tool printing it.
+
+**Items 5/6 (tag-drift detection) — `TAG_MIGRATION` is measured, and it is a head-only
+instrument.** `check_tag_drift.py`'s 9 migration rules cover **181 of 2,436 off-vocabulary uses
+(7%)**. The ten families proposed by the 2026-08-09 accuracy-review would cover **202 (8%)**.
+Reaching 75% requires ~200 hand-written rules, because 486 of the 643 labels are used ≤3 times.
+The full curve is in
+[Cleanup Backlog → Updates 2026-08-09](cleanup-backlog.md#updates-2026-08-09-wiki-harvest).
+**Prescription**: extend the map with the top ~25 labels (7% → 29%, nearly free), and stop
+treating map maintenance as the path to the tail — the reviewer's off-vocabulary flag already
+runs at ~97% apply rate on this exact class and names a destination per instance without anyone
+enumerating the vocabulary first.
+
+**Item 17 (suppress in-list narrowness suggestions) — twelfth-plus confirmation, 0 of 12.** The
+2026-08-09 accuracy-review measured error-severity tag flags at ~70% applicable overall, but
+"almost all of the applicable ones were the mechanical *tag not in the valid list* family," and
+**every in-list substitution flag was rejected — 12 for 12**. The observing run reached this
+item's standing prescription independently ("the reviewer prompt could stop emitting in-list
+substitution suggestions entirely and lose nothing"). The evidence for this fix is now the
+strongest on the page and it remains unshipped; see also new item 89, which would make the
+sub-family rates countable without a keyword classifier.
+
+**Item 84 (review-pass throughput) — an operational hazard, not just a rate.** A backgrounded
+`review_runner.py` pass **survived `pkill -f`** at a 2026-08-09 run's §6 context checkpoint and
+kept writing result files *after* the run's `git add -A`, stranding **25 artifacts outside the
+PR** (recovered in a follow-up commit). Only `kill -9 <pid>` stopped it. Two consequences worth
+recording with this item: (a) any Routine that stops a review pass early must **confirm
+termination by PID** before staging, not assume a pattern kill worked; (b) the review scripts
+write incrementally with no completion marker, so "process gone" and "output complete" are
+independent facts. A `--pidfile` option, or writing results to a staging directory promoted on
+clean exit, would remove the hazard rather than documenting around it.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address
