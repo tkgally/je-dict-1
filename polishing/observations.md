@@ -998,3 +998,15 @@ which this run measured moving the **wrong way** — the zero-link population gr
 against new-entry supply.
 
 All 24 observations cleared.)_
+
+- [tooling] **The §7 CI-polling loop does not wait, and that alone can strand a green PR.**
+  `CLAUDE.md` and routine2.md §7.5.2 say to run `sleep 30` via the Bash tool with
+  `run_in_background: true` and re-poll "when it returns" — but a backgrounded Bash command
+  returns its tool result *immediately*, so a run that polls in the same turn waits zero
+  seconds. The documented ~16-poll (~8 min) cap therefore elapses in under a minute against CI
+  that needs 60–90 s to run and often minutes to start. Verified on PR #3156: `validate` ran
+  15:32:04→15:33:12 and all eight polls fell in 15:32–15:35, every reading accurate. Fixes:
+  print `date -u` inside the wait call, cap on wall-clock instead of poll count, and gate the
+  next poll on the wait's completion *notification* rather than its tool result. This is also
+  the leading candidate explanation for the PR #3152 "stale cache" report, since that run
+  followed the same procedure — see Tooling 91, now downgraded.

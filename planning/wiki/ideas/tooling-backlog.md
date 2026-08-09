@@ -4033,6 +4033,61 @@ cannot distinguish this from a genuinely slow check, because both look like `in_
 The §0a rescue remains the correct backstop and should not be removed — but it is a backstop
 that costs an entire run, so the polling loop should stop feeding it avoidable cases.
 
+### Attempted reproduction, same day — and the reproduction was the defect (2026-08-09, PR #3156)
+
+The run that filed this item tried to reproduce it on its own PR and **failed to, in an
+instructive way.** Believing it was watching a green check report `in_progress` for ~19
+minutes, it drafted a confident falsification of mitigation 3. Then it checked the wall clock.
+
+Ground truth on PR #3156: `validate` ran **15:32:04 → 15:33:12, `success`**. The run's eight
+polls all fell between **15:32 and 15:35** — every one of them *accurate*, including an
+`actions_get method=get_workflow_job` call at ~15:33:05 that correctly showed step 7
+`in_progress` and a later one that correctly showed it complete. **There was no staleness. The
+run had simply not waited.**
+
+**The actual defect is in the polling loop, and it is ours.** `CLAUDE.md` §"MCP path" and
+`prompts/routine2.md` §7.5.2 both instruct: *"run `sleep 30` via the Bash tool with
+`run_in_background: true`, and when it returns, go back to 5.1."* But a backgrounded Bash
+command **returns its tool result immediately** — the sleep continues in another process and
+notifies later. A run that issues the sleep and then makes its next poll in the same turn has
+waited **zero seconds**. The documented procedure produces a busy-loop that reads as a paced one.
+
+The consequence is exactly the strand class this item was opened about, reached by a different
+road:
+
+- The loop's "poll at most ~16 times (~8 min)" cap is denominated in polls, and the polls are
+  free. **~16 polls elapse in well under a minute.**
+- CI here needs 60–90 seconds of *runtime* and frequently several minutes to *start*.
+- So a run can exhaust its entire polling budget before the check has plausibly finished,
+  declare a timeout, and leave a PR that goes green moments later — costing a whole extra run
+  for the §0a rescue. **No API staleness is required to produce the symptom.**
+
+**This is now the leading candidate explanation for PR #3152 as well**, since that run followed
+the same documented procedure. That does not disprove the original observation — its author
+reported concrete `started_at`/`completed_at` values and a frozen `updated_at`, and this run
+cannot re-examine that PR's timeline — but a local, verified, mechanically-sufficient cause
+should be ruled out before an unfalsifiable remote-cache one is accepted. **Downgrade this item
+from "the MCP cache is stale" to "the polling loop does not wait," pending a measurement taken
+against a checked wall clock.**
+
+**Fix (cheap, and it belongs in the prompt rather than in a tool):**
+
+1. **Verify elapsed time, don't assume it.** Have the loop call `date -u` in the same Bash
+   invocation as the wait, and treat the printed timestamps as the record of pacing. One extra
+   token per poll makes the failure self-evident.
+2. **Cap on wall-clock, not on poll count.** "Stop after 8 minutes" survives a broken sleep;
+   "stop after 16 polls" does not.
+3. **Prefer a blocking wait.** If a foreground `sleep` is unavailable, a single backgrounded
+   wait whose *completion notification* gates the next poll is the correct shape — the
+   notification is the signal, not the tool result.
+
+**Method note worth keeping**: this run wrote and pushed a detailed, confident, entirely wrong
+falsification before checking `date`. It is a clean instance of the
+[Instrument Defects](../topics/instrument-defects.md) thesis applied to a Routine's own
+telemetry rather than to the corpus — **when a measurement implies a remote system is
+misbehaving, check the local clock before writing it down**, because the observer's timebase is
+the cheapest thing in the chain to verify and the easiest to get wrong.
+
 ## Updates 2026-08-09 to existing items
 
 **Item 27 (`validate_tags.py` unknown-semantic warnings) — the reporting gap is why the class
