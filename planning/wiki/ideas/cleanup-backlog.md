@@ -2311,6 +2311,20 @@ furigana screener reads example *text*, and these errors sit inside link surface
 Remaining after the sweep: 1,580 mechanical-class pairs (1,827 instances), 406 B, 352 C, 42 D,
 40 R, 3,082 markers that still do not resolve.
 
+**2026-08-09 systemic-fix run** — first per-entry short-base batch. 180 A1/A2 pairs
+(196 instances, 124 entries, IDs 00443–01435) were each read in context before substitution
+and applied; the queue is now **1,423 pairs / 1,658 instances**. Sweeping in entry-ID order
+turned out to be the right unit of work: consecutive entries repeat the same families
+(counter compounds 六千/八百/三十人, day-of-month readings 十四日/十五日, direction and
+compass compounds 北側/西日本, katakana loanwords ウール/ミトン/コンポ), so the context read is
+cheap once the family is established. **Zero polysemy false positives in 180 pairs** — the
+one candidate the batch flagged for a closer look, レア in a steak-doneness sentence, turned
+out to be correct because `11251_rea` carries an explicit second sense for doneness. That is
+consistent with the ~4% rate measured on the 2026-08-08 hand sample, but suggests the rate is
+lower once class R has removed the reading contradictions: the surviving trap is narrow
+(polysemous katakana loanwords and abbreviations inside compounds), not diffuse. Resume at
+the lowest remaining `entry_id` — everything below 01436 is now swept for A1+A2.
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword

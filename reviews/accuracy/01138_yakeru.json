@@ -2,13 +2,13 @@
   "entry_id": "01138_yakeru",
   "headword": "{焼|や}ける",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:57:11Z",
+  "reviewed_at": "2026-08-09T12:28:50Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword '焼ける' has meanings beyond 'food', such as burning down a house or getting sunburned. The 'food' tag is too narrow.",
-      "suggestion": "action"
+      "concern": "The semantic tag 'food' is too narrow for the headword '焼ける' which also covers burning (houses, forests) and tanning (skin).",
+      "suggestion": "Remove 'food' and add 'general' or 'action' as a broader tag."
     }
   ]
 }

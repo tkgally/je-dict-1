@@ -2,15 +2,58 @@
   "entry_id": "01374_pantsu",
   "headword": "パンツ",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:48:05Z",
+  "reviewed_at": "2026-08-09T12:29:21Z",
   "summary": {
-    "flagged": 0
+    "flagged": 6
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'underwear; pants' is misleading because 'pants' in American English primarily refers to outer garments, while 'pants' in British English can refer to underwear. Given the dictionary targets intermediate learners, this ambiguity should be clarified or avoided.",
+      "suggestion": "underwear; underpants; trousers"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'underwear; underpants' is redundant and 'underpants' is a more specific term for men's underwear, while 'underwear' is more general. The explanation clarifies it's for the lower body, but the gloss itself could be more precise for a general term.",
+      "suggestion": "underwear"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'pants; trousers' is problematic because 'pants' in American English refers to outer garments, but in British English, it can refer to underwear. 'Trousers' is a clearer, unambiguous term for outer leg garments.",
+      "suggestion": "trousers; pants (US)"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The translation 'I wash my underwear/pants.' is ambiguous. 'Pants' in American English refers to outer garments, making the combined translation confusing. It should reflect the two distinct meanings of 'パンツ' in Japanese.",
+      "suggestion": "I wash my underwear. / I wash my pants (trousers)."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The translation 'I bought new underwear/pants.' is ambiguous for the same reason as example 0. It should clearly distinguish between the two possible meanings.",
+      "suggestion": "I bought new underwear. / I bought new pants (trousers)."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The translation 'These pants are easy to wear.' is ambiguous. While 'pants' can refer to trousers, the Japanese 'パンツ' can also mean underwear. The translation should reflect this duality or clarify which meaning is intended.",
+      "suggestion": "These underwear are comfortable. / These pants (trousers) are easy to wear."
+    }
+  ]
 }

@@ -2,36 +2,15 @@
   "entry_id": "00542_ban",
   "headword": "{晩|ばん}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:49Z",
+  "reviewed_at": "2026-08-09T12:27:35Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The gloss 'evening, night' is slightly incomplete as '晩' can also refer to 'night' in a broader sense, not just 'evening'.",
-      "suggestion": "Consider adding 'night' as a primary gloss or clarifying the distinction."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'evening, night' is slightly incomplete as '晩' can also refer to 'night' in a broader sense, not just 'evening'.",
-      "suggestion": "Consider adding 'night' as a primary gloss or clarifying the distinction."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The English translation 'What's for dinner?' is a natural rendering but '晩ごはん' literally means 'evening meal' or 'supper'. While 'dinner' is common, it can sometimes imply a more formal or later meal than '晩ごはん' always does.",
-      "suggestion": "Consider 'What's for supper?' or 'What's for the evening meal?' as a more literal alternative, or add a note about 'dinner' being the common equivalent."
-    }
-  ]
+  "issues": []
 }

@@ -8,17 +8,31 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-04T00:27:36Z",
+  "reviewed_at": "2026-08-09T12:29:02Z",
   "summary": {
-    "flagged": 1
+    "flagged": 3
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "gloss",
+      "dimension": "translation",
+      "location": "examples[1]",
       "severity": "error",
-      "concern": "The main gloss is incomplete and misleading as it only covers sense 1, ignoring senses 2 and 3 which are distinct meanings.",
-      "suggestion": "Expand the main gloss to include all primary meanings, e.g., 'to fall, to drop, to fail, to come off'."
+      "concern": "The English translation 'I didn't get the job' for '会社に落ちてしまった' is too specific. While '落ちる' can mean to fail an application, '会社に落ちる' more broadly means to fail to get into the company (e.g., fail an entrance exam, fail an interview, etc.), not just specifically 'the job'.",
+      "suggestion": "I failed to get into the company."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'so I was stuck' for '困った' is too strong and doesn't quite capture the nuance. '困った' here means 'I was troubled/had difficulty/was in a predicament', not necessarily 'stuck'.",
+      "suggestion": "The dirt wouldn't come off even after washing, which was a problem."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[5]",
+      "severity": "error",
+      "concern": "The English translation 'Your wallet has fallen (is on the ground)' is redundant and slightly unnatural. 'Your wallet fell' or 'Your wallet dropped' would be more natural and sufficient.",
+      "suggestion": "Your wallet fell."
     }
   ]
 }

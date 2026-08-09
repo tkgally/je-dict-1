@@ -2,29 +2,15 @@
   "entry_id": "00466_arai",
   "headword": "{荒|あら}い",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:51:27Z",
+  "reviewed_at": "2026-08-09T12:27:26Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[2].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'heavy; excessive (consumption)' is too narrow and doesn't fully capture the meaning of 'wasteful' or 'reckless' as seen in examples.",
-      "suggestion": "Change to 'heavy; excessive; wasteful; reckless (consumption/use)'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "warn",
-      "concern": "The translation 'Please don't eat so excessively.' for '荒い食べ方をしないでください。' is a bit too strong and doesn't fully capture the nuance of 'rough' or 'messy' eating.",
-      "suggestion": "Change to 'Please don't eat so messily/roughly.' or 'Please don't be so rough with your food.'"
-    }
-  ]
+  "issues": []
 }

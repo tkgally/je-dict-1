@@ -2,23 +2,23 @@
   "entry_id": "00787_kega",
   "headword": "けが",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:49:19Z",
+  "reviewed_at": "2026-08-09T12:28:00Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "semantic_tags",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'health' is not a valid semantic tag.",
-      "suggestion": "Replace 'health' with 'general' or 'body-part' or 'action' if it's a suru-verb."
+      "concern": "The semantic tag 'body-part' is incorrect for 'けが' (injury/wound). An injury is not a body part.",
+      "suggestion": "Replace 'body-part' with 'health'."
     }
   ]
 }

@@ -2,22 +2,15 @@
   "entry_id": "00628_hidari",
   "headword": "{左|ひだり}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:31Z",
+  "reviewed_at": "2026-08-09T12:27:41Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The headword '左' (hidari) can also refer to the political left, which is a distinct semantic category not covered by 'direction'.",
-      "suggestion": "Add 'politics' to semantic_tags."
-    }
-  ]
+  "issues": []
 }

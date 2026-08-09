@@ -2,22 +2,15 @@
   "entry_id": "00446_kaisei",
   "headword": "{改正|かいせい}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:11:41Z",
+  "reviewed_at": "2026-08-09T12:27:24Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'action' is too broad and not specific enough for '改正'.",
-      "suggestion": "Add more specific semantic tags like 'law', 'politics', 'change', or 'improvement'."
-    }
-  ]
+  "issues": []
 }

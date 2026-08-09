@@ -2,22 +2,15 @@
   "entry_id": "00573_imouto",
   "headword": "{妹|いもうと}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:54:54Z",
+  "reviewed_at": "2026-08-09T12:27:37Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation states 'Used for both one's own younger sister and others' younger sisters,' which is true for the general concept of 'younger sister' but not entirely accurate for the word '妹' itself in all contexts. While '妹' can refer to someone else's younger sister, it's often used with a possessive (e.g., 彼の妹) or in a context where it's clear whose sister it is. The explanation might mislead learners into thinking '妹' alone can universally refer to any younger sister without further context or possessive, similar to how 'sister' might be used in English.",
-      "suggestion": "Clarify that while '妹' refers to a younger sister, when speaking about someone else's younger sister, it's often used with a possessive or clear contextual indicator, unlike the more general English 'younger sister' which can stand alone more easily in such contexts. Or, remove the 'others' younger sisters' part if it's deemed too nuanced for an intermediate dictionary and could cause confusion."
-    }
-  ]
+  "issues": []
 }

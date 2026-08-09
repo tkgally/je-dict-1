@@ -2,13 +2,13 @@
   "entry_id": "00663_saifu",
   "headword": "{財布|さいふ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:45:43Z",
+  "reviewed_at": "2026-08-09T12:27:53Z",
   "summary": {
     "flagged": 1
   },
@@ -18,7 +18,7 @@
       "location": "tags.semantic",
       "severity": "error",
       "concern": "The semantic tag 'clothing' is incorrect for '財布' (wallet/purse).",
-      "suggestion": "tool"
+      "suggestion": "Replace 'clothing' with 'daily-life' or 'tool' or 'shopping'."
     }
   ]
 }

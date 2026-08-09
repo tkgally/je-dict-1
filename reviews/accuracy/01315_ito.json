@@ -2,13 +2,13 @@
   "entry_id": "01315_ito",
   "headword": "{糸|いと}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:47:18Z",
+  "reviewed_at": "2026-08-09T12:29:10Z",
   "summary": {
     "flagged": 1
   },
@@ -18,7 +18,7 @@
       "location": "tags.semantic",
       "severity": "error",
       "concern": "The semantic tag 'tool' is incorrect for '糸' (thread/string). While thread can be used with tools, it is not a tool itself.",
-      "suggestion": "clothing"
+      "suggestion": "Remove 'tool' and add 'general' or 'material'."
     }
   ]
 }
