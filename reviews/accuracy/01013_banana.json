@@ -2,13 +2,13 @@
   "entry_id": "01013_banana",
   "headword": "バナナ",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:53:38Z",
+  "reviewed_at": "2026-08-09T12:28:24Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for a specific fruit.",
-      "suggestion": "plant-general"
+      "concern": "The semantic tag 'general' is too broad for a specific fruit. 'Food' or 'plant-general' would be more appropriate.",
+      "suggestion": "food"
     }
   ]
 }

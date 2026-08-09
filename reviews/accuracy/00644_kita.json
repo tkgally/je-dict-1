@@ -2,22 +2,15 @@
   "entry_id": "00644_kita",
   "headword": "{北|きた}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:48Z",
+  "reviewed_at": "2026-08-09T12:27:47Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for 'north' is overly specific and potentially misleading for a general definition of 'north'. It implies 'north' is always towards the Arctic, which isn't universally true (e.g., in the Southern Hemisphere, 'north' is towards the equator).",
-      "suggestion": "Remove the phrase 'toward the Arctic in the Northern Hemisphere.' or rephrase to be more general, e.g., 'The direction opposite to south, typically towards the Earth's North Pole.'"
-    }
-  ]
+  "issues": []
 }

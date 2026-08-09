@@ -2,15 +2,23 @@
   "entry_id": "00661_ongaku",
   "headword": "{音楽|おんがく}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:45:35Z",
+  "reviewed_at": "2026-08-09T12:27:52Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too narrow for '音楽' (music). While music can be a leisure activity, it is also an art form, a field of study, and a profession. 'Music' is a more appropriate tag.",
+      "suggestion": "music"
+    }
+  ]
 }

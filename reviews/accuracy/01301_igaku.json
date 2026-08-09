@@ -2,13 +2,13 @@
   "entry_id": "01301_igaku",
   "headword": "{医学|いがく}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:47:06Z",
+  "reviewed_at": "2026-08-09T12:29:06Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'education' is too narrow for '医学'. While medicine is studied, it is primarily a field of science and practice.",
-      "suggestion": "['general']"
+      "concern": "The semantic tag 'education' is too narrow for '医学' (medical science/medicine). While medicine is studied, the word itself refers to the field of science, not just the act of education.",
+      "suggestion": "Replace 'education' with 'science'."
     }
   ]
 }

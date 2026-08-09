@@ -2,29 +2,15 @@
   "entry_id": "00480_shigoto",
   "headword": "{仕事|しごと}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:51:54Z",
+  "reviewed_at": "2026-08-09T12:27:28Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English translation 'Work is finished' is grammatically correct but sounds unnatural in common usage.",
-      "suggestion": "A more natural translation would be 'I'm done with work' or 'Work's done'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation 'My job is being a teacher' is grammatically correct but sounds slightly unnatural.",
-      "suggestion": "A more natural translation would be 'My job is a teacher' or 'I'm a teacher, and I enjoy working every day'."
-    }
-  ]
+  "issues": []
 }

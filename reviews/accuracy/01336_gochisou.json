@@ -2,13 +2,13 @@
   "entry_id": "01336_gochisou",
   "headword": "ご馳走",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:47:37Z",
+  "reviewed_at": "2026-08-09T12:29:13Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.politeness",
       "severity": "error",
-      "concern": "The politeness tag 'honorific' is incorrect for ご馳走. While the 'go' prefix is honorific, the word itself is not inherently honorific in the same way as keigo verbs or specific honorific nouns. It's a neutral noun that can be used in various contexts, and the 'go' prefix here is more of a fixed part of the word rather than indicating honorific usage of the noun itself.",
-      "suggestion": "plain"
+      "concern": "The headword 'ご馳走' is not inherently honorific. It is a neutral noun that can be used in honorific contexts (e.g., ごちそうさまでした) but the word itself doesn't carry honorific politeness.",
+      "suggestion": "neutral"
     }
   ]
 }

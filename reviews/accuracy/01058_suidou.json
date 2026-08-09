@@ -2,15 +2,44 @@
   "entry_id": "01058_suidou",
   "headword": "{水道|すいどう}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:54:40Z",
+  "reviewed_at": "2026-08-09T12:28:40Z",
   "summary": {
-    "flagged": 0
+    "flagged": 4
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss 'tap' is misleading as it primarily refers to the fixture, not the water itself or the supply system, which are the primary meanings of 水道.",
+      "suggestion": "water supply, tap water"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with more specific meanings related to infrastructure and daily life.",
+      "suggestion": "daily-life"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[7]",
+      "severity": "error",
+      "concern": "The translation 'Please close the faucet' is unnatural. Faucets are turned off, not closed.",
+      "suggestion": "Please turn off the faucet."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[8]",
+      "severity": "error",
+      "concern": "The translation 'The water pipes froze' adds 'pipes' which is not explicitly in the Japanese sentence and changes the nuance from the general 'water supply' (水道) freezing.",
+      "suggestion": "The water supply froze."
+    }
+  ]
 }

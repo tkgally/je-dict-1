@@ -2,65 +2,15 @@
   "entry_id": "01070_yoroshiku",
   "headword": "よろしく",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:55:17Z",
+  "reviewed_at": "2026-08-09T12:28:44Z",
   "summary": {
-    "flagged": 7
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The headword 'よろしく' itself is not inherently formal. While it can be used in formal contexts (e.g., よろしくお願いいたします), the base word 'よろしく' is neutral or even informal depending on context.",
-      "suggestion": "neutral"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.politeness",
-      "severity": "error",
-      "concern": "The headword 'よろしく' itself is not inherently polite. It can be used in polite expressions (e.g., よろしくお願いします) but the base word is neutral.",
-      "suggestion": "plain"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "error",
-      "concern": "The English translation 'Pleased to meet you.' for 'よろしく。' in this context is too strong. 'よろしく' alone in this context is more like 'Nice to meet you' or 'I look forward to working with you' but in a very casual, abbreviated way. 'Pleased to meet you' is a bit too formal and complete for the casual 'よろしく'.",
-      "suggestion": "Nice to meet you. / I'm Tanaka. Thanks in advance. (or similar casual expression)"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "error",
-      "concern": "The translation 'Pleased to meet you.' for 'よろしくお願いします。' is only one possible meaning. The primary meaning, especially in a business or ongoing relationship context, is 'Thank you in advance' or 'I look forward to working with you'. The 'Pleased to meet you' is specific to first encounters.",
-      "suggestion": "Thank you in advance. / I look forward to working with you. / Pleased to meet you."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "error",
-      "concern": "The translation 'Nice to meet you.' for 'よろしくお願いします。' is too narrow. While it can mean that, in the context of 'I'll be in your care from today', it more broadly means 'I look forward to working with you' or 'Please take care of me'.",
-      "suggestion": "I'll be in your care from today. I look forward to working with you. / Please take care of me."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "error",
-      "concern": "The translation 'Pleased to meet you.' for 'よろしくお願いいたします。' is too narrow. While it can mean that, in the context of a new employee, it more broadly means 'I look forward to working with you' or 'Please treat me well'.",
-      "suggestion": "I'm Sato, a new employee. I look forward to working with you. / Please treat me well."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "error",
-      "concern": "The translation 'Looking forward to our future relationship!' for 'これからもよろしく！' is a bit too formal and specific. 'これからもよろしく！' is a very common, casual expression meaning something like 'Let's continue to get along!' or 'Let's keep up the good work!' or 'I look forward to our continued relationship!' in a more informal way.",
-      "suggestion": "Let's keep up the good work! / Let's continue to get along! / I look forward to our continued relationship!"
-    }
-  ]
+  "issues": []
 }

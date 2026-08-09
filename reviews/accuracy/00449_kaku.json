@@ -2,36 +2,15 @@
   "entry_id": "00449_kaku",
   "headword": "{各|かく}〜",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:11:47Z",
+  "reviewed_at": "2026-08-09T12:27:25Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'grammatical' does not fit the headword's meaning.",
-      "suggestion": "Remove 'grammatical' tag. '各〜' is a lexical prefix meaning 'each/every', not a grammatical particle or construction."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The English translation is not the most natural rendering.",
-      "suggestion": "Change 'Please prepare individually.' to 'Please prepare your own.' or 'Please prepare your own things.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English translation is not the most natural rendering and slightly misses the nuance of '各地'.",
-      "suggestion": "Change 'Earthquakes occurred in various places.' to 'Earthquakes occurred in various regions/areas.' or 'Earthquakes occurred in many places.'"
-    }
-  ]
+  "issues": []
 }

@@ -2,36 +2,15 @@
   "entry_id": "00444_iku",
   "headword": "{幾|いく}〜",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:11:37Z",
+  "reviewed_at": "2026-08-09T12:27:22Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'several ~, how many ~' is a bit too simplistic and doesn't fully capture the nuance of '幾' as a prefix that can also imply 'some' or 'a few' in indefinite contexts, and 'how much' in interrogative contexts.",
-      "suggestion": "Change the top-level gloss to 'several/some/a few ~, how many/much ~' to better reflect the range of meanings covered by the definitions."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The English translation 'I failed many times' for '幾度も失敗した' is acceptable but could be more precise. '幾度も' often implies 'many times' but with a nuance of 'repeatedly' or 'again and again,' which 'many times' doesn't fully convey.",
-      "suggestion": "Change the translation to 'I failed repeatedly' or 'I failed again and again' to better capture the nuance of '幾度も'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "warn",
-      "concern": "The English translation 'I tried countless times' for '幾度となく挑戦した' is a bit strong. '幾度となく' implies 'many times' or 'repeatedly,' but 'countless' suggests an extremely high, almost infinite number, which might be an overstatement.",
-      "suggestion": "Change the translation to 'I tried many times' or 'I tried repeatedly' to better reflect the nuance of '幾度となく'."
-    }
-  ]
+  "issues": []
 }

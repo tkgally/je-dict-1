@@ -2,37 +2,15 @@
   "entry_id": "01309_kimono",
   "headword": "{着物|きもの}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:47:14Z",
+  "reviewed_at": "2026-08-09T12:29:07Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "error",
-      "concern": "The translation 'These clothes are warm' implies a general meaning of 'clothes' for '着物' in this context, but the Japanese sentence 'この着物は暖かい' is more likely referring to a specific kimono, not general clothing, especially given the preceding examples.",
-      "suggestion": "This kimono is warm."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "error",
-      "concern": "The translation 'I layered many pieces of clothing' implies a general meaning of 'clothing' for '着物', but in the context of layering, it's more likely referring to multiple kimonos or layers of a kimono ensemble.",
-      "suggestion": "I layered many kimonos (or layers of kimono)."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "error",
-      "concern": "The translation 'It's cold, so put on thick clothes' implies a general meaning of 'clothes' for '着物', but '厚い着物' in this context would more naturally refer to a thick kimono, not just any thick clothes.",
-      "suggestion": "It's cold, so put on a thick kimono."
-    }
-  ]
+  "issues": []
 }

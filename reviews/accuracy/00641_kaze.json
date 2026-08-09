@@ -2,22 +2,15 @@
   "entry_id": "00641_kaze",
   "headword": "{風|かぜ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:44Z",
+  "reviewed_at": "2026-08-09T12:27:46Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation adds 'air' which is not explicitly present in the Japanese sentence and changes the nuance slightly.",
-      "suggestion": "Spring breezes feel nice, so let's open the window and let them into the room."
-    }
-  ]
+  "issues": []
 }

@@ -2,13 +2,13 @@
   "entry_id": "01383_kinu",
   "headword": "{絹|きぬ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:48:13Z",
+  "reviewed_at": "2026-08-09T12:29:23Z",
   "summary": {
     "flagged": 1
   },
@@ -17,7 +17,7 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'general' is too broad for '絹'.",
+      "concern": "The semantic tag 'general' is too broad for a specific material like silk.",
       "suggestion": "clothing"
     }
   ]
