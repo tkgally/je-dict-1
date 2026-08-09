@@ -993,3 +993,9 @@ All 23 observations cleared.)_
   `updated_at` as "no fresh data" rather than "still running", and re-poll once
   more after a long gap before declaring a timeout — the §0a rescue is the
   backstop, but it costs a whole extra run.
+
+- [entry] 04262 kosuru: vocabulary_tier is `basic`, but 擦る (to rub/scrub) is not plausibly a closed-basic-tier word — likely a tier mislabel worth checking in the next tier audit.
+- [pattern] Compound-verb entries created in the 2026-01-18 batch (06844, 06975, 07099) had **zero** inline links in examples or notes, while their same-era neighbours are fully linked. Worth a targeted detector for entries with kanji-bearing examples and no ⟦…⟧ at all — that class ranks low on note quality but the cause is missing linking, not thin notes.
+- [pattern] Two entries this run (06975, 07099) carried a hand-written CONJUGATION / negative-te-past list at the top of `notes` that merely duplicates the `conjugation` table the renderer already displays. This is the P10 duplicate-conjugation artifact; both were removed here.
+- [entry] 02992 ironna: 色んな is a pre-nominal (連体詞) only — its own notes say it cannot be a predicate — yet part_of_speech is "adjectival noun" and pos was tagged adjective-na + noun. Removed `noun` this run; the deeper POS question (連体詞 category) is a curator call.
+- [tooling] `build/check_stale_noentry.py` would have caught 04262's `⟦擦れる→擦れる：noentry⟧`, which has had an entry (28426_kosureru) for some time. Worth running that detector as its own systemic-fix pass soon.

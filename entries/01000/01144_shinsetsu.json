@@ -44,7 +44,7 @@
     },
     {
       "id": "01144_shinsetsu_ex4",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{親切|しんせつ}⟦すぎて→過ぎる：01219_sugiru⟧、⟦{時々|ときどき}→時々：00600_tokidoki⟧⟦おせっかい→おせっかい：07309_osekkai⟧⟦に→に：00314_ni⟧⟦{思|おも}われる→思う：00492_omou⟧こと⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{親切|しんせつ}⟦すぎて→過ぎる：01219_sugiru⟧、⟦{時々|ときどき}→時々：00600_tokidoki⟧⟦おせっかい→おせっかい：07309_osekkai⟧⟦に→に：00314_ni⟧⟦{思|おも}われる→思う：00492_omou⟧⟦こと→こと：01164_koto⟧⟦も→も：00484_mo⟧⟦ある→ある：00006_aru⟧。",
       "english": "He's so kind that sometimes people think he's being nosy.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "01144_shinsetsu_ex5",
-      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧ばかり⟦の→の：09472_no⟧⟦{時|とき}→時：02918_toki⟧、⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧たち⟦が→が：00051_ga⟧{親切|しんせつ}⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦くれて→くれる：00724_kureru⟧、⟦とても→とても：00593_totemo⟧⟦{助|たす}かった→助かる：01956_tasukaru⟧。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧⟦ばかり→ばかり：02006_bakari⟧⟦の→の：09472_no⟧⟦{時|とき}→時：02918_toki⟧、⟦{周|まわ}り→周り：01732_mawari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧{親切|しんせつ}⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦くれて→くれる：00724_kureru⟧、⟦とても→とても：00593_totemo⟧⟦{助|たす}かった→助かる：01956_tasukaru⟧。",
       "english": "When I first came to Japan, the people around me were kind to me and it really helped.",
       "notes": null,
       "has_audio": false,
@@ -72,10 +72,25 @@
       "note": "new establishment (homophone)"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19557_fushinsetsu",
+      "reading": "ふしんせつ",
+      "headword": "{不親切|ふしんせつ}",
+      "label": "unkind"
+    },
+    {
+      "type": "synonym",
+      "target_id": "02640_yasashii",
+      "reading": "やさしい",
+      "headword": "{優|やさ}しい",
+      "label": "gentle, warmer"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:51:18Z",
-    "modified": "2026-05-14T14:17:02Z",
+    "modified": "2026-08-09T09:17:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -85,7 +100,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "descriptive"
+        "descriptive",
+        "personality"
       ]
     }
   }

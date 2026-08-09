@@ -2,36 +2,15 @@
   "entry_id": "00535_harau",
   "headword": "{払|はら}う",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:38Z",
+  "reviewed_at": "2026-08-09T09:25:41Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The top-level gloss is incomplete; 払う has other common meanings beyond 'to pay'.",
-      "suggestion": "Add other common meanings like 'to brush off', 'to clear away', 'to sweep', 'to wipe'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "error",
-      "concern": "The sense gloss is incomplete; 払う has other common meanings beyond 'to pay'.",
-      "suggestion": "Add other common meanings like 'to brush off', 'to clear away', 'to sweep', 'to wipe'."
-    },
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "The tag 'action' is too broad and not very informative for an intermediate learner.",
-      "suggestion": "Consider more specific tags like 'financial transaction', 'movement', 'cleaning'."
-    }
-  ]
+  "issues": []
 }

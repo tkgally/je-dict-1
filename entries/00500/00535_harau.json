@@ -153,11 +153,33 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{払|はら}う (pay X).\n\nASPECT: ている indicates completed state. {払|はら}っている = 'have paid' or 'am paying.'\n\nCOMMON PATTERNS:\n・⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧{払|はら}う (pay money)\n・⟦{家賃|やちん}→家賃：03639_yachin⟧⟦を→を：00422_wo⟧{払|はら}う (pay rent)\n・⟦{現金|げんきん}→現金：02716_genkin⟧⟦で→で：00502_de⟧{払|はら}う (pay in cash)\n・{払|はら}い{戻|もど}し (refund)\n\nRelated:\n- ⟦{支払|しはら}う→支払う：02116_shiharau⟧ (pay - more formal)\n- ⟦{支払|しはら}い→支払：03193_shiharai⟧ (payment).",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{払|はら}う (pay X).\n\nASPECT: ている indicates completed state. {払|はら}っている = 'have paid' or 'am paying.'\n\nCOMMON PATTERNS:\n・⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧{払|はら}う (pay money)\n・⟦{家賃|やちん}→家賃：03639_yachin⟧⟦を→を：00422_wo⟧{払|はら}う (pay rent)\n・⟦{現金|げんきん}→現金：02716_genkin⟧⟦で→で：00502_de⟧{払|はら}う (pay in cash)\n・⟦{払|はら}い{戻|もど}し→払い戻し：noentry⟧ (refund)\n\nRelated:\n- ⟦{支払|しはら}う→支払う：02116_shiharau⟧ (pay - more formal)\n- ⟦{支払|しはら}い→支払：03193_shiharai⟧ (payment).",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "02116_shiharau",
+      "reading": "しはらう",
+      "headword": "{支払|しはら}う",
+      "label": "more formal"
+    },
+    {
+      "type": "related",
+      "target_id": "03193_shiharai",
+      "reading": "しはらい",
+      "headword": "{支払|しはらい}",
+      "label": "noun form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01883_uketoru",
+      "reading": "うけとる",
+      "headword": "{受|う}け{取|と}る",
+      "label": "receive"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T14:02:30Z",
-    "modified": "2026-05-11T21:09:19Z",
+    "modified": "2026-08-09T09:17:33Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
@@ -168,7 +190,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "money"
       ],
       "verb_class": "godan-u"
     }

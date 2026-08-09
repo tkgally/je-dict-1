@@ -2,50 +2,37 @@
   "entry_id": "00289_momu",
   "headword": "{揉|も}む",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:06:52Z",
+  "reviewed_at": "2026-08-09T09:25:40Z",
   "summary": {
-    "flagged": 5
+    "flagged": 3
   },
   "issues": [
     {
       "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete, missing the 'dispute/quarrel' meaning.",
-      "suggestion": "to rub, to massage, to crumple, to dispute, to quarrel"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation uses 'I crumple' which implies a specific subject, but the Japanese is a general statement.",
-      "suggestion": "To crumple paper to soften it."
+      "location": "definitions[2].gloss",
+      "severity": "error",
+      "concern": "The gloss 'to dispute, to quarrel' for sense 3 is misleading. While 揉む can be used in contexts of dispute, it doesn't directly mean 'to dispute' or 'to quarrel' as a transitive verb in the same way as the other senses. It's more about being 'tossed about' or 'debated' in a contentious manner, often in a passive or intransitive construction (揉める). The gloss implies a direct action of disputing, which is not the primary meaning of 揉む itself in this sense.",
+      "suggestion": "Change gloss to 'to be debated, to be tossed about (in a dispute)' or similar, reflecting the nuance of being involved in a contentious situation rather than actively initiating a dispute."
     },
     {
       "dimension": "translation",
       "location": "examples[5]",
-      "severity": "warn",
-      "concern": "The English translation uses 'I work' which implies a specific subject, but the Japanese is a general statement.",
-      "suggestion": "To work the cloth to remove the wrinkles."
+      "severity": "error",
+      "concern": "The English translation 'I work the cloth to remove the wrinkles' for '布を揉んでシワを取る。' is unnatural. 'Work the cloth' is not a common or clear idiom for this action. 'Knead' or 'rub' would be more appropriate.",
+      "suggestion": "Change translation to 'I knead the cloth to remove the wrinkles.' or 'I rub the cloth to remove the wrinkles.'"
     },
     {
       "dimension": "translation",
       "location": "examples[7]",
-      "severity": "warn",
-      "concern": "The English translation 'Opinions were debated at the meeting' is a bit weak for 揉まれた, which implies more of a conflict or contention.",
-      "suggestion": "Opinions were contended/disputed at the meeting."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "warn",
-      "concern": "The English translation 'tempered by the world' is a good interpretation, but '揉まれて' in this context often implies being 'tossed about' or 'buffeted' by the world, leading to strength.",
-      "suggestion": "Having been buffeted by the world, he became stronger."
+      "severity": "error",
+      "concern": "The English translation 'Opinions were debated at the meeting' for '会議で意見が揉まれた。' is too weak. 'Debated' doesn't fully capture the nuance of '揉まれた' in this context, which implies a more intense, possibly contentious, back-and-forth or being 'tossed around' or 'ironed out' through discussion, often with some difficulty or disagreement.",
+      "suggestion": "Change translation to 'Opinions were thoroughly discussed/ironed out at the meeting.' or 'Opinions were thrashed out at the meeting.'"
     }
   ]
 }
