@@ -144,8 +144,8 @@
     },
     {
       "id": "01099_kotaeru_ex5",
-      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧⟦{鳴|な}った→鳴る：01143_naru⟧⟦けど→けど：09477_kedo⟧、⟦{誰|だれ}→誰：00534_dare⟧⟦も→も：00484_mo⟧{答|こた}えなかった。",
-      "english": "The phone rang, but no one answered.",
+      "japanese": "⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{聞|き}かれて→聞く：00483_kiku⟧、⟦すぐに→すぐに：02905_suguni⟧{答|こた}えた。",
+      "english": "I was asked my name and answered right away.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -153,11 +153,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧{答|こた}える (answer X).\n\nASPECT: ている indicates ongoing action. {答|こた}えている = 'is answering.'\n\nCOMMON PATTERNS:\n・⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に→に：00314_ni⟧{答|こた}える (answer a question)\n・⟦{正直|しょうじき}→正直：01562_shoujiki⟧⟦に→に：00314_ni⟧{答|こた}える (answer honestly)\n・⟦{電話|でんわ}→電話：01471_denwa⟧⟦に→に：00314_ni⟧{答|こた}える (answer the phone - less common)\n・⟦{答|こた}え→答え：00790_kotae⟧ (noun: answer)\n\nIMPORTANT: Takes に particle, not を. Compare: ⟦{聞|き}く→聞く：00483_kiku⟧ takes ⟦を→を：00422_wo⟧ for questions.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧{答|こた}える (answer X).\n\nASPECT: ている indicates ongoing action. {答|こた}えている = 'is answering.'\n\nCOMMON PATTERNS:\n・⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦に→に：00314_ni⟧{答|こた}える (answer a question)\n・⟦{正直|しょうじき}→正直：01562_shoujiki⟧⟦に→に：00314_ni⟧{答|こた}える (answer honestly)\n・〜⟦と→と：00512_to⟧{答|こた}える (answer that ~, reply with ~)\n・⟦{答|こた}え→答え：00790_kotae⟧ (noun: answer)\n\nIMPORTANT: Takes に particle, not を. Compare: ⟦{聞|き}く→聞く：00483_kiku⟧ takes ⟦を→を：00422_wo⟧ for questions.\n\nNOT USED FOR PHONES: answering a ringing telephone is ⟦{電話|でんわ}→電話：01471_denwa⟧⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧, never {答|こた}える. {答|こた}える is only for replying to a question or request.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00790_kotae",
+      "reading": "こたえ",
+      "headword": "{答|こた}え",
+      "label": "noun form: answer"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:51:39Z",
-    "modified": "2026-05-13T23:19:17Z",
+    "modified": "2026-08-09T00:18:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

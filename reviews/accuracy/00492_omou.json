@@ -2,36 +2,15 @@
   "entry_id": "00492_omou",
   "headword": "{思|おも}う",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:52:20Z",
+  "reviewed_at": "2026-08-09T00:26:13Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'to think, to feel' is incomplete as it misses 'to expect' which is a distinct and common meaning of 思う.",
-      "suggestion": "Change the top-level gloss to 'to think, to feel, to expect'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English translation 'I don't think he will come' is a natural rendering, but it doesn't directly reflect the Japanese structure. A more literal translation would be 'He will not come, I think,' which is less natural in English but shows the nuance of the Japanese.",
-      "suggestion": "No change needed, but it's worth noting the slight structural difference for learners."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "warn",
-      "concern": "The translation 'I expect the exam will be difficult' is accurate, but the Japanese '試験は難しいと思います' could also be translated as 'I think the exam will be difficult,' which aligns with Sense 1. The current translation leans heavily into Sense 3, which is fine, but it's good to acknowledge the overlap.",
-      "suggestion": "No change needed, but consider adding a note about the potential for overlap with Sense 1."
-    }
-  ]
+  "issues": []
 }
