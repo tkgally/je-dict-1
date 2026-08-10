@@ -1,0 +1,24 @@
+{
+  "entry_id": "30554_iwaizakana",
+  "headword": "{祝|いわ}い{肴|ざかな}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T09:29:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss implies that 祝い肴 are *part* of an osechi box, but the definition and examples clarify that they *are* the core celebratory dishes, which are often served *in* an osechi box. The current gloss is misleading.",
+      "suggestion": "Change to 'the core celebratory dishes served at New Year'"
+    }
+  ]
+}
