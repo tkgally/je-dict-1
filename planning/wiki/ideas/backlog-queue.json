@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -1016,6 +1016,74 @@
       "scope_measured_at": "2026-08-09",
       "severity": "info",
       "notes": "276 instances / 230 entries / 208 distinct surfaces ({データ|でーた} x8, {バランス|ばらんす} x5, {チーム|ちーむ} x4); only 2 are identity wrappers, so this is consistent deliberate behaviour, not sloppiness. Two project rules collide: 'readings are always hiragana' (satisfied) vs 'furigana annotate kanji' (violated). Decide first, then either sweep mechanically or document the convention in entry-guidelines — sweeping ahead of the decision is the exact failure this page documents four times."
+    },
+    {
+      "id": "stale-calendar-month-links",
+      "title": "Stale calendar-month links: 29 entries point 月(がつ) at the moon entry",
+      "source": "ideas/cleanup-backlog.md#priority-51-stale-calendar-month-links--29-entries-point-月-がつ-at-the-moon-entry",
+      "detect": "literal string 'がつ}→月：02230_tsuki' in an entry file",
+      "filter": null,
+      "fix_type": "mechanical",
+      "verify": "replace with ⟦{月|がつ}→月：30418_gatsu⟧ and bump modified; がつ is unambiguously the counter-suffix reading, so no per-entry semantic judgment is required — validate and spot-check after the sweep",
+      "priority": 6,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 29,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-10",
+      "severity": "error",
+      "notes": "Cause is structural: 30418_gatsu was created after these links were written, so every link authored in the interval pointed at 02230_tsuki (moon). Fixed in 00956_kagetsu during the 2026-08-10 polish run. Same shape expected wherever a suffix/counter entry postdates its homographic free noun — the class-level instrument is Tooling 97 (link surface reading vs target entry reading)."
+    },
+    {
+      "id": "bare-kanji-headwords",
+      "title": "Kanji headwords with no furigana (259 entries) — invisible to every furigana instrument",
+      "source": "ideas/cleanup-backlog.md#priority-52-kanji-headwords-with-no-furigana-at-all-259-entries--invisible-to-every-furigana-instrument",
+      "detect": "re.search(r'[一-鿿]', headword) and '{' not in headword",
+      "filter": "split into the easy class (single kanji / opaque compound, reading field covers the whole headword) and the mixed kana-kanji class (言い値, 召し上がる) which needs kana alignment first",
+      "fix_type": "content",
+      "verify": "per entry: wrap each kanji run with its share of the reading field; verify against the entry's reading and any furigana already used for the same word in examples",
+      "priority": 5,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 259,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-10",
+      "severity": "error",
+      "notes": "find_missing_furigana.py loads headword only to label output and never adds it to fields_to_scan (Tooling 96), so make check-furigana reports these as clean. Active regression, not settled debt: 126 created 2026-07, 24 in the first ten days of 2026-08 (~70/month). Severity is presentational — the reading still renders on its own entry-reading line — but ruby and per-kanji attribution are lost. Ship the validator fix with the sweep or it re-accumulates within a quarter."
+    },
+    {
+      "id": "counter-empty-cross-references",
+      "title": "Counter entries with an empty cross_references array (39 of 79)",
+      "source": "ideas/cleanup-backlog.md#priority-53-counter-entries-with-an-empty-cross_references-array-39-of-79",
+      "detect": "metadata.tags.pos contains 'counter' and cross_references is empty",
+      "filter": null,
+      "fix_type": "content",
+      "verify": "per entry, take the rival counters named in its own notes prose and add them as 'contrast' references; add a 'related' link to the homographic free noun where one exists (00620 台 → 13039 台)",
+      "priority": 8,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 39,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-10",
+      "severity": "warn",
+      "notes": "The counters are the project's cleanest closed set — the contrast is nearly always already written out in the entry's own notes, so the target set is enumerable in advance. The four basic-tier ones (00620 台, 00650 枚, 00666 冊, 00688 本) were fixed in the 2026-08-10 polish run; 39 remain, e.g. 00196 か所, 00108 歩, 00407 トン, 00443 位, 02446 軒, 27628 合, 27655 着, 27977 坪, 28160 便, 28497 一箱, 19765 号車, 30419 客."
+    },
+    {
+      "id": "compound-verb-conjugation-preamble",
+      "title": "Compound-verb notes opening with a negative/te-form/past triad (37 entries)",
+      "source": "ideas/cleanup-backlog.md#priority-54-the-compound-verb-conjugation-preamble-37-entries--bounded-pending-a-curator-call",
+      "detect": "notes contain 'FORMATION' and the first ~400 chars mention negative, te-form and past",
+      "filter": null,
+      "fix_type": "policy",
+      "verify": "n/a until the curator decides whether to strip the preamble; the conjugation field already holds and renders the same information",
+      "priority": 18,
+      "batch_ready": false,
+      "status": "needs-decision",
+      "scope_estimate": 37,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-10",
+      "severity": "info",
+      "notes": "Filed twice on 2026-08-10 (removed by hand in 06850, 06853, 06854, 06855; left in place in 06856-06864 to avoid inconsistency). The measurement is what makes it cheap to settle: this is a creation-batch habit at 37 entries, not the dictionary-wide convention the filing assumed, so either decision executes in a single run. Members include 01935, 03102, 06703, 06856, 06857, 06859, 06861-06864, 06972, 06974."
     }
   ]
 }

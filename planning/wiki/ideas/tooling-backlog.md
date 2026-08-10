@@ -4132,6 +4132,228 @@ write incrementally with no completion marker, so "process gone" and "output com
 independent facts. A `--pidfile` option, or writing results to a staging directory promoted on
 clean exit, would remove the hazard rather than documenting around it.
 
+## 92. The §7 CI-wait loop does not wait, and that alone can strand a green PR
+
+**Source**: 2026-08-10 routine polish observation, verified against PR #3156's timestamps.
+
+`CLAUDE.md` → "MCP path" step 5 and `prompts/routine2.md` §7.5.2 both instruct the run to wait
+between check-run polls by issuing `sleep 30` through the Bash tool with
+`run_in_background: true`, "and when it returns, go back to 5.1". **A backgrounded Bash call
+returns its tool result immediately** — that is what backgrounding means. A run that follows the
+instruction literally, polling again as soon as the tool result comes back, waits **zero
+seconds** between polls.
+
+The documented safety margin evaporates with it: the "~16 polls (~8 min)" cap becomes ~16 polls
+in well under a minute, against CI that needs 60–90 s to *run* and frequently minutes to be
+scheduled at all. The run then reports "still pending at the cap", leaves the PR open, and stops
+— which is precisely the stranded-PR failure mode §0a exists to clean up after.
+
+**Verified, not inferred.** On PR #3156 the `validate` check ran 15:32:04 → 15:33:12 while all
+eight of the run's polls landed between 15:32 and 15:35. Every individual reading the API
+returned was accurate; the loop simply consumed its whole budget inside the check's own runtime.
+
+**Fixes, cheapest first:**
+1. **Print `date -u` inside the wait call itself** — one token of output that makes a
+   zero-second wait immediately visible in the transcript instead of invisible.
+2. **Cap on wall-clock, not on poll count** — record the start time and keep polling until 8–10
+   real minutes have elapsed, so a fast-returning wait costs an extra poll rather than the
+   entire budget.
+3. **Wait in the foreground with something that is not `sleep`** — the harness blocks foreground
+   `sleep`, but a foreground `python3 -c "import time; time.sleep(45)"` blocks the turn for a
+   real 45 seconds, which is the semantics the procedure assumed all along.
+4. Or gate the next poll on the backgrounded command's **completion notification** rather than
+   its tool result.
+
+**This supersedes most of [item 91](#91-the-github-mcp-check-run-status-is-cached-and-it-strands-green-prs).**
+PR #3152's "check-run status is ~30 minutes stale" report came from a run following the same
+zero-wait procedure, so the simplest reading is that the run polled for well under a minute and
+attributed its own haste to a stale cache. Item 91 is downgraded to unconfirmed pending a
+sighting with timestamps that rule out this explanation.
+
+## 93. `review_accuracy.py` should read `reviews/decisions.jsonl` before it flags
+
+**Source**: two 2026-08-09/10 accuracy-review observations — one measuring **26 of 26** flagged
+entries in 29295–29743 as already carrying a same-dimension decision (24 of them prior
+REJECTs, net applicable flags this run: **zero**), the other documenting two reviewer
+oscillations.
+
+**Measured 2026-08-10 across all 28,284 accuracy reports:** 10,139 reports carry open issues,
+covering **10,613 distinct (entry, dimension) pairs**. Of those, **4,479 (42.2%) already have a
+decision recorded on that same dimension**, and **1,081 (10.2%) already have a REJECT**. The
+filed run's 100%/92% figures were a heavily-reviewed band; corpus-wide the re-litigation rate is
+42%, which is smaller but still means two of every five flags reaching adjudication concern a
+question the project has answered in writing.
+
+**The oscillations are the sharp end, and there are two in one 449-entry range.** 29451 塁打:
+a 2026-06-24 run APPLIED a gloss change reasoning "ruida is total bases, not generic base hit";
+the 2026-08-09 run flagged **that result** as an error and asked to revert to the original
+wording. 29634 ネガティブ: a 2026-07-02 run APPLIED "removed technology; core sense is attitude",
+and the 2026-08-09 reviewer asks to **add `technology` back** for the photographic-negative
+sense. Without the ledger in front of the adjudicator, both would have been applied — undoing
+deliberate corrections that a later sweep would presumably flip again. The ledger currently
+prevents this only when a human happens to check it.
+
+**Two implementations, and they are not alternatives:**
+- **(a) Suppress**: drop an issue whose `(entry, dimension)` already has a REJECT unless the
+  entry's `modified` is newer than that decision. Cheap, purely local, removes ~1,081 pairs
+  (10%) of adjudication volume, and would have turned the filed run into a no-op detectable in
+  seconds.
+- **(b) Inform**: pass prior decision notes for the entry into the reviewer prompt so the model
+  is told what was considered and why. Covers the full 42%, catches the oscillation class that
+  (a) misses (both oscillations were prior **APPLYs**, not REJECTs), and costs a few tokens per
+  entry.
+
+(a) is a filter over output; (b) changes what the model is asked. Ship (a) this week and (b)
+when the prompt is next revised.
+
+## 94. Review recency, not "changed at some point": filter `reviews/queue.txt` and the sweep cursor
+
+**Source**: two 2026-08-10 accuracy-review observations — one that the cursor pointed at
+29744–30539, a band of 796 entries where every entry already had a current report from the §4
+at-birth self-check; one that `queue.txt` "does not converge because it is not deduped against
+review recency."
+
+**Measured 2026-08-10.** Queue depth **9,932**. Of those, 9,700 have an accuracy report and 232
+have none. Comparing each report's `reviewed_at` against its entry's `metadata.modified`:
+
+| Queue population | Entries |
+|---|---|
+| Report is **newer** than the entry's last modification (already current) | **3,513** |
+| Report is older than the entry's last modification (genuinely stale) | 6,187 |
+| No report at all | 232 |
+
+**35% of the queue is entries that have already been reviewed since they last changed.** The
+filed estimate was 776; the real figure is 4.5× that. CI appends on any change and nothing ever
+removes an entry when a review lands, so the queue measures "changed at some point since the
+queue was created" — which is why its depth is a slow-moving number that no amount of reviewing
+visibly dents.
+
+**Fix**: one predicate, `reviewed_at >= modified`, applied in two places — as a filter when CI
+writes the queue (dropping it straight to ~6,400) and as a skip in the sweep cursor, which would
+also let the cursor jump directly to the **2,062 entries never reviewed at all** instead of
+crawling bands the §4 at-birth checks have already covered. The same predicate makes queue depth
+a real health metric rather than a monotone counter.
+
+## 95. Constrain the reviewer's tag suggestions to `VALID_SEMANTIC`, and tell it `general` is a legal fallback
+
+**Source**: two 2026-08-09/10 accuracy-review observations, and now three consecutive metrics
+windows.
+
+Two families make up roughly half of all tag-flag volume, and **both are mechanically
+suppressible before they reach a human**:
+
+- **Off-vocabulary suggestions.** The prompt embeds `VALID_SEMANTIC` and the model proposes
+  outside it anyway — 6 of 21 tag flags in one run (`mathematics` ×2, `astronomy` ×2,
+  `literature`, `manufacturing`). The suggestion field should be an **enum**, or off-list
+  suggestions should be post-filtered before adjudication. (Note the asymmetry: a flag saying
+  the *entry's existing* tag is off-vocabulary is the project's highest-precision signal at
+  **97.6%** applied this window. It is the *suggested destination* that needs constraining, not
+  the flag.)
+- **Sole-`general` → specific.** **40 of 147 tag flags (27%)** this window, rejected under the
+  standing §A policy, as in the 2026-08-09 runs and the window before that. Apply rate on the
+  family: **5 applied / 40 rejected (11%)**.
+
+One line in the prompt — *"`general` is an accepted fallback tag; do not propose replacing a
+sole `general` tag with a more specific one"* — retires the second family at zero cost.
+
+**The curator alternative deserves a decision rather than another deferral.** The observation
+asks it fairly: entries like {湿疹|しっしん} (eczema, sole `general`) and {音符|おんぷ} (musical
+note, sole `general`) arguably *should* carry the obvious specific tag, in which case the
+reviewer is right every time and the policy is what is wrong. Either answer ends the recurring
+cost; only the current ambiguity pays it every sweep.
+
+## 96. `find_missing_furigana.py` never scans the `headword` field
+
+**Source**: 2026-08-09 routine polish observation; **confirmed in the source and measured at 259
+entries** (see [Cleanup P52](cleanup-backlog.md#priority-52-kanji-headwords-with-no-furigana-at-all-259-entries--invisible-to-every-furigana-instrument)).
+
+The script reads `headword` at line 101, then builds `fields_to_scan` from notes, definition
+explanations, and examples — and never appends the headword to it. The field is used only to
+label output rows. `make check-furigana` therefore reports a bare-kanji headword as clean, which
+is why 259 of them accumulated with 24 added in the first ten days of August alone.
+
+**Fix**: append `('headword', headword)` to `fields_to_scan`. One line, and it converts P52 from
+a recurring cleanup into a one-time one. Worth pairing with a `validate.py` check so new entries
+cannot introduce the defect at all — the project's stated rule ("all kanji must have furigana —
+in headwords, examples, AND notes") already justifies it as an error rather than a warning.
+
+## 97. Scan for inline links whose surface reading disagrees with the target entry's reading
+
+**Source**: generalised from the 2026-08-10 stale calendar-month finding
+([Cleanup P51](cleanup-backlog.md#priority-51-stale-calendar-month-links--29-entries-point-月-がつ-at-the-moon-entry)).
+
+29 entries link `⟦{月|がつ}→月：02230_tsuki⟧` — a がつ surface pointing at an entry whose reading
+is つき. The cause is structural rather than careless: the suffix entry `30418_gatsu` was created
+*after* those links were written, so every link authored in the interval had nowhere correct to
+point. The same trap is set whenever a suffix, counter, or bound-morpheme entry is created after
+the homographic free noun it shares a kanji with, and it will keep being set as the dictionary
+grows into its own gaps.
+
+**Detect**: for every `⟦surface→base：entry_id⟧`, compare the reading inside the surface's
+furigana wrappers against the target entry's `reading` in `entries_index.json`; report
+mismatches. Pure string comparison over data the build already loads — no model, no judgment.
+
+**Expect false positives and design for them**: legitimate rendaku (はな/ばな), counter voicing
+(ほん/ぼん/ぽん), and okurigana-driven splits will all trip a naive comparison. A first pass
+should whitelist the regular voicing alternations and report only residue; even at moderate
+precision this is the instrument that finds the stale-suffix family as a class rather than one
+filing at a time.
+
+## 98. A naked-katakana detector — the tractable slice of the unlinked-word problem
+
+**Source**: 2026-08-10 routine polish observation, arising from エリア in 04438 報道 sitting
+with no link and no `noentry` marker although 10726_eria exists.
+
+`check_stale_noentry.py` (P35) finds words explicitly marked `noentry` whose entry now exists.
+It cannot find the strictly worse case: a word that was never marked at all. The general
+version of that problem needs Japanese tokenization, which the project has deliberately avoided.
+
+**Katakana does not.** A katakana run of ≥2 characters is self-delimiting in a way kanji and
+kana runs are not, so the rule *"katakana run of ≥2 characters appearing in an example outside
+any ⟦…⟧ that matches a `build/word_id_lookup.json` headword key"* needs no tokenizer and no
+model. Loanwords are also disproportionately the words a learner most wants a link for.
+
+**Caveats to build in**: skip runs inside an existing `⟦…⟧` surface, skip the entry's own
+headword, and expect the katakana-with-hiragana-reading wrapper convention (276 instances,
+[blocked on a curator decision](cleanup-backlog.md)) to interact with the match. Precision
+should be estimated on a 50-entry sample before this is turned into a sweep — the last four
+detector proposals on furigana data died to undocumented conventions.
+
+## 99. Run furigana screening and the accuracy pass sequentially, not concurrently
+
+**Source**: 2026-08-09 accuracy-review observation, measured during the run.
+
+Run concurrently, `review_runner.py --pass screening` managed **28 entries in ~40 minutes**
+(~1.7 min/entry) while `review_accuracy.py` covered ~200 in the same window; **stopping the
+screener immediately sped the accuracy pass up**, which is the signature of two processes
+contending for one provider rate limit rather than of a slow model.
+
+Since screening precision over already-polished ranges has been measured at **0–10%** across a
+month (2 applied / 9 rejected this window, 18.2%; 3 of 31 the window before, 9.7%), the trade is
+lopsided: the concurrent screener costs several hundred entries of accuracy coverage per run to
+buy a pass whose flags are rejected nine times in ten. **Prescription**: drop screening from
+runs whose purpose is accuracy coverage, and when both are wanted, run them sequentially.
+Worth encoding in §A step 2 rather than leaving to per-run judgment.
+
+## 100. `manage_candidates.py add` should run the duplicate check itself
+
+**Source**: 2026-08-10 new-entries observation — **4 of the 20 "seen in entry" candidates
+worked that run were duplicates of existing entries under a variant orthography**: にかけて /
+〜にかけて, しかない / 〜しかない, 焼印 / 焼き印, 一人ぼっち / 独りぼっち.
+
+The capture step in `comprehensive_polish.md` adds a candidate the moment a polish run meets a
+word it thinks lacks an entry, and the variant-orthography cases are exactly the ones a human
+eye misses: the dictionary's entry is prefixed with 〜, or spells the okurigana out, or uses a
+different kanji for the same word. The cost lands two weeks later on a `new-entries` run, which
+spends its scarce "seen in entry" lane on words that already exist.
+
+**Fix in the tool, not the prompt.** `manage_candidates.py add` should call the same logic as
+`check_duplicate.py` (**without** `--skip-candidates`) and refuse — or at minimum warn loudly —
+on a hit, normalising a leading 〜 and okurigana variants before comparing. Every capture site
+then inherits the check, and no prompt has to remember it. This is strictly better than the
+prompt-side instruction the observation proposes, which would need repeating in every prompt
+that captures candidates.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address

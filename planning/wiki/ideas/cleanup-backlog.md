@@ -3431,6 +3431,208 @@ in [Tooling 17](tooling-backlog.md): suppress in-list narrowness suggestions ent
 off-list migrations and category errors. No change to the item; the evidence is now
 overwhelming and the fix remains unshipped.
 
+## Priority 51: Stale calendar-month links — 29 entries point 「月」(がつ) at the *moon* entry
+
+**Source**: 2026-08-10 routine polish observation (fixed in 00956 か月 during that run, the rest
+left). **Measured 2026-08-10 by whole-corpus grep: 29 entries**, confirming the filing exactly.
+
+The suffix entry `30418_gatsu` (〜{月|がつ}, the calendar-month suffix) was created after the
+links were written, so every earlier linking pass had nowhere to point but `02230_tsuki`
+({月|つき}, moon / month-as-a-period). The result is 29 entries whose 一月/七月/九月 examples
+link the learner to the wrong word.
+
+**Detect**: literal string `がつ}→月：02230_tsuki` anywhere in an entry file.
+**Fix**: replace `⟦{月|がつ}→月：02230_tsuki⟧` with `⟦{月|がつ}→月：30418_gatsu⟧`; bump `modified`.
+**Scope**: **29 entries**. **Status**: open, batch-ready.
+
+This is one of the rare items that qualifies as **provably safe under the §B "purely-mechanical"
+carve-out**: the reading がつ is unambiguously the counter-suffix reading of 月 — the moon sense
+is つき and the month-period sense is つき/げつ — so the surface `{月|がつ}` cannot denote the
+target the link currently names. No per-entry semantic judgment is required, only the usual
+post-sweep validation and spot-check.
+
+**Generalise before running it.** The same shape must exist wherever a suffix, counter, or
+bound-morpheme entry was created *after* the homographic free noun it shares a kanji with:
+every link written in the interval points at the noun. A worthwhile companion scan is "inline
+links whose surface reading disagrees with the reading of the entry they target" — that is a
+mechanical string comparison against `entries_index.json` and would find this family and its
+siblings in one pass, rather than one stale-suffix filing at a time. Filed as
+[Tooling 97](tooling-backlog.md).
+
+## Priority 52: Kanji headwords with no furigana at all (259 entries) — invisible to every furigana instrument
+
+**Source**: 2026-08-09 routine polish observation. **Measured 2026-08-10 across all 30,345
+entries: 259 entries**, confirming the filed count exactly.
+
+`CLAUDE.md` states the rule without qualification — "All kanji must have furigana:
+`{漢字|かんじ}` — in headwords, examples, AND notes." These 259 entries carry a bare kanji
+headword: `萼`, `言い値`, `召し上がる`, `ご覧になる`, `赤ん坊`, `瓦礫`, `早炊き`.
+
+**The reason nothing catches them is confirmed in the source.** `build/find_missing_furigana.py`
+reads the headword at line 101 — but only to label its output. The `fields_to_scan` list it
+builds immediately after contains notes, definition explanations, and examples; **the headword
+field is never appended to it**. So the one field every learner reads first is the single field
+the project's furigana scanner does not scan, and `make check-furigana` reports these entries as
+clean.
+
+**Severity is presentational, not data loss.** The rendered page still shows the reading — it is
+emitted as a separate `entry-reading` line under the headword — so the learner is not left
+without it. What breaks is the ruby presentation every other entry has, plus per-kanji reading
+attribution on multi-kanji headwords (瓦礫 renders as two kanji links with a single がれき
+underneath, where 「{瓦|が}{礫|れき}」 would attribute each).
+
+**This is an active regression, not settled debt** — the creation-date distribution says the
+leak is in the current entry-creation path:
+
+| Entry created | Bare-kanji headwords |
+|---|---|
+| 2026-07 | **126** |
+| 2026-05 | 83 |
+| 2026-08 (10 days) | **24** |
+| 2026-06 | 19 |
+| 2026-01 | 7 |
+
+At 24 in the first ten days of August the backlog is growing by roughly 70/month, so a cleanup
+sweep run without the validator check would be re-filed within a quarter.
+
+**Detect**: `re.search(r'[一-鿿]', headword) and '{' not in headword`. One line.
+**Fix**: mechanical where the `reading` field is the whole headword's reading (single kanji:
+萼 → `{萼|がく}`; opaque compounds: 瓦礫 → `{瓦|が}{礫|れき}` needs the per-kanji split);
+**needs care** for mixed kana/kanji forms — 言い値 → `{言|い}い{値|ね}`, 召し上がる →
+`{召|め}し{上|あ}がる` — where the kana in the headword must be aligned out of the reading first.
+Roughly half the 259 are the easy class.
+**Scope**: **259 entries**. **Status**: open, batch-ready in two passes (easy class first).
+
+**Ship the validator check with the sweep, not after it.** Adding the headword to
+`fields_to_scan` costs one line and converts this from a recurring cleanup into a one-time one.
+Filed as [Tooling 96](tooling-backlog.md).
+
+## Priority 53: Counter entries with an empty `cross_references` array (39 of 79)
+
+**Source**: 2026-08-10 routine polish observation on the basic-tier counters — 00620 台,
+00650 枚, 00666 冊 and 00688 本 each named rival counters in their notes prose while all four
+had a completely empty `cross_references` array. Those four were fixed in that run.
+**Measured 2026-08-10: 79 counter-POS entries, 39 still with zero cross-references.**
+
+The counters are the project's cleanest closed set: every counter contrasts with a handful of
+others over the same referent class (flat things / long things / bound things / machines), and
+the contrast is nearly always already written out in the entry's own notes. That makes this the
+rare cross-reference queue where the target set is enumerable in advance rather than inferred
+per entry.
+
+**Detect**: `metadata.tags.pos` contains `counter` and `cross_references` is empty.
+**Fix**: per entry, extract the counters its own notes contrast it with and add them as
+`contrast` references (the shape 00620 台 now has); add the `related` link to the homographic
+free noun where one exists (00620 → 13039 台). Semantic verification per entry, but the
+notes supply the answer.
+**Scope**: **39 entries**. **Status**: open, batch-ready.
+**Sample**: 00196 か所, 00108 歩, 00407 トン, 00443 位, 02446 軒, 27628 合, 27655 着,
+27977 坪, 28160 便, 28497 一箱, 19765 号車, 30419 客.
+
+## Priority 54: The compound-verb conjugation preamble (37 entries) — bounded, pending a curator call
+
+**Source**: filed twice — 2026-08-10 routine polish (removed by hand in 06850, 06853, 06854,
+06855) and again on the 06856–06864 block in the same run's second observation.
+**Measured 2026-08-10: 37 entries** whose notes open with a negative / te-form / past triad and
+also carry a `FORMATION:` section.
+
+Every one of those three lines restates information the entry's `conjugation` field already
+holds and the page already renders as a table, so the preamble is duplicated content occupying
+the top of the notes — the position a learner reads first and where the FORMATION and USAGE
+material should be.
+
+**Detect**: notes contain `FORMATION` and the first ~400 characters mention negative, te-form,
+and past. **Scope**: **37 entries** (01935, 03102, 06703, 06856, 06857, 06859, 06861–06864,
+06972, 06974, …). **Status**: **needs-decision** — batch-ready the moment it is taken.
+
+**Why it is parked rather than open.** The polish run that removed four of them noted the
+consistency risk and left the rest, and that instinct is right in general — but the measurement
+changes the calculus. The filing assumed the preamble is a dictionary-wide convention that
+would be expensive to break; it is **37 entries**, a creation-batch habit rather than a house
+style. Either decision can therefore be executed in a single run, which makes this cheap to
+settle rather than something to keep deferring.
+
+## Updates 2026-08-10 (wiki harvest)
+
+**P50 holds at exactly 55 while the frontier advanced 15 IDs — and the re-scan retires the
+"contiguous runs" proposal that was filed twice this window.**
+
+Two polish observations (06845–06849, then 06850–06855) proposed the same new instrument: *"a
+detector that reports contiguous runs of zero-link entries so systemic-fix can target the
+densest block instead of the frontier lane crawling them one at a time."* The premise behind it
+is correct and was well observed — the zero-link population **is** creation-batch-shaped, not
+scattered drift. The prescription does not survive measurement.
+
+Run over all 30,345 entries, the zero-link population is **23,420**, and it decomposes into
+**34 runs total** — of which three are almost all of it:
+
+| Run | Entries | Share |
+|---|---|---|
+| 18726–30554 | 11,810 | 50.4% |
+| 09809–18724 | 8,847 | 37.8% |
+| 07442–09477 | 2,036 | 8.7% |
+| **top three combined** | **22,693** | **96.9%** |
+| the other 31 runs | 727 | 3.1% |
+
+So a run-length detector returns "everything above the frontier" in three rows instead of
+23,420 — a prettier rendering of the same fact the standing **"do not file a zero-link
+detector"** instruction already records. "The densest block" is not a target; it is the
+unpolished dictionary. These are the **eighth and ninth** independent rediscoveries of that
+finding, and the second time in two windows that splitting the population at the cursor is what
+turns it into work.
+
+**The cursor split, meanwhile, brings good news.** Zero-link entries *behind* the frontier are
+**55** — identical to the 55 measured on 2026-08-09, and **zero** of the 15 IDs the frontier
+crossed since (06845–06859) entered the set. [P50](#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46)
+is a fixed, non-growing queue: the polish lane is linking what it passes, so this backlog can be
+cleared once and stay cleared. Total zero-link count rose 23,404 → 23,420 (+16) purely from
+the 43 new entries created in the window.
+
+**P11 (semantic-tag drift): the contaminated band extends into 06926–07265, and the ratchet is
+blind to all of it.** A cross-model accuracy pass over 240 never-reviewed entries there returned
+**147 tag flags on 135 entries (56% of entries flagged)**, and on adjudication the great
+majority were gross-category errors rather than breadth nits: {司書|ししょ} (librarian) tagged
+`clothing`, カビ (mold) tagged `weather`, {打率|だりつ} (batting average) tagged `animal-mammal`,
+{位牌|いはい} (Buddhist memorial tablet) tagged `electronics`, ぴえん tagged `food`,
+{一触即発|いっしょくそくはつ} and {危機一髪|ききいっぱつ} both tagged `geography`. 77 were
+corrected in that run.
+
+**Every one of those tags is in `VALID_SEMANTIC`.** `validate_tags.py` and the
+`--check-no-new-unknown` ratchet see a clean entry, because what is wrong is not the vocabulary
+but the attachment — the right label on the wrong word. The band looks creation-batch-shaped
+(these entries were created 2026-01), which means the rest of 07266+ probably carries it too and
+the accuracy sweep will take ~9 more runs to crawl there at ~240 entries/run. Recorded as the
+strongest current argument for a dedicated systemic-fix pass over 07266+ rather than waiting for
+the sweep. (The in-list apply rate this window — **58.9%**, against 5.0% last window — is this
+block and nothing else; see the metrics page's 34th refresh.)
+
+**P35 (stale `noentry` markers): two more sightings, plus a class the detector cannot see.**
+02052 狂う marks 狂気 `noentry` though 27800_kyouki exists; 04438 報道 marks 各 `noentry` though
+00449_kaku exists. Both are ordinary P35, detected by `build/check_stale_noentry.py`. The
+*related* miss is not: エリア in 04438 sat entirely naked — no link and no `noentry` marker —
+though 10726_eria exists, and nothing detects a bare word with no marker at all. The cheap
+approximation proposed in the observation is sound and worth building: **a katakana run of ≥2
+characters appearing in an example outside any ⟦…⟧ that matches a `word_id_lookup.json`
+headword key**. Katakana needs no tokenizer, which is exactly why it is the tractable slice of
+the naked-word problem. Filed as [Tooling 98](tooling-backlog.md).
+
+**RETIRED: "formality `formal` with no supporting REGISTER note" as a detector.** Proposed from
+the 06926–07265 accuracy pass, where ゴミ箱, デバイス, 獣医, 観客席, プレッシャー, 手入れ and
+打合わせ all carried `formal` with nothing in the notes supporting it. Measured across the
+corpus: **5,079 entries carry `formality: formal`, and 4,357 of them (85.8%) have no REGISTER
+note.** The detector returns six-sevenths of the population it is meant to discriminate within.
+
+This is the **third** instance of the rule recorded on
+[Inline Link Integrity](../topics/inline-link-integrity.md) after the zero-link and
+kanji-in-example cases: *when a coverage detector returns most of the population, it is
+measuring a documentation habit, not a defect.* Most entries simply do not write REGISTER
+sections; `formal` with no note is the norm. The discriminating rule is the one §A already
+applies — flag only when the entry's **own notes contradict the label** (バイト's notes saying
+"Casual", {有給休暇|ゆうきゅうきゅうか} tagged `informal`) — and that rule needs no new detector
+because the reviewer already implements it. The observation also measured the band's `formal`
+share at 14% against the dictionary's 16.7%, i.e. the block is *not* contaminated; the filing
+was a false alarm about a real-looking pattern, correctly caught by its own author's check.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns

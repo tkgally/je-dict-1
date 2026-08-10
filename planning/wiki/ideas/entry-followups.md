@@ -1370,6 +1370,53 @@ pending the curator's decision. Nothing new to add to the argument above; record
 because the re-capture rate is itself the point — every polishing run that meets a proper noun
 in an example will keep filing one until the policy and the corpus agree.
 
+## Added 2026-08-10 (wiki harvest)
+
+**01328 {内|うち} — two examples use the entry against its own advice.** ex13
+「{建物|たてもの}の{内|うち}は{涼|すず}しかったです」 and ex17
+「{箱|はこ}の{内|うち}に{何|なに}が{入|はい}っていますか」 both use 内 for a concrete physical
+interior, where natural Japanese takes ⟦{中|なか}⟧ — and the entry's **own notes say so**
+("for physical interiors, 中 is more common"). An example that a learner would be marked wrong
+for imitating, sitting under a note explaining why. Fix: replace both with sense-1 uses —
+abstract or bounded-set interiors such as {心|こころ}の{内|うち} or {予算|よさん}の{内|うち} —
+with full inline-link coverage on the replacements. Needs a small rewrite rather than a tweak,
+which is why it is here rather than fixed in passing.
+
+**The conflict/dispute cluster — three entries left deliberately for one decision.** 05758 紛争
+was tagged `action` and was corrected to `society`/`politics` in the 2026-08-10 polish run. Its
+neighbours are no better: **01450 戦争** `action`, **04500 対立** `general`, **09992 争い**
+`general`. `action` on an abstract noun is exactly the semantic-mismatch failure
+`build/check_tag_drift.py` detects, and sole `general` is its sole-general check, so the whole
+cluster is already visible to existing instruments. They were left for a systemic-fix pass so
+the four get **one consistent decision** rather than four independent guesses months apart —
+which is the right instinct and worth generalising: near-synonym clusters should be retagged
+together or not at all.
+
+**Transitive/intransitive leakage in the 06850s compound-verb block.** 06853 {焼|や}き{付|つ}ける
+had its ex1 written with the *intransitive* 焼き付いている under a transitive headword; the
+2026-08-10 polish run rewrote it and added the missing `pair` link to 26882 焼き付く in both
+directions. The block is full of transitive/intransitive compound pairs created in the same
+batch, so the same leak plausibly sits in its neighbours. **Targeted check**: examples whose
+verb form does not match the headword's transitivity — mechanically approximable by looking for
+自動詞-shaped inflections (〜が … 〜ている with no を) in entries tagged transitive, then verifying
+per entry.
+
+**Sole-`general` on obviously-specific words — the curator question behind a recurring reject.**
+The standing §A policy rejects "sole `general` → specific tag" flags, and this window rejected
+40 of them (27% of all tag-flag volume, the third consecutive window at roughly that share). The
+policy is defensible, but the examples make the opposite case honestly: {湿疹|しっしん} (eczema)
+and {音符|おんぷ} (musical note) carry sole `general` when `medicine` and `music` are sitting
+right there in the vocabulary. Either the reviewer is wrong 40 times a sweep, or these entries
+should be retagged and the policy narrowed to genuinely-unclassifiable words. Recorded here as
+an entry-level question with a concrete two-entry starting sample; the tooling consequence is
+[Tooling 95](tooling-backlog.md).
+
+**Proper-noun scope — fifth filing.** C22806 夏目漱石 was re-captured by the 2026-08-10
+new-entries run and skipped again, with the reasoning restated independently: the dictionary has
+place names (東京, 富士山, 大阪) and award names (芥川賞) but no person names, so admitting an
+author name is a scope decision rather than an entry decision. Nothing new in the argument. The
+re-filing rate is now roughly one per two days.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
