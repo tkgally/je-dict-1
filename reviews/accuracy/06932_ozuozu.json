@@ -1,0 +1,24 @@
+{
+  "entry_id": "06932_ozuozu",
+  "headword": "おずおず",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:32:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 'おずおず'. This is a common adverb used in everyday speech and writing, not restricted to formal contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

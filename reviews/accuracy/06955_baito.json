@@ -1,0 +1,24 @@
+{
+  "entry_id": "06955_baito",
+  "headword": "バイト",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:32:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word 'バイト' is an abbreviation and commonly used in informal contexts, making 'formal' an incorrect formality tag.",
+      "suggestion": "neutral"
+    }
+  ]
+}

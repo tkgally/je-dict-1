@@ -1,0 +1,24 @@
+{
+  "entry_id": "07264_tsukiataru",
+  "headword": "{突|つ}き{当|あ}たる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:36:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'furniture' is incorrect for the headword '突き当たる'.",
+      "suggestion": "Replace 'furniture' with a more appropriate tag like 'movement' or 'general'."
+    }
+  ]
+}

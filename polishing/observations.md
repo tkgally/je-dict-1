@@ -1133,3 +1133,51 @@ All 24 observations cleared.)_
   26882 焼き付く (both directions). Other transitive/intransitive compound pairs in this block may
   have the same leak; worth a targeted check of examples whose verb form does not match the
   headword's transitivity.
+
+- [pattern] **The P11 semantic-tag contamination extends into 06926–07265.** A cross-model
+  accuracy pass over 240 never-reviewed entries in this block returned 147 tag flags on 135
+  entries (56% of entries flagged), and on inspection the great majority were genuine
+  gross-category errors, not breadth nits: {司書|ししょ} (librarian) tagged `clothing`,
+  カビ (mold) tagged `weather`, {打率|だりつ} (batting average) tagged `animal-mammal`,
+  {位牌|いはい} (Buddhist memorial tablet) tagged `electronics`, ぴえん tagged `food`,
+  {一触即発|いっしょくそくはつ} and {危機一髪|ききいっぱつ} both tagged `geography`.
+  77 entries were corrected this run. Crucially **none of these entries carries an
+  off-vocabulary tag**, so `validate_tags.py` and the `--check-no-new-unknown` ratchet are
+  blind to the whole class — every tag is in `VALID_SEMANTIC`, just attached to the wrong
+  word. The contaminated band appears to be creation-batch-shaped (these entries were
+  created 2026-01). Worth a dedicated systemic-fix sweep over the rest of 07266+ rather
+  than waiting for the accuracy sweep to crawl it at ~240 entries/run.
+
+- [tooling] **The accuracy sweep's cursor pointed at a band that was already 100% reviewed
+  and 100% adjudicated.** `cross_model_review_next` was 29744, but every entry in
+  29744–30539 (796 of them) already had a current `reviews/accuracy/` report — written by
+  the §4 at-birth self-check — and all 49 with open issues already had a same-dimension
+  decision in `decisions.jsonl`. Re-sweeping it would have spent the whole run confirming
+  known results. The sweep cursor should skip entries whose review is newer than the
+  entry's `modified` timestamp; the same predicate would let the cursor jump straight to
+  the 2,062 entries that have never been reviewed at all.
+
+- [tooling] **`reviews/queue.txt` does not converge because it is not deduped against
+  review recency.** It holds 9,855 entries including 776 of the already-current
+  29744–30539 band. CI appends on any change to an entry but nothing removes an entry when
+  a review lands, so the queue measures "changed at some point", not "changed since last
+  review". Filtering it against `reviews/accuracy/{id}.json` `reviewed_at` would shrink it
+  to the genuinely-stale set and make queue depth a usable health metric.
+
+- [pattern] **A cluster of everyday nouns in 06926–07265 carries `formality: formal` with
+  no supporting REGISTER note** — ゴミ{箱|ばこ}, デバイス, {獣医|じゅうい},
+  {観客席|かんきゃくせき}, プレッシャー, {手入|てい}れ, {打合|うちあ}わせ. The reviewer
+  flagged 25 of them; per §A only 3 were applied (the ones whose own notes contradict the
+  label: バイト's notes say "Casual", {有給休暇|ゆうきゅうきゅうか} was tagged `informal`,
+  {思|おも}いがけず's notes lead with "Neutral"). The block's overall formality
+  distribution (14% `formal`) matches the dictionary (16.7%), so this is not block
+  contamination — but "formal with no register note" is a mechanically detectable class
+  and would make a good low-risk detector.
+
+- [pattern] **Sole-`general` → specific-tag flags are now ~27% of all tag-flag volume**
+  (40 of 147 this run, rejected again per the standing §A policy, as in the 2026-08-09
+  runs). The policy is settled, but the reviewer re-proposes the family every sweep at real
+  adjudication cost. Either the reviewer prompt should be told `general` is an accepted
+  fallback, or the curator should revisit whether entries like {湿疹|しっしん} (eczema,
+  sole `general`) and {音符|おんぷ} (musical note, sole `general`) ought to carry the
+  obvious specific tag after all.

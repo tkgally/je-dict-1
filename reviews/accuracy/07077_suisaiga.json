@@ -1,0 +1,24 @@
+{
+  "entry_id": "07077_suisaiga",
+  "headword": "{水彩画|すいさいが}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:35:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'color' is incorrect for '水彩画' (watercolor painting). While colors are used in watercolor painting, the word itself refers to the art form or the painting, not a color.",
+      "suggestion": "Replace 'color' with 'art'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "06935_bukubuku",
+  "headword": "ぶくぶく",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:32:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword has two distinct meanings, one of which is not covered by the 'descriptive' tag.",
+      "suggestion": "Add 'onomatopoeia' to the semantic tags."
+    }
+  ]
+}

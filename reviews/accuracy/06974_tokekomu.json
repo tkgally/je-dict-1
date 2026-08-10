@@ -1,0 +1,24 @@
+{
+  "entry_id": "06974_tokekomu",
+  "headword": "{溶|と}け{込|こ}む",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:33:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. '溶け込む' is a common verb used in everyday conversation and writing, not exclusively in formal contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

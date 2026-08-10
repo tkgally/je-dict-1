@@ -1,0 +1,31 @@
+{
+  "entry_id": "07059_haikanryou",
+  "headword": "{拝観料|はいかんりょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:34:44Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is incorrect for '拝観料'.",
+      "suggestion": "Replace 'education' with 'travel' or 'money' or 'culture'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'humble' is incorrect for '拝観料'.",
+      "suggestion": "Replace 'humble' with 'plain'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "07012_dengentappu",
+  "headword": "{電源|でんげん}タップ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:33:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'emotion' is incorrect for '電源タップ'.",
+      "suggestion": "Remove 'emotion'."
+    }
+  ]
+}

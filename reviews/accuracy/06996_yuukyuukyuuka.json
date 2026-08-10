@@ -1,0 +1,24 @@
+{
+  "entry_id": "06996_yuukyuukyuuka",
+  "headword": "{有給休暇|ゆうきゅうきゅうか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:33:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The term '有給休暇' (paid leave) is a standard, neutral term in Japanese workplace contexts, not informal. It is commonly used in official documents, conversations, and policies without implying informality.",
+      "suggestion": "neutral"
+    }
+  ]
+}
