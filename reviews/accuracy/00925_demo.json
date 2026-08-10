@@ -2,23 +2,15 @@
   "entry_id": "00925_demo",
   "headword": "でも",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:51:37Z",
+  "reviewed_at": "2026-08-10T03:27:47Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "error",
-      "concern": "The gloss 'even (with particle)' is misleading. While 'demo' can mean 'even' when attached to nouns, it also has other meanings when combined with interrogatives (e.g., 'anything', 'anyone', 'anywhere') and when suggesting something (e.g., 'tea or something'). The current gloss only covers one aspect of its usage as a particle.",
-      "suggestion": "Change gloss to 'even; anything/anyone/anywhere; or something'."
-    }
-  ]
+  "issues": []
 }

@@ -1112,3 +1112,24 @@ All 24 observations cleared.)_
   C22806 夏目漱石 (seen in entry 06801) was skipped: place names (東京, 富士山)
   and award names (芥川賞) have entries, but no novelist, politician, or other
   personal name does. Left in the candidate list pending a curator policy call.
+
+- [pattern] The zero-inline-link block that started at 06845 runs on: 06850, 06851, 06853, 06854
+  and 06855 all had **no** inline links at all in examples or notes, while 06852 (polished
+  2026-07-28) is fully linked. This is a creation-batch signature spanning at least 06845–06855,
+  not scattered drift, and it reinforces last run's proposal for a detector that finds contiguous
+  runs of zero-link entries so systemic-fix can clear dense blocks instead of the frontier lane
+  crawling them one at a time.
+- [pattern] Basic-tier counters were a disconnected cluster: 00620 台, 00650 枚, 00666 冊 and
+  00688 本 each named rival counters in their notes prose while all four had a completely empty
+  `cross_references` array. Cross-referencing among a closed set like the counters is mechanically
+  checkable — every counter should reference the counters its own notes contrast it with. Worth a
+  detector, or a one-off systemic-fix sweep over the counter/classifier set.
+- [pattern] Compound-verb entries created in the 06850s open their notes with three bullets
+  restating negative/te-form/past — information the `conjugation` table already renders on the
+  page. Removed by hand in 06850, 06853, 06854, 06855. A mechanical detector for notes beginning
+  with that bullet triad would clear the rest of the block cheaply.
+- [entry] 06853 焼き付ける ex1 was written with the *intransitive* 焼き付いている under a
+  transitive headword. Rewrote it to the transitive and added the missing `pair` link to
+  26882 焼き付く (both directions). Other transitive/intransitive compound pairs in this block may
+  have the same leak; worth a targeted check of examples whose verb form does not match the
+  headword's transitivity.

@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06855_haritsukeru_ex1",
-      "japanese": "{壁|かべ}にポスターを{貼|は}り{付|つ}けた。",
+      "japanese": "⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦ポスター→ポスター：09598_posutaa⟧⟦を→を：00422_wo⟧{貼|は}り{付|つ}けた。",
       "english": "I stuck a poster on the wall.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06855_haritsukeru_ex2",
-      "japanese": "コピーした{文章|ぶんしょう}をメールに{貼|は}り{付|つ}ける。",
+      "japanese": "⟦コピーした→コピーする：02941_kopiisuru⟧⟦{文章|ぶんしょう}→文章：02957_bunshou⟧⟦を→を：00422_wo⟧⟦メール→メール：04435_meeru⟧⟦に→に：00314_ni⟧{貼|は}り{付|つ}ける。",
       "english": "To paste the copied text into an email.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06855_haritsukeru_ex3",
-      "japanese": "{切手|きって}を{封筒|ふうとう}に{貼|は}り{付|つ}けてください。",
+      "japanese": "⟦{切手|きって}→切手：00718_kitte⟧⟦を→を：00422_wo⟧⟦{封筒|ふうとう}→封筒：02952_fuutou⟧⟦に→に：00314_ni⟧{貼|は}り{付|つ}けて⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please stick the stamp on the envelope.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "・{貼|は}り{付|つ}ける → {貼|は}り{付|つ}けない (negative)\n・{貼|は}り{付|つ}ける → {貼|は}り{付|つ}けて (te-form)\n・{貼|は}り{付|つ}ける → {貼|は}り{付|つ}けた (past)\n\nFORMATION:\nCompound verb: {貼|は}る (to stick) + {付|つ}ける (to attach)\n\nUSAGE:\n・シールを{貼|は}り{付|つ}ける (to stick on a sticker)\n・{写真|しゃしん}を{貼|は}り{付|つ}ける (to paste a photo)\n・リンクを{貼|は}り{付|つ}ける (to paste a link)\n\nIn computing contexts, often abbreviated to just {貼|は}る or ペーストする.\n\nKANJI NOTE:\nCan also be written as {張|は}り{付|つ}ける, though {貼|は}り{付|つ}ける is more common for sticking/pasting.",
-  "cross_references": [],
+  "notes": "A compound verb: ⟦{貼|は}る→貼る：10447_haru⟧ (to stick) + ⟦{付|つ}ける→付ける：00761_tsukeru⟧ (to attach). The second element adds the sense that the thing ends up firmly fixed in place, so {貼|は}り{付|つ}ける sounds more deliberate and more permanent than plain ⟦{貼|は}る→貼る：10447_haru⟧.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- The thing stuck takes ⟦を→を：00422_wo⟧; the surface takes ⟦に→に：00314_ni⟧: ⟦{壁|かべ}→壁：01290_kabe⟧⟦に→に：00314_ni⟧⟦ポスター→ポスター：09598_posutaa⟧⟦を→を：00422_wo⟧{貼|は}り{付|つ}ける\n\nASPECT (ている):\n{貼|は}り{付|つ}けている is the act in progress. For the resulting state — the poster is up on the wall — use the passive {貼|は}り{付|つ}けられている or, more commonly, ⟦{貼|は}る→貼る：10447_haru⟧⟦てある→〜てある：30377_tearu⟧.\n\nCOMMON PATTERNS:\n- ⟦シール→シール：09597_shiiru⟧⟦を→を：00422_wo⟧{貼|は}り{付|つ}ける (to stick on a sticker)\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{貼|は}り{付|つ}ける (to paste a photo)\n- ⟦リンク→リンク：07341_rinku⟧⟦を→を：00422_wo⟧{貼|は}り{付|つ}ける (to paste a link)\n\nCOMPUTING USE:\nFor copy-and-paste, {貼|は}り{付|つ}ける is the term menus use, but in speech it is usually shortened to ⟦{貼|は}る→貼る：10447_haru⟧ or replaced by ⟦ペースト→ペースト：08868_peesuto⟧する.\n\nKANJI NOTE:\nAlso written {張|は}り{付|つ}ける. {貼|は}り{付|つ}ける is the standard spelling for sticking and pasting; {張|は}り is preferred when something is stretched or posted up over an area.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10447_haru",
+      "reading": "はる",
+      "headword": "{貼|は}る",
+      "label": "to stick, to paste (first element)"
+    },
+    {
+      "type": "related",
+      "target_id": "00761_tsukeru",
+      "reading": "つける",
+      "headword": "{付|つ}ける",
+      "label": "to attach (second element)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T09:27:18Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-08-10T03:19:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

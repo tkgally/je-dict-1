@@ -2,13 +2,13 @@
   "entry_id": "00688_hon",
   "headword": "〜{本|ほん}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:46:33Z",
+  "reviewed_at": "2026-08-10T03:27:46Z",
   "summary": {
     "flagged": 2
   },
@@ -17,15 +17,15 @@
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The main gloss is too broad and potentially misleading. While it is a counter for long objects, the primary and most common use is for cylindrical objects, as detailed in the definition.",
-      "suggestion": "counter for long, cylindrical objects"
+      "concern": "The headword gloss is too broad and misleading given the examples. It implies it's for *any* long object, but the examples and definition clarify it's for *cylindrical* or *linear* objects, not just any long object (e.g., a long table wouldn't use this counter).",
+      "suggestion": "counter for long, cylindrical, or linear objects"
     },
     {
       "dimension": "translation",
       "location": "examples[4]",
       "severity": "error",
-      "concern": "The counter 〜本 (ほん) is used for movies in Japanese, but the English translation does not reflect this usage. 'I watched three movies' is correct English, but it doesn't show the learner that 〜本 is used for counting movies.",
-      "suggestion": "I watched three movies (lit. three 'films'), but this one was the most interesting."
+      "concern": "The translation for example 4 is misleading. While 'movies' can be considered 'long objects' in a metaphorical sense (long narratives), this usage of 〜本 for movies is an idiom, not a direct application of the 'long, cylindrical object' counter. A learner would be misled into thinking they can use 〜本 for any 'long' abstract concept.",
+      "suggestion": "I watched three movies, but this one was the most interesting. (Note: This usage for movies is idiomatic, not a direct application of the 'long object' counter.)"
     }
   ]
 }
