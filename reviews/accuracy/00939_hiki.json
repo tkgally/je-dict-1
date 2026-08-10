@@ -2,13 +2,13 @@
   "entry_id": "00939_hiki",
   "headword": "{匹|ひき}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:52:12Z",
+  "reviewed_at": "2026-08-10T12:45:02Z",
   "summary": {
     "flagged": 2
   },
@@ -17,15 +17,15 @@
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss 'small animals' is misleading as it describes the type of animal counted, not the function of the counter itself. It should describe what '匹' is.",
-      "suggestion": "counter for small animals"
+      "concern": "The gloss is misleadingly narrow. It only mentions 'small animals' but the explanation clarifies it's for 'small to medium-sized animals' and the examples include dogs and cats, which are medium-sized.",
+      "suggestion": "Change gloss to 'small to medium-sized animals' or 'animals (small to medium)'"
     },
     {
       "dimension": "gloss",
       "location": "definitions[0].gloss",
       "severity": "error",
-      "concern": "The gloss 'small animals' is misleading as it describes the type of animal counted, not the function of the counter itself. It should describe what '匹' is.",
-      "suggestion": "counter for small animals"
+      "concern": "The gloss is misleadingly narrow. It only mentions 'small animals' but the explanation clarifies it's for 'small to medium-sized animals' and the examples include dogs and cats, which are medium-sized.",
+      "suggestion": "Change gloss to 'small to medium-sized animals' or 'animals (small to medium)'"
     }
   ]
 }

@@ -2,37 +2,23 @@
   "entry_id": "01328_uchi",
   "headword": "{内|うち}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:47:31Z",
+  "reviewed_at": "2026-08-10T12:45:40Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "gloss",
+      "dimension": "tags",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The gloss 'among' is too broad and can be misleading without context. It's better represented by 'of (a group)' as in definition 2.",
-      "suggestion": "inside; within; of (a group); while"
-    },
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The gloss is missing the meaning 'one's home/group' which is covered in definition 4 and used in several examples.",
-      "suggestion": "inside; within; among; while; one's home/group"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[15]",
-      "severity": "error",
-      "concern": "The translation 'My mother is good at cooking.' is too generic. '内の母' specifically refers to 'our mother' or 'my mother (in our family/group context)', implying a sense of belonging to the speaker's group, which is a key nuance of '内' in this context.",
-      "suggestion": "Our mother is good at cooking."
+      "concern": "The tag 'direction' is not appropriate for the headword '内' (uchi) in its primary meanings. While 'inside' can imply a location, 'direction' specifically refers to a vector or path, which is not the core meaning of 'uchi'.",
+      "suggestion": "Remove 'direction'. The tag 'general' is sufficient, or 'location' could be added if available in the valid tag list (it is not)."
     }
   ]
 }

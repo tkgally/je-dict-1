@@ -3,11 +3,11 @@
   "headword": "{匹|ひき}",
   "reading": "ひき",
   "part_of_speech": "counter",
-  "gloss": "small animals",
+  "gloss": "small and medium-sized animals",
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "small animals",
+      "gloss": "small and medium-sized animals",
       "explanation": "A counter for small to medium-sized animals such as fish, insects, cats, dogs, etc. Not used for birds or rabbits."
     }
   ],
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{匹|ひき} is the counter for small to medium-sized animals such as fish, insects, cats, and dogs.\n\nWHAT IT COUNTS:\n- Small animals: ⟦{猫|ねこ}→猫：02237_neko⟧, ⟦{犬|いぬ}→犬：00632_inu⟧, ⟦{魚|さかな}→魚：00499_sakana⟧, ⟦{虫|むし}→虫：02262_mushi⟧\n- NOT used for: birds (⟦{羽|わ}→羽：01007_wa⟧), large animals like horses/cows (⟦{頭|とう}→頭：18067_tou⟧), or rabbits (⟦{羽|わ}→羽：01007_wa⟧)\n\nSOUND CHANGES:\nThe initial consonant changes depending on the preceding number:\n- ひき: ⟦{二|に}→二：00736_ni⟧{匹|ひき}, ⟦{四|よん}→四：00767_yon⟧{匹|ひき}, ⟦{五|ご}→五：00697_go⟧{匹|ひき}, ⟦{七|なな}→七：00734_nana⟧{匹|ひき}, ⟦{九|きゅう}→九：00728_kyuu⟧{匹|ひき}\n- ぴき: ⟦{一|いっ}→一：00705_ichi⟧{匹|ぴき}, ⟦{六|ろっ}→六：00747_roku⟧{匹|ぴき}, ⟦{八|はっ}→八：00698_hachi⟧{匹|ぴき}, ⟦{十|じゅっ}→十：00708_juu⟧{匹|ぴき}\n- びき: ⟦{三|さん}→三：00749_san⟧{匹|びき}, ⟦{何|なん}→何：00498_nani⟧{匹|びき}\n\nQUESTION FORM:\n⟦{何|なん}→何：00498_nani⟧{匹|びき} — how many (animals)?",
-  "cross_references": [],
+  "notes": "{匹|ひき} is the counter for small to medium-sized animals such as fish, insects, cats, and dogs.\n\nWHAT IT COUNTS:\n- Small animals: ⟦{猫|ねこ}→猫：02237_neko⟧, ⟦{犬|いぬ}→犬：00632_inu⟧, ⟦{魚|さかな}→魚：00499_sakana⟧, ⟦{虫|むし}→虫：02262_mushi⟧\n- NOT used for: birds and rabbits (⟦{羽|わ}→羽：01007_wa⟧), large animals like horses and cows (⟦{頭|とう}→頭：18067_tou⟧), or fish and shrimp in a commercial or culinary context (⟦{尾|び}→尾：18068_bi⟧)\n\nSOUND CHANGES:\nThe initial consonant changes depending on the preceding number:\n- ひき: ⟦{二|に}→二：00736_ni⟧{匹|ひき}, ⟦{四|よん}→四：00767_yon⟧{匹|ひき}, ⟦{五|ご}→五：00697_go⟧{匹|ひき}, ⟦{七|なな}→七：00734_nana⟧{匹|ひき}, ⟦{九|きゅう}→九：00728_kyuu⟧{匹|ひき}\n- ぴき: ⟦{一|いっ}→一：00705_ichi⟧{匹|ぴき}, ⟦{六|ろっ}→六：00747_roku⟧{匹|ぴき}, ⟦{八|はっ}→八：00698_hachi⟧{匹|ぴき}, ⟦{十|じゅっ}→十：00708_juu⟧{匹|ぴき}\n- びき: ⟦{三|さん}→三：00749_san⟧{匹|びき}, ⟦{何|なん}→何：00498_nani⟧{匹|びき}\n\nQUESTION FORM:\n⟦{何|なん}→何：00498_nani⟧{匹|びき} — how many (animals)?",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01007_wa",
+      "reading": "わ",
+      "headword": "{羽|わ}",
+      "label": "counter for birds and rabbits"
+    },
+    {
+      "type": "related",
+      "target_id": "18067_tou",
+      "reading": "とう",
+      "headword": "{頭|とう}",
+      "label": "counter for large animals"
+    },
+    {
+      "type": "related",
+      "target_id": "18068_bi",
+      "reading": "び",
+      "headword": "{尾|び}",
+      "label": "counter for fish and shrimp"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:47:40Z",
-    "modified": "2026-05-13T15:16:20Z",
+    "modified": "2026-08-10T12:46:43Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -19,7 +19,9 @@
       "english": "There are three cows.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18067_tou_ex2",
@@ -27,7 +29,9 @@
       "english": "There are two elephants at the zoo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18067_tou_ex3",
@@ -35,7 +39,9 @@
       "english": "This ranch keeps about fifty horses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COUNTING:\n1{頭|とう} (いっとう), 2{頭|とう} (にとう), 3{頭|とう} (さんとう), 4{頭|とう} (よんとう), 5{頭|とう} (ごとう), 6{頭|とう} (ろくとう), 7{頭|とう} (ななとう), 8{頭|とう} (はっとう), 9{頭|とう} (きゅうとう), 10{頭|とう} (じゅっとう)\n\nUSAGE:\nUsed for large animals: cattle, horses, elephants, whales, gorillas, etc. For smaller animals like dogs, cats, and rabbits, use {匹|ひき}. For birds, use {羽|わ}. The dividing line between {頭|とう} and {匹|ひき} is roughly whether the animal is bigger than a person can carry. Insects and butterflies counted with {頭|とう} in scientific contexts.\n\nSIMILAR COUNTERS:\n- {匹|ひき}: for small and medium animals\n- {羽|わ}: for birds\n- {尾|び}: for fish (formal/technical)",
@@ -46,18 +52,36 @@
       "reading": "あたま",
       "headword": "{頭|あたま}",
       "label": "different reading"
+    },
+    {
+      "type": "related",
+      "target_id": "00939_hiki",
+      "reading": "ひき",
+      "headword": "{匹|ひき}",
+      "label": "counter for small animals"
+    },
+    {
+      "type": "related",
+      "target_id": "01007_wa",
+      "reading": "わ",
+      "headword": "{羽|わ}",
+      "label": "counter for birds and rabbits"
     }
   ],
   "metadata": {
     "created": "2026-03-20T01:07:55Z",
-    "modified": "2026-03-20T01:07:55Z",
+    "modified": "2026-08-10T12:40:05Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["counter"],
+      "pos": [
+        "counter"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-general"]
+      "semantic": [
+        "animal-general"
+      ]
     }
   }
 }

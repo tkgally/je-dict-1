@@ -64,10 +64,25 @@
     }
   ],
   "notes": "COUNTING:\n- ⟦{一|いち}→一：00705_ichi⟧{秒|びょう}, ⟦{二|に}→二：00736_ni⟧{秒|びょう}, ⟦{三|さん}→三：00749_san⟧{秒|びょう}...\n- ⟦{何|なん}→何〜：03100_nan⟧{秒|びょう}: how many seconds?\n- Pronunciation is regular (no sound changes)\n\nTIME UNITS:\n- {秒|びょう}: second\n- ⟦{分|ふん}→分：00928_fun⟧: minute\n- ⟦{時間|じかん}→時間：00468_jikan⟧: hour\n- 60{秒|びょう} = 1⟦{分|ぷん}→分：00928_fun⟧\n\nCOMMON EXPRESSIONS:\n- ⟦{一|いち}→一：00705_ichi⟧{秒|びょう}⟦も→も：00484_mo⟧⟦{無駄|むだ}→無駄：02512_muda⟧にしない: not waste a second\n- ⟦{数|すう}→数：03360_suu⟧{秒|びょう}: several seconds\n- ⟦{秒速|びょうそく}→秒速：16679_byousoku⟧: per second (speed)\n- ⟦{秒針|びょうしん}→秒針：27669_byoushin⟧: second hand (of clock)\n\nIn casual speech, small time amounts may omit the counter.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00928_fun",
+      "reading": "ふん",
+      "headword": "{分|ふん}",
+      "label": "minute counter"
+    },
+    {
+      "type": "related",
+      "target_id": "09869_ji",
+      "reading": "じ",
+      "headword": "{時|じ}",
+      "label": "hour counter"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:16:37Z",
-    "modified": "2026-08-09T12:25:33Z",
+    "modified": "2026-08-10T12:37:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

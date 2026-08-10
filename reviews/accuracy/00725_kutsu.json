@@ -2,23 +2,15 @@
   "entry_id": "00725_kutsu",
   "headword": "{靴|くつ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:47:27Z",
+  "reviewed_at": "2026-08-10T12:44:54Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "error",
-      "concern": "The translation for '長い靴' as 'boots' is an interpretation, not a direct translation, and 'regular shoes' is added information not present in the Japanese.",
-      "suggestion": "On rainy days, my shoes get wet, so I wear long shoes. It's convenient because my feet don't get wet."
-    }
-  ]
+  "issues": []
 }
