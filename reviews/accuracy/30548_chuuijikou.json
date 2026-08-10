@@ -1,0 +1,24 @@
+{
+  "entry_id": "30548_chuuijikou",
+  "headword": "{注意事項|ちゅういじこう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T09:28:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. While it can appear in formal contexts, the word itself is not inherently formal and is used in a wide range of situations, including everyday instructions and warnings.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

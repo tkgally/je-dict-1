@@ -1181,3 +1181,21 @@ All 24 observations cleared.)_
   fallback, or the curator should revisit whether entries like {湿疹|しっしん} (eczema,
   sole `general`) and {音符|おんぷ} (musical note, sole `general`) ought to carry the
   obvious specific tag after all.
+
+## 2026-08-10 — routine(new-entries) 30540–30554
+
+- [pattern] `candidate_words.json` outside the "seen in entry" cohort is largely
+  unusable: the oldest ~25 and newest ~30 non-"seen in entry" candidates are
+  dominated by non-words and corpus noise (権使, 些道, 個尊, 怒燥, 多角的一面,
+  火虫, 次元上昇, 首を上げる). A `clean_up_candidates_list.md` pass over the
+  general pool would make future new-entries runs able to reach the 20-entry
+  target without falling back on junk.
+- [pattern] Four of the 20 "seen in entry" candidates were duplicates of
+  existing entries under a variant orthography (にかけて/〜にかけて,
+  しかない/〜しかない, 焼印/焼き印, 一人ぼっち/独りぼっち). The comprehensive-polish
+  capture step should run `check_duplicate.py` without `--skip-candidates`
+  before adding a "seen in entry" candidate, which would prevent these.
+- [entry] Candidate C22806 夏目漱石 (person name) was skipped: the dictionary
+  has place-name proper nouns (東京, 富士山, 大阪) but no person names, so
+  admitting author names needs a curator policy decision before the candidate
+  is worked.
