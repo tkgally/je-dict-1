@@ -1,0 +1,24 @@
+{
+  "entry_id": "07491_inkantouroku",
+  "headword": "{印鑑登録|いんかんとうろく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:24:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'administrative' is not in the valid tag list.",
+      "suggestion": "law"
+    }
+  ]
+}

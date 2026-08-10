@@ -1,0 +1,24 @@
+{
+  "entry_id": "07368_itamashii",
+  "headword": "いたましい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:21:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word 'itamashii' is not formal. It is a neutral adjective used in everyday language to describe something pitiful or tragic.",
+      "suggestion": "neutral"
+    }
+  ]
+}

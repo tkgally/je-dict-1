@@ -1,0 +1,24 @@
+{
+  "entry_id": "07421_hyoujungo",
+  "headword": "{標準語|ひょうじゅんご}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:22:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '標準語' (standard language) is a neutral term, not informal.",
+      "suggestion": "Change 'informal' to 'neutral'."
+    }
+  ]
+}

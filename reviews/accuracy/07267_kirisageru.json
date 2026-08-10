@@ -1,0 +1,24 @@
+{
+  "entry_id": "07267_kirisageru",
+  "headword": "{切|き}り{下|さ}げる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:19:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'work' is too narrow and misleading for a word that also covers financial and mathematical contexts.",
+      "suggestion": "action"
+    }
+  ]
+}

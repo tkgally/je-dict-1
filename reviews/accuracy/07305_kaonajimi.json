@@ -1,0 +1,24 @@
+{
+  "entry_id": "07305_kaonajimi",
+  "headword": "{顔馴染|かおなじ}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:20:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 顔馴染み. It is a neutral or slightly informal term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

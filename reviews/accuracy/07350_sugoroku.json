@@ -1,0 +1,24 @@
+{
+  "entry_id": "07350_sugoroku",
+  "headword": "{双六|すごろく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:21:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'animal-mammal' is incorrect for '双六' (sugoroku), which is a board game.",
+      "suggestion": "Remove 'animal-mammal'."
+    }
+  ]
+}

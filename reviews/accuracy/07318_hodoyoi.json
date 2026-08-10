@@ -1,0 +1,24 @@
+{
+  "entry_id": "07318_hodoyoi",
+  "headword": "{程|ほど}よい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:20:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'electronics' and 'time-general' are incorrect for the headword '程よい'.",
+      "suggestion": "Remove 'electronics' and 'time-general'. Add 'descriptive' or 'general'."
+    }
+  ]
+}

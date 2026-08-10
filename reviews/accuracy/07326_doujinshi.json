@@ -1,0 +1,24 @@
+{
+  "entry_id": "07326_doujinshi",
+  "headword": "{同人誌|どうじんし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:20:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'electronics' is incorrect for '同人誌'.",
+      "suggestion": "Remove 'electronics'."
+    }
+  ]
+}

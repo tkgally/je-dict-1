@@ -1,0 +1,24 @@
+{
+  "entry_id": "07291_kyoeishin",
+  "headword": "{虚栄心|きょえいしん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:19:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'transportation' is incorrect for '虚栄心' (vanity).",
+      "suggestion": "Replace 'transportation' with 'emotion' or 'personality'."
+    }
+  ]
+}

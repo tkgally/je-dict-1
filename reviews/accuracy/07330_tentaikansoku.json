@@ -1,0 +1,31 @@
+{
+  "entry_id": "07330_tentaikansoku",
+  "headword": "{天体観測|てんたいかんそく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:20:48Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'informal' is incorrect for '天体観測'. This is a neutral term.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for '天体観測'. A more specific tag is available.",
+      "suggestion": "science"
+    }
+  ]
+}

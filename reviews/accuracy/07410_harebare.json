@@ -1,0 +1,24 @@
+{
+  "entry_id": "07410_harebare",
+  "headword": "{晴|は}れ{晴|ば}れ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:22:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '晴れ晴れ' is not formal. It is a common descriptive word used in everyday conversation.",
+      "suggestion": "neutral"
+    }
+  ]
+}

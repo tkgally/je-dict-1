@@ -1,0 +1,24 @@
+{
+  "entry_id": "07285_sairyou",
+  "headword": "{裁量|さいりょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:19:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word with a more specific meaning related to decision-making and authority.",
+      "suggestion": "cognition"
+    }
+  ]
+}
