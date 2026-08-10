@@ -1,6 +1,8 @@
 # Quality Metrics Trend
 
-**Last updated**: 2026-08-08 (thirty-third refresh: 466 runs, ~14,937 adjudicated flags. **The frontier-versus-growth gap closes to 76% — and not for the reason anyone was working on.** The dictionary grew 38 entries [30,264 → 30,302] while the polish frontier advanced 29 IDs [6,813 → 6,842], breaking a band that had held at 44–50% across four consecutive refreshes. The frontier did not speed up (26 IDs last window, 29 this one); **new-entry supply fell**, from 59 to 38, because the "seen in entry" candidate lane drained to empty this window. The gap is therefore closed by a temporary shortage on the growth side, and it will reopen as soon as comprehensive polish refills that lane — which is what polish runs do. **§14's retirement of the blended `tags` figure is confirmed from the other direction**: the headline moved 71.0% → **76.2%** [504 applied / 157 rejected], and the off-vocabulary share moved with it — off-vocabulary migration **97.2%** [495/14] against an in-list-and-other remainder at **5.0%** [7/134] and formality/register **18.2%** [2/9]. A number that rises when a more contaminated block comes up for review is measuring the block, not the reviewer. The rest: **a new review-queue floor at 10,297**, 839 below the previous floor and the **third consecutive record drop**; escalations stay light [`needs_curator.txt` 319 → **323**]; furigana screening 3 applied of 31 [**9.7%**], its best window in a month and still inside the documented 0–10% noise band; OpenRouter peak day **$0.551** of the $5 cap, a new series high that remains an order of magnitude under the ceiling.)
+**Last updated**: 2026-08-10 (thirty-fourth refresh: 480 runs, ~15,264 adjudicated flags. **The review queue breaks 10,000 for the first time — and the same refresh measures that 35% of what remains in it is already reviewed.** A whole-queue comparison of each entry's `reviews/accuracy/{id}.json` `reviewed_at` against its `metadata.modified` finds **3,513 of 9,932 queued entries (35.4%) already carry a review newer than their last modification**; the genuinely-stale queue is **6,419**, and 232 entries have no report at all. Four consecutive record floors have therefore been measuring a number that is a third padding — the direction of travel is real and the level is not, and the fix is one predicate (Tooling 94). **The frontier-versus-growth gap reopened to 42%, exactly as the thirty-third refresh predicted** and for the predicted reason: new-entry supply recovered [38 → 43] while the frontier slowed [29 → 18 IDs], so the "closure" last window was a candidate-lane shortage, not progress. **§14 reproduces a third time, one level deeper**: the family split it prescribed is itself band-dependent — the in-list `tags` family ran **65.9%** applied [89/46] this window against **5.0%** last, entirely because the sweep reached the never-reviewed 06926–07265 block where 56% of entries carry gross-category errors [司書→`clothing`, カビ→`weather`, 打率→`animal-mammal`] that are all *in* `VALID_SEMANTIC` and therefore invisible to the ratchet. The correct unit of precision is **family × band review history**, not family. The rest: headline `tags` **55.7%** [152/121]; off-vocabulary migration **88.5%** [54/7]; sole-`general` **11.1%** [5/40] and formality/register **12.5%** [4/28], the two families now proposed at a steady ~27% and ~10% of tag volume every sweep and rejected at the same rate each time; gloss **23.3%** [7/23], translation **16.7%** [3/15]; escalations flat [`needs_curator.txt` 323 → **324**]; OpenRouter peak day **$0.449**, below the $0.551 record, an order of magnitude under the $5 cap. **A second measurement worth as much as the queue one**: 4,479 of 10,613 open (entry, dimension) pairs — **42%** — already carry a decision on that same dimension, and 1,081 already carry a REJECT, so two of every five flags reaching adjudication re-argue a settled question [Tooling 93].)
+
+Prior 2026-08-08 (thirty-third refresh: 466 runs, ~14,937 adjudicated flags. **The frontier-versus-growth gap closes to 76% — and not for the reason anyone was working on.** The dictionary grew 38 entries [30,264 → 30,302] while the polish frontier advanced 29 IDs [6,813 → 6,842], breaking a band that had held at 44–50% across four consecutive refreshes. The frontier did not speed up (26 IDs last window, 29 this one); **new-entry supply fell**, from 59 to 38, because the "seen in entry" candidate lane drained to empty this window. The gap is therefore closed by a temporary shortage on the growth side, and it will reopen as soon as comprehensive polish refills that lane — which is what polish runs do. **§14's retirement of the blended `tags` figure is confirmed from the other direction**: the headline moved 71.0% → **76.2%** [504 applied / 157 rejected], and the off-vocabulary share moved with it — off-vocabulary migration **97.2%** [495/14] against an in-list-and-other remainder at **5.0%** [7/134] and formality/register **18.2%** [2/9]. A number that rises when a more contaminated block comes up for review is measuring the block, not the reviewer. The rest: **a new review-queue floor at 10,297**, 839 below the previous floor and the **third consecutive record drop**; escalations stay light [`needs_curator.txt` 319 → **323**]; furigana screening 3 applied of 31 [**9.7%**], its best window in a month and still inside the documented 0–10% noise band; OpenRouter peak day **$0.551** of the $5 cap, a new series high that remains an order of magnitude under the ceiling.)
 
 Prior 2026-08-07 (thirty-second refresh: 454 runs, ~14,188 adjudicated flags. **The headline `tags` number is retired as a precision measurement.** Split by note family across this window's 542 decided `tags` flags, the dimension is three instruments with nothing in common: **off-vocabulary migration 99.4%** [331 applied / 2 rejected], **in-list substitution 28.1%** [50/128], and **formality/register 10.0%** [3/27]. The single blended figure the last three refreshes tracked as reviewer behaviour — 91.5% → 83.0% → **71.0%** — moves with the *share* of off-vocabulary flags in the block under review, not with the reviewer, so its apparent three-refresh decline is cohort composition and nothing else. See Finding §14. The rest: **a new review-queue floor at 11,136**, 882 below the previous floor and the second consecutive record drop; **escalations resume** after three closed refreshes (`needs_curator.txt` 301 → **319**); furigana screening 1 applied of 24 [**4.2%**], a second consecutive window at exactly one true positive; OpenRouter peak day **$0.532** of the $5 cap. **The frontier-versus-growth gap reproduces a fourth time and its band is now 44–50%**: the dictionary grew 59 entries [30,205 → 30,264] while the polish frontier advanced 26 IDs [6,787 → 6,813], so the frontier again covered under half of new growth and the unpolished remainder widened by 33.)
 
@@ -1816,6 +1818,125 @@ assessment — the pass is low-yield, not broken — but note that a 2026-08-08 
 it starving to **~1.2 entries/min** when run concurrently with the accuracy pass on the same
 model, which is filed as an update to [Tooling 84](../ideas/tooling-backlog.md#updates-2026-08-08-run-2-to-existing-items).
 Its cost per true positive is now bounded above by wall clock rather than by dollars.
+
+### 16. Thirty-fourth refresh (runs 467–480): the queue metric is a third padding, and the family split is band-dependent
+
+**Window**: 14 runs, 2026-08-08 21:28 → 2026-08-10 12:46 UTC (5 polish, 3 new-entries,
+3 accuracy-review, 2 wiki, 1 systemic-fix). 392 entries changed; 326 adjudicated flags.
+
+#### The queue floor is real; the queue level is not
+
+Four consecutive refreshes have led with a new review-queue floor, and this one earns another:
+**9,832**, the first reading under 10,000 in the series and 465 below the previous record.
+
+The same refresh undermines the number it is celebrating. Comparing every queued entry's
+`reviews/accuracy/{id}.json` `reviewed_at` against that entry's `metadata.modified`:
+
+| Queue population (9,932 entries) | n | Share |
+|---|--:|--:|
+| Report **newer** than last modification — already current | **3,513** | 35.4% |
+| Report older than last modification — genuinely stale | 6,187 | 62.3% |
+| No report at all | 232 | 2.3% |
+
+`reviews/queue.txt` is appended to by CI whenever an entry changes and is never pruned when a
+review lands, so it measures *"changed at some point"*, not *"changed since last review"* —
+the thing its name and every refresh's commentary have assumed. **The genuinely-stale queue is
+6,419.** The trend has been reported honestly and the direction is right; the level is a third
+padding, and much of that padding is self-inflicted, since the §4 at-birth self-check reviews
+every new entry and CI then queues those same entries for a review they have just had.
+
+This is not a reason to distrust the series — the padding is roughly proportional, so
+window-over-window movement stays meaningful. It is a reason to ship the one-line predicate
+(`reviewed_at >= modified`, [Tooling 94](../ideas/tooling-backlog.md)) before the next refresh,
+after which queue depth becomes a metric that means what it says.
+
+#### The growth gap reopened on schedule, which is the useful part
+
+| Window | Δ entries | Δ frontier IDs | Frontier as % of growth |
+|---|--:|--:|--:|
+| Runs 455–466 (33rd) | +38 | +29 | 76% |
+| **Runs 467–480 (34th)** | **+43** | **+18** | **42%** |
+
+The thirty-third refresh called the 76% reading a supply-side artifact and predicted it would
+reopen "as soon as comprehensive polish refills the candidate lane." Both halves happened:
+new-entry supply recovered (38 → 43) and the frontier slowed (29 → 18 IDs). The band is back
+inside the 44–50%-and-below range that held for four refreshes before the anomaly.
+
+**A prediction that survives its next window is worth more than a good number**, and this one
+also settles what to watch: the frontier's absolute rate (18–29 IDs/window) is the stable
+quantity, and the ratio moves almost entirely with candidate supply. Reading the ratio as a
+polishing-productivity signal will keep producing false alarms in both directions.
+
+#### §14 reproduces one level down: the family split is band-dependent too
+
+[§14](#14-thirty-second-refresh-runs-438-454-the-tags-number-is-a-mixture-weight-not-a-precision)
+retired the blended `tags` figure and prescribed reporting by note family instead. This window
+breaks the prescription's own assumption:
+
+| `tags` family | Applied | Rejected | Apply rate | Last window |
+|---|--:|--:|--:|--:|
+| Off-vocabulary migration | 54 | 7 | **88.5%** | 97.2% |
+| **In-list / other** | **89** | **46** | **65.9%** | **5.0%** |
+| Sole-`general` → specific | 5 | 40 | 11.1% | ~11% |
+| Formality / register | 4 | 28 | 12.5% | 18.2% |
+| **All `tags`** | **152** | **121** | **55.7%** | 76.2% |
+
+A family moving 5.0% → 65.9% in one window is not a reviewer that got thirteen times better. It
+is the sweep arriving at **06926–07265**, a never-reviewed band created 2026-01 where 147 flags
+landed on 135 of 240 entries (**56%**) and adjudication found the great majority to be gross
+category errors rather than breadth nits: {司書|ししょ} (librarian) tagged `clothing`,
+カビ (mold) `weather`, {打率|だりつ} (batting average) `animal-mammal`, {位牌|いはい} `electronics`,
+ぴえん `food`, {一触即発|いっしょくそくはつ} and {危機一髪|ききいっぱつ} both `geography`.
+
+**Every one of those tags is in `VALID_SEMANTIC`.** The vocabulary ratchet
+(`validate_tags.py --check-no-new-unknown`) sees nothing wrong, because nothing is wrong with
+the vocabulary — the labels are legal and attached to the wrong words. The off-vocabulary
+family is a *vocabulary* defect and is detectable statically; the in-list family is an
+*attachment* defect and is only detectable by reading the entry, which is why cross-model review
+is the sole instrument that finds it.
+
+**The unit of precision is therefore `family × band review history`, not family.** Quoting an
+in-list apply rate without saying whether the band had been reviewed before is the same category
+error §14 identified in the blended headline, one level down. The practical reading: on
+already-swept bands the in-list family runs near zero and is nearly pure noise; on virgin bands
+it is the highest-value signal the project has. Both statements are true and neither is a
+property of the reviewer.
+
+#### Two families are now pure recurring cost
+
+Sole-`general` → specific (**5/40**, ~27% of tag-flag volume) and formality/register
+(**4/28**) have been proposed and rejected at these rates for three consecutive windows under a
+settled §A policy. That is roughly **68 adjudications this window spent re-confirming two known
+answers** — the same shape as the 42% re-litigation figure below, and fixable the same way: one
+prompt line for `general`, an enum on the suggestion field for the rest
+([Tooling 95](../ideas/tooling-backlog.md)).
+
+#### The re-litigation measurement
+
+Across all 28,284 accuracy reports, 10,139 carry open issues covering 10,613 distinct
+(entry, dimension) pairs. **4,479 of those pairs (42.2%) already have a decision recorded on
+that same dimension**, and 1,081 (10.2%) already have a REJECT. Two documented oscillations sat
+inside a single 449-entry range — 29451 塁打 and 29634 ネガティブ, where a 2026-08 reviewer asked
+to revert corrections a 2026-06 and 2026-07 run had deliberately applied.
+
+The decision ledger was built to make flag precision measurable. This window shows it has a
+second job it is not yet doing: **feeding prior decisions back into the reviewer** would remove
+about two-fifths of adjudication volume and close the oscillation loop that otherwise lets the
+dictionary flip the same fields back and forth indefinitely
+([Tooling 93](../ideas/tooling-backlog.md)).
+
+#### Other movements
+
+- **Escalations flat**: `needs_curator.txt` 323 → **324**. The escalate→fix loop stays quiet.
+- **Spend**: peak day **$0.449** (2026-08-09), below the $0.551 record set last window and an
+  order of magnitude under the $5/day cap. Cost has never been the binding constraint;
+  adjudication attention is, which is what makes the two suppressible families expensive.
+- **Furigana**: 1 applied / 3 rejected — too small a sample to read, and consistent with the
+  documented 0–10% band. The window also measured *why* it is small: run concurrently with the
+  accuracy pass, screening managed 28 entries in ~40 minutes against ~200 for accuracy, the
+  signature of rate-limit contention ([Tooling 99](../ideas/tooling-backlog.md)).
+- **Candidates**: 983 → 980, with the "seen in entry" lane the only productive part of the pool
+  and a `new-entries` run again unable to reach its 20-entry target.
 
 ## Implications for je-dict-1
 
