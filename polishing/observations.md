@@ -1082,3 +1082,33 @@ All 24 observations cleared.)_
   accuracy pass up, so the two appear to contend for the same rate limit.
   Running them sequentially, or dropping screening from runs that mainly want
   accuracy coverage, would buy several hundred more entries of coverage per run.
+
+- [pattern] **259 entries have kanji headwords with no furigana, and new-entry
+  runs keep adding more.** A scan for headwords containing kanji but no `{漢字|よみ}`
+  wrapper returns 259 entries, including 11 of the 26 created on 2026-08-09
+  (`30512_soitogeru` 添い遂げる, `30525_iine` 言い値, `30519_gaku` 萼, …) and a
+  similar cluster from 2026-07-29 and 2026-08-01. `find_missing_furigana.py`
+  does not appear to cover the `headword` field, so nothing catches this: the
+  entries validate, build, and ship with bare kanji in the one field every
+  learner reads first. Detection is a one-liner
+  (`re.search(r'[一-鿿]', headword) and '{' not in headword`); the fix is
+  mechanical for single-kanji and compound headwords whose full reading is the
+  `reading` field, and needs care only for mixed kana/kanji forms like
+  言い値 → {言|い}い{値|ね}. Good `systemic-fix` batch, and worth a validator
+  check so it stops recurring.
+
+- [pattern] **The non-"seen in entry" candidate pool is heavily contaminated.**
+  Of 986 candidates, only 18 came from the polish workflow; sampling the other
+  968 turns up inflected forms (与えられる, 知らない, 会わない, 勝てない),
+  free phrases (静かに歩く, 真珠を取る, 推薦状を書く), adverb forms of existing
+  adjectives (強く, 遅く, 弱く), and apparent non-words (権使, 些道, 個尊,
+  怒燥, 多角的一面, 師走い). This run could only find 14 entry-worthy
+  candidates and had to skip the ~20 target. The `seen in entry` lane produces
+  genuinely useful words and is being consumed faster than polish refills it.
+  A cleanup pass over the corpus-harvested backlog (`clean_up_candidates_list.md`)
+  would make `new-entries` runs hit their count again.
+
+- [entry] **Personal names have no precedent in the dictionary.** Candidate
+  C22806 夏目漱石 (seen in entry 06801) was skipped: place names (東京, 富士山)
+  and award names (芥川賞) have entries, but no novelist, politician, or other
+  personal name does. Left in the candidate list pending a curator policy call.
