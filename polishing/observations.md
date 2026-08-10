@@ -1199,3 +1199,37 @@ All 24 observations cleared.)_
   has place-name proper nouns (東京, 富士山, 大阪) but no person names, so
   admitting author names needs a curator policy decision before the candidate
   is worked.
+- [pattern] 29 entries link the calendar-month suffix as
+  `⟦{月|がつ}→月：02230_tsuki⟧`, pointing at the noun {月|つき} (moon/month)
+  instead of the suffix entry `30418_gatsu` (created later). The reading がつ
+  is unambiguously the calendar-month suffix, so this is a provably-safe
+  exact-string sweep for `systemic-fix`:
+  `grep -rl "がつ}→月：02230_tsuki" entries/` then replace with
+  `⟦{月|がつ}→月：30418_gatsu⟧` and bump `modified`. Fixed in 00956_kagetsu
+  during the 2026-08-10 polish run; the other 29 remain. Same class of stale
+  link probably exists for other late-created suffix/counter entries whose
+  reading was previously linked to a homographic noun.
+- [entry] 01328 内 (うち): examples ex13 「{建物|たてもの}の{内|うち}は{涼|すず}しかったです」
+  and ex17 「{箱|はこ}の{内|うち}に{何|なに}が{入|はい}っていますか」 use 内 for a
+  concrete physical interior, where natural Japanese requires ⟦{中|なか}⟧ — the
+  entry's own notes say exactly that ("for physical interiors, 中 is more
+  common"). Both should be replaced with natural sense-1 uses of 内 (abstract
+  or bounded-set interiors, e.g. {心|こころ}の{内|うち}, {予算|よさん}の{内|うち}),
+  which needs a small example rewrite with full link coverage.
+- [pattern] The compound-verb block around 06856–06864 splits into two states:
+  entries a previous polish run reached (06858 浮かび上がる — 45 inline links in
+  the notes, component-verb cross-references, particle-pattern section) and
+  untouched ones (06857, 06859, 06861, 06862, 06864 — FORMATION/USAGE sections
+  entirely naked Japanese, zero note links, zero cross-references). The
+  untouched ones share one template: a three-line negative/te-form/past
+  preamble, then `FORMATION: Compound verb: A + B`, then a `USAGE:` list of
+  を-collocations. That regular shape makes them a good `systemic-fix`
+  candidate: the component verbs and the collocation nouns almost all resolve
+  in `build/word_id_lookup.json`, so linking can be proposed mechanically and
+  then verified per entry.
+- [pattern] Every compound-verb entry in that block opens its notes with three
+  lines restating the negative, te-form, and past — information already in the
+  entry's `conjugation` field and rendered on the page. Worth a curator
+  decision on whether to strip the preamble dictionary-wide; it was left in
+  place during the 2026-08-10 polish run to avoid inconsistency with the
+  hundreds of entries that still carry it.

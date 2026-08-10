@@ -2,30 +2,15 @@
   "entry_id": "01007_wa",
   "headword": "{羽|わ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:53:35Z",
+  "reviewed_at": "2026-08-10T12:45:27Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The gloss is incomplete and misleading. It only lists 'birds, rabbits' but the counter is also used for other winged creatures like insects and bats, and for some fish.",
-      "suggestion": "winged creatures, rabbits, some fish"
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "error",
-      "concern": "The gloss is incomplete and misleading. It only lists 'birds, rabbits' but the counter is also used for other winged creatures like insects and bats, and for some fish.",
-      "suggestion": "winged creatures, rabbits, some fish"
-    }
-  ]
+  "issues": []
 }

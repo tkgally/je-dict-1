@@ -2,57 +2,15 @@
   "entry_id": "00575_ashi",
   "headword": "{足|あし}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:54:59Z",
+  "reviewed_at": "2026-08-10T12:44:53Z",
   "summary": {
-    "flagged": 6
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete; it should also include 'paw' and 'foot/leg of an animal/insect'.",
-      "suggestion": "Change 'foot, leg' to 'foot, leg, paw'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for 'foot' is incomplete as it doesn't mention animal feet.",
-      "suggestion": "Add 'or the corresponding part of an animal' to the explanation."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].explanation",
-      "severity": "warn",
-      "concern": "The explanation for 'leg' is incomplete as it doesn't mention animal legs.",
-      "suggestion": "Add 'or the corresponding limb of an animal' to the explanation."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "warn",
-      "concern": "The English translation 'To have long legs' is a bit unnatural as a standalone sentence. It should be 'He/She has long legs' or 'You have long legs'.",
-      "suggestion": "Change 'To have long legs.' to 'He/She has long legs.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The English translation 'You're fast (on your feet).' is a bit unnatural. A more common and natural expression would be 'You're fast!' or 'You're a fast runner.'",
-      "suggestion": "Change 'You're fast (on your feet).' to 'You're fast!'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "warn",
-      "concern": "The English translation 'I'm slow, so I can't keep up with everyone.' is a bit unnatural. A more natural expression would be 'I'm slow on my feet, so I can't keep up with everyone.'",
-      "suggestion": "Change 'I'm slow, so I can't keep up with everyone.' to 'I'm slow on my feet, so I can't keep up with everyone.'"
-    }
-  ]
+  "issues": []
 }
