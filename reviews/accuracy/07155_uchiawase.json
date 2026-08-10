@@ -1,0 +1,24 @@
+{
+  "entry_id": "07155_uchiawase",
+  "headword": "{打|う}ち{合|あ}わせ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:36:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '打ち合わせ'.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

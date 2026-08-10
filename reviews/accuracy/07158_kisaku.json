@@ -1,0 +1,24 @@
+{
+  "entry_id": "07158_kisaku",
+  "headword": "{気|き}さく",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:36:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'electronics' is completely unrelated to the meaning of '気さく' (friendly; approachable).",
+      "suggestion": "Replace 'electronics' with 'personality' or 'descriptive'."
+    }
+  ]
+}

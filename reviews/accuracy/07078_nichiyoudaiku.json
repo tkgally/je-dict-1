@@ -1,0 +1,24 @@
+{
+  "entry_id": "07078_nichiyoudaiku",
+  "headword": "{日曜大工|にちようだいく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:35:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time-day-of-week' is incorrect for '日曜大工'. While the word contains '日曜' (Sunday), the meaning of '日曜大工' refers to DIY or carpentry, not a day of the week.",
+      "suggestion": "Replace 'time-day-of-week' with 'daily-life' or 'leisure' or 'action'."
+    }
+  ]
+}

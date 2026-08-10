@@ -1,0 +1,24 @@
+{
+  "entry_id": "06929_sashiatari",
+  "headword": "{差|さ}し{当|あ}たり",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:32:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '差し当たり' is not formal; it is a neutral adverb used in everyday conversation and writing.",
+      "suggestion": "neutral"
+    }
+  ]
+}

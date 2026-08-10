@@ -1,0 +1,24 @@
+{
+  "entry_id": "07002_iiwatasu",
+  "headword": "{言|い}い{渡|わた}す",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:33:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. While it can be used in formal contexts, it is not inherently a formal word.",
+      "suggestion": "neutral"
+    }
+  ]
+}

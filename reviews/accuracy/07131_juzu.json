@@ -1,0 +1,31 @@
+{
+  "entry_id": "07131_juzu",
+  "headword": "{数珠|じゅず}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:35:57Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '数珠' is not formal. It is a neutral term for a common religious item.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for '数珠'. A more specific tag related to religion or culture would be appropriate.",
+      "suggestion": "religion"
+    }
+  ]
+}

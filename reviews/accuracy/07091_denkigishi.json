@@ -1,0 +1,24 @@
+{
+  "entry_id": "07091_denkigishi",
+  "headword": "{電気技師|でんきぎし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:35:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'electronics' is too narrow and misleading for '電気技師' (electrician/electrical engineer). While electricians work with electronics, their primary role is more broadly related to 'occupation' or 'work'.",
+      "suggestion": "occupation"
+    }
+  ]
+}

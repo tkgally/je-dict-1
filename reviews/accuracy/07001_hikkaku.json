@@ -1,0 +1,24 @@
+{
+  "entry_id": "07001_hikkaku",
+  "headword": "{引|ひ}っ{掻|か}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:33:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is incorrect for the headword '引っ掻く' (to scratch/claw).",
+      "suggestion": "Replace 'education' with 'action'."
+    }
+  ]
+}

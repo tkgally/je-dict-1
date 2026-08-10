@@ -1,0 +1,24 @@
+{
+  "entry_id": "07056_nyuujouryou",
+  "headword": "{入場料|にゅうじょうりょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:34:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is incorrect for '入場料' (admission fee). While some educational institutions might charge an admission fee, the word itself is not inherently related to education. It's a general term for a fee to enter a place.",
+      "suggestion": "Replace 'education' with 'money' or 'general'."
+    }
+  ]
+}

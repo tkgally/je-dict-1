@@ -1,0 +1,24 @@
+{
+  "entry_id": "07087_enchoukoodo",
+  "headword": "{延長|えんちょう}コード",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:35:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for '延長コード'.",
+      "suggestion": "Replace 'emotion' with 'tool' or 'electronics'."
+    }
+  ]
+}

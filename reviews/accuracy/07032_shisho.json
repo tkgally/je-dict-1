@@ -1,0 +1,24 @@
+{
+  "entry_id": "07032_shisho",
+  "headword": "{司書|ししょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:34:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'clothing' is incorrect for '司書' (librarian).",
+      "suggestion": "Replace 'clothing' with 'occupation' or 'person'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "07065_junyuushitsu",
+  "headword": "{授乳室|じゅにゅうしつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:34:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific type of room. 'building' or 'daily-life' would be more appropriate.",
+      "suggestion": "building"
+    }
+  ]
+}

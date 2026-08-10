@@ -1,0 +1,24 @@
+{
+  "entry_id": "07152_omoigakezu",
+  "headword": "{思|おも}いがけず",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:36:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '思いがけず' is not formal. It is a neutral adverb.",
+      "suggestion": "neutral"
+    }
+  ]
+}

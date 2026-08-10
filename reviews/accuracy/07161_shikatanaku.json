@@ -1,0 +1,24 @@
+{
+  "entry_id": "07161_shikatanaku",
+  "headword": "{仕方|しかた}なく",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T06:36:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '仕方なく'. This adverb is commonly used in everyday speech and writing and is not considered formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}
