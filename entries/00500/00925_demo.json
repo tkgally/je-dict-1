@@ -109,7 +109,7 @@
     },
     {
       "id": "00925_demo_ex10",
-      "japanese": "⟦この→この：00962_kono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦は→は：00079_ha⟧⟦{簡単|かんたん}→簡単：00713_kantan⟧な⟦ので→ので：09501_node⟧、⟦{初|はじ}めて→初めて：02932_hajimete⟧でも⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧⟦なれます→なる：01970_naru⟧⟦よ→よ：09475_yo⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦は→は：00079_ha⟧⟦{簡単|かんたん}な→簡単：00713_kantan⟧⟦ので→ので：09501_node⟧、⟦{初|はじ}めて→初めて：02932_hajimete⟧でも⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧⟦なれます→なる：01970_naru⟧⟦よ→よ：09475_yo⟧。",
       "english": "This game is simple, so even if it's your first time, you'll get good at it quickly.",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "でも is a casual conjunction used at the start of sentences to introduce contrast. It's softer than ⟦しかし→しかし：00986_shikashi⟧ (however) and more conversational. When attached to nouns (〜でも), it means 'even' or 'or something like.' ⟦{何|なに}→何：00498_nani⟧でも⟦いい→いい：00118_ii⟧ means 'anything is fine.'",
+  "notes": "でも covers two distinct jobs that happen to share a shape: a sentence-initial conjunction (sense 1) and a particle attached to a noun (sense 2). Learners meet the conjunction first, but the particle is the more productive of the two.\n\nAS A CONJUNCTION (sense 1):\nでも starts a new sentence and pushes back against what was just said. It is the everyday spoken choice — softer and far more conversational than ⟦しかし→しかし：00986_shikashi⟧.\n- Position: sentence-initial only. Never use it to join two clauses inside one sentence; that job belongs to ⟦けど→けど：09477_kedo⟧ or ⟦が→が：00051_ga⟧, which attach to the end of the first clause.\n- ⟦{高|たか}い→高い：00500_takai⟧⟦です→です：09485_desu⟧⟦けど→けど：09477_kedo⟧、⟦おいしい→美味しい：00740_oishii⟧⟦です→です：09485_desu⟧ and ⟦{高|たか}い→高い：00500_takai⟧⟦です→です：09485_desu⟧。でも、⟦おいしい→美味しい：00740_oishii⟧⟦です→です：09485_desu⟧ say the same thing; only the packaging differs.\n\nAS A PARTICLE (sense 2):\nAttached directly to a noun, 〜でも picks out something as an extreme or unremarkable case, and lets the rest of the set follow by implication.\n- \"Even\": ⟦{子供|こども}→子供：00554_kodomo⟧でも⟦{分|わ}かる→分かる：00463_wakaru⟧ — if even a child understands, so does everyone else.\n- \"Or something\": ⟦お{茶|ちゃ}→お茶：00576_ocha⟧でも⟦{飲|の}みませんか→飲む：00322_nomu⟧ softens an invitation by presenting tea as one casual option rather than a fixed demand. This is the standard polite way to propose an activity.\n\nWITH QUESTION WORDS:\nAttached to an interrogative, 〜でも produces a free-choice \"any-\" word. These are common enough to have their own entries:\n- ⟦{何|なに}→何：00498_nani⟧ → ⟦{何|なん}でも→何でも：00304_nandemo⟧ (anything)\n- ⟦{誰|だれ}→誰：00534_dare⟧ → ⟦{誰|だれ}でも→誰でも：08498_daredemo⟧ (anyone)\n- ⟦いつ→いつ：00536_itsu⟧ → ⟦いつでも→いつでも：03826_itsudemo⟧ (anytime)\n- ⟦どこ→どこ：00539_doko⟧ → ⟦どこでも→どこでも：08499_dokodemo⟧ (anywhere)\nNote the reading shift: {何|なに} becomes {何|なん} before でも.\n\nREGISTER:\nでも is informal. In writing, presentations, and business email, use ⟦しかし→しかし：00986_shikashi⟧ or ⟦ところが→ところが：00406_tokoroga⟧ instead. The particle 〜でも carries no such restriction and is at home at any level of politeness.",
   "cross_references": [
     {
       "type": "synonym",
@@ -133,11 +133,25 @@
       "reading": "だから",
       "headword": "だから",
       "label": "therefore (causal)"
+    },
+    {
+      "type": "related",
+      "target_id": "09477_kedo",
+      "reading": "けど",
+      "headword": "けど",
+      "label": "but (clause-final, joins one sentence)"
+    },
+    {
+      "type": "related",
+      "target_id": "00304_nandemo",
+      "reading": "なんでも",
+      "headword": "{何|なん}でも",
+      "label": "anything (〜でも with a question word)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:18:24Z",
-    "modified": "2026-05-13T15:16:20Z",
+    "modified": "2026-08-10T03:19:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-28T03:31:06Z",
+  "reviewed_at": "2026-08-10T03:27:40Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "translation",
+      "location": "examples[4]",
       "severity": "error",
-      "concern": "The tag 'quantity' is not appropriate for the second sense of the headword, which introduces hearsay.",
-      "suggestion": "Remove 'quantity' or add a more fitting tag for the second sense, such as 'communication' or 'expression'."
+      "concern": "The English translation for example 4 is misleading. 'reads anything' implies a lack of discernment, whereas the Japanese '何でも読む' in this context means 'reads everything' or 'reads all sorts of things', especially given the follow-up '歴史も小説も読む'.",
+      "suggestion": "My brother likes books and reads everything. He reads history and novels."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[5]",
+      "severity": "error",
+      "concern": "The English translation for example 5 is incorrect. 'I hear it's going to rain' implies a future event, but the Japanese '雨らしい' means 'it seems to be raining' or 'it looks like rain' (present tense, based on observation or hearsay).",
+      "suggestion": "I hear it's raining."
     }
   ]
 }

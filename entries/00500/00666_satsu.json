@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "〜{冊|さつ} is the counter for bound volumes like books, magazines, and notebooks.\n\nWHAT IT COUNTS:\n- ⟦{本|ほん}→本：00111_hon⟧: books\n- ⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧: magazines\n- ⟦ノート→ノート：00738_nooto⟧: notebooks\n- ⟦{辞書|じしょ}→辞書：04707_jisho⟧: dictionaries\n\nCOUNTING FORMS:\n- ⟦{一冊|いっさつ}→一冊：23149_issatsu⟧: 1 book (sound change: っさつ)\n- ⟦{二冊|にさつ}→二冊：noentry⟧: 2 books\n- ⟦{三冊|さんさつ}→三冊：noentry⟧: 3 books\n- ⟦{四冊|よんさつ}→四冊：noentry⟧: 4 books\n- ⟦{五冊|ごさつ}→五冊：noentry⟧: 5 books\n- ⟦{六冊|ろくさつ}→六冊：noentry⟧: 6 books\n- ⟦{七冊|ななさつ}→七冊：noentry⟧: 7 books\n- ⟦{八冊|はっさつ}→八冊：noentry⟧: 8 books (sound change: っさつ)\n- ⟦{九冊|きゅうさつ}→九冊：noentry⟧: 9 books\n- ⟦{十冊|じゅっさつ}→十冊：noentry⟧: 10 books (sound change: っさつ)\n- ⟦{何冊|なんさつ}→何冊：08778_nansatsu⟧: how many books?\n\nDISTINCTION:\nDon't confuse with ⟦〜{本|ほん}→〜本：00688_hon⟧, which counts long cylindrical objects. 〜{冊|さつ} specifically counts bound volumes.",
-  "cross_references": [],
+  "notes": "〜{冊|さつ} is the counter for bound volumes like books, magazines, and notebooks.\n\nWHAT IT COUNTS:\n- ⟦{本|ほん}→本：00111_hon⟧: books\n- ⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧: magazines\n- ⟦ノート→ノート：00738_nooto⟧: notebooks\n- ⟦{辞書|じしょ}→辞書：04707_jisho⟧: dictionaries\n\nCOUNTING FORMS:\n- ⟦{一冊|いっさつ}→一冊：23149_issatsu⟧: 1 book (sound change: っさつ)\n- ⟦{二冊|にさつ}→二冊：noentry⟧: 2 books\n- ⟦{三冊|さんさつ}→三冊：noentry⟧: 3 books\n- ⟦{四冊|よんさつ}→四冊：noentry⟧: 4 books\n- ⟦{五冊|ごさつ}→五冊：noentry⟧: 5 books\n- ⟦{六冊|ろくさつ}→六冊：noentry⟧: 6 books\n- ⟦{七冊|ななさつ}→七冊：noentry⟧: 7 books\n- ⟦{八冊|はっさつ}→八冊：noentry⟧: 8 books (sound change: っさつ)\n- ⟦{九冊|きゅうさつ}→九冊：noentry⟧: 9 books\n- ⟦{十冊|じゅっさつ}→十冊：noentry⟧: 10 books (sound change: っさつ)\n- ⟦{何冊|なんさつ}→何冊：08778_nansatsu⟧: how many books?\n\n{十冊|じゅっさつ} is also read {十冊|じっさつ}; both are correct, and じゅっさつ is the more common spoken form.\n\nCONTRASTS:\n- ⟦〜{本|ほん}→〜本：00688_hon⟧ counts long cylindrical objects. The trap is the word ⟦{本|ほん}→本：00111_hon⟧ itself: a book is counted with 〜{冊|さつ}, never with 〜{本|ほん}, even though the two are written with the same character.\n- ⟦〜{枚|まい}→〜枚：00650_mai⟧ counts the paper before it is bound. Loose printouts are ⟦{三枚|さんまい}→三枚：noentry⟧; the same pages stapled into a booklet become ⟦{一冊|いっさつ}→一冊：23149_issatsu⟧.\n- What matters is binding, not content or thickness: even a thin ⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧ is ⟦{一冊|いっさつ}→一冊：23149_issatsu⟧, while a ⟦{新聞|しんぶん}→新聞：01440_shinbun⟧, which is only folded, is counted with 〜{部|ぶ} instead.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00688_hon",
+      "reading": "ほん",
+      "headword": "〜{本|ほん}",
+      "label": "counter for long objects"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00650_mai",
+      "reading": "まい",
+      "headword": "〜{枚|まい}",
+      "label": "counter for flat objects"
+    },
+    {
+      "type": "related",
+      "target_id": "00111_hon",
+      "reading": "ほん",
+      "headword": "{本|ほん}",
+      "label": "book (what this counter counts)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:50:33Z",
-    "modified": "2026-05-12T15:10:05Z",
+    "modified": "2026-08-10T03:19:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

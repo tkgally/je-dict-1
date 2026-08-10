@@ -2,29 +2,15 @@
   "entry_id": "00650_mai",
   "headword": "〜{枚|まい}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:56Z",
+  "reviewed_at": "2026-08-10T03:27:42Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is too broad and could be misleading without the 'thin' qualifier.",
-      "suggestion": "Change 'counter for flat objects' to 'counter for flat, thin objects'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation lists 'shirts' as an example of a 'flat, thin object', which is not always accurate or intuitive for learners.",
-      "suggestion": "Remove 'shirts' from the list of examples, or clarify that it refers to folded shirts."
-    }
-  ]
+  "issues": []
 }
