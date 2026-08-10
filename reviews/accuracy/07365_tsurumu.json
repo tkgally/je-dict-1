@@ -1,0 +1,24 @@
+{
+  "entry_id": "07365_tsurumu",
+  "headword": "つるむ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:21:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word 'つるむ' is informal, often carrying negative connotations, but is tagged as 'formal'.",
+      "suggestion": "informal"
+    }
+  ]
+}

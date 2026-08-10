@@ -1,0 +1,24 @@
+{
+  "entry_id": "07386_hakadoru",
+  "headword": "{捗|はかど}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:22:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'transportation' is incorrect for the headword '捗る'.",
+      "suggestion": "Replace 'transportation' with 'action' or 'change'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "07296_kokorozukai",
+  "headword": "{心遣|こころづか}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:19:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time-general' is incorrect for '心遣い'.",
+      "suggestion": "Replace 'time-general' with 'emotion' or 'daily-life' or 'general'."
+    }
+  ]
+}

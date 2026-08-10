@@ -1,0 +1,24 @@
+{
+  "entry_id": "07353_karakau",
+  "headword": "からかう",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:21:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'food' is incorrect for the headword 'からかう'.",
+      "suggestion": "Replace 'food' with 'communication' or 'action'."
+    }
+  ]
+}

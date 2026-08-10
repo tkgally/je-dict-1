@@ -1,0 +1,24 @@
+{
+  "entry_id": "07561_junkatsuyu",
+  "headword": "{潤滑油|じゅんかつゆ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:25:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'technical' is not in the valid tag list.",
+      "suggestion": "Replace 'technical' with a valid tag from the list, such as 'general' or 'science'."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "07272_hagotae",
+  "headword": "{歯応|はごた}え",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:19:24Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'emotion' is incorrect for the headword '歯応え'. While the sensation of chewing can be satisfying, the word itself describes a physical texture or a figurative challenge, not an emotion.",
+      "suggestion": "Remove 'emotion'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is incorrect for the headword '歯応え'. The word describes a physical characteristic of food or a figurative challenge, neither of which directly relates to leisure activities.",
+      "suggestion": "Remove 'leisure'."
+    }
+  ]
+}

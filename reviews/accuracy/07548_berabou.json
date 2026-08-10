@@ -1,0 +1,24 @@
+{
+  "entry_id": "07548_berabou",
+  "headword": "べらぼう",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:25:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'expression' is too general and doesn't capture the core meaning of 'べらぼう' as an intensifier or a term for a person. While it can be part of an expression, its primary function is not just 'expression' itself.",
+      "suggestion": "cognition"
+    }
+  ]
+}

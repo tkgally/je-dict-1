@@ -1,0 +1,31 @@
+{
+  "entry_id": "07430_haiguusha",
+  "headword": "{配偶者|はいぐうしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:22:59Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'work' is incorrect for '配偶者' (spouse).",
+      "suggestion": "Replace 'work' with 'family' or 'person'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'humble' is incorrect for '配偶者'. It is a neutral term for 'spouse', not a humble form.",
+      "suggestion": "Change 'humble' to 'neutral'."
+    }
+  ]
+}

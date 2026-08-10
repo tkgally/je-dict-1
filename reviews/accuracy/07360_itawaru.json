@@ -1,0 +1,24 @@
+{
+  "entry_id": "07360_itawaru",
+  "headword": "いたわる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:21:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'tool' is inappropriate for the headword 'いたわる'.",
+      "suggestion": "Remove 'tool'."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "07397_machiawase",
+  "headword": "{待|ま}ち{合|あ}わせ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:22:22Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'electronics' is incorrect for '待ち合わせ'.",
+      "suggestion": "Remove 'electronics' and add 'daily-life' or 'communication'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "Formality tag 'formal' is incorrect for '待ち合わせ'.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

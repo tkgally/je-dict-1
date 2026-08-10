@@ -1,0 +1,31 @@
+{
+  "entry_id": "07485_shiyousho",
+  "headword": "{仕様書|しようしょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:24:08Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'document' is not in the valid tag list.",
+      "suggestion": "Replace 'document' with 'general' or 'work'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'technical' is not in the valid tag list.",
+      "suggestion": "Replace 'technical' with 'general' or 'work'."
+    }
+  ]
+}

@@ -1127,3 +1127,52 @@ All 27 observations cleared.)_
   the frontier's absolute rate (18–29 IDs/window) is the stable quantity and the ratio moves with
   candidate supply. Recording it so the next harvest can check whether 18 IDs/window is the new
   frontier rate or a one-window dip; two consecutive windows below 20 would be a real slowdown.
+- [pattern] **A second, distinct tag-contamination class: off-vocabulary tags in a contiguous
+  creation batch (07472–07501, plus 07551–07565).** The 2026-08-10 (003) run reported that the
+  06926–07265 band's wrong tags were *all in-vocabulary* (invisible to `validate_tags.py`). The
+  very next band inverts that: 36 entries carry tags that are simply **not in `VALID_SEMANTIC`** —
+  `document` (8), `food-cooking` (6), `culinary-technique` (6), `food-ingredient` (4),
+  `japanese-food` (4), `office-equipment`, `infrastructure`, `employment`, `housing`, `object`,
+  `business-process`, `office-supply`, `consumable`, `administrative`, `tax`, `performance`,
+  `process`, `machine`, `consumable`… Every one sits in a themed run of consecutive IDs (kitchen
+  cuts 07472–07481, office documents 07482–07494, home/utilities 07495–07501), i.e. the creating
+  session invented a local taxonomy per topic batch and never checked it against the closed list.
+  **These are invisible to the CI ratchet** because `--check-no-new-unknown` grandfathers them
+  into `unknown_semantic_baseline.json`; the ratchet only blocks *new* ones. The same run reports
+  **1,812 entries dictionary-wide still carrying baselined off-vocab tags** — that is a
+  batch-ready `systemic-fix` target with a ready detector
+  (`build/check_tag_drift.py --check unknown-semantic`), and it is mostly 1:1 mechanical
+  (`document`→`business`+`communication`, `employment`→`work`, `housing`→`building`, …).
+- [pattern] **P11 in-vocabulary wrong-category tags run continuously from 06926 to at least 07430.**
+  This run corrected **57** of them in the 07266–07430 stretch (`transportation` on 虚栄心/進捗/捗る,
+  `furniture` on 目処/初対面/日常茶飯事, `electronics` on 愛嬌/同人誌/待ち合わせ, `animal-insect`
+  on けだるい, `color` on 音色, `geography` on 宿命/井戸端会議, `existence` on ひらめく/揉める).
+  Two consecutive bands at ~30% correction rate means the contaminated block is at least 500
+  entries wide and crawling it at ~300 entries/run will take ~7 more runs; a dedicated
+  `systemic-fix` sweep over 06926–07600 would finish it in one or two.
+- [tooling] **Formality-vs-REGISTER-note contradiction is mechanically detectable — no API call
+  needed.** Of 19 formality flags this run, **13 were confirmed by reading the entry's own REGISTER
+  sentence** (`formality: formal` on しんどい whose note reads "Casual. Very common in everyday
+  conversation"; `vulgar` on むしゃむしゃ whose note reads "Casual"), and the **6 rejections were
+  equally mechanical** (the note said "Neutral to formal", supporting the label). A detector that
+  compares the `formality` tag against the first sentence of the REGISTER section — matching
+  casual/colloquial/everyday → `informal`, "Neutral to…" → `neutral`, formal/official/legal →
+  `formal` — reproduces every one of this run's 19 adjudications for free. Proposed as a tooling
+  backlog item; it would let accuracy-review spend its budget on glosses instead.
+- [tooling] **Stale furigana screening results should be auto-closed, not re-adjudicated.** All
+  **38** screening flags in 07266–07565 were written 2026-06-19 and never deep-reviewed. Every one
+  was verified false this run **without any API spend**, by extracting the actual `{kanji|reading}`
+  pairs from the entry files: the "incomplete reading" family (裁量→さいりょ, 同人誌→どうじん,
+  不可思議→ふか, 逡巡→しゅんじゅ, 調味料→ちょ) is an artifact of the screener's *truncated display
+  string*, not of the entries, which all hold the full reading; the rest are correct rendaku
+  (赤っ{恥|ぱじ}, 酔っ{払|ぱら}い, だし{醤油|じょうゆ}, {晴|ば}れ) or the documented index-confusion
+  bug. A verification step that re-reads the entry before queueing a deep pass would have closed
+  all 38 at zero cost — worth adding to `review_runner.py` before any further screening spend.
+- [pattern] **The "general is too broad / in-list narrowness" family was rejected for the third
+  consecutive sweep (41 flags this run).** It is now reliably ~25–27% of all tag-flag volume, and
+  the standing §A policy rejects it by definition, so every sweep pays adjudication cost for a
+  foregone conclusion. Two clean fixes, either of which ends the recurrence: teach the reviewer
+  prompt that `general` is an accepted fallback and that in-list narrowness substitutions are out
+  of scope, **or** the curator decides `general` is not acceptable as a sole tag and it becomes a
+  deterministic detector instead of an API question. This is the fourth filing; it needs a
+  decision, not another observation.

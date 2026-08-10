@@ -1,0 +1,24 @@
+{
+  "entry_id": "07347_akirakani",
+  "headword": "{明|あき}らかに",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:21:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. '明らかに' is a common adverb used in everyday speech and writing, not exclusively in formal contexts. It is neutral in formality.",
+      "suggestion": "neutral"
+    }
+  ]
+}

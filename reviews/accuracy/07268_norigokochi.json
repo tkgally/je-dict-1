@@ -1,0 +1,24 @@
+{
+  "entry_id": "07268_norigokochi",
+  "headword": "{乗|の}り{心地|ごこち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:19:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for '乗り心地'. '乗り心地' refers to the physical comfort or quality of a ride, not an emotion.",
+      "suggestion": "Replace 'emotion' with 'descriptive' or 'general'."
+    }
+  ]
+}

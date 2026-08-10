@@ -1,0 +1,24 @@
+{
+  "entry_id": "07487_denpyou",
+  "headword": "{伝票|でんぴょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:24:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'document' is not in the valid tag list.",
+      "suggestion": "Replace 'document' with 'general' or 'business'."
+    }
+  ]
+}

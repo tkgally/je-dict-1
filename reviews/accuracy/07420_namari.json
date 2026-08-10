@@ -1,0 +1,24 @@
+{
+  "entry_id": "07420_namari",
+  "headword": "{訛|なま}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:22:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '訛り' (accent/dialect).",
+      "suggestion": "Remove 'body-part'."
+    }
+  ]
+}

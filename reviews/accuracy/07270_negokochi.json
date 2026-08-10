@@ -1,0 +1,24 @@
+{
+  "entry_id": "07270_negokochi",
+  "headword": "{寝心地|ねごこち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:19:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for '寝心地'. '寝心地' refers to the physical comfort of sleeping, not an emotion.",
+      "suggestion": "Replace 'emotion' with 'descriptive' or 'health'."
+    }
+  ]
+}

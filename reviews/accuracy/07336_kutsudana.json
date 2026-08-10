@@ -1,0 +1,24 @@
+{
+  "entry_id": "07336_kutsudana",
+  "headword": "{靴棚|くつだな}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-10T18:20:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific item like a shoe rack.",
+      "suggestion": "furniture"
+    }
+  ]
+}
