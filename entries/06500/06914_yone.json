@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06914_yone_ex1",
-      "japanese": "{明日|あした}は{日曜日|にちようび}だよね。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧⟦だ→だ：09496_da⟧よね。",
       "english": "Tomorrow is Sunday, right?",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06914_yone_ex2",
-      "japanese": "この{店|みせ}、{前|まえ}に{来|き}たことあるよね。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧、⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{来|き}た→来る：00254_kuru⟧⟦こと→こと：01164_koto⟧⟦ある→ある：00006_aru⟧よね。",
       "english": "We've been to this shop before, haven't we?",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "06914_yone_ex3",
-      "japanese": "{彼女|かのじょ}、{綺麗|きれい}だよね。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧、⟦{綺麗|きれい}→きれい：00717_kirei⟧⟦だ→だ：09496_da⟧よね。",
       "english": "She's beautiful, don't you think?",
       "sense_numbers": [
         1
@@ -38,7 +38,7 @@
     },
     {
       "id": "06914_yone_ex4",
-      "japanese": "これ、{高|たか}すぎるよね。",
+      "japanese": "⟦これ→これ：00963_kore⟧、⟦{高|たか}→高い：00500_takai⟧⟦すぎる→すぎる：01219_sugiru⟧よね。",
       "english": "This is too expensive, isn't it?",
       "sense_numbers": [
         1
@@ -48,7 +48,7 @@
     },
     {
       "id": "06914_yone_ex5",
-      "japanese": "{夏休|なつやす}みはもう{終|お}わったよね。{早|はや}かったよね。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{終|お}わった→終わる：00567_owaru⟧よね。⟦{早|はや}かった→早い：00514_hayai⟧よね。",
       "english": "Summer vacation is already over, right? It went by fast, didn't it?",
       "sense_numbers": [
         1
@@ -57,10 +57,10 @@
       "notes": null
     }
   ],
-  "notes": "COMPOSITION: よ (assertion) + ね (agreement-seeking)\n- よ alone: \"I'm telling you\" (informing)\n- ね alone: \"isn't it?\" (pure agreement)\n- よね: \"I think X, don't you agree?\"\n\nNUANCE: Softer than よ alone. The speaker:\n- Believes something to be true\n- Wants confirmation or agreement\n- Leaves room for the listener to disagree\n\nCOMMON USES:\n- Confirming shared information: {約束|やくそく}は3{時|じ}だよね (The appointment is at 3, right?)\n- Seeking agreement: いい{天気|てんき}だよね (Nice weather, isn't it?)\n- Rhetorical confirmation: {嘘|うそ}でしょ、これ{高|たか}いよね (No way, this is expensive, right?)\n\nVS. でしょう:\n- よね: casual, conversational\n- でしょう: slightly more formal, can be used for predictions\n\nINTONATION:\n- Rising: genuinely seeking confirmation\n- Flat/falling: rhetorical, expecting agreement",
+  "notes": "COMPOSITION: ⟦よ→よ：09475_yo⟧ (assertion) + ⟦ね→ね：09474_ne⟧ (agreement-seeking)\n- ⟦よ→よ：09475_yo⟧ alone: \"I'm telling you\" (informing)\n- ⟦ね→ね：09474_ne⟧ alone: \"isn't it?\" (pure agreement)\n- よね: \"I think X, don't you agree?\"\n\nNUANCE: Softer than ⟦よ→よ：09475_yo⟧ alone. The speaker:\n- Believes something to be true\n- Wants confirmation or agreement\n- Leaves room for the listener to disagree\n\nBecause よね invites the listener to weigh in, it is the safer choice when you are fairly sure but not certain. Using ⟦よ→よ：09475_yo⟧ alone in the same slot can sound like you are correcting the listener.\n\nCOMMON USES:\n- Confirming shared information: ⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦は→は：00079_ha⟧3⟦{時|じ}→時：09869_ji⟧⟦だ→だ：09496_da⟧よね (The appointment is at 3, right?)\n- Seeking agreement: ⟦いい→いい：00118_ii⟧⟦{天気|てんき}→天気：00582_tenki⟧⟦だ→だ：09496_da⟧よね (Nice weather, isn't it?)\n- Rhetorical confirmation: ⟦{嘘|うそ}→嘘：01796_uso⟧⟦でしょ→でしょ：10764_desho⟧、⟦これ→これ：00963_kore⟧⟦{高|たか}い→高い：00500_takai⟧よね (No way, this is expensive, right?)\n\nATTACHMENT: よね attaches to a complete plain-form predicate. After a noun or na-adjective, the copula ⟦だ→だ：09496_da⟧ is required in casual speech (⟦{学生|がくせい}→学生：00610_gakusei⟧⟦だ→だ：09496_da⟧よね), and the polite equivalent is ⟦です→です：09485_desu⟧よね (⟦{学生|がくせい}→学生：00610_gakusei⟧⟦です→です：09485_desu⟧よね). Verbs and i-adjectives take よね directly (⟦{行|い}く→行く：00119_iku⟧よね、⟦{高|たか}い→高い：00500_takai⟧よね).\n\nVS. ⟦でしょう→でしょう：09887_deshou⟧:\n- よね: casual, conversational\n- ⟦でしょう→でしょう：09887_deshou⟧: slightly more formal, can be used for predictions\n\nINTONATION:\n- Rising: genuinely seeking confirmation\n- Flat/falling: rhetorical, expecting agreement",
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-06-18T09:33:05Z",
+    "modified": "2026-08-10T21:19:56Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -73,5 +73,35 @@
         "grammatical"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09475_yo",
+      "reading": "よ",
+      "headword": "よ",
+      "label": "assertion particle (first half of よね)"
+    },
+    {
+      "type": "related",
+      "target_id": "09474_ne",
+      "reading": "ね",
+      "headword": "ね",
+      "label": "agreement-seeking particle (second half of よね)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09887_deshou",
+      "reading": "でしょう",
+      "headword": "でしょう",
+      "label": "more formal confirmation-seeking form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10764_desho",
+      "reading": "でしょ",
+      "headword": "でしょ",
+      "label": "casual でしょう; stronger expectation of agreement"
+    }
+  ]
 }

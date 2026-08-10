@@ -1176,3 +1176,22 @@ All 27 observations cleared.)_
   of scope, **or** the curator decides `general` is not acceptable as a sole tag and it becomes a
   deterministic detector instead of an API question. This is the fourth filing; it needs a
   decision, not another observation.
+
+## 2026-08-10 — routine polish (008)
+
+- [pattern] The sentence-final prohibitive な (as in {言|い}うな "don't say") has no entry and cannot be
+  added as a candidate: `manage_candidates.py check "な" "な"` reports an exact duplicate against
+  09497_na (the na-adjective attributive copula), which occupies the same surface and reading. Result:
+  every prohibitive な in an example has to be marked `noentry` with no candidate trail. Seen in 01674.
+  Either 09497_na should gain a second sense for the prohibitive, or a separate entry is needed and the
+  duplicate checker needs a way to express "same surface, different word."
+- [pattern] Unpolished frontier verb/adjective entries in the 06860–06880 block share an identical
+  shape: zero inline links anywhere, zero `cross_references`, and notes that open with a hand-written
+  three-line conjugation list (negative / te-form / past) duplicating the `conjugation` field. Removing
+  that list and writing a real FORMATION / TRANSITIVITY / SIMILAR WORDS body is now the standard work
+  for this range. A [tooling] detector for "notes begins with a ・<headword> → <headword>ない list"
+  would find the whole population at once.
+- [tooling] The `な` attributive after a na-adjective headword is inconsistently linked across the
+  dictionary: 00175 可能 links it as 09497_na while 01120 特別 and 01674 適当 had it naked in every
+  example until this run. A detector for `\{[^}]+\}な` immediately following a na-adjective headword
+  (POS `adjective-na`, な not inside ⟦⟧) would quantify the backlog.

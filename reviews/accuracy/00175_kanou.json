@@ -2,12 +2,13 @@
   "entry_id": "00175_kanou",
   "headword": "{可能|かのう}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:42:53Z",
+  "reviewed_at": "2026-08-10T21:32:29Z",
   "summary": {
     "flagged": 1
   },
@@ -16,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'descriptive' does not accurately describe the headword '可能'. '可能' indicates possibility or capability, which is not primarily descriptive.",
-      "suggestion": "Remove 'descriptive' tag. Consider adding a tag like 'ability' or 'possibility' if such tags exist and are appropriate for an intermediate learner dictionary."
+      "concern": "The semantic tag 'descriptive' is too general for '可能'.",
+      "suggestion": "Replace 'descriptive' with 'existence' or 'cognition'."
     }
   ]
 }
