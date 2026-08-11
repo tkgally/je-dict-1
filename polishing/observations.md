@@ -1240,3 +1240,29 @@ All 27 observations cleared.)_
 - [entry] 03515 日光 covers only "sunlight"; the place Nikko is blocked from the candidate
   queue by the exact word+reading duplicate rule. Consider adding the place sense to 03515
   during polish (proper-noun tags would then apply to that sense's entry).
+
+## 2026-08-11 — routine polish 06865–06875
+
+- [pattern] The entire 06865–06875 block (na-adjectives and compound nouns created
+  2026-01-18) arrived with **zero inline link coverage** in both examples and notes.
+  Full coverage is a tier-1 requirement, so each entry cost far more than a
+  maintenance pass would. If the whole 06800s–06900s range predates the coverage
+  requirement, a targeted inline-link sweep over that band would be cheaper per
+  entry than discovering it one entry at a time on the comprehensive frontier.
+- [pattern] Sole-`general` semantic tags in 5 of 11 entries (06870 世帯, 06871 手掛かり,
+  06873 取り柄, 06874 言い分, plus 06869 窮屈 mis-tagged `emotion`). All were replaceable
+  with precise in-list tags. `check_tag_drift.py --summary` already detects the
+  sole-general family; this block suggests the same-era ranges are worth a batch.
+- [pattern] Five of eleven entries named a synonym or antonym in their notes but had
+  that word absent from `cross_references` (06865 and 06869 had entirely empty lists
+  while their notes carried an explicit ANTONYM section). A detector that compares
+  SIMILAR WORDS / ANTONYM / CONTRAST note sections against the cross-reference list
+  would surface these mechanically.
+- [skill] `inline-word-links` gives no rule for single-kanji morphemes cited inside
+  FORMATION / ETYMOLOGY sections (e.g. {軽|けい} + {率|そつ}). They are not words in
+  use, so linking them is wrong and marking them `noentry` would pollute the candidate
+  queue with bound morphemes. This run left them unlinked. The skill should say so
+  explicitly, otherwise different sessions will resolve it differently.
+- [tooling] The te-form of the copula ("性格で、") is graphically identical to the
+  particle で. Linking it to 00502_de (location/means) is a semantic error that no
+  validator catches. Worth a note in the linking skill and possibly a detector.
