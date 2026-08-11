@@ -4,9 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:54:38Z",
+  "reviewed_at": "2026-08-11T09:38:23Z",
   "summary": {
     "flagged": 1
   },
@@ -15,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for '儚い'.",
-      "suggestion": "Change 'formal' to 'neutral'."
+      "concern": "The formality tag 'formal' is incorrect for 儚い. While it can be used in formal contexts, it is not exclusively formal and is commonly used in literary or poetic contexts, which are not necessarily formal in the sense of polite or official language. It's more about a certain aesthetic or emotional register.",
+      "suggestion": "neutral"
     }
   ]
 }

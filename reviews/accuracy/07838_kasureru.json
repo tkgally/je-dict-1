@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:45:41Z",
+  "reviewed_at": "2026-08-11T09:37:00Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
+      "severity": "error",
       "concern": "Missing semantic tags for the headword's meaning.",
-      "suggestion": "Add 'health' or 'body-part' for sense 1, and 'descriptive' or 'appearance' for sense 2."
+      "suggestion": "Add 'body-part' and 'appearance' to semantic_tags."
     }
   ]
 }

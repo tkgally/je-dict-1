@@ -1266,3 +1266,32 @@ All 27 observations cleared.)_
 - [tooling] The te-form of the copula ("性格で、") is graphically identical to the
   particle で. Linking it to 00502_de (location/means) is a semantic error that no
   validator catches. Worth a note in the linking skill and possibly a detector.
+
+## 2026-08-11 — routine(accuracy-review), entries 07566-08065
+
+- [tooling] The furigana **screening** pass reports readings from a truncated display
+  string, not from the entry file. Of 85 flags across 60 entries in this band, the
+  cited pair did not exist in the entry in every "incomplete reading" case
+  (e.g. it flagged `{空席|くうせ}`; the entry holds `{空席|くうせき}`). The rest were
+  correct rendaku (`{買|が}い` in まとめ買い, `{時計|どけい}` in 仕掛け時計) or readings the
+  entry itself documents as variants (07958 粗利/そり). **Zero true positives, third
+  consecutive sweep at ~0% precision.** The screener's prompt builder should pass the
+  full `{kanji|reading}` pair rather than a fixed-width window; until then the deep
+  pass over already-polished ranges is not worth its budget.
+- [pattern] **A census script that reads `entry["tags"]` silently finds nothing** —
+  tags live at `entry["metadata"]["tags"]`. This run's first census reported "0 entries
+  with off-vocabulary tags" for a band that actually had 208. The wrong-path read
+  returns an empty dict rather than raising, so the check looks like a clean result.
+  Any new detector should assert that it found the field at all before reporting zero.
+- [pattern] Two distinct semantic-tag defects coexist in batch-created bands, and only
+  the first is visible to `validate_tags.py`: (a) **off-vocabulary tags** — 208 of 500
+  entries here, ~42%, an invented per-topic taxonomy (`state`, `capacity`, `household`,
+  `Japanese_cuisine`, `daily_life`); and (b) **entries with no semantic tags at all** —
+  a contiguous block of 25 (07832-07861) that no current check reports. A
+  `check_missing_semantic_tags` detector would be a cheap addition and is likely to
+  find more blocks dictionary-wide.
+- [pattern] The reviewer's "`general` is too broad" / in-list narrowness flags recurred
+  again (~30 this run), for the fourth consecutive sweep. Standing policy rejects them,
+  so they are pure adjudication cost. This needs a curator decision — either tighten the
+  reviewer prompt to stop emitting them, or change the policy — rather than a fifth
+  round of rejections.

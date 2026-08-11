@@ -1,0 +1,24 @@
+{
+  "entry_id": "07575_sarigenai",
+  "headword": "さりげない",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T09:29:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'manner' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    }
+  ]
+}

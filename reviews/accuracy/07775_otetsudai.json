@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-20T09:45:16Z",
+  "reviewed_at": "2026-08-11T09:35:10Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.formality",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword お手伝い is not inherently formal. It is a polite expression, but not formal.",
-      "suggestion": "neutral"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.politeness",
-      "severity": "error",
-      "concern": "The headword お手伝い is a polite expression, but not 'polite' in the sense of keigo. It uses the honorific prefix お- but is not a specific politeness level like 'humble' or 'honorific'.",
-      "suggestion": "neutral"
+      "concern": "The semantic tag 'general' is too vague for a word that clearly denotes 'action' (help) and 'person' (housemaid).",
+      "suggestion": "action, person"
     }
   ]
 }

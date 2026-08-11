@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-19T21:37:43Z",
+  "reviewed_at": "2026-08-11T09:33:36Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading. 'OG' is an abbreviation of 'Old Girl', which is a British term for a female alumna. The gloss should reflect this origin.",
+      "suggestion": "Change gloss to 'Old Girl; female alumna; female graduate'"
+    },
+    {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'organization' is not in the valid tag list.",
-      "suggestion": "person"
+      "severity": "error",
+      "concern": "The semantic tag 'education' is too broad for 'OG'. 'OG' is a term used in the context of alumni associations, which are social organizations. The tag 'society' is appropriate, but 'education' is not.",
+      "suggestion": "Remove 'education' tag."
     }
   ]
 }

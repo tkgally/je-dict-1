@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:46:42Z",
+  "reviewed_at": "2026-08-11T09:38:53Z",
   "summary": {
     "flagged": 3
   },
@@ -16,23 +16,23 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'sound' is not in the valid tag list.",
-      "suggestion": "onomatopoeia"
+      "severity": "error",
+      "concern": "The tag 'sound' is not in the valid tag list.",
+      "suggestion": "Replace 'sound' with 'general' or 'descriptive'."
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'crowd' is not in the valid tag list.",
-      "suggestion": "society"
+      "severity": "error",
+      "concern": "The tag 'crowd' is not in the valid tag list.",
+      "suggestion": "Replace 'crowd' with 'general' or 'descriptive'."
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'reaction' is not in the valid tag list.",
-      "suggestion": "emotion"
+      "severity": "error",
+      "concern": "The tag 'reaction' is not in the valid tag list.",
+      "suggestion": "Replace 'reaction' with 'general' or 'descriptive'."
     }
   ]
 }

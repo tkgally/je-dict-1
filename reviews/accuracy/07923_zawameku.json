@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:54:41Z",
+  "reviewed_at": "2026-08-11T09:38:53Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'nature' is too narrow and potentially misleading for a word that also describes human sounds and social reactions.",
-      "suggestion": "Remove 'nature' and add 'descriptive' as a more general tag for words describing sounds or states."
-    }
-  ]
+  "issues": []
 }

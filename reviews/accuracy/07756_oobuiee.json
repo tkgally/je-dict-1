@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-19T21:38:17Z",
+  "reviewed_at": "2026-08-11T09:34:46Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "Tag 'animation' is not in the valid tag list.",
-      "suggestion": "media"
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is not a definition but an acronym expansion.",
+      "suggestion": "Change gloss to 'anime released directly to video'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is not a definition but an acronym expansion.",
+      "suggestion": "Change gloss to 'anime released directly to video'."
     }
   ]
 }

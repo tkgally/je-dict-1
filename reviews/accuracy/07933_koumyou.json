@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:46:54Z",
+  "reviewed_at": "2026-08-11T09:39:05Z",
   "summary": {
     "flagged": 3
   },
@@ -16,22 +16,22 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'skill' is not in the valid tag list.",
+      "severity": "error",
+      "concern": "The tag 'skill' is not in the valid tag list.",
       "suggestion": "cognition"
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'strategy' is not in the valid tag list.",
+      "severity": "error",
+      "concern": "The tag 'strategy' is not in the valid tag list.",
       "suggestion": "cognition"
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'cleverness' is not in the valid tag list.",
+      "severity": "error",
+      "concern": "The tag 'cleverness' is not in the valid tag list.",
       "suggestion": "cognition"
     }
   ]

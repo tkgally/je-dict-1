@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:54:35Z",
+  "reviewed_at": "2026-08-11T09:37:57Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'communication' is too broad and doesn't capture the specific negative connotation of '追従'.",
-      "suggestion": "evaluation"
-    }
-  ]
+  "issues": []
 }

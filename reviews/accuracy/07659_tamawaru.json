@@ -8,24 +8,45 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-19T21:36:53Z",
+  "reviewed_at": "2026-08-11T09:31:44Z",
   "summary": {
-    "flagged": 2
+    "flagged": 5
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss is misleading. While it can mean 'to receive' in a humble context, it also means 'to give' (honorific). The current gloss only covers the 'receive' aspect.",
-      "suggestion": "to receive (humble); to give (honorific)"
+      "concern": "The gloss is misleading. While it can mean 'to receive (honorific)', it also means 'to give/bestow' (honorific). The current gloss only covers the 'receive' aspect, which is only one part of its usage.",
+      "suggestion": "to receive (honorific); to give (honorific); to be granted"
     },
     {
       "dimension": "gloss",
       "location": "definitions[0].gloss",
       "severity": "error",
-      "concern": "The gloss for sense 1 is misleading. While it can mean 'to receive' in a humble context, it also means 'to give' (honorific). The current gloss only covers the 'receive' aspect.",
-      "suggestion": "to receive (humble); to be granted; to be bestowed; to give (honorific)"
+      "concern": "The gloss for sense 1 is misleading. It only covers the 'receive' aspect, but 賜る can also mean 'to give/bestow' (honorific).",
+      "suggestion": "to receive (honorific); to give (honorific); to be granted; to be bestowed"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation implies the speaker is receiving the opinion, but the Japanese '賜りたい' (tamawaratai) here is an honorific way of saying 'I would like you to give me your opinion' or 'I would like to be granted your opinion' (from a superior). The current translation 'I would like to receive your opinion' is too direct and doesn't fully capture the honorific nuance of the giver.",
+      "suggestion": "I would like to be granted your opinion."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation 'We received words from His Majesty' is too direct. '賜った' (tamawatta) here implies that His Majesty *bestowed* or *granted* words upon them, not just that they received them. The nuance of the giver's action is lost.",
+      "suggestion": "His Majesty bestowed words upon us."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'I humbly request your guidance' is correct in meaning, but '賜りますよう' (tamawarimasu you) specifically means 'that you would grant/bestow (guidance)'. The translation should reflect this honorific action of the superior giving, rather than just the speaker requesting.",
+      "suggestion": "I humbly request that you grant me your guidance."
     }
   ]
 }

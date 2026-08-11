@@ -8,17 +8,38 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:45:50Z",
+  "reviewed_at": "2026-08-11T09:37:15Z",
   "summary": {
-    "flagged": 1
+    "flagged": 4
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'architecture' is not in the valid tag list.",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'architecture'",
       "suggestion": "building"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'house'",
+      "suggestion": "building"
+    },
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'dirt floor' is too narrow and potentially misleading. While '土間' often has a dirt floor, its primary characteristic is being an unfloored entrance area, not necessarily dirt.",
+      "suggestion": "unfloored entrance area"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'dirt floor' is too narrow and potentially misleading. While '土間' often has a dirt floor, its primary characteristic is being an unfloored entrance area, not necessarily dirt.",
+      "suggestion": "unfloored entrance area"
     }
   ]
 }
