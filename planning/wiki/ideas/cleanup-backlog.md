@@ -3657,6 +3657,101 @@ because the reviewer already implements it. The observation also measured the ba
 share at 14% against the dictionary's 16.7%, i.e. the block is *not* contaminated; the filing
 was a false alarm about a real-looking pattern, correctly caught by its own author's check.
 
+## Updates 2026-08-11 (wiki harvest)
+
+**The "25 entries with no semantic tags at all" block does not exist — and the dictionary-wide
+population is 79, not 105.** A 2026-08-11 accuracy-review observation reported "a contiguous
+block of 25 (07832–07861) that no current check reports" as a second defect class alongside
+off-vocabulary tags. Re-measured this harvest across all 30,365 entry files: **zero** entries in
+07566–08065 lack a semantic tag, so the block is not there now. The likely explanation is in the
+same run's own report — its first census read `entry["tags"]` instead of
+`entry["metadata"]["tags"]` and returned "0 off-vocabulary tags" for a band that had 208. A
+wrong-path read on this schema returns `{}` rather than raising, so **both** of that census's
+numbers are suspect, the reassuring one and the alarming one. (The general lesson is filed as
+tooling item 101.)
+
+The correction is worth more than the retraction, because the real population is bounded and its
+shape is different from what was filed:
+
+| Measure | 2026-08-04 | 2026-08-11 |
+|---|---|---|
+| Entries with no semantic tag | 105 | **79** (19 basic, 4 core, 56 general) |
+
+The largest contiguous runs are nowhere near the reported band — **08635–08659 (13)**,
+**03948–03969 (12)**, **02814–02924 (10)**, **08812–08840 (10)**; the remaining ~34 are
+scattered singletons. So this stays what the informational section above called it — a small,
+non-growing queue — and the right instrument is a `--check missing-semantic` predicate inside
+`check_tag_drift.py` rather than the new standalone `check_missing_semantic_tags` script the
+observation proposed. Four batches clear half of it. **Do not re-file this as a large discovery**;
+it is 79 entries and has been shrinking.
+
+**P20 (out-of-taxonomy tags) is confirmed as a defect class genuinely distinct from P11, and it
+remains the largest batch-ready target on this page.** Two 2026-08-11 observations, from
+different runs, isolate the distinction the last several updates had been blurring:
+
+- **P11** = tags that are *in* `VALID_SEMANTIC` but wrong for the headword (司書→`clothing`,
+  打率→`animal-mammal`). Invisible to `validate_tags.py` **and** to the CI ratchet; only a
+  semantic judgment finds them.
+- **P20** = tags that are simply *not in* `VALID_SEMANTIC` (`document`, `food-cooking`,
+  `culinary-technique`, `japanese-food`, `office-equipment`, `housing`, `tax`, `machine`…).
+  Mechanically detectable, mostly 1:1 migratable, and **invisible to CI for a different
+  reason**: `--check-no-new-unknown` grandfathers existing tags into
+  `unknown_semantic_baseline.json` and blocks only *new* ones, exactly as designed.
+
+Both are creation-batch artifacts with the same cause — a session invents a local taxonomy per
+topic run and never checks it against the closed list — and the observation shows it plainly:
+07472–07481 kitchen cuts, 07482–07494 office documents, 07495–07501 home/utilities, each with
+its own invented vocabulary. The 07566–08065 band measured **208 of 500 entries (42%)** affected,
+inside the 40–53% band this page has recorded for every creation-cohort block since July.
+
+Current dictionary-wide residue, measured this harvest (post the 2026-08-11 migration of the
+07566–08065 band): **2,065 `unknown-semantic` flags across 1,603 entries**; total tag drift 6,720
+flags / 6,220 entries (sole-general 3,681, semantic-mismatch 957,
+concrete-noun-domain-mismatch 15, proverb-idiom-mismatch 2). The standing recommendation —
+a dedicated `systemic-fix` run on `check_tag_drift.py --check unknown-semantic` rather than
+incremental per-band accuracy-review — is now made for at least the sixth time and is the single
+highest-value batch-ready item in the queue: 1,603 entries, a ready detector, and a documented
+1:1 migration map.
+
+**P11: the contaminated band runs continuously from 06926 to at least 07430, and per-band
+crawling will not finish it.** A 2026-08-11 polish observation corrected **57** in-vocabulary
+wrong-category tags in 07266–07430 (`transportation` on 虚栄心/進捗/捗る, `furniture` on
+目処/初対面/日常茶飯事, `electronics` on 愛嬌/同人誌/待ち合わせ, `animal-insect` on けだるい,
+`color` on 音色, `geography` on 宿命/井戸端会議, `existence` on ひらめく/揉める) — the **second
+consecutive band at ~30%**, after 06926–07265 at 56% flagged. Two consecutive bands mean the
+block is at least 500 entries wide; at ~300 entries per accuracy-review run it needs ~7 more
+runs, against one or two for a dedicated sweep over **06926–07600**. Same conclusion as P20,
+reached from the other defect class.
+
+**P43 (06800–07100, 96% unlinked) takes a third confirming cohort.** The 06865–06875 block
+(na-adjectives and compound nouns created 2026-01-18) arrived with **zero** inline-link coverage
+in both examples *and* notes, and full coverage is a tier-1 requirement, so each entry cost far
+more on the frontier lane than a targeted sweep would. Alongside it in the same eleven entries:
+**5 sole-`general` semantic tags** (06870 世帯, 06871 手掛かり, 06873 取り柄, 06874 言い分, plus
+06869 窮屈 mis-tagged `emotion`), all replaceable with precise in-list tags → [P13](#priority-13-overuse-of-general-as-sole-semantic-tag);
+and **5 entries naming a synonym or antonym in their notes with that word absent from
+`cross_references`** (06865 and 06869 had entirely empty lists while their notes carried an
+explicit ANTONYM section) → queue item `crossref-missing-from-notes-prose`. Three separate
+backlog items, one creation cohort, which is the argument for banded sweeps in one more form.
+
+**Formality-vs-REGISTER: a cost argument, not a precision argument — and it does not overturn
+the 2026-08-10 finding above.** The previous update concluded that flagging only when an entry's
+own notes contradict its label "needs no new detector because the reviewer already implements
+it." A 2026-08-11 observation adds the piece that reasoning was missing: of 19 formality flags,
+**13 confirmed and 6 rejected purely by reading the entry's own REGISTER sentence**
+(`formal` on しんどい whose note reads "Casual. Very common in everyday conversation"; `vulgar`
+on むしゃむしゃ whose note reads "Casual"; and rejections where the note read "Neutral to
+formal", supporting the label). All 19 adjudications are reproducible with no API call. So both
+findings stand: the *rule* is right and needs no change, and a detector implementing it moves
+this family off the OpenRouter budget **wherever an entry has a REGISTER section to read**.
+That caveat is the limit, and it is a real one: only 555 of 5,068 `formal` entries carry such a
+section (measured 2026-08-05), so the detector is a **ratchet on entries that document their
+register**, not a dictionary-wide sweep — which is exactly why the standing scope estimate for
+`tag-formality-contradicts-register-note` is 5 entries even though the reviewer keeps flagging
+~10 per sweep. What the 19/19 result establishes is that the reviewer is spending API budget to
+compute something deterministic on the subset where it can be computed at all. Queue item
+`tag-formality-contradicts-register-note` (open, batch-ready); tooling item 77.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns

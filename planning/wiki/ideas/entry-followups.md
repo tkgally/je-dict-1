@@ -1417,6 +1417,41 @@ place names (東京, 富士山, 大阪) and award names (芥川賞) but no perso
 author name is a scope decision rather than an entry decision. Nothing new in the argument. The
 re-filing rate is now roughly one per two days.
 
+## Added 2026-08-11 (wiki harvest)
+
+**Proper-noun scope — RESOLVED, and the thread closes.** The curator ruled on 2026-08-11 that
+proper nouns are in scope (place / person / organization / work / event / brand names, with
+collocationally and semantically rich ones prioritized), tagged `proper-noun` plus a type tag,
+as ordinary entries under the existing schema. **C22806 夏目漱石 no longer needs a ruling** and
+can be created by any `new-entries` run that reaches it. This was the sixth filing of the same
+question across five sessions; see [open issues](../project/open-issues.md#proper-names-and-encyclopedic-entries)
+and [vocabulary tiers](../project/vocabulary-tiers.md) for the decision as recorded.
+
+**03515 {日光|にっこう} — add the place sense (Nikko).** The entry covers only "sunlight". The
+place name cannot be routed through the candidate queue at all, because
+`check_duplicate.py` sees an exact word+reading match against this entry and rejects it. With
+proper nouns now in scope, the fix is a **second sense on the existing entry** rather than a
+second entry: sunlight (common noun) + Nikko, the city in Tochigi (proper noun), with
+`proper-noun` + `place-name` on the sense's tags and examples showing the usual collocations
+(日光に行く, 日光東照宮). Worth doing during polish rather than as a special task; it is the
+template case for every future proper-noun/common-noun homograph collision.
+
+**09497_na needs a prohibitive sense — or the duplicate checker needs a way to say "same
+surface, different word".** The sentence-final prohibitive な (「{言|い}うな」 "don't say") has
+no entry and, as things stand, **cannot be given one**:
+`manage_candidates.py check "な" "な"` reports an exact duplicate against 09497_na, the
+na-adjective attributive copula, which occupies the same surface and the same reading while
+being an entirely different morpheme. The practical consequence is that every prohibitive な in
+an example has to be marked `noentry` with no candidate trail behind it — a defect that is
+invisible because the marker looks like an ordinary not-yet-created word. Seen in 01674.
+
+Two possible fixes, and they are not equivalent: add a second sense to 09497_na (cheap,
+slightly dishonest — these are unrelated morphemes that a learner should not see grouped), or
+create a separate entry and give `check_duplicate.py` an override for genuine homographs
+(correct, and needed anyway — 日光 above is the same problem wearing different clothes). The
+second is the better investment because the class is now known to have at least two members and
+the proper-noun decision guarantees more.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

@@ -69,13 +69,22 @@ string is a headword at all. Both surfaced because consecutive `new-entries` run
 *different* decisions about the same class, which is the signal that the rule is missing rather
 than merely unwritten. Both are routed to the curator.
 
-**1. Are person names in scope?** `candidate_words.json` contains proper-noun person names —
-C22806 夏目漱石, harvested from entry 06801. The dictionary already has place names (東京,
-富士山), so proper nouns as a category are not excluded; but there are no biographical
-headwords, and a biographical entry needs a different shape (dates, significance, works) than
-the entry schema currently expresses. The 2026-08-06 `new-entries` run skipped the candidate
-rather than guess. Until the curator answers, such candidates will accumulate and be skipped
-individually by every run that meets them.
+**1. Are person names in scope? — ANSWERED 2026-08-11: yes.** The curator ruled proper nouns
+in scope as a class — place, person, organization, work, event, and brand names — with
+collocationally and semantically rich names prioritized. They are ordinary entries carrying
+`proper-noun` plus a type tag (`person-name`, `place-name`, …); no separate schema, no relaxed
+example requirements. The premise that made this look hard — *"a biographical entry needs
+dates, significance, works, which the schema doesn't express"* — was set aside rather than
+solved: an entry for 夏目漱石 documents **the name as a word** (its reading, the register it
+signals, the compounds and references it appears in), and the biography belongs in an
+expository article. So the schema never needed the fields. C22806 夏目漱石 no longer needs a
+per-run judgment call, and this was the **sixth** filing of the same question across the
+observation log — the cost of leaving a scope question open is paid once per run that meets it,
+which is what made it worth escalating.
+
+New entries in this class go to the **general** tier like all other new entries; the tier
+question the ruling raises for later is whether a handful of the highest-frequency names
+(東京, 日本) belong in core, and that is a reassessment-audit question, not a creation-time one.
 
 **2. When is a number+counter compound entry-worthy?** Two consecutive runs disagreed. The
 2026-08-06 run skipped C22795 三十人 as "purely compositional"; the 2026-08-07 run created it,

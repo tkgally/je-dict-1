@@ -52,6 +52,30 @@ junk families (see [Tooling Backlog](../ideas/tooling-backlog.md) → item 23) s
 doesn't re-accumulate noise after a restock. Periodic cleanup
 (`clean_up_candidates_list.md`) addresses the existing backlog.
 
+**RESOLVED 2026-08-11 (curator decision).** Both fixes landed together, and this issue is
+closed as an open issue:
+
+1. **The corpus-harvested backlog was purged.** The Feb–May 2026 bulk — ~970 of 984 rows —
+   was deleted wholesale rather than filtered row by row, after a scan of several hundred
+   found the junk families above still dominant (nonce compounds 些道/個尊/怒燥, compositional
+   phrases 歩き続ける/効率が悪い, inflected forms filed as words 強く/知らない/与えられる, and
+   wrong glosses アンパッサン→"ice cream sundae", 尾張→"end, finish"). Archive of what was
+   removed: `planning/archive/candidate-cleanup-2026-08-11.json`.
+2. **Discovery moved from bulk harvesting to per-word vetting.** `corpus_harvesting.md` is
+   deprecated; `prompts/newcandidates.md` — the `candidates` Routine mode — restocks the
+   queue 40–60 words at a time, each one individually gated on reality, lemma form, reading,
+   and gloss before `manage_candidates.py add-batch` (which duplicate-checks every row). The
+   selector self-suppresses the mode while the queue holds ≥150 words.
+
+**The measurement consequence is worth recording separately**, because it retires a signal
+defect this page had been tracking. Before the purge, `routine_next.py`'s `candidate_count`
+counted raw rows, so the selector reported "candidates plentiful" on a pool with ~13 usable
+items, and a 2026-08-10 observation asked for a quality-weighted count to tell "984 queued
+words" from "984 rows, 13 of them usable". Post-purge **every row is vetted, so the raw count
+*is* the usable count** — the ask is resolved by construction, not by new code, and the
+selector's candidate signals are trustworthy again. If bulk harvesting is ever reinstated,
+the quality-weighted count becomes necessary again with it.
+
 ## Design questions
 
 ### Should the general tier have sub-bands?
@@ -76,7 +100,32 @@ Entries of the same type (e.g., all transitive verbs, all color terms) present i
 Should compound verbs (V1 + V2, like 食べ始める) get their own entries, or should they be documented as patterns under the component verbs? Current practice is inconsistent.
 
 ### Proper names and encyclopedic entries
-The dictionary currently excludes proper names (place names, personal names, organization names) and encyclopedic content. Eventually these should be added, but the current entry schema — optimized for vocabulary with example sentences, collocations, and contrastive notes — doesn't fit well. A different entry format with lighter example requirements and encyclopedic notes may be needed. See [Dictionary Growth and Long-Term Vision](../ideas/dictionary-growth.md).
+**RESOLVED 2026-08-11 (curator decision): proper nouns are IN scope.** Place names, personal
+names, organization names, work titles, event names, and brand names are all eligible
+headwords, with **collocationally and semantically rich** names prioritized — names that
+carry usage beyond their referent (compounds they form, idioms they appear in, the register
+they signal), rather than every name that exists. `prompts/newcandidates.md` and the
+`find-candidates` skill carry the discovery policy; `prompts/newentries.md` carries the
+entry conventions.
+
+The design question this section used to pose — *"the schema doesn't fit, so a different
+entry format with lighter example requirements may be needed"* — was answered by **not
+changing the schema**. Proper nouns are ordinary entries carrying `proper-noun` plus one
+of `place-name` / `person-name` / `organization-name` / `work-name` / `event-name` /
+`brand-name`, so they browse, search, tag-filter, and validate exactly like everything
+else, and the same example/collocation requirements apply. What made the format objection
+look decisive was the *encyclopedic* half of the question — how much world knowledge an
+entry should carry — and that is handled by the standing rule that notes describe language
+use, not the referent, with genuinely encyclopedic material going to
+[expository articles](../ideas/expository-articles.md) instead.
+
+The remaining live case is not scope but **collision**: a proper noun whose surface and
+reading exactly match an existing common-noun entry is blocked from the candidate queue by
+`check_duplicate.py`'s exact word+reading rule (03515 {日光|にっこう} covers only "sunlight";
+the place Nikko cannot be queued). The fix is to add the proper-noun sense to the existing
+entry during polish rather than to create a second entry — filed in
+[entry follow-ups](../ideas/entry-followups.md). See
+[Dictionary Growth and Long-Term Vision](../ideas/dictionary-growth.md).
 
 ### Expression boundary
 Where does "vocabulary" end and "grammar" begin? Entries for expressions like ～ている, ～てしまう, ～ことができる blur the line. Current approach includes common expressions but avoids pure grammar patterns.
