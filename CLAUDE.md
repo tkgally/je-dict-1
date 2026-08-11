@@ -447,6 +447,7 @@ Detailed instructions for specific tasks live in `.claude/skills/`. Key ones:
 - `revise-entries` / `polish-entries` — improving existing entries
 - `consolidate-entries` — identifying and merging duplicate/variant entries
 - `delete-entry` / `resolve-duplicates` — safe removal and deduplication
+- `clear-reports` — plain-language PR descriptions, end-of-run summaries, and curator flags for Tom (use at every session wrap-up)
 
 Invoke a skill with `/<skill-name>` (e.g., `/verb-entry`) to load its full instructions.
 
@@ -463,6 +464,8 @@ All task prompts that create a PR must follow this complete workflow. The goal i
 3. **Push** to the feature branch
 
 ### PR, CI, and merge
+
+**PR titles and bodies are reports to Tom.** Write them per the `clear-reports` skill (`.claude/skills/clear-reports/SKILL.md`): plain, self-contained English — what the run did in the project's context, jargon glossed or reworded, the verification outcome and anything needing the curator stated plainly. Keep machine-read title conventions like the `routine(<mode>):` prefix; the plain-language requirement applies to everything after them.
 
 There are two supported paths. **Pick the one that matches your environment** before running any commands. The default for scheduled / Routine sessions is the MCP path because `gh` is not authorized in those environments.
 
