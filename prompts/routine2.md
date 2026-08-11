@@ -256,7 +256,10 @@ weekly wiki trend review) a real time series instead of impressions.
    1. `mcp__github__create_pull_request` (`owner: "tkgally"`,
       `repo: "je-dict-1"`, `head: <branch>`, `base: "main"`, title
       `routine(<mode>): …`, body summarizing the run incl. the §4 outcome).
-      Note the PR number.
+      Write the title and body per `.claude/skills/clear-reports/SKILL.md`:
+      keep the `routine(<mode>):` prefix (the sweep parses it), and make
+      everything else plain, self-contained English for the curator — project
+      context first, jargon glossed. Note the PR number.
    2. **Wait for CI by polling check-runs over MCP** (full loop in `CLAUDE.md`
       → "MCP path" step 5; `pipeline/wait-for-pr-checks.sh` 403s here and is not
       used). Call `mcp__github__pull_request_read` with `method: "get_check_runs"`
@@ -281,6 +284,11 @@ weekly wiki trend review) a real time series instead of impressions.
    ```bash
    python3 pipeline/routine_lock.py release --session "$(git rev-parse --abbrev-ref HEAD)"
    ```
+7. **End with a clear report.** The final message you leave in the session is
+   what the curator reads when he checks in. Write it per
+   `.claude/skills/clear-reports/SKILL.md`: what this run did and found, in
+   plain self-contained English, with project context and anything that needs
+   him — or a statement that nothing does.
 
 ---
 
