@@ -63,10 +63,10 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: {気|き} (attention) + が + {散|ち}る (to scatter). Literally 'one's attention scatters.'\n\nCAUSATIVE FORM: {気|き}を{散|ち}らす (to distract someone/oneself)\n- ゲームで{気|き}を{散|ち}らす (to distract oneself with games)\n\nRELATED EXPRESSIONS:\n- {集中|しゅうちゅう}できない (can't concentrate)\n- {注意|ちゅうい}が{散漫|さんまん} (attention is scattered - more formal)\n\nCONTRAST:\n- {気|き}が{散|ち}る: passive distraction (something distracts you)\n- {気|き}を{取|と}られる: attention is captured by something",
+  "notes": "STRUCTURE: ⟦{気|き}→気：02199_ki⟧ (attention) + ⟦が→が：00051_ga⟧ + ⟦{散|ち}る→散る：02075_chiru⟧ (to scatter). Literally 'one's attention scatters.'\n\nTRANSITIVE COUNTERPART: {気|き}⟦を→を：00422_wo⟧⟦{散|ち}らす→散らす：02288_chirasu⟧ (to distract someone or oneself)\n- ⟦ゲーム→ゲーム：03842_geemu⟧⟦で→で：00502_de⟧{気|き}⟦を→を：00422_wo⟧⟦{散|ち}らす→散らす：02288_chirasu⟧ (to distract oneself with games)\n\nRELATED EXPRESSIONS:\n- ⟦{集中|しゅうちゅう}→集中：03212_shuuchuu⟧⟦できない→できる：00557_dekiru⟧ (can't concentrate)\n- ⟦{注意|ちゅうい}→注意：01464_chuui⟧⟦が→が：00051_ga⟧⟦{散漫|さんまん}→散漫：09237_sanman⟧ (attention is scattered - more formal)\n\nCONTRAST:\n- {気|き}が{散|ち}る: passive distraction (something pulls your attention away)\n- ⟦{気|き}を{取|と}られる→気を取られる：noentry⟧: attention is captured by one particular thing",
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-06-18T09:33:05Z",
+    "modified": "2026-08-11T15:25:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -79,5 +79,28 @@
         "expression"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "02288_chirasu",
+      "reading": "ちらす",
+      "headword": "{散|ち}らす",
+      "label": "to scatter (transitive; 気を散らす = to distract)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "03212_shuuchuu",
+      "reading": "しゅうちゅう",
+      "headword": "{集中|しゅうちゅう}",
+      "label": "concentration"
+    },
+    {
+      "type": "related",
+      "target_id": "09237_sanman",
+      "reading": "さんまん",
+      "headword": "{散漫|さんまん}",
+      "label": "scattered, unfocused (formal)"
+    }
+  ]
 }

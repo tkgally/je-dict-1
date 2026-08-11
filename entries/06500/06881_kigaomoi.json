@@ -16,7 +16,9 @@
       "id": "06881_kigaomoi_ex1",
       "japanese": "{彼|かれ}に{会|あ}うのは{気|き}が{重|おも}い。",
       "english": "I feel reluctant to meet him.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "06881_kigaomoi_ex2",
       "japanese": "{月曜日|げつようび}の{朝|あさ}は{気|き}が{重|おも}くなる。",
       "english": "Monday mornings make me feel down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "06881_kigaomoi_ex3",
       "japanese": "{明日|あした}のプレゼンを{考|かんが}えると{気|き}が{重|おも}い。",
       "english": "Thinking about tomorrow's presentation makes me feel heavy-hearted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -40,7 +46,9 @@
       "id": "06881_kigaomoi_ex4",
       "japanese": "{上司|じょうし}に{報告|ほうこく}しなければならないと{思|おも}うと、{気|き}が{重|おも}くてたまらない。",
       "english": "The thought of having to report to my boss makes me feel terribly heavy-hearted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -48,31 +56,45 @@
       "id": "06881_kigaomoi_ex5",
       "japanese": "{試験|しけん}の{結果|けっか}が{悪|わる}くて、{親|おや}に{見|み}せるのが{気|き}が{重|おも}い。どう{説明|せつめい}しようか{考|かんが}えている。",
       "english": "My test results were bad, and I feel reluctant to show my parents. I'm thinking about how to explain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: {気|き} (spirit/mood) + が + {重|おも}い (heavy). Literally 'one's spirit feels heavy.'\n\nNUANCE: Expresses psychological burden rather than physical tiredness. Often used when facing something you don't want to do but must.\n\nCONTRAST:\n- {気|き}が{重|おも}い: reluctance toward a specific situation\n- {気分|きぶん}が{悪|わる}い: feeling unwell (physical or general mood)\n- {憂鬱|ゆううつ}: depression (more clinical/literary)\n\nRELATED EXPRESSIONS:\n- {気|き}が{進|すす}まない (reluctant, not in the mood)",
+  "notes": "STRUCTURE: ⟦{気|き}→気：02199_ki⟧ (spirit/mood) + ⟦が→が：00051_ga⟧ + ⟦{重|おも}い→重い：00804_omoi⟧ (heavy). Literally 'one's spirit feels heavy.'\n\nNUANCE: Expresses psychological burden rather than physical tiredness. Often used when facing something you don't want to do but must.\n\nCONTRAST:\n- {気|き}が{重|おも}い: reluctance toward a specific situation\n- ⟦{気分|きぶん}が{悪|わる}い→気分が悪い：24922_kibungawarui⟧: feeling unwell (physical or general mood)\n- ⟦{憂鬱|ゆううつ}→憂鬱：05821_yuuutsu⟧: depression (more clinical/literary)\n\nRELATED EXPRESSIONS:\n- ⟦{気|き}が{進|すす}まない→気が進まない：18483_kigasusumanai⟧ (reluctant, not in the mood)",
   "cross_references": [
     {
-      "type": "contrast",
-      "reading": "きがかるい",
-      "headword": "{気|き}が{軽|かる}い",
-      "label": "lighthearted"
+      "type": "antonym",
+      "target_id": "19541_kigaraku",
+      "reading": "きがらく",
+      "headword": "{気|き}が{楽|らく}",
+      "label": "at ease, free from worry"
+    },
+    {
+      "type": "related",
+      "target_id": "18483_kigasusumanai",
+      "reading": "きがすすまない",
+      "headword": "{気|き}が{進|すす}まない",
+      "label": "reluctant, not in the mood"
+    },
+    {
+      "type": "related",
+      "target_id": "05821_yuuutsu",
+      "reading": "ゆううつ",
+      "headword": "{憂鬱|ゆううつ}",
+      "label": "gloom, depression"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-03-14T12:12:46Z",
+    "modified": "2026-08-11T15:25:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
         "expression"
-      ],
-      "style": [
-        "literary"
       ],
       "formality": "neutral",
       "politeness": "plain",

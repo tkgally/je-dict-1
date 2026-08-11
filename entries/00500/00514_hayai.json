@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "Two different kanji share this reading, each with distinct meaning.\n\nKANJI DISTINCTION:\n- {速|はや}い: fast, quick (relates to speed)\n- {早|はや}い: early (relates to time)\n\nFORMS:\n- Adverb: {速|はや}く / {早|はや}く\n- Negative: {速|はや}くない / {早|はや}くない\n- Past: {速|はや}かった / {早|はや}かった\n\nCOMMON PATTERNS:\n- ⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧{速|はや}い: to be fast (at running)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{速|はや}い: to work quickly\n- ⟦{朝|あさ}→朝：02277_asa⟧{早|はや}く: early in the morning\n- 〜⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{早|はや}い: to be quick to do ~\n\nOPPOSITE:\n⟦{遅|おそ}い→遅い：00533_osoi⟧ covers both meanings: slow and late.",
+  "notes": "Two different kanji share this reading, each with distinct meaning.\n\nKANJI DISTINCTION:\n- {速|はや}い: fast, quick (relates to speed)\n- {早|はや}い: early (relates to time)\n\nFORMS:\n- Adverb: {速|はや}く / {早|はや}く\n- Negative: {速|はや}くない / {早|はや}くない\n- Past: {速|はや}かった / {早|はや}かった\n\nCOMMON PATTERNS:\n- ⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧{速|はや}い: to be fast (at running)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{速|はや}い: to work quickly\n- ⟦{朝|あさ}→朝：02277_asa⟧{早|はや}く: early in the morning\n- 〜⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{早|はや}い: to be quick to do ~\n\nUSAGE NOTES:\n- {早|はや}い frequently means \"too early, premature,\" not merely \"early\": ⟦まだ→まだ：00603_mada⟧{早|はや}い (it is still too soon).\n- The adverb {早|はや}く used alone functions as an urging \"hurry up.\"\n- {速|はや}い describes only rate of motion or work. It cannot replace {早|はや}い for clock time, so \"the meeting is early\" is {早|はや}い, never {速|はや}い.\n\nOPPOSITE:\n⟦{遅|おそ}い→遅い：00533_osoi⟧ covers both meanings: slow and late.",
   "cross_references": [
     {
       "type": "antonym",
@@ -126,11 +126,25 @@
       "reading": "おそい",
       "headword": "{遅|おそ}い",
       "label": "slow, late"
+    },
+    {
+      "type": "related",
+      "target_id": "01191_isogu",
+      "reading": "いそぐ",
+      "headword": "{急|いそ}ぐ",
+      "label": "to hurry"
+    },
+    {
+      "type": "related",
+      "target_id": "04587_hayameru",
+      "reading": "はやめる",
+      "headword": "{早|はや}める",
+      "label": "to bring forward, to quicken"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:32:42Z",
-    "modified": "2026-07-11T15:19:14Z",
+    "modified": "2026-08-11T15:25:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

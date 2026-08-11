@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-07T00:29:19Z",
+  "reviewed_at": "2026-08-11T15:32:10Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "translation",
-      "location": "examples[2]",
+      "dimension": "tags",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The English translation 'washroom' for 洗面所 is misleading. While a washroom can contain a washbasin, 洗面所 specifically refers to the room where one washes their face and hands, often containing a washbasin and mirror, but not necessarily a toilet. 'Restroom' or 'bathroom' would be more appropriate if it includes a toilet, but 'washroom' alone is too broad and can imply a toilet is present when it might not be the primary focus.",
-      "suggestion": "Change 'washroom' to 'washbasin room' or 'powder room' (if applicable) or 'restroom' if it implies a toilet is present. Given the context of 洗面, 'washbasin room' or 'vanity room' might be more precise."
+      "concern": "The headword '洗面' (senmen) refers to the act of washing one's face, but it also commonly refers to the physical space or fixture used for this purpose (e.g., washroom, washbasin). The current tag 'action' only covers the verb sense. The noun sense of '洗面' as a place or fixture is not covered by 'action'.",
+      "suggestion": "Add 'daily-life' or 'building' to cover the noun sense of '洗面' as a washroom or washbasin, which is evident in examples 1, 2, and 4. 'daily-life' is a good general tag for common household activities and associated items. 'building' could also apply if focusing on the architectural aspect of a washroom."
     }
   ]
 }

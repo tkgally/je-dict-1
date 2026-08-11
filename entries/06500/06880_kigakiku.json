@@ -118,18 +118,26 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: {気|き} (spirit/attention) + が + {利|き}く (to be effective). Literally 'one's attention works well.'\n\nGRAMMAR NOTES:\n- Prenominal form: {気|き}の{利|き}いた + noun (a thoughtful/clever [noun])\n- Negative: {気|き}が{利|き}かない (not attentive, inconsiderate)\n\nRELATED EXPRESSIONS:\n- {気配|きくば}り (thoughtfulness, consideration) - a noun form of similar meaning\n- {気|き}が{回|まわ}る (to be alert to others' needs) - similar meaning\n\nCONTRAST:\n- {気|き}が{利|き}く describes someone perceptive about social situations\n- {頭|あたま}がいい describes general intelligence",
+  "notes": "STRUCTURE: ⟦{気|き}→気：02199_ki⟧ (spirit/attention) + ⟦が→が：00051_ga⟧ + ⟦{利|き}く→利く：11845_kiku⟧ (to be effective). Literally 'one's attention works well.'\n\nGRAMMAR NOTES:\n- Prenominal form: {気|き}の{利|き}いた + noun (a thoughtful/clever [noun])\n- Negative: {気|き}が{利|き}かない (not attentive, inconsiderate)\n\nRELATED EXPRESSIONS:\n- ⟦{気配|きくば}り→気配り：06688_kikubari⟧ (thoughtfulness, consideration) - a noun of similar meaning\n- ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧⟦{回|まわ}る→回る：01150_mawaru⟧ (to be alert to others' needs) - similar meaning\n\nCONTRAST:\n- {気|き}が{利|き}く describes someone perceptive about social situations\n- ⟦{頭|あたま}がいい→頭がいい：20316_atamagaii⟧ describes general intelligence",
   "cross_references": [
     {
-      "type": "antonym",
-      "reading": "きがきかない",
-      "headword": "{気|き}が{利|き}かない",
-      "label": "inattentive"
+      "type": "related",
+      "target_id": "06688_kikubari",
+      "reading": "きくばり",
+      "headword": "{気配|きくば}り",
+      "label": "thoughtfulness, consideration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20316_atamagaii",
+      "reading": "あたまがいい",
+      "headword": "{頭|あたま}がいい",
+      "label": "intelligent (general intelligence)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-06-18T09:33:05Z",
+    "modified": "2026-08-11T15:25:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

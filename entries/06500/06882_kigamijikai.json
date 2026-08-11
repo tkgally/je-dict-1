@@ -63,25 +63,26 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: {気|き} (temperament) + が + {短|みじか}い (short). Literally 'one's temperament is short.'\n\nANTONYM: {気|き}が{長|なが}い (patient, even-tempered)\n\nRELATED EXPRESSIONS:\n- せっかち (impatient, hasty) - similar but focuses more on rushing\n- {短気|たんき} (short temper) - noun form\n- {短気|たんき}を{起|お}こす (to lose one's temper)\n\nCONTRAST:\n- {気|き}が{短|みじか}い: describes personality trait\n- {怒|おこ}りっぽい: prone to anger (similar but more colloquial)",
+  "notes": "STRUCTURE: ⟦{気|き}→気：02199_ki⟧ (temperament) + ⟦が→が：00051_ga⟧ + ⟦{短|みじか}い→短い：00510_mijikai⟧ (short). Literally 'one's temperament is short.'\n\nANTONYM: ⟦{気|き}が{長|なが}い→気が長い：noentry⟧ (patient, even-tempered), built on ⟦{長|なが}い→長い：00491_nagai⟧.\n\nRELATED EXPRESSIONS:\n- ⟦せっかち→せっかち：06646_sekkachi⟧ (impatient, hasty) - similar but focuses more on rushing\n- ⟦{短気|たんき}→短気：10913_tanki⟧ (short temper) - noun form\n- ⟦{短気|たんき}→短気：10913_tanki⟧⟦を→を：00422_wo⟧⟦{起|お}こす→起こす：01234_okosu⟧ (to lose one's temper)\n\nCONTRAST:\n- {気|き}が{短|みじか}い: describes a standing personality trait\n- ⟦{怒|おこ}りっぽい→怒りっぽい：noentry⟧: prone to anger (similar but more colloquial)",
   "cross_references": [
     {
-      "type": "antonym",
-      "reading": "きがながい",
-      "headword": "{気|き}が{長|なが}い",
-      "label": "patient"
+      "type": "related",
+      "target_id": "06646_sekkachi",
+      "reading": "せっかち",
+      "headword": "せっかち",
+      "label": "impatient, hasty"
     },
     {
       "type": "related",
-      "reading": "せっかち",
-      "headword": "せっかち",
-      "target_id": "06646_sekkachi",
-      "label": "impatient"
+      "target_id": "10913_tanki",
+      "reading": "たんき",
+      "headword": "{短気|たんき}",
+      "label": "short temper (noun form)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-06-17T01:28:38Z",
+    "modified": "2026-08-11T15:25:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
