@@ -1,0 +1,24 @@
+{
+  "entry_id": "08386_hosoku",
+  "headword": "{補足|ほそく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:36:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'writing' is not in the valid tag list.",
+      "suggestion": "Replace 'writing' with a more appropriate tag from the valid list, such as 'communication' or 'general', or remove it if redundant."
+    }
+  ]
+}

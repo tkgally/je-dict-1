@@ -1,8 +1,10 @@
 {
   "entry_id": "08253",
-  "screened_at": "2026-06-22T03:18:45Z",
+  "screened_at": "2026-08-11T21:20:19Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": false,
-  "concerns": [],
+  "flagged": true,
+  "concerns": [
+    "The reading for 書 in pair 11 is given as が, but it should be か. This is a common reading for 書 when it's part of a compound like 書き殴り or 書き物, but the provided reading 'が' is incorrect in this context. The context '走り書き' further confirms that 'か' is the correct reading for 書."
+  ],
   "confidence": 1.0
 }

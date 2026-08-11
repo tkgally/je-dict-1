@@ -1,0 +1,31 @@
+{
+  "entry_id": "08355_nijikai",
+  "headword": "{二次会|にじかい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:39:28Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'party'.",
+      "suggestion": "entertainment"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'nightlife'.",
+      "suggestion": "entertainment"
+    }
+  ]
+}

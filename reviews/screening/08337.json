@@ -1,10 +1,10 @@
 {
   "entry_id": "08337",
-  "screened_at": "2026-06-22T03:28:07Z",
+  "screened_at": "2026-08-11T21:30:06Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 梅雨入 is given as \"つゆい\" in item 1, but as \"ついり\" in item 17. While partial readings are allowed, these two readings for the same kanji portion are inconsistent. Given the context of \"梅雨入り\" (tsuyuiri), \"つゆい\" (tsuyu-i) seems to be the correct partial reading for the kanji 梅雨入, with \"り\" being the okurigana. Therefore, \"ついり\" for 梅雨入 in item 17 is likely an error, as it combines the \"つゆ\" and \"いり\" parts incorrectly into \"ついり\" for just the kanji portion."
+    "The reading for 梅雨入 is given as つゆい, but the full reading is つゆいり. The entry itself shows {梅雨入|つゆい}り (つゆいり), indicating that り is okurigana. However, in item 17, 梅雨入 is given as ついり, which is an alternative valid reading for the kanji portion. This suggests that つゆい is also a valid partial reading for the kanji portion, with り being okurigana. The discrepancy is that the entry itself provides (つゆいり) as the full reading, but then lists {梅雨入|つゆい}り, implying that 'り' is okurigana. If 'り' is okurigana, then 'つゆい' is the reading for 梅雨入. However, item 17 gives 'ついり' as an alternative valid reading for 梅雨入. This means that 'つゆい' is also a valid reading for just 梅雨入. The issue is that the prompt states 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors'. Given this, 'つゆい' for 梅雨入 is not an error, as 'り' is okurigana. The only potential confusion is the alternative reading 'ついり' for the same kanji, but both are valid. Therefore, based on the rules, there are no errors."
   ],
-  "confidence": 0.9
+  "confidence": 0.8
 }

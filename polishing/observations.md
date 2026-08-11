@@ -1182,3 +1182,26 @@ All 27 observations cleared.)_
 - [pattern] The common-vocabulary discovery lenses are close to exhausted at ~30,400 entries. Four probe batches this run measured duplicate rates of **100%** (office/business life, 25/25 already entries), **~90%** (administrative and residency terms — only 厚生年金 survived from 15), **~89%** (modern-life compounds and weather words — 3 of 28), and **~72%** (mimetics and literary-register verbs — 5 of 18). By contrast the proper-noun lens ran at **~80% survival**. Restock runs should now budget most of their generation on proper nouns and on narrow, deliberately-chosen thin veins (rare mimetics were the only productive common-word vein found), and should expect the old "generate 1.5× the target" rule to need to become 3–4× for common vocabulary.
 - [tooling] `build/audit_semantic_field.py --below 60` and `analyze_scenarios.py --top-gaps` are no longer usable as generation aims: no semantic field is below 60% coverage, and every remaining scenario "gap" is a conjugated form or free phrase (分からない, 眠れない, 動かない, 机の下) that fails the find-candidates gates by construction. Either the expected-word lists need extending with harder vocabulary, or the `candidates` mode's step-2 gap read should be dropped as dead weight.
 - [pattern] Historical-period names (平安時代, 鎌倉時代, 室町時代, 大正時代) had no clean marker category in the find-candidates proper-noun scheme — they are neither place, person, organization, work, nor really `event`. They were filed as `event` for lack of a better fit. If era names become a recurring class, the skill and the `event-name` semantic tag need an explicit ruling.
+
+## 2026-08-11 — accuracy-review run (entries 8066–8565)
+
+- [pattern] **Semantic-tag vocabulary contamination is concentrated, not uniform.**
+  A deterministic scan against `VALID_SEMANTIC` found 341 of 500 entries (68%) in
+  the 8066–8565 block carrying off-vocabulary semantic tags, with 264 distinct bad
+  tags — versus 1,603 of 30,365 entries (5.3%) dictionary-wide. This block looks
+  like a batch-creation artifact where free-form tags (`office`, `stationery`,
+  `kitchen`, `medical`, `legal`, `housing`, `gardening`, `competition`, `loanword`)
+  were invented instead of drawn from the closed list. Worth scanning for other
+  hot-spot ID blocks rather than treating P20 as an even dictionary-wide sweep.
+- [tooling] **The `tags` dimension of `review_accuracy.py` is now dominated by
+  "tag not in the valid list" flags** (310 of 313 issues in this range; only 3
+  gloss issues, 0 translation issues). Those flags are correct by definition but
+  are far cheaper to obtain from the deterministic `VALID_SEMANTIC` membership
+  check than from a paid model call. Consider having the reviewer prompt suppress
+  pure membership failures and report only *semantic* tag mismatches (tag is
+  in-list but wrong for the headword), which is the judgment the model is actually
+  needed for.
+- [tooling] Furigana screening over this range flagged 5 entries, 1 of which was a
+  genuine error (08287). The other 4 were the documented false-positive families
+  (rendaku in compounds, okurigana/compound reading splits) plus one parse failure
+  — consistent with the 0–5% precision measured on 2026-06-10/11.

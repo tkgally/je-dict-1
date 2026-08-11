@@ -1,0 +1,31 @@
+{
+  "entry_id": "08264_tokasu",
+  "headword": "{溶|と}かす",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:33:36Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'to thaw', but the primary meaning of 溶かす (tokasu) is to melt or dissolve something solid into a liquid state, often with heat. While thawing can involve melting, 'thaw' specifically refers to bringing something frozen to a normal temperature, which is a slightly different nuance than the core meaning of 溶かす. The verb for 'to thaw' in Japanese is usually 解凍する (kaitō suru) or 溶ける (tokeru) for intransitive. 溶かす is transitive and implies changing state to liquid, not just warming up.",
+      "suggestion": "Remove 'to thaw' from the main gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "Similar to the main gloss, 'to thaw' is included here, which is not the primary meaning of 溶かす.",
+      "suggestion": "Remove 'to thaw' from the definition gloss."
+    }
+  ]
+}

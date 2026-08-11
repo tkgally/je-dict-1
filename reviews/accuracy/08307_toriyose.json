@@ -1,0 +1,24 @@
+{
+  "entry_id": "08307_toriyose",
+  "headword": "{取|と}り{寄|よ}せ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:34:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'services' is not in the valid tag list.",
+      "suggestion": "shopping"
+    }
+  ]
+}

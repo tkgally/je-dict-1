@@ -1,0 +1,24 @@
+{
+  "entry_id": "08360_negiru",
+  "headword": "{値切|ねぎ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:35:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'negotiation' is not in the valid tag list.",
+      "suggestion": "Replace 'negotiation' with 'business' or 'communication'."
+    }
+  ]
+}

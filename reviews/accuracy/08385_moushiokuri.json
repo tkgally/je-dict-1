@@ -1,0 +1,24 @@
+{
+  "entry_id": "08385_moushiokuri",
+  "headword": "{申|もう}し{送|おく}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:36:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'healthcare' is not in the valid tag list.",
+      "suggestion": "Replace 'healthcare' with 'general' or 'work'."
+    }
+  ]
+}

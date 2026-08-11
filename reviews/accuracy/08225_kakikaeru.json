@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T12:57:41Z",
+  "reviewed_at": "2026-08-11T21:32:25Z",
   "summary": {
     "flagged": 2
   },
@@ -16,15 +16,15 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'writing' is not in the valid tag list.",
+      "severity": "warn",
+      "concern": "Semantic tag 'writing' is not in the valid tag list.",
       "suggestion": "action"
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'documents' is not in the valid tag list.",
+      "severity": "warn",
+      "concern": "Semantic tag 'documents' is not in the valid tag list.",
       "suggestion": "general"
     }
   ]

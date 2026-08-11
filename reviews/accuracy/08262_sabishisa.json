@@ -1,0 +1,24 @@
+{
+  "entry_id": "08262_sabishisa",
+  "headword": "{寂|さび}しさ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:33:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'feeling' is not in the valid tag list.",
+      "suggestion": "emotion"
+    }
+  ]
+}

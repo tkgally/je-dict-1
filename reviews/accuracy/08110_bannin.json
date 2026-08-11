@@ -8,23 +8,16 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T12:56:05Z",
+  "reviewed_at": "2026-08-11T21:37:53Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "warn",
-      "concern": "Invalid semantic tag 'people'",
-      "suggestion": "person"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid semantic tag 'universal'",
+      "concern": "Tag 'universal' is not in the valid tag list.",
       "suggestion": "general"
     }
   ]

@@ -1,0 +1,38 @@
+{
+  "entry_id": "08334_neochi",
+  "headword": "{寝落|ねお}ち",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:35:20Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'sleep' is not in the valid tag list.",
+      "suggestion": "Replace 'sleep' with 'daily-life' or 'body-part' or 'health'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'internet' is not in the valid tag list.",
+      "suggestion": "Replace 'internet' with 'technology' or 'communication'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'modern' is not in the valid tag list.",
+      "suggestion": "Remove 'modern' as there is no suitable replacement."
+    }
+  ]
+}

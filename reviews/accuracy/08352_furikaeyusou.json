@@ -1,0 +1,31 @@
+{
+  "entry_id": "08352_furikaeyusou",
+  "headword": "{振替輸送|ふりかえゆそう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:35:48Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'train' is not in the valid tag list.",
+      "suggestion": "transportation"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'commuting' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

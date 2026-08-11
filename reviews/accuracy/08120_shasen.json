@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T12:56:15Z",
+  "reviewed_at": "2026-08-11T21:30:03Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'documents' is not a valid semantic tag.",
-      "suggestion": "Replace 'documents' with a valid tag from the list."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'writing' is not a valid semantic tag.",
-      "suggestion": "Replace 'writing' with a valid tag from the list."
+      "concern": "The tag 'documents' is not in the valid tag list.",
+      "suggestion": "writing"
     }
   ]
 }
