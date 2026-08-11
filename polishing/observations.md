@@ -1211,3 +1211,17 @@ All 27 observations cleared.)_
   nits unrelated to the edit, and 0 concerned a link target. A `--dimensions links` mode
   (judge each ⟦…⟧ target against the sentence it sits in) remains the missing instrument —
   same conclusion the 2026-08-09 run reached, now with a second data point.
+- [pattern] The corpus-harvested part of `candidate_words.json` (the Feb–May 2026 bulk, ~970
+  of 984 entries) is largely unusable as a source of new headwords: a scan of several hundred
+  found mostly nonce compounds (些道, 個尊, 怒燥, 内疎外内), compositional phrases (歩き続ける,
+  効率が悪い), inflected forms filed as words (強く, 知らない, 与えられる), and wrong glosses
+  (アンパッサン → "ice cream sundae", 尾張 → "end, finish"). A `new-entries` run that follows
+  "oldest unprocessed candidate first" past the 13 `seen in entry` items will start writing
+  entries for words that are not words. Two things would help: a curator restock of real
+  headwords, and a pass that deletes the harvested noise so `candidate_count` stops
+  overstating how much usable work is queued (the selector reported "candidates plentiful"
+  on a pool with ~13 usable items).
+- [tooling] `pipeline/routine_next.py`'s `candidates_low` signal counts raw candidates. A
+  quality-weighted count — e.g. candidates carrying a `seen in entry` note, or added since
+  the last curator restock — would let the selector tell "984 queued words" apart from
+  "984 rows, 13 of them usable".
