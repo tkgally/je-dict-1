@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06870_setai_ex1",
-      "japanese": "{一人|ひとり}{世帯|せたい}が{増|ふ}えている。",
+      "japanese": "⟦{一人|ひとり}→一人：00630_hitori⟧{世帯|せたい}⟦が→が：00051_ga⟧⟦{増|ふ}えて→増える：01183_fueru⟧⟦いる→いる：00495_iru⟧。",
       "english": "Single-person households are increasing.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06870_setai_ex2",
-      "japanese": "{世帯|せたい}{収入|しゅうにゅう}は{年々|ねんねん}{減少|げんしょう}している。",
+      "japanese": "{世帯|せたい}⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧⟦は→は：00079_ha⟧⟦{年々|ねんねん}→年々：10417_nennen⟧⟦{減少|げんしょう}して→減少する：02719_genshou⟧⟦いる→いる：00495_iru⟧。",
       "english": "Household income is decreasing year by year.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06870_setai_ex3",
-      "japanese": "{来年|らいねん}から{世帯|せたい}を{持|も}つ{予定|よてい}です。",
+      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧⟦から→から：00504_kara⟧{世帯|せたい}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦です→です：09485_desu⟧。",
       "english": "I plan to start my own household next year.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nOfficial/statistical term for counting households:\n・{世帯|せたい}{主|ぬし} (head of household)\n・{世帯|せたい}{人数|にんずう} (number of people in a household)\n・{共働|ともばたら}き{世帯|せたい} (dual-income household)\n・{高齢者|こうれいしゃ}{世帯|せたい} (elderly household)\n\nCOLLOCATIONS:\n・{世帯|せたい}を{持|も}つ (to start a household/get married)\n・{世帯|せたい}を{分|わ}ける (to split households)\n・{世帯|せたい}{年収|ねんしゅう} (annual household income)\n\nSIMILAR WORDS:\n・{家庭|かてい} - home, family (more emotional/personal)\n・{家族|かぞく} - family (people, not the unit)",
+  "notes": "USAGE:\nOfficial/statistical term for counting households:\n・{世帯|せたい}⟦{主|ぬし}→主：noentry⟧ (head of household)\n・{世帯|せたい}⟦{人数|にんずう}→人数：03132_ninzuu⟧ (number of people in a household)\n・⟦{共働|ともばたら}き→共働き：08564_tomobataraki⟧{世帯|せたい} (dual-income household)\n・⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧{世帯|せたい} (elderly household)\n\nCOLLOCATIONS:\n・{世帯|せたい}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to start a household/get married)\n・{世帯|せたい}⟦を→を：00422_wo⟧⟦{分|わ}ける→分ける：02333_wakeru⟧ (to split households)\n・{世帯|せたい}⟦{年収|ねんしゅう}→年収：05504_nenshuu⟧ (annual household income)\n\nSIMILAR WORDS:\n・⟦{家庭|かてい}→家庭：12315_katei⟧ - home, family (more emotional/personal)\n・⟦{家族|かぞく}→家族：00552_kazoku⟧ - family (people, not the unit)",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,25 @@
       "reading": "しょたい",
       "headword": "{所帯|しょたい}",
       "label": "household (daily life)"
+    },
+    {
+      "type": "related",
+      "target_id": "12315_katei",
+      "reading": "かてい",
+      "headword": "{家庭|かてい}",
+      "label": "home, family (personal side)"
+    },
+    {
+      "type": "related",
+      "target_id": "00552_kazoku",
+      "reading": "かぞく",
+      "headword": "{家族|かぞく}",
+      "label": "family (the people)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T09:27:18Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-08-11T06:33:34Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +79,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "family",
+        "society"
       ]
     }
   }
