@@ -1,0 +1,31 @@
+{
+  "entry_id": "07586_kuuseki",
+  "headword": "{空席|くうせき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T09:29:44Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'state' is not in the valid tag list.",
+      "suggestion": "general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'capacity' is not in the valid tag list.",
+      "suggestion": "quantity"
+    }
+  ]
+}

@@ -8,17 +8,31 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:46:16Z",
+  "reviewed_at": "2026-08-11T09:38:00Z",
   "summary": {
-    "flagged": 1
+    "flagged": 3
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "definitions[1].gloss",
       "severity": "error",
-      "concern": "The gloss 'to dominate; to hold sway' is misleading for sense 2. While the explanation mentions 'exercise power or influence without restraint', the examples for this sense (3, 4, 5) clearly show the meaning is about *not hesitating* or *not being intimidated* by something, rather than actively dominating or holding sway over it. The phrase '憚ることなく' means 'without hesitation/reserve/being intimidated', not 'without dominating'.",
-      "suggestion": "Change gloss to 'to not hesitate; to not be intimidated; to speak/act freely'."
+      "concern": "The gloss 'to dominate; to hold sway' for sense 2 is misleading. While the explanation mentions 'exercise power or influence without restraint', the examples for this sense (3, 4, 5) clearly show the meaning is 'to not hesitate/be intimidated by' or 'to not shy away from', which is closer to the opposite of 'dominate' or 'hold sway' in the context of the headword.",
+      "suggestion": "to not hesitate; to not be intimidated by; to not shy away from"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The English translation 'He stated his opinion without hesitation' is too weak. The Japanese '憚ることなく' in this context implies a stronger sense of speaking freely without being intimidated or holding back due to external factors, which is not fully captured by 'without hesitation'.",
+      "suggestion": "He stated his opinion without holding back (or without being intimidated)."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[4]",
+      "severity": "error",
+      "concern": "The English translation 'It was an attitude that didn't shy away from criticism' is incorrect. '批判を憚らない' means 'not hesitating to criticize' or 'not being afraid to criticize', not 'not shying away from criticism' (which would imply being open to receiving criticism).",
+      "suggestion": "It was an attitude that didn't hesitate to criticize."
     }
   ]
 }

@@ -8,24 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-19T21:38:30Z",
+  "reviewed_at": "2026-08-11T09:35:04Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'quality' is not in the valid tag list.",
-      "suggestion": "evaluation"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "error",
-      "concern": "The English translation 'Thank you for having the meal (humble)' for 'お粗末さまでした。' is incorrect. This phrase is used by the host to humbly acknowledge the meal they provided, not by the guest to thank for having the meal.",
-      "suggestion": "It was nothing special (said by host after a meal)."
-    }
-  ]
+  "issues": []
 }

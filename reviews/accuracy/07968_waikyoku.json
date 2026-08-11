@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:54:49Z",
+  "reviewed_at": "2026-08-11T09:39:53Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tags 'media' and 'communication' are too narrow and potentially misleading for '歪曲' (distortion/misrepresentation). While distortion can occur in media or communication, the core meaning of the word is about altering truth or facts, which is a more general concept.",
-      "suggestion": "Replace 'media' and 'communication' with 'action' and 'cognition' or 'general'. 'Action' because it's a suru-verb, and 'cognition' or 'general' because it relates to how information/truth is processed or presented."
-    }
-  ]
+  "issues": []
 }

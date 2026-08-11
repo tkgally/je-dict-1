@@ -1,0 +1,31 @@
+{
+  "entry_id": "07616_makkura",
+  "headword": "{真|ま}っ{暗|くら}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T09:30:35Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'light' is not in the valid tag list.",
+      "suggestion": "Replace 'light' with a valid tag. 'appearance' or 'descriptive' might be suitable."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'state' is not in the valid tag list.",
+      "suggestion": "Replace 'state' with a valid tag. 'descriptive' might be suitable."
+    }
+  ]
+}

@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:45:57Z",
+  "reviewed_at": "2026-08-11T09:37:28Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '具' has a broader meaning than just 'food' and 'cooking'. It can refer to contents or ingredients in a general sense, not limited to culinary contexts.",
+      "suggestion": "Add 'general' to the semantic tags."
+    }
+  ]
 }

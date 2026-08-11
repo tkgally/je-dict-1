@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:46:27Z",
+  "reviewed_at": "2026-08-11T09:38:25Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'sensation' is not in the valid tag list.",
-      "suggestion": "descriptive"
+      "severity": "error",
+      "concern": "The tag 'sensation' is not in the valid tag list.",
+      "suggestion": "Replace 'sensation' with 'descriptive' or 'emotion'."
     }
   ]
 }

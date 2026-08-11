@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:46:45Z",
+  "reviewed_at": "2026-08-11T09:38:56Z",
   "summary": {
     "flagged": 2
   },
@@ -16,16 +16,16 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'excess' is not in the valid tag list.",
-      "suggestion": "quantity"
+      "severity": "error",
+      "concern": "Invalid semantic tag 'excess'.",
+      "suggestion": "Replace 'excess' with 'quantity'."
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'difficulty' is not in the valid tag list.",
-      "suggestion": "general"
+      "severity": "error",
+      "concern": "Invalid semantic tag 'difficulty'.",
+      "suggestion": "Replace 'difficulty' with 'cognition'."
     }
   ]
 }

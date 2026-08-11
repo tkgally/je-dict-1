@@ -8,23 +8,30 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:47:04Z",
+  "reviewed_at": "2026-08-11T09:39:22Z",
   "summary": {
-    "flagged": 2
+    "flagged": 3
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'behavior' is not in the valid tag list.",
-      "suggestion": "action"
+      "severity": "error",
+      "concern": "The tag 'physics' is not in the valid tag list.",
+      "suggestion": "science"
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'habit' is not in the valid tag list.",
+      "severity": "error",
+      "concern": "The tag 'behavior' is not in the valid tag list.",
+      "suggestion": "general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'habit' is not in the valid tag list.",
       "suggestion": "daily-life"
     }
   ]

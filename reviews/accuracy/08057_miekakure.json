@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T12:55:15Z",
+  "reviewed_at": "2026-08-11T09:41:52Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid tag 'visibility'",
-      "suggestion": "appearance"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid tag 'perception'",
-      "suggestion": "cognition"
+      "severity": "error",
+      "concern": "Semantic tags 'visibility' and 'perception' are not in the valid tag list.",
+      "suggestion": "Replace 'visibility' with 'appearance' or 'general', and 'perception' with 'cognition' or 'general'."
     }
   ]
 }

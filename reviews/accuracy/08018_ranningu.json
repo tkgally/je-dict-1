@@ -4,9 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:54:56Z",
+  "reviewed_at": "2026-08-11T09:41:04Z",
   "summary": {
     "flagged": 1
   },
@@ -15,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'sports' is too narrow for the headword, which also covers financial 'running costs'.",
-      "suggestion": "Add 'economics' to the semantic tags."
+      "concern": "The headword 'ランニング' has a second sense related to 'running costs' which is not covered by the 'sports' tag.",
+      "suggestion": "Add 'economics' or 'business' to the semantic tags."
     }
   ]
 }

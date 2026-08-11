@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T00:48:10Z",
+  "reviewed_at": "2026-08-11T09:41:15Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid semantic tag 'organization'.",
-      "suggestion": "society"
+      "severity": "error",
+      "concern": "The tag 'organization' is too specific and not a direct semantic tag for the headword itself. While the word can apply to organizations, its core meaning is about becoming rigid, not about organizations.",
+      "suggestion": "Remove 'organization' and add 'abstract' or 'general' if a broader category is needed, or simply keep 'change' as it is already present and accurate."
     }
   ]
 }
