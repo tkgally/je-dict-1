@@ -1225,3 +1225,18 @@ All 27 observations cleared.)_
   quality-weighted count — e.g. candidates carrying a `seen in entry` note, or added since
   the last curator restock — would let the selector tell "984 queued words" apart from
   "984 rows, 13 of them usable".
+- [wiki] Curator decision 2026-08-11: proper nouns are IN scope (place/person/organization/
+  work/event/brand names, collocationally/semantically rich ones prioritized), the corpus-junk
+  candidate queue was purged (archive: planning/archive/candidate-cleanup-2026-08-11.json), and
+  candidate discovery is now the verified-restock `candidates` Routine mode. Pages to update:
+  project/open-issues.md (proper-noun exclusion §, candidate junk-families §),
+  ideas/dictionary-growth.md (proper-noun design — implemented with tags proper-noun +
+  place-name/person-name/organization-name/work-name/event-name/brand-name),
+  project/vocabulary-tiers.md (person-name question answered), and the ideas/entry-followups.md
+  "proper-noun scope" thread (sixth filing — resolved; 夏目漱石 no longer needs a ruling).
+- [pattern] Post-cleanup, candidate_words.json's raw count IS the usable count (every row
+  vetted), so routine_next.py's candidate signals are trustworthy again — the 2026-08-11
+  [tooling] ask for a quality-weighted count is resolved by construction.
+- [entry] 03515 日光 covers only "sunlight"; the place Nikko is blocked from the candidate
+  queue by the exact word+reading duplicate rule. Consider adding the place sense to 03515
+  during polish (proper-noun tags would then apply to that sense's entry).

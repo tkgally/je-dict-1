@@ -1,5 +1,14 @@
 # Corpus Harvesting Prompt
 
+> **DEPRECATED 2026-08-11 — do not run.** Bulk extraction from corpus text
+> produced ~970 candidates of which almost none were usable (coinages, free
+> phrases, inflected forms, wrong glosses); all were removed in the
+> 2026-08-11 queue cleanup (`planning/archive/candidate-cleanup-2026-08-11.json`).
+> Candidate discovery is now the verified-restock workflow in
+> `prompts/newcandidates.md` (the Routine's `candidates` mode), built on the
+> `find-candidates` skill's per-word vetting gates. This file is kept only as
+> a record of the old procedure.
+
 Process words from `prompts/corpus_extracted_words.json` to find suitable candidates for the dictionary.
 
 ## Instructions

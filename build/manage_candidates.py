@@ -12,8 +12,15 @@ Usage:
     # Add with --force to bypass duplicate check (use with caution!)
     python build/manage_candidates.py add --force "漢字" "かんじ" "note"
 
+    # Add many candidates from a JSON file: [{"word":..., "reading":..., "notes":...}, ...]
+    # Each is duplicate-checked; duplicates are skipped and reported, not errors.
+    python build/manage_candidates.py add-batch proposed_candidates.json
+
     # Check if a word is a duplicate (exits 0 if safe to add, 1 if duplicate)
     python build/manage_candidates.py check "漢字" "かんじ"
+
+    # Remove specific candidates by ID (e.g. after judging them unsuitable)
+    python build/manage_candidates.py remove C00123 C00456
 
     # Remove candidates that now exist in dictionary
     python build/manage_candidates.py sync
@@ -171,6 +178,42 @@ def add_candidate(data: dict, word: str, reading: str = None, notes: str = None)
     return candidate
 
 
+def add_batch(data: dict, items: list) -> tuple:
+    """Add many candidates, duplicate-checking each. Returns (added, skipped).
+
+    Loads the entries index once so large batches stay fast. Within-batch
+    duplicates are also caught, because each addition is visible to the
+    checks that follow it.
+    """
+    entries_data = load_entries_index()
+    added = []
+    skipped = []  # (word, reason) tuples
+    for item in items:
+        word = (item.get('word') or '').strip()
+        reading = (item.get('reading') or '').strip()
+        notes = (item.get('notes') or '').strip() or None
+        if not word or not reading:
+            skipped.append((word or '(empty)', 'missing word or reading'))
+            continue
+        if contains_katakana(reading):
+            reading = normalize_reading(reading)
+        dup = check_for_duplicate(word, reading, entries_data, data)
+        if dup['is_duplicate']:
+            skipped.append((word, dup['details']))
+            continue
+        added.append(add_candidate(data, word, reading, notes))
+    return added, skipped
+
+
+def remove_by_ids(data: dict, ids: list) -> tuple:
+    """Remove candidates whose IDs are in `ids`. Returns (removed, missing_ids)."""
+    id_set = set(ids)
+    removed = [c for c in data['candidates'] if c.get('id') in id_set]
+    data['candidates'] = [c for c in data['candidates'] if c.get('id') not in id_set]
+    missing = sorted(id_set - {c.get('id') for c in removed})
+    return removed, missing
+
+
 def sync_with_dictionary(data: dict) -> int:
     """Remove candidates that now exist in the dictionary."""
     existing = get_existing_entries()
@@ -252,6 +295,47 @@ def main():
         candidate = add_candidate(data, word, reading, notes)
         save_candidates(data)
         print(f"Added candidate: {candidate['id']} - {word}")
+
+    elif command == 'add-batch':
+        if len(args) < 1:
+            print("Usage: manage_candidates.py add-batch <file.json>")
+            print('\nFile format: [{"word": "漢字", "reading": "かんじ", "notes": "gloss"}, ...]')
+            return
+
+        batch_path = Path(args[0])
+        try:
+            with open(batch_path, 'r', encoding='utf-8') as f:
+                items = json.load(f)
+        except (OSError, json.JSONDecodeError) as e:
+            print(f"Error: Could not read batch file {batch_path}: {e}")
+            sys.exit(1)
+        if not isinstance(items, list):
+            print("Error: Batch file must contain a JSON list of objects.")
+            sys.exit(1)
+
+        added, skipped = add_batch(data, items)
+        save_candidates(data)
+        print(f"Added {len(added)} candidates, skipped {len(skipped)}.")
+        for c in added:
+            print(f"  + {c['id']}  {c['word']} ({c['reading']})")
+        if skipped:
+            print("Skipped:")
+            for word, reason in skipped:
+                print(f"  - {word}: {reason}")
+
+    elif command == 'remove':
+        if len(args) < 1:
+            print("Usage: manage_candidates.py remove <id> [<id> ...]")
+            print("\nRemoves candidates by ID (e.g. C00123). Prints each removed word.")
+            return
+
+        removed, missing = remove_by_ids(data, args)
+        save_candidates(data)
+        print(f"Removed {len(removed)} candidates.")
+        for c in removed:
+            print(f"  - {c['id']}  {c['word']} ({c.get('reading') or ''})")
+        if missing:
+            print(f"Not found: {', '.join(missing)}")
 
     elif command == 'check':
         # Check command: verify if a word is a duplicate

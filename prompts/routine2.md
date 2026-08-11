@@ -9,10 +9,12 @@ and useful over weeks and months — drawing on insights accumulated in the
 knowledge wiki — while keeping the dictionary's existing concept, headword
 range, sense inventory, and example style. Scope is **Japanese→English only**.
 
-v2 keeps v1's proven chassis (deterministic selector, five modes, delegation to
-the existing per-task prompts, always-on capture, 60%-context rule, atomic
+v2 keeps v1's proven chassis (deterministic selector, delegation to the
+existing per-task prompts, always-on capture, 60%-context rule, atomic
 merge tail, Routine lock, OpenRouter ledger) and changes three things, based on
-the 2026-06-09 test runs:
+the 2026-06-09 test runs (a sixth mode, `candidates`, was added 2026-08-11 —
+it restocks the vetted candidate queue and self-suppresses while the queue is
+full):
 
 1. **Trust but verify, every run** (§4): any run that creates or modifies
    entries sends *exactly those entries* to an independent model (pennies per
@@ -126,7 +128,8 @@ PR/CI/merge discipline** — they are the same disciplines this Routine uses in
 | `mode` | Do this |
 |---|---|
 | `polish` | Apply **`prompts/comprehensive_polish.md`**'s per-entry checklist in **two lanes**. **Priority lane first**: if `polishing/priority/notes.txt` exists and is less than 14 days old, spend roughly the first 40% of your entry budget on IDs taken from it in order, starting at the line recorded in `polishing/tasks/comprehensive/priority-cursor.txt` (create the file with `line: 1` if missing). Skip only IDs with no entry file and entries whose `modified` date is within the last 30 days — worst-scoring entries are eligible **regardless of the comprehensive frontier**: a low-ID entry that was polished long ago but still scores at the bottom is exactly what this lane is for. **Frontier lane second**: spend the rest of the budget sequentially from `params.start_id` as in v1. Update both cursors at wrap-up. If the priority file is missing or stale, run frontier-only, regenerate priorities at wrap-up (`make priorities`, before `make build`), and reset the priority cursor to `line: 1` (regeneration re-ranks, so old line numbers are meaningless). **Also regenerate + reset at wrap-up if more than half of the priority-lane entries you processed turned out to need no changes** — that means the rankings have gone stale relative to recent polishing. Skip comprehensive_polish.md's own pre-flight sweep (already done in §0). |
-| `new-entries` | Follow **`prompts/newentries.md`**. Create ~`params.approx_count` (≈20) entries; prefer candidates whose notes say "seen in entry". **Tag from the closed lists**: semantic tags MUST come from `VALID_SEMANTIC` and domain tags from `VALID_DOMAIN` in `build/validate_tags.py` (newentries.md has the table) — after validation, `python3 build/validate_tags.py` must report no "Unknown semantic tag" warnings for your new IDs. After the post-creation validation sequence and **before** the single build, run the §4 self-verification on the new entry IDs — this is the new-entry quality gate. If `params.candidates_low` is true, create what you sensibly can, then append `- [pattern] candidate_words.json running low — curator restock requested` to `polishing/observations.md`. **Never** auto-route to corpus harvesting or candidate discovery; the curator tops up candidates manually. |
+| `new-entries` | Follow **`prompts/newentries.md`**. Create ~`params.approx_count` (≈20) entries; prefer candidates whose notes say "seen in entry". **Tag from the closed lists**: semantic tags MUST come from `VALID_SEMANTIC` and domain tags from `VALID_DOMAIN` in `build/validate_tags.py` (newentries.md has the table) — after validation, `python3 build/validate_tags.py` must report no "Unknown semantic tag" warnings for your new IDs. Since the 2026-08-11 cleanup the queue holds only vetted words (including proper nouns — see newentries.md for proper-noun entry conventions), so any queued word is fair game. After the post-creation validation sequence and **before** the single build, run the §4 self-verification on the new entry IDs — this is the new-entry quality gate. If `params.candidates_low` is true, create what the queue sensibly supports and stop early rather than inventing headwords — the selector will schedule a `candidates` restock run on its own. **Never** auto-route into candidate discovery mid-run; that is the `candidates` mode's job. |
+| `candidates` | Follow **`prompts/newcandidates.md`** (the verified-restock playbook). Add ~`params.approx_new` (40–60) vetted words to `candidate_words.json`: real, headword-worthy, lemma-form words with correct hiragana readings and correct glosses, drawn from the playbook's discovery strategies — including **proper nouns** per the find-candidates skill policy (collocationally and semantically rich names learners should know). Vet each word individually against the playbook's reality/lemma/gloss gates, then add via `manage_candidates.py add-batch` (it duplicate-checks every row). This mode changes no entries, so §4 does not apply — the per-word gates are the verification. Do **not** create entries in this mode. |
 | `accuracy-review` | Follow **§A** below (cross-model review of furigana + glosses/translations/tags within budget, apply corrections, maintain the review queue). |
 | `wiki` | Follow **`planning/maintain-knowledge-base.md`** (harvest `polishing/observations.md`, then 2–4 wiki activities). Keep `planning/wiki/ideas/backlog-queue.json` in sync with the prose backlog pages. **Metrics trend activity**: if `pipeline/metrics-history.jsonl` has ≥10 lines newer than the last update of `planning/wiki/topics/quality-metrics.md` (or that page doesn't exist yet), create/update it with a dated trend table (entry count, flags applied/rejected by dimension from `reviews/decisions.jsonl`, review-queue depth, OpenRouter spend) and log any metric moving the wrong way as a `[pattern]` observation. |
 | `systemic-fix` | Follow **§B** below, working `params.backlog_item`. Semantic-verification-first: verify every flagged entry before changing it. |
@@ -230,6 +233,9 @@ weekly wiki trend review) a real time series instead of impressions.
      ledger updated per §A; queue maintained per §A step 7.
    - `new-entries` → update `PROJECT_STATUS.md` Recent Changes (keep 5 most
      recent).
+   - `candidates` → no cursor; the queue itself is the state. Update
+     `PROJECT_STATUS.md` Recent Changes with the count added and the
+     categories covered.
    - `wiki` → append to `planning/wiki/log.md`; update `index.md` for new pages.
    - The selector already advanced `pipeline/routine-state.json` in §1.
 2. **Write a session log** `polishing/sessions/routine_{YYYY-MM-DD}_{NNN}.md`

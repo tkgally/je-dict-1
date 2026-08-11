@@ -40,7 +40,7 @@ The LLM prompt asks for words that meet **all** of these:
 
 - It is stable vocabulary (not ephemeral slang or trendy internet terms)
 
-- It is NOT a proper noun (no place names, personal names, brand names, company names)
+- If it is a proper noun, it is collocationally/semantically rich and known to every Japanese speaker (major place names, canonical historical figures, key organizations — see the find-candidates skill's proper-noun criteria); merely referential names do not qualify
 
 - It is a single lexical item (not a full sentence or long phrase)
 

@@ -210,6 +210,7 @@ The `metadata.tags.pos` array must use **only** these exact values:
 | **Social life** | `greeting`, `education`, `work`, `leisure`, `daily-life`, `shopping`, `travel`, `cooking` |
 | **Fields & topics** | `business`, `economics`, `finance`, `law`, `politics`, `society`, `culture`, `religion`, `history`, `science`, `technology`, `health`, `language`, `media`, `music`, `art`, `entertainment`, `sports`, `military` |
 | **Special** | `proverb`, `idiom` |
+| **Proper nouns** | `proper-noun` (umbrella — required on every proper-noun entry) plus at least one of: `place-name`, `person-name`, `organization-name`, `work-name`, `event-name`, `brand-name` |
 | **Fallbacks** | `general`, `action`, `descriptive`, `grammatical`, `expression`, `onomatopoeia` |
 
 ### Common mistakes to avoid:
@@ -226,6 +227,18 @@ The `metadata.tags.pos` array must use **only** these exact values:
 ```
 
 Fallback conventions: internal organs use `body-internal`; external anatomy uses `body-part`; `health` is for conditions/procedures. Mimetic adverbs use `descriptive`. Suru-verbs and action nouns carry `action`. Domain tags (`metadata.tags.domain`) have their own closed list: `business`, `academic`, `technical`, `legal`, `medical`, `colloquial`, `internet`.
+
+## Proper-Noun Entries (policy adopted 2026-08-11)
+
+Proper nouns that learners of Japanese should know are in scope: place names, personal names, organization names, work titles, event names, and brand names. Candidates arriving from the queue are already vetted for learner value; create them like any other entry, with these conventions:
+
+- **`part_of_speech`**: `"noun (proper)"` (the established free-text value — 日本, 北海道, and 日本銀行 already use it). **`metadata.tags.pos`**: `["noun"]` (the closed POS list has no proper-noun value; the semantic tags carry the categorization).
+- **Semantic tags**: `proper-noun` **plus** the specific category — `place-name`, `person-name`, `organization-name`, `work-name`, `event-name` (incl. awards, festivals, competitions), or `brand-name`. `validate_tags.py` enforces the pairing (category without umbrella = error). Keep any ordinary topical tag that applies too (e.g. 富士山 is `geography`, `proper-noun`, `place-name`).
+- **Explanation covers the connotations, not just the referent.** The reason a proper noun earns an entry is its cultural and collocational weight. 銀座 is not just a Tokyo district — it connotes up-scale shopping, and 〜の銀座 labels any bustling shopping street. 甲子園 is a stadium and, by metonymy, the high-school baseball championship and by extension the pinnacle of any youth pursuit. Notes should carry a COMMON EXPRESSIONS or CULTURAL CONTEXT section with these fixed phrases and figurative uses.
+- **Examples show the name doing real work** — in set phrases, metonymy, and typical collocations (東京タワー, 京都らしい町並み, 漱石の小説) — not just "X is in Japan."
+- **Readings**: hiragana as always; furigana on all kanji including the headword (e.g. `{夏目漱石|なつめそうせき}`).
+- **Tier**: general, like all new entries.
+- **People**: prefer historical and canonical cultural figures (夏目漱石, 紫式部, 織田信長) whose names appear in idioms, work titles, school curricula, or everyday references (福沢諭吉 → the 10,000-yen note). Avoid current celebrities whose prominence may fade.
 
 ## Notes Field Requirements
 

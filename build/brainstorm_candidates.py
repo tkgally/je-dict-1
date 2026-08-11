@@ -247,7 +247,9 @@ REQUIREMENTS:
 - Each suggestion must be a real, commonly used Japanese word
 - Useful for intermediate-to-advanced Japanese learners
 - Stable vocabulary (not ephemeral slang)
-- NOT proper nouns (no place names, personal names, brand names)
+- Proper nouns ARE allowed when collocationally/semantically rich and known to
+  every Japanese speaker (major places, canonical historical figures, key
+  organizations); mark them "proper noun (place/person/organization/work/event/brand)"
 - Single lexical items (not full sentences or long phrases)
 - Not archaic, dialect-only, or highly specialized jargon
 - Verbs should be in dictionary form (e.g. 食べる not 食べ)

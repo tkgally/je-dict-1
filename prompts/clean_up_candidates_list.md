@@ -48,11 +48,17 @@ For each candidate, evaluate:
 For each entry, decide:
 
 - **KEEP**: Valid dictionary word with correct reading — leave it in the list
-- **REMOVE**: Problematic entry — remove using `manage_candidates.py`:
+- **REMOVE**: Problematic entry — remove by candidate ID:
   ```bash
-  python3 build/manage_candidates.py remove "word" "reading"
+  python3 build/manage_candidates.py remove C00123 C00456
   ```
 - **UNCERTAIN**: Note it for human review at the end
+
+**Note (2026-08-11):** the queue was fully cleaned on this date (the
+corpus-harvest junk was archived to
+`planning/archive/candidate-cleanup-2026-08-11.json`) and now holds only
+words vetted by the `find-candidates` gates, so this prompt should rarely
+find anything to remove. It remains useful as an occasional audit.
 
 ### Examples of Evaluation Reasoning
 

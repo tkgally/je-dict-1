@@ -153,7 +153,9 @@ python3 build/update_kanji_index.py --check-new  # Check for new kanji needing I
 
 # Candidate management
 python3 build/manage_candidates.py add "word" "reading" "gloss"   # Add a candidate
+python3 build/manage_candidates.py add-batch proposed.json        # Add many (JSON list; each row duplicate-checked)
 python3 build/manage_candidates.py check "word" "reading"         # Check if word exists as entry or candidate
+python3 build/manage_candidates.py remove C00123 C00456           # Remove candidates by ID
 python3 build/manage_candidates.py sync                           # Remove candidates that now exist as entries
 python3 build/manage_candidates.py stats                          # Show candidate list statistics
 
@@ -314,13 +316,13 @@ If `find_missing_furigana.py` shows entries from the current session, fix them b
 The `prompts/` directory contains detailed instructions for each type of session task. Start a task by reading the prompt file (e.g., "Read prompts/newentries.md and follow the instructions"). Shell runner scripts in `prompts/batch/` automate tasks for non-interactive `claude --print` execution. `prompts/metaprompt_list.md` is a reference listing all available prompts with usage examples.
 
 **Scheduled Routine (the single unattended driver):**
-- `routine2.md` — **the one task to schedule as a Routine** (the "Verified Routine"; the only Routine prompt — the v1 `routine.md` was removed 2026-06-11). Each run a deterministic selector (`pipeline/routine_next.py`, weighted rotation + health nudges) picks ONE focus — `polish` (priority lane + sequential frontier), `new-entries`, `accuracy-review` (cross-model furigana/gloss/translation/tag review via OpenRouter, $5/day ledger in `pipeline/openrouter-ledger.json`), `wiki`, or `systemic-fix` — and the Routine follows that mode's existing prompt below, plus always-on candidate/observation capture. Every run that changes entries **self-verifies exactly those entries with an independent model before the PR**, every flag adjudication is logged to `reviews/decisions.jsonl`, and every run appends a quality-metrics line via `pipeline/metrics_snapshot.py`. Each run merges its own PR. It **replaces** running comprehensive polish, new-entries, and wiki maintenance as separate scheduled tasks. Tune the mix in `pipeline/routine-config.json`. The individual prompts below remain runnable manually. Design: `enhancement/routine2-plan-2026-06-10.md` (v1 foundations: `enhancement/unified-routine-plan-2026-06-09.md`).
+- `routine2.md` — **the one task to schedule as a Routine** (the "Verified Routine"; the only Routine prompt — the v1 `routine.md` was removed 2026-06-11). Each run a deterministic selector (`pipeline/routine_next.py`, weighted rotation + health nudges) picks ONE focus — `polish` (priority lane + sequential frontier), `new-entries`, `accuracy-review` (cross-model furigana/gloss/translation/tag review via OpenRouter, $5/day ledger in `pipeline/openrouter-ledger.json`), `candidates` (verified restock of the candidate queue, incl. proper nouns; self-suppresses while the queue holds ≥150 words), `wiki`, or `systemic-fix` — and the Routine follows that mode's existing prompt below, plus always-on candidate/observation capture. Every run that changes entries **self-verifies exactly those entries with an independent model before the PR**, every flag adjudication is logged to `reviews/decisions.jsonl`, and every run appends a quality-metrics line via `pipeline/metrics_snapshot.py`. Each run merges its own PR. It **replaces** running comprehensive polish, new-entries, and wiki maintenance as separate scheduled tasks. Tune the mix in `pipeline/routine-config.json`. The individual prompts below remain runnable manually. Design: `enhancement/routine2-plan-2026-06-10.md` (v1 foundations: `enhancement/unified-routine-plan-2026-06-09.md`).
 
 **Dictionary building:**
 - `newentries.md` — create 30 entries from candidate_words.json
-- `newcandidates.md` — find new candidate words to add
-- `corpus_harvesting.md` — process corpus words into candidates (progress tracked in `corpus_harvesting_next_entry_number.txt`)
-- `clean_up_candidates_list.md` — review and clean candidate_words.json
+- `newcandidates.md` — the **`candidates` mode** of the unified Routine (and still runnable on its own): restock candidate_words.json with individually vetted headwords, including collocationally/semantically rich proper nouns (policy adopted 2026-08-11)
+- `corpus_harvesting.md` — DEPRECATED 2026-08-11 (bulk corpus extraction produced mostly unusable candidates; the 2026-08 cleanup removed them — see `planning/archive/candidate-cleanup-2026-08-11.json`). Superseded by `newcandidates.md`
+- `clean_up_candidates_list.md` — review and clean candidate_words.json (rarely needed now that the queue holds only vetted words)
 - `polish_add_entries_for_noentry_example_words.md` — create entries for words marked `noentry` in inline links
 
 **Entry consolidation:**
