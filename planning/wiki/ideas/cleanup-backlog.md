@@ -2325,6 +2325,30 @@ lower once class R has removed the reading contradictions: the surviving trap is
 (polysemous katakana loanwords and abbreviations inside compounds), not diffuse. Resume at
 the lowest remaining `entry_id` — everything below 01436 is now swept for A1+A2.
 
+**2026-08-11 systemic-fix run** — second per-entry short-base batch. 178 A1/A2 pairs
+(198 instances, 134 entries, IDs 01440–02229) were read in context and applied; the queue is
+now **1,256 pairs / 1,471 instances**. Everything below **02230** is swept for A1+A2. The
+ID-order finding held: this band's repeating families were faculty compounds (商学部/薬学部/
+農学部), style and origin suffixes (日本式/西洋式, 日本製/中国製/金属製), city and ward names
+(横浜/札幌/特別区), and 猿/竹/貝 compound clusters, each cheap to judge once the family was
+established.
+
+**A new false-positive family: proper names whose target entry carries only the common-noun
+sense.** The batch's only two rejections were both in `01440_shinbun`'s newspaper list —
+⟦朝日⟧ in 朝日新聞 resolves to `23495_asahi` ("morning sun") and ⟦毎日⟧ in 毎日新聞 to
+`00729_mainichi` ("every day"). Each newspaper is named after the word, so the link is
+etymologically true and pragmatically wrong: the reader clicking it lands on a sense the
+sentence is not using. This family is invisible to class R because the readings agree, and it
+is distinct from the polysemous-loanword (フライ) and abbreviation (海パン) families already
+documented. It does **not** generalise to place names used as place names — 上野 in 上野動物園
+→ `28394_ueno`, and 横浜/札幌 in a list of cities, were all applied without hesitation, because
+there the target entry *is* the proper noun. The discriminator is whether the target entry
+covers the proper-noun sense, not whether the surface is a name.
+
+Running false-positive rate across the 358 hand-verified short-base pairs (2026-08-09 plus
+2026-08-11): **~0.6%** — low, but not zero, which is what keeps this item `verify: per-entry`
+rather than mechanical.
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword

@@ -2,23 +2,37 @@
   "entry_id": "01936_kireru",
   "headword": "{切|き}れる",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:36:27Z",
+  "reviewed_at": "2026-08-11T00:24:21Z",
   "summary": {
-    "flagged": 1
+    "flagged": 3
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss is missing a key meaning of '切れる' related to sharpness or cutting well.",
-      "suggestion": "to be cut, to run out, to cut well"
+      "concern": "The main gloss is incomplete and misleading as it only covers two of the three main senses of the word. It omits the important sense of 'to snap/lose one's temper'.",
+      "suggestion": "to be cut, to run out, to snap"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[5]",
+      "severity": "error",
+      "concern": "The English translation 'This knife cuts well.' implies an active cutting action by the knife, whereas the Japanese 'よく切れるナイフだ' (yoku kireru naifu da) uses the intransitive form of 切れる (kireru), meaning the knife is sharp and *can be cut with easily* or *cuts well by its nature*.",
+      "suggestion": "This is a sharp knife. / This knife is very sharp."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[14]",
+      "severity": "error",
+      "concern": "The translation 'My concentration broke.' is unnatural English. While '切れる' can mean 'to break' in other contexts, for concentration, 'to lose' or 'to lapse' is more appropriate.",
+      "suggestion": "I lost my concentration. / My concentration lapsed."
     }
   ]
 }

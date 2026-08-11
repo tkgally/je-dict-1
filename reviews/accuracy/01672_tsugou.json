@@ -2,13 +2,13 @@
   "entry_id": "01672_tsugou",
   "headword": "{都合|つごう}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:32:18Z",
+  "reviewed_at": "2026-08-11T00:24:07Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'time-general' is too narrow and misleading for '都合'.",
-      "suggestion": "Replace 'time-general' with 'general' or 'cognition' or 'expression'."
+      "concern": "The semantic tag 'time-general' is incorrect for '都合'. While '都合' can relate to scheduling, its core meaning is about circumstances or convenience, which is a more general concept than just time.",
+      "suggestion": "Replace 'time-general' with 'general' or 'daily-life' or 'cognition' or 'expression'."
     }
   ]
 }
