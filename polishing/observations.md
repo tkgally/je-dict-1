@@ -1168,3 +1168,11 @@ for the fifth consecutive filing, went to `reviews/needs_curator.txt` as a two-o
 rather than a sixth observation.
 
 All 27 observations cleared.)_
+
+## 2026-08-11 (routine polish, entries 00514–06883)
+
+- [pattern] The 06876–06887 block (Sino-Japanese nouns and body-part idioms created in the same batch) has notes containing Japanese words with **zero inline links** — FORMATION / USAGE / CONTRAST sections are entirely naked Japanese, while the example sentences in the same entries are fully linked. Tier-1 note linking appears to have been skipped for this whole creation batch. Entries 06876–06883 are now fixed; 06884–06887 and probably the surrounding range still need it. A detector that flags entries whose examples are ≥90% linked but whose notes contain unlinked kanji would find the rest cheaply.
+- [pattern] Three entries in the same block (06880, 06881, 06882) carried `cross_references` entries with **no `target_id`** — pointing at negated/antonym idioms (気が利かない, 気が軽い, 気が長い) that were never created. `build/validate.py` reports these as notes rather than errors, so they survive CI. `build/check_artifacts.py` already has a missing-target_id check (P2); worth confirming it covers this shape and running it over the idiom ranges.
+- [entry] 06881 kigaomoi carried `style: ["literary"]`, which is wrong for an everyday conversational idiom — removed. Worth checking whether the same batch applied `literary` by template elsewhere.
+- [tooling] `build/word_id_lookup.json` is keyed `by_headword` / `by_reading`, but katakana headwords (ベテラン) are only reachable by headword while the schema demands a hiragana `reading` in cross-references. Adding a katakana→hiragana reading field to the lookup would prevent the schema failure this run hit.
+- [pattern] Several long-polished basic/core entries reached from the priority lane (01006 腕, 02006 ばかり, 04376 洗面, 05766 にやにや) had rich, well-linked notes but **completely empty `cross_references`** — including cases where the notes explicitly contrast four named neighbours (05766). Notes-quality scoring does not see this gap, so the cross-reference priority list is the better lane for finding it.

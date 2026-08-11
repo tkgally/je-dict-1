@@ -173,11 +173,26 @@
       ]
     }
   ],
-  "notes": "A versatile particle with three distinct uses depending on what it attaches to.\n\nPATTERN 1 — \"JUST DID\" (た form + ばかり):\nIndicates an action was very recently completed.\n- ⟦{食|た}べた→食べる：00396_taberu⟧ばかり: just ate\n- ⟦{来|き}た→来る：00254_kuru⟧ばかり: just arrived\n- ⟦{買|か}った→買う：00489_kau⟧ばかり⟦の→の：09472_no⟧⟦{車|くるま}→車：00516_kuruma⟧: a car I just bought\n\nPATTERN 2 — \"ONLY / NOTHING BUT\" (noun/verb + ばかり):\nExpresses exclusivity, often with a negative or critical nuance.\n- ⟦{文句|もんく}→文句：03636_monku⟧ばかり⟦{言|い}う→言う：00515_iu⟧: does nothing but complain\n- ⟦ゲーム→ゲーム：03842_geemu⟧ばかり⟦している→する：00392_suru⟧: does nothing but play games\n\nPATTERN 3 — \"ABOUT / APPROXIMATELY\" (number + ばかり):\nIndicates rough quantity. Somewhat literary.\n- ⟦{三日|みっか}→三日：02969_mikka⟧ばかり: about three days\n- ⟦{十人|じゅうにん}→十人：28475_juunin⟧ばかり: about ten people\n\nCASUAL VARIATIONS:\n- ばっかり: colloquial\n- ばっか: very casual, sometimes rude",
-  "cross_references": [],
+  "notes": "A versatile particle with three distinct uses depending on what it attaches to.\n\nPATTERN 1 — \"JUST DID\" (た form + ばかり):\nIndicates an action was very recently completed.\n- ⟦{食|た}べた→食べる：00396_taberu⟧ばかり: just ate\n- ⟦{来|き}た→来る：00254_kuru⟧ばかり: just arrived\n- ⟦{買|か}った→買う：00489_kau⟧ばかり⟦の→の：09472_no⟧⟦{車|くるま}→車：00516_kuruma⟧: a car I just bought\n\nPATTERN 2 — \"ONLY / NOTHING BUT\" (noun/verb + ばかり):\nExpresses exclusivity, often with a negative or critical nuance.\n- ⟦{文句|もんく}→文句：03636_monku⟧ばかり⟦{言|い}う→言う：00515_iu⟧: does nothing but complain\n- ⟦ゲーム→ゲーム：03842_geemu⟧ばかり⟦している→する：00392_suru⟧: does nothing but play games\n\nPATTERN 3 — \"ABOUT / APPROXIMATELY\" (number + ばかり):\nIndicates rough quantity. Somewhat literary.\n- ⟦{三日|みっか}→三日：02969_mikka⟧ばかり: about three days\n- ⟦{十人|じゅうにん}→十人：28475_juunin⟧ばかり: about ten people\n\nCONTRAST WITH ⟦だけ→〜だけ：03093_dake⟧:\nBoth can mean \"only,\" but ⟦だけ→〜だけ：03093_dake⟧ simply states the limit, while ばかり adds the speaker's sense that it is one-sided or excessive. ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦だけ→〜だけ：03093_dake⟧⟦{食|た}べる→食べる：00396_taberu⟧ (eats only vegetables - a plain fact) vs. ⟦{野菜|やさい}→野菜：02265_yasai⟧ばかり⟦{食|た}べる→食べる：00396_taberu⟧ (eats nothing but vegetables - the speaker finds it lopsided).\n\nCASUAL VARIATIONS:\n- ばっかり: colloquial\n- ばっか: very casual, sometimes rude",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03093_dake",
+      "reading": "だけ",
+      "headword": "〜だけ",
+      "label": "plain limit, without the critical nuance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09959_shika",
+      "reading": "しか",
+      "headword": "しか",
+      "label": "only (requires a negative predicate)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:54:27Z",
-    "modified": "2026-06-29T21:25:48Z",
+    "modified": "2026-08-11T15:25:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

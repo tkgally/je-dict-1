@@ -153,10 +153,10 @@
       ]
     }
   ],
-  "notes": "{洗面|せんめん} specifically refers to face-washing. In Japanese homes, the ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧ (washroom) is typically a separate room from the toilet.\n\nCOMMON COMPOUNDS:\n- ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧: washroom (room for washing face/hands)\n- ⟦{洗面台|せんめんだい}→洗面台：04988_senmendai⟧: washbasin, sink\n- ⟦{洗面器|せんめんき}→洗面器：29668_senmenki⟧: wash basin (portable bowl)\n- {洗面|せんめん}⟦セット→セット：03853_setto⟧: toiletry set\n\nJAPANESE HOME LAYOUT:\n- ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧: washroom (sink area)\n- ⟦お{風呂|ふろ}→お風呂：00802_ofuro⟧: bathroom (for bathing)\n- ⟦トイレ→トイレ：00818_toire⟧/⟦{お手洗|てあら}い→手洗い：12761_tearai⟧: toilet\n\nThese three are typically separate in Japanese homes.",
+  "notes": "{洗面|せんめん} specifically refers to face-washing. In Japanese homes, the ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧ (washroom) is typically a separate room from the toilet.\n\nCONTRAST WITH ⟦{洗顔|せんがん}→洗顔：21254_sengan⟧:\n⟦{洗顔|せんがん}→洗顔：21254_sengan⟧ is the ordinary word for the act of washing the face and the one used on cleanser packaging. {洗面|せんめん} is stiffer and mostly appears in compounds naming the fixtures and the room, or in set descriptions of a morning routine.\n\nCOMMON COMPOUNDS:\n- ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧: washroom (room for washing face/hands)\n- ⟦{洗面台|せんめんだい}→洗面台：04988_senmendai⟧: washbasin, sink\n- ⟦{洗面器|せんめんき}→洗面器：29668_senmenki⟧: wash basin (portable bowl)\n- {洗面|せんめん}⟦セット→セット：03853_setto⟧: toiletry set\n\nJAPANESE HOME LAYOUT:\n- ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧: washroom (sink area)\n- ⟦お{風呂|ふろ}→お風呂：00802_ofuro⟧: bathroom (for bathing)\n- ⟦トイレ→トイレ：00818_toire⟧/⟦{お手洗|てあら}い→手洗い：12761_tearai⟧: toilet\n\nThese three are typically separate in Japanese homes.",
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-07-07T00:18:40Z",
+    "modified": "2026-08-11T15:25:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -171,5 +171,28 @@
       ],
       "verb_class": "suru"
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21254_sengan",
+      "reading": "せんがん",
+      "headword": "{洗顔|せんがん}",
+      "label": "face washing (the everyday word)"
+    },
+    {
+      "type": "related",
+      "target_id": "17618_senmenjo",
+      "reading": "せんめんじょ",
+      "headword": "{洗面所|せんめんじょ}",
+      "label": "washroom"
+    },
+    {
+      "type": "related",
+      "target_id": "04988_senmendai",
+      "reading": "せんめんだい",
+      "headword": "{洗面台|せんめんだい}",
+      "label": "washbasin, sink"
+    }
+  ]
 }
