@@ -2,13 +2,13 @@
   "entry_id": "01802_karera",
   "headword": "{彼|かれ}ら",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:34:33Z",
+  "reviewed_at": "2026-08-11T00:24:12Z",
   "summary": {
     "flagged": 2
   },
@@ -17,14 +17,14 @@
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss implies '彼ら' exclusively refers to males, which is misleading. While it can refer to males, it is also commonly used for mixed groups or even exclusively female groups, especially in more formal or written contexts, or when the gender is unknown/irrelevant.",
-      "suggestion": "they"
+      "concern": "The gloss implies '彼ら' is exclusively for male or mixed groups, which is not always true in modern Japanese.",
+      "suggestion": "they, them"
     },
     {
       "dimension": "gloss",
       "location": "definitions[0].gloss",
       "severity": "error",
-      "concern": "The gloss implies '彼ら' exclusively refers to males, which is misleading. While it can refer to males, it is also commonly used for mixed groups or even exclusively female groups, especially in more formal or written contexts, or when the gender is unknown/irrelevant.",
+      "concern": "The gloss implies '彼ら' is exclusively for male or mixed groups, which is not always true in modern Japanese.",
       "suggestion": "they, them"
     }
   ]

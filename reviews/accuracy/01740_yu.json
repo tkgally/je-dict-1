@@ -2,23 +2,15 @@
   "entry_id": "01740_yu",
   "headword": "{湯|ゆ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:33:35Z",
+  "reviewed_at": "2026-08-11T00:24:09Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'daily-life' is not a valid semantic tag.",
-      "suggestion": "Replace 'daily-life' with a valid tag from the provided list. 'general' or 'consumption' could be appropriate depending on the primary focus."
-    }
-  ]
+  "issues": []
 }

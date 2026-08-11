@@ -1195,3 +1195,19 @@ All 27 observations cleared.)_
   dictionary: 00175 可能 links it as 09497_na while 01120 特別 and 01674 適当 had it naked in every
   example until this run. A detector for `\{[^}]+\}な` immediately following a na-adjective headword
   (POS `adjective-na`, な not inside ⟦⟧) would quantify the backlog.
+
+- [pattern] Stale-`noentry` sweep, entries 01440–02229: a false-positive family that class R
+  cannot see — **proper names whose target entry carries only the common-noun sense**
+  (⟦朝日⟧ in 朝日新聞 → 23495_asahi "morning sun"; ⟦毎日⟧ in 毎日新聞 → 00729_mainichi "every
+  day"). Readings agree, so no mechanical check catches it. Contrast place names used as
+  place names (上野動物園 → 28394_ueno), which are correct. Discriminator: does the target
+  entry cover the proper-noun sense?
+- [tooling] `check_stale_noentry.py` could emit a `proper_name_risk` column by flagging
+  markers whose surrounding text puts the base immediately before a name-forming suffix
+  (新聞/銀行/大学/株式会社) while the sole candidate entry's gloss carries no proper-noun
+  sense. That would surface the family above without a per-entry read.
+- [pattern] Whole-entry accuracy review is a poor §4 instrument for link-only runs: of 19
+  error-severity flags on 45 changed entries, 17 were pre-existing tag-narrowness or gloss
+  nits unrelated to the edit, and 0 concerned a link target. A `--dimensions links` mode
+  (judge each ⟦…⟧ target against the sentence it sits in) remains the missing instrument —
+  same conclusion the 2026-08-09 run reached, now with a second data point.

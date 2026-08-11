@@ -2,13 +2,13 @@
   "entry_id": "01491_nougyou",
   "headword": "{農業|のうぎょう}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:49:21Z",
+  "reviewed_at": "2026-08-11T00:23:56Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for a specific field like agriculture.",
-      "suggestion": "work"
+      "concern": "The semantic tag 'general' is too broad for '農業'.",
+      "suggestion": "Replace 'general' with 'work'."
     }
   ]
 }

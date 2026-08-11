@@ -2,13 +2,13 @@
   "entry_id": "01953_sorou",
   "headword": "{揃|そろ}う",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:36:37Z",
+  "reviewed_at": "2026-08-11T00:24:22Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tags 'clothing', 'furniture', and 'tool' are too specific and do not represent the general meaning of '揃う'.",
-      "suggestion": "Replace with 'general' or 'descriptive'."
+      "concern": "The semantic tags 'clothing', 'furniture', and 'tool' are too specific and misleading for the general meaning of '揃う' (to be complete, to be uniform). While these items *can* be complete or uniform, the word itself does not inherently relate to these categories.",
+      "suggestion": "Replace 'clothing', 'furniture', and 'tool' with 'general' or 'descriptive'."
     }
   ]
 }

@@ -2,13 +2,13 @@
   "entry_id": "01842_oi",
   "headword": "{老|お}い",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:35:01Z",
+  "reviewed_at": "2026-08-11T00:24:13Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'people' is incorrect for the headword '老い' (old age, aging).",
-      "suggestion": "The headword '老い' refers to a state or process, not a person. A more appropriate tag would be 'existence' or 'general'."
+      "concern": "The semantic tag 'general' is too broad for a concept like 'old age'.",
+      "suggestion": "time-period"
     }
   ]
 }
