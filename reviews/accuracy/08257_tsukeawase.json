@@ -1,0 +1,24 @@
+{
+  "entry_id": "08257_tsukeawase",
+  "headword": "{付|つ}け{合|あ}わせ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:33:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'restaurant' is not a valid semantic tag.",
+      "suggestion": "Remove 'restaurant' or replace it with a valid tag if applicable (e.g., 'consumption' or 'daily-life' if the context is broader than just cooking/food)."
+    }
+  ]
+}

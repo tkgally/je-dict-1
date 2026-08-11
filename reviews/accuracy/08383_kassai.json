@@ -1,0 +1,24 @@
+{
+  "entry_id": "08383_kassai",
+  "headword": "{喝采|かっさい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:36:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'performance' is not in the valid tag list.",
+      "suggestion": "entertainment"
+    }
+  ]
+}

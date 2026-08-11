@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T12:55:26Z",
+  "reviewed_at": "2026-08-11T21:37:38Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "warn",
-      "concern": "Tag 'document' is not in the valid tag list.",
-      "suggestion": "Replace 'document' with 'general' or 'business'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'commerce' is not in the valid tag list.",
-      "suggestion": "Replace 'commerce' with 'business' or 'economics'."
+      "concern": "Invalid semantic tag 'document'.",
+      "suggestion": "Replace 'document' with 'general' or 'work'."
     }
   ]
 }

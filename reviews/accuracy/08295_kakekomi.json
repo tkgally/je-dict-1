@@ -1,0 +1,24 @@
+{
+  "entry_id": "08295_kakekomi",
+  "headword": "{駆|か}け{込|こ}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:39:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'safety' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

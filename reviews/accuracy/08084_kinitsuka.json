@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T12:55:39Z",
+  "reviewed_at": "2026-08-11T21:29:07Z",
   "summary": {
     "flagged": 2
   },
@@ -17,15 +17,15 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'quality' is not a valid semantic tag.",
-      "suggestion": "Replace 'quality' with a valid tag from the list."
+      "concern": "The tag 'quality' is not in the valid tag list.",
+      "suggestion": "change 'quality' to 'general' or 'descriptive'"
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'process' is not a valid semantic tag.",
-      "suggestion": "Replace 'process' with 'action' as it describes the act of making uniform."
+      "concern": "The tag 'process' is not in the valid tag list.",
+      "suggestion": "change 'process' to 'action' or 'general'"
     }
   ]
 }

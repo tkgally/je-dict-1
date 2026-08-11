@@ -8,31 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T12:55:25Z",
+  "reviewed_at": "2026-08-11T21:37:37Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'office' is not in the valid tag list.",
-      "suggestion": "general"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'stationery' is not in the valid tag list.",
-      "suggestion": "general"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'environment' is not in the valid tag list.",
-      "suggestion": "general"
+      "severity": "error",
+      "concern": "The tag 'environment' is not a valid semantic tag.",
+      "suggestion": "Remove 'environment' or replace it with a valid tag from the provided list if applicable. 'daily-life' or 'general' might be suitable if a replacement is needed."
     }
   ]
 }

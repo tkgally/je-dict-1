@@ -1,0 +1,31 @@
+{
+  "entry_id": "08374_zetsuen",
+  "headword": "{絶縁|ぜつえん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:36:19Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'relationship' is not in the valid tag list.",
+      "suggestion": "Replace 'relationship' with a valid tag like 'society' or 'general'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'technical' is not in the valid tag list.",
+      "suggestion": "Replace 'technical' with a valid tag like 'science' or 'technology'."
+    }
+  ]
+}

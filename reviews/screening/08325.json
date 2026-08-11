@@ -1,14 +1,8 @@
 {
   "entry_id": "08325",
-  "screened_at": "2026-06-22T03:26:45Z",
+  "screened_at": "2026-08-11T21:28:39Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The entry is for {渇水|かっすい}, but the first pair is 渇水 → かっすい, which is the full word. The reading should only cover the kanji portion. Therefore, 渇 should be かっ and 水 should be すい. The entry itself is correct, but the first pair is not following the specified format.",
-    "Pair 6: 下 → さ. The reading for 下 in 下がり is さが. The provided reading 'さ' is a partial reading, but the instruction states 'Do NOT flag partial readings as errors — they are correct by design.' However, the example {走|はし}る means 走=はし, where 'る' is okurigana. In this case, 'がり' is okurigana, so '下' should be 'さ'. This is consistent with the example. No error here.",
-    "Pair 11: 渇 → かつ. This is a correct reading for the kanji 渇.",
-    "Pair 12: 水 → すい. This is a correct reading for the kanji 水.",
-    "Pair 15: 干 → かん. This is a correct reading for the kanji 干."
-  ],
-  "confidence": 0.9
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

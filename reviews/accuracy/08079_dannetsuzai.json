@@ -8,37 +8,23 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T12:55:35Z",
+  "reviewed_at": "2026-08-11T21:37:40Z",
   "summary": {
-    "flagged": 4
+    "flagged": 2
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "warn",
-      "concern": "Tag 'housing' is not in the valid tag list.",
-      "suggestion": "building"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'construction' is not in the valid tag list.",
-      "suggestion": "building"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
       "concern": "Tag 'material' is not in the valid tag list.",
-      "suggestion": "general"
+      "suggestion": "tool"
     },
     {
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The term '断熱材' (dannetsuzai) is a common technical term, but not inherently 'formal' in everyday usage. It's more neutral.",
+      "concern": "The formality 'formal' is incorrect for this headword.",
       "suggestion": "neutral"
     }
   ]

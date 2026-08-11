@@ -1,0 +1,24 @@
+{
+  "entry_id": "08309_kaedama",
+  "headword": "{替|か}え{玉|だま}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:34:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'ramen' is not in the valid tag list.",
+      "suggestion": "food"
+    }
+  ]
+}

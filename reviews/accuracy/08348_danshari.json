@@ -1,0 +1,38 @@
+{
+  "entry_id": "08348_danshari",
+  "headword": "{断捨離|だんしゃり}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:35:42Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'lifestyle' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'organizing' is not in the valid tag list.",
+      "suggestion": "action"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'philosophy' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

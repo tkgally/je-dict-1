@@ -1,0 +1,31 @@
+{
+  "entry_id": "08350_manindensha",
+  "headword": "{満員電車|まんいんでんしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:35:45Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'commuting'.",
+      "suggestion": "Replace 'commuting' with 'daily-life' or 'movement'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'urban_life'.",
+      "suggestion": "Replace 'urban_life' with 'daily-life' or 'society'."
+    }
+  ]
+}

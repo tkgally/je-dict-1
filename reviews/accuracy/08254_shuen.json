@@ -1,0 +1,31 @@
+{
+  "entry_id": "08254_shuen",
+  "headword": "{主演|しゅえん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:33:15Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'film' is not in the valid tag list.",
+      "suggestion": "art"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'theater' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

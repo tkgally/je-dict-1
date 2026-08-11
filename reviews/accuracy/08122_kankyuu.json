@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-21T12:56:17Z",
+  "reviewed_at": "2026-08-11T21:30:06Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The main gloss combines two distinct meanings without clear separation, which could confuse a learner. 'Slow and fast; modulation' is one sense, and 'emergency' is a completely different sense.",
-      "suggestion": "Separate the two distinct meanings in the main gloss, perhaps using a semicolon or 'or' to indicate separate senses, or by listing the primary sense first."
-    },
-    {
       "dimension": "tags",
-      "location": "tags.formality",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword 緩急 is not inherently 'formal'. While it appears in some formal contexts, it's also used in everyday sports and music discussions. 'Neutral' would be more appropriate.",
-      "suggestion": "neutral"
+      "concern": "The tag 'music' is too specific for the headword's general meaning of 'slow and fast' or 'modulation', which applies to various contexts beyond music. The tag 'sports' is also too specific. The tag 'expression' is too vague.",
+      "suggestion": "Replace 'music', 'sports', and 'expression' with 'general' or 'descriptive' to better reflect the broad applicability of the term."
     }
   ]
 }

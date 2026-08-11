@@ -1,0 +1,24 @@
+{
+  "entry_id": "08253_kakinaguru",
+  "headword": "{書|か}き{殴|なぐ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-11T21:33:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'writing' is not in the valid tag list.",
+      "suggestion": "communication"
+    }
+  ]
+}
