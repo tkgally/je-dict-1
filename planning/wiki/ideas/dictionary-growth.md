@@ -67,6 +67,29 @@ The existing entry schema is optimized for vocabulary: senses, example sentences
 
 ### Proposed approach for proper names
 
+**DECIDED 2026-08-11 (curator).** Proper nouns are in scope and the answer to almost every
+question below turned out to be "no new format." What shipped:
+
+| Question this section asked | What was decided |
+|---|---|
+| Lighter example requirements? | **No.** Proper nouns take the ordinary example and collocation requirements. The names worth entering are the ones with collocational behaviour to demonstrate, so the requirement selects the right headwords rather than obstructing them. |
+| Encyclopedic notes? | **No.** Notes describe *language use* as in every other entry; referent facts belong in [expository articles](expository-articles.md). Non-obvious readings and register are in scope because they are language facts. |
+| A new tag category? | **Yes, as ordinary tags** — `proper-noun` plus one of `place-name`, `person-name`, `organization-name`, `work-name`, `event-name`, `brand-name`. Filtering and browsing work through the existing tag machinery, not a parallel one. |
+| Schema changes (relaxed validation / separate schema / `entry_type`)? | **None of the three.** `build/schema.json` is unchanged; proper nouns validate as ordinary entries. |
+| Which names first? | **Collocationally and semantically rich ones** — names that carry usage beyond their referent. This supersedes the "when the time comes" ordering below, which stays as useful heuristics within that filter. |
+
+The one problem the decision did **not** dissolve is a collision, not a format issue: a proper
+noun whose surface *and* reading exactly match an existing common-noun entry is rejected by
+`check_duplicate.py`'s exact word+reading rule (03515 {日光|にっこう} "sunlight" blocks the place
+Nikko). The resolution is to add the proper-noun sense to the existing entry during polish, not
+to create a second entry — the same shape as any other polysemy case.
+
+The **priority** verdict below ("low for now") is also superseded: discovery runs actively
+solicit proper nouns as of 2026-08-11 rather than deferring them behind comprehensive
+vocabulary coverage.
+
+Original 2026 analysis, kept for the reasoning:
+
 A different entry format may be needed. Considerations:
 
 **Lighter example requirements**: Proper names don't need 3+ progressive examples per sense. One or two examples showing typical usage patterns (e.g., how 東京 appears in sentences with particles) may suffice. The emphasis should shift from demonstrating collocational behavior to showing the word in natural context.

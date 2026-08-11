@@ -1115,183 +1115,56 @@ days.
 
 All 27 observations cleared.)_
 
-- [pattern] **Review-queue depth has been the headline health metric for four refreshes and is
-  35% padding.** Measured 2026-08-10: 3,513 of 9,932 queued entries already carry an
-  `reviews/accuracy/` report newer than the entry's `metadata.modified`. Much of the padding is
-  self-inflicted — the §4 at-birth self-check reviews every new entry, and CI then queues those
-  same entries for the review they just had. The trend direction survives (the padding is
-  roughly proportional) but the level does not. Flagging here as a metric moving the wrong way
-  per the wiki mode's activity-H instruction; the fix is Tooling 94's one-line predicate.
-- [pattern] **The frontier-versus-growth gap reopened to 42%** (+43 entries against +18 frontier
-  IDs), from 76% last window. This was predicted in the 33rd refresh and is not itself alarming —
-  the frontier's absolute rate (18–29 IDs/window) is the stable quantity and the ratio moves with
-  candidate supply. Recording it so the next harvest can check whether 18 IDs/window is the new
-  frontier rate or a one-window dip; two consecutive windows below 20 would be a real slowdown.
-- [pattern] **A second, distinct tag-contamination class: off-vocabulary tags in a contiguous
-  creation batch (07472–07501, plus 07551–07565).** The 2026-08-10 (003) run reported that the
-  06926–07265 band's wrong tags were *all in-vocabulary* (invisible to `validate_tags.py`). The
-  very next band inverts that: 36 entries carry tags that are simply **not in `VALID_SEMANTIC`** —
-  `document` (8), `food-cooking` (6), `culinary-technique` (6), `food-ingredient` (4),
-  `japanese-food` (4), `office-equipment`, `infrastructure`, `employment`, `housing`, `object`,
-  `business-process`, `office-supply`, `consumable`, `administrative`, `tax`, `performance`,
-  `process`, `machine`, `consumable`… Every one sits in a themed run of consecutive IDs (kitchen
-  cuts 07472–07481, office documents 07482–07494, home/utilities 07495–07501), i.e. the creating
-  session invented a local taxonomy per topic batch and never checked it against the closed list.
-  **These are invisible to the CI ratchet** because `--check-no-new-unknown` grandfathers them
-  into `unknown_semantic_baseline.json`; the ratchet only blocks *new* ones. The same run reports
-  **1,812 entries dictionary-wide still carrying baselined off-vocab tags** — that is a
-  batch-ready `systemic-fix` target with a ready detector
-  (`build/check_tag_drift.py --check unknown-semantic`), and it is mostly 1:1 mechanical
-  (`document`→`business`+`communication`, `employment`→`work`, `housing`→`building`, …).
-- [pattern] **P11 in-vocabulary wrong-category tags run continuously from 06926 to at least 07430.**
-  This run corrected **57** of them in the 07266–07430 stretch (`transportation` on 虚栄心/進捗/捗る,
-  `furniture` on 目処/初対面/日常茶飯事, `electronics` on 愛嬌/同人誌/待ち合わせ, `animal-insect`
-  on けだるい, `color` on 音色, `geography` on 宿命/井戸端会議, `existence` on ひらめく/揉める).
-  Two consecutive bands at ~30% correction rate means the contaminated block is at least 500
-  entries wide and crawling it at ~300 entries/run will take ~7 more runs; a dedicated
-  `systemic-fix` sweep over 06926–07600 would finish it in one or two.
-- [tooling] **Formality-vs-REGISTER-note contradiction is mechanically detectable — no API call
-  needed.** Of 19 formality flags this run, **13 were confirmed by reading the entry's own REGISTER
-  sentence** (`formality: formal` on しんどい whose note reads "Casual. Very common in everyday
-  conversation"; `vulgar` on むしゃむしゃ whose note reads "Casual"), and the **6 rejections were
-  equally mechanical** (the note said "Neutral to formal", supporting the label). A detector that
-  compares the `formality` tag against the first sentence of the REGISTER section — matching
-  casual/colloquial/everyday → `informal`, "Neutral to…" → `neutral`, formal/official/legal →
-  `formal` — reproduces every one of this run's 19 adjudications for free. Proposed as a tooling
-  backlog item; it would let accuracy-review spend its budget on glosses instead.
-- [tooling] **Stale furigana screening results should be auto-closed, not re-adjudicated.** All
-  **38** screening flags in 07266–07565 were written 2026-06-19 and never deep-reviewed. Every one
-  was verified false this run **without any API spend**, by extracting the actual `{kanji|reading}`
-  pairs from the entry files: the "incomplete reading" family (裁量→さいりょ, 同人誌→どうじん,
-  不可思議→ふか, 逡巡→しゅんじゅ, 調味料→ちょ) is an artifact of the screener's *truncated display
-  string*, not of the entries, which all hold the full reading; the rest are correct rendaku
-  (赤っ{恥|ぱじ}, 酔っ{払|ぱら}い, だし{醤油|じょうゆ}, {晴|ば}れ) or the documented index-confusion
-  bug. A verification step that re-reads the entry before queueing a deep pass would have closed
-  all 38 at zero cost — worth adding to `review_runner.py` before any further screening spend.
-- [pattern] **The "general is too broad / in-list narrowness" family was rejected for the third
-  consecutive sweep (41 flags this run).** It is now reliably ~25–27% of all tag-flag volume, and
-  the standing §A policy rejects it by definition, so every sweep pays adjudication cost for a
-  foregone conclusion. Two clean fixes, either of which ends the recurrence: teach the reviewer
-  prompt that `general` is an accepted fallback and that in-list narrowness substitutions are out
-  of scope, **or** the curator decides `general` is not acceptable as a sole tag and it becomes a
-  deterministic detector instead of an API question. This is the fourth filing; it needs a
-  decision, not another observation.
+_(2026-08-11 wiki (Routine v2) harvest: processed all 27 observations from the 2026-08-10
+metrics refresh, the 2026-08-10 polish (008) and stale-`noentry` runs, the 2026-08-11 polish
+06865-06875 run, and the 2026-08-11 accuracy-review of 07566-08065. Two of them did not survive
+verification and the corrections are the most valuable output of this harvest.
 
-## 2026-08-10 — routine polish (008)
+**Verified before filing, and the observation was wrong — twice.**
+- *"A contiguous block of 25 entries (07832-07861) with no semantic tags at all, which no
+  current check reports."* Re-measured across all 30,365 entry files: **zero** such entries in
+  07566-08065; the dictionary-wide population is **79** (19 basic / 4 core / 56 general, down
+  from 105 on 2026-08-04) and its real blocks are 08635-08659 (13), 03948-03969 (12),
+  02814-02924 (10), 08812-08840 (10). The reporting run's own `[pattern]` note explains it: its
+  census read `entry["tags"]` instead of `entry["metadata"]["tags"]`, which returns `{}` silently
+  — the same bug that made it report 0 off-vocabulary tags for a band that had 208. One buggy
+  census produced a false negative and a false positive in the same run and both were filed as
+  findings. Filed as a bounded 79-entry queue item + tooling 101 (assert the field was found).
+- *"The furigana screener's prompt builder still passes a truncated window; 85 flags, 0 true
+  positives, third consecutive sweep."* The prompt builder is **correct** — `trim_context()` was
+  fixed 2026-07-30 and the pair itself was never windowed. The quoted flag lives in
+  `reviews/screening/07586.json` dated **2026-06-19**. Measured: **19,368 of 22,822 stored
+  screening results (85%) predate the fix**, carrying 1,950 flags; post-fix results flag at
+  **4.9%** against **10.1%** before, i.e. the fix worked and halved the rate. Three sweeps have
+  been re-adjudicating June output and attributing its 0% precision to the current instrument,
+  so *every* post-fix precision figure on record — including the retirement case's "0 applied of
+  ~158 flags" — is contaminated. Filed as instrument-defects case 8 + tooling 102 (version-stamp
+  the cache); tooling 24's retire-or-downsample decision is explicitly not yet evaluable.
 
-- [pattern] The sentence-final prohibitive な (as in {言|い}うな "don't say") has no entry and cannot be
-  added as a candidate: `manage_candidates.py check "な" "な"` reports an exact duplicate against
-  09497_na (the na-adjective attributive copula), which occupies the same surface and reading. Result:
-  every prohibitive な in an example has to be marked `noentry` with no candidate trail. Seen in 01674.
-  Either 09497_na should gain a second sense for the prohibitive, or a separate entry is needed and the
-  duplicate checker needs a way to express "same surface, different word."
-- [pattern] Unpolished frontier verb/adjective entries in the 06860–06880 block share an identical
-  shape: zero inline links anywhere, zero `cross_references`, and notes that open with a hand-written
-  three-line conjugation list (negative / te-form / past) duplicating the `conjugation` field. Removing
-  that list and writing a real FORMATION / TRANSITIVITY / SIMILAR WORDS body is now the standard work
-  for this range. A [tooling] detector for "notes begins with a ・<headword> → <headword>ない list"
-  would find the whole population at once.
-- [tooling] The `な` attributive after a na-adjective headword is inconsistently linked across the
-  dictionary: 00175 可能 links it as 09497_na while 01120 特別 and 01674 適当 had it naked in every
-  example until this run. A detector for `\{[^}]+\}な` immediately following a na-adjective headword
-  (POS `adjective-na`, な not inside ⟦⟧) would quantify the backlog.
+**Filed to the backlogs.** P20 off-vocabulary tags re-measured post-migration (2,065 flags /
+1,603 entries) and confirmed as a class distinct from P11, with the ratchet blind by design;
+P11 in-vocabulary wrong-category tags confirmed continuous 06926-07430+ (57 corrected, second
+band at ~30%) — both pointing at one dedicated `systemic-fix` sweep instead of per-band review;
+P43 took a third confirming cohort (06865-06875 at zero link coverage) alongside 5 sole-general
+tags and 5 notes-name-a-word-but-`cross_references`-is-empty cases in the same eleven entries;
+formality-vs-REGISTER recorded as a *cost* argument (19/19 adjudications reproducible for free)
+without overturning the 2026-08-10 finding that the rule itself needs no change. New tooling
+items 101-104 (census assertions, screening-cache expiry, `proper_name_risk` column, the
+copula-で / na-adjective-な linking traps + the single-kanji-morpheme skill gap).
 
-- [pattern] Stale-`noentry` sweep, entries 01440–02229: a false-positive family that class R
-  cannot see — **proper names whose target entry carries only the common-noun sense**
-  (⟦朝日⟧ in 朝日新聞 → 23495_asahi "morning sun"; ⟦毎日⟧ in 毎日新聞 → 00729_mainichi "every
-  day"). Readings agree, so no mechanical check catches it. Contrast place names used as
-  place names (上野動物園 → 28394_ueno), which are correct. Discriminator: does the target
-  entry cover the proper-noun sense?
-- [tooling] `check_stale_noentry.py` could emit a `proper_name_risk` column by flagging
-  markers whose surrounding text puts the base immediately before a name-forming suffix
-  (新聞/銀行/大学/株式会社) while the sole candidate entry's gloss carries no proper-noun
-  sense. That would surface the family above without a per-entry read.
-- [pattern] Whole-entry accuracy review is a poor §4 instrument for link-only runs: of 19
-  error-severity flags on 45 changed entries, 17 were pre-existing tag-narrowness or gloss
-  nits unrelated to the edit, and 0 concerned a link target. A `--dimensions links` mode
-  (judge each ⟦…⟧ target against the sentence it sits in) remains the missing instrument —
-  same conclusion the 2026-08-09 run reached, now with a second data point.
-- [pattern] The corpus-harvested part of `candidate_words.json` (the Feb–May 2026 bulk, ~970
-  of 984 entries) is largely unusable as a source of new headwords: a scan of several hundred
-  found mostly nonce compounds (些道, 個尊, 怒燥, 内疎外内), compositional phrases (歩き続ける,
-  効率が悪い), inflected forms filed as words (強く, 知らない, 与えられる), and wrong glosses
-  (アンパッサン → "ice cream sundae", 尾張 → "end, finish"). A `new-entries` run that follows
-  "oldest unprocessed candidate first" past the 13 `seen in entry` items will start writing
-  entries for words that are not words. Two things would help: a curator restock of real
-  headwords, and a pass that deletes the harvested noise so `candidate_count` stops
-  overstating how much usable work is queued (the selector reported "candidates plentiful"
-  on a pool with ~13 usable items).
-- [tooling] `pipeline/routine_next.py`'s `candidates_low` signal counts raw candidates. A
-  quality-weighted count — e.g. candidates carrying a `seen in entry` note, or added since
-  the last curator restock — would let the selector tell "984 queued words" apart from
-  "984 rows, 13 of them usable".
-- [wiki] Curator decision 2026-08-11: proper nouns are IN scope (place/person/organization/
-  work/event/brand names, collocationally/semantically rich ones prioritized), the corpus-junk
-  candidate queue was purged (archive: planning/archive/candidate-cleanup-2026-08-11.json), and
-  candidate discovery is now the verified-restock `candidates` Routine mode. Pages to update:
-  project/open-issues.md (proper-noun exclusion §, candidate junk-families §),
-  ideas/dictionary-growth.md (proper-noun design — implemented with tags proper-noun +
-  place-name/person-name/organization-name/work-name/event-name/brand-name),
-  project/vocabulary-tiers.md (person-name question answered), and the ideas/entry-followups.md
-  "proper-noun scope" thread (sixth filing — resolved; 夏目漱石 no longer needs a ruling).
-- [pattern] Post-cleanup, candidate_words.json's raw count IS the usable count (every row
-  vetted), so routine_next.py's candidate signals are trustworthy again — the 2026-08-11
-  [tooling] ask for a quality-weighted count is resolved by construction.
-- [entry] 03515 日光 covers only "sunlight"; the place Nikko is blocked from the candidate
-  queue by the exact word+reading duplicate rule. Consider adding the place sense to 03515
-  during polish (proper-noun tags would then apply to that sense's entry).
+**Curator decisions recorded.** Proper nouns are IN scope as of 2026-08-11 — written into
+project/open-issues.md (both the proper-name section and the candidate-quality section, now
+RESOLVED), ideas/dictionary-growth.md (a decision table: no schema change, no relaxed examples,
+ordinary tags), project/vocabulary-tiers.md (the person-name question, sixth filing, answered),
+and ideas/entry-followups.md (thread closed; 夏目漱石 needs no ruling). The candidate-pool
+contamination thread closes with it: the corpus-harvested bulk was purged, so the raw candidate
+count is now the usable count and the requested quality-weighted signal is resolved by
+construction. Two entry follow-ups added: 03515 日光 (add the Nikko sense) and the prohibitive
+な, which cannot be queued at all because `check_duplicate.py` sees an exact word+reading match
+against 09497_na — the same homograph-collision class as 日光.
 
-## 2026-08-11 — routine polish 06865–06875
+**Escalated.** The "general is too broad" reviewer-flag family, at ~25-30% of tag-flag volume
+for the fifth consecutive filing, went to `reviews/needs_curator.txt` as a two-option decision
+rather than a sixth observation.
 
-- [pattern] The entire 06865–06875 block (na-adjectives and compound nouns created
-  2026-01-18) arrived with **zero inline link coverage** in both examples and notes.
-  Full coverage is a tier-1 requirement, so each entry cost far more than a
-  maintenance pass would. If the whole 06800s–06900s range predates the coverage
-  requirement, a targeted inline-link sweep over that band would be cheaper per
-  entry than discovering it one entry at a time on the comprehensive frontier.
-- [pattern] Sole-`general` semantic tags in 5 of 11 entries (06870 世帯, 06871 手掛かり,
-  06873 取り柄, 06874 言い分, plus 06869 窮屈 mis-tagged `emotion`). All were replaceable
-  with precise in-list tags. `check_tag_drift.py --summary` already detects the
-  sole-general family; this block suggests the same-era ranges are worth a batch.
-- [pattern] Five of eleven entries named a synonym or antonym in their notes but had
-  that word absent from `cross_references` (06865 and 06869 had entirely empty lists
-  while their notes carried an explicit ANTONYM section). A detector that compares
-  SIMILAR WORDS / ANTONYM / CONTRAST note sections against the cross-reference list
-  would surface these mechanically.
-- [skill] `inline-word-links` gives no rule for single-kanji morphemes cited inside
-  FORMATION / ETYMOLOGY sections (e.g. {軽|けい} + {率|そつ}). They are not words in
-  use, so linking them is wrong and marking them `noentry` would pollute the candidate
-  queue with bound morphemes. This run left them unlinked. The skill should say so
-  explicitly, otherwise different sessions will resolve it differently.
-- [tooling] The te-form of the copula ("性格で、") is graphically identical to the
-  particle で. Linking it to 00502_de (location/means) is a semantic error that no
-  validator catches. Worth a note in the linking skill and possibly a detector.
-
-## 2026-08-11 — routine(accuracy-review), entries 07566-08065
-
-- [tooling] The furigana **screening** pass reports readings from a truncated display
-  string, not from the entry file. Of 85 flags across 60 entries in this band, the
-  cited pair did not exist in the entry in every "incomplete reading" case
-  (e.g. it flagged `{空席|くうせ}`; the entry holds `{空席|くうせき}`). The rest were
-  correct rendaku (`{買|が}い` in まとめ買い, `{時計|どけい}` in 仕掛け時計) or readings the
-  entry itself documents as variants (07958 粗利/そり). **Zero true positives, third
-  consecutive sweep at ~0% precision.** The screener's prompt builder should pass the
-  full `{kanji|reading}` pair rather than a fixed-width window; until then the deep
-  pass over already-polished ranges is not worth its budget.
-- [pattern] **A census script that reads `entry["tags"]` silently finds nothing** —
-  tags live at `entry["metadata"]["tags"]`. This run's first census reported "0 entries
-  with off-vocabulary tags" for a band that actually had 208. The wrong-path read
-  returns an empty dict rather than raising, so the check looks like a clean result.
-  Any new detector should assert that it found the field at all before reporting zero.
-- [pattern] Two distinct semantic-tag defects coexist in batch-created bands, and only
-  the first is visible to `validate_tags.py`: (a) **off-vocabulary tags** — 208 of 500
-  entries here, ~42%, an invented per-topic taxonomy (`state`, `capacity`, `household`,
-  `Japanese_cuisine`, `daily_life`); and (b) **entries with no semantic tags at all** —
-  a contiguous block of 25 (07832-07861) that no current check reports. A
-  `check_missing_semantic_tags` detector would be a cheap addition and is likely to
-  find more blocks dictionary-wide.
-- [pattern] The reviewer's "`general` is too broad" / in-list narrowness flags recurred
-  again (~30 this run), for the fourth consecutive sweep. Standing policy rejects them,
-  so they are pure adjudication cost. This needs a curator decision — either tighten the
-  reviewer prompt to stop emitting them, or change the policy — rather than a fifth
-  round of rejections.
+All 27 observations cleared.)_

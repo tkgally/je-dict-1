@@ -4354,6 +4354,193 @@ then inherits the check, and no prompt has to remember it. This is strictly bett
 prompt-side instruction the observation proposes, which would need repeating in every prompt
 that captures candidates.
 
+## Updates 2026-08-11 to existing items
+
+**Item 24 (furigana screener) — sixth, seventh and eighth data points, all zero, and the
+retirement case is now also an *arithmetic* one.** Two 2026-08-11 observations:
+
+- 07566–08065: **85 flags across 60 entries, zero true positives** — the third consecutive
+  sweep at ~0%. Every "incomplete reading" flag cited a pair that **does not exist in the entry**
+  (flagged `{空席|くうせ}`; the entry holds `{空席|くうせき}`); the rest were correct rendaku
+  (`{買|が}い` in まとめ買い, `{時計|どけい}` in 仕掛け時計) or readings the entry itself documents
+  as variants (07958 粗利/そり).
+- 07266–07565: **38 screening flags written 2026-06-19 and never deep-reviewed**, every one
+  verified false **at zero API cost** by extracting the actual `{kanji|reading}` pairs from the
+  entry files (裁量→さいりょ, 同人誌→どうじん, 不可思議→ふか, 逡巡→しゅんじゅ, 調味料→ちょ — all
+  artifacts of the truncated display string, all held complete in the entries).
+
+Both observations diagnose this as the screener's prompt builder still passing a fixed-width
+window instead of the full `{kanji|reading}` pair. **That diagnosis is wrong, and checking it
+changes the item.** `trim_context()` (`build/review_runner.py:152`) was fixed on 2026-07-30 and
+is correct today: it cuts the context back to the last wrapper boundary, and the pair itself was
+never windowed — it comes straight from the regex match. The prompt builder is fine.
+
+**What is actually happening: the fix was never applied retroactively to stored results, and
+sweeps re-adjudicate pre-fix output as though it were current.** The 07586 flag quoted above
+(「item 11, `{空席|くうせ}`, is incomplete」) sits in `reviews/screening/07586.json` with
+`screened_at: 2026-06-19` — six weeks before the fix. Measured across all stored results this
+harvest:
+
+| Stored screening results | Count | Flagged | Flag rate |
+|---|---|---|---|
+| Screened **before** the 2026-07-30 fix | 19,368 (85%) | 1,950 | **10.1%** |
+| Screened **after** the fix | 3,454 (15%) | 170 | **4.9%** |
+
+In the 07566–08065 band specifically, the run that reported "85 flags across 60 entries" was
+reading **54 pre-fix flags and 7 post-fix ones**. So the dominant false-positive family in that
+report is pre-fix residue, correctly diagnosed as an artifact — of an instrument that no longer
+produces it.
+
+Two consequences, and the second is the important one:
+
+1. **The fix worked, by the only measure available**: the flag rate halved, 10.1% → 4.9%.
+2. **Every "post-fix precision" figure on this page is contaminated**, including the "0 applied
+   of ~158 flags across eight consecutive runs" above — those runs adjudicated a majority of
+   pre-fix flags in an unmeasured proportion. The retire-or-downsample decision has therefore
+   never been evaluated against the fixed instrument. Before that decision is made, the honest
+   number to compute is precision over the **170 post-fix flags only**.
+
+This is the same shape as the original defect one level up: a correct fix to the instrument left
+its *stored output* carrying the old defect, and the stored output is what everyone read. Filed
+as case 8 in [Instrument Defects vs. Corpus Defects](../topics/instrument-defects.md). Item 102
+is the fix.
+
+**Item 77 (formality flags at 10%) — the family is now provably free to adjudicate.** A
+2026-08-11 accuracy-review reproduced **all 19** of its formality adjudications mechanically:
+13 confirmed and 6 rejected by reading the first sentence of the entry's own REGISTER section
+(casual/colloquial/everyday → `informal`, "Neutral to…" → `neutral`, formal/official/legal →
+`formal`). This does not change the *rule* — the 2026-08-10 cleanup-backlog update established
+that flagging only on a notes-vs-label contradiction is already correct and already what the
+reviewer does — it changes **where the rule should run**. A ~10%-precision family that costs
+OpenRouter budget every sweep can be moved to a free deterministic check with no loss of
+accuracy on this sample. Combine with queue item `tag-formality-contradicts-register-note`.
+
+**Item 90 (`--dimensions links`) — third data point, and the clearest one yet.** A 2026-08-11
+stale-`noentry` sweep reported that of **19 error-severity flags on 45 changed entries, 17 were
+pre-existing tag-narrowness or gloss nits unrelated to the edit and 0 concerned a link target**.
+A link-only run therefore pays full whole-entry review cost to verify nothing it actually did.
+Same conclusion as 2026-08-09 and 2026-08-10; the instrument remains missing.
+
+**Item 94 (review recency) — the padding is measured and the queue's headline is affected.** A
+2026-08-10 observation re-states the measurement behind this item as a metric moving the wrong
+way: **3,513 of 9,932 queued entries (35%) already carry an `reviews/accuracy/` report newer
+than the entry's `metadata.modified`**, much of it self-inflicted (the §4 at-birth self-check
+reviews every new entry, then CI queues those same entries for the review they just had). The
+review-queue depth has been the headline health metric for four `quality-metrics.md` refreshes;
+the *direction* survives the correction (padding is roughly proportional) but the *level* does
+not. One predicate fixes both the queue and the sweep cursor.
+
+**Item 95 (`general` is a legal fallback) — fourth and fifth filings; escalated to the curator.**
+Two more 2026-08-11 observations report the same family: ~41 flags in one sweep and ~30 in
+another, both rejected wholesale under the standing §A policy, both noting this is now
+**~25–30% of all tag-flag volume every sweep** and pure adjudication cost for a foregone
+conclusion. The observations are explicit that this needs a decision rather than a sixth
+filing, and they name the two clean exits: (a) teach the reviewer prompt that `general` is an
+accepted fallback and that in-list narrowness substitutions are out of scope, or (b) the curator
+rules `general` unacceptable as a sole tag, at which point it becomes a deterministic detector
+(`check_tag_drift.py --check sole-general`, already built, 3,681 flags) and stops being an API
+question either way. Escalated to `reviews/needs_curator.txt` this harvest.
+
+## 101. Any census must assert it found the field before reporting zero
+
+**Source**: 2026-08-11 accuracy-review observation, plus a verification failure this harvest.
+**Status**: open. **Effort**: trivial per script; the value is the convention.
+
+A 2026-08-11 run's first census reported "**0 entries with off-vocabulary tags**" for a band
+that actually had **208**. The cause: it read `entry["tags"]`, but tags live at
+`entry["metadata"]["tags"]`. The wrong path returns an empty dict rather than raising, so the
+defect renders as *the most reassuring possible result* — a clean bill of health, in the exact
+shape a correct run would produce.
+
+This is not a one-off. The same run's other novel finding — "a contiguous block of 25 entries
+(07832–07861) with no semantic tags at all" — **did not reproduce** when re-measured this
+harvest against `metadata.tags.semantic` (zero such entries in 07566–08065; 79 dictionary-wide,
+none in that band). One buggy census produced both a false negative and a false positive in the
+same run, and both were filed as findings.
+
+**The convention**: any ad-hoc census or new detector should assert non-emptiness on a
+known-good sample before it reports a count — e.g. fail loudly if `metadata` is absent, or if
+100% of scanned entries return an empty tag set. A zero that cannot distinguish "nothing there"
+from "looked in the wrong place" is worse than no measurement, because it gets written into the
+backlog as fact. Worth a line in the detector-writing guidance and a helper
+(`load_entry_tags(entry)`) in `build/coverage_utils.py` so no future script re-derives the path.
+
+## 102. Expire stored screening results when the screener changes — and re-read the entry before paying for a deep pass
+
+**Source**: 2026-08-11 accuracy-review observations (38 stale flags closed at zero cost; 85 flags
+at 0% precision), plus the stored-result measurement in the item 24 update above.
+**Status**: open. **Effort**: small (a date gate + a string comparison).
+**Relation to item 24**: item 24 is the retire-or-downsample *decision*; this is what has to ship
+before that decision can be evaluated honestly.
+
+**19,368 of 22,822 stored screening results (85%) predate the 2026-07-30 `trim_context()` fix**
+and carry 1,950 flags produced by a defect that no longer exists. Nothing invalidated them, so
+`--pass deep` and every adjudicating run treat them as current evidence — which is why three
+consecutive sweeps concluded "0% precision, third consecutive sweep" while actually
+re-adjudicating June output.
+
+**Two fixes, both cheap:**
+
+1. **Date-gate the cache.** Record a `screener_version` — or simply compare `screened_at`
+   against a `SCREENER_CHANGED_AT` constant bumped whenever the prompt builder changes — and
+   treat older results as absent: skip them in `--pass deep` and re-screen rather than trust
+   them. A stale result is worse than a missing one, because a missing result prompts a
+   measurement and a stale result prompts a conclusion.
+2. **Re-read the entry before queueing a deep review.** Independently of dating, drop a flag when
+   (a) the cited `{surface|reading}` pair does not appear in the entry at all, or (b) the cited
+   reading is a proper prefix of a pair the entry does contain. Both conditions are exactly the
+   truncation artifact and both are decidable by string comparison. On the 07266–07565 sample
+   this closes **38 of 38** flags for free — a run did it by hand and reported it as such.
+
+The principle is worth lifting out of this item: **paid judgment should only be spent on flags
+that survive a free mechanical check**, and any cached model output needs a version stamp, or it
+will outlive the model, the prompt, or the bug that produced it.
+
+## 103. `check_stale_noentry.py`: a `proper_name_risk` column
+
+**Source**: 2026-08-10 stale-`noentry` sweep (entries 01440–02229).
+**Status**: open. **Effort**: small.
+
+The sweep found a false-positive family that class R cannot see: **proper names whose target
+entry carries only the common-noun sense**. ⟦朝日⟧ inside 朝日新聞 resolves to 23495_asahi
+"morning sun"; ⟦毎日⟧ inside 毎日新聞 resolves to 00729_mainichi "every day". Readings agree, so
+no mechanical reading check catches it, and the link is wrong in a way a learner would feel
+immediately. Place names used *as* place names are the correct contrast case (上野動物園 →
+28394_ueno is right).
+
+**Proposed**: flag a marker when the surrounding text places the base immediately before a
+name-forming suffix (新聞 / 銀行 / 大学 / 株式会社 / 高校 / 病院) **and** the sole candidate
+entry's gloss carries no proper-noun sense. That surfaces the family without a per-entry read.
+Note this interacts with the 2026-08-11 proper-noun scope decision: as proper-noun entries are
+created, some of these resolve by the target entry gaining the sense, so the column should be
+re-run rather than acted on from a stale snapshot.
+
+## 104. Two linking traps no validator can see: copula-で and na-adjective-な
+
+**Source**: 2026-08-10 and 2026-08-11 polish observations.
+**Status**: open. **Effort**: small per detector; the skill-side note is the more urgent half.
+
+Both are cases where a correct-looking inline link is a semantic error, and nothing in
+`validate.py` or the link checkers can tell:
+
+1. **The te-form of the copula is graphically identical to the particle で.** In 「性格で、」 the
+   で is the copula, and linking it to 00502_de (location/means particle) teaches the wrong
+   word. A detector could flag ⟦で⟧→00502 where the preceding token is a noun/na-adjective stem
+   followed by a comma — a heuristic, so it belongs in a review queue, not an auto-fix.
+2. **The attributive な after a na-adjective is linked inconsistently dictionary-wide.** 00175
+   可能 links it as 09497_na; 01120 特別 and 01674 適当 had it naked in every example until the
+   2026-08-10 run. A detector for `\{[^}]+\}な` immediately following a `adjective-na` headword,
+   with the な not already inside ⟦⟧, would quantify the backlog before anyone decides which
+   convention is right — and the decision is the prerequisite, since both treatments are
+   currently defensible.
+
+Related: the `inline-word-links` skill gives no rule for **single-kanji morphemes cited inside
+FORMATION / ETYMOLOGY sections** ({軽|けい} + {率|そつ}). They are not words in use, so linking
+them is wrong, and marking them `noentry` would pollute the candidate queue with bound
+morphemes. The 2026-08-11 polish run left them unlinked, which is the right call; the skill
+should say so explicitly, or different sessions will keep resolving it differently. (Skill
+change — recorded here, not made from a wiki session.)
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address

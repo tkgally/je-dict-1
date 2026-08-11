@@ -1,6 +1,6 @@
 # Instrument Defects vs. Corpus Defects
 
-**Last updated**: 2026-07-30
+**Last updated**: 2026-08-11
 
 ## Overview
 
@@ -103,6 +103,10 @@ plus the adjudication effort of rejecting the flags one by one — and a nearly-
 to retire an instrument that was never actually being tested, since **every precision figure on
 record predates the fix**.
 
+> **Sequel (2026-08-11)**: that last sentence stayed true for twelve days *after* the fix, for a
+> reason nobody checked — 85% of stored screening results predate it and were still being read as
+> current. See [case 8](#8-the-instrument-was-fixed-its-stored-output-kept-the-defect-alive).
+
 ### 4 and 5. Two more, found while writing this page
 
 Both surfaced in the 2026-07-30 harvest, from observations proposing new tooling:
@@ -190,6 +194,56 @@ Filed as [Tooling 48](../ideas/tooling-backlog.md#48-the-7-ci-gate-cannot-distin
 The actionable part is small and is about *wording*: a timed-out run should log "checks not
 visible within the cap", not "no run was queued". The polling policy itself was already correct.
 
+### 8. The instrument was fixed; its stored output kept the defect alive
+
+**Signal** (2026-08-11, two independent observations): the furigana screener is *still* producing
+the truncated-reading family that case 3 diagnosed and fixed. One run: "85 flags across 60
+entries, **zero true positives**, third consecutive sweep at ~0%; it flagged `{空席|くうせ}` where
+the entry holds `{空席|くうせき}`." Another: "38 flags, all disproved for free by reading the
+entries." Both concluded the prompt builder still passes a truncated window and recommended
+fixing it before spending further.
+
+**Hypothesis the signal invited**: the 2026-07-30 fix regressed, was incomplete, or a second
+truncation path exists. The recommendation that followed — stop spending on the deep pass until
+the builder is fixed — was reasonable given the evidence presented.
+
+**Actual cause**: the fix is intact. `trim_context()` cuts the context back to the last wrapper
+boundary, and the pair itself was never windowed — it comes straight from the regex match. The
+flag quoted above lives in `reviews/screening/07586.json` with **`screened_at: 2026-06-19`**, six
+weeks before the fix. Nothing ever invalidated the pre-fix cache, so `--pass deep` and every
+adjudicating run keep reading June output as current evidence.
+
+Measured across all stored results:
+
+| Stored screening results | Count | Flagged | Flag rate |
+|---|---|---|---|
+| Screened **before** the 2026-07-30 fix | 19,368 (85%) | 1,950 | **10.1%** |
+| Screened **after** the fix | 3,454 (15%) | 170 | **4.9%** |
+
+In the band that produced the "85 flags" report, 54 flags were pre-fix and 7 post-fix.
+
+**What the mis-diagnosis cost, and what it still costs**: three sweeps' adjudication effort spent
+re-rejecting flags that a *previous* version of the instrument produced, plus a
+nearly-adopted second decision to stop funding a pass on the strength of it. Worse, **every
+"post-fix precision" figure on record is contaminated** — including the "0 applied of ~158 flags
+across eight consecutive runs" that the retirement case rests on — because each of those runs
+adjudicated a majority of pre-fix flags in a proportion nobody measured. The instrument has never
+actually been evaluated in its fixed state. The honest number is precision over the 170 post-fix
+flags, and it has not been computed.
+
+**Why this case is a different shape from the seven above.** In every earlier case the defect was
+*in* the instrument, and fixing the instrument ended it. Here the instrument was fixed and the
+defect continued to be observed, because instrument output had been **persisted** and outlived
+the code that produced it. A cached judgment is a claim about a program that no longer exists.
+The generalisation: **any stored model or detector output needs a version stamp**, and a
+consumer that cannot tell which version produced a record should treat it as absent. Note also
+the tell that was present and unread — the identical flag rate is not what a persistent bug looks
+like *after* a fix; a halving of it is what a successful fix looks like, and that halving was in
+the data the whole time.
+
+Filed as [Tooling 102](../ideas/tooling-backlog.md), with the item 24 update carrying the
+correction.
+
 ## What the cases have in common
 
 | | Symptom presented as | Actual locus | Cycles to find | Fix size |
@@ -200,6 +254,7 @@ visible within the cap", not "no run was queued". The polling policy itself was 
 | `check_furigana_format.py` | detector lacks a check | check exists under another name | 1 | none (rename/split) |
 | `check_artifacts.py` | detector lacks a check | a filter suppresses the subclass | 1 | one condition |
 | wiki link lint | 119 broken anchors | slug function wrong 3 independent ways | 3 (same hour) | 3 lines |
+| `review_runner.py` cache | fixed instrument still emitting old defect | 85% of stored results predate the fix | 3 sweeps | a date gate |
 
 Five properties recur:
 
