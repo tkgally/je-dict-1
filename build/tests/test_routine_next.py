@@ -35,10 +35,11 @@ def fresh_state():
 
 
 def neutral_signals():
-    # candidate_count between low/high thresholds -> no nudges triggered;
-    # open_backlog_items > 0 so systemic-fix is active.
+    # candidate_count above the low threshold (80) but below the restock
+    # threshold (150) -> no nudges triggered and the candidates mode is
+    # active; open_backlog_items > 0 so systemic-fix is active.
     return {
-        "candidate_count": 200,
+        "candidate_count": 120,
         "seen_in_entry_count": 0,
         "max_entry_id": 29000,
         "comprehensive_next": 5936,
@@ -171,6 +172,30 @@ class TestNudges(unittest.TestCase):
         self.assertLess(mult["new-entries"], 1.0)
         self.assertTrue(any("candidates low" in r for r in reasons["new-entries"]))
 
+    def test_candidates_mode_suppressed_when_queue_stocked(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["candidate_count"] = 500  # above restock threshold (150)
+        tally, _ = simulate(cfg, sig, remaining=5.0, n=2000)
+        self.assertNotIn("candidates", tally)
+        for m in ("polish", "new-entries", "wiki"):
+            self.assertGreater(tally.get(m, 0), 0)
+
+    def test_candidates_mode_runs_when_queue_below_restock(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["candidate_count"] = 100  # below restock threshold, above low
+        tally, _ = simulate(cfg, sig, remaining=5.0, n=2000)
+        self.assertGreater(tally.get("candidates", 0), 0)
+
+    def test_candidates_mode_boosted_when_queue_nearly_empty(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["candidate_count"] = 20  # below low threshold (80)
+        mult, reasons = rn.compute_multipliers(sig, cfg, remaining=5.0)
+        self.assertEqual(mult["candidates"], 1.5)
+        self.assertTrue(any("restock" in r for r in reasons["candidates"]))
+
 
 class TestForceAndParams(unittest.TestCase):
     def test_force_mode_does_not_mutate_debt(self):
@@ -189,6 +214,19 @@ class TestForceAndParams(unittest.TestCase):
         self.assertEqual(p["openrouter_session_budget_usd"], 0.40)
         p = rn.build_params("accuracy-review", neutral_signals(), cfg, remaining=4.0)
         self.assertEqual(p["openrouter_session_budget_usd"], 1.5)
+
+    def test_params_candidates_scale_to_queue_deficit(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["candidate_count"] = 20
+        p = rn.build_params("candidates", sig, cfg, remaining=5.0)
+        self.assertEqual(p["queue_count"], 20)
+        # deficit 150+20-20 = 150, capped at 60
+        self.assertEqual(p["approx_new"], 60)
+        sig["candidate_count"] = 140
+        p = rn.build_params("candidates", sig, cfg, remaining=5.0)
+        # deficit 30, floored at 40
+        self.assertEqual(p["approx_new"], 40)
 
 
 if __name__ == "__main__":

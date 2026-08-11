@@ -415,6 +415,15 @@ flagged by cross-model review:
 - Social life: `greeting`, `education`, `work`, `leisure`, `daily-life`, `shopping`, `travel`, `cooking`
 - Fields & topics: `business`, `economics`, `finance`, `law`, `politics`, `society`, `culture`, `religion`, `history`, `science`, `technology`, `health`, `language`, `media`, `music`, `art`, `entertainment`, `sports`, `military`
 - Special: `proverb`, `idiom`
+- Proper nouns (policy adopted 2026-08-11): `proper-noun` (umbrella) plus at
+  least one of `place-name`, `person-name`, `organization-name`, `work-name`,
+  `event-name` (incl. awards, festivals, competitions), `brand-name`.
+  **The pairing is enforced**: a specific category without `proper-noun` is a
+  validation error; `proper-noun` without a specific category is a warning.
+  Keep ordinary topical tags alongside (富士山 → `geography`, `proper-noun`,
+  `place-name`). Proper-noun entries use `part_of_speech` `"noun (proper)"`
+  and `metadata.tags.pos` `["noun"]`; see `prompts/newentries.md`
+  ("Proper-Noun Entries") for full conventions.
 
 **Fallback categories** (when no specific category fits):
 - `general`: For nouns without a specific semantic category

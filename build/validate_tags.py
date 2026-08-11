@@ -84,6 +84,24 @@ VALID_SEMANTIC = {
     "evaluation", "language", "law", "travel", "religion", "history",
     "finance", "appearance", "money", "music", "cooking", "change",
     "media", "shopping", "entertainment", "art", "military", "economics",
+    # Proper-noun categories (curator policy change 2026-08-11: proper nouns
+    # that learners should know — collocationally and semantically rich place
+    # names, personal names, organizations, works, events, brands — are in
+    # scope; see the find-candidates and entry-guidelines skills). Every
+    # proper-noun entry carries the "proper-noun" umbrella tag PLUS at least
+    # one specific category; validate_entry_tags() enforces the pairing.
+    "proper-noun", "place-name", "person-name", "organization-name",
+    "work-name", "event-name", "brand-name",
+}
+
+# Specific proper-noun categories. Entries with any of these must also carry
+# the "proper-noun" umbrella tag (hard error); "proper-noun" without a
+# specific category is a warning. An entry may carry more than one category
+# when genuinely appropriate (e.g. 甲子園 is both a place and, by metonymy,
+# the event held there).
+PROPER_NOUN_SUBTAGS = {
+    "place-name", "person-name", "organization-name",
+    "work-name", "event-name", "brand-name",
 }
 
 # Verb class must match POS
@@ -197,6 +215,21 @@ def validate_entry_tags(entry: dict, file_path: Path) -> tuple[list[str], list[s
         for s in semantic:
             if s not in VALID_SEMANTIC:
                 warnings.append(f"Unknown semantic tag: '{s}' (may be valid, check taxonomy)")
+        # Proper-noun pairing: a specific category requires the umbrella tag,
+        # and the umbrella tag should name a specific category.
+        sem_set = set(semantic)
+        subcats = sem_set & PROPER_NOUN_SUBTAGS
+        if subcats and "proper-noun" not in sem_set:
+            errors.append(
+                f"Proper-noun category tag(s) {sorted(subcats)} require the "
+                f"'proper-noun' umbrella tag"
+            )
+        if "proper-noun" in sem_set and not subcats:
+            warnings.append(
+                "'proper-noun' tag has no specific category "
+                "(place-name, person-name, organization-name, work-name, "
+                "event-name, brand-name)"
+            )
     else:
         # No semantic tags - this is a warning for concrete entries
         pos_types = set(pos_tags)

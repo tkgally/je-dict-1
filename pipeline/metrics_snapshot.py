@@ -28,7 +28,8 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-VALID_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries", "wiki"]
+VALID_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries",
+               "candidates", "wiki"]
 DETECTORS = {
     "furigana_format": "build/check_furigana_format.py",
     "artifacts": "build/check_artifacts.py",

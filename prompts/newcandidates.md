@@ -1,135 +1,97 @@
-# New Candidate Words Prompt
+# Candidate Restock Prompt (the Routine's `candidates` mode)
 
-Add new candidates to candidate_words.json using the find-candidates skill.
+Restock `candidate_words.json` with individually vetted headwords so the
+`new-entries` mode always has real material. This is the **verified-restock
+playbook**: every word is generated from lexical knowledge, passes explicit
+vetting gates, and is batch-added with automatic duplicate checking. Proper
+nouns are in scope (policy adopted 2026-08-11).
 
-## Quick Context
+Run standalone or as the unified Routine's `candidates` mode
+(`prompts/routine2.md` §2). The selector schedules this mode only while the
+queue holds fewer than `candidate_restock_threshold` (150) words, and passes
+`params.approx_new` (40–60) as the target.
 
-- The dictionary has ~10,300 entries (check PROJECT_CONTEXT_BRIEF.md for current counts)
-- Check candidate count: `head -10 candidate_words.json` (shows total_candidates)
+## Quick context
+
+- The queue holds **only vetted words** since the 2026-08-11 cleanup — keep it
+  that way. History and rationale: `find-candidates` skill ("Design
+  principle"); the removed corpus-harvest junk is archived in
+  `planning/archive/candidate-cleanup-2026-08-11.json`.
+- Check the queue: `python3 build/manage_candidates.py stats`
 
 ## Workflow
 
-1. Load the find-candidates skill for detailed guidelines
-2. Use a variety of search strategies to find balanced, diverse candidates
-3. Add candidates using: `python3 build/manage_candidates.py add "漢字" "ひらがな" "brief English note"`
+1. **Load the `find-candidates` skill** — it defines the vetting gates
+   (G1–G7), the proper-noun richness criteria, and the discovery lenses.
+   Everything below assumes it.
 
-4. After adding all candidates, update PROJECT_STATUS.md Recent Changes section:
-   - Update "Candidate words" count in Content Status section
-   - Add a brief session note under Recent Changes
-
-5. Finally, build the website:
+2. **Read the gap data** (cheap, aims the generation):
    ```bash
-   python3 build/build_flat.py        # REQUIRED for live site update
+   python3 build/manage_candidates.py stats
+   python3 build/audit_semantic_field.py --below 60 --summary
+   python3 build/analyze_scenarios.py --top-gaps 20
+   ```
+   Also glance at the last restock session log (`polishing/sessions/`) for
+   which lenses it used, so this run rotates to different ones.
+
+3. **Choose 3–5 discovery lenses** from the skill's list. Include the
+   proper-noun lens in most runs (target roughly 20–40% of the batch) while
+   major gaps remain — famous places, canonical historical/literary figures,
+   key organizations, culturally central works, events, and brands.
+
+4. **Generate ~1.5× the target as proposals**, then **vet each against the
+   gates** (real word, lemma form, headword-worthy, correct reading, correct
+   gloss, learner value; richness for proper nouns). Drop anything uncertain
+   — when in doubt, skip. Aim to land near `params.approx_new` (default ~50)
+   survivors.
+
+5. **Write the survivors to a scratch JSON file** (NOT in the repo —
+   use the session scratchpad or /tmp):
+   ```json
+   [
+     {"word": "渋谷", "reading": "しぶや",
+      "notes": "Shibuya — Tokyo youth-culture hub; proper noun (place)"},
+     {"word": "腑に落ちる", "reading": "ふにおちる",
+      "notes": "to make sense, to click (usu. negative); idiom"}
+   ]
    ```
 
-## Duplicate Prevention (AUTOMATIC)
+6. **Batch-add with automatic duplicate checking:**
+   ```bash
+   python3 build/manage_candidates.py add-batch <scratch-file>.json
+   ```
+   Duplicates are skipped and reported — that is normal, not an error.
 
-**The `manage_candidates.py add` command AUTOMATICALLY checks for duplicates.**
+7. **Second-pass self-check.** Re-read the added list once
+   (`git diff candidate_words.json` shows exactly what was added), re-testing
+   the gates with fresh eyes. Remove any slip:
+   ```bash
+   python3 build/manage_candidates.py remove C22950
+   ```
+   One pass, then stop — no ping-pong.
 
-### Duplicate Definition
+8. **Wrap up** (standalone runs; Routine runs follow routine2.md §5–7):
+   - Update `PROJECT_STATUS.md` Recent Changes (count added, lenses used).
+   - `make build` (the queue feeds `docs/pending.html`), commit, push, PR.
 
-**A word is a duplicate ONLY if BOTH the headword AND reading match exactly.**
+## Quality bar (summary — the skill has the full gates)
 
-- **Homophones** (same reading, different headword) are **NOT duplicates**
-  - Example: 線香 (せんこう) and 先行 (せんこう) are different words
-- **Homographs** (same headword, different reading) are **NOT duplicates**
-  - Example: 行く (いく) and 行く (ゆく) are different readings
+- **Must be**: real, stable, lemma-form headwords with correct hiragana
+  readings and correct glosses; useful to intermediate-to-advanced learners;
+  general tier.
+- **Proper nouns must be collocationally/semantically rich** — fixed
+  expressions, metonymy, cultural-literacy weight, or practical navigation
+  value — not merely referential. Mark them: `proper noun (place | person |
+  organization | work | event | brand)`.
+- **Must NOT be**: bulk-extracted from text, uncertain of existence,
+  conjugated/derived forms, free phrases, number+counter combinations,
+  ephemeral slang, vulgar/discriminatory terms, archaic/dialect items, or
+  hyper-specialized jargon.
 
-The script will:
-1. Check `entries_index.json` for exact match (both headword AND reading)
-2. Check `candidate_words.json` for exact match (both word AND reading)
-3. **REFUSE to add ONLY if an exact match is found**
-4. Display informational notes about homophones/homographs (not blocks)
+## Output format
 
-### Near-Duplicates (Editorial Consideration)
-These patterns require editorial judgment - the automatic check won't catch them:
-- **Verb forms**: する verbs may exist as standalone nouns (勉強 vs 勉強する)
-- **Kanji variants**: 見る and 観る, 聞く and 聴く - may share an entry
-- **Okurigana variations**: 行なう vs 行う, 現われる vs 現れる - same word, different spellings
-- **Prefix/suffix forms**: Check if 大～ or ～的 forms warrant separate entries
-
-## Discovery Strategies
-
-In addition to brainstorming, you can use the semantic field audit to identify systematic gaps:
-
-```bash
-# See which semantic fields have the lowest coverage
-python3 build/audit_semantic_field.py --below 60 --summary
-
-# Get missing words for a specific field
-python3 build/audit_semantic_field.py --field FIELD_ID --candidates
-
-# Directly add missing words as candidates (high+medium priority)
-python3 build/audit_semantic_field.py --field FIELD_ID --add-candidates
-```
-
-This is especially useful for finding vocabulary gaps in specialized domains (medical, legal, academic) that brainstorming tends to miss.
-
-### Scenario-based gap analysis
-
-Scenarios identify vocabulary needed for real-world situations. Missing words that appear across many scenarios are the highest-impact candidates:
-
-```bash
-# See the most impactful missing words across all scenarios
-python3 build/analyze_scenarios.py --top-gaps 30
-
-# See which scenario categories have the worst coverage
-python3 build/analyze_scenarios.py --summary
-
-# Add the highest-impact gaps as candidates
-python3 build/analyze_scenarios.py --top-gaps 20 --add-candidates
-```
-
-This complements semantic field audits: fields find topical gaps, scenarios find communicative gaps.
-
-## Selection Approach
-
-### Quality Over Quantity
-
-The basic and core vocabulary tiers are complete. Focus on finding high-quality candidates for the general tier:
-- **Individually vet each candidate** - avoid bulk extraction approaches
-- **Use verified sources** - frequency lists, JLPT vocabulary, textbook lists
-- **When in doubt, skip** - better to miss a word than add an inappropriate one
-
-### Balanced Coverage
-
-Use a variety of strategies from the find-candidates skill:
-- External vocabulary list cross-reference (JLPT, textbooks, frequency dictionaries)
-- Practical situation vocabulary
-- Media and cultural vocabulary
-- Corpus-driven gap analysis (frequency-based)
-- Collocational mining (words that go with existing entries)
-- Register/formality pairs
-- Semantic domain exploration (choose domains creatively)
-- Productive pattern completion
-- Written vs spoken balance
-
-### Key Principles
-
-- **Quality over quantity:** Each candidate should be carefully evaluated
-- **Breadth over depth:** Cover many domains rather than going deep in a few
-- **Creative variety:** Each session should explore different areas
-- **Learner utility:** Focus on words intermediate-to-advanced learners would benefit from
-- **Stable vocabulary:** Avoid ephemeral slang, archaic terms, or highly specialized jargon
-
-## Selection Criteria
-
-**Must NOT be:**
-- Proper nouns (place names, personal names, brand names)
-- Highly ephemeral slang
-- Vulgar or discriminatory language
-- Extremely specialized technical jargon
-
-**Should BE:**
-- Words appropriate for the general tier (intermediate-to-advanced vocabulary)
-- Semantically related to existing entries
-- Modern terms with widespread, stable usage
-- Useful informal expressions learners need to understand
-- Vocabulary that fills genuine gaps in the dictionary's coverage
-
-## Output Format
-
-After adding candidates, report:
-1. Number of words added
-2. Summary of categories/sources covered (emphasize variety)
-3. Notable gaps identified for future sessions
+Report at the end of the run:
+1. Words proposed / added / skipped as duplicates
+2. Lenses used with per-lens counts (note the proper-noun share)
+3. Queue total after the run
+4. Lenses that look exhausted or fertile for next time

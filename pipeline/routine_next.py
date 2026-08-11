@@ -5,8 +5,10 @@ Picks ONE focus ("mode") for the current Routine run using a deterministic
 debt-based weighted scheduler with bounded health nudges, then emits the choice
 as JSON on stdout for prompts/routine2.md to act on.
 
-Modes: polish, systemic-fix, accuracy-review, new-entries, wiki.
-(`systemic-fix` ships disabled in Phase 1 via routine-config.json enabled_modes.)
+Modes: polish, systemic-fix, accuracy-review, new-entries, candidates, wiki.
+(`systemic-fix` ships disabled in Phase 1 via routine-config.json enabled_modes.
+`candidates` self-suppresses while the candidate queue is sufficiently stocked,
+so it only claims runs when the queue actually needs restocking.)
 
 Design: enhancement/unified-routine-plan-2026-06-09.md §4.
 
@@ -47,27 +49,32 @@ XMODEL_PROGRESS = PROJECT_ROOT / "polishing" / "tasks" / "cross-model-review" / 
 REVIEWS_DIR = PROJECT_ROOT / "reviews"
 BACKLOG_QUEUE = PROJECT_ROOT / "planning" / "wiki" / "ideas" / "backlog-queue.json"
 
-ALL_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries", "wiki"]
+ALL_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries",
+             "candidates", "wiki"]
 
 DEFAULT_CONFIG = {
     "runs_per_day_hint": 6,
-    "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries", "wiki"],
+    "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries",
+                      "candidates", "wiki"],
     "weights": {
         "polish": 0.35,
         "systemic-fix": 0.10,
         "accuracy-review": 0.25,
         "new-entries": 0.15,
+        "candidates": 0.10,
         "wiki": 0.15,
     },
     "nudges": {
         "candidate_high_threshold": 400,
         "candidate_low_threshold": 80,
+        "candidate_restock_threshold": 150,
         "seen_in_entry_high_threshold": 50,
         "observations_unharvested_lines": 40,
         "min_multiplier": 0.5,
         "max_multiplier": 2.0,
     },
-    "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix"],
+    "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix",
+                          "candidates"],
     "anti_repeat_override_multiplier": 1.8,
     "openrouter": {"daily_cap_usd": 5.0, "per_session_cap_usd": 2.5,
                    "self_check_cap_usd": 0.25},
@@ -254,11 +261,26 @@ def compute_multipliers(signals, config, remaining):
     cc = signals.get("candidate_count")
     if cc is not None and cc < nz["candidate_low_threshold"]:
         m *= 0.5
-        reasons["new-entries"].append("candidates low (curator tops up manually)")
+        reasons["new-entries"].append("candidates low (candidates mode restocks)")
     elif cc is not None and cc > nz["candidate_high_threshold"]:
         m *= 1.3
         reasons["new-entries"].append("candidates plentiful")
     mult["new-entries"] = clamp(m)
+
+    # candidates (queue restock): hard suppression while the queue is
+    # sufficiently stocked, so the mode only claims runs when there is real
+    # restocking to do; boosted when the queue is nearly empty. Since the
+    # 2026-08-11 cleanup the queue holds only vetted words, so the raw count
+    # is a faithful signal of usable material.
+    restock = nz.get("candidate_restock_threshold", 150)
+    if cc is not None:
+        if cc >= restock:
+            mult["candidates"] = 0.0
+            reasons["candidates"].append(
+                f"queue sufficiently stocked ({cc} >= {restock})")
+        elif cc < nz["candidate_low_threshold"]:
+            mult["candidates"] = clamp(1.5)
+            reasons["candidates"].append("queue low — restock urgent")
 
     # wiki
     m = 1.0
@@ -335,6 +357,13 @@ def build_params(choice, signals, config, remaining):
             "phase": "furigana",
             "start_id": signals.get("cross_model_review_next"),
             "openrouter_session_budget_usd": round(min(remaining, per), 2),
+        }
+    if choice == "candidates":
+        cc = signals.get("candidate_count") or 0
+        restock = config["nudges"].get("candidate_restock_threshold", 150)
+        return {
+            "approx_new": max(40, min(60, restock + 20 - cc)),
+            "queue_count": cc,
         }
     if choice == "wiki":
         return {}

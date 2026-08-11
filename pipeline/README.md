@@ -219,7 +219,7 @@ python3 pipeline/recommend-tasks.py --write
 ```
 
 Decision logic:
-1. If `candidate_words.json` has < 100 candidates, recommend corpus harvesting
+1. If `candidate_words.json` has < 100 candidates, recommend a candidate restock (`prompts/newcandidates.md`; corpus harvesting is deprecated)
 2. If candidates >= 100, recommend entry creation sessions (count = candidates / 30, capped at 5)
 3. If more than 500 entries lack inline links, recommend inline-link sessions
 4. Recommend one polishing session for whichever task has the most entries remaining

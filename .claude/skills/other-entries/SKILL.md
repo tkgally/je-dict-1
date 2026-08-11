@@ -61,6 +61,26 @@ Common expressions:
 [Any cultural notes if relevant]
 ```
 
+### Proper-Noun Entries (place names, personal names, organizations, works, events, brands)
+
+In scope since 2026-08-11. Structure them like ordinary noun entries, with the
+emphasis shifted toward what makes the name worth learning:
+
+- `part_of_speech`: `"noun (proper)"`; `metadata.tags.pos`: `["noun"]`;
+  semantic tags: `proper-noun` + the specific category (`place-name`,
+  `person-name`, `organization-name`, `work-name`, `event-name`,
+  `brand-name`) — the pairing is validated.
+- The explanation identifies the referent in one sentence, then spends its
+  space on **connotations, fixed expressions, and metonymy** — the reason the
+  name earned an entry. (銀座 → up-scale shopping, 〜の銀座 for any bustling
+  shopping street; 甲子園 → the high-school baseball dream by metonymy;
+  福沢諭吉 → the face of the 10,000-yen note, hence 諭吉 as slang for the
+  bill itself.)
+- CULTURAL CONTEXT and COMMON EXPRESSIONS sections do the heavy lifting;
+  examples show the name inside natural collocations, not bare
+  identification sentences.
+- Full conventions: `prompts/newentries.md` → "Proper-Noun Entries".
+
 ---
 
 ## COUNTER Entries
