@@ -4,28 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:01Z",
+  "reviewed_at": "2026-08-12T21:30:45Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "warn",
-      "concern": "Invalid tag 'medical'.",
-      "suggestion": "health"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid tag 'system'.",
-      "suggestion": "general"
+      "concern": "The headword '麻痺' (mahi) is a noun that also functions as a suru-verb (麻痺する). By project convention, suru-verbs and action nouns should carry the 'action' tag.",
+      "suggestion": "Add 'action' to the semantic tags."
     }
   ]
 }

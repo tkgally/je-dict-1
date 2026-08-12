@@ -1245,3 +1245,42 @@ All 26 observations cleared.)_
 - [entry] 06899 顔を出す: sense 2 ("to peek out") has three examples but the top-level `gloss`
   advertises only sense 1. The definitions list both. Left as-is this run; the top-level gloss
   convention for two-sense idioms is worth a ruling before editing it.
+
+## 2026-08-12 — routine accuracy-review, entries 08851–09350
+
+- [pattern] The off-vocabulary semantic-tag problem is not a localized 8066–8565 defect. This run
+  found 229 of the 500 entries in 08851–09350 carrying tags outside `VALID_SEMANTIC` — the same
+  46% density measured in the 8066–8565 block flagged to the curator on 2026-08-11. Two adjacent
+  500-entry blocks at the same density strongly suggests one continuous batch-creation era rather
+  than scattered drift, and that the dictionary-wide remainder (1,135 entries after this run) is
+  concentrated in a contiguous ID band rather than spread evenly. Worth locating the band's real
+  start and end before scheduling more of these: a `systemic-fix` item scoped to the whole band
+  would be far cheaper per entry than rediscovering it 500 entries at a time.
+- [pattern] The off-vocabulary tags cluster into recurring families that a migration map could
+  mostly absorb: evaluative polarity (`positive`, `negative`, `neutral` — 32 occurrences here),
+  `body` on bodily-fluid and baby-talk nouns (18), `object` on acronym entries (11), `aesthetics`
+  (11), `quality` (9), `childcare`/`childhood` (15), `concept` (9), `place` (6), `computing` (6).
+  `build/check_tag_drift.py`'s `TAG_MIGRATION` map has only nine 1:1 rules and covers almost none
+  of these. Most still need a per-entry choice (`body` → `body-part` vs `health` depends on the
+  word), but `positive`/`negative`/`neutral` are pure noise — they encode sentiment, not a
+  semantic field, and in every case here the entry already carried the right field tag alongside.
+  A rule that simply drops them would have handled 32 of this run's 229 entries with no judgment.
+- [entry] 08989 車席 appears to be a fabricated headword: the reviewer flagged it five times as
+  not a real word, and the entry's own notes list 助手席 and 後部座席 as the ordinary terms while
+  its examples invent 助手車席 and 後部車席. Flagged to the curator rather than deleted, since
+  deletion changes a live URL. See reviews/needs_curator.txt.
+- [entry] 08985 uses the headword 日日 for ひにち. The ordinary modern spelling is 日にち; 日日
+  normally reads ひび ("days on end"). The gloss was tightened this run but the orthography was
+  left alone — a headword change needs the same care as a deletion.
+- [tooling] The accuracy reviewer's `tags` dimension is the highest-yield dimension measured so
+  far, but only for the not-in-list class: it caught the off-vocabulary tags reliably, while its
+  in-list suggestions were mostly narrowness nits the §A policy rejects by design. Precision would
+  improve if the prompt were told to report only tags absent from the supplied vocabulary and to
+  stop proposing substitutions between two valid tags.
+- [tooling] `build/review_accuracy.py` writes a `reviewed_at` that does not correspond to when the
+  entry was reviewed: a self-check run started at 22:45 on 2026-08-12 wrote result files stamped
+  21:32. Anything that reasons about which review came first — "was this entry reviewed before or
+  after I edited it?" — cannot trust that field today, and this run briefly mis-read two stale
+  flags as surviving errors because of it. The reliable discriminator right now is the `dimensions`
+  array (a `--dimensions tags` self-check writes `["tags"]`), which is incidental rather than
+  designed. Stamping the timestamp at write time would make the field usable.

@@ -8,24 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:32:14Z",
+  "reviewed_at": "2026-08-12T21:22:42Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "error",
-      "concern": "The English translation 'I aim for the next level up' misrepresents the Japanese '一段上のレベルを目指す'. '一段上' means 'one level higher' or 'a step above', not necessarily 'the next level'. The current translation implies a specific, immediate next level, whereas the Japanese is more general.",
-      "suggestion": "I aim for a level one step higher."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "error",
-      "concern": "The English translation 'I obtained first dan in judo' misrepresents the Japanese '柔道で一段を取った'. While '一段' can refer to a dan rank, '一段を取った' specifically means 'obtained first dan' or 'obtained shodan', not just 'first dan' in a general sense. The current translation is slightly ambiguous.",
-      "suggestion": "I obtained first dan in judo."
-    }
-  ]
+  "issues": []
 }

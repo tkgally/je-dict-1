@@ -4,28 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:47Z",
+  "reviewed_at": "2026-08-12T21:31:44Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'failure' is not in the valid tag list.",
-      "suggestion": "abstract"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'relationships' is not in the valid tag list.",
-      "suggestion": "society"
+      "severity": "error",
+      "concern": "The semantic tag 'finance' is too narrow for the headword's primary meaning, which encompasses general failure and breakdown, not just financial.",
+      "suggestion": "Replace 'finance' with 'general' or 'change' or 'existence' to better reflect the broader meaning of failure/breakdown."
     }
   ]
 }

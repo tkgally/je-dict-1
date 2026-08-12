@@ -4,28 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:46Z",
+  "reviewed_at": "2026-08-12T21:31:42Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'failure' is not in the valid tag list.",
-      "suggestion": "Replace 'failure' with a valid tag like 'change' or 'existence'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'projects' is not in the valid tag list.",
-      "suggestion": "Replace 'projects' with a valid tag like 'work' or 'business'."
+      "concern": "The semantic tag 'business' is too narrow and misleading for '頓挫'. While it can apply to business contexts, the word itself describes a general concept of failure or stalling, applicable to various domains beyond just business.",
+      "suggestion": "Replace 'business' with 'change' or 'general' to better reflect the broad applicability of the word."
     }
   ]
 }

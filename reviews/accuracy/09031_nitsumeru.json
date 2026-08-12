@@ -4,13 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:16Z",
+  "reviewed_at": "2026-08-12T21:30:56Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'communication' is not appropriate for the headword's meaning 'to boil down; to finalize'. While one sense relates to discussing, 'communication' as a semantic tag is too broad and doesn't capture the 'finalizing' aspect. 'cognition' or 'action' would be more fitting for the second sense.",
+      "suggestion": "Replace 'communication' with 'cognition' or 'action'."
+    }
+  ]
 }

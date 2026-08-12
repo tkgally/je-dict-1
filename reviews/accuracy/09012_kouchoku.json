@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:00Z",
+  "reviewed_at": "2026-08-12T21:30:44Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +15,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'medical' is too specific and not universally applicable to the headword's meaning, which includes figurative uses. 'organization' is also too specific.",
-      "suggestion": "Replace 'medical' with 'health' or 'general', and remove 'organization' as it's covered by the figurative sense."
+      "concern": "The tag 'society' is not appropriate for the headword's meaning of 'rigidity; stiffness; inflexibility'. While the word can be applied to societal structures (as in example 3 and 5), the core meaning of the word itself does not inherently belong to the 'society' category. The word describes a state or quality, not a societal concept.",
+      "suggestion": "Remove 'society'. The existing 'health' tag covers the physical sense, and 'descriptive' or 'cognition' could cover the figurative sense if needed, but 'society' is too broad and indirect for the headword's core meaning."
     }
   ]
 }

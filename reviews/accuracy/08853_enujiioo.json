@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:31:05Z",
+  "reviewed_at": "2026-08-12T21:20:44Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'work' is too narrow and misleading for 'NGO'. An NGO is an organization, not a type of work itself.",
+      "suggestion": "organization-name"
+    }
+  ]
 }

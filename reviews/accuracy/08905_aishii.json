@@ -4,28 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:31:39Z",
+  "reviewed_at": "2026-08-12T21:30:19Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'object' is not in the valid tag list.",
-      "suggestion": "electronics"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'location' is not in the valid tag list.",
-      "suggestion": "geography"
+      "concern": "The tag 'transportation' is appropriate for 'interchange' but not for 'IC card'. The tag 'technology' is appropriate for 'IC card' but not for 'interchange'. The semantic tags should reflect the headword's meaning as a whole, or be specific to each sense if the headword has multiple distinct meanings.",
+      "suggestion": "Remove 'transportation' and 'technology' from the main semantic tags. Add 'transportation' to sense 1 and 'technology' to sense 2."
     }
   ]
 }

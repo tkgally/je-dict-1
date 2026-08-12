@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:35:43Z",
+  "reviewed_at": "2026-08-12T21:28:13Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "warn",
-      "concern": "Tag 'economy' is not in the valid tag list.",
-      "suggestion": "finance"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'accounting' is not in the valid tag list.",
-      "suggestion": "finance"
+      "concern": "The tag 'accounting' is not in the valid tag list.",
+      "suggestion": "economics"
     }
   ]
 }

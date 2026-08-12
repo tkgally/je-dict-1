@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:33Z",
+  "reviewed_at": "2026-08-12T21:24:42Z",
   "summary": {
     "flagged": 2
   },
@@ -16,16 +16,16 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'resources' is not in the valid tag list.",
-      "suggestion": "general"
+      "severity": "error",
+      "concern": "The tag 'resources' is not in the valid tag list.",
+      "suggestion": "Replace 'resources' with a valid tag like 'economics' or 'general'."
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'crisis' is not in the valid tag list.",
-      "suggestion": "general"
+      "severity": "error",
+      "concern": "The tag 'crisis' is not in the valid tag list.",
+      "suggestion": "Replace 'crisis' with a valid tag like 'event-name' or 'general'."
     }
   ]
 }

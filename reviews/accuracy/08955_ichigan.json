@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:46:59Z",
+  "reviewed_at": "2026-08-12T21:22:47Z",
   "summary": {
     "flagged": 2
   },
@@ -17,15 +17,15 @@
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss implies that 一眼 (ichigan) itself means 'single-lens camera' or 'interchangeable-lens camera'. However, the term '一眼' literally means 'one eye' or 'single lens' and is almost always used in combination with other words like 'カメラ' (camera) or 'レフ' (reflex) to form terms like '一眼カメラ' (single-lens camera) or '一眼レフ' (single-lens reflex camera). The headword '一眼' alone does not typically refer to the camera itself in common usage, but rather the 'single-lens' aspect.",
-      "suggestion": "Change the gloss to 'single lens (as in single-lens camera)' or 'one eye; single lens'. The current gloss is misleading as it defines the camera type rather than the component/concept '一眼' represents."
+      "concern": "The gloss implies that 一眼 (ichigan) itself means 'interchangeable-lens camera', but it refers to the 'single-lens' aspect, which is a characteristic of SLRs and mirrorless cameras, not the interchangeability of lenses itself. The term '一眼' is short for '一眼レフ' (ichigan-refu) or 'ミラーレス一眼' (mirrorless ichigan), both of which are single-lens cameras, and often have interchangeable lenses, but '一眼' alone doesn't directly mean 'interchangeable-lens camera'.",
+      "suggestion": "single-lens camera (SLR or mirrorless)"
     },
     {
-      "dimension": "tags",
-      "location": "semantic_tags",
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
       "severity": "error",
-      "concern": "The semantic tag 'electronics' is too specific and potentially misleading for the headword '一眼'. While '一眼カメラ' (single-lens camera) is an electronic device, '一眼' itself refers to the 'single lens' concept or 'one eye'. It's more of a descriptive term or a component/feature rather than an electronic device itself. The examples clearly show it's used in the context of cameras, but the headword itself is not 'camera'.",
-      "suggestion": "Replace 'electronics' with 'descriptive' or 'general'. If the intent is to describe the *type* of camera, then the gloss should reflect that '一眼' is an abbreviation or part of a larger term. As it stands, '一眼' is not an electronic device."
+      "concern": "The gloss implies that 一眼 (ichigan) itself means 'SLR', but it refers to the 'single-lens' aspect, which is a characteristic of SLRs and mirrorless cameras. The term '一眼' is short for '一眼レフ' (ichigan-refu) or 'ミラーレス一眼' (mirrorless ichigan).",
+      "suggestion": "single-lens (camera); often referring to SLR or mirrorless cameras"
     }
   ]
 }

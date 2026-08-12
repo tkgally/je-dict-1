@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:32:08Z",
+  "reviewed_at": "2026-08-12T21:22:31Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific material. 'material' would be more appropriate.",
+      "suggestion": "material"
+    }
+  ]
 }

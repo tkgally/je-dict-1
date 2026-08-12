@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:34:25Z",
+  "reviewed_at": "2026-08-12T21:32:30Z",
   "summary": {
     "flagged": 1
   },
@@ -17,7 +15,7 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "Invalid semantic tag 'body'",
+      "concern": "The semantic tag 'health' is incorrect for 'saliva, spit'.",
       "suggestion": "body-part"
     }
   ]

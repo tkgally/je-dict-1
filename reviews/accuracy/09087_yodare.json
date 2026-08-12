@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:34:05Z",
+  "reviewed_at": "2026-08-12T21:32:07Z",
   "summary": {
     "flagged": 1
   },
@@ -16,8 +14,8 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'body' is not in the valid tag list.",
+      "severity": "error",
+      "concern": "The semantic tag 'health' is inappropriate for 'よだれ' (drool/saliva). While saliva is a bodily fluid, 'drool' is not typically categorized under 'health' in a general dictionary context. It's a body-related phenomenon.",
       "suggestion": "body-part"
     }
   ]

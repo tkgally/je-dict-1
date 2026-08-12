@@ -1,13 +1,12 @@
 {
   "entry_id": "09273",
-  "screened_at": "2026-06-23T15:21:05Z",
+  "screened_at": "2026-08-12T21:20:47Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 砲丸投 is ほうがんな. The full word is 砲丸投げ (ほうがん投げ). The reading ほうがんな covers 砲丸投, which is correct if 'げ' is okurigana. However, in the context of the dictionary entry {砲丸投|ほうがんな}げ, it implies 砲丸投 = ほうがんな and げ is okurigana. This is incorrect as 投 alone is なげ. The reading should be {砲丸投|ほうがんなげ} or {砲丸|ほうがん}{投|な}げ.",
-    "The reading for 砲丸投 is ほうがん. The full word is 砲丸投げ (ほうがん投げ). The reading ほうがん covers 砲丸, which is correct. However, the entry is {砲丸投|ほうがん}, implying 砲丸投 = ほうがん, which is incorrect as it omits the reading for 投.",
-    "The reading for 円盤投 is えんばんな. The full word is 円盤投げ (えんばんなげ). The reading えんばんな covers 円盤投, which is incorrect as it omits the reading for げ.",
-    "The reading for 投 is な. The full word is 投げ (なげ). The reading な covers 投, which is incorrect as it omits the reading for げ."
+    "The reading for 砲丸投 is ほうがんな. While 投 can be read as なげる, in the compound 砲丸投げ, the full reading for 投 is なげ. The provided reading ほうがんな only covers 砲丸 and the first kana of 投, leaving the 'げ' as okurigana, which is incorrect for this compound. The full reading for 砲丸投 should be ほうがんなげ.",
+    "The reading for 円盤投 is えんばんな. Similar to the first concern, in the compound 円盤投げ, the full reading for 投 is なげ. The provided reading えんばんな only covers 円盤 and the first kana of 投, leaving the 'げ' as okurigana, which is incorrect for this compound. The full reading for 円盤投 should be えんばんなげ.",
+    "The reading for 投 is な. This is a partial reading. While 投 can be read as なげる, the provided reading 'な' is only the first kana. If the intention was to show the reading for 投 in the context of 投げ, then 'なげ' would be the expected reading for the kanji 投. As it stands, 'な' is an incomplete reading for the kanji 投 in this context."
   ],
   "confidence": 0.9
 }

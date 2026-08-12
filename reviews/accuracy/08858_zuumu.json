@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:31:08Z",
+  "reviewed_at": "2026-08-12T21:20:50Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword 'Zoom' refers to a specific brand name, not a general electronic device or concept.",
+      "suggestion": "brand-name"
+    }
+  ]
 }

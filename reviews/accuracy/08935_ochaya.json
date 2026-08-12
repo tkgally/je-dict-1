@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:32:03Z",
+  "reviewed_at": "2026-08-12T21:22:24Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword 'お茶屋' can also refer to the business or establishment itself, not just the physical building.",
-      "suggestion": "Add 'business' to semantic_tags."
+      "concern": "The headword 'お茶屋' has two distinct meanings, one of which is a 'geisha house'. The tag 'building' is too narrow and misleading as it doesn't fully capture the social and cultural function of a geisha house.",
+      "suggestion": "Add 'culture' or 'society' to better reflect the second sense of the word."
     }
   ]
 }

@@ -4,28 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:34:19Z",
+  "reviewed_at": "2026-08-12T21:32:23Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "Invalid semantic tag 'behavior'",
-      "suggestion": "action"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "Invalid semantic tag 'childhood'",
-      "suggestion": "general"
+      "concern": "The tag 'family' is inappropriate for 'まねっこ'.",
+      "suggestion": "Remove 'family'. The word describes an action/behavior, not a family member or concept related to family structure."
     }
   ]
 }
