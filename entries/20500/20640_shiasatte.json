@@ -19,7 +19,9 @@
       "english": "Three days from now is Friday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20640_shiasatte_ex2",
@@ -27,7 +29,9 @@
       "english": "Will it arrive within three days?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20640_shiasatte_ex3",
@@ -35,21 +39,36 @@
       "english": "The exam is three days from now, so there are only three days left.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Also written in hiragana as しあさって. Composed of し (an intensifying prefix) + {明後日|あさって} (the day after tomorrow). Part of the Japanese temporal sequence:\n- {今日|きょう} (today)\n- {明日|あした} (tomorrow)\n- {明後日|あさって} (day after tomorrow)\n- {明明後日|しあさって} (three days from now)\n\nSIMILAR WORDS:\n- {明後日|あさって} — the day after tomorrow; the preceding day in the sequence\n- {明日|あした}/{明日|あす} — tomorrow\n- {一昨日|おととい} — the day before yesterday\n\nREGIONAL NOTE:\nIn some regions of Japan (particularly parts of Kansai), しあさって means four days from now, while {明明後日|ささって} or やのあさって refers to three days from now. The standard/Tokyo meaning is three days from now. This regional difference can cause confusion, so when precision matters, it is safer to specify the actual date.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00828_asatte",
+      "reading": "あさって",
+      "headword": "あさって",
+      "label": "day after tomorrow"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:13:14Z",
-    "modified": "2026-03-29T20:13:14Z",
+    "modified": "2026-08-12T09:21:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time"]
+      "semantic": [
+        "time"
+      ]
     }
   }
 }

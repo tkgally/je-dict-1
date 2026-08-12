@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00817_tanoshii_ex1",
-      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{楽|たの}しかったです。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{楽|たの}しかった⟦です→です：09485_desu⟧。",
       "english": "Today was fun.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00817_tanoshii_ex2",
-      "japanese": "⟦この→この：00962_kono⟧⟦{本|ほん}→本：00111_hon⟧⟦は→は：00079_ha⟧{楽|たの}しいです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{本|ほん}→本：00111_hon⟧⟦は→は：00079_ha⟧{楽|たの}しい⟦です→です：09485_desu⟧。",
       "english": "This book is fun.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00817_tanoshii_ex3",
-      "japanese": "⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{楽|たの}しいです。",
+      "japanese": "⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{遊|あそ}ぶ→遊ぶ：00550_asobu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{楽|たの}しい⟦です→です：09485_desu⟧。",
       "english": "Playing together is fun.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00817_tanoshii_ex4",
-      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦は→は：00079_ha⟧⟦{海|うみ}→海：00556_umi⟧⟦で→で：00502_de⟧⟦{泳|およ}いだり→泳ぐ：00545_oyogu⟧、⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦{行|い}ったり→行く：00119_iku⟧⟦して→する：00392_suru⟧、⟦とても→とても：00593_totemo⟧{楽|たの}しかったです。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦は→は：00079_ha⟧⟦{海|うみ}→海：00556_umi⟧⟦で→で：00502_de⟧⟦{泳|およ}いだり→泳ぐ：00545_oyogu⟧、⟦{山|やま}→山：02168_yama⟧⟦に→に：00314_ni⟧⟦{行|い}ったり→行く：00119_iku⟧⟦して→する：00392_suru⟧、⟦とても→とても：00593_totemo⟧{楽|たの}しかった⟦です→です：09485_desu⟧。",
       "english": "During summer vacation, I swam in the sea and went to the mountains—it was really fun.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00817_tanoshii_ex5",
-      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{話|はな}す→話す：00467_hanasu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{楽|たの}しいです⟦が→が：00051_ga⟧、⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦も→も：00484_mo⟧{楽|たの}しいです。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{話|はな}す→話す：00467_hanasu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧{楽|たの}しい⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧、⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦も→も：00484_mo⟧{楽|たの}しい⟦です→です：09485_desu⟧。",
       "english": "Talking with friends is fun, but reading books alone is also fun.",
       "notes": null,
       "has_audio": false,
@@ -85,11 +85,25 @@
       "reading": "うれしい",
       "headword": "{嬉|うれ}しい",
       "label": "happy (about event)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00589_omoshiroi",
+      "reading": "おもしろい",
+      "headword": "{面白|おもしろ}い",
+      "label": "interesting, amusing"
+    },
+    {
+      "type": "antonym",
+      "target_id": "00590_tsumaranai",
+      "reading": "つまらない",
+      "headword": "つまらない",
+      "label": "boring, dull"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:09:39Z",
-    "modified": "2026-05-12T21:10:43Z",
+    "modified": "2026-08-12T09:21:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

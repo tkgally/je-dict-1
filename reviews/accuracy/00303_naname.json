@@ -2,57 +2,15 @@
   "entry_id": "00303_naname",
   "headword": "{斜|なな}め",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:07:22Z",
+  "reviewed_at": "2026-08-12T09:28:14Z",
   "summary": {
-    "flagged": 6
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is redundant with the first sense gloss and doesn't fully capture the nuance of the headword as a noun or adverbial usage.",
-      "suggestion": "Consider a more encompassing top-level gloss that hints at both the 'state' and 'manner' aspects, or simply remove it if the sense glosses are sufficient."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'diagonal; slant; oblique' is accurate but could be more concise or varied to avoid repetition with the top-level gloss.",
-      "suggestion": "Consider 'diagonal; slanting; oblique' or 'a diagonal/slanting direction/position' to better reflect its noun usage."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'diagonally across; at an angle' is accurate but could be more concise.",
-      "suggestion": "Consider 'diagonally; at an angle' or 'in a diagonal manner'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "warn",
-      "concern": "The English translation 'To draw a diagonal line' is a bit clunky. 'Draw a diagonal line' is more natural.",
-      "suggestion": "Change to 'Draw a diagonal line.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "warn",
-      "concern": "The English translation 'To walk diagonally' is a bit clunky. 'Walk diagonally' is more natural.",
-      "suggestion": "Change to 'Walk diagonally.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation 'To cross the intersection diagonally' is a bit clunky. 'Cross the intersection diagonally' is more natural.",
-      "suggestion": "Change to 'Cross the intersection diagonally.'"
-    }
-  ]
+  "issues": []
 }

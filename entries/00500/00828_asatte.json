@@ -64,10 +64,32 @@
     }
   ],
   "notes": "あさって means the day after tomorrow. Usually written in hiragana; the kanji form {明後日|あさって} exists but is less common.\n\nDAY SEQUENCE:\n- ⟦おととい→おととい：00877_ototoi⟧: day before yesterday\n- ⟦きのう→昨日：00859_kinou⟧: yesterday\n- ⟦きょう→今日：00496_kyou⟧: today\n- ⟦あした→明日：00501_ashita⟧ / ⟦あす→明日：00501_ashita⟧: tomorrow\n- あさって: day after tomorrow\n- ⟦しあさって→しあさって：20640_shiasatte⟧: three days from now\n\nCOMMON PATTERNS:\n- あさって⟦の→の：09472_no⟧⟦{朝|あさ}→朝：02277_asa⟧: the morning of the day after tomorrow\n- あさって⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧: by the day after tomorrow\n- あさって⟦の→の：09472_no⟧⟦{方向|ほうこう}→方向：03617_houkou⟧: a completely wrong direction (idiom)\n\nIDIOM:\nあさって⟦の→の：09472_no⟧⟦{方向|ほうこう}→方向：03617_houkou⟧ (lit. \"the direction of the day after tomorrow\") means a completely wrong or irrelevant direction. Used for answers, throws, or actions that are way off target.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00501_ashita",
+      "reading": "あした",
+      "headword": "{明日|あした}",
+      "label": "tomorrow"
+    },
+    {
+      "type": "related",
+      "target_id": "20640_shiasatte",
+      "reading": "しあさって",
+      "headword": "{明明後日|しあさって}",
+      "label": "three days from now"
+    },
+    {
+      "type": "antonym",
+      "target_id": "00877_ototoi",
+      "reading": "おととい",
+      "headword": "おととい",
+      "label": "day before yesterday"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:45:52Z",
-    "modified": "2026-05-12T22:18:10Z",
+    "modified": "2026-08-12T09:21:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

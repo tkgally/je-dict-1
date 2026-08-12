@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "00823_wakai_ex1",
-      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{若|わか}いです。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{若|わか}い⟦です→です：09485_desu⟧。",
       "english": "She is young.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "00823_wakai_ex4",
-      "japanese": "⟦あの→あの：00915_ano⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{若|わか}いです⟦が→が：00051_ga⟧、⟦とても→とても：00593_totemo⟧⟦{上手|じょうず}→上手：00707_jouzu⟧です。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧{若|わか}い⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧、⟦とても→とても：00593_totemo⟧⟦{上手|じょうず}→上手：00707_jouzu⟧⟦です→です：09485_desu⟧。",
       "english": "That teacher is still young, but very skilled.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "00823_wakai_ex5",
-      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{八十歳|はちじゅっさい}です⟦が→が：00051_ga⟧、⟦{心|こころ}→心：01321_kokoro⟧⟦は→は：00079_ha⟧{若|わか}いです。⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦しています→する：00392_suru⟧。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧⟦{八十歳|はちじゅっさい}→歳：10017_sai⟧⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧、⟦{心|こころ}→心：01321_kokoro⟧⟦は→は：00079_ha⟧{若|わか}い⟦です→です：09485_desu⟧。⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦しています→する：00392_suru⟧。",
       "english": "My grandfather is 80 years old, but he is young at heart. He walks every day.",
       "notes": null,
       "has_audio": false,
@@ -119,10 +119,32 @@
     }
   ],
   "notes": "USAGE:\n{若|わか}い is primarily used for people and living things, while ⟦{新|あたら}しい→新しい：00506_atarashii⟧ is used for objects and things.\n\nCOMPOUNDS:\n- ⟦{若者|わかもの}→若者：03037_wakamono⟧: young person, youth\n- {若|わか}い⟦{頃|ころ}→〜ころ：03091_koro⟧/{若|わか}い⟦{時|とき}→時：02918_toki⟧: when (one was) young\n- ⟦{若手|わかて}→若手：13989_wakate⟧: young (talent/employee)\n- ⟦{若葉|わかば}→若葉：19659_wakaba⟧: young leaves, fresh greenery\n\nCOMMON EXPRESSIONS:\n- {若|わか}く⟦{見|み}える→見える：01165_mieru⟧: to look young (a common compliment)\n- ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{若|わか}い: young at heart\n- ⟦{考|かんが}え→考える：00856_kangaeru⟧⟦が→が：00051_ga⟧{若|わか}い: immature thinking (slightly negative)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03037_wakamono",
+      "reading": "わかもの",
+      "headword": "{若者|わかもの}",
+      "label": "young person, youth"
+    },
+    {
+      "type": "antonym",
+      "target_id": "03460_toshiyori",
+      "reading": "としより",
+      "headword": "{年寄|としよ}り",
+      "label": "elderly person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00506_atarashii",
+      "reading": "あたらしい",
+      "headword": "{新|あたら}しい",
+      "label": "new (used for things, not people)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:10:20Z",
-    "modified": "2026-05-12T21:10:43Z",
+    "modified": "2026-08-12T09:21:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

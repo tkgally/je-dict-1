@@ -1253,3 +1253,27 @@ All 27 observations cleared.)_
   detectors already know about (`酸素` sole-`general`, `昨夜` sole-`general`, `平方メートル`
   tagged `tool` + `informal`). Paying a model to rediscover them one entry at a time is
   wasteful; `check_tag_drift.py`'s sole-general queue would find them in bulk for free.
+
+## 2026-08-12 — routine(polish) run 004
+
+- `[pattern]` **Inline links whose base form still carries furigana braces.** 37 entry
+  files contain links written as `⟦{広|ひろ}さ→{広|ひろ}さ：00105_hirosa⟧` — the base-form
+  segment between `→` and `：` should be the plain dictionary form (`→広さ：`), as it is
+  everywhere else. Schema validation does not catch this. Fixed in 00704_hiroi this run;
+  the remaining ~36 files are a clean, mechanical systemic-fix candidate (regex: strip
+  `{kanji|kana}` wrappers inside the base-form segment only).
+- `[pattern]` **Contiguous unlinked block in the body-part idiom entries.** Entries from
+  about 06893 to 06905 (core tier, all last modified 2026-03-14) were created with zero
+  inline links in examples *and* notes. Three were linked this run; the rest of the block
+  is still naked. A frontier-lane run will hit them in ID order, but flagging the block
+  makes the size of the job visible.
+- `[pattern]` **Basic-tier entries with rich notes but empty `cross_references`.** Five of
+  the eight priority-lane entries this run named obvious neighbours in their notes
+  (antonyms, related forms, contrast pairs) while `cross_references` was `[]`. Extracting
+  cross-references from the notes prose is a high-yield, low-risk polish action and could
+  be turned into a detector that lists entries whose notes mention a linked entry that is
+  absent from `cross_references`.
+- `[entry]` **00823_wakai and 01525_wakai are duplicates.** Both are 若い / わかい,
+  i-adjective, glossed "young" (one basic tier, one core). 01525's headword also has a
+  malformed furigana wrapper: `{若い|わかい}` instead of `{若|わか}い`. Needs a
+  consolidation session, not a polish pass.

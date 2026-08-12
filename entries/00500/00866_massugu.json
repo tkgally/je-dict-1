@@ -2,7 +2,7 @@
   "id": "00866_massugu",
   "headword": "まっすぐ",
   "reading": "まっすぐ",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, adjective (na-adjective)",
   "gloss": "straight",
   "definitions": [
     {
@@ -119,15 +119,38 @@
     }
   ],
   "notes": "まっすぐ describes something straight (without curves) or someone honest and direct.\n\nFORMS:\n- Adverb: まっすぐ⟦{行|い}く→行く：00119_iku⟧ (go straight)\n- Na-adjective: まっすぐな⟦{道|みち}→道：00505_michi⟧ (straight road)\n- With に: まっすぐに (straightforwardly)\n\nPHYSICAL MEANING:\n- まっすぐ⟦{行|い}く→行く：00119_iku⟧: to go straight\n- まっすぐ⟦{立|た}つ→立つ：00758_tatsu⟧: to stand up straight\n- まっすぐな⟦{線|せん}→線：09901_sen⟧: a straight line\n\nFIGURATIVE MEANING:\n- まっすぐな⟦{人|ひと}→人：00476_hito⟧: an honest/upright person\n- まっすぐな⟦{性格|せいかく}→性格：03371_seikaku⟧: straightforward personality\n- まっすぐに⟦{話|はな}す→話す：00467_hanasu⟧: to speak honestly\n\nKANJI:\nCan be written {真|ま}っ{直|す}ぐ, but hiragana is standard.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00649_magaru",
+      "reading": "まがる",
+      "headword": "{曲|ま}がる",
+      "label": "to turn, to bend"
+    },
+    {
+      "type": "synonym",
+      "target_id": "01562_shoujiki",
+      "reading": "しょうじき",
+      "headword": "{正直|しょうじき}",
+      "label": "honest, frank (sense 2)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00303_naname",
+      "reading": "ななめ",
+      "headword": "{斜|なな}め",
+      "label": "diagonal, slanted"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:41:24Z",
-    "modified": "2026-06-08T02:21:06Z",
+    "modified": "2026-08-12T09:21:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
-        "adverb"
+        "adverb",
+        "adjective-na"
       ],
       "formality": "neutral",
       "politeness": "plain",

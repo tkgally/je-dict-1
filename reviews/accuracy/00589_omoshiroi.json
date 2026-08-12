@@ -2,29 +2,15 @@
   "entry_id": "00589_omoshiroi",
   "headword": "{面白|おもしろ}い",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:55:17Z",
+  "reviewed_at": "2026-08-12T09:28:17Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete.",
-      "suggestion": "Add 'enjoyable' or 'pleasurable' to the top-level gloss to cover broader meanings not fully captured by 'interesting' or 'funny'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for 'interesting' is incomplete.",
-      "suggestion": "Add 'or enjoyable/pleasurable' to the explanation to cover cases where something is interesting because it's enjoyable, not just because it attracts curiosity. For example, '日本語の勉強は面白いです' (Studying Japanese is interesting) often implies enjoyment."
-    }
-  ]
+  "issues": []
 }

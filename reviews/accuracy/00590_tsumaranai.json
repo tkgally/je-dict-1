@@ -2,29 +2,15 @@
   "entry_id": "00590_tsumaranai",
   "headword": "つまらない",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:55:19Z",
+  "reviewed_at": "2026-08-12T09:28:18Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "warn",
-      "concern": "The English translation 'This is tedious work' for 'つまらない仕事ですね。' is a bit too strong and specific. While 'tedious' can be a result of 'つまらない', 'boring' or 'dull' would be a more direct and general translation, aligning better with the primary gloss.",
-      "suggestion": "Change 'This is tedious work' to 'This is boring work.' or 'This work is boring.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "warn",
-      "concern": "The English translation 'Don't say worthless things.' for 'つまらないことを言うな。' is a bit harsh and less natural than other options. 'Worthless' is accurate but 'trivial' or 'unimportant' might fit the context of 'つまらないこと' better in this common phrase.",
-      "suggestion": "Change 'Don't say worthless things.' to 'Don't say trivial things.' or 'Don't say unimportant things.'"
-    }
-  ]
+  "issues": []
 }
