@@ -8,31 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-09T18:28:06Z",
+  "reviewed_at": "2026-08-12T00:32:42Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The main gloss combines meanings from two distinct senses, which can be confusing for a learner. The 'because' meaning is only for the conjunction sense, and 'even' is only for the particle sense.",
-      "suggestion": "Split the gloss to reflect the two main senses more clearly, e.g., 'but, because (conjunction); even, also (particle)' or 'but, because; even'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "error",
-      "concern": "The gloss 'but, because' for sense 1 is misleading. While 'but' is often a good translation, 'because' is not always appropriate for this usage, especially given the 'defensive or childish nuance' described in the explanation. It's more about providing a reason or excuse, which 'because' implies, but the primary function is often to contradict or justify, hence 'but'.",
-      "suggestion": "Change 'but, because' to 'but, (because)' or 'but, (as an excuse)' to better reflect the nuance."
-    },
     {
       "dimension": "translation",
       "location": "examples[6]",
       "severity": "error",
-      "concern": "The English translation 'I eat anything' for '何だって食べる。' is too strong. '何だって' here means 'even anything' or 'anything at all', implying a lack of pickiness rather than a literal consumption of 'anything'.",
-      "suggestion": "Change 'I eat anything' to 'I'll eat anything' or 'I eat everything' to better convey the nuance of not being picky."
+      "concern": "The English translation implies a specific action ('I eat anything') while the Japanese is more general, meaning 'I eat anything/everything' or 'I'll eat anything.' The current translation is too narrow.",
+      "suggestion": "I'll eat anything."
     }
   ]
 }

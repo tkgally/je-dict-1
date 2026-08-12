@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "03423_datte_ex1",
-      "japanese": "だって、⟦{知|し}らなかった→知る：00458_shiru⟧んだもん。",
+      "japanese": "だって、⟦{知|し}らなかった→知る：00458_shiru⟧⟦ん→の：09472_no⟧⟦だ→だ：09496_da⟧⟦もん→もの：10988_mono⟧。",
       "english": "But I didn't know!",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "03423_datte_ex4",
-      "japanese": "だって、⟦{疲|つか}れてた→疲れる：00901_tsukareru⟧んだもん。",
+      "japanese": "だって、⟦{疲|つか}れてた→疲れる：00901_tsukareru⟧⟦ん→の：09472_no⟧⟦だ→だ：09496_da⟧⟦もん→もの：10988_mono⟧。",
       "english": "But I was tired!",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "03423_datte_ex5",
-      "japanese": "だって⟦{本当|ほんとう}→本当：00779_hontou⟧⟦な→な：09497_na⟧んだから。",
+      "japanese": "だって⟦{本当|ほんとう}→本当：00779_hontou⟧⟦な→な：09497_na⟧⟦ん→の：09472_no⟧⟦だ→だ：09496_da⟧⟦から→から：00504_kara⟧。",
       "english": "But it's true!",
       "notes": null,
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "03423_datte_ex10",
-      "japanese": "だって、⟦そう→そう：01167_sou⟧⟦{言|い}われた→言う：00515_iu⟧んだもの。",
+      "japanese": "だって、⟦そう→そう：01167_sou⟧⟦{言|い}われた→言う：00515_iu⟧⟦ん→の：09472_no⟧⟦だ→だ：09496_da⟧⟦もの→もの：10988_mono⟧。",
       "english": "But that's what I was told!",
       "notes": null,
       "has_audio": false,
@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "notes": "SENSE 1 - CONJUNCTION:\n- Used at sentence start to give a reason or excuse\n- Has a casual, sometimes childish or defensive tone\n- Often paired with 〜んだもん, 〜んだから\n\nSENSE 2 - PARTICLE:\n- Noun + だって: Even (noun), (noun) also\n- Similar to ⟦でも→でも：00925_demo⟧ but more casual/emphatic\n- ⟦{誰|だれ}→誰：00534_dare⟧だって (anyone), ⟦{何|なに}→何：00498_nani⟧だって (anything)\n\nREGISTER: Casual/colloquial. Not used in formal speech or writing.\n\nSIMILAR:\n- だって: Casual, defensive\n- ⟦でも→でも：00925_demo⟧: But (more neutral)\n- ⟦だけど→だけど：00033_dakedo⟧/⟦けど→けど：09477_kedo⟧: But (casual)",
+  "notes": "SENSE 1 - CONJUNCTION:\n- Used at sentence start to give a reason or excuse\n- Has a casual, sometimes childish or defensive tone\n- Often paired with 〜⟦ん→の：09472_no⟧⟦だ→だ：09496_da⟧⟦もん→もの：10988_mono⟧, 〜⟦ん→の：09472_no⟧⟦だ→だ：09496_da⟧⟦から→から：00504_kara⟧\n\nSENSE 2 - PARTICLE:\n- Noun + だって: Even (noun), (noun) also\n- Similar to ⟦でも→でも：00925_demo⟧ but more casual/emphatic\n- ⟦{誰|だれ}→誰：00534_dare⟧だって (anyone), ⟦{何|なに}→何：00498_nani⟧だって (anything)\n\nREGISTER: Casual/colloquial. Not used in formal speech or writing.\n\nSIMILAR:\n- だって: Casual, defensive\n- ⟦でも→でも：00925_demo⟧: But (more neutral)\n- ⟦だけど→だけど：00033_dakedo⟧/⟦けど→けど：09477_kedo⟧: But (casual)",
   "cross_references": [
     {
       "type": "related",
@@ -150,11 +150,18 @@
       "headword": "けど",
       "label": "but, though (casual)",
       "target_id": "09477_kedo"
+    },
+    {
+      "type": "related",
+      "reading": "もの",
+      "headword": "もの",
+      "label": "sentence-final reason particle (casual もん)",
+      "target_id": "10988_mono"
     }
   ],
   "metadata": {
     "created": "2026-01-12T14:43:00Z",
-    "modified": "2026-07-09T18:18:38Z",
+    "modified": "2026-08-12T00:24:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
