@@ -2,12 +2,13 @@
   "entry_id": "00215_kenkyo",
   "headword": "{謙虚|けんきょ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:04:55Z",
+  "reviewed_at": "2026-08-12T09:28:13Z",
   "summary": {
     "flagged": 1
   },
@@ -16,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'descriptive' is too broad and doesn't specifically describe the semantic nature of '謙虚'.",
-      "suggestion": "Replace 'descriptive' with a more specific semantic tag like 'personality trait' or 'character trait'."
+      "concern": "The semantic tag 'descriptive' is too general for '謙虚'.",
+      "suggestion": "personality"
     }
   ]
 }

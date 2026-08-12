@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T09:58:12Z",
+  "reviewed_at": "2026-08-12T09:28:37Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The word '若者' is not formal; it is a neutral term for young people.",
+      "concern": "The formality tag 'formal' is incorrect for 若者. It is a neutral, everyday term.",
       "suggestion": "neutral"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'general' is too broad for '若者'. A more specific tag would be 'person'.",
-      "suggestion": "person"
     }
   ]
 }

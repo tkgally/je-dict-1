@@ -2,36 +2,15 @@
   "entry_id": "00603_mada",
   "headword": "まだ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:55:50Z",
+  "reviewed_at": "2026-08-12T09:28:20Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'still, not yet' is incomplete and doesn't fully capture the nuance of 'further/more' or 'only/just' that まだ can convey, especially in certain contexts or with specific particles.",
-      "suggestion": "Add 'further, more' or similar to the top-level gloss to reflect the broader range of meanings, or add a new sense for this meaning."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'still' for sense 1 is incomplete. While 'still' is the primary meaning, まだ can also mean 'further' or 'more' in an affirmative context, which is not covered by 'still' or 'not yet'.",
-      "suggestion": "Expand the gloss for sense 1 to include 'still, further, more' or create a new sense for 'further/more'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English translation 'I still have a long way to go' for 'まだまだです。' is a common idiomatic translation, but it's not a direct or literal rendering of 'まだまだです' which literally means 'still, still' or 'not yet, not yet'. While contextually appropriate, it adds meaning not explicitly present in the Japanese.",
-      "suggestion": "Consider adding a note about this being an idiomatic translation, or provide a more literal translation like 'Not yet, not yet' or 'Still not good enough' if the goal is strict literalism, though the current translation is natural English for the implied meaning."
-    }
-  ]
+  "issues": []
 }

@@ -2,23 +2,15 @@
   "entry_id": "01833_shoutaisuru",
   "headword": "{招待|しょうたい}する",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:34:54Z",
+  "reviewed_at": "2026-08-12T09:28:34Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'informal' is incorrect for 招待する. This word is neutral in formality.",
-      "suggestion": "neutral"
-    }
-  ]
+  "issues": []
 }
