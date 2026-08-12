@@ -1,10 +1,12 @@
 {
   "entry_id": "08356",
-  "screened_at": "2026-06-22T03:30:15Z",
+  "screened_at": "2026-08-12T12:36:32Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 蝶結 (ちょうむす) is a partial reading, but the full word is 蝶結び (ちょうむすび). The provided reading only covers the kanji portion, which is correct by the given rules. However, the subsequent entry for 結 (むす) suggests that 蝶結び is the intended word, and 蝶結 is not a standalone word. If 蝶結び is the intended word, then 蝶結 should not be a separate entry with a partial reading. If 蝶結 is intended as a standalone entry, then the reading is correct for the kanji portion. Given the context of the following entry, it seems like a split reading of 蝶結び. This is not an error based on the rules, but it's an unusual split."
+    "The reading for 蝶結 is ちょうむす, but the standard reading for 蝶結び is ちょうむすび. The provided reading is a partial reading, but it's missing the 'び' which is part of the kanji's reading in this context, not okurigana. However, given the instruction 'Do NOT flag partial readings as errors — they are correct by design', this might be considered acceptable if 'むす' is the intended reading for just 結.",
+    "The reading for 偶数 is ぐうすう. While ぐうすう is a valid reading, きすう for 奇数 is also valid. However, the more common reading for 偶数 is ぐうすう. The provided reading is correct.",
+    "The reading for 不祝儀 is ぶしゅうぎ. While ふしゅうぎ is also a valid reading, ぶしゅうぎ is a common alternative due to rendaku. Both are acceptable."
   ],
-  "confidence": 0.8
+  "confidence": 0.7
 }

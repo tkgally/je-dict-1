@@ -1,10 +1,8 @@
 {
   "entry_id": "08362",
-  "screened_at": "2026-06-22T03:31:01Z",
+  "screened_at": "2026-08-12T12:37:17Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for '八' in pair 10 is 'やっ', but the context 'つ (eight)' suggests it should be 'やっ' as in 'やっつ' (eight items). However, the entry is for 'やつあたり', where '八' is read as 'や'. If this '八' is meant to be the numeral 'eight', then 'やっ' is correct for '八つ'. Given the context of 'やつあたり', it's likely a separate example or definition, and 'やっ' for '八' when followed by 'つ' (as in '八つ') is correct. But if it's meant to be part of the 'やつあたり' reading, then 'や' would be expected. Without more context, it's ambiguous. However, 'やっ' for '八' when referring to 'eight' (as in '八つ') is a valid reading. The problem is that the entry is for 'やつあたり', where '八' is 'や'. If this is a separate example, it's fine. If it's meant to be part of the main entry, it's inconsistent. Given the instruction \"Do NOT flag partial readings as errors — they are correct by design,\" and that 'やっ' is a valid reading for '八' in some contexts (like '八つ'), I will not flag it as an error, but note the ambiguity. However, the instruction also says \"the reading covers ONLY the kanji portion.\" In '八つ', '八' is 'やっ'. So it's correct. The ambiguity is whether it's related to the main entry or a separate example. I will assume it's a separate example for the numeral 'eight'.\n\nPair 11: '散 → ち' followed by 'らす (to las)'. The reading 'ち' for '散' is correct for '散らす'. The issue is the English translation 'to las' which is incomplete. This is not a kanji-reading error, but a typo in the English. I will not flag it as a kanji-reading error.\n\nPair 12: '逆 → さか' followed by '{恨|うら}み (m)'. The reading 'さか' for '逆' is correct for '逆恨み'. The issue is the English translation '(m)' which is incomplete. This is not a kanji-reading error, but a typo in the English. I will not flag it as a kanji-reading error.\n\nPair 13: '恨 → うら' followed by 'み (misplac)'. The reading 'うら' for '恨' is correct for '逆恨み'. The issue is the English translation '(misplac)' which is incomplete. This is not a kanji-reading error, but a typo in the English. I will not flag it as a kanji-reading error.\n\nAll kanji-reading mappings appear to be correct based on the provided rules and context. The issues are with incomplete English translations, not the Japanese readings themselves."
-  ],
-  "confidence": 0.9
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

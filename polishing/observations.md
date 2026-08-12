@@ -1277,3 +1277,32 @@ All 27 observations cleared.)_
   i-adjective, glossed "young" (one basic tier, one core). 01525's headword also has a
   malformed furigana wrapper: `{若い|わかい}` instead of `{若|わか}い`. Needs a
   consolidation session, not a polish pass.
+
+## 2026-08-12 — routine(accuracy-review), entries 08347–08850
+
+- [pattern] The dominant accuracy-review signal in this range was off-vocabulary
+  semantic tags, not gloss or translation errors: 411 tag flags across 189
+  entries versus 2 translation flags (both already fixed) and 0 gloss flags.
+  Glosses and example translations in the 8347–8850 block are in good shape;
+  the tag taxonomy is where the debt sits.
+- [pattern] The off-vocab tags cluster into recognisable batch-creation families
+  — near-synonyms of an in-list tag that was already present on the same entry
+  (`train` beside `transportation`, `disease` beside `health`, `crime` beside
+  `law`, `competition` beside `sports`), and underscore spellings of hyphenated
+  tags (`new_year`, `real_estate`, `urban_life`). Roughly half of the 265
+  in-range flags were resolved by simply dropping a redundant narrower tag.
+- [tooling] `build/review_runner.py --pass screening` and
+  `build/review_accuracy.py` run at roughly 1.5–2.6 entries per minute against
+  OpenRouter. A 500-entry range therefore needs 3–5 hours of wall clock, far
+  more than one Routine run has. The §A guidance to "target ~400–600 entries
+  per run" is only reachable when review files already exist and the run spends
+  its time on adjudication rather than on generating them.
+- [tooling] Most of the 8347–8850 range already had accuracy reviews on disk
+  from 2026-06-22 that had never been adjudicated, so re-running the review
+  scripts over it was wasted spend. A pre-flight check for existing
+  `reviews/accuracy/{id}.json` coverage before launching a pass would let the
+  mode go straight to adjudication.
+- [pattern] Furigana screening precision over this already-polished range was
+  0/20 — every flag was an okurigana-split or rendaku false positive from the
+  documented families. This is consistent with the 0–5% precision measured on
+  2026-06-10/11 and supports keeping the known-noise bulk-reject shortcut.

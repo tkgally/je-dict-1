@@ -1,11 +1,8 @@
 {
   "entry_id": "08398",
-  "screened_at": "2026-06-22T03:35:04Z",
+  "screened_at": "2026-08-12T12:41:38Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for {街並|まちな}み is given as まちな. While 'なみ' is okurigana, the provided format states that the reading covers ONLY the kanji portion. Therefore, 街 should be まちな and 並 should be み. However, the entry is {街並|まちな}み, implying 街並 = まちな. This is a partial reading of the kanji portion, as 'み' is part of the word '街並み' but is not included in the kanji reading. This is explicitly allowed by the rule 'Do NOT flag partial readings as errors — they are correct by design.'",
-    "The entry {石畳|いしだた} is followed by 'み'. This implies that 石畳 = いしだた, and 'み' is okurigana. However, the full word is 石畳み (ishidatami), where 'み' is part of the kanji 畳. The reading for 畳 is たたみ. Therefore, {石畳|いしだた} is a partial reading of the kanji portion, as 'み' is part of the kanji 畳 but is not included in the kanji reading. This is explicitly allowed by the rule 'Do NOT flag partial readings as errors — they are correct by design.'"
-  ],
-  "confidence": 0.8
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

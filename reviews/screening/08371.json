@@ -1,10 +1,8 @@
 {
   "entry_id": "08371",
-  "screened_at": "2026-06-22T03:32:02Z",
+  "screened_at": "2026-08-12T12:38:21Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for 些細 is given as ささい, but the example sentence shows なことで{口論|こう) where the reading for 口論 is given as こう. This is a partial reading and not an error in itself, but it highlights that the full reading for 口論 is こうろん, and the example only provides the first part. This is not an error in the furigana mapping for 些細, but rather an observation about the example's partial reading for 口論. However, the instruction states 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors'. Therefore, the reading for 些細 is correct as ささい. The partial reading for 口論 in the example is also not an error according to the rules."
-  ],
-  "confidence": 0.8
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }
