@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T10:13:24Z",
+  "reviewed_at": "2026-08-12T06:31:07Z",
   "summary": {
     "flagged": 2
   },
@@ -17,15 +17,15 @@
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The main gloss combines two distinct grammatical patterns and a separate affirmative response, which are better treated as separate senses. The 'I hear that, it seems that' part is misleading as 'そうです' itself doesn't mean 'it seems that' in the same way it means 'I hear that'. The 'it seems that' meaning comes from a different grammatical construction with そう.",
-      "suggestion": "Split the gloss into distinct meanings corresponding to the different grammatical uses of そうです. For example, 'I hear that (hearsay); it looks like (appearance); that's right (affirmative response)'"
+      "concern": "The main gloss combines two distinct grammatical patterns and a separate affirmative response, which is misleading for an intermediate learner. The 'I hear that, it seems that' part covers two different grammatical uses of そうです, while 'that's right' is a distinct usage.",
+      "suggestion": "Split the gloss into separate entries or clarify that these are distinct uses. For example, 'I hear that (hearsay); it seems that (appearance); that's right (affirmative)'"
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword 'そうです' encompasses three distinct grammatical patterns/uses. While 'grammatical' is a valid tag, it's too broad for a word that also functions as a direct affirmative response. The 'expression' tag is also too broad. For sense 3, 'そうです' functions as a direct affirmative response, which could be better described by a more specific tag if available, or at least not solely 'grammatical'.",
-      "suggestion": "Add 'expression' to the semantic tags for the headword, as it covers the affirmative response aspect. The current tags are 'expression' and 'grammatical', which are acceptable given the nature of the word. No change needed here."
+      "concern": "The headword そうです is a grammatical expression with multiple distinct uses. While 'grammatical' is appropriate, 'expression' is too broad and redundant given the 'grammatical' tag and the nature of the word.",
+      "suggestion": "Remove 'expression' as a semantic tag. The word is primarily a grammatical particle/expression, not a general 'expression' in the sense of an idiom or phrase."
     }
   ]
 }

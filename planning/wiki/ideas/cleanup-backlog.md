@@ -2349,6 +2349,29 @@ Running false-positive rate across the 358 hand-verified short-base pairs (2026-
 2026-08-11): **~0.6%** — low, but not zero, which is what keeps this item `verify: per-entry`
 rather than mechanical.
 
+**2026-08-12 systemic-fix run** — third per-entry short-base batch, and the first fully clean
+one. 180 A1/A2 pairs (214 instances, 147 entries, IDs 02232–03163) were read in a ±45-character
+context window and applied, with **zero rejections**; the queue is now **1,101 pairs / 1,287
+instances** and everything below **03164** is swept for A1+A2. The band was dominated by
+families that are cheap to judge in bulk: date and counter words (十一日/十四日/七人/六人/二枚,
+all resolving into the 30xxx counter entries created by recent new-entries runs), meat compounds
+(羊肉/馬肉), surname examples inside phone-call and self-introduction entries (田中/山田/鈴木 →
+`0952x`), place names used as places (成田/横浜/青森県), and grammar terminology (五段活用 →
+`28275_godan`, whose entry covers the grammar sense alongside "fifth dan").
+
+**Figurative compounds are not the proper-name family.** This band contained several markers
+whose sentence uses the word metaphorically while the target entry defines it literally —
+猫に小判 → `27868` (koban coin), 歩行者天国 → `27976` (heaven), 手玉に転がす → `28101`
+(juggling ball), 早起きは三文の徳 → `28481` (three mon / a pittance). All were applied. The
+discriminator against the 朝日新聞 family is whether the surface and the target are the *same
+lexeme*: in 歩行者天国 the word really is 天国 used figuratively, and the entry is where a
+learner should land; in 朝日新聞 the surface is a company name that merely contains the word.
+One marginal apply is worth recording for future runs: ソフト飲料 → `01532_sofuto`, whose
+sense 2 ("soft; not hard or firm") covers the "non-alcoholic" collocation only approximately.
+
+Running false-positive rate across the 538 hand-verified short-base pairs (2026-08-09,
+2026-08-11, 2026-08-12): **~0.4%**.
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword

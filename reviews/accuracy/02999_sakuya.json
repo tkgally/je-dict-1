@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T09:57:40Z",
+  "reviewed_at": "2026-08-12T06:31:04Z",
   "summary": {
     "flagged": 2
   },
@@ -17,14 +17,14 @@
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The headword '昨夜' is not formal. It is a neutral term for 'last night'.",
+      "concern": "The formality tag 'formal' is incorrect for '昨夜'. While it can be used in formal contexts, it is also very commonly used in everyday speech and writing, making 'neutral' a more appropriate general tag.",
       "suggestion": "neutral"
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for a word specifically referring to a time period.",
+      "concern": "The semantic tag 'general' is too broad for '昨夜'. A more specific and accurate tag is available.",
       "suggestion": "time-general"
     }
   ]

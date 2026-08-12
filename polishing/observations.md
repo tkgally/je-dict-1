@@ -1228,3 +1228,28 @@ All 27 observations cleared.)_
   already occupies the headword 〜ぶり but covers only the time-interval sense
   ("for the first time in"). The manner/style sense belongs there as a second
   sense rather than in a competing entry. Left in the candidate queue.
+
+## 2026-08-12 — routine systemic-fix (P35 stale-noentry sweep, entries 02232–03163)
+
+- `[pattern]` **Figurative compounds are safe to link; company names are not.** This band had
+  several markers where the sentence uses the word metaphorically but the target entry defines
+  it literally (猫に小判 → koban coin, 歩行者天国 → heaven, 手玉に転がす → juggling ball,
+  早起きは三文の徳 → three mon). All were applied: the surface and the target are the same
+  lexeme, so the learner lands on the word the metaphor is built from. That is the opposite of
+  the 朝日新聞 family (2026-08-11), where the surface is a company name that merely contains
+  the word. The discriminator is same-lexeme, not literal-vs-figurative.
+- `[pattern]` **The stale-marker population is being fed by the counter/date entries.** A large
+  share of this band's pairs pointed at 30xxx IDs (十一日, 十四日, 七人, 六人, 二枚, 何曜日,
+  六人): recent new-entries runs filled in the counter and calendar vocabulary, and every older
+  entry that had spelled those words out with `noentry` went stale at once. This is the "live
+  leak" the P35 notes predicted, and it is why the standing detector beats periodic hand sweeps.
+- `[pattern]` **Whole-entry accuracy review remains a poor §4 instrument for link-only runs** —
+  second consecutive data point. Of 13 flags on a 37-entry stratified sample, **zero** concerned
+  a link target; all were pre-existing gloss/tag observations on entries the run happened to
+  touch. A `--dimensions links` mode for `review_accuracy.py` has now been requested by three
+  runs (2026-08-09, 2026-08-11, 2026-08-12).
+- `[tooling]` **`sole-general` and other sole-tag defects surface as accuracy-review noise.**
+  Three of the four §4 flags this run accepted were sole-tag problems the deterministic
+  detectors already know about (`酸素` sole-`general`, `昨夜` sole-`general`, `平方メートル`
+  tagged `tool` + `informal`). Paying a model to rediscover them one entry at a time is
+  wasteful; `check_tag_drift.py`'s sole-general queue would find them in bulk for free.
