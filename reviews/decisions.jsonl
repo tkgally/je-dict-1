@@ -7234,3 +7234,9 @@
 {"ts": "2026-08-12T09:40:00Z", "entry": "00215", "src": "self-check", "dim": "tags", "sev": "error", "decision": "reject", "note": "in-list descriptive ok; personality off-vocab"}
 {"ts": "2026-08-12T09:40:00Z", "entry": "03037", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "notes contrast 若者 with formal 青年"}
 {"ts": "2026-08-12T09:40:00Z", "entry": "06895", "src": "self-check", "dim": "gloss", "sev": "error", "decision": "apply", "note": "sense 2 needs vertical qualifier"}
+{"ts":"2026-08-12T12:53:16Z","src":"accuracy","dim":"tags","sev":"error","decision":"apply","n":127,"note":"family: off-vocab semantic tags migrated to VALID_SEMANTIC"}
+{"ts":"2026-08-12T12:53:16Z","src":"accuracy","dim":"tags","sev":"warn","decision":"apply","n":138,"note":"family: off-vocab semantic tags migrated to VALID_SEMANTIC"}
+{"ts":"2026-08-12T12:53:16Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":20,"note":"family: okurigana split and rendaku false positives"}
+{"ts":"2026-08-12T12:53:16Z","entry":"08464","src":"accuracy","dim":"translation","sev":"error","decision":"reject","note":"examples already reworded since review"}
+{"ts":"2026-08-12T12:53:16Z","entry":"08464","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"catching tears not idiomatic English"}
+{"ts":"2026-08-12T12:55:07Z","entry":"08666","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"condition not body part; also fixed 08438"}

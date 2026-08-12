@@ -8,9 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-11T21:39:50Z",
+  "reviewed_at": "2026-08-12T12:47:55Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
@@ -18,14 +18,7 @@
       "location": "tags.semantic",
       "severity": "error",
       "concern": "The tag 'shop' is not a valid semantic tag.",
-      "suggestion": "Replace 'shop' with 'building' or 'business' if applicable, or remove it if no suitable replacement exists."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'location' is not a valid semantic tag.",
-      "suggestion": "Replace 'location' with 'general' or 'geography' if applicable, or remove it if no suitable replacement exists."
+      "suggestion": "Remove 'shop' or replace it with a valid tag like 'business' or 'building'."
     }
   ]
 }
