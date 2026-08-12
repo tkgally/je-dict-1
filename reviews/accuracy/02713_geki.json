@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T03:53:46Z",
+  "reviewed_at": "2026-08-12T06:30:52Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is too broad and doesn't accurately describe the headword '劇'.",
+      "suggestion": "Replace 'leisure' with 'art' or 'entertainment'."
+    }
+  ]
 }

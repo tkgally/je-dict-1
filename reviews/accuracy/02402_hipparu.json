@@ -8,38 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T18:10:17Z",
+  "reviewed_at": "2026-08-12T06:30:38Z",
   "summary": {
-    "flagged": 4
+    "flagged": 1
   },
   "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[2].gloss",
-      "severity": "error",
-      "concern": "The gloss 'to take (someone) along' is too narrow and doesn't fully capture the meaning of 'to lead' or 'to attract' which is present in some examples.",
-      "suggestion": "to take (someone) along, to lead, to attract"
-    },
     {
       "dimension": "translation",
       "location": "examples[10]",
       "severity": "error",
-      "concern": "The translation 'To hold someone back' for '足を引っ張る' is an idiomatic expression that doesn't directly relate to the core meaning of 'pull' or 'drag' as defined in the glosses. While '足を引っ張る' can mean 'to hold someone back', it's an idiom and should be treated as such or explained differently.",
-      "suggestion": "To trip someone up (idiomatically: to hold someone back)"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[12]",
-      "severity": "error",
-      "concern": "The translation 'To lead a team' for 'チームを引っ張る' is a correct meaning of the Japanese phrase, but it's not directly covered by the current glosses of 'to pull, to drag, to take (someone) along'. This suggests a missing sense or an inadequate gloss for sense 3.",
-      "suggestion": "To lead a team (or 'To pull a team along')"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[13]",
-      "severity": "error",
-      "concern": "The translation 'I dragged him into it' for '彼を引っ張り込んだ' implies a negative connotation of involvement, which is not explicitly covered by the current glosses for '引っ張る'. While 'dragged' is used, the 'into it' part suggests a different nuance than simply 'pulling' or 'taking along'.",
-      "suggestion": "I pulled him into it (or 'I got him involved')"
+      "concern": "The English translation for '足を引っ張る' is an idiom, but the Japanese phrase '足を引っ張る' is also an idiom meaning 'to hold someone back' or 'to hinder someone'. The current translation 'To hold someone back' is correct for the idiom, but the dictionary entry for '引っ張る' does not explain this idiomatic usage. This could mislead a learner into thinking '足を引っ張る' literally means 'to pull someone's leg' (which is a different idiom in English).",
+      "suggestion": "Add a new sense for idiomatic usage or clarify that this example is an idiom. For example, 'To hinder someone; to hold someone back (idiom).'"
     }
   ]
 }
