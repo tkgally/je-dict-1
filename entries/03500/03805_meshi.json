@@ -21,7 +21,7 @@
       "id": "03805_meshi_ex1",
       "japanese": "{飯|めし}⟦を→を：00422_wo⟧⟦{食|く}おう→食う：02657_kuu⟧。",
       "english": "Let's eat. / Let's grab some food.",
-      "notes": "飯を食う = to eat (casual, masculine)",
+      "notes": "{飯|めし}⟦を→を：00422_wo⟧⟦{食|く}う→食う：02657_kuu⟧ = to eat (casual, masculine)",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -41,7 +41,7 @@
       "id": "03805_meshi_ex3",
       "japanese": "⟦{朝|あさ}→朝：02277_asa⟧{飯|めし}⟦を→を：00422_wo⟧⟦{抜|ぬ}いた→抜く：02384_nuku⟧。",
       "english": "I skipped breakfast.",
-      "notes": "朝飯 = breakfast (casual)",
+      "notes": "⟦{朝|あさ}→朝：02277_asa⟧{飯|めし} = breakfast (casual)",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {飯|めし} is a casual, somewhat masculine word for meals or cooked rice. In polite or formal contexts, use ⟦{食事|しょくじ}→食事：02087_shokuji⟧ (meal) or ⟦ご{飯|はん}→ご飯：00776_gohan⟧ (rice/meal).\n\nCOMMON PATTERNS:\n・{飯|めし}⟦を→を：00422_wo⟧⟦{食|く}う→食う：02657_kuu⟧ (to eat - very casual)\n・⟦{朝|あさ}→朝：02277_asa⟧{飯|めし} (breakfast - casual)\n・⟦{昼|ひる}→昼：00540_hiru⟧{飯|めし} (lunch - casual)\n・⟦{晩|ばん}→晩：00542_ban⟧{飯|めし}/⟦{夕|ゆう}→夕：noentry⟧{飯|めし} (dinner - casual)\n・{飯|めし}⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧ (let's eat)\n\nREGISTER: Casual/masculine. The polite equivalent is ⟦ご{飯|はん}→ご飯：00776_gohan⟧.\n\nCONTRAST:\n・{飯|めし} - casual, masculine\n・⟦ご{飯|はん}→ご飯：00776_gohan⟧ - neutral to polite\n・⟦{食事|しょくじ}→食事：02087_shokuji⟧ - formal, neutral",
+  "notes": "USAGE: {飯|めし} is a casual, somewhat masculine word for meals or cooked rice. In polite or formal contexts, use ⟦{食事|しょくじ}→食事：02087_shokuji⟧ (meal) or ⟦ご{飯|はん}→ご飯：00776_gohan⟧ (rice/meal).\n\nCOMMON PATTERNS:\n・{飯|めし}⟦を→を：00422_wo⟧⟦{食|く}う→食う：02657_kuu⟧ (to eat - very casual)\n・⟦{朝|あさ}→朝：02277_asa⟧{飯|めし} (breakfast - casual)\n・⟦{昼|ひる}→昼：00540_hiru⟧{飯|めし} (lunch - casual)\n・⟦{晩|ばん}→晩：00542_ban⟧{飯|めし}/⟦{夕飯|ゆうめし}→夕飯：02981_yuuhan⟧ (dinner - casual)\n・{飯|めし}⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧ (let's eat)\n\nREGISTER: Casual/masculine. The polite equivalent is ⟦ご{飯|はん}→ご飯：00776_gohan⟧.\n\nCONTRAST:\n・{飯|めし} - casual, masculine\n・⟦ご{飯|はん}→ご飯：00776_gohan⟧ - neutral to polite\n・⟦{食事|しょくじ}→食事：02087_shokuji⟧ - formal, neutral",
   "cross_references": [
     {
       "type": "related",
@@ -126,11 +126,25 @@
       "headword": "ご{飯|はん}",
       "label": "polite form",
       "target_id": "00776_gohan"
+    },
+    {
+      "type": "related",
+      "reading": "しょくじ",
+      "headword": "{食事|しょくじ}",
+      "label": "formal, neutral equivalent",
+      "target_id": "02087_shokuji"
+    },
+    {
+      "type": "related",
+      "reading": "ゆうはん",
+      "headword": "{夕飯|ゆうはん}",
+      "label": "dinner",
+      "target_id": "02981_yuuhan"
     }
   ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-07-09T06:20:59Z",
+    "modified": "2026-08-12T00:24:34Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -1205,3 +1205,10 @@ All 27 observations cleared.)_
   genuine error (08287). The other 4 were the documented false-positive families
   (rendaku in compounds, okurigana/compound reading splits) plus one parse failure
   — consistent with the 0–5% precision measured on 2026-06-10/11.
+
+## 2026-08-12 (routine polish, entries 06884-06892)
+
+- [pattern] The body-idiom block created 2026-01-18 (06884-06906: 口が軽い, 腹が立つ, 顔が広い, 足が出る, 手が離せない, 目が離せない, 肩身が狭い, 耳が痛い, and the 〜を/〜が idioms that follow) has **zero inline word links** in examples and notes — every one of the nine entries polished this run needed full link coverage built from scratch. The rest of that block (06893 onward) almost certainly has the same gap, so budget roughly one entry per 8-10 minutes when the frontier reaches it rather than the usual faster pace.
+- [pattern] Idiom entries in that block also tend to carry a "RELATED EXPRESSIONS" list of sibling idioms that have no entries (口が滑る, 口が悪い, 頭に来る, 顔が利く, 手が空く, 手が足りない, 肩身が広い, 居づらい, 図星). Nine such candidates were captured this run. These are natural high-value new-entry material: they are already cross-referenced from an existing entry, so creating them closes internal gaps.
+- [entry] 06886 haragatatsu: the notes listed the adjective form as "腹が立たしい", which is not a word — corrected to 腹立たしい (21455). Worth spot-checking sibling idiom entries for similarly malformed derived forms.
+- [pattern] Stale `noentry` markers keep surfacing during polish (this run: もごもご in 05775, now 29751). `build/check_stale_noentry.py --mechanical` exists for exactly this class; running it as a systemic-fix item would clear the backlog faster than incidental discovery.
