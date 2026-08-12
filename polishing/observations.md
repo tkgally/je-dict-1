@@ -1212,3 +1212,19 @@ All 27 observations cleared.)_
 - [pattern] Idiom entries in that block also tend to carry a "RELATED EXPRESSIONS" list of sibling idioms that have no entries (口が滑る, 口が悪い, 頭に来る, 顔が利く, 手が空く, 手が足りない, 肩身が広い, 居づらい, 図星). Nine such candidates were captured this run. These are natural high-value new-entry material: they are already cross-referenced from an existing entry, so creating them closes internal gaps.
 - [entry] 06886 haragatatsu: the notes listed the adjective form as "腹が立たしい", which is not a word — corrected to 腹立たしい (21455). Worth spot-checking sibling idiom entries for similarly malformed derived forms.
 - [pattern] Stale `noentry` markers keep surfacing during polish (this run: もごもご in 05775, now 29751). `build/check_stale_noentry.py --mechanical` exists for exactly this class; running it as a systemic-fix item would clear the backlog faster than incidental discovery.
+
+## 2026-08-12 — routine(new-entries) 30575–30594
+
+- [tooling] `manage_candidates.py add` accepts headwords that already carry
+  furigana markup (`{口|くち}が{滑|すべ}る`). Ten such candidates (C23094–C23103)
+  were added by an earlier polish run, and because the stored `word` string does
+  not match the plain headword of the entry that was later created from it,
+  `manage_candidates.py sync` could not detect them as fulfilled — they had to be
+  removed by hand this run. Suggest stripping `{kanji|kana}` wrappers in
+  `manage_candidates.py add`/`add-batch` before storing, or normalizing both sides
+  in `sync`.
+- [entry] Candidate C23011 (ぶり, "suffix: manner or style of doing something",
+  as in {仕事|しごと}ぶり) was skipped rather than created: entry `28358_buri`
+  already occupies the headword 〜ぶり but covers only the time-interval sense
+  ("for the first time in"). The manner/style sense belongs there as a second
+  sense rather than in a competing entry. Left in the candidate queue.
