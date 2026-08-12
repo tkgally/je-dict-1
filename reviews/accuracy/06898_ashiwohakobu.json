@@ -8,24 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-18T09:28:47Z",
+  "reviewed_at": "2026-08-12T18:29:38Z",
   "summary": {
     "flagged": 2
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.formality",
+      "location": "tags.politeness",
       "severity": "error",
-      "concern": "The expression is not inherently formal; it can be used in various contexts, including polite but not strictly formal ones. The 'formal' tag is misleading.",
+      "concern": "The politeness tag 'humble' is incorrect for '足を運ぶ'. While it can be used in humble contexts, the expression itself is not inherently humble. It's more about showing respect or effort.",
       "suggestion": "neutral"
     },
     {
       "dimension": "tags",
-      "location": "tags.politeness",
+      "location": "tags.formality",
       "severity": "error",
-      "concern": "While it can be used humbly, the expression itself is not inherently 'humble' in the same way kinship terms are. It's more about politeness or showing effort. 'Humble' is too strong and specific a politeness level for the headword itself.",
-      "suggestion": "polite"
+      "concern": "The formality tag 'formal' is incorrect for '足を運ぶ'. While it can be used in formal contexts, the expression itself is not inherently formal. It's more about showing respect or effort.",
+      "suggestion": "neutral"
     }
   ]
 }

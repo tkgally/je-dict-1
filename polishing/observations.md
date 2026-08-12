@@ -1222,3 +1222,26 @@ All 26 observations cleared.)_
   only in `polish` runs, the entry count grows only in `new-entries` runs — and at ~16 runs per window
   the rotation's variance swamps the signal. Either normalise both terms per run of their own mode, or
   retire the ratio.
+
+## 2026-08-12 — routine polish (priority lane 111–118, frontier 06896–06901)
+
+- [pattern] **The `notes.txt` priority list is now mostly self-blocking at its head.** Lines 80–110
+  were skipped in a single unbroken run of 31 — every one had a `modified` date inside the 30-day
+  window, because earlier priority-lane runs already worked them. The list is re-ranked from note
+  *scores*, which polishing does not always raise (adding cross-references and inline links leaves
+  the note text alone), so recently-polished entries keep their high rank and keep re-surfacing at
+  the top. The lane's real throughput is the eligible tail, not the head: this run had to read 39
+  lines to find 4 workable entries. Worth considering a `--exclude-recent` flag in
+  `build/prioritize_polishing.py` so the generated file is already filtered, instead of every run
+  paying the skip cost.
+- [pattern] **Idiom entries in the 06880–06980 block are missing cross-references to their own body
+  part.** All six frontier entries this run (肩をすくめる, 眉をひそめる, 足を運ぶ, 顔を出す,
+  胸を張る, 腰を据える) had zero or one cross-reference, and none linked to the body-part noun
+  (肩, 眉, 胸, 腰) that heads the idiom, even though each entry's notes list two or three sibling
+  idioms built on the same noun. Conversely the body-part entries (02192 肩, 04267 眉, 00972 胸,
+  02210 腰) link only to neighbouring body parts, never to the idioms. This is a two-way gap with a
+  deterministic shape — a body-part noun whose headword appears at the head of an `expression`
+  entry — and would make a clean `systemic-fix` detector for the whole idiom block.
+- [entry] 06899 顔を出す: sense 2 ("to peek out") has three examples but the top-level `gloss`
+  advertises only sense 1. The definitions list both. Left as-is this run; the top-level gloss
+  convention for two-sense idioms is worth a ruling before editing it.
