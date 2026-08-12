@@ -1169,140 +1169,56 @@ rather than a sixth observation.
 
 All 27 observations cleared.)_
 
-## 2026-08-11 (routine polish, entries 00514–06883)
+## 2026-08-12 (routine wiki harvest — all prior observations cleared)
 
-- [pattern] The 06876–06887 block (Sino-Japanese nouns and body-part idioms created in the same batch) has notes containing Japanese words with **zero inline links** — FORMATION / USAGE / CONTRAST sections are entirely naked Japanese, while the example sentences in the same entries are fully linked. Tier-1 note linking appears to have been skipped for this whole creation batch. Entries 06876–06883 are now fixed; 06884–06887 and probably the surrounding range still need it. A detector that flags entries whose examples are ≥90% linked but whose notes contain unlinked kanji would find the rest cheaply.
-- [pattern] Three entries in the same block (06880, 06881, 06882) carried `cross_references` entries with **no `target_id`** — pointing at negated/antonym idioms (気が利かない, 気が軽い, 気が長い) that were never created. `build/validate.py` reports these as notes rather than errors, so they survive CI. `build/check_artifacts.py` already has a missing-target_id check (P2); worth confirming it covers this shape and running it over the idiom ranges.
-- [entry] 06881 kigaomoi carried `style: ["literary"]`, which is wrong for an everyday conversational idiom — removed. Worth checking whether the same batch applied `literary` by template elsewhere.
-- [tooling] `build/word_id_lookup.json` is keyed `by_headword` / `by_reading`, but katakana headwords (ベテラン) are only reachable by headword while the schema demands a hiragana `reading` in cross-references. Adding a katakana→hiragana reading field to the lookup would prevent the schema failure this run hit.
-- [pattern] Several long-polished basic/core entries reached from the priority lane (01006 腕, 02006 ばかり, 04376 洗面, 05766 にやにや) had rich, well-linked notes but **completely empty `cross_references`** — including cases where the notes explicitly contrast four named neighbours (05766). Notes-quality scoring does not see this gap, so the cross-reference priority list is the better lane for finding it.
+_(All 26 observations from the 2026-08-11 polish / candidates / accuracy-review runs and the
+2026-08-12 polish, new-entries, systemic-fix and accuracy-review runs have been harvested by the
+wiki maintenance session of 2026-08-12.
 
-## 2026-08-11 (routine candidates, restock to 177)
+**Nothing new was filed as a priority.** Two filings that read as discoveries were re-discoveries
+of open, batch-ready queue items: the braced inline-link base forms are `inline-link-braced-base-form`
+(fourth independent re-discovery, measured 35 entries, priority-5 since 2026-07-30 and worked by
+none of the four runs that found it), and the zero-link idiom block is `inline-link-block-06800-07100`
+— re-measured at 79 of 101 IDs in 06880-06980, with the news that the unbroken run starts at **06896**,
+which is the polish frontier itself, so that item's routing decision is now live rather than deferred.
 
-- [pattern] The common-vocabulary discovery lenses are close to exhausted at ~30,400 entries. Four probe batches this run measured duplicate rates of **100%** (office/business life, 25/25 already entries), **~90%** (administrative and residency terms — only 厚生年金 survived from 15), **~89%** (modern-life compounds and weather words — 3 of 28), and **~72%** (mimetics and literary-register verbs — 5 of 18). By contrast the proper-noun lens ran at **~80% survival**. Restock runs should now budget most of their generation on proper nouns and on narrow, deliberately-chosen thin veins (rare mimetics were the only productive common-word vein found), and should expect the old "generate 1.5× the target" rule to need to become 3–4× for common vocabulary.
-- [tooling] `build/audit_semantic_field.py --below 60` and `analyze_scenarios.py --top-gaps` are no longer usable as generation aims: no semantic field is below 60% coverage, and every remaining scenario "gap" is a conjugated form or free phrase (分からない, 眠れない, 動かない, 机の下) that fails the find-candidates gates by construction. Either the expected-word lists need extending with harder vocabulary, or the `candidates` mode's step-2 gap read should be dropped as dead weight.
-- [pattern] Historical-period names (平安時代, 鎌倉時代, 室町時代, 大正時代) had no clean marker category in the find-candidates proper-noun scheme — they are neither place, person, organization, work, nor really `event`. They were filed as `event` for lack of a better fit. If era names become a recurring class, the skill and the `event-name` semantic tag need an explicit ruling.
+**Three retirements/closures.** The katakana `word_id_lookup` gap does not exist
+(`by_reading['べてらん']` resolves; `by_headword['ベテラン']` already carries the hiragana reading —
+a katakana query against a hiragana-keyed index). The `style: ["literary"]` template hypothesis
+measured **zero** entries in 06800-06999. And the proposal to extend `TAG_MIGRATION` — implied again
+by the 2026-08-11 "cheaper from a deterministic membership check than a paid model call" observation —
+is closed against the 2026-08-07 decision on the queue item: the map's nine rows clear **8.1%** of the
+1,364 off-vocabulary-tagged entries, which is that decision confirmed, not overturned. Fourth proposal.
 
-## 2026-08-11 — accuracy-review run (entries 8066–8565)
+**Two measurements worth carrying.** Off-vocabulary tags are concentrated as hypothesised, but not
+where they were measured: 09000-09499 (48%) and 08000-08499 (40%) hold a third of the population and
+23 of 62 blocks are completely clean — so the consequence is *routing* the reviewer by density, since
+the reviewer is the chosen instrument. And the 59 dangling cross-references `check_artifacts.py`
+correctly suppresses are a candidate vein with a ~2% duplicate rate by construction, only 1 of 59
+already queued — against the 72-100% duplicate rates the candidates run measured on common-vocabulary
+lenses. Filed as Tooling 108.
 
-- [pattern] **Semantic-tag vocabulary contamination is concentrated, not uniform.**
-  A deterministic scan against `VALID_SEMANTIC` found 341 of 500 entries (68%) in
-  the 8066–8565 block carrying off-vocabulary semantic tags, with 264 distinct bad
-  tags — versus 1,603 of 30,365 entries (5.3%) dictionary-wide. This block looks
-  like a batch-creation artifact where free-form tags (`office`, `stationery`,
-  `kitchen`, `medical`, `legal`, `housing`, `gardening`, `competition`, `loanword`)
-  were invented instead of drawn from the closed list. Worth scanning for other
-  hot-spot ID blocks rather than treating P20 as an even dictionary-wide sweep.
-- [tooling] **The `tags` dimension of `review_accuracy.py` is now dominated by
-  "tag not in the valid list" flags** (310 of 313 issues in this range; only 3
-  gloss issues, 0 translation issues). Those flags are correct by definition but
-  are far cheaper to obtain from the deterministic `VALID_SEMANTIC` membership
-  check than from a paid model call. Consider having the reviewer prompt suppress
-  pure membership failures and report only *semantic* tag mismatches (tag is
-  in-list but wrong for the headword), which is the judgment the model is actually
-  needed for.
-- [tooling] Furigana screening over this range flagged 5 entries, 1 of which was a
-  genuine error (08287). The other 4 were the documented false-positive families
-  (rendaku in compounds, okurigana/compound reading splits) plus one parse failure
-  — consistent with the 0–5% precision measured on 2026-06-10/11.
+Also filed: Tooling 106 (a `links` dimension for `review_accuracy.py`, fourth request, second
+measurement at 0 of 13 flags concerning a link), Tooling 107 (check for existing accuracy reviews
+before paying for a pass), an update to Tooling 100, and four entry follow-ups (28358 〜ぶり's second
+sense; 06886's derived-form spot-check; 00823/01525 若い re-filed a second time; a `time-period` +
+`proper-noun` ruling recommendation for historical era names). One curator escalation.
 
-## 2026-08-12 (routine polish, entries 06884-06892)
+All 26 observations cleared.)_
 
-- [pattern] The body-idiom block created 2026-01-18 (06884-06906: 口が軽い, 腹が立つ, 顔が広い, 足が出る, 手が離せない, 目が離せない, 肩身が狭い, 耳が痛い, and the 〜を/〜が idioms that follow) has **zero inline word links** in examples and notes — every one of the nine entries polished this run needed full link coverage built from scratch. The rest of that block (06893 onward) almost certainly has the same gap, so budget roughly one entry per 8-10 minutes when the frontier reaches it rather than the usual faster pace.
-- [pattern] Idiom entries in that block also tend to carry a "RELATED EXPRESSIONS" list of sibling idioms that have no entries (口が滑る, 口が悪い, 頭に来る, 顔が利く, 手が空く, 手が足りない, 肩身が広い, 居づらい, 図星). Nine such candidates were captured this run. These are natural high-value new-entry material: they are already cross-referenced from an existing entry, so creating them closes internal gaps.
-- [entry] 06886 haragatatsu: the notes listed the adjective form as "腹が立たしい", which is not a word — corrected to 腹立たしい (21455). Worth spot-checking sibling idiom entries for similarly malformed derived forms.
-- [pattern] Stale `noentry` markers keep surfacing during polish (this run: もごもご in 05775, now 29751). `build/check_stale_noentry.py --mechanical` exists for exactly this class; running it as a systemic-fix item would clear the backlog faster than incidental discovery.
+## 2026-08-12 — routine wiki (quality-metrics 35th refresh)
 
-## 2026-08-12 — routine(new-entries) 30575–30594
-
-- [tooling] `manage_candidates.py add` accepts headwords that already carry
-  furigana markup (`{口|くち}が{滑|すべ}る`). Ten such candidates (C23094–C23103)
-  were added by an earlier polish run, and because the stored `word` string does
-  not match the plain headword of the entry that was later created from it,
-  `manage_candidates.py sync` could not detect them as fulfilled — they had to be
-  removed by hand this run. Suggest stripping `{kanji|kana}` wrappers in
-  `manage_candidates.py add`/`add-batch` before storing, or normalizing both sides
-  in `sync`.
-- [entry] Candidate C23011 (ぶり, "suffix: manner or style of doing something",
-  as in {仕事|しごと}ぶり) was skipped rather than created: entry `28358_buri`
-  already occupies the headword 〜ぶり but covers only the time-interval sense
-  ("for the first time in"). The manner/style sense belongs there as a second
-  sense rather than in a competing entry. Left in the candidate queue.
-
-## 2026-08-12 — routine systemic-fix (P35 stale-noentry sweep, entries 02232–03163)
-
-- `[pattern]` **Figurative compounds are safe to link; company names are not.** This band had
-  several markers where the sentence uses the word metaphorically but the target entry defines
-  it literally (猫に小判 → koban coin, 歩行者天国 → heaven, 手玉に転がす → juggling ball,
-  早起きは三文の徳 → three mon). All were applied: the surface and the target are the same
-  lexeme, so the learner lands on the word the metaphor is built from. That is the opposite of
-  the 朝日新聞 family (2026-08-11), where the surface is a company name that merely contains
-  the word. The discriminator is same-lexeme, not literal-vs-figurative.
-- `[pattern]` **The stale-marker population is being fed by the counter/date entries.** A large
-  share of this band's pairs pointed at 30xxx IDs (十一日, 十四日, 七人, 六人, 二枚, 何曜日,
-  六人): recent new-entries runs filled in the counter and calendar vocabulary, and every older
-  entry that had spelled those words out with `noentry` went stale at once. This is the "live
-  leak" the P35 notes predicted, and it is why the standing detector beats periodic hand sweeps.
-- `[pattern]` **Whole-entry accuracy review remains a poor §4 instrument for link-only runs** —
-  second consecutive data point. Of 13 flags on a 37-entry stratified sample, **zero** concerned
-  a link target; all were pre-existing gloss/tag observations on entries the run happened to
-  touch. A `--dimensions links` mode for `review_accuracy.py` has now been requested by three
-  runs (2026-08-09, 2026-08-11, 2026-08-12).
-- `[tooling]` **`sole-general` and other sole-tag defects surface as accuracy-review noise.**
-  Three of the four §4 flags this run accepted were sole-tag problems the deterministic
-  detectors already know about (`酸素` sole-`general`, `昨夜` sole-`general`, `平方メートル`
-  tagged `tool` + `informal`). Paying a model to rediscover them one entry at a time is
-  wasteful; `check_tag_drift.py`'s sole-general queue would find them in bulk for free.
-
-## 2026-08-12 — routine(polish) run 004
-
-- `[pattern]` **Inline links whose base form still carries furigana braces.** 37 entry
-  files contain links written as `⟦{広|ひろ}さ→{広|ひろ}さ：00105_hirosa⟧` — the base-form
-  segment between `→` and `：` should be the plain dictionary form (`→広さ：`), as it is
-  everywhere else. Schema validation does not catch this. Fixed in 00704_hiroi this run;
-  the remaining ~36 files are a clean, mechanical systemic-fix candidate (regex: strip
-  `{kanji|kana}` wrappers inside the base-form segment only).
-- `[pattern]` **Contiguous unlinked block in the body-part idiom entries.** Entries from
-  about 06893 to 06905 (core tier, all last modified 2026-03-14) were created with zero
-  inline links in examples *and* notes. Three were linked this run; the rest of the block
-  is still naked. A frontier-lane run will hit them in ID order, but flagging the block
-  makes the size of the job visible.
-- `[pattern]` **Basic-tier entries with rich notes but empty `cross_references`.** Five of
-  the eight priority-lane entries this run named obvious neighbours in their notes
-  (antonyms, related forms, contrast pairs) while `cross_references` was `[]`. Extracting
-  cross-references from the notes prose is a high-yield, low-risk polish action and could
-  be turned into a detector that lists entries whose notes mention a linked entry that is
-  absent from `cross_references`.
-- `[entry]` **00823_wakai and 01525_wakai are duplicates.** Both are 若い / わかい,
-  i-adjective, glossed "young" (one basic tier, one core). 01525's headword also has a
-  malformed furigana wrapper: `{若い|わかい}` instead of `{若|わか}い`. Needs a
-  consolidation session, not a polish pass.
-
-## 2026-08-12 — routine(accuracy-review), entries 08347–08850
-
-- [pattern] The dominant accuracy-review signal in this range was off-vocabulary
-  semantic tags, not gloss or translation errors: 411 tag flags across 189
-  entries versus 2 translation flags (both already fixed) and 0 gloss flags.
-  Glosses and example translations in the 8347–8850 block are in good shape;
-  the tag taxonomy is where the debt sits.
-- [pattern] The off-vocab tags cluster into recognisable batch-creation families
-  — near-synonyms of an in-list tag that was already present on the same entry
-  (`train` beside `transportation`, `disease` beside `health`, `crime` beside
-  `law`, `competition` beside `sports`), and underscore spellings of hyphenated
-  tags (`new_year`, `real_estate`, `urban_life`). Roughly half of the 265
-  in-range flags were resolved by simply dropping a redundant narrower tag.
-- [tooling] `build/review_runner.py --pass screening` and
-  `build/review_accuracy.py` run at roughly 1.5–2.6 entries per minute against
-  OpenRouter. A 500-entry range therefore needs 3–5 hours of wall clock, far
-  more than one Routine run has. The §A guidance to "target ~400–600 entries
-  per run" is only reachable when review files already exist and the run spends
-  its time on adjudication rather than on generating them.
-- [tooling] Most of the 8347–8850 range already had accuracy reviews on disk
-  from 2026-06-22 that had never been adjudicated, so re-running the review
-  scripts over it was wasted spend. A pre-flight check for existing
-  `reviews/accuracy/{id}.json` coverage before launching a pass would let the
-  mode go straight to adjudication.
-- [pattern] Furigana screening precision over this already-polished range was
-  0/20 — every flag was an okurigana-split or rendaku false positive from the
-  documented families. This is consistent with the 0–5% precision measured on
-  2026-06-10/11 and supports keeping the known-noise bulk-reject shortcut.
+- [pattern] **The review-queue metric moved the wrong way, and the mechanism is already filed.**
+  Four consecutive refreshes led with a new record floor (most recently 9,832); this window it rose
+  to 10,089 and stands at 10,279 live. Nothing regressed — CI queues every changed entry, so the
+  window's 190 review-driven changes and 40 new entries raised it. That is Tooling 94's padding
+  mechanism (35.4% of the queue already carries a review newer than the entry's last modification),
+  still unshipped. **A productive window raises this number**, so it cannot be read as a health
+  metric in either direction until the `reviewed_at >= modified` predicate ships. Worth stopping
+  quoting it as a headline until then.
+- [pattern] **The frontier-versus-growth ratio measures the selector's mode mix, not productivity.**
+  Three refreshes have now read a different story out of it (76% → 42% → 90%), each time attributing
+  the move to one side. Both terms are counts of how often their mode came up — the frontier advances
+  only in `polish` runs, the entry count grows only in `new-entries` runs — and at ~16 runs per window
+  the rotation's variance swamps the signal. Either normalise both terms per run of their own mode, or
+  retire the ratio.

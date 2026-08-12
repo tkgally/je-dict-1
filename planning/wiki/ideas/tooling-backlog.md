@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-07-27 (wiki harvest of the 17 loose 2026-07-27 observations — **three new items** and six updates, the theme being work a model was paid to do that a string comparison would have done: **new item 38** — `review_accuracy.py --ids` overwrites `reviews/accuracy/{id}.json`, so a §4 self-check destroys the §A review record for exactly the entries that changed; **new item 39** — cross-reference-pair tag consistency (06528 連勝 `formal`/`action` vs 06529 連敗 `neutral`/`leisure`), a free check whose disagreements prove *one of two* entries wrong, a far stronger prior than any single-entry heuristic; **new item 40** — the conjugation-vs-headword invariant behind 22070 走り続ける, whose whole-word furigana wrapper silently doubled the stem in all 33 generated forms while validating clean. Updates: **item 8** — the no-pipe family finally measured (**887 instances / 616 entries**, absent from every P9 scope estimate); **item 24** — a screen at 13/102 flagged / **0 applicable**, plus the two deterministic fixes (stop scheduling screening past the accuracy frontier; drop flags whose quoted reading isn't in the file); **item 11** — a *second* consecutive cycle of a polish run improvising its own link checker and finding real dead links; **item 6** — the ~50-rename `TAG_MIGRATION` extension and a free `domain-tag-in-semantic-slot` check; **item 23** — the candidate pool quantified at **~1,030 of 1,044** entries of corpus residue in four decidable families; **item 20** — the exact heading strings behind the scorer's section-name mismatch; **item 34** — fourth report, `CLAUDE.md` attribution re-verified false.) Prior 2026-07-26
+**Last updated**: 2026-08-12 (wiki harvest of the 26 loose 2026-08-11/12 observations — **three new items, two retirements, one proposal closed**. **105 closes rather than opens**: `TAG_MIGRATION`'s nine rows clear **8.1%** of the 1,364 off-vocabulary-tagged entries, which is the 2026-08-07 decision confirmed from the other side — a static map picks a destination per *tag name* (486 names, 243 singletons) where the reviewer picks one per *entry* at 99.4% precision — so the map stays at nine rows, this being the fourth proposal to extend it; the head of the tail (`place`, `location`, `loanword`) is a curator taxonomy call, and `loanword` has no in-list target because it is a category error. **New 106**: a `links` dimension for `review_accuracy.py`, fourth request, second measurement — **0 of 13 flags on a link-only run concerned a link** — now with a stated rule to check (same-lexeme, which separates the 朝日新聞 family from the 猫に小判 family). **New 107**: check for existing `reviews/accuracy/{id}.json` before paying for a pass; same predicate as Tooling 94, and the reason §A's "400–600 entries per run" is only honest on pre-covered ranges at the measured 1.5–2.6 entries/min. **New 108**: the **59 dangling cross-references** `check_artifacts.py` correctly suppresses are a candidate vein at a ~2% duplicate rate by construction, only 1 of 59 queued, against the 72–100% duplicate rates the candidates run measured on common-vocabulary lenses. **Retired**: the katakana `word_id_lookup` gap — `by_reading['べてらん']` resolves and `by_headword['ベテラン']` carries the hiragana reading, so this was a katakana query against a hiragana-keyed index, the second usage-error-filed-as-defect in two harvests — and the `style: ["literary"]` template hypothesis (**zero** entries in 06800–06999).) Prior 2026-07-27 (wiki harvest of the 17 loose 2026-07-27 observations — **three new items** and six updates, the theme being work a model was paid to do that a string comparison would have done: **new item 38** — `review_accuracy.py --ids` overwrites `reviews/accuracy/{id}.json`, so a §4 self-check destroys the §A review record for exactly the entries that changed; **new item 39** — cross-reference-pair tag consistency (06528 連勝 `formal`/`action` vs 06529 連敗 `neutral`/`leisure`), a free check whose disagreements prove *one of two* entries wrong, a far stronger prior than any single-entry heuristic; **new item 40** — the conjugation-vs-headword invariant behind 22070 走り続ける, whose whole-word furigana wrapper silently doubled the stem in all 33 generated forms while validating clean. Updates: **item 8** — the no-pipe family finally measured (**887 instances / 616 entries**, absent from every P9 scope estimate); **item 24** — a screen at 13/102 flagged / **0 applicable**, plus the two deterministic fixes (stop scheduling screening past the accuracy frontier; drop flags whose quoted reading isn't in the file); **item 11** — a *second* consecutive cycle of a polish run improvising its own link checker and finding real dead links; **item 6** — the ~50-rename `TAG_MIGRATION` extension and a free `domain-tag-in-semantic-slot` check; **item 23** — the candidate pool quantified at **~1,030 of 1,044** entries of corpus residue in four decidable families; **item 20** — the exact heading strings behind the scorer's section-name mismatch; **item 34** — fourth report, `CLAUDE.md` attribution re-verified false.) Prior 2026-07-26
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -4540,6 +4540,160 @@ them is wrong, and marking them `noentry` would pollute the candidate queue with
 morphemes. The 2026-08-11 polish run left them unlinked, which is the right call; the skill
 should say so explicitly, or different sessions will keep resolving it differently. (Skill
 change — recorded here, not made from a wiki session.)
+
+## Updates 2026-08-12 (wiki harvest)
+
+Three new items, two retirements, and one proposal closed against a decision already on record.
+
+## 105. Closed, not filed: extending `TAG_MIGRATION` (fourth proposal)
+
+Measured this harvest: `TAG_MIGRATION`'s nine rows fully clear **111 of the 1,364 entries
+carrying off-vocabulary semantic tags (8.1%)**, covering **135 of 1,635 instances (8.3%)**. The
+residue is 477 labels with 243 singletons; the fifty most frequent cover 48% of instances.
+
+The obvious inference is "extend the map." It has been proposed four times now (2026-07-27,
+2026-08-01, 2026-08-02, and implicitly by the 2026-08-11 accuracy-review observation that these
+flags "are far cheaper to obtain from the deterministic `VALID_SEMANTIC` membership check than
+from a paid model call"), and it was **decided against on 2026-08-07** after measurement, on the
+`unknown-semantic-tags` queue item: a static map must pick a destination **per tag name**, and
+the tail is 486 names most of which occur once, whereas the reviewer picks one **per entry**,
+never has to generalise, and runs at 99.4% precision for ~$0.5 per 1,000 entries.
+
+The 8.1% figure is that decision confirmed from the other side, so this item exists to close the
+loop rather than to open work. What the measurement legitimately supports:
+
+- The head of the tail is **not** a rename problem. `place` (29) and `location` (27) need a
+  ruling on whether a common-noun location concept goes to `geography` or stays `general`,
+  because `place-name` is reserved for proper nouns. `loanword` (23) is a **category error, not
+  a synonym** — it says where a word came from, not what it means, and has no in-list target at
+  all. Those are curator taxonomy calls, which is exactly what the 2026-08-06 note said was
+  blocking, and they do not become tractable by being written into a Python dict.
+- The membership check *is* free and *is* worth running — as a **filter on where to send the
+  reviewer**, not as a fix. Cleanup P20's block table is that filter: 09000–09499 at 48% and
+  08000–08499 at 40%.
+
+**One thing to fix, cheaply**: §A's semantic-tag policy in `prompts/routine2.md` tells the
+adjudicator that "`build/check_tag_drift.py` has the 1:1 migration map," which reads as though
+applying it were the job. It covers one entry in twelve and, by the decision above, always will.
+One sentence.
+
+## 106. `review_accuracy.py --dimensions links` — fourth request, second measurement
+
+Requested 2026-08-09, 2026-08-11, and twice on 2026-08-12. The 2026-08-12 systemic-fix run
+supplied the second consecutive measurement: of **13 flags on a 37-entry stratified sample from a
+link-only run, zero concerned a link target**; all thirteen were pre-existing gloss/tag
+observations on entries the run happened to touch.
+
+The general statement is that **§4's self-verification instrument is mismatched to link-only
+runs**. A whole-entry accuracy review costs a model call per entry and returns findings about
+dimensions the run did not change, which then either get adjudicated — spending the run's
+scarcest resource on unrelated work — or skipped, which trains the run to ignore its own
+verification. A `links` dimension would ask the one question such a run needs: does the surface
+in `⟦surface→base：id⟧` denote the entry that `id` defines?
+
+It would also have a stated rule to check against rather than a vibe. The same window produced
+both halves of the discriminator: the 朝日新聞 family (2026-08-11), where the surface is a
+company name that merely *contains* the word, must not be linked; the 猫に小判 / 歩行者天国 /
+早起きは三文の徳 family (2026-08-12), where the sentence uses the word figuratively and the entry
+defines it literally, **should** be, and was. The test is **same-lexeme**, not
+literal-versus-figurative — which is a rule a reviewer prompt can hold.
+
+## 107. Accuracy-review pre-flight: check for existing reviews before paying for a pass
+
+The 2026-08-12 accuracy-review run over 08347–08850 found that most of the range **already had
+`reviews/accuracy/{id}.json` files from 2026-06-22 that had never been adjudicated**, and
+regenerated them. That is a full pass's cost spent reproducing judgments already on disk.
+
+It is the second half of a problem whose first half is Tooling 94 (35% of `reviews/queue.txt` is
+entries whose review is newer than their last modification). Both halves are the same predicate
+at different call sites — *does a review newer than `metadata.modified` already exist for this
+entry?* — with complementary consequences: **94 stops the queue from padding; 107 stops the mode
+from paying twice.**
+
+A default follows: an accuracy-review run should **start in adjudication mode** where its range
+already has coverage, and generate only for the uncovered residue. The same run measured the
+generation rate at **1.5–2.6 entries/minute**, so a 500-entry range needs 3–5 hours of wall clock
+— far more than one Routine run has. §A's "~400–600 entries per run" is therefore reachable
+*only* on ranges where reviews already exist, which makes this pre-flight the thing that turns a
+documented target into an honest one instead of a standing over-promise.
+
+## 108. The 59 dangling cross-references are a zero-duplicate candidate vein
+
+This began as a reported blind spot and measured out as a supply of new-entry candidates.
+
+`check_artifacts.py`'s `missing-target-id` check reports 37 instances across 33 entries; a direct
+scan finds **97 target-less references across 86 entries**. The gap is not a defect.
+`ref_is_resolvable()` deliberately suppresses references whose word has no entry, because a
+`target_id` cannot be filled in for a word that does not exist — which also answers the
+2026-08-11 filing that asked whether the detector covers the 06880–06882 shape (references to
+気が利かない, 気が軽い, 気が長い, none of which were ever created). It sees them and excludes
+them, correctly.
+
+What is new is what is inside the suppressed set. Measured 2026-08-12: **59 target-less
+references naming 59 distinct words with no entry, across 57 entries — and exactly one of the 59
+is in `candidate_words.json`.** Samples: 一昨日, メンテナンス, ぞっとする, 内閣改造, くるまる,
+保冷, 入閣, 削れる, ほしい, お坊さん, アルカリ性, 仕事始め.
+
+Why this matters now: the 2026-08-11 candidates run measured the common-vocabulary discovery
+lenses at **72–100% duplicate rates** across four probe batches and concluded that restock runs
+must generate 3–4× their target to hit it. This vein has a **duplicate rate of ~2% by
+construction** — every word in it was tested for existence by the same `by_reading` lookup
+`check_duplicate.py` uses — and every word in it is already named by a live entry, so creating it
+closes an internal gap instead of adding a leaf. It is the same argument the 2026-08-12 polish
+run made for the RELATED-EXPRESSIONS sibling idioms (口が滑る, 頭に来る, 手が空く…), and it
+generalises: **the dictionary's own dangling references are its highest-yield candidate source,
+and nothing was reading them.**
+
+Ship as a flag on the existing detector — `check_artifacts.py --check missing-target-id
+--unresolvable-as-candidates`, emitting word / reading / source-entry rows for
+`manage_candidates.py add-batch` — rather than as a new script. 59 words is roughly one and a
+half restock runs' output, at a survival rate no lens has come close to.
+
+## Retired 2026-08-12: the katakana `word_id_lookup` gap does not exist
+
+Filed by the 2026-08-11 polish run: "`build/word_id_lookup.json` is keyed `by_headword` /
+`by_reading`, but katakana headwords (ベテラン) are only reachable by headword while the schema
+demands a hiragana `reading` in cross-references. Adding a katakana→hiragana reading field would
+prevent the schema failure this run hit."
+
+Measured:
+
+```
+ベテラン → by_headword: yes   by_reading['べてらん']: yes   by_reading['ベテラン']: no
+アイコン → by_headword: yes   by_reading['あいこん']: yes   by_reading['アイコン']: no
+by_headword['ベテラン'] = [{'id': '11121_beteran', 'reading': 'べてらん', ...}]
+```
+
+The hiragana reading the schema wants **is already the `reading` field of the record the headword
+lookup returns**, and the hiragana key already resolves. What failed was a katakana query against
+a hiragana-keyed index. No tool change is warranted; the fix is one sentence in the
+`inline-word-links` and `cross-reference-entry` skills — *look katakana headwords up by headword
+and read `reading` off the record; `by_reading` is keyed in hiragana* — recorded here rather than
+made, since skills are out of scope for a knowledge-base session. (This also removes the premise
+of the filter on queue item `inline-link-block-06800-07100`, which defers that block partly
+because "the lookup answers katakana from `by_headword` only, tooling item 76.")
+
+Second retirement in two harvests of a filing that blamed an instrument for a usage error, and
+the pattern is worth naming: both were written by a run that hit a failure, formed a plausible
+cause, and filed it without querying the artifact it was accusing. **A filing against a data file
+should quote the lookup that failed.** That costs one line in the observation; not having it
+costs a tooling item and a harvest to retire it.
+
+## Retired 2026-08-12: the `style: ["literary"]` template hypothesis
+
+Filed with the 06881 fix — "worth checking whether the same batch applied `literary` by template
+elsewhere." Measured across 06800–06999: **zero entries** carry `style: ["literary"]`. 06881 was
+a single mis-tag, correctly fixed, with no batch behind it.
+
+## Update to item 100 (`manage_candidates.py add` should duplicate-check itself)
+
+The related furigana-markup defect reported by the 2026-08-12 new-entries run — candidates stored
+as `{口|くち}が{滑|すべ}る`, which `sync` then cannot match against the entry created from them —
+is **clean as of this harvest: 0 of 170 candidate rows carry brace markup**, the ten known cases
+(C23094–C23103) having been removed by hand in that run. The ask is therefore prevention, not
+cleanup: strip `{kanji|kana}` wrappers in `add`/`add-batch` before storing, or normalise both
+sides in `sync`. Cheap while the queue is small and vetted; it becomes a real cleanup again the
+first time a polish run captures ten more.
 
 ## Related pages
 
