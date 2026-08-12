@@ -1284,3 +1284,13 @@ All 26 observations cleared.)_
   flags as surviving errors because of it. The reliable discriminator right now is the `dimensions`
   array (a `--dimensions tags` self-check writes `["tags"]`), which is incidental rather than
   designed. Stamping the timestamp at write time would make the field usable.
+- [tooling] The GitHub MCP `pull_request_read` / `get_check_runs` endpoint can serve stale results
+  for a long time. On PR #3185 the `validate` check started 21:36:06 and completed `success` at
+  21:37:10, but nine successive `get_check_runs` calls over the next 33 minutes all reported
+  `status: "in_progress"` with no `completed_at`. Following §7's poll-then-stop rule literally, that
+  run gave up on a check that had been green for half an hour, and only merged because a stray
+  background timer prompted one more poll. Two cheap mitigations for the next Routine that hits
+  this: treat a `started_at` more than a few minutes old with no `completed_at` as suspect rather
+  than as genuine progress, and before abandoning a PR at the poll cap, re-poll once after a longer
+  gap — the stale window here was long but not permanent. Worth confirming whether the staleness is
+  MCP-side caching or the Actions API itself, since the §0a rescue path depends on this same call.
