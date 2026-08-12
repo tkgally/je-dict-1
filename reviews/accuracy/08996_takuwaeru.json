@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:32:49Z",
+  "reviewed_at": "2026-08-12T21:30:37Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +15,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'accumulation' is not in the valid tag list.",
-      "suggestion": "action"
+      "concern": "The tag 'appearance' is incorrect for the headword's meaning. While one sense relates to growing a beard, the primary meaning is 'to store' or 'accumulate', which does not fit 'appearance'.",
+      "suggestion": "Remove 'appearance'. Add 'action' and 'cognition' (for accumulating knowledge) or 'general' if a more specific tag isn't suitable for the primary meaning."
     }
   ]
 }

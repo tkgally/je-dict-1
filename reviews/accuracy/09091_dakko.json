@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:34:09Z",
+  "reviewed_at": "2026-08-12T21:32:11Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +14,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid tag 'childcare'",
-      "suggestion": "daily-life"
+      "severity": "error",
+      "concern": "Missing 'action' tag for a suru-verb.",
+      "suggestion": "Add 'action' to semantic_tags."
     }
   ]
 }

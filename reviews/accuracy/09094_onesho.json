@@ -4,28 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:34:12Z",
+  "reviewed_at": "2026-08-12T21:32:14Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'childcare' is not in the valid tag list.",
-      "suggestion": "Replace 'childcare' with 'daily-life' or 'health'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'body' is not in the valid tag list.",
-      "suggestion": "Replace 'body' with 'body-part' or 'health'."
+      "concern": "The tag 'family' is inappropriate for 'bedwetting'.",
+      "suggestion": "Remove 'family'."
     }
   ]
 }

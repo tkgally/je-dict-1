@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:31:38Z",
+  "reviewed_at": "2026-08-12T21:30:17Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +15,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'object' is not in the valid tag list.",
-      "suggestion": "Replace 'object' with 'media' or 'art' or 'general'."
+      "concern": "The semantic tag 'media' is too broad and not the most accurate for 'SE' (sound effect).",
+      "suggestion": "Replace 'media' with 'art' or 'entertainment' or 'music' or 'technology' or 'communication' or 'descriptive' or 'general' or 'expression' or 'action' or 'creation' or 'cognition' or 'daily-life' or 'work' or 'science' or 'business' or 'education' or 'health' or 'law' or 'politics' or 'religion' or 'society' or 'sports' or 'travel' or 'clothing' or 'food' or 'furniture' or 'tool' or 'transportation' or 'building' or 'place-name' or 'proper-noun' or 'organization-name' or 'person' or 'person-name' or 'family' or 'animal-general' or 'plant-general' or 'nature' or 'weather' or 'geography' or 'time-general' or 'number' or 'quantity' or 'size' or 'color' or 'appearance' or 'body-part' or 'body-internal' or 'emotion' or 'personality' or 'movement' or 'change' or 'existence' or 'evaluation' or 'idiom' or 'proverb' or 'greeting' or 'language' or 'grammatical' or 'onomatopoeia' or 'abstract' or 'history' or 'culture' or 'leisure' or 'shopping' or 'consumption' or 'cooking' or 'finance' or 'economics' or 'occupation' or 'military' or 'brand-name' or 'work-name' or 'event-name' or 'time-day-of-week' or 'time-month' or 'time-season' or 'time-period' or 'direction' or 'electronics' or 'animal-bird' or 'animal-fish' or 'animal-insect' or 'animal-mammal' or 'plant-flower' or 'plant-tree'"
     }
   ]
 }

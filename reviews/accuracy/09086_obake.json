@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:34:04Z",
+  "reviewed_at": "2026-08-12T21:32:06Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +14,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'supernatural' is not in the valid tag list.",
-      "suggestion": "Replace 'supernatural' with 'general' or 'culture'."
+      "severity": "error",
+      "concern": "The semantic tag 'culture' is too broad and misleading for 'おばけ'. While ghosts are part of culture, the word itself refers to a type of being.",
+      "suggestion": "Replace 'culture' with 'general' or 'descriptive' as a more appropriate fallback for supernatural beings."
     }
   ]
 }

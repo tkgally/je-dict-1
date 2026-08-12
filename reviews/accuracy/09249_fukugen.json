@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T15:47:12Z",
+  "reviewed_at": "2026-08-12T21:28:34Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'construction' is not in the valid tag list.",
-      "suggestion": "building"
+      "severity": "error",
+      "concern": "The tag 'construction' is too narrow and misleading for the headword's general meaning of 'restoration' or 'recovery', which applies to many contexts beyond construction (e.g., data, ancient life).",
+      "suggestion": "Remove 'construction' and add 'action' as the word is a suru-verb and represents an action."
     }
   ]
 }

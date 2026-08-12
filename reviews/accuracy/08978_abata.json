@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:32:32Z",
+  "reviewed_at": "2026-08-12T21:23:12Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect. Pockmarks are not a body part.",
+      "suggestion": "health"
+    }
+  ]
 }

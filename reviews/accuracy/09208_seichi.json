@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:35:26Z",
+  "reviewed_at": "2026-08-12T21:27:50Z",
   "summary": {
     "flagged": 2
   },
@@ -16,15 +16,15 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'quality' is not in the valid tag list.",
-      "suggestion": "evaluation"
+      "severity": "error",
+      "concern": "The tag 'quality' is not in the valid tag list.",
+      "suggestion": "descriptive"
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'craftsmanship' is not in the valid tag list.",
+      "severity": "error",
+      "concern": "The tag 'craftsmanship' is not in the valid tag list.",
       "suggestion": "art"
     }
   ]

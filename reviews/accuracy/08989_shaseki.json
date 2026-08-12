@@ -8,38 +8,45 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:32:43Z",
+  "reviewed_at": "2026-08-12T21:23:31Z",
   "summary": {
-    "flagged": 4
+    "flagged": 5
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss is misleading as 車席 (shaseki) is not a common or standard word for 'car seat' in modern Japanese. It is archaic or very rare.",
-      "suggestion": "Remove this entry as it is not a commonly used word. If it must be included, the gloss should indicate its archaic/rare nature."
+      "concern": "The word 車席 (shaseki) is not a standard or commonly used Japanese word for 'car seat' or 'seat in a vehicle'. The common terms are 座席 (zaseki) for a general seat, or シート (shiito) for a car seat. This entry is likely a non-existent word or a very rare, archaic, or specialized term not suitable for an intermediate learner's dictionary.",
+      "suggestion": "Remove this entry as it appears to be a non-existent or extremely rare word. If it is a valid word in a very specific context, that context needs to be clearly defined, but it's highly unlikely to be a general term for 'car seat'."
     },
     {
       "dimension": "gloss",
       "location": "definitions[0].gloss",
       "severity": "error",
-      "concern": "The gloss is misleading as 車席 (shaseki) is not a common or standard word for 'car seat' in modern Japanese. It is archaic or very rare.",
-      "suggestion": "Remove this entry as it is not a commonly used word. If it must be included, the gloss should indicate its archaic/rare nature."
+      "concern": "The word 車席 (shaseki) is not a standard or commonly used Japanese word for 'car seat' or 'seat in a vehicle'. The common terms are 座席 (zaseki) for a general seat, or シート (shiito) for a car seat. This entry is likely a non-existent word or a very rare, archaic, or specialized term not suitable for an intermediate learner's dictionary.",
+      "suggestion": "Remove this entry as it appears to be a non-existent or extremely rare word. If it is a valid word in a very specific context, that context needs to be clearly defined, but it's highly unlikely to be a general term for 'car seat'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The Japanese sentence uses a non-standard or non-existent word '車席'. While the English translation is grammatically correct, it misleads the learner into thinking '車席' is a valid word for 'seat in the car'.",
+      "suggestion": "If the entry is to be kept (which is not recommended), the example should be revised to use a standard word like '座席' or 'シート'. For example, '座席を予約した。' or 'シートを予約した。'"
     },
     {
       "dimension": "translation",
       "location": "examples[1]",
       "severity": "error",
-      "concern": "The Japanese example uses '助手車席' which is not a standard or natural Japanese phrase for 'front passenger seat'. The correct term is '助手席' (joshuseki).",
-      "suggestion": "Change '助手車席に座った。' to '助手席に座った。'"
+      "concern": "The Japanese sentence uses a non-standard or non-existent word '助手車席'. The correct term for 'front passenger seat' is 助手席 (joshuseki). The English translation is correct for the intended meaning but misleads the learner into thinking '助手車席' is a valid word.",
+      "suggestion": "If the entry is to be kept (which is not recommended), the example should be revised to use the correct term '助手席'. For example, '助手席に座った。'"
     },
     {
       "dimension": "translation",
       "location": "examples[2]",
       "severity": "error",
-      "concern": "The Japanese example uses '後部車席' which is not a standard or natural Japanese phrase for 'back seat'. The correct term is '後部座席' (koubu zaseki) or '後部席' (koubuseki).",
-      "suggestion": "Change '後部車席に荷物を置いた。' to '後部座席に荷物を置いた。' or '後部席に荷物を置いた。'"
+      "concern": "The Japanese sentence uses a non-standard or non-existent word '後部車席'. The correct term for 'back seat' is 後部座席 (koubu zaseki) or 後部シート (koubu shiito). The English translation is correct for the intended meaning but misleads the learner into thinking '後部車席' is a valid word.",
+      "suggestion": "If the entry is to be kept (which is not recommended), the example should be revised to use the correct term '後部座席' or '後部シート'. For example, '後部座席に荷物を置いた。'"
     }
   ]
 }

@@ -8,17 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:31:57Z",
+  "reviewed_at": "2026-08-12T21:22:10Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'time' is not appropriate for '一回' (ikkai). While it relates to occurrences over time, 'time' as a semantic tag usually refers to concepts like 'time-general', 'time-day-of-week', 'time-month', 'time-period', or 'time-season'. '一回' is primarily about quantity or instance.",
-      "suggestion": "Remove 'time'. The existing 'quantity' tag is sufficient and accurate."
-    }
-  ]
+  "issues": []
 }

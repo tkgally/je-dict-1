@@ -4,35 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:22Z",
+  "reviewed_at": "2026-08-12T21:31:02Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'body' is not in the valid tag list.",
-      "suggestion": "body-part"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'medical' is not in the valid tag list.",
-      "suggestion": "health"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "error",
-      "concern": "The English translation 'Chew your food well before eating.' implies a command or instruction, but the Japanese 'よく咀嚼して食べる。' is a statement meaning 'eat by chewing well' or 'chew well and eat'.",
-      "suggestion": "Eat by chewing well."
+      "concern": "The tag 'health' is not appropriate for the headword '咀嚼' itself. While chewing can relate to health, the word's core meaning is the act of chewing or processing, not health as a concept.",
+      "suggestion": "Remove 'health'."
     }
   ]
 }

@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:34:36Z",
+  "reviewed_at": "2026-08-12T21:26:18Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word with a clear meaning related to human interaction.",
+      "suggestion": "communication"
+    }
+  ]
 }

@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:31:15Z",
+  "reviewed_at": "2026-08-12T21:21:02Z",
   "summary": {
     "flagged": 1
   },
@@ -17,7 +17,7 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword 'ペースト' can refer to computer paste, which is not 'food'. The semantic tag 'food' is too narrow for the headword's overall meaning.",
+      "concern": "The headword 'ペースト' can refer to both food paste and computer paste, but the semantic tag 'food' only covers one meaning.",
       "suggestion": "Add 'technology' to the semantic tags."
     }
   ]

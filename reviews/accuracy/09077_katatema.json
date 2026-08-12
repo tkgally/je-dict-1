@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:57Z",
+  "reviewed_at": "2026-08-12T21:31:55Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +15,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'attitude' is not a valid semantic tag.",
-      "suggestion": "Remove 'attitude' or replace with a valid tag if appropriate (e.g., 'general' or 'descriptive' if no other fits)."
+      "concern": "The tag 'work' is inappropriate for '片手間' (katatema), which refers to 'spare time' or 'on the side' rather than work itself. The tag 'time-general' is appropriate.",
+      "suggestion": "Remove 'work'."
     }
   ]
 }

@@ -4,28 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:36Z",
+  "reviewed_at": "2026-08-12T21:31:32Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'sound' is incorrect for '静寂' (silence/stillness). '静寂' refers to the absence of sound, not sound itself.",
-      "suggestion": "Remove 'sound'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'atmosphere' is not in the valid tag list.",
-      "suggestion": "Replace 'atmosphere' with 'descriptive' or 'general'."
-    }
-  ]
+  "issues": []
 }

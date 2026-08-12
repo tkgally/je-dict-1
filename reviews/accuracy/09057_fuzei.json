@@ -4,28 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:38Z",
+  "reviewed_at": "2026-08-12T21:31:34Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'aesthetics' is not in the valid tag list.",
-      "suggestion": "Replace 'aesthetics' with a valid tag like 'art' or 'culture'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'humble-language' is not in the valid tag list.",
-      "suggestion": "Remove 'humble-language' as it is a politeness level, not a semantic tag. The politeness level is already handled by 'politeness: plain' and the specific sense is noted in the gloss and explanation."
-    }
-  ]
+  "issues": []
 }

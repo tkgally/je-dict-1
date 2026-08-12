@@ -4,28 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:33:34Z",
+  "reviewed_at": "2026-08-12T21:31:31Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'urgency' is not in the valid tag list.",
-      "suggestion": "abstract"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'crisis' is not in the valid tag list.",
-      "suggestion": "abstract"
+      "severity": "error",
+      "concern": "The semantic tag 'time-general' is incorrect for '切迫'.",
+      "suggestion": "The most appropriate tag would be 'emotion' or 'descriptive' as it describes a state of urgency or tension, not a general time concept."
     }
   ]
 }

@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T01:32:20Z",
+  "reviewed_at": "2026-08-12T21:22:50Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'food' is incorrect for '一升瓶' (isshobin), which refers to a bottle, not food itself.",
-      "suggestion": "Replace 'food' with 'tool' or 'consumption'."
+      "concern": "The semantic tag 'food' is incorrect for '一升瓶' (isshobin). An isshobin is a bottle, not food.",
+      "suggestion": "tool"
     }
   ]
 }
