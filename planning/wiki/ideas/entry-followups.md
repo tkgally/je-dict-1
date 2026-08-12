@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-07-27 (added **03794_warukuchi / 12672_waruguchi 悪口** — the same word split across two standard readings (わるくち / わるぐち), a variant-reading consolidation rather than a delete, needing a curator call on which reading leads the headword; and **08169_chuubi / 17946_nakabi 中火** — one of the two is simply wrong: 中火 is read ちゅうび, and なかび is the reading of 中日, so 17946 is either a mis-created duplicate or an entry that was meant to be 中日 and got the wrong kanji, notable because a 2026-07-20 furigana screen flagged its reading and the run *correctly* rejected the flag as an alternate reading — the real defect was invisible from inside the entry.) Prior 2026-07-26
+**Last updated**: 2026-08-12 (added **28358_buri** — the manner/style sense of 〜ぶり belongs in the existing time-interval entry, the second instance after 03515 日光 of a candidate that is real, is not a duplicate entry, and cannot be created because `check_duplicate.py` sees the headword as taken; **06886 haragatatsu** — 腹が立たしい corrected to 腹立たしい, with the sibling-idiom spot-check deferred to the frontier pass over the same creation cohort (P56); **00823/01525 若い** re-filed, a *second* report of a duplicate already on this page since 2026-08-08, recorded to make the re-filing cost visible — polish runs can only file consolidations, never perform them, so four are now open here; and a ruling recommendation for **historical era names**, filed as `event-name` for want of a fit when `time-period` + `proper-noun` are both already in `VALID_SEMANTIC` and say what an era actually is.) Prior 2026-07-27 (added **03794_warukuchi / 12672_waruguchi 悪口** — the same word split across two standard readings (わるくち / わるぐち), a variant-reading consolidation rather than a delete, needing a curator call on which reading leads the headword; and **08169_chuubi / 17946_nakabi 中火** — one of the two is simply wrong: 中火 is read ちゅうび, and なかび is the reading of 中日, so 17946 is either a mis-created duplicate or an entry that was meant to be 中日 and got the wrong kanji, notable because a 2026-07-20 furigana screen flagged its reading and the run *correctly* rejected the flag as an alternate reading — the real defect was invisible from inside the entry.) Prior 2026-07-26
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -1451,6 +1451,61 @@ create a separate entry and give `check_duplicate.py` an override for genuine ho
 (correct, and needed anyway — 日光 above is the same problem wearing different clothes). The
 second is the better investment because the class is now known to have at least two members and
 the proper-noun decision guarantees more.
+
+## Added 2026-08-12 (wiki harvest)
+
+### 28358_buri — the manner/style sense belongs in the existing entry, not a new one
+
+The 2026-08-12 new-entries run reached candidate C23011 (ぶり, "suffix: manner or style of doing
+something", as in {仕事|しごと}ぶり) and correctly declined to create it: `28358_buri` already
+holds the headword 〜ぶり, but covers only the time-interval sense ("for the first time in
+[period]"). The manner/style sense is a second sense of the same suffix, so it belongs in 28358.
+C23011 was left in the candidate queue, which means the next new-entries run will meet the same
+decision unless the entry is extended first — the queue has no way to say "this word exists but
+one of its senses does not."
+
+That gap is worth noting beyond this row: it is the same shape as the 03515 日光 follow-up filed
+2026-08-11 (add the Nikko sense to the existing entry rather than create a second one). Two
+instances now of a candidate that is *real*, *not a duplicate entry*, and *not creatable* —
+`check_duplicate.py` reports the headword as taken, which is true and not the relevant fact.
+
+### 06886 haragatatsu — malformed derived form, and the spot-check it asks for
+
+The entry's notes gave the adjective form as 腹が立たしい, which is not a word; corrected to
+腹立たしい (21455) by the 2026-08-12 polish run. The run asked for a spot-check of sibling idiom
+entries for similarly malformed derived forms. Not measured this harvest — the check needs to
+read each entry's notes prose to find claimed derived forms, which no existing detector does, and
+the natural moment for it is the frontier lane's pass over 06896–06980 (Cleanup P56), which is
+the same creation cohort and is about to be read entry-by-entry anyway.
+
+### 00823_wakai / 01525_wakai — second filing of the same duplicate
+
+Re-filed by the 2026-08-12 polish run: both entries are 若い / わかい, i-adjective, glossed
+"young" (one basic tier, one core), and 01525's headword carries a malformed wrapper
+`{若い|わかい}` where it should be `{若|わか}い`. This is already on this page under
+"Added 2026-08-08", where it was filed with the same two facts.
+
+Recording the re-filing rather than merging it silently, because the cost is now measurable: a
+duplicate that a polish run meets in the priority lane will be re-reported every time the lane
+reaches it, and each report costs a run's attention plus a harvest's. Consolidations need an
+owner — they are explicitly out of scope for polish sessions (`consolidate-entries` is a
+separate task), so a polish run can only ever file them. Three consolidation follow-ups are now
+open on this page (悪口, 中火, 若い) plus 02005/02458 にくい.
+
+### Era names (平安時代, 鎌倉時代, 室町時代, 大正時代) — filed as `event-name` for want of a fit
+
+The 2026-08-11 candidates run found no clean category in the find-candidates proper-noun scheme
+for historical periods — "neither place, person, organization, work, nor really `event`" — and
+filed them as `event-name`.
+
+Checked against `VALID_SEMANTIC`: `event-name`, `time-period`, `history`, and `proper-noun` are
+all in the list. So the vocabulary already contains a better fit than the one the run settled
+for, and no new tag is needed: **`time-period` + `proper-noun`**, optionally with `history`, says
+what an era name is — a named span of time — where `event-name` says it is a happening, which a
+250-year period is not. A ruling has to come from the `find-candidates` skill, which this session
+cannot edit; recorded here and routed to the curator. Worth settling before the next candidates
+run, since that run's own measurement puts proper nouns at ~80% survival against ~10–28% for
+common vocabulary, so era names will keep arriving.
 
 ## Related pages
 

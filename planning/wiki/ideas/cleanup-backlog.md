@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-07-27 (wiki harvest of the 17 loose observations from the 2026-07-27 polish, systemic-fix and accuracy-review runs — one **new priority** plus three cohort extensions: **new P28** — mixed bullet markers inside `notes`, the older `・` convention measured dictionary-wide at **18,272 line-initial instances across 2,524 entries** (~1/12 of the dictionary), normalizable by a doubly-anchored rule (line-initial AND inside `notes` only, since `・` is real punctuation elsewhere) but sequenced behind a sample check rather than swept blind. **P20** — the off-vocab band measured at **124 of 250 entries (49.6%)** in 19701–19950 (143 occurrences / 83 distinct off-list tags), with the operational finding that **the model is the wrong instrument**: the large families are 1:1 synonym renames `check_tag_drift.py`'s `TAG_MIGRATION` covers only nine of, so the ~50 safe renames belong in the map and only the ~7% judgment-dependent residue belongs in a review. **P17** — a seventh formality sub-family, 〜甲斐 nouns auto-tagged `informal` (06653/06654), notable for being a *morphological* cluster and therefore an unusually cheap detector cut. **P21** — the zero-link band unbroken through **06655**, with `・` bullets co-occurring in the same notes fields, now cross-linked to P28.) Prior 2026-07-26
+**Last updated**: 2026-08-12 (wiki harvest of the 26 loose observations from the 2026-08-11/12 runs — **no new priority**; two filings that read as new findings are re-discoveries of open, batch-ready items, and the third re-scope lands opposite to what its filing implied. **P24 re-filed a fourth time**: braced inline-link base forms measured at **35 entries** (two closed 2026-01 cohorts, 00697–00716 and 00965–00988), an item promoted to priority 5 on 2026-07-30 *because* three runs had already found it — and worked by none of the four, which is a selector question, not a backlog one. **P43's block is no longer upcoming**: 79 of 101 IDs in 06880–06980 carry zero links and the unbroken run starts at **06896**, exactly the polish frontier, so the 2026-08-06 prediction of one-fifth speed and the filing run's measured 8–10 min/entry now agree from both sides — the routing decision is live, not deferred. **P20 re-scoped**: 1,364 entries / 1,635 instances / 486 labels; hot spots at 09000–09499 (48%) and 08000–08499 (40%) hold a third of the population while 23 of 62 blocks are clean; and `TAG_MIGRATION`'s nine rows clear **8.1%** — which is evidence *for* the 2026-08-07 decision to keep the map at nine rows and let the per-entry reviewer be the instrument, this being the fourth time extending it has been proposed.) Prior 2026-07-27 (wiki harvest of the 17 loose observations from the 2026-07-27 polish, systemic-fix and accuracy-review runs — one **new priority** plus three cohort extensions: **new P28** — mixed bullet markers inside `notes`, the older `・` convention measured dictionary-wide at **18,272 line-initial instances across 2,524 entries** (~1/12 of the dictionary), normalizable by a doubly-anchored rule (line-initial AND inside `notes` only, since `・` is real punctuation elsewhere) but sequenced behind a sample check rather than swept blind. **P20** — the off-vocab band measured at **124 of 250 entries (49.6%)** in 19701–19950 (143 occurrences / 83 distinct off-list tags), with the operational finding that **the model is the wrong instrument**: the large families are 1:1 synonym renames `check_tag_drift.py`'s `TAG_MIGRATION` covers only nine of, so the ~50 safe renames belong in the map and only the ~7% judgment-dependent residue belongs in a review. **P17** — a seventh formality sub-family, 〜甲斐 nouns auto-tagged `informal` (06653/06654), notable for being a *morphological* cluster and therefore an unusually cheap detector cut. **P21** — the zero-link band unbroken through **06655**, with `・` bullets co-occurring in the same notes fields, now cross-linked to P28.) Prior 2026-07-26
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -3774,6 +3774,112 @@ register**, not a dictionary-wide sweep — which is exactly why the standing sc
 ~10 per sweep. What the 19/19 result establishes is that the reviewer is spending API budget to
 compute something deterministic on the subset where it can be computed at all. Queue item
 `tag-formality-contradicts-register-note` (open, batch-ready); tooling item 77.
+
+## Updates 2026-08-12 (wiki harvest)
+
+Twenty-six observations from the 2026-08-11/12 polish, candidates, new-entries, systemic-fix
+and accuracy-review runs. **No new priority came out of them.** Two filings that read as new
+findings turned out to be re-discoveries of items already open and batch-ready, and the
+harvest's contribution is to say what each re-discovery costs and what has actually changed
+underneath it. The third finding re-scopes P20 — and lands on the *opposite* conclusion from
+the one the observation implied, because a decision already on record answers it.
+
+### P24 re-filed a fourth time (braced inline-link base forms) — the item has never been worked
+
+The 2026-08-12 polish run filed "37 entry files contain links written as
+`⟦{広|ひろ}さ→{広|ひろ}さ：00105_hirosa⟧`; the remaining ~36 are a clean, mechanical
+systemic-fix candidate." That is queue item `inline-link-braced-base-form`, open since
+2026-07-25, **promoted to priority 5 on 2026-07-30 precisely because three separate polish runs
+had already found it independently**, with notes that already record the 00697–00716 and
+00966–00984 clustering.
+
+Re-measured 2026-08-12: **35 entries** (36 in the queue, minus 00704 which the filing run
+fixed). Two contiguous runs — 00697–00716 (16) and 00965–00988 (14) — plus 01484, 04471,
+09760. **34 of the 35 were created in 2026-01**, so the cohort is closed and cannot regrow.
+
+The number is not the news. The news is that a **provably-safe, user-visible, 35-entry,
+one-regex item at priority 5 has now been found independently by four polish runs across
+nineteen days and worked by none of them.** The 2026-07-30 promotion note predicted exactly
+this — "worked zero times because priority 24 is below anything the systemic-fix selector
+reaches" — and promoting it did not change the outcome. Whatever the selector is doing with
+`batch_ready` items at priority 5, it is not reaching this one; that is a selector question,
+not a backlog question, and it is the fifth re-discovery that will otherwise arrive next week.
+
+### P43's block is no longer upcoming — the polish frontier is inside it
+
+Filed twice within a day: "06893 to about 06905" (13 entries), and "06884–06887 and probably the
+surrounding range". Both are inside `inline-link-block-06800-07100`, open since 2026-08-06 at
+288 of 301 entries (96%) with zero inline links.
+
+What is new is a boundary. Measured over 06880–06980: **79 of 101 IDs have no inline link
+anywhere**, and the unbroken zero-link run begins at **06896** — which is the current value of
+`polishing/tasks/comprehensive/progress.txt`.
+
+The existing item was filed on a prediction: "the comprehensive frontier crawls through it at
+roughly one-fifth normal speed — a polish run that meets it spends its whole entry budget
+writing links from scratch." **The frontier has now met it**, and the filing run independently
+measured the predicted cost from the inside: "budget roughly one entry per 8–10 minutes." The
+prediction and the observation agree, which retires the question of whether the block is worth
+routing around.
+
+So the decision the 2026-08-06 filing deferred is now live, and it has a deadline rather than a
+priority: either hand 06896–07100 to a `systemic-fix` link-building pass and let the frontier
+resume above it, or accept that every polish run for the next several weeks spends its whole
+budget in this block. At this window's frontier rate — 36 IDs, the fastest in the series — the
+lane is inside the block for roughly six more runs. Note the filter the existing queue item
+carries: run it *after* `inline-link-stale-noentry` and the wrong-target detector, or writing
+288 entries of new links manufactures a fresh cohort of spurious `noentry` markers.
+
+### P20 re-scope: the population, the hot spots, and why the map should *not* be extended
+
+The 2026-08-11 accuracy-review run asked for a dictionary-wide scan — "worth scanning for other
+hot-spot ID blocks rather than treating P20 as an even dictionary-wide sweep." Done, with a
+third measurement it did not ask for that changes what the answer means.
+
+**1. Population, post-migration.** **1,364 of 30,385 entries (4.5%)** carry a semantic tag
+outside `VALID_SEMANTIC`: **1,635 instances**, **486 distinct labels**. Down from 1,603 entries
+on 2026-08-11 — the difference is the 189 entries the 2026-08-12 accuracy-review migrated.
+
+**2. Concentration confirmed, and the hot spots are not where it was measured.**
+
+| Block | Off-vocab entries | Share of block |
+|---|---|---|
+| 09000–09499 | 239 / 500 | **48%** |
+| 08000–08499 | 201 / 500 | **40%** |
+| 10000–10499 | 141 / 485 | 29% |
+| 20000–20499 | 127 / 498 | 26% |
+| 22000–22499 | 86 / 500 | 17% |
+| 16500–16999 | 58 / 479 | 12% |
+
+The top two blocks hold **32% of the whole population** between them; the top five hold 58%;
+**23 of 62 blocks are completely clean**. The filing measured 8066–8565 at 68% — a band
+straddling the 08000–08499 hot spot and the clean 08500–08999 block (7%), which is how one
+band's rate overstated both the level and the uniformity.
+
+**3. The map covers 8%, and that is an argument for the standing decision, not against it.**
+`TAG_MIGRATION` in `build/check_tag_drift.py` has nine rows. Against the current population it
+fully clears **111 of 1,364 entries (8.1%)** and covers **135 of 1,635 instances (8.3%)**. The
+residue is **477 labels, 243 of them used exactly once**; top-50 covers 48% of instances,
+top-200 covers 80%.
+
+The natural reading — *extend the map* — has been proposed three times (2026-07-27 "~50 safe
+renames", 2026-08-01 "22 mappings", 2026-08-02 "curated top-50 = 48.4%") and was **decided
+against on 2026-08-07**, on the queue item itself, after measurement: a static map must choose
+a destination **per tag name** (486 names, most of them singletons), whereas the reviewer
+chooses one **per entry** and never has to generalise — at 99.4% precision and ~$0.5 per 1,000
+entries. This harvest's 8.1% is the same finding from the other end, and it is the fourth time
+the extension has been proposed. Recording it here so the fifth proposal meets the decision
+instead of the temptation: **the map stays at nine rows; the reviewer is the instrument.**
+
+Two things follow that are *not* blocked by that decision:
+
+- **Route the instrument by density.** If the reviewer is the tool, point it at 09000–09499 and
+  08000–08499 rather than letting the sweep arrive there in ID order — a third of the
+  population at 40–48% density, against a sweep that has been averaging ~240 entries/run
+  through blocks that are 23-of-62 clean.
+- **Fix the descriptions.** Several pages, and §A's semantic-tag policy in `prompts/routine2.md`,
+  point at "the 1:1 migration map" as though applying it were the job. It is one entry in
+  twelve, and the decision of record says it will stay that way. See tooling item 105.
 
 ## Related pages
 
