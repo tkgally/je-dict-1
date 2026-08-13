@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T18:16:12Z",
+  "reviewed_at": "2026-08-13T15:52:26Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword '釣り' has two distinct meanings, one of which is 'change (money)'. The current semantic tag 'leisure' only applies to the 'fishing' meaning and is misleading for the 'change (money)' meaning.",
-      "suggestion": "Add 'money' to the semantic tags to cover the second meaning of '釣り'."
+      "concern": "The headword '釣り' itself does not mean 'money'. While one sense refers to 'change (money)', the primary meaning is 'fishing'. The 'money' tag is misleading for the headword.",
+      "suggestion": "Remove 'money' tag."
     }
   ]
 }

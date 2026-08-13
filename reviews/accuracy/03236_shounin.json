@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T10:01:33Z",
+  "reviewed_at": "2026-08-13T15:52:15Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for a specific occupation.",
-      "suggestion": "occupation"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect. '商人' is a neutral term for 'merchant' or 'trader' and is used in everyday contexts as well as formal ones.",
-      "suggestion": "neutral"
+      "concern": "The tag 'general' is too broad for a specific occupation.",
+      "suggestion": "Replace 'general' with 'occupation'."
     }
   ]
 }
