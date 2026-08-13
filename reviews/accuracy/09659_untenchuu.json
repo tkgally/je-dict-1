@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T18:29:17Z",
+  "reviewed_at": "2026-08-13T09:27:27Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'time-general' is incorrect for '運転中'. While it indicates a duration, its primary meaning relates to the action of driving or a machine being in operation.",
-      "suggestion": "action"
+      "concern": "The tag 'time-general' is not appropriate for '運転中'. While it indicates a duration, its primary meaning is about the state of driving or operating, not a general time concept.",
+      "suggestion": "Replace 'time-general' with 'action' or 'daily-life'."
     }
   ]
 }

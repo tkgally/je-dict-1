@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T18:29:16Z",
+  "reviewed_at": "2026-08-13T09:27:24Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific artifact type.",
+      "suggestion": "Replace 'general' with 'art' or 'culture' or 'history'."
+    }
+  ]
 }

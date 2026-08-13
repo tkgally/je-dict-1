@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T15:50:53Z",
+  "reviewed_at": "2026-08-13T09:57:22Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +14,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'interpersonal' is not in the valid tag list.",
-      "suggestion": "Remove 'interpersonal' or replace with a valid tag if appropriate."
+      "severity": "error",
+      "concern": "The tag 'communication' is incorrect for the headword '堪忍'.",
+      "suggestion": "Remove 'communication'."
     }
   ]
 }

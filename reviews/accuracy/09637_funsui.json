@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T06:58:14Z",
+  "reviewed_at": "2026-08-13T09:26:59Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a concrete noun like 'fountain'.",
+      "suggestion": "Replace 'general' with 'building' or 'daily-life'."
+    }
+  ]
 }

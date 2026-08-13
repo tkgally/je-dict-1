@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T06:57:06Z",
+  "reviewed_at": "2026-08-13T09:25:40Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid tag 'time-duration'.",
-      "suggestion": "time-general"
+      "severity": "error",
+      "concern": "The headword 五分 (gofun) can also mean 'fifty percent' or 'half'. The current tag 'time-general' only covers the 'five minutes' meaning.",
+      "suggestion": "Add 'quantity' to semantic_tags."
     }
   ]
 }

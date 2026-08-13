@@ -4,21 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T18:29:59Z",
+  "reviewed_at": "2026-08-13T09:57:34Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'work' is too narrow and misleading for '市場' (market), which primarily refers to an economic system or place of exchange, not just 'work'.",
-      "suggestion": "Replace 'work' with 'economics' or 'business'."
-    }
-  ]
+  "issues": []
 }

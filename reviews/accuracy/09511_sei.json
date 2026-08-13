@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T06:56:00Z",
+  "reviewed_at": "2026-08-13T09:24:23Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'number' is too narrow for the headword's full meaning, which also includes 'correct' or 'right'.",
+      "suggestion": "Add 'abstract' or 'evaluation' to cover the second sense."
+    }
+  ]
 }

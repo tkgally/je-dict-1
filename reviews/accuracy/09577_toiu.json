@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T06:57:11Z",
+  "reviewed_at": "2026-08-13T09:25:45Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation omits the nuance of 'such as' or 'consisting of' implied by 'という' in this context.",
+      "suggestion": "It's a casual outfit, such as jeans and a T-shirt."
+    }
+  ]
 }

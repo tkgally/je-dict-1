@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T18:29:24Z",
+  "reviewed_at": "2026-08-13T09:27:32Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The main gloss provides adjectives/nouns ('judicial; judiciary') for a noun headword, which is misleading. The headword itself is a noun meaning 'judiciary' or 'justice'.",
-      "suggestion": "Change 'judicial; judiciary' to 'judiciary; justice'."
-    },
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for a specific legal/governmental term. 'law' or 'politics' would be more appropriate.",
-      "suggestion": "Change 'general' to 'law'."
+      "concern": "The tag 'general' is too broad for a specific legal term.",
+      "suggestion": "law"
     }
   ]
 }

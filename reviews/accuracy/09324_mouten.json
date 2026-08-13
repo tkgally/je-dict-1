@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T15:48:26Z",
+  "reviewed_at": "2026-08-13T09:20:17Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'anatomy' is not in the valid tag list.",
-      "suggestion": "body-part"
+      "dimension": "translation",
+      "location": "examples[4]",
+      "severity": "error",
+      "concern": "The English translation 'To exploit a loophole in the law' misrepresents the Japanese '法律の盲点を突く'. While 'blind spot' can sometimes be similar to 'loophole' in a figurative sense, '突く' (tsuku) means to 'poke at' or 'take advantage of' a weakness, not necessarily a 'loophole'. The Japanese phrase implies finding and exploiting an oversight or weakness, which is a direct application of the figurative meaning of 盲点, whereas 'loophole' specifically refers to an ambiguity or exception in a rule.",
+      "suggestion": "To exploit a blind spot in the law."
     }
   ]
 }

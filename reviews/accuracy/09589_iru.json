@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T06:57:24Z",
+  "reviewed_at": "2026-08-13T09:25:57Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'existence' is incorrect for '要る' (to need/require).",
+      "suggestion": "Replace 'existence' with 'cognition' or 'general'."
+    }
+  ]
 }
