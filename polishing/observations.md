@@ -1315,3 +1315,20 @@ All observations cleared.)_
 - [entry] 02206 草 carries `style: ["slang"]` for the whole entry because of its INTERNET SLANG
   note, but the word itself is an ordinary noun; only the "w/lol" usage is slang. Left as-is —
   changing it needs a policy call on whether `style` describes the headword or any documented sense.
+- [entry] 03605 武器 example 2 reads 「核武器の廃絶を訴える」. 核武器 is not idiomatic Japanese —
+  the standard term is 核兵器. Left unchanged this run (out of scope for the inline-link sweep),
+  but it needs a rewrite; the example also has to keep containing the headword 武器, so it likely
+  needs replacing rather than patching.
+- [entry] 03459 図書 notes gloss 図書カード as "library card". A 図書カード is normally a prepaid
+  book gift card; a borrower's card is 図書館カード or 貸出カード. Worth a check by the curator.
+- [pattern] Sole-`general` semantic tags keep dominating the §4 self-check flags: 7 of this run's
+  33-entry sample (03167 資源, 03174 遊園地, 03236 商人, 03335 磁器, 03643 有機, 03665 予測,
+  03748 未来) carried `semantic: ["general"]` on a word with an obvious in-list category, and all
+  seven were applied. `check_tag_drift.py`'s sole-general check (P13) already detects these
+  mechanically — the population looks large enough in the 03xxx band to deserve its own
+  systemic-fix pass rather than being cleaned up incidentally by self-check samples.
+- [pattern] Fourth consecutive stale-`noentry` band (entries 03167-03756, 181 pairs) where the
+  external self-check raised **zero** flags about a link target — every flag was a pre-existing
+  tag/gloss issue on an entry the sweep happened to touch. The per-entry context read is still
+  what catches the polysemy cases, but the evidence that A1+A2 short-base substitution is safe
+  when context-checked is now quite strong.

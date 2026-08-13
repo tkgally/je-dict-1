@@ -2372,6 +2372,39 @@ sense 2 ("soft; not hard or firm") covers the "non-alcoholic" collocation only a
 Running false-positive rate across the 538 hand-verified short-base pairs (2026-08-09,
 2026-08-11, 2026-08-12): **~0.4%**.
 
+**2026-08-13 systemic-fix run** — fourth per-entry short-base batch, and the second consecutive
+fully clean one. 181 A1/A2 pairs (221 instances, 131 entries, IDs 03167–03756) were read in a
+±60-character context window and applied, with **zero rejections**; the queue is now **920 pairs
+/ 1,070 instances** and everything below **03757** is swept for A1+A2.
+
+Families that carried this band, all judgeable in bulk once one member is checked:
+
+- **Suffix entries** — 〜家, 〜者, 〜的, 〜代, 〜戦 (→ `28339`, `04662`, `09839`, `28331`,
+  `28346`). The marker's *surface* is the bare kanji (`{家|か}`) while its *base* carries the
+  tilde, so a context dump that prints the base looks alarming (「思想〜家として」) when the
+  rendered text is correct. Future runs should print the surface, not the base, when spot-checking
+  these.
+- **Compound sets inside one entry's notes** — needles (縫い針/編み針/注射針/釣り針), fences
+  (板塀/石塀), multiple births (三つ子/四つ子/双生児), fields (重力場/電磁場).
+- **Katakana loanwords whose target entry carries the needed sense as a *later* sense** —
+  ベスト → `04681` (sense "best", not "vest"), カード → `03836` (sense 1 "identification,
+  payment"), マネー, タイル, シニア. The polysemous-loanword family that produced the フライ
+  false positive in 2026-08-08 is the same shape; what separates a keeper from a reject is
+  whether the target entry actually *has* the sense, not whether the word is polysemous.
+
+Two marginal applies recorded for future runs. **年寄り臭い → `01133_kusai`**: the target's
+glosses cover only "smelly" and "suspicious", neither of which is the suffixal 〜くさい sense in
+play — but the entry's notes carry a full "AS A SUFFIX (〜くさい)" section, so the reader does
+land in the right place. Gloss text alone would have made this look like a reject; the notes
+decided it. **焼き物 → `04974_yakimono`**: lead gloss is "grilled dish" with "pottery, ceramics"
+as a later sense, applied on the same reasoning as 五段活用 → `28275`.
+
+Running false-positive rate across the 719 hand-verified short-base pairs (2026-08-09,
+2026-08-11, 2026-08-12, 2026-08-13): **~0.3%**. Two consecutive clean bands are now the strongest
+argument yet that the per-entry read is cheap insurance rather than the thing finding the errors —
+but the two rejections it did catch (朝日新聞, フライ) were both invisible to every mechanical
+test, so the item stays `verify: per-entry`.
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword

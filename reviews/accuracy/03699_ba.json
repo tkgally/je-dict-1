@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T18:20:07Z",
+  "reviewed_at": "2026-08-13T15:52:53Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'education' is incorrect for the headword '場' (ba), which means 'place, scene, occasion'.",
-      "suggestion": "Replace 'education' with a more appropriate tag like 'general' or 'abstract'."
+      "concern": "The tag 'general' is too broad and doesn't capture the primary meaning of '場' as a physical or abstract 'place/field'.",
+      "suggestion": "place"
     }
   ]
 }
