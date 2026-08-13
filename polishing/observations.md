@@ -1206,106 +1206,47 @@ sense; 06886's derived-form spot-check; 00823/01525 若い re-filed a second tim
 
 All 26 observations cleared.)_
 
-## 2026-08-12 — routine wiki (quality-metrics 35th refresh)
+## 2026-08-13 (routine wiki harvest — all prior observations cleared)
 
-- [pattern] **The review-queue metric moved the wrong way, and the mechanism is already filed.**
-  Four consecutive refreshes led with a new record floor (most recently 9,832); this window it rose
-  to 10,089 and stands at 10,279 live. Nothing regressed — CI queues every changed entry, so the
-  window's 190 review-driven changes and 40 new entries raised it. That is Tooling 94's padding
-  mechanism (35.4% of the queue already carries a review newer than the entry's last modification),
-  still unshipped. **A productive window raises this number**, so it cannot be read as a health
-  metric in either direction until the `reviewed_at >= modified` predicate ships. Worth stopping
-  quoting it as a headline until then.
-- [pattern] **The frontier-versus-growth ratio measures the selector's mode mix, not productivity.**
-  Three refreshes have now read a different story out of it (76% → 42% → 90%), each time attributing
-  the move to one side. Both terms are counts of how often their mode came up — the frontier advances
-  only in `polish` runs, the entry count grows only in `new-entries` runs — and at ~16 runs per window
-  the rotation's variance swamps the signal. Either normalise both terms per run of their own mode, or
-  retire the ratio.
+_(All observations from the 2026-08-12 wiki/polish/accuracy-review runs and the 2026-08-13
+new-entries/polish runs have been harvested by the wiki maintenance session of 2026-08-13.
 
-## 2026-08-12 — routine polish (priority lane 111–118, frontier 06896–06901)
+**Two new cleanup priorities, both from measuring the local sighting dictionary-wide.**
+P55: the 04231 顧みる→省みる wrong-target link is one of **23** links dictionary-wide whose base
+form is a homophone of the target — measured over all 273,656 links, after four normalisation
+filters that remove 97% of a naive comparison's output (full cascade in
+topics/inline-link-integrity.md). P56: the idiom↔body-part cross-reference gap (6 of 6 frontier
+entries, both directions bare), scope unmeasured, detector-friendly shape.
 
-- [pattern] **The `notes.txt` priority list is now mostly self-blocking at its head.** Lines 80–110
-  were skipped in a single unbroken run of 31 — every one had a `modified` date inside the 30-day
-  window, because earlier priority-lane runs already worked them. The list is re-ranked from note
-  *scores*, which polishing does not always raise (adding cross-references and inline links leaves
-  the note text alone), so recently-polished entries keep their high rank and keep re-surfacing at
-  the top. The lane's real throughput is the eligible tail, not the head: this run had to read 39
-  lines to find 4 workable entries. Worth considering a `--exclude-recent` flag in
-  `build/prioritize_polishing.py` so the generated file is already filtered, instead of every run
-  paying the skip cost.
-- [pattern] **Idiom entries in the 06880–06980 block are missing cross-references to their own body
-  part.** All six frontier entries this run (肩をすくめる, 眉をひそめる, 足を運ぶ, 顔を出す,
-  胸を張る, 腰を据える) had zero or one cross-reference, and none linked to the body-part noun
-  (肩, 眉, 胸, 腰) that heads the idiom, even though each entry's notes list two or three sibling
-  idioms built on the same noun. Conversely the body-part entries (02192 肩, 04267 眉, 00972 胸,
-  02210 腰) link only to neighbouring body parts, never to the idioms. This is a two-way gap with a
-  deterministic shape — a body-part noun whose headword appears at the head of an `expression`
-  entry — and would make a clean `systemic-fix` detector for the whole idiom block.
-- [entry] 06899 顔を出す: sense 2 ("to peek out") has three examples but the top-level `gloss`
-  advertises only sense 1. The definitions list both. Left as-is this run; the top-level gloss
-  convention for two-sense idioms is worth a ruling before editing it.
+**One hypothesis refuted, one proposal overtaken, one lane measured as succeeding.** The
+"contiguous off-vocabulary tag band" inferred from two adjacent 46% blocks does not exist: IDs
+span 00333–27818, 24 of 62 blocks are completely clean, five blocks hold 54% of the mass. The
+proposed drop rule for `positive`/`negative`/`neutral` is overtaken — all three now measure zero
+dictionary-wide. And the queue itself fell **2,530 → 1,134 entries in seven days** (55%), the
+fastest sustained progress of any cleanup lane on this wiki; `TAG_MIGRATION`'s coverage fell
+11.3% → 9.2% as it did, which is the expected direction and closes any fifth proposal to extend
+the map.
 
-## 2026-08-12 — routine accuracy-review, entries 08851–09350
+**Four tooling items and one escalation.** Tooling 109 (escalated): the CI-gate poll loop's
+backgrounded `sleep` returns immediately, which explains all three "stale `get_check_runs`"
+reports — filed as instrument-defects case 9, and as a curator item because it is a prompt fix.
+Tooling 110 (`reviewed_at` not stamped at write time, blocking items 94 and 107), 111 (the
+reviewer's `tags` dimension should report only off-vocabulary tags: 87–99% applied vs ~5% for
+in-list substitutions), 112 (`check_duplicate.py` blind to kanji/kana variants, kana-headword
+entries queried by kanji, and new senses of existing words — 4 of 24 candidates in one batch).
+Item 20 gains its first throughput number: 39 priority lines read to find 4 workable entries.
 
-- [pattern] The off-vocabulary semantic-tag problem is not a localized 8066–8565 defect. This run
-  found 229 of the 500 entries in 08851–09350 carrying tags outside `VALID_SEMANTIC` — the same
-  46% density measured in the 8066–8565 block flagged to the curator on 2026-08-11. Two adjacent
-  500-entry blocks at the same density strongly suggests one continuous batch-creation era rather
-  than scattered drift, and that the dictionary-wide remainder (1,135 entries after this run) is
-  concentrated in a contiguous ID band rather than spread evenly. Worth locating the band's real
-  start and end before scheduling more of these: a `systemic-fix` item scoped to the whole band
-  would be far cheaper per entry than rediscovering it 500 entries at a time.
-- [pattern] The off-vocabulary tags cluster into recurring families that a migration map could
-  mostly absorb: evaluative polarity (`positive`, `negative`, `neutral` — 32 occurrences here),
-  `body` on bodily-fluid and baby-talk nouns (18), `object` on acronym entries (11), `aesthetics`
-  (11), `quality` (9), `childcare`/`childhood` (15), `concept` (9), `place` (6), `computing` (6).
-  `build/check_tag_drift.py`'s `TAG_MIGRATION` map has only nine 1:1 rules and covers almost none
-  of these. Most still need a per-entry choice (`body` → `body-part` vs `health` depends on the
-  word), but `positive`/`negative`/`neutral` are pure noise — they encode sentiment, not a
-  semantic field, and in every case here the entry already carried the right field tag alongside.
-  A rule that simply drops them would have handled 32 of this run's 229 entries with no judgment.
-- [entry] 08989 車席 appears to be a fabricated headword: the reviewer flagged it five times as
-  not a real word, and the entry's own notes list 助手席 and 後部座席 as the ordinary terms while
-  its examples invent 助手車席 and 後部車席. Flagged to the curator rather than deleted, since
-  deletion changes a live URL. See reviews/needs_curator.txt.
-- [entry] 08985 uses the headword 日日 for ひにち. The ordinary modern spelling is 日にち; 日日
-  normally reads ひび ("days on end"). The gloss was tightened this run but the orthography was
-  left alone — a headword change needs the same care as a deletion.
-- [tooling] The accuracy reviewer's `tags` dimension is the highest-yield dimension measured so
-  far, but only for the not-in-list class: it caught the off-vocabulary tags reliably, while its
-  in-list suggestions were mostly narrowness nits the §A policy rejects by design. Precision would
-  improve if the prompt were told to report only tags absent from the supplied vocabulary and to
-  stop proposing substitutions between two valid tags.
-- [tooling] `build/review_accuracy.py` writes a `reviewed_at` that does not correspond to when the
-  entry was reviewed: a self-check run started at 22:45 on 2026-08-12 wrote result files stamped
-  21:32. Anything that reasons about which review came first — "was this entry reviewed before or
-  after I edited it?" — cannot trust that field today, and this run briefly mis-read two stale
-  flags as surviving errors because of it. The reliable discriminator right now is the `dimensions`
-  array (a `--dimensions tags` self-check writes `["tags"]`), which is incidental rather than
-  designed. Stamping the timestamp at write time would make the field usable.
-- [tooling] The GitHub MCP `pull_request_read` / `get_check_runs` endpoint can serve stale results
-  for a long time. On PR #3185 the `validate` check started 21:36:06 and completed `success` at
-  21:37:10, but nine successive `get_check_runs` calls over the next 33 minutes all reported
-  `status: "in_progress"` with no `completed_at`. Following §7's poll-then-stop rule literally, that
-  run gave up on a check that had been green for half an hour, and only merged because a stray
-  background timer prompted one more poll. Two cheap mitigations for the next Routine that hits
-  this: treat a `started_at` more than a few minutes old with no `completed_at` as suspect rather
-  than as genuine progress, and before abandoning a PR at the poll cap, re-poll once after a longer
-  gap — the stale window here was long but not permanent. Worth confirming whether the staleness is
-  MCP-side caching or the Actions API itself, since the §0a rescue path depends on this same call.
+**Two metrics suspended** (quality-metrics §18): the review-queue length cannot be read in either
+direction until Tooling 94 ships (a productive window raises it), and the frontier-versus-growth
+ratio measures the selector's mode mix, not productivity. Both were asked for by the 35th
+refresh's own observations.
 
-## 2026-08-13 (routine new-entries, 30595-30614)
+**Second curator ruling requested**: `VALID_SEMANTIC` has no place/location and no
+sound/perception tag, so ~75 off-list instances have no destination and 音/物音/騒音/足音 cycle
+through the sole-`general` detector forever.
 
-- [pattern] Four of twenty-four queued candidates turned out to be orthographic variants of existing entries: 擦り寄る/摺り寄る (17576), 匙を投げる/さじを投げる (20433), 首をかしげる/首を傾げる (17531), 有耶無耶/うやむや (08049). `check_duplicate.py` reports these only as "Homophones exist", not as duplicates, so they survive candidate vetting and cost a session's time to catch. Worth teaching the candidates-mode vetting gate (and ideally check_duplicate.py itself) to treat same-reading + kanji/kana-variant-of-same-word as a duplicate rather than a homophone.
-- [pattern] Candidate C23011 (ぶり, "manner or style of doing") was queued as a new headword although 28358_buri already existed with the "for the first time in" sense. Candidate vetting compares headword+reading against existing entries but not against the *senses* an existing entry already covers, so a genuinely new sense of an existing word arrives looking like a new word. Handled here by adding sense 2 to 28358 instead of creating a duplicate headword.
-- [entry] 17576_suriyoru uses the rare orthography {摺|す}り{寄|よ}る as its headword. 擦り寄る is the far more common modern spelling; the entry's KANJI NOTE mentions hiragana but not this variant. Candidate for a headword/variant review.
-- [tooling] The Routine's CI gate waits between polls with a backgrounded `sleep`, which returns immediately — so unless the run explicitly waits for that background task to finish, the ~16-poll budget is spent in well under a minute and the PR looks stuck when CI is simply still running. This run made exactly that mistake and briefly misdiagnosed it as a stale check-runs API (it was not; the job had genuinely failed at 00:38:49 and the API reported it correctly). Worth stating explicitly in routine2.md §7 step 5.2: await the sleep before re-polling, and use `get_job_logs`/`get_workflow_job` for the per-step detail when a failure needs diagnosing.
-- [entry] 04231_furikaeru had an inline link whose base form 顧みる pointed at 13656_kaerimiru (省みる), a different verb. Fixed this run by repointing to the newly created 30613_kaerimiru. Worth a sweep for other links whose declared entry has a different headword from the link's base form but which the allowlist currently accepts.
+Also filed: five entry follow-ups (08989 車席, 08985 日日, 17576 摺り寄る, 06899 顔を出す,
+00743 音), and a fifth re-discovery of `inline-link-block-06800-07100` — now being paid for
+one entry at a time, since the frontier has entered the block.
 
-## 2026-08-13 — routine polish (priority 00469–00775, frontier 06902–06909)
-- [pattern] The whole 06900-block of idiom/expression entries created 2026-01-18 (06902–06909, and by inspection the neighbouring IDs) has **zero inline word links** in examples and notes — links were never added at creation. Frontier polish is now paying that debt one entry at a time; a targeted sweep over 06900–06999 would clear it faster than the sequential frontier will.
-- [pattern] `location` is used as a semantic tag by 25 entries but is **not** in `VALID_SEMANTIC` in `build/validate_tags.py`. The external reviewer flags it correctly (it caught 01512 this run). A one-shot migration (`location` → `geography`, or `building`/`place-name` where those fit better) would retire the family; doing it entry-by-entry via reviewer flags is slow.
-- [pattern] `VALID_SEMANTIC` has no tag for **sound/perception**. 音 (00743), 物音 (03633), 騒音 (03315) and 足音 (02991) all fall back to the placeholder `general`, which the sole-general detector (P13) then flags forever. Either add a `sound` (or `perception`) tag, or document these as an accepted `general` family so the detector stops re-surfacing them.
-- [tooling] `build/check_duplicate.py` reports "not in the dictionary" for a word whose entry exists under a kana headword (checked 多分/たぶん — entry 00815_tabun exists with headword たぶん). A reading-based fallback would stop sessions from creating duplicate candidates for kana-headword entries.
-- [entry] 00743 音: kept the `general` semantic tag for lack of a sound/perception tag — revisit if that tag is ever added.
+All observations cleared.)_

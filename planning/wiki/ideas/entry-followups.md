@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-08-12 (added **28358_buri** — the manner/style sense of 〜ぶり belongs in the existing time-interval entry, the second instance after 03515 日光 of a candidate that is real, is not a duplicate entry, and cannot be created because `check_duplicate.py` sees the headword as taken; **06886 haragatatsu** — 腹が立たしい corrected to 腹立たしい, with the sibling-idiom spot-check deferred to the frontier pass over the same creation cohort (P56); **00823/01525 若い** re-filed, a *second* report of a duplicate already on this page since 2026-08-08, recorded to make the re-filing cost visible — polish runs can only file consolidations, never perform them, so four are now open here; and a ruling recommendation for **historical era names**, filed as `event-name` for want of a fit when `time-period` + `proper-noun` are both already in `VALID_SEMANTIC` and say what an era actually is.) Prior 2026-07-27 (added **03794_warukuchi / 12672_waruguchi 悪口** — the same word split across two standard readings (わるくち / わるぐち), a variant-reading consolidation rather than a delete, needing a curator call on which reading leads the headword; and **08169_chuubi / 17946_nakabi 中火** — one of the two is simply wrong: 中火 is read ちゅうび, and なかび is the reading of 中日, so 17946 is either a mis-created duplicate or an entry that was meant to be 中日 and got the wrong kanji, notable because a 2026-07-20 furigana screen flagged its reading and the run *correctly* rejected the flag as an alternate reading — the real defect was invisible from inside the entry.) Prior 2026-07-26
+**Last updated**: 2026-08-13 (added **08989 車席**, a probably-fabricated headword flagged five times by the reviewer and escalated rather than deleted; **08985 日日**, the wrong orthography for ひにち; **17576 摺り寄る**, a rare spelling as headword, found only because a duplicate-check mislabelled its common variant as a homophone; **06899 顔を出す**, whose top-level gloss covers one of two senses and which needs a convention ruling before it needs an edit; and **00743 音**, parked at sole-`general` because the tag vocabulary has no sound/perception slot. Also corrected a dangling "Cleanup P56" forward reference in the 06886 follow-up.) Prior 2026-08-12 (added **28358_buri** — the manner/style sense of 〜ぶり belongs in the existing time-interval entry, the second instance after 03515 日光 of a candidate that is real, is not a duplicate entry, and cannot be created because `check_duplicate.py` sees the headword as taken; **06886 haragatatsu** — 腹が立たしい corrected to 腹立たしい, with the sibling-idiom spot-check deferred to the frontier pass over the same creation cohort (P56); **00823/01525 若い** re-filed, a *second* report of a duplicate already on this page since 2026-08-08, recorded to make the re-filing cost visible — polish runs can only file consolidations, never perform them, so four are now open here; and a ruling recommendation for **historical era names**, filed as `event-name` for want of a fit when `time-period` + `proper-noun` are both already in `VALID_SEMANTIC` and say what an era actually is.) Prior 2026-07-27 (added **03794_warukuchi / 12672_waruguchi 悪口** — the same word split across two standard readings (わるくち / わるぐち), a variant-reading consolidation rather than a delete, needing a curator call on which reading leads the headword; and **08169_chuubi / 17946_nakabi 中火** — one of the two is simply wrong: 中火 is read ちゅうび, and なかび is the reading of 中日, so 17946 is either a mis-created duplicate or an entry that was meant to be 中日 and got the wrong kanji, notable because a 2026-07-20 furigana screen flagged its reading and the run *correctly* rejected the flag as an alternate reading — the real defect was invisible from inside the entry.) Prior 2026-07-26
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -1452,6 +1452,48 @@ create a separate entry and give `check_duplicate.py` an override for genuine ho
 second is the better investment because the class is now known to have at least two members and
 the proper-noun decision guarantees more.
 
+## Added 2026-08-13 (wiki harvest)
+
+### 08989 車席 — probably not a word
+
+The 2026-08-12 accuracy-review's reviewer flagged this headword **five times** as not a real
+Japanese word, and the entry undermines itself: its own notes give 助手席 and 後部座席 as the
+ordinary terms, while its examples invent 助手車席 and 後部車席 to use the headword. The run
+escalated rather than deleting, correctly — deletion retires a live URL — and it is in
+`reviews/needs_curator.txt`. **This needs a curator decision, not another run's opinion**; the
+evidence is unlikely to get better with a fourth reading.
+
+### 08985 日日 — wrong orthography for ひにち
+
+The headword is 日日 with reading ひにち. The ordinary modern spelling is 日にち; 日日 normally
+reads ひび ("day after day"). The 2026-08-12 accuracy-review tightened the gloss and left the
+orthography alone, on the reasoning that changing a headword deserves the same care as a
+deletion. Filed rather than fixed for the same reason.
+
+### 17576_suriyoru — rare orthography as the headword
+
+The entry heads with {摺|す}り{寄|よ}る. 擦り寄る is the far more common modern spelling, and the
+entry's KANJI NOTE mentions the hiragana form but not this variant. Found by the 2026-08-13
+new-entries run when 擦り寄る arrived as a candidate and duplicate-checking reported only
+"homophones exist" (see Tooling 112). Headword/variant review.
+
+### 06899 顔を出す — the top-level gloss covers only sense 1
+
+The entry has two senses, the second ("to peek out", of the sun or a landmark) carrying three
+examples, but the top-level `gloss` advertises only sense 1. The `definitions` list both. The
+2026-08-12 polish run left it, noting that the convention for two-sense idioms — does the
+top-level gloss summarise all senses or lead with the dominant one? — is worth a ruling before
+entries start being edited toward one answer. **This is a convention question first and an entry
+fix second**; if the ruling is "summarise all senses", it becomes a sweep rather than a
+follow-up.
+
+### 00743 音 — kept at sole-`general` for want of a tag
+
+A 2026-08-13 polish run left 音's semantic tag as `general` because `VALID_SEMANTIC` has no
+sound or perception tag. Same for 物音 (03633), 騒音 (03315), 足音 (02991). Revisit if the
+curator adds one — see the ruling request in
+[Cleanup Backlog](cleanup-backlog.md#updates-2026-08-13-wiki-harvest).
+
 ## Added 2026-08-12 (wiki harvest)
 
 ### 28358_buri — the manner/style sense belongs in the existing entry, not a new one
@@ -1475,7 +1517,10 @@ The entry's notes gave the adjective form as 腹が立たしい, which is not a 
 腹立たしい (21455) by the 2026-08-12 polish run. The run asked for a spot-check of sibling idiom
 entries for similarly malformed derived forms. Not measured this harvest — the check needs to
 read each entry's notes prose to find claimed derived forms, which no existing detector does, and
-the natural moment for it is the frontier lane's pass over 06896–06980 (Cleanup P56), which is
+the natural moment for it is the frontier lane's pass over 06896–06980 (the
+`inline-link-block-06800-07100` queue item; the "P56" in the original filing was a forward
+reference to an item that was never created — P56 is now the idiom/body-part cross-reference
+gap), which is
 the same creation cohort and is about to be read entry-by-entry anyway.
 
 ### 00823_wakai / 01525_wakai — second filing of the same duplicate

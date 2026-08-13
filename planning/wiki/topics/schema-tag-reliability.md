@@ -1,6 +1,8 @@
 # Schema Tag Reliability: When Metadata Drifts from Reality
 
-**Last updated**: 2026-08-06 (new section "The shape of the semantic-tag debt": the off-vocabulary queue measured whole-corpus at 2,530 entries / 3,208 instances / 687 names, with the taxonomy gap — `place`/`location`/`object`/`state`/`quality`/`manner`/`degree` — as its largest single block at 322 instances, confirmed from the corpus side after the reviewer side reached the same ten strings; and the sole-`general` gloss-keyword suggester measured and closed at 14.8% coverage, since inference from surrounding prose cannot be denotational and would manufacture P11 defects)
+**Last updated**: 2026-08-13 (re-measured the off-vocabulary queue whole-corpus one week on: **1,134 entries / 1,329 instances / 431 names**, down 55% in seven days, the fastest sustained progress of any cleanup lane on this wiki. Three findings fall out. `TAG_MIGRATION`'s coverage *fell* 11.3% → 9.2% while the queue shrank, because the sweep clears mapped names first — so a fifth proposal to extend the map now argues against a number that worsens as the lane succeeds. The "one contiguous batch-creation era" hypothesis is refuted: affected IDs span 00333–27818, 24 of 62 blocks are completely clean, and five blocks hold 54% of the mass, so there is no band to scope — route by density instead. And the taxonomy gap has a second region: **`VALID_SEMANTIC` has no tag for sound or perception**, only `music`, so 音/物音/騒音/足音 sit at sole-`general` and cycle through the P13 detector forever. Two curator rulings — place/location and sound/perception — would close ~75 off-list instances and stop that cycling.)
+
+Prior 2026-08-06 (new section "The shape of the semantic-tag debt": the off-vocabulary queue measured whole-corpus at 2,530 entries / 3,208 instances / 687 names, with the taxonomy gap — `place`/`location`/`object`/`state`/`quality`/`manner`/`degree` — as its largest single block at 322 instances, confirmed from the corpus side after the reviewer side reached the same ten strings; and the sole-`general` gloss-keyword suggester measured and closed at 14.8% coverage, since inference from surrounding prose cannot be denotational and would manufacture P11 defects)
 
 Prior 2026-06-13 (added `general`-tag reverse-direction noise finding to "The tag-vocabulary contradiction" section: ~88% of tag flags in the 03301–04300 range flag `general` as "too broad"; bulk-rejected; fix tracked in Tooling Backlog item 17)
 
@@ -363,6 +365,66 @@ One prioritization datum falls out of the same scan. Of the 2,530 affected
 entries, **1,121 carry off-list tags and nothing else** — zero valid semantic
 tags, hence functionally untagged for search and browse — while 1,409 already
 carry a valid tag alongside. Only the first half is a user-visible defect.
+
+### Re-measured 2026-08-13: the queue halved in a week, and the migration map's reach fell as it did
+
+The same whole-corpus scan, one week later, over 30,405 entries:
+
+| | 2026-08-06 | 2026-08-13 |
+|---|---|---|
+| entries with off-list semantic tags | 2,530 | **1,134** (3.7% of the dictionary) |
+| off-list instances | 3,208 | **1,329** |
+| distinct off-list names | 687 | **431** |
+| covered by `TAG_MIGRATION`'s 9 rows | 11.3% | **9.2%** (122 instances) |
+| names occurring ≤ 2 times | 438 | **304** (385 instances, 29% of the mass) |
+
+**The queue lost 55% of its mass in seven days**, worked down entry-by-entry by the
+accuracy-review sweeps, which is the fastest sustained progress any cleanup lane on this wiki
+has recorded. Two things follow that are not obvious from the headline.
+
+**The migration map's coverage fell while the queue shrank, and that is the expected
+direction.** The map's nine rows name the *most frequent* off-list tags, so the sweep clears
+them first; what remains is increasingly the tail the map was never going to reach. Any future
+proposal to extend `TAG_MIGRATION` — this would be the fifth — now has to argue against a
+coverage figure that gets worse as the lane succeeds. The lane does not need a better map; it
+needs to keep running, and it is running.
+
+**The "one contiguous batch-creation era" hypothesis is refuted.** A 2026-08-12
+accuracy-review observed 46% density in two adjacent 500-blocks and inferred a single
+contiguous band worth scoping as one `systemic-fix` item. Measured across all 62 blocks, the
+remainder is not banded: affected IDs run 00333–27818, **24 of 62 blocks are completely
+clean**, and only five blocks exceed 10% density — 8000–8499 (40.2%), 10000–10499 (29.1%),
+20000–20499 (25.5%), 22000–22499 (17.2%), 16500–16999 (12.1%) — holding **54%** of the
+population between them. There is no band start and end to find. The correct consequence is
+the one the 2026-08-12 harvest already drew from a different measurement: **route the reviewer
+by block density**, and expect the last ~500 entries to be scattered singletons that only
+per-entry judgment clears.
+
+**One family proposed for a drop rule no longer exists.** The same run proposed dropping the
+evaluative-polarity tags (`positive`, `negative`, `neutral`) mechanically, measured at 32
+occurrences in its own 500-entry range. Dictionary-wide, all three now measure **zero** — the
+sweeps cleared them between the observation and this scan. The proposal is closed as overtaken,
+not rejected; it was correct when written.
+
+### The taxonomy gap now has a second, smaller region: sound and perception
+
+The head of the tail is unchanged in kind — `time` (58), `body` (26), `location` (24),
+`place` (23), `degree` (23), `behavior` (20), `social` (19), `interpersonal` (19),
+`quality` (19) — and `location`/`place` alone still account for 47 instances of a concept
+`VALID_SEMANTIC` cannot express. A 2026-08-13 polish run found the same shape one region over:
+**`VALID_SEMANTIC` has no tag for sound or perception.** Its only entry in that space is
+`music`. The corpus is already voting: `perception` (12), `sound` (9) and `sensation` (7) are
+in use off-list, 28 instances in total, and the entries that decline to invent a tag fall back
+to the catch-all instead — 音 (`00743`), 物音 (`03633`), 騒音 (`03315`), 足音 (`02991`) are all
+sole-`general`, which means the P13 detector re-surfaces them on every sweep and no sweep can
+ever fix them.
+
+That is the same trap `place`/`location` sits in, at one-sixth the size, and it makes the case
+for the curator taxonomy decision concrete rather than abstract: **two rulings —
+a place/location tag and a sound/perception tag — would close roughly 75 off-list instances
+and stop an unknown number of sole-`general` entries from cycling through the detector
+forever.** Neither is a schema change; `VALID_SEMANTIC` is a Python set and `schema.json`
+deliberately has no tag enum.
 
 ### Tags cannot be inferred from gloss text, because inference is not denotation
 
