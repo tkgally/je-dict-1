@@ -1294,3 +1294,9 @@ All 26 observations cleared.)_
   than as genuine progress, and before abandoning a PR at the poll cap, re-poll once after a longer
   gap — the stale window here was long but not permanent. Worth confirming whether the staleness is
   MCP-side caching or the Actions API itself, since the §0a rescue path depends on this same call.
+
+## 2026-08-13 (routine new-entries, 30595-30614)
+
+- [pattern] Four of twenty-four queued candidates turned out to be orthographic variants of existing entries: 擦り寄る/摺り寄る (17576), 匙を投げる/さじを投げる (20433), 首をかしげる/首を傾げる (17531), 有耶無耶/うやむや (08049). `check_duplicate.py` reports these only as "Homophones exist", not as duplicates, so they survive candidate vetting and cost a session's time to catch. Worth teaching the candidates-mode vetting gate (and ideally check_duplicate.py itself) to treat same-reading + kanji/kana-variant-of-same-word as a duplicate rather than a homophone.
+- [pattern] Candidate C23011 (ぶり, "manner or style of doing") was queued as a new headword although 28358_buri already existed with the "for the first time in" sense. Candidate vetting compares headword+reading against existing entries but not against the *senses* an existing entry already covers, so a genuinely new sense of an existing word arrives looking like a new word. Handled here by adding sense 2 to 28358 instead of creating a duplicate headword.
+- [entry] 17576_suriyoru uses the rare orthography {摺|す}り{寄|よ}る as its headword. 擦り寄る is the far more common modern spelling; the entry's KANJI NOTE mentions hiragana but not this variant. Candidate for a headword/variant review.
