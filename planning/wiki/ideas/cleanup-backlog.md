@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-08-12 (wiki harvest of the 26 loose observations from the 2026-08-11/12 runs — **no new priority**; two filings that read as new findings are re-discoveries of open, batch-ready items, and the third re-scope lands opposite to what its filing implied. **P24 re-filed a fourth time**: braced inline-link base forms measured at **35 entries** (two closed 2026-01 cohorts, 00697–00716 and 00965–00988), an item promoted to priority 5 on 2026-07-30 *because* three runs had already found it — and worked by none of the four, which is a selector question, not a backlog one. **P43's block is no longer upcoming**: 79 of 101 IDs in 06880–06980 carry zero links and the unbroken run starts at **06896**, exactly the polish frontier, so the 2026-08-06 prediction of one-fifth speed and the filing run's measured 8–10 min/entry now agree from both sides — the routing decision is live, not deferred. **P20 re-scoped**: 1,364 entries / 1,635 instances / 486 labels; hot spots at 09000–09499 (48%) and 08000–08499 (40%) hold a third of the population while 23 of 62 blocks are clean; and `TAG_MIGRATION`'s nine rows clear **8.1%** — which is evidence *for* the 2026-08-07 decision to keep the map at nine rows and let the per-entry reviewer be the instrument, this being the fourth time extending it has been proposed.) Prior 2026-07-27 (wiki harvest of the 17 loose observations from the 2026-07-27 polish, systemic-fix and accuracy-review runs — one **new priority** plus three cohort extensions: **new P28** — mixed bullet markers inside `notes`, the older `・` convention measured dictionary-wide at **18,272 line-initial instances across 2,524 entries** (~1/12 of the dictionary), normalizable by a doubly-anchored rule (line-initial AND inside `notes` only, since `・` is real punctuation elsewhere) but sequenced behind a sample check rather than swept blind. **P20** — the off-vocab band measured at **124 of 250 entries (49.6%)** in 19701–19950 (143 occurrences / 83 distinct off-list tags), with the operational finding that **the model is the wrong instrument**: the large families are 1:1 synonym renames `check_tag_drift.py`'s `TAG_MIGRATION` covers only nine of, so the ~50 safe renames belong in the map and only the ~7% judgment-dependent residue belongs in a review. **P17** — a seventh formality sub-family, 〜甲斐 nouns auto-tagged `informal` (06653/06654), notable for being a *morphological* cluster and therefore an unusually cheap detector cut. **P21** — the zero-link band unbroken through **06655**, with `・` bullets co-occurring in the same notes fields, now cross-linked to P28.) Prior 2026-07-26
+**Last updated**: 2026-08-13 (harvest of the 26 observations from the 2026-08-12/13 runs — **two new priorities, one hypothesis refuted, one curator ruling requested**. **P55**: 23 inline links that resolve to a homophone of the intended word (終身→就寝, 用地→幼稚, 詩的→指摘), measured over all 273,656 links — the tail of the class the 2026-07-31 batch repaired 87 of, and invisible to every checker the project has. **P56**: body-part idioms and their body-part nouns never cross-reference each other, seen on 6 of 6 frontier entries, scope unmeasured. **Refuted**: the off-vocabulary semantic tags are *not* one contiguous creation band — IDs span 00333–27818, 24 of 62 blocks are clean, five blocks hold 54% — although the queue did fall 55% in a week. **For the curator**: `VALID_SEMANTIC` has no place/location and no sound/perception tag, so ~75 off-list instances have nowhere to go and four sole-`general` entries cycle through the P13 detector forever.) Prior 2026-08-12 (wiki harvest of the 26 loose observations from the 2026-08-11/12 runs — **no new priority**; two filings that read as new findings are re-discoveries of open, batch-ready items, and the third re-scope lands opposite to what its filing implied. **P24 re-filed a fourth time**: braced inline-link base forms measured at **35 entries** (two closed 2026-01 cohorts, 00697–00716 and 00965–00988), an item promoted to priority 5 on 2026-07-30 *because* three runs had already found it — and worked by none of the four, which is a selector question, not a backlog one. **P43's block is no longer upcoming**: 79 of 101 IDs in 06880–06980 carry zero links and the unbroken run starts at **06896**, exactly the polish frontier, so the 2026-08-06 prediction of one-fifth speed and the filing run's measured 8–10 min/entry now agree from both sides — the routing decision is live, not deferred. **P20 re-scoped**: 1,364 entries / 1,635 instances / 486 labels; hot spots at 09000–09499 (48%) and 08000–08499 (40%) hold a third of the population while 23 of 62 blocks are clean; and `TAG_MIGRATION`'s nine rows clear **8.1%** — which is evidence *for* the 2026-08-07 decision to keep the map at nine rows and let the per-entry reviewer be the instrument, this being the fourth time extending it has been proposed.) Prior 2026-07-27 (wiki harvest of the 17 loose observations from the 2026-07-27 polish, systemic-fix and accuracy-review runs — one **new priority** plus three cohort extensions: **new P28** — mixed bullet markers inside `notes`, the older `・` convention measured dictionary-wide at **18,272 line-initial instances across 2,524 entries** (~1/12 of the dictionary), normalizable by a doubly-anchored rule (line-initial AND inside `notes` only, since `・` is real punctuation elsewhere) but sequenced behind a sample check rather than swept blind. **P20** — the off-vocab band measured at **124 of 250 entries (49.6%)** in 19701–19950 (143 occurrences / 83 distinct off-list tags), with the operational finding that **the model is the wrong instrument**: the large families are 1:1 synonym renames `check_tag_drift.py`'s `TAG_MIGRATION` covers only nine of, so the ~50 safe renames belong in the map and only the ~7% judgment-dependent residue belongs in a review. **P17** — a seventh formality sub-family, 〜甲斐 nouns auto-tagged `informal` (06653/06654), notable for being a *morphological* cluster and therefore an unusually cheap detector cut. **P21** — the zero-link band unbroken through **06655**, with `・` bullets co-occurring in the same notes fields, now cross-linked to P28.) Prior 2026-07-26
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -3880,6 +3880,110 @@ Two things follow that are *not* blocked by that decision:
 - **Fix the descriptions.** Several pages, and §A's semantic-tag policy in `prompts/routine2.md`,
   point at "the 1:1 migration map" as though applying it were the job. It is one entry in
   twelve, and the decision of record says it will stay that way. See tooling item 105.
+
+## Updates 2026-08-13 (wiki harvest)
+
+Twenty-six observations from the 2026-08-12 wiki/polish/accuracy-review runs and the 2026-08-13
+new-entries/polish runs. Two become new priorities, both because this harvest measured them
+dictionary-wide instead of filing the local sighting; one long-running hypothesis is refuted by
+its own measurement; and the rest go to the tooling backlog and entry follow-ups.
+
+### Priority 55: Inline links that resolve to a homophone of the intended word — 23 instances
+
+A 2026-08-13 new-entries run found 04231 振り返る linking the base form 顧みる at
+`13656_kaerimiru`, which is 省みる — a different verb with the same reading. It asked for a
+sweep. This harvest ran the sweep, and the useful result is how small the class is after the
+2026-07-31 `systemic-fix` batch already repaired 87 of them (機能→昨日, 性格→正確, 会社→外車).
+
+Of 273,656 inline links, 1,491 have a base form that matches neither the target's headword nor
+its reading, and **97% of those are legitimate conventions** — affix headwords (`〜的`),
+slash headwords (`速い／早い`), する-verb bases against noun headwords, and orthographic
+variants. The residue that is a real defect: **about 23 links whose base form is a different
+word that merely shares the target's reading.**
+
+| link base → target | reading |
+|---|---|
+| 終身 → `09947` 就寝 | しゅうしん |
+| 用地 → `04088` 幼稚 | ようち |
+| 詩集 → `05411` 刺繍 | ししゅう |
+| 詩的 → `05630` 指摘 | してき |
+| 詐称 → `18658` 査証 | さしょう |
+| 天賦 → `07376` 添付 | てんぷ |
+| 進水 → `09238` 心酔 | しんすい |
+| 専任 → `11607` 仙人 | せんにん |
+| 書架 → `11740` 初夏 | しょか |
+| 五時 → `16131` 誤字 | ごじ |
+| 深く → `14884` 不覚 | ふかく |
+| 科す → `00537` 貸す | かす |
+| 感 → `01076` 缶 · 温 → `02550` 恩 · 系 → `02691` 計 · 純 → `03342` 順 · 吸 → `01057` 酢 · 腑 → `09512` 負 · 焼 → `03096` 〜屋 | single kanji |
+
+Source entries: 00181, 00230, 00365, 00445, 00451, 00504, 02139 (×2), 02494, 02496, 02628,
+02772, 03445, 03460, 04472, 04475, 04479, 04484, 04489, 04840, 04875, 04955, 05984.
+
+**Why it is worth doing as a batch**: the link resolves, renders and clicks, so nothing in the
+project can see it — `validate.py` checks that the ID exists, and the §4 semantic self-check
+demonstrably does not read links (the 2026-07-31 batch's self-check returned zero findings on
+the dimension it had just repaired). The fix per instance is to repoint or drop one link, and
+the evidence is in the two entries. A second, cosmetic residue of ~13 (陽射し/日差し,
+産まれる/生まれる, 鍼/針, 龍/竜, 棹/竿 …) is the right word spelled non-canonically in the base
+slot; leave it. Full filter cascade and method:
+[Inline Link Integrity](../topics/inline-link-integrity.md) → "Shape 1, measured dictionary-wide".
+
+### Priority 56: Body-part idioms and their body-part nouns never link to each other
+
+The 2026-08-12 polish run's six frontier entries — 肩をすくめる, 眉をひそめる, 足を運ぶ,
+顔を出す, 胸を張る, 腰を据える — all had zero or one cross-reference, and **none linked to the
+body-part noun that heads the idiom**, even though each entry's notes list two or three sibling
+idioms built on the same noun. The reverse direction is equally bare: 02192 肩, 04267 眉,
+00972 胸, 02210 腰 link only to neighbouring body parts, never to the idioms that use them.
+
+The shape is deterministic and therefore detector-friendly: **an `expression` entry whose
+headword begins with a noun that has its own entry, where neither entry references the other.**
+Scope is unmeasured — the observation covers 06880–06980, where such idioms cluster, but the
+family runs throughout the dictionary. Worth measuring before scheduling; the detector is the
+work, not the fix.
+
+### The "contiguous off-vocabulary tag band" hypothesis is refuted
+
+A 2026-08-12 accuracy-review measured 46% off-vocabulary density in 08851–09350, matched it to
+the 46% previously measured in 08066–08565, and proposed that the dictionary-wide remainder sits
+in one contiguous batch-creation band that a single scoped `systemic-fix` could clear far more
+cheaply than rediscovering it 500 entries at a time.
+
+Measured across all 62 blocks (2026-08-13): **there is no band.** Affected IDs run 00333–27818,
+**24 of 62 blocks are completely clean**, and only five exceed 10% density — 8000–8499 (40.2%),
+10000–10499 (29.1%), 20000–20499 (25.5%), 22000–22499 (17.2%), 16500–16999 (12.1%) — together
+holding 54% of the population. The two 46% blocks the observation generalised from are adjacent
+to one of those five hot spots, which is why they looked like the start of something.
+
+The good news underneath it: the queue is **1,134 entries / 1,329 instances / 431 tag names**,
+down from 2,530 / 3,208 / 687 one week earlier — **55% cleared in seven days** by the
+accuracy-review lane. The correct scheduling consequence is unchanged from the 2026-08-12
+harvest's independent conclusion: route the reviewer by block density, and expect the tail to be
+scattered singletons. Details and the accompanying `TAG_MIGRATION` coverage finding in
+[Schema Tag Reliability](../topics/schema-tag-reliability.md).
+
+### For the curator: two tag-vocabulary rulings would close ~75 instances and stop a detector loop
+
+Not a cleanup item — a decision only the curator can make, restated here because two separate
+2026-08-13 observations arrived at it from different directions.
+
+`VALID_SEMANTIC` has no tag for **place/location** (`location` 24 + `place` 23 instances in use
+off-list) and none for **sound/perception** (`perception` 12 + `sound` 9 + `sensation` 7; the
+only tag in that region is `music`). Entries that decline to invent a tag fall back to
+`general` — 音 `00743`, 物音 `03633`, 騒音 `03315`, 足音 `02991` are all sole-`general` — which
+means the P13 sole-`general` detector re-surfaces them on every sweep and **no sweep can ever
+fix them**, because there is nothing correct to change them to. Adding two names to a Python set
+closes both. `schema.json` deliberately has no tag enum, so this is not a schema change.
+
+### `inline-link-block-06800-07100` re-discovered a fifth time, now from inside the block
+
+The 2026-08-13 polish run reports the 06902–06909 idiom entries created 2026-01-18 as having
+zero inline links and recommends a targeted 06900–06999 sweep. That is the open queue item, at
+288 entries and priority 7 — and the frontier has now entered it, so each polish run pays the
+per-entry linking cost the sweep would pay once. The routing decision the 2026-08-12 harvest
+flagged as "live rather than deferred" has been live for a day and is still open; nothing new to
+file, and the fifth filing is the strongest argument yet for working it.
 
 ## Related pages
 

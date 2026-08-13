@@ -356,6 +356,56 @@ them is already in the two entries, so there is no judgment queue and no curator
 are filed together as [Tooling 78](../ideas/tooling-backlog.md), because one pass over the link
 corpus answers both.
 
+### Shape 1, measured dictionary-wide for the first time (2026-08-13)
+
+Tooling 78 was filed on two anecdotes. The 2026-08-13 wiki harvest ran the proposed comparison
+over the whole corpus — every inline link's base form against its target entry's headword and
+reading — after a 2026-08-13 new-entries run re-reported the class from a third instance
+(04231 振り返る linked 顧みる at `13656_kaerimiru`, which is 省みる, a different verb). The
+population is small and the naive form of the check is almost all false positives:
+
+| Filter stage | Instances |
+|---|---|
+| Inline links in the corpus | 273,656 |
+| Base form ≠ target headword and ≠ target reading | 1,491 |
+| — minus affix (`〜X`), slash-headword (`速い／早い`) and する-verb normalisations | 456 |
+| — minus base forms that are not a headword anywhere (variant spellings) | 94 |
+| — minus base forms whose own entry shares the target's reading (orthographic variants) | 48 |
+| **Residue: base form has its own entry, different reading from the target** | **48** (39 entries) |
+| **Separate residue, drawn back out of the 362 "not a headword anywhere" rows: base form shares no kanji with the target headword** | **47** (39 entries) |
+
+**The naive check's precision is about 3%.** Four normalisation filters remove 97% of what a
+straight string comparison reports, and every one of them corresponds to a legitimate
+convention this dictionary already uses. Any future version of this detector has to ship with
+all four or it will bury its own signal — which is the same lesson the furigana screener
+taught from the other direction (see [Instrument Defects](instrument-defects.md)).
+
+The two residues are different defects:
+
+- **The 48-instance residue is mostly *not* an error.** It is dominated by links whose base
+  slot carries a kanji spelling whose default reading belongs to another entry — 頃 (ごろ)
+  linked at `03091` 〜ころ, 本 and 下 both linked at `03878` 元 (もと), 良い at `00118` いい,
+  臭い at `00874` 匂い. In context the *target* is right and the base slot is spelled with a
+  homograph. This is [Homographs](homographs.md) territory, not a broken link, and it should be
+  filtered out of any queue rather than worked.
+- **The 47-instance residue contains the real class**, and splits about 23 / 13 on inspection:
+  - **Homophone mislinks — the link resolves and sends the reader to a different word**:
+    終身→`09947` 就寝 (しゅうしん), 用地→`04088` 幼稚 (ようち), 詩集→`05411` 刺繍 (ししゅう),
+    詩的→`05630` 指摘 (してき), 詐称→`18658` 査証 (さしょう), 天賦→`07376` 添付 (てんぷ),
+    進水→`09238` 心酔 (しんすい), 専任→`11607` 仙人 (せんにん), 書架→`11740` 初夏 (しょか),
+    五時→`16131` 誤字 (ごじ), 深く→`14884` 不覚 (ふかく), plus single-kanji cases
+    (感→缶, 温→恩, 系→計, 純→順, 吸→酢, 腑→負, 焼→〜屋) and 科す→`00537` 貸す.
+  - **Orthographic variants — right word, non-canonical spelling in the base slot**:
+    陽射し/日差し, 産まれる/生まれる, 表れ/現れ, 交じる/混じる, 鍼/針, 成す/為す, 捩る/捻る,
+    旱魃/干ばつ, 食らう/喰らう, 生かす/活かす, 龍/竜, 町づくり/街づくり, 棹/竿. Cosmetic.
+
+The homophone half is the same defect the 2026-07-31 `systemic-fix` run repaired 87 of
+(機能→昨日, 性格→正確, 会社→外車) — so this is the *tail* of a class that has already been
+swept once, not a new discovery, and its size after that sweep is the useful number: **about
+23 instances across ~20 entries dictionary-wide.** That is a single sitting's work, it needs no
+curator judgment, and it is filed as
+[`inline-link-homophone-target`](../ideas/cleanup-backlog.md) at scope 23.
+
 ## Why these keep being rediscovered
 
 Every class on this page was found by a run that did not know it existed, and four of the six

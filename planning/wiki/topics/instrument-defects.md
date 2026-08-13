@@ -1,6 +1,8 @@
 # Instrument Defects vs. Corpus Defects
 
-**Last updated**: 2026-08-11
+**Last updated**: 2026-08-13 (case 9: the "stale `get_check_runs` API" reported by three Routine runs is most likely a stopwatch defect in the caller — §7's backgrounded `sleep 30` returns immediately, so an unawaited poll loop spends its entire ~16-poll budget in under a minute and reads "still running" as "stale". Escalated as Tooling 109; the API-staleness diagnosis is demoted to unproven.)
+
+Prior 2026-08-11
 
 ## Overview
 
@@ -243,6 +245,46 @@ the data the whole time.
 
 Filed as [Tooling 102](../ideas/tooling-backlog.md), with the item 24 update carrying the
 correction.
+
+### 9. The "stale check-runs API" that is a stopwatch in the caller
+
+**Signal**: three separate Routine runs have now reported that the GitHub MCP
+`pull_request_read` / `get_check_runs` call serves stale results. The strongest version
+(2026-08-12, PR #3185) recorded nine successive polls over 33 minutes all returning
+`status: "in_progress"` for a `validate` check that had in fact completed `success` 64 seconds
+after starting; an earlier report said the same of PR #3152 (completed in 67 s, reported
+`in_progress`). Following §7's poll-then-stop rule literally, the first run abandoned a PR that
+had been green for half an hour, and merged only because a stray background timer prompted one
+more poll.
+
+**Actual locus — the caller, not the API.** The 2026-08-13 new-entries run hit the identical
+symptom and traced it: §7 step 5.2 waits between polls with a **backgrounded** `sleep 30`
+(`run_in_background: true`, because foreground `sleep` is disabled in this harness). A
+backgrounded command returns to the model immediately. Unless the run explicitly waits for that
+background task to finish, the whole ~16-poll budget is spent in **well under a minute** — so
+the loop asks sixteen times whether a job that started seconds ago has finished, gets
+`in_progress` sixteen times because it genuinely is in progress, and reports "the API is
+serving stale results for eight minutes" when it has observed roughly forty seconds of wall
+clock. That run confirmed the API was answering correctly: its job had genuinely failed at
+00:38:49 and `get_check_runs` said so.
+
+This does not prove the #3185 report false — nine polls over a *recorded* 33 minutes is a
+different claim from sixteen polls in forty seconds, and its timestamps may have come from
+elsewhere in the transcript. But the caller-side mechanism is simpler, is demonstrated rather
+than inferred, and produces all three reports' symptom exactly. **The API-staleness diagnosis
+should be treated as unproven and the polling loop fixed first**, because the two are
+indistinguishable from inside the loop — which is this page's whole thesis, arriving this time
+in a defect of the Routine's own wrap-up rather than of a detector.
+
+The fix is one sentence in `prompts/routine2.md` §7 step 5.2 (await the backgrounded sleep
+before re-polling, and use `get_job_logs` for per-step detail when a check has genuinely
+failed), and it is escalated to the curator rather than made here, because wiki-maintenance
+sessions do not edit prompts. Filed as [Tooling 109](../ideas/tooling-backlog.md).
+
+**What makes it costly out of proportion to its size**: this loop is the last thing every
+Routine run executes. An instrument defect there does not corrupt an entry — it strands a
+finished PR, which is the failure mode §0a exists to clean up after, and the one the project
+has spent the most process design on.
 
 ## What the cases have in common
 

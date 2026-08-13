@@ -2072,6 +2072,39 @@ version-stamps the cache.
 peak day was **$0.5083**, below the $0.551 record and an order of magnitude under the $5 cap.
 Spend has never been the binding constraint; adjudication effort is.
 
+### 18. Two headline metrics suspended (2026-08-13 harvest — not a refresh)
+
+The 35th refresh's own two `[pattern]` observations ask this page to stop quoting two of its
+numbers. Both asks are granted here, ahead of the next refresh, so the next one does not
+re-derive them.
+
+**The review-queue length is suspended as a health metric, in both directions.** CI queues every
+entry that changes, so a *productive* window raises it: the 35th refresh's window contained 190
+review-driven changes and 40 new entries and the queue rose 9,832 → 10,279. Four consecutive
+refreshes had led with a record floor; this one led with a rise; neither was measuring quality.
+Underneath, the 34th refresh measured that **35.4% of the queue already carries a review newer
+than the entry's last modification**. Until Tooling 94's `reviewed_at >= modified` predicate
+ships — and it is now blocked behind Tooling 110, since `reviewed_at` is not stamped at write
+time — this series should be reported as a raw count with the caveat attached, never as a floor,
+a record, or a direction of travel.
+
+**The frontier-versus-growth ratio is retired in its current form.** Three refreshes read three
+different stories out of it — 76%, 42%, 90% — each attributing the move to one side (supply
+recovered; supply fell; the frontier doubled). Both terms are counts of *how often their mode came
+up*: the frontier advances only in `polish` runs and the entry count grows only in `new-entries`
+runs. At ~16 runs per window the selector's rotation variance swamps the signal, so the ratio has
+been reading out `routine_next.py`'s mode mix and being interpreted as productivity. Either
+normalise both terms per run of their own mode — entry IDs advanced per `polish` run against
+entries created per `new-entries` run, which is a real and comparable pair — or drop it. The
+underlying question it was asked to answer (*is polish keeping up with growth?*) is legitimate;
+this estimator cannot answer it.
+
+**The generalisation worth keeping**: both failures are the same one. A metric whose numerator
+and denominator are each produced by a *different scheduled mode* measures the schedule. This
+page now has two instances, and the test is cheap to apply before adopting a third — ask what
+would have to happen for the number to move, and check whether that is a fact about the
+dictionary or a fact about which prompt ran last night.
+
 ## How this page is maintained
 
 `wiki`-mode Routine runs regenerate this page from the two ledgers when ≥10 new
