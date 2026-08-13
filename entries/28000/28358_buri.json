@@ -4,12 +4,17 @@
   "reading": "ぶり",
   "romaji": "buri",
   "part_of_speech": "suffix",
-  "gloss": "for the first time in (a span of time)",
+  "gloss": "for the first time in (a span of time); manner of doing",
   "definitions": [
     {
       "sense_number": 1,
       "gloss": "for the first time in; after an interval of",
       "explanation": "Suffix attached to a time expression to say that something has happened for the first time after that span. Highlights the gap between the previous occurrence and the present."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "manner of doing; style; the way one does something",
+      "explanation": "Suffix attached to a noun or a verb stem to name the observable manner in which an action is performed — how someone works, speaks, or lives. The resulting word is a noun and usually invites an evaluation of that manner."
     }
   ],
   "examples": [
@@ -42,9 +47,39 @@
       ],
       "has_audio": false,
       "notes": null
+    },
+    {
+      "id": "28358_buri_ex4",
+      "japanese": "{彼|かれ}の{仕事|しごと}ぶりは{立派|りっぱ}だ。",
+      "english": "The way he works is admirable.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "28358_buri_ex5",
+      "japanese": "{落|お}ち{着|つ}いた{話|はな}しぶりに{好感|こうかん}を{持|も}った。",
+      "english": "I warmed to his calm way of speaking.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "28358_buri_ex6",
+      "japanese": "{番組|ばんぐみ}では{現地|げんち}の{人|ひと}たちの{暮|く}らしぶりが{細|こま}かく{紹介|しょうかい}されていた。",
+      "english": "The program gave a detailed look at how the local people live.",
+      "sense_numbers": [
+        2
+      ],
+      "has_audio": false,
+      "notes": null
     }
   ],
-  "notes": "Attaches directly to a duration ({三年|さんねん}ぶり, {一週間|いっしゅうかん}ぶり). The phrase 〜ぶりに modifies a verb; 〜ぶりの modifies a following noun.\n\nCOMMON COLLOCATIONS:\n- {久|ひさ}しぶり: long time no see (idiomatic; lit. \"for the first time in a long while\")\n- {三年|さんねん}ぶりに{会|あ}う: meet for the first time in three years\n- {一週間|いっしゅうかん}ぶりの{晴|は}れ: the first sunny day in a week\n- {何年|なんねん}ぶりだろう: how many years has it been?\n\nUSAGE:\nUse 〜ぶり when emphasizing the gap; use 〜{以来|いらい} when emphasizing the starting point ({去年|きょねん}{以来|いらい} since last year). Cannot be used for spans shorter than about a day in normal speech.",
+  "notes": "SENSE 1 — Attaches directly to a duration ({三年|さんねん}ぶり, {一週間|いっしゅうかん}ぶり). The phrase 〜ぶりに modifies a verb; 〜ぶりの modifies a following noun.\n\nCOMMON COLLOCATIONS:\n- {久|ひさ}しぶり: long time no see (idiomatic; lit. \"for the first time in a long while\")\n- {三年|さんねん}ぶりに{会|あ}う: meet for the first time in three years\n- {一週間|いっしゅうかん}ぶりの{晴|は}れ: the first sunny day in a week\n- {何年|なんねん}ぶりだろう: how many years has it been?\n\nUSAGE:\nUse 〜ぶり when emphasizing the gap; use 〜{以来|いらい} when emphasizing the starting point ({去年|きょねん}{以来|いらい} since last year). Cannot be used for spans shorter than about a day in normal speech.\n\nSENSE 2 — Attaches to a noun or a verb stem to name a manner of acting:\n- {仕事|しごと}ぶり: the way one works\n- {話|はな}しぶり: one's way of speaking\n- {暮|く}らしぶり: one's way of living\n- {変|か}わりぶり: the extent of a change\n\nAfter some verb stems the suffix becomes っぷり, which sounds livelier and more colloquial: {飲|の}みっぷり (the way one drinks), {食|た}べっぷり (the way one eats), {男|おとこ}っぷり (a man's bearing).\n\nThe two senses are told apart by what precedes the suffix: a duration gives sense 1, a noun or verb stem gives sense 2.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -55,11 +90,12 @@
       "formality": "neutral",
       "politeness": null,
       "semantic": [
-        "time-general"
+        "time-general",
+        "grammatical"
       ],
       "domain": []
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-08-13T00:22:39Z"
   }
 }
