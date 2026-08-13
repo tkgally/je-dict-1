@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{服|ふく} is the general term for clothing, referring to garments worn on the body.\n\nTYPES OF CLOTHING:\n- ⟦{洋服|ようふく}→洋服：05014_youfuku⟧: Western-style clothes\n- ⟦{和服|わふく}→和服：04094_wafuku⟧: Japanese-style clothes (kimono)\n- ⟦{制服|せいふく}→制服：03086_seifuku⟧: uniform\n- ⟦{私服|しふく}→私服：11177_shifuku⟧: casual clothes, plain clothes\n\nCOMMON EXPRESSIONS:\n- {服|ふく}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to put on/wear clothes\n- {服|ふく}⟦を→を：00422_wo⟧⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧: to take off clothes\n- {服|ふく}⟦を→を：00422_wo⟧⟦{着替|きが}える→着替える：04603_kigaeru⟧: to change clothes\n- {服|ふく}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose clothes\n\nCOUNTERS:\n- ⟦{着|ちゃく}→着：noentry⟧: for suits, outfits\n- ⟦{枚|まい}→〜枚：00650_mai⟧: for individual flat items (shirts, etc.)\n\nRELATED WORDS:\n- ⟦{衣類|いるい}→衣類：04680_irui⟧: clothing (formal term)\n- ⟦{衣服|いふく}→衣服：01825_ifuku⟧: clothes (formal/written)",
-  "cross_references": [],
+  "notes": "{服|ふく} is the general term for clothing, referring to garments worn on the body.\n\nTYPES OF CLOTHING:\n- ⟦{洋服|ようふく}→洋服：05014_youfuku⟧: Western-style clothes\n- ⟦{和服|わふく}→和服：04094_wafuku⟧: Japanese-style clothes (kimono)\n- ⟦{制服|せいふく}→制服：03086_seifuku⟧: uniform\n- ⟦{私服|しふく}→私服：11177_shifuku⟧: casual clothes, plain clothes\n\nCOMMON EXPRESSIONS:\n- {服|ふく}⟦を→を：00422_wo⟧⟦{着|き}る→着る：00541_kiru⟧: to put on/wear clothes\n- {服|ふく}⟦を→を：00422_wo⟧⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧: to take off clothes\n- {服|ふく}⟦を→を：00422_wo⟧⟦{着替|きが}える→着替える：04603_kigaeru⟧: to change clothes\n- {服|ふく}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧: to choose clothes\n\nCOUNTERS:\n- ⟦{着|ちゃく}→着：27655_chaku⟧: for suits, outfits\n- ⟦{枚|まい}→〜枚：00650_mai⟧: for individual flat items (shirts, etc.)\n\nRELATED WORDS:\n- ⟦{衣類|いるい}→衣類：04680_irui⟧: clothing (formal term)\n- ⟦{衣服|いふく}→衣服：01825_ifuku⟧: clothes (formal/written)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05014_youfuku",
+      "reading": "ようふく",
+      "headword": "{洋服|ようふく}",
+      "label": "Western-style clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "04094_wafuku",
+      "reading": "わふく",
+      "headword": "{和服|わふく}",
+      "label": "Japanese-style clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "01825_ifuku",
+      "reading": "いふく",
+      "headword": "{衣服|いふく}",
+      "label": "clothes (formal)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:03:24Z",
-    "modified": "2026-05-12T16:12:28Z",
+    "modified": "2026-08-13T03:19:24Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

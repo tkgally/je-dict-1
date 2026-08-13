@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T13:04:33Z",
+  "reviewed_at": "2026-08-13T03:31:03Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The English translation implies 'text' is the only meaning, but the Japanese 'メール' here could also mean 'email', especially given the context of '場所を知らせた' (informed of the location), which is common for both.",
+      "suggestion": "I let my friend know the location by email/text."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[4]",
+      "severity": "error",
+      "concern": "The English translation exclusively uses 'text', but 'メール' here could also refer to 'email', especially since the previous examples show both meanings.",
+      "suggestion": "I sent an email/text, but I still haven't gotten a reply."
+    }
+  ]
 }

@@ -64,10 +64,39 @@
     }
   ],
   "notes": "{手紙|てがみ} literally means \"hand paper\" and refers specifically to physical letters, not electronic messages.\n\nUSAGE NOTE:\nIn modern Japan, ⟦メール→メール：04435_meeru⟧ (email) has largely replaced {手紙|てがみ} for everyday correspondence. However, {手紙|てがみ} remains important for formal occasions, thank-you notes, and personal sentiments.\n\nCOMMON EXPRESSIONS:\n- {手紙|てがみ}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write a letter\n- {手紙|てがみ}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧: to send/mail a letter\n- {手紙|てがみ}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive a letter\n- {手紙|てがみ}⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧: a letter arrives\n\nRELATED WORDS:\n- ⟦{封筒|ふうとう}→封筒：02952_fuutou⟧: envelope\n- ⟦{便箋|びんせん}→便箋：11571_binsen⟧: letter paper, stationery\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧: mail, postal service\n- ⟦はがき→はがき：00699_hagaki⟧: postcard",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00699_hagaki",
+      "reading": "はがき",
+      "headword": "はがき",
+      "label": "postcard"
+    },
+    {
+      "type": "related",
+      "target_id": "03803_yuubin",
+      "reading": "ゆうびん",
+      "headword": "{郵便|ゆうびん}",
+      "label": "postal service"
+    },
+    {
+      "type": "related",
+      "target_id": "02952_fuutou",
+      "reading": "ふうとう",
+      "headword": "{封筒|ふうとう}",
+      "label": "envelope"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04435_meeru",
+      "reading": "めーる",
+      "headword": "メール",
+      "label": "email"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:24:57Z",
-    "modified": "2026-05-12T16:12:28Z",
+    "modified": "2026-08-13T03:17:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

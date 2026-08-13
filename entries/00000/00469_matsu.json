@@ -209,10 +209,32 @@
     }
   ],
   "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{待|ま}つ (wait for X).\n\nASPECT: ている indicates ongoing action. {待|ま}っている = 'is waiting.'\n\nCOMMON PATTERNS:\n- ⟦バス→バス：00769_basu⟧⟦を→を：00422_wo⟧{待|ま}つ (wait for bus)\n- ⟦ちょっと→ちょっと：00595_chotto⟧{待|ま}って (wait a moment - casual)\n- ⟦{返事|へんじ}→返事：00844_henji⟧⟦を→を：00422_wo⟧{待|ま}つ (wait for reply)\n- お{待|ま}ち⟦ください→ください：02899_kudasai⟧ (please wait - polite)\n\nGodan verb: te-form {待|ま}って. Humble: お{待|ま}ち⟦する→する：00392_suru⟧. Very polite: お{待|ま}ちしております.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12328_machiawaseru",
+      "reading": "まちあわせる",
+      "headword": "{待|ま}ち{合|あ}わせる",
+      "label": "arrange to meet"
+    },
+    {
+      "type": "related",
+      "target_id": "00238_kitai",
+      "reading": "きたい",
+      "headword": "{期待|きたい}",
+      "label": "expect, look forward to"
+    },
+    {
+      "type": "related",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "waiting room"
+    }
+  ],
   "metadata": {
     "created": "2026-01-05T12:56:59Z",
-    "modified": "2026-06-21T15:19:18Z",
+    "modified": "2026-08-13T03:21:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

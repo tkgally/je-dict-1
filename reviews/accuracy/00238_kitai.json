@@ -2,22 +2,15 @@
   "entry_id": "00238_kitai",
   "headword": "{期待|きたい}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:05:26Z",
+  "reviewed_at": "2026-08-13T03:30:45Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "While 'hope' can be an emotion, 'expectation' is not inherently an emotion. The headword 期待 encompasses both, making 'emotion' an incomplete or potentially misleading tag for the headword itself.",
-      "suggestion": "Remove 'emotion' or add a more general tag like 'cognition' or 'mental state' if such tags exist in the system, or refine the definition to clearly separate the emotional aspect of 'hope' from the cognitive aspect of 'expectation'."
-    }
-  ]
+  "issues": []
 }
