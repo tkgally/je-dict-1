@@ -1293,3 +1293,25 @@ All observations cleared.)_
   OpenRouter account at the same time. Screening also cost eight times less ($0.035 vs $0.216),
   so the constraint is latency, not budget — worth checking whether the screener batches its
   requests as aggressively as the accuracy reviewer.
+
+## 2026-08-13 — routine polish (run 005)
+
+- [pattern] The interjection/filler block starting at the comprehensive frontier (06910 えーと,
+  06911 あのー, 06912 ほら, 06913 ねえ) had **zero inline links** across every example and note —
+  the same zero-link block that runs 006/007 hit at 06896–06901, so it continues unbroken through
+  at least 06913. 06914 よね (polished 2026-08-10) is fully linked, so the block appears to end
+  where recent polishing began. Expect the next few frontier runs to be link-heavy rather than
+  content-heavy.
+- [pattern] Basic-tier noun entries in the priority lane keep turning up with `cross_references: []`
+  while their own notes name three to five neighbours in a "COMPOUNDS"/"RELATED" section (00812
+  宿題, 00970 緑, 01392 毛, 01510 星, 02206 草, 02265 野菜 — six for six this run). In two cases
+  (00509 果物, 16279 生野菜) the neighbour already linked *back* to the entry, so the asymmetry was
+  visible from one side only. A detector that flags entries whose notes name an existing entry that
+  is absent from `cross_references` would find these mechanically.
+- [tooling] Notes fields are where the unlinked Japanese hides. Examples in these entries were
+  usually fully linked while the notes were bare (00970 緑 was the extreme case: every example
+  linked, ~12 unlinked words in the notes). A `--notes-only` mode on the inline-link checks would
+  target this directly.
+- [entry] 02206 草 carries `style: ["slang"]` for the whole entry because of its INTERNET SLANG
+  note, but the word itself is an ordinary noun; only the "w/lol" usage is slang. Left as-is —
+  changing it needs a policy call on whether `style` describes the headword or any documented sense.

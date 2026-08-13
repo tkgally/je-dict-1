@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{緑|みどり} is a noun used both for the color green and for greenery/nature. As a noun, it modifies other nouns with の: {緑|みどり}の{木|き} (green trees).\n\nCOLOR VS. GREENERY:\n- {緑|みどり}のペン: a green pen (color)\n- {緑|みどり}が{多|おお}い: lots of greenery (nature)\n- {緑|みどり}{豊|ゆた}かな: rich in greenery\n\nCULTURAL NOTE:\nIn traditional Japanese, ⟦{青|あお}→{青|あお}：02841_ao⟧ (blue) covered both blue and green. Even today, green traffic lights and green vegetables are called {青|あお}: {青|あお}{信号|しんごう} (green light), {青|あお}{野菜|やさい} (green vegetables). {緑|みどり} as a distinct color word became more common with Western influence.\n\nCOMMON COMPOUNDS:\n- {緑茶|りょくちゃ}: green tea\n- {緑地|りょくち}: green space\n- {新緑|しんりょく}: fresh green leaves (of spring)",
-  "cross_references": [],
+  "notes": "{緑|みどり} is a noun used both for the color green and for greenery/nature. As a noun, it modifies other nouns with の: {緑|みどり}⟦の→の：09472_no⟧⟦{木|き}→木：00524_ki⟧ (green trees).\n\nCOLOR VS. GREENERY:\n- {緑|みどり}⟦の→の：09472_no⟧⟦ペン→ペン：02960_pen⟧: a green pen (color)\n- {緑|みどり}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: lots of greenery (nature)\n- {緑|みどり}⟦{豊|ゆた}かな→豊か：03654_yutaka⟧: rich in greenery\n\nCULTURAL NOTE:\nIn traditional Japanese, ⟦{青|あお}→青：02841_ao⟧ (blue) covered both blue and green. Even today, green traffic lights and green vegetables are called ⟦{青|あお}→青：02841_ao⟧: ⟦{青|あお}→青：02841_ao⟧⟦{信号|しんごう}→信号：03258_shingou⟧ (green light), ⟦{青|あお}→青：02841_ao⟧⟦{野菜|やさい}→野菜：02265_yasai⟧ (green vegetables). {緑|みどり} as a distinct color word became more common with Western influence.\n\nCOMMON COMPOUNDS:\n- ⟦{緑茶|りょくちゃ}→緑茶：10971_ryokucha⟧: green tea\n- ⟦{緑地|りょくち}→緑地：25977_ryokuchi⟧: green space\n- ⟦{新緑|しんりょく}→新緑：12724_shinryoku⟧: fresh green leaves (of spring)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02841_ao",
+      "reading": "あお",
+      "headword": "{青|あお}",
+      "label": "blue — traditionally also covered green (green traffic lights, green vegetables)"
+    },
+    {
+      "type": "related",
+      "target_id": "24190_midoriiro",
+      "reading": "みどりいろ",
+      "headword": "{緑色|みどりいろ}",
+      "label": "the color green, when the color sense needs to be explicit"
+    },
+    {
+      "type": "related",
+      "target_id": "00849_iro",
+      "reading": "いろ",
+      "headword": "{色|いろ}",
+      "label": "color"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:38:03Z",
-    "modified": "2026-05-13T18:23:35Z",
+    "modified": "2026-08-13T12:37:46Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
