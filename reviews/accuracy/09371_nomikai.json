@@ -4,28 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T15:49:21Z",
+  "reviewed_at": "2026-08-13T09:56:58Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'social' is not in the valid tag list.",
-      "suggestion": "daily-life"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'drinking' is not in the valid tag list.",
-      "suggestion": "consumption"
-    }
-  ]
+  "issues": []
 }

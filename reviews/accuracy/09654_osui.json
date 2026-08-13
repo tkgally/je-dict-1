@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T06:58:31Z",
+  "reviewed_at": "2026-08-13T09:27:18Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific concept like 'sewage/wastewater'.",
+      "suggestion": "Replace 'general' with 'environment'."
+    }
+  ]
 }

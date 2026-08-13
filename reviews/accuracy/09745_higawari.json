@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-25T09:27:52Z",
+  "reviewed_at": "2026-08-13T09:29:02Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'restaurant' is not in the valid tag list.",
-      "suggestion": "daily-life"
+      "concern": "The headword '日替わり' itself does not mean 'food'. It means 'daily changing' or 'daily special', which can apply to many things, not just food.",
+      "suggestion": "Remove 'food' tag. Add 'time-general' or 'change' tag."
     }
   ]
 }

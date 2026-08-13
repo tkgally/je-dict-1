@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-25T09:29:29Z",
+  "reviewed_at": "2026-08-13T09:30:30Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with a more specific meaning related to imagination and unreality.",
+      "suggestion": "abstract"
+    }
+  ]
 }

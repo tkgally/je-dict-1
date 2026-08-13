@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T06:56:05Z",
+  "reviewed_at": "2026-08-13T09:24:27Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'weather' is too narrow for the headword '警報'. While '警報' is often used for weather warnings, it also applies to other types of warnings like volcanic eruptions, which is shown in example 2.",
-      "suggestion": "Replace 'weather' with a more general tag like 'general' or 'society' or 'communication'."
+      "concern": "The tag 'weather' is too narrow for the headword '警報', which can refer to warnings beyond just weather.",
+      "suggestion": "Replace 'weather' with 'general' or 'communication'."
     }
   ]
 }

@@ -1,10 +1,8 @@
 {
   "entry_id": "09724",
-  "screened_at": "2026-06-24T18:25:41Z",
+  "screened_at": "2026-08-13T09:44:04Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for 弁当 is given as べんとう, but in the context of the full entry お弁当温め (おべんとうあたため), the reading for 弁当 is implicitly べんとう. However, the example for the entry itself shows お{弁当|べんとう}{温|あたた}め, which means 弁当 is read as べんとう. The problem is in the 6th pair: 店員 → てんいん (followed by: : 「お{弁当|べん)). Here, 弁当 is given the reading べん, which is a partial reading. While partial readings are allowed, it's unusual to split 弁当 as べん when the full reading is べんとう, especially when the full reading is used elsewhere. This might be an error in how the furigana is applied, as it suggests only the 'べん' part of 弁当 is being read, leaving 'とう' unread, which is incorrect for the word 弁当."
-  ],
-  "confidence": 0.7
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

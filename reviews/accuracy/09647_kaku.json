@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T06:58:25Z",
+  "reviewed_at": "2026-08-13T09:27:11Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'to scratch' is too narrow. 掻く also means 'to rake' or 'to stir'.",
+      "suggestion": "to scratch; to rake; to stir"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'to scratch; to scrape' is too narrow. 掻く also means 'to rake' or 'to stir'.",
+      "suggestion": "to scratch; to scrape; to rake; to stir"
+    }
+  ]
 }

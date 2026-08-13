@@ -1,8 +1,15 @@
 {
   "entry_id": "09723",
-  "screened_at": "2026-06-24T18:25:32Z",
+  "screened_at": "2026-08-13T09:43:57Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": false,
-  "concerns": [],
-  "confidence": 1.0
+  "flagged": true,
+  "concerns": [
+    "The reading for 発送済 (はっそうず) is incomplete. The 'ず' only covers the '済' kanji, but the reading is provided for the entire compound '発送済'. The full reading should be はっそうずみ.",
+    "The reading for 配達中 (はいたつちゅう) is incomplete. The 'ちゅう' only covers the '中' kanji, but the reading is provided for the entire compound '配達中'. The full reading should be はいたつちゅう。",
+    "The reading for 配達完了 (はいたつかんりょう) is incomplete. The 'かんりょう' only covers the '完了' kanji, but the reading is provided for the entire compound '配達完了'. The full reading should be はいたつかんりょう。",
+    "The reading for 再配達 (さいはいたつ) is incomplete. The 'はいたつ' only covers the '配達' kanji, but the reading is provided for the entire compound '再配達'. The full reading should be さいはいたつ。",
+    "The reading for 配送 (はいそう) is incomplete. The 'そう' only covers the '送' kanji, but the reading is provided for the entire compound '配送'. The full reading should be はいそう。",
+    "The reading for 宅配便 (たくはいびん) is incomplete. The 'びん' only covers the '便' kanji, but the reading is provided for the entire compound '宅配便'. The full reading should be たくはいびん。"
+  ],
+  "confidence": 0.9
 }

@@ -8,17 +8,31 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-25T09:29:26Z",
+  "reviewed_at": "2026-08-13T09:30:26Z",
   "summary": {
-    "flagged": 1
+    "flagged": 3
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The main gloss is too broad and misleading given the specific definition provided.",
-      "suggestion": "container (shipping)"
+      "concern": "The headword gloss is too narrow. While 'container (shipping)' is a primary meaning, 'コンテナ' can refer to any container, not just shipping containers.",
+      "suggestion": "container"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The definition gloss is too narrow. While 'container (shipping)' is a primary meaning, 'コンテナ' can refer to any container, not just shipping containers.",
+      "suggestion": "container"
+    },
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'transportation' is too narrow. While shipping containers are a common use, 'コンテナ' can refer to any container, not just those used for transport.",
+      "suggestion": "general"
     }
   ]
 }

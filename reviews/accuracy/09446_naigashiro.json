@@ -4,28 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T15:50:55Z",
+  "reviewed_at": "2026-08-13T09:57:24Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'behavior' is not in the valid list.",
-      "suggestion": "action"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'interpersonal' is not in the valid list.",
-      "suggestion": "society"
+      "severity": "error",
+      "concern": "The semantic tag 'action' is incorrect for an adjective-na. '蔑' describes a state or quality of treating something, not an action itself.",
+      "suggestion": "Remove 'action'."
     }
   ]
 }

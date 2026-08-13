@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T06:56:20Z",
+  "reviewed_at": "2026-08-13T09:24:44Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'person' is too broad for a specific surname. 'proper-noun' is more appropriate.",
+      "suggestion": "proper-noun"
+    }
+  ]
 }

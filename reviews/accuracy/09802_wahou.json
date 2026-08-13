@@ -4,21 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-25T09:29:22Z",
+  "reviewed_at": "2026-08-13T09:57:40Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'education' is incorrect for '話法' (narration style; speech mode). While '話法' might be taught in education, its core meaning is related to language and communication, not the field of education itself.",
-      "suggestion": "Replace 'education' with 'language' or 'communication'."
-    }
-  ]
+  "issues": []
 }

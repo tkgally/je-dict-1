@@ -8,24 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-23T15:51:08Z",
+  "reviewed_at": "2026-08-13T09:23:14Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "Semantic tag 'body' is incorrect for 'うつらうつら'. It describes a state of mind/consciousness, not a physical body part or function.",
-      "suggestion": "Replace 'body' with 'cognition' or 'state' (if 'state' were a valid tag, but it's not). 'cognition' is the best fit from the valid list."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Semantic tag 'state' is not in the valid tag list.",
-      "suggestion": "Replace 'state' with 'cognition' or 'descriptive'."
-    }
-  ]
+  "issues": []
 }

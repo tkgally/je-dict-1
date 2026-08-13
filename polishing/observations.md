@@ -1250,3 +1250,46 @@ Also filed: five entry follow-ups (08989 車席, 08985 日日, 17576 摺り寄�
 one entry at a time, since the frontier has entered the block.
 
 All observations cleared.)_
+
+## 2026-08-13 — routine accuracy-review (09309–09808)
+
+- [pattern] The off-vocabulary semantic-tag cohort thins sharply at 09309. A deterministic scan
+  of `metadata.tags.semantic` against `VALID_SEMANTIC` found **45 of 495 entries (9%)** in
+  09309–09808, against **46%** in the immediately preceding 08851–09350 block reviewed on
+  2026-08-12. The contaminated creation-batch band appears to end around 09350; the residue here
+  is concentrated in one sub-block (09351–09465) and is clean above 09465.
+- [tooling] The reviewer's severity assignment for off-vocabulary tags is arbitrary. Of the 45
+  off-vocab entries, the model reported **5 at `error` severity and 40 at `warn`**, even though
+  "not in `VALID_SEMANTIC`" is decidable by set membership and the reviewer prompt embeds the
+  list. A run that works only `error`-severity tag flags (which §A's effort-scaling rule
+  invites) would miss 89% of this class. Either the prompt should force `error` for
+  set-membership failures, or accuracy-review runs should keep starting from the deterministic
+  scan (which is free and complete) rather than the model's severity ranking.
+- [pattern] Sole-`general` is the dominant tag flag in this range: **47 of 129 tag flags** were
+  "`general` is too broad for X" or an equivalent in-list narrowness swap, all rejected as a
+  family per §A policy. At that density the dictionary-wide `sole-general` count (3,677) will
+  keep re-surfacing in every accuracy-review range. Evidence for prioritising Cleanup P13 as a
+  dedicated systemic-fix batch rather than paying for a model to re-report it per range.
+- [pattern] The `location`/`urban` off-vocab family (11 + 5 instances here, all street and
+  district words: 路地裏, 裏通り, 繁華街, 住宅街, 地下街 …) has a settled in-list destination after
+  all: **`geography`**, which 54 existing street/district/area entries already use (横丁, 表通り,
+  並木道, 道端, 沿道, 区域, 付近 …), with `transportation` for road infrastructure (交差点, 車線,
+  T字路). This partially answers the 2026-08-13 curator escalation asking for a ruling on the
+  missing place/location tag: no new tag is needed for this class.
+- [pattern] Baseball vocabulary is split between two tags. About 30 entries use `sports` (安打,
+  三振, 投手, 打線, 完投 …) and about 12 use `leisure` (セーフ, 出塁, ピッチャー, 捕手, バッター,
+  フォアボール, ダッグアウト, ストライク, 野手, 大リーグ, 野球 itself …). `sports` is plainly the
+  convention; the `leisure` cluster is an outlier family a cheap systemic-fix sweep could clear
+  (detectable as: gloss contains "baseball" AND semantic contains `leisure`).
+- [pattern] Surname entries are tagged `person` (田中 09528, 鈴木 09530, 山田 09529, 佐藤 27597)
+  while place-name proper nouns carry `proper-noun` + `place-name` (甲子園 23102, 浅草 28393).
+  The reviewer flags `person` on surnames as too broad and wants `proper-noun`. Rejected here for
+  consistency with existing practice, but the two conventions disagree and one of them should be
+  written down — `person-name` and `proper-noun` both exist in `VALID_SEMANTIC` and neither is
+  used on surnames.
+- [tooling] The furigana screener is now the slow instrument. In this run `review_accuracy.py`
+  covered 495 entries in about 20 minutes (~37/min) while `review_runner.py --pass screening`
+  took about 50 minutes for 277 entries (~9/min, 223 more skipped as unchanged), on the same
+  OpenRouter account at the same time. Screening also cost eight times less ($0.035 vs $0.216),
+  so the constraint is latency, not budget — worth checking whether the screener batches its
+  requests as aggressively as the accuracy reviewer.
