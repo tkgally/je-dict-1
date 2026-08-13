@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{音|おと} refers to sounds in general, especially non-vocal sounds. Different from ⟦{声|こえ}→こえ：02207_koe⟧ (voice), which specifically refers to sounds made by humans or animals.\n\nCOMMON PATTERNS:\n- {音|おと}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ (a sound is heard/made)\n- {音|おと}を⟦{立|た}てる→たてる：01196_tateru⟧ (to make a sound)\n- {音|おと}が⟦{聞|き}こえる→きこえる：01229_kikoeru⟧ (to be able to hear a sound)\n- {音|おと}を⟦{小|ちい}さく→小さい：00025_chiisai⟧⟦する→する：00392_suru⟧ (to turn down the volume)\n\nCOMPOUND WORDS:\n- ⟦{足音|あしおと}→あしおと：02991_ashioto⟧ (footsteps)\n- ⟦{物音|ものおと}→ものおと：03633_monooto⟧ (sound of something)\n- ⟦{音楽|おんがく}→おんがく：00661_ongaku⟧ (music)\n- ⟦{音声|おんせい}→おんせい：04445_onsei⟧ (audio, voice)\n- ⟦{騒音|そうおん}→そうおん：03315_souon⟧ (noise, din)\n- ⟦{雑音|ざつおん}→ざつおん：04191_zatsuon⟧ (static, noise)\n\nREADINGS:\nUsually おと, but often おん in compounds: ⟦{音量|おんりょう}→おんりょう：10009_onryou⟧ (volume), ⟦{発音|はつおん}→はつおん：01698_hatsuon⟧ (pronunciation).\n\nSIMILAR WORDS:\n- ⟦{声|こえ}→こえ：02207_koe⟧: voice (human/animal sounds)\n- ⟦{響|ひび}き→ひびき：00098_hibiki⟧: resonance, echo",
-  "cross_references": [],
+  "notes": "{音|おと} refers to sounds in general, especially non-vocal sounds. Different from ⟦{声|こえ}→こえ：02207_koe⟧ (voice), which specifically refers to sounds made by humans or animals.\n\nCOMMON PATTERNS:\n- {音|おと}⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧ (a sound is heard/made)\n- {音|おと}⟦を→を：00422_wo⟧⟦{立|た}てる→たてる：01196_tateru⟧ (to make a sound)\n- {音|おと}⟦が→が：00051_ga⟧⟦{聞|き}こえる→きこえる：01229_kikoeru⟧ (to be able to hear a sound)\n- {音|おと}⟦を→を：00422_wo⟧⟦{小|ちい}さく→小さい：00025_chiisai⟧⟦する→する：00392_suru⟧ (to turn down the volume)\n\nCOMPOUND WORDS:\n- ⟦{足音|あしおと}→あしおと：02991_ashioto⟧ (footsteps)\n- ⟦{物音|ものおと}→ものおと：03633_monooto⟧ (sound of something)\n- ⟦{音楽|おんがく}→おんがく：00661_ongaku⟧ (music)\n- ⟦{音声|おんせい}→おんせい：04445_onsei⟧ (audio, voice)\n- ⟦{騒音|そうおん}→そうおん：03315_souon⟧ (noise, din)\n- ⟦{雑音|ざつおん}→ざつおん：04191_zatsuon⟧ (static, noise)\n\nREADINGS:\nUsually おと, but often おん in compounds: ⟦{音量|おんりょう}→おんりょう：10009_onryou⟧ (volume), ⟦{発音|はつおん}→はつおん：01698_hatsuon⟧ (pronunciation).\n\nSIMILAR WORDS:\n- ⟦{声|こえ}→こえ：02207_koe⟧: voice (human/animal sounds)\n- ⟦{響|ひび}き→ひびき：00098_hibiki⟧: resonance, echo",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02207_koe",
+      "reading": "こえ",
+      "headword": "{声|こえ}",
+      "label": "voice"
+    },
+    {
+      "type": "related",
+      "target_id": "03315_souon",
+      "reading": "そうおん",
+      "headword": "{騒音|そうおん}",
+      "label": "noise, din"
+    },
+    {
+      "type": "related",
+      "target_id": "03633_monooto",
+      "reading": "ものおと",
+      "headword": "{物音|ものおと}",
+      "label": "sound of something"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:40:49Z",
-    "modified": "2026-05-12T18:11:28Z",
+    "modified": "2026-08-13T03:20:11Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

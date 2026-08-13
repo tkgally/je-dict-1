@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06909_hyottoshite_ex1",
-      "japanese": "ひょっとして{田中|たなか}さんですか。",
+      "japanese": "ひょっとして⟦{田中|たなか}→田中：09528_tanaka⟧⟦さん→さん：09848_san⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Could you possibly be Mr. Tanaka?",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "06909_hyottoshite_ex2",
-      "japanese": "ひょっとして{風邪|かぜ}を{引|ひ}いたかもしれない。",
+      "japanese": "ひょっとして⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦{引|ひ}いた→引く：01978_hiku⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "I might have caught a cold.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "06909_hyottoshite_ex3",
-      "japanese": "ひょっとして{間違|まちが}えたのではないか。",
+      "japanese": "ひょっとして⟦{間違|まちが}えた→間違える：01109_machigaeru⟧⟦の→の：09472_no⟧⟦ではないか→ではないか：noentry⟧。",
       "english": "Could it be that I made a mistake?",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "06909_hyottoshite_ex4",
-      "japanese": "ひょっとしたら{彼|かれ}も{来|く}るかもしれない。",
+      "japanese": "⟦ひょっとしたら→ひょっとしたら：21627_hyottoshitara⟧⟦{彼|かれ}→彼：01292_kare⟧⟦も→も：00484_mo⟧⟦{来|く}る→来る：00254_kuru⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "He might possibly come too.",
       "sense_numbers": [
         1
@@ -53,7 +53,7 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY: From ひょっと (suddenly, by chance) + して (doing)\n\nVARIANT FORMS:\n- ひょっとして: by any chance (question/possibility)\n- ひょっとしたら: if by chance (conditional)\n- ひょっとすると: it may be that (speculation)\n\nNUANCE: Softer and more tentative than {多分|たぶん} (probably) or きっと (surely). Used when:\n- Making polite guesses about people\n- Hedging uncertain statements\n- Asking tentative questions\n- Expressing slight possibility\n\nCOMMON PATTERNS:\n- ひょっとして〜ですか? (Could you be ~?)\n- ひょっとして〜かもしれない (might possibly ~)\n- ひょっとしたら〜 (if by chance ~)\n\nSIMILAR EXPRESSIONS:\n- もしかして (perhaps, by any chance) - very similar\n- ひょっとすると (it may be that)\n- もしかしたら (if perhaps)",
+  "notes": "ETYMOLOGY: From ⟦ひょっと→ひょっと：07338_hyotto⟧ (suddenly, by chance) + して (the て-form of ⟦する→する：00392_suru⟧)\n\nVARIANT FORMS:\n- ひょっとして: by any chance (question/possibility)\n- ⟦ひょっとしたら→ひょっとしたら：21627_hyottoshitara⟧: if by chance (conditional)\n- ⟦ひょっとすると→ひょっとすると：15139_hyottosuruto⟧: it may be that (speculation)\n\nNUANCE: Softer and more tentative than ⟦{多分|たぶん}→たぶん：00815_tabun⟧ (probably) or ⟦きっと→きっと：00860_kitto⟧ (surely). Used when:\n- Making polite guesses about people\n- Hedging uncertain statements\n- Asking tentative questions\n- Expressing slight possibility\n\nCOMMON PATTERNS:\n- ひょっとして〜⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧? (Could you be ~?)\n- ひょっとして〜⟦かもしれない→かもしれない：00164_kamoshirenai⟧ (might possibly ~)\n- ⟦ひょっとしたら→ひょっとしたら：21627_hyottoshitara⟧〜 (if by chance ~)\n\nSIMILAR EXPRESSIONS:\n- ⟦もしかして→もしかして：05713_moshikashite⟧ (perhaps, by any chance) - very similar\n- ⟦ひょっとすると→ひょっとすると：15139_hyottosuruto⟧ (it may be that)\n- ⟦もしかしたら→もしかしたら：08420_moshikashitara⟧ (if perhaps)",
   "cross_references": [
     {
       "type": "contrast",
@@ -61,11 +61,32 @@
       "headword": "もしかして",
       "label": "perhaps (very similar)",
       "target_id": "05713_moshikashite"
+    },
+    {
+      "type": "related",
+      "target_id": "21627_hyottoshitara",
+      "reading": "ひょっとしたら",
+      "headword": "ひょっとしたら",
+      "label": "conditional variant"
+    },
+    {
+      "type": "related",
+      "target_id": "15139_hyottosuruto",
+      "reading": "ひょっとすると",
+      "headword": "ひょっとすると",
+      "label": "speculative variant"
+    },
+    {
+      "type": "related",
+      "target_id": "07338_hyotto",
+      "reading": "ひょっと",
+      "headword": "ひょっと",
+      "label": "by chance (base adverb)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-04-16T02:09:37Z",
+    "modified": "2026-08-13T03:30:21Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06902_ikiwonomu_ex1",
-      "japanese": "その{景色|けしき}の{美|うつく}しさに{息|いき}を{呑|の}んだ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{景色|けしき}→景色：01395_keshiki⟧⟦の→の：09472_no⟧⟦{美|うつく}しさ→美しさ：27922_utsukushisa⟧⟦に→に：00314_ni⟧{息|いき}を{呑|の}んだ。",
       "english": "The beauty of the scenery took my breath away.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "06902_ikiwonomu_ex2",
-      "japanese": "{観客|かんきゃく}は{息|いき}を{呑|の}んで{見守|みまも}った。",
+      "japanese": "⟦{観客|かんきゃく}→観客：02556_kankyaku⟧⟦は→は：00079_ha⟧{息|いき}を{呑|の}んで⟦{見守|みまも}った→見守る：04574_mimamoru⟧。",
       "english": "The audience watched with bated breath.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "06902_ikiwonomu_ex3",
-      "japanese": "{事故|じこ}の{知|し}らせに{息|いき}を{呑|の}んだ。",
+      "japanese": "⟦{事故|じこ}→事故：00851_jiko⟧⟦の→の：09472_no⟧⟦{知|し}らせ→知らせ：03252_shirase⟧⟦に→に：00314_ni⟧{息|いき}を{呑|の}んだ。",
       "english": "I gasped at the news of the accident.",
       "sense_numbers": [
         1
@@ -43,10 +43,10 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: {息|いき} (breath) + を + {呑|の}む (to swallow). Literally 'to swallow one's breath.'\n\nNUANCE: Used for intense moments that cause a physical reaction - beauty, shock, suspense, or awe. The image is of breath being caught in the throat.\n\nCOMMON CONTEXTS:\n- {美|うつく}しさに{息|いき}を{呑|の}む (breathtaken by beauty)\n- {驚|おどろ}きで{息|いき}を{呑|の}む (gasp in surprise)\n- {緊張|きんちょう}で{息|いき}を{呑|の}む (hold breath in tension)\n\nRELATED EXPRESSIONS:\n- {息|いき}を{潜|ひそ}める (to hold one's breath quietly, lie low)\n- はっとする (to be startled)\n- {息|いき}が{止|と}まる (breath stops - extreme shock)\n\nPRENOMINAL FORM: {息|いき}を{呑|の}むような + noun (breathtaking [noun])\n- {息|いき}を{呑|の}むような{絶景|ぜっけい} (breathtaking view)",
+  "notes": "STRUCTURE: ⟦{息|いき}→息：02176_iki⟧ (breath) + ⟦を→を：00422_wo⟧ + {呑|の}む (to swallow; a variant spelling of ⟦{飲|の}む→飲む：00322_nomu⟧). Literally 'to swallow one's breath.'\n\nNUANCE: Used for intense moments that cause a physical reaction - beauty, shock, suspense, or awe. The image is of breath being caught in the throat.\n\nCOMMON CONTEXTS:\n- ⟦{美|うつく}しさ→美しさ：27922_utsukushisa⟧⟦に→に：00314_ni⟧{息|いき}を{呑|の}む (breathtaken by beauty)\n- ⟦{驚|おどろ}き→驚き：02562_odoroki⟧⟦で→で：00502_de⟧{息|いき}を{呑|の}む (gasp in surprise)\n- ⟦{緊張|きんちょう}→緊張：02494_kinchou⟧⟦で→で：00502_de⟧{息|いき}を{呑|の}む (hold breath in tension)\n\nRELATED EXPRESSIONS:\n- ⟦{息|いき}を{潜|ひそ}める→息を潜める：07446_ikiwohisomeru⟧ (to hold one's breath quietly, lie low)\n- ⟦はっとする→はっとする：16221_hattosuru⟧ (to be startled)\n- ⟦{息|いき}→息：02176_iki⟧⟦が→が：00051_ga⟧⟦{止|と}まる→止まる：00555_tomaru⟧ (breath stops - extreme shock)\n\nPRENOMINAL FORM: {息|いき}を{呑|の}む⟦ような→ような：30292_youna⟧ + noun (breathtaking [noun])\n- {息|いき}を{呑|の}む⟦ような→ような：30292_youna⟧⟦{絶景|ぜっけい}→絶景：16835_zekkei⟧ (breathtaking view)",
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-01-19T12:17:44.773691Z",
+    "modified": "2026-08-13T03:23:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -59,5 +59,28 @@
         "emotion"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07446_ikiwohisomeru",
+      "reading": "いきをひそめる",
+      "headword": "{息|いき}を{潜|ひそ}める",
+      "label": "hold one's breath, lie low"
+    },
+    {
+      "type": "related",
+      "target_id": "16221_hattosuru",
+      "reading": "はっとする",
+      "headword": "はっとする",
+      "label": "be startled"
+    },
+    {
+      "type": "related",
+      "target_id": "02176_iki",
+      "reading": "いき",
+      "headword": "{息|いき}",
+      "label": "breath"
+    }
+  ]
 }

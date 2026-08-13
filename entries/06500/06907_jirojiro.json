@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06907_jirojiro_ex1",
-      "japanese": "{人|ひと}をじろじろ{見|み}るのは{失礼|しつれい}だ。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧じろじろ⟦{見|み}る→見る：00283_miru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{失礼|しつれい}→失礼：01247_shitsurei⟧⟦だ→だ：09496_da⟧。",
       "english": "It's rude to stare at people.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "06907_jirojiro_ex2",
-      "japanese": "{彼女|かのじょ}にじろじろ{見|み}られて{居心地|いごこち}が{悪|わる}かった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦に→に：00314_ni⟧じろじろ⟦{見|み}られて→見る：00283_miru⟧⟦{居心地|いごこち}→居心地：06634_igokochi⟧⟦が→が：00051_ga⟧⟦{悪|わる}かった→悪い：00908_warui⟧。",
       "english": "I felt uncomfortable being stared at by her.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "06907_jirojiro_ex3",
-      "japanese": "じろじろ{見|み}ないでください。",
+      "japanese": "じろじろ⟦{見|み}ないで→見る：00283_miru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't stare.",
       "sense_numbers": [
         1
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "ONOMATOPOEIA TYPE: Mimetic word (giongo) representing the manner of looking.\n\nUSAGE: Almost always used with {見|み}る (to look) - じろじろ{見|み}る\n\nNUANCE: Generally negative connotation - implies:\n- Rude or intrusive staring\n- Making someone uncomfortable\n- Inappropriate attention\n\nCONTRAST WITH SIMILAR EXPRESSIONS:\n- じろじろ: fixed staring (usually rude)\n- ちらちら: glancing repeatedly, flickering looks\n- じっと: gazing steadily (more neutral)\n- まじまじ: staring in amazement/disbelief\n\nCULTURAL NOTE: Staring is considered impolite in Japanese culture. じろじろ{見|み}る is often explicitly taught to children as something not to do.\n\nGRAMMAR: Functions as an adverb modifying the verb {見|み}る.",
+  "notes": "ONOMATOPOEIA TYPE: Mimetic word (gitaigo) representing the manner of looking.\n\nUSAGE: Almost always used with ⟦{見|み}る→見る：00283_miru⟧ (to look) - じろじろ⟦{見|み}る→見る：00283_miru⟧\n\nNUANCE: Generally negative connotation - implies:\n- Rude or intrusive staring\n- Making someone uncomfortable\n- Inappropriate attention\n\nCONTRAST WITH SIMILAR EXPRESSIONS:\n- じろじろ: fixed staring (usually rude)\n- ⟦ちらちら→ちらちら：07407_chirachira⟧: glancing repeatedly, flickering looks\n- ⟦じっと→じっと：01571_jitto⟧: gazing steadily (more neutral)\n- ⟦まじまじ→まじまじ：noentry⟧: staring in amazement/disbelief\n\nCULTURAL NOTE: Staring is considered impolite in Japanese culture. じろじろ⟦{見|み}る→見る：00283_miru⟧ is often explicitly taught to children as something not to do.\n\nGRAMMAR: Functions as an adverb modifying the verb ⟦{見|み}る→見る：00283_miru⟧.",
   "cross_references": [
     {
       "type": "contrast",
@@ -58,11 +58,18 @@
       "reading": "じろり",
       "headword": "ジロリ",
       "label": "single piercing glare (momentary)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01571_jitto",
+      "reading": "じっと",
+      "headword": "じっと",
+      "label": "gazing steadily (neutral)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-08-13T03:28:46Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +79,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "descriptive"
+        "descriptive",
+        "onomatopoeia"
       ]
     }
   }

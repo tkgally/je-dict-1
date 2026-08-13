@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06908_tokoton_ex1",
-      "japanese": "とことん{話|はな}し{合|あ}おう。",
+      "japanese": "とことん⟦{話|はな}し{合|あ}おう→話し合う：02396_hanashiau⟧。",
       "english": "Let's talk it out completely.",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "06908_tokoton_ex2",
-      "japanese": "とことん{追|お}い{詰|つ}められた。",
+      "japanese": "とことん⟦{追|お}い{詰|つ}められた→追い詰める：14311_oitsumeru⟧。",
       "english": "I was driven into a corner completely.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "06908_tokoton_ex3",
-      "japanese": "{品質|ひんしつ}にはとことんこだわる。",
+      "japanese": "⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧とことん⟦こだわる→こだわる：10319_kodawaru⟧。",
       "english": "We are thoroughly committed to quality.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "06908_tokoton_ex4",
-      "japanese": "とことんやってみよう。",
+      "japanese": "とことん⟦やって→やる：02980_yaru⟧⟦みよう→てみる：30510_temiru⟧。",
       "english": "Let's go all the way with this.",
       "sense_numbers": [
         1
@@ -53,10 +53,10 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY: Possibly derived from the sound of footsteps going on endlessly ({とことこ}), with intensification.\n\nNUANCE: Implies determination and persistence. Can be:\n- Positive: thorough effort, dedication\n- Negative: being pushed to extremes, cornered\n\nCOMMON COLLOCATIONS:\n- とことん{話|はな}し{合|あ}う (discuss thoroughly)\n- とことん{追|お}い{詰|つ}める (corner completely)\n- とことんこだわる (be particular about to the extreme)\n- とことんやる (do thoroughly)\n- とことん{付|つ}き{合|あ}う (see it through together)\n\nSIMILAR EXPRESSIONS:\n- {徹底的|てっていてき}に (thoroughly) - more formal\n- {最後|さいご}まで (until the end) - neutral\n- とことんまで (to the very limit) - intensified form\n\nREGISTER: Slightly casual, conversational. More colloquial than {徹底的|てっていてき}に.",
+  "notes": "ETYMOLOGY: Possibly derived from the sound of footsteps going on endlessly (⟦とことこ→とことこ：30284_tokotoko⟧), with intensification.\n\nNUANCE: Implies determination and persistence. Can be:\n- Positive: thorough effort, dedication\n- Negative: being pushed to extremes, cornered\n\nCOMMON COLLOCATIONS:\n- とことん⟦{話|はな}し{合|あ}う→話し合う：02396_hanashiau⟧ (discuss thoroughly)\n- とことん⟦{追|お}い{詰|つ}める→追い詰める：14311_oitsumeru⟧ (corner completely)\n- とことん⟦こだわる→こだわる：10319_kodawaru⟧ (be particular about to the extreme)\n- とことん⟦やる→やる：02980_yaru⟧ (do thoroughly)\n- とことん⟦{付|つ}き{合|あ}う→付き合う：02291_tsukiau⟧ (see it through together)\n\nSIMILAR EXPRESSIONS:\n- ⟦{徹底的|てっていてき}→徹底的：06827_tetteiteki⟧⟦に→に：00314_ni⟧ (thoroughly) - more formal\n- ⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧ (until the end) - neutral\n- とことん⟦まで→まで：00490_made⟧ (to the very limit) - intensified form\n\nREGISTER: Slightly casual, conversational. More colloquial than ⟦{徹底的|てっていてき}→徹底的：06827_tetteiteki⟧⟦に→に：00314_ni⟧.",
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-06-18T09:33:05Z",
+    "modified": "2026-08-13T03:29:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -72,5 +72,21 @@
         "descriptive"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "06827_tetteiteki",
+      "reading": "てっていてき",
+      "headword": "{徹底的|てっていてき}",
+      "label": "thorough (more formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "10319_kodawaru",
+      "reading": "こだわる",
+      "headword": "こだわる",
+      "label": "be particular about"
+    }
+  ]
 }
