@@ -1332,3 +1332,17 @@ All observations cleared.)_
   tag/gloss issue on an entry the sweep happened to touch. The per-entry context read is still
   what catches the polysemy cases, but the evidence that A1+A2 short-base substitution is safe
   when context-checked is now quite strong.
+
+## 2026-08-13 (routine new-entries, 30615-30634)
+
+- [tooling] Candidate C23122 stored 足手まとい with the reading あしてまとい; the standard
+  modern reading is あしでまとい (rendaku on 手). The reading was corrected at entry creation,
+  but nothing in the candidate pipeline checks rendaku in compound readings, and a wrong
+  reading in the queue becomes a wrong `romaji` in the entry ID — which cannot be renumbered
+  later. A rendaku sanity check in `manage_candidates.py add` (flag 手/川/箱/etc. as the second
+  element of a compound and ask for confirmation) would catch this class before it reaches an ID.
+- [pattern] Second consecutive new-entries run with a completely clean §4 self-check
+  (0 flags on 20 entries, after 1-flag-rejected on the previous run). Freshly authored entries
+  are now essentially never flagged by the external reviewer, which suggests the self-check's
+  value on `new-entries` runs is mostly insurance rather than detection — worth watching for a
+  few more runs before deciding whether the budget is better spent on the accuracy-review sweep.
