@@ -118,11 +118,40 @@
       ]
     }
   ],
-  "notes": "{休|やす}み is a noun meaning rest, break, or vacation (derived from the verb ⟦{休|やす}む→休む：00606_yasumu⟧).\n\nCOMMON EXPRESSIONS:\n- {休|やす}み⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take a break/day off\n- {休|やす}み⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧: day off\n- {休|やす}み⟦なく→ない：01118_nai⟧: without rest, continuously\n- お{休|やす}み⟦なさい→なさい：09856_nasai⟧: good night (greeting)\n\nVACATION COMPOUNDS:\n- ⟦{夏休み|なつやすみ}→夏休み：02925_natsuyasumi⟧: summer vacation\n- ⟦{冬休み|ふゆやすみ}→冬休み：19114_fuyuyasumi⟧: winter vacation\n- ⟦{春休み|はるやすみ}→春休み：19115_haruyasumi⟧: spring break\n- ⟦ゴールデンウィーク→ゴールデンウィーク：22760_goorudenwiiku⟧: Golden Week (late April-early May)\n\nBREAK COMPOUNDS:\n- ⟦{昼休み|ひるやすみ}→昼休み：01715_hiruyasumi⟧: lunch break\n- ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧: rest period, intermission\n\nWORD FORMATION:\nNominalized form of ⟦{休|やす}む→休む：00606_yasumu⟧ (to rest). Many Japanese nouns are formed by taking the verb stem (⟦{連用形|れんようけい}→連用形：16646_renyoukei⟧).",
-  "cross_references": [],
+  "notes": "{休|やす}み is a noun meaning rest, break, or vacation (derived from the verb ⟦{休|やす}む→休む：00606_yasumu⟧).\n\nCOMMON EXPRESSIONS:\n- {休|やす}み⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take a break/day off\n- {休|やす}み⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧: day off\n- {休|やす}み⟦なく→ない：01118_nai⟧: without rest, continuously\n- お{休|やす}み⟦なさい→なさい：09856_nasai⟧: good night (greeting)\n\nVACATION COMPOUNDS:\n- ⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧: summer vacation\n- ⟦{冬休|ふゆやす}み→冬休み：19114_fuyuyasumi⟧: winter vacation\n- ⟦{春休|はるやす}み→春休み：19115_haruyasumi⟧: spring break\n- ⟦ゴールデンウィーク→ゴールデンウィーク：22760_goorudenwiiku⟧: Golden Week (late April-early May)\n\nBREAK COMPOUNDS:\n- ⟦{昼休|ひるやす}み→昼休み：01715_hiruyasumi⟧: lunch break\n- ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧: rest period, intermission\n\nWORD FORMATION:\nNominalized form of ⟦{休|やす}む→休む：00606_yasumu⟧ (to rest). Many Japanese nouns are formed by taking the verb stem (⟦{連用形|れんようけい}→連用形：16646_renyoukei⟧).",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "やすむ",
+      "headword": "{休|やす}む",
+      "target_id": "00606_yasumu",
+      "label": "to rest (source verb)"
+    },
+    {
+      "type": "synonym",
+      "reading": "きゅうけい",
+      "headword": "{休憩|きゅうけい}",
+      "target_id": "00262_kyuukei",
+      "label": "break, rest period"
+    },
+    {
+      "type": "related",
+      "reading": "きゅうじつ",
+      "headword": "{休日|きゅうじつ}",
+      "target_id": "03028_kyuujitsu",
+      "label": "holiday, day off"
+    },
+    {
+      "type": "related",
+      "reading": "きゅうか",
+      "headword": "{休暇|きゅうか}",
+      "target_id": "02547_kyuuka",
+      "label": "vacation, leave"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:34:42Z",
-    "modified": "2026-05-18T22:26:48Z",
+    "modified": "2026-08-13T21:29:55Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

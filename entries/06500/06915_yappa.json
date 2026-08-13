@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "06915_yappa_ex1",
-      "japanese": "やっぱ{雨|あめ}{降|ふ}ってきた。",
+      "japanese": "やっぱ⟦{雨|あめ}→雨：00583_ame⟧⟦{降|ふ}ってきた→降る：00839_furu⟧。",
       "english": "It started raining, just as I expected.",
       "sense_numbers": [
         1
@@ -27,7 +27,7 @@
     },
     {
       "id": "06915_yappa_ex2",
-      "japanese": "やっぱ{彼|かれ}は{天才|てんさい}だね。",
+      "japanese": "やっぱ⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{天才|てんさい}→天才：09934_tensai⟧⟦だ→だ：09496_da⟧⟦ね→ね：09474_ne⟧。",
       "english": "He really is a genius, isn't he.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "06915_yappa_ex3",
-      "japanese": "やっぱやめとく。",
+      "japanese": "やっぱ⟦やめとく→やめる：00909_yameru⟧。",
       "english": "Actually, I'll pass after all.",
       "sense_numbers": [
         2
@@ -43,7 +43,7 @@
     },
     {
       "id": "06915_yappa_ex4",
-      "japanese": "{考|かんが}えたけど、やっぱ{行|い}くことにした。",
+      "japanese": "⟦{考|かんが}えた→考える：00856_kangaeru⟧⟦けど→けど：09477_kedo⟧、やっぱ⟦{行|い}く→行く：00119_iku⟧⟦ことにした→ことにする：10986_kotonisuru⟧。",
       "english": "I thought about it, but I decided to go after all.",
       "sense_numbers": [
         2
@@ -53,7 +53,7 @@
     },
     {
       "id": "06915_yappa_ex5",
-      "japanese": "{食|た}べてみたら、やっぱ{美味|おい}しかった。",
+      "japanese": "⟦{食|た}べてみたら→てみる：30510_temiru⟧、やっぱ⟦{美味|おい}しかった→美味しい：00740_oishii⟧。",
       "english": "When I tried it, it was good, just as I expected.",
       "sense_numbers": [
         1
@@ -63,7 +63,7 @@
     },
     {
       "id": "06915_yappa_ex6",
-      "japanese": "コーヒーにしようと{思|おも}ったけど、やっぱお{茶|ちゃ}にする。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦に→に：00314_ni⟧⟦しよう→する：00392_suru⟧⟦と→と：00512_to⟧⟦{思|おも}った→思う：00492_omou⟧⟦けど→けど：09477_kedo⟧、やっぱ⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧。",
       "english": "I was going to have coffee, but I'll have tea after all.",
       "sense_numbers": [
         2
@@ -72,7 +72,7 @@
       "notes": null
     }
   ],
-  "notes": "REGISTER: Casual. This is a contracted form of やっぱり.\n\nFORMALITY SCALE:\n- やはり: formal, written\n- やっぱり: neutral, standard\n- やっぱ: casual, spoken\n\nCOMMON PATTERNS:\n- やっぱ〜だね: \"X is really ~ as expected\"\n- やっぱやめる: \"I'll cancel after all\"\n- やっぱ{無理|むり}: \"It's impossible after all\"\n\nCHANGING ONE'S MIND: Often used when reversing a decision:\n- {注文|ちゅうもん}、やっぱ{変|か}えていい？ (Can I change my order after all?)\n\nSIMILAR EXPRESSIONS:\n- やっぱり: standard form\n- やはり: formal form\n- {結局|けっきょく}: \"in the end\" (more conclusive)\n- {案|あん}の{定|じょう}: \"as expected\" (more literary)",
+  "notes": "REGISTER: Casual, spoken. A contracted form of ⟦やっぱり→やっぱり：03005_yappari⟧.\n\nFORMALITY SCALE:\n- ⟦やはり→やはり：01991_yahari⟧: formal, written\n- ⟦やっぱり→やっぱり：03005_yappari⟧: neutral, standard\n- やっぱ: casual, spoken\n\nCOMMON PATTERNS:\n- やっぱ〜⟦だ→だ：09496_da⟧⟦ね→ね：09474_ne⟧: \"X is really ~ as expected\"\n- やっぱ⟦やめる→やめる：00909_yameru⟧: \"I'll cancel after all\"\n- やっぱ⟦{無理|むり}→無理：01558_muri⟧: \"It's impossible after all\"\n\nCHANGING ONE'S MIND: Often used when reversing a decision:\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧、やっぱ⟦{変|か}えて→変える：01089_kaeru⟧⟦いい→いい：00118_ii⟧？ (Can I change my order after all?)\n\nSIMILAR EXPRESSIONS:\n- ⟦やっぱり→やっぱり：03005_yappari⟧: standard form\n- ⟦やはり→やはり：01991_yahari⟧: formal form\n- ⟦{結局|けっきょく}→結局：03815_kekkyoku⟧: \"in the end\" (more conclusive)\n- ⟦{案|あん}の{定|じょう}→案の定：07578_annojou⟧: \"as expected\" (more literary)",
   "prominent_see_also": [
     {
       "target_id": "03005_yappari",
@@ -89,7 +89,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-06-18T09:33:05Z",
+    "modified": "2026-08-13T21:29:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -98,7 +98,7 @@
       ],
       "formality": "informal",
       "style": [
-        "literary"
+        "spoken"
       ],
       "politeness": "plain",
       "semantic": [

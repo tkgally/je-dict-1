@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "06917_zo_ex1",
-      "japanese": "これは{大変|たいへん}なことになるぞ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦{大変|たいへん}→大変：00594_taihen⟧⟦な→だ：09496_da⟧⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ぞ。",
       "english": "This is going to be serious trouble, I'm telling you.",
       "sense_numbers": [
         1
@@ -27,7 +27,7 @@
     },
     {
       "id": "06917_zo_ex2",
-      "japanese": "{急|いそ}がないと{遅|おく}れるぞ。",
+      "japanese": "⟦{急|いそ}がない→急ぐ：01191_isogu⟧⟦と→と：00512_to⟧⟦{遅|おく}れる→遅れる：00741_okureru⟧ぞ。",
       "english": "If you don't hurry, you'll be late!",
       "sense_numbers": [
         2
@@ -35,7 +35,7 @@
     },
     {
       "id": "06917_zo_ex3",
-      "japanese": "{嘘|うそ}をつくと{怒|おこ}るぞ。",
+      "japanese": "⟦{嘘|うそ}→嘘：01796_uso⟧⟦を→を：00422_wo⟧⟦つく→嘘をつく：21763_usowotsuku⟧⟦と→と：00512_to⟧⟦{怒|おこ}る→怒る：00876_okoru⟧ぞ。",
       "english": "If you lie, I'll get angry.",
       "sense_numbers": [
         2
@@ -43,7 +43,7 @@
     },
     {
       "id": "06917_zo_ex4",
-      "japanese": "よし、{始|はじ}めるぞ。",
+      "japanese": "⟦よし→よし：10741_yoshi⟧、⟦{始|はじ}める→始める：00531_hajimeru⟧ぞ。",
       "english": "Alright, let's begin!",
       "sense_numbers": [
         1
@@ -53,7 +53,7 @@
     },
     {
       "id": "06917_zo_ex5",
-      "japanese": "{今日|きょう}こそ{絶対|ぜったい}に{勝|か}つぞ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦こそ→こそ：12731_koso⟧⟦{絶対|ぜったい}→絶対：00435_zettai⟧⟦に→に：00314_ni⟧⟦{勝|か}つ→勝つ：01199_katsu⟧ぞ。",
       "english": "Today I'm definitely going to win!",
       "sense_numbers": [
         1
@@ -63,7 +63,7 @@
     },
     {
       "id": "06917_zo_ex6",
-      "japanese": "{気|き}をつけないと{危|あぶ}ないぞ。",
+      "japanese": "⟦{気|き}をつけない→気をつける：09771_kiwotsukeru⟧⟦と→と：00512_to⟧⟦{危|あぶ}ない→危ない：00768_abunai⟧ぞ。",
       "english": "Watch out, it's dangerous if you're not careful.",
       "sense_numbers": [
         2
@@ -72,7 +72,7 @@
       "notes": null
     }
   ],
-  "notes": "GENDER: Strongly masculine. Female speakers rarely use this except in dialectal speech or specific character types.\n\nREGISTER: Casual to rough. Inappropriate for formal contexts.\n\nVS. ぜ:\n- ぞ: stronger, can be threatening or warning\n- ぜ: lighter, more casual confidence\n\nCOMMON USES:\n- Warnings: {気|き}をつけろぞ (Be careful!)\n- Self-motivation: がんばるぞ (I'll do my best!)\n- Strong assertions: {本当|ほんとう}だぞ (It's true, I tell you!)\n- Announcements: {行|い}くぞ (Here we go!)\n\nINTONATION:\n- Rising: warning or question-like\n- Falling: strong assertion\n- Sharp: command or threat\n\nHISTORICAL NOTE: ぞ has classical Japanese origins as an emphatic particle. In modern Japanese, it's primarily casual/masculine speech.",
+  "notes": "GENDER: Strongly masculine. Female speakers rarely use this except in dialectal speech or specific character types.\n\nREGISTER: Casual to rough. Inappropriate for formal contexts.\n\nVS. ⟦ぜ→ぜ：06916_ze⟧:\n- ぞ: stronger, can be threatening or warning\n- ⟦ぜ→ぜ：06916_ze⟧: lighter, more casual confidence\n\nCOMMON USES:\n- Warnings: ⟦{気|き}をつけろ→気をつける：09771_kiwotsukeru⟧ぞ (Be careful!)\n- Self-motivation: ⟦がんばる→頑張る：01222_ganbaru⟧ぞ (I'll do my best!)\n- Strong assertions: ⟦{本当|ほんとう}→本当：00779_hontou⟧⟦だ→だ：09496_da⟧ぞ (It's true, I tell you!)\n- Announcements: ⟦{行|い}く→行く：00119_iku⟧ぞ (Here we go!)\n\nINTONATION:\n- Rising: warning or question-like\n- Falling: strong assertion\n- Sharp: command or threat\n\nHISTORICAL NOTE: ぞ has classical Japanese origins as an emphatic particle. In modern Japanese, it's primarily casual/masculine speech.",
   "cross_references": [
     {
       "type": "contrast",
@@ -80,11 +80,18 @@
       "headword": "ぜ",
       "label": "lighter assertion particle",
       "target_id": "06916_ze"
+    },
+    {
+      "type": "related",
+      "reading": "よ",
+      "headword": "よ",
+      "label": "gender-neutral emphasis particle",
+      "target_id": "09475_yo"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-06-18T09:33:05Z",
+    "modified": "2026-08-13T21:29:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -95,6 +102,9 @@
       "politeness": "plain",
       "semantic": [
         "grammatical"
+      ],
+      "style": [
+        "spoken"
       ]
     }
   }
