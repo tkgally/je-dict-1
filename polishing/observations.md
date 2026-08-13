@@ -1346,3 +1346,11 @@ All observations cleared.)_
   are now essentially never flagged by the external reviewer, which suggests the self-check's
   value on `new-entries` runs is mostly insurance rather than detection — worth watching for a
   few more runs before deciding whether the budget is better spent on the accuracy-review sweep.
+
+## 2026-08-13 (routine polish, 06915–06918 + priority lane)
+
+- [entry] 幸せ has two entries: 01420_shiawase ({幸せ|しあわせ}, noun, 3 examples) and 02368_shiawase ({幸|しあわ}せ, noun/na-adjective, 6 examples). Clear merge candidate — 02368 is the fuller and better-formatted one. Needs `consolidate_entries.md`.
+- [pattern] The colloquial-particle block around 06915–06918 (やっぱ, ぞ, なんて) was created with zero inline word links in examples and notes, while its neighbours (ぜ 06916, かしら 06921) are fully linked. Suggests a creation batch that predates the link requirement; entries 06919–06930 are likely in the same state and worth a targeted sweep.
+- [pattern] Stale `noentry` markers keep surfacing where the word has since been given an entry (06916 ぜ pointed わよ/のよ at `noentry` though 30248/30249 exist). `check_stale_noentry.py --mechanical` would clear this class in bulk.
+- [pattern] Basic/core-tier nouns polished long ago still routinely have an empty `cross_references` array while their obvious neighbours already back-link to them (02266 休み, 02273 映画, 02883 先, 00151 括弧, 00374 私鉄, 01351 お見舞い — six for six). The asymmetry report may be under-reporting because it only looks at entries that have at least one reference.
+- [pattern] `style: ["literary"]` was set on やっぱ (06915), a casual spoken contraction — the opposite of literary. Worth a detector sweep for `style: literary` co-occurring with `formality: informal`.

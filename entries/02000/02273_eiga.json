@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{映画|えいが} means movie or film.\n\nCOMMON EXPRESSIONS:\n- {映画|えいが}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to watch a movie\n- {映画|えいが}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the movies\n- ⟦{映画館|えいがかん}→映画館：01024_eigakan⟧⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧: to watch at a theater\n\nCOMPOUNDS:\n- ⟦{映画館|えいがかん}→映画館：01024_eigakan⟧: movie theater\n- ⟦{映画監督|えいがかんとく}→映画監督：07093_eigakantoku⟧: film director\n- ⟦{映画俳優|えいがはいゆう}→映画俳優：noentry⟧: movie actor\n- ⟦{映画祭|えいがさい}→映画祭：noentry⟧: film festival\n\nGENRES:\n- ⟦{洋画|ようが}→洋画：14741_youga⟧: Western/foreign film\n- ⟦{邦画|ほうが}→邦画：14740_houga⟧: Japanese film\n- ⟦アニメ→アニメ：01527_anime⟧{映画|えいが}: animated film\n- ⟦ドキュメンタリー→ドキュメンタリー：05250_dokyumentarii⟧{映画|えいが}: documentary film\n\nRELATED:\n- {映画|えいが}: movie (general)\n- ⟦フィルム→フィルム：02951_firumu⟧: film (physical medium)\n- ⟦ドラマ→ドラマ：03867_dorama⟧: TV drama",
-  "cross_references": [],
+  "notes": "{映画|えいが} means movie or film.\n\nCOMMON EXPRESSIONS:\n- {映画|えいが}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to watch a movie\n- {映画|えいが}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the movies\n- ⟦{映画館|えいがかん}→映画館：01024_eigakan⟧⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧: to watch at a theater\n\nCOMPOUNDS:\n- ⟦{映画館|えいがかん}→映画館：01024_eigakan⟧: movie theater\n- ⟦{映画監督|えいがかんとく}→映画監督：07093_eigakantoku⟧: film director\n- ⟦{映画俳優|えいがはいゆう}→映画俳優：noentry⟧: movie actor\n- ⟦{映画祭|えいがさい}→映画祭：noentry⟧: film festival\n\nGENRES:\n- ⟦{洋画|ようが}→洋画：14741_youga⟧: Western/foreign film\n- ⟦{邦画|ほうが}→邦画：14740_houga⟧: Japanese film\n- ⟦アニメ→アニメ：01527_anime⟧{映画|えいが}: animated film\n- ⟦ドキュメンタリー→ドキュメンタリー：05250_dokyumentarii⟧{映画|えいが}: documentary film\n\nRELATED:\n- ⟦フィルム→フィルム：02951_firumu⟧: film (physical medium)\n- ⟦ドラマ→ドラマ：03867_dorama⟧: TV drama",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "えいがかん",
+      "headword": "{映画館|えいがかん}",
+      "target_id": "01024_eigakan",
+      "label": "movie theater"
+    },
+    {
+      "type": "related",
+      "reading": "えいがかんとく",
+      "headword": "{映画監督|えいがかんとく}",
+      "target_id": "07093_eigakantoku",
+      "label": "film director"
+    },
+    {
+      "type": "contrast",
+      "reading": "どらま",
+      "headword": "ドラマ",
+      "target_id": "03867_dorama",
+      "label": "TV drama"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:23:57Z",
-    "modified": "2026-05-18T22:32:58Z",
+    "modified": "2026-08-13T21:29:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -77,6 +99,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
+        "media",
         "leisure"
       ]
     }
