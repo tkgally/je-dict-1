@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06910_eeto_ex1",
-      "japanese": "えーと、{名前|なまえ}は{何|なん}でしたっけ。",
+      "japanese": "えーと、⟦{名前|なまえ}→名前：02234_namae⟧⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧⟦でした→です：09485_desu⟧⟦っけ→っけ：10739_kke⟧。",
       "english": "Um, what was your name again?",
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "06910_eeto_ex2",
-      "japanese": "えーと、{確|たし}か{明日|あした}だったと{思|おも}います。",
+      "japanese": "えーと、⟦{確|たし}か→確か：00894_tashika⟧⟦{明日|あした}→明日：00501_ashita⟧⟦だった→だ：09496_da⟧⟦と→と：00512_to⟧⟦{思|おも}います→思う：00492_omou⟧。",
       "english": "Let me see, I think it was tomorrow.",
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "06910_eeto_ex3",
-      "japanese": "えーと、それはちょっと{難|むずか}しいですね。",
+      "japanese": "えーと、⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦ちょっと→ちょっと：00595_chotto⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦です→です：09485_desu⟧⟦ね→ね：09474_ne⟧。",
       "english": "Well, that's a bit difficult.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
     },
     {
       "id": "06910_eeto_ex4",
-      "japanese": "「{電話番号|でんわばんごう}は？」「えーと、090の...」",
+      "japanese": "「⟦{電話番号|でんわばんごう}→電話番号：10159_denwabangou⟧⟦は→は：00079_ha⟧？」「えーと、090⟦の→の：09472_no⟧...」",
       "english": "\"What's your phone number?\" \"Um, it's 090...\"",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
     },
     {
       "id": "06910_eeto_ex5",
-      "japanese": "えーと、{何|なに}を{話|はな}していたんだっけ。そうだ、{来週|らいしゅう}の{旅行|りょこう}のことだ。",
+      "japanese": "えーと、⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧⟦{話|はな}していた→話す：00467_hanasu⟧⟦ん→の：09472_no⟧⟦だ→だ：09496_da⟧⟦っけ→っけ：10739_kke⟧。⟦そう→そう：01167_sou⟧⟦だ→だ：09496_da⟧、⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧⟦こと→こと：01164_koto⟧⟦だ→だ：09496_da⟧。",
       "english": "Um, what were we talking about? Oh right, the trip next week.",
       "sense_numbers": [
         1
@@ -63,10 +63,10 @@
       "notes": null
     }
   ],
-  "notes": "USAGE: One of the most common Japanese filler words, equivalent to English \"um,\" \"uh,\" or \"let me see.\" Used across all registers but more common in casual speech.\n\nVARIANT FORMS:\n- えーと: standard form\n- ええと: written variant\n- えっと: shorter, more casual\n- えーっと: lengthened for longer pauses\n\nPRONUNCIATION: The ー indicates vowel lengthening. Can be drawn out further when needing more thinking time.\n\nSIMILAR FILLERS:\n- あのー: more polite/formal filler\n- そのー: similar hesitation filler\n- なんていうか: \"how do I say this\"\n- ほら: when trying to recall something\n\nCULTURAL NOTE: While filler words exist in all languages, excessive use in formal Japanese (speeches, presentations) is considered less professional. Native speakers often use fillers less in polished speech.",
+  "notes": "USAGE: One of the most common Japanese filler words, equivalent to English \"um,\" \"uh,\" or \"let me see.\" Used across all registers but more common in casual speech.\n\nVARIANT FORMS:\n- えーと: standard form\n- ⟦ええと→ええと：23425_eeto⟧: written variant\n- ⟦えっと→えっと：20056_etto⟧: shorter, more casual\n- えーっと: lengthened for longer pauses\n\nPRONUNCIATION: The ー indicates vowel lengthening. Can be drawn out further when needing more thinking time.\n\nSIMILAR FILLERS:\n- ⟦あのー→あのー：06911_anoo⟧: more polite filler, and the standard way to open a request to a stranger\n- ⟦そのー→そのー：noentry⟧: similar hesitation filler\n- ⟦なんていうか→なんていうか：15140_nanteiuka⟧: \"how do I say this\"\n- ⟦ほら→ほら：06912_hora⟧: when prompting the listener to recall something\n\nCULTURAL NOTE: While filler words exist in all languages, excessive use in formal Japanese (speeches, presentations) is considered less professional. Native speakers often use fillers less in polished speech.",
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-06-18T09:33:05Z",
+    "modified": "2026-08-13T12:40:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -79,5 +79,28 @@
         "expression"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "20056_etto",
+      "reading": "えっと",
+      "headword": "えっと",
+      "label": "shorter, more casual spelling of the same filler"
+    },
+    {
+      "type": "synonym",
+      "target_id": "23425_eeto",
+      "reading": "ええと",
+      "headword": "ええと",
+      "label": "written variant of the same filler"
+    },
+    {
+      "type": "related",
+      "target_id": "06911_anoo",
+      "reading": "あのー",
+      "headword": "あのー",
+      "label": "the politer filler, also used to open a request"
+    }
+  ]
 }

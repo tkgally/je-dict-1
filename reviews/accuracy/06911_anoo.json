@@ -8,24 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-18T09:29:05Z",
+  "reviewed_at": "2026-08-13T12:44:36Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'greeting' is incorrect for 'あのー'. While it can precede a request for attention, its primary function is as a hesitation filler or a polite opener, not a greeting itself.",
-      "suggestion": "Replace 'greeting' with 'expression' or 'communication'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect. 'あのー' is a common hesitation filler and polite opener, but it is not considered formal. It's more neutral or even slightly informal depending on context.",
-      "suggestion": "Change 'formal' to 'neutral'."
-    }
-  ]
+  "issues": []
 }

@@ -19,7 +19,9 @@
       "english": "Pick medicinal herbs in the mountains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14033_yakusou_ex2",
@@ -27,7 +29,9 @@
       "english": "In this region, folk remedies using medicinal herbs have been passed down since long ago.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14033_yakusou_ex3",
@@ -35,7 +39,9 @@
       "english": "I visited a medicinal herb garden and learned about plants with various therapeutic properties.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nJapan has a long tradition of herbal medicine ({漢方|かんぽう}), and {薬草|やくそう} appears frequently in discussions of traditional medicine, health foods, and natural remedies. Also a common term in video games and fantasy settings where herbs are used for healing.\n\nCOMMON COMPOUNDS:\n- {薬草|やくそう}{茶|ちゃ}: herbal tea (medicinal)\n- {薬草|やくそう}{園|えん}: medicinal herb garden\n- {薬草|やくそう}{風呂|ぶろ}: herbal bath",
@@ -46,19 +52,32 @@
       "reading": "どくそう",
       "headword": "{毒草|どくそう}",
       "label": "poisonous plant"
+    },
+    {
+      "type": "related",
+      "target_id": "02206_kusa",
+      "reading": "くさ",
+      "headword": "{草|くさ}",
+      "label": "grass, weeds, herbs (the general word for small plants)"
     }
   ],
   "metadata": {
     "created": "2026-02-27T10:09:50Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-08-13T12:39:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"],
-      "domain": ["medical"]
+      "semantic": [
+        "plant-general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }
