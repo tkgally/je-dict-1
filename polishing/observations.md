@@ -1343,3 +1343,17 @@ All observations cleared.)_
   `verb_class: ichidan` contradicts their `verb-irregular` POS tag, plus a proper-noun entry
   carrying `organization-name` without the required `proper-noun` umbrella tag. These are
   small, mechanical, and well suited to a systemic-fix run.
+
+## 2026-08-14 (routine new-entries, 30635–30653)
+
+- [tooling] `build/add_conjugations.py` generates the potential form of single-kanji サ変 verbs
+  (処する, 察する, 面する, 訳する …) as 〜できる, which is not Japanese; the correct potential is
+  〜せる (処せる, 察せる). Verified on 08053_sassuru and 14629_mensuru, which both carry 察できる /
+  面できる today. Fixed by hand in the new entry 30647_shosuru. This affects every entry whose
+  `conjugation.type` is `suru` but whose stem is a single kanji taking する directly (as opposed to
+  漢語 + する, where 〜できる is correct). Detection: `conjugation.type == "suru"` and the headword's
+  pre-する portion is one kanji. Candidate for a systemic-fix batch.
+- [pattern] The schema's `formality` enum is `formal/neutral/informal/vulgar`, but the newentries
+  prompt and several skills describe registers as "casual", which invites `formality: "casual"` and
+  a validation failure at the end of a session (hit three times this run). Worth aligning the prompt
+  wording with the schema value `informal`.
