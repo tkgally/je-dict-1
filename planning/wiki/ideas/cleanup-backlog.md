@@ -4018,6 +4018,146 @@ per-entry linking cost the sweep would pay once. The routing decision the 2026-0
 flagged as "live rather than deferred" has been live for a day and is still open; nothing new to
 file, and the fifth filing is the strongest argument yet for working it.
 
+## Updates 2026-08-14 (wiki harvest)
+
+Thirty-four observations from the two 2026-08-13 accuracy-review/polish runs, the 2026-08-13
+new-entries run, and the 2026-08-14 accuracy-review and polish runs. Two become new priorities;
+one filing's premise is refuted and the item survives in a different shape; and one standing
+curator escalation is **half-closed by measurement** rather than by a ruling.
+
+### Priority 57: Cross-reference targets that hold no references of their own — 1,550 entries
+
+**Source**: two polish runs, 2026-08-13 (00812 宿題, 00970 緑, 01392 毛, 01510 星, 02206 草,
+02265 野菜 — "six for six") and 2026-08-13 again (02266 休み, 02273 映画, 02883 先, 00151 括弧,
+00374 私鉄, 01351 お見舞い — six for six a second time). The second filing added a hypothesis:
+*"the asymmetry report may be under-reporting because it only looks at entries that have at
+least one reference."*
+
+**The hypothesis is wrong, and the item is real anyway.** `find_asymmetric_references()` in
+`build/find_merge_candidates.py` iterates over *sources* and reports every A→B with no B→A, so
+a target holding zero references is exactly the case it does report. Nothing is invisible.
+
+What is true is that its output is undifferentiated. Measured over the current corpus:
+
+| | count |
+|---|---|
+| references with a `target_id` | 21,444 |
+| symmetric pairs | 6,242 |
+| **asymmetric one-way pairs** | **8,633** |
+| …of which the target has **no references at all** | **2,183** |
+| distinct such bare targets | **1,550** (19 basic, 202 core, 1,329 general) |
+| entries with no references of either kind, dictionary-wide | 17,763 |
+
+The 2,183-pair sub-class is the one worth batching, because for those entries the back-reference
+decision is already made: another entry has judged the relationship worth recording, and the
+target has no reference list to weigh it against. The remaining 6,450 pairs are genuine
+editorial judgment — the target has references and chose differently — and should not be swept.
+Most-pointed-at bare entries: 01433 正月 (10 inbound), 01464 注意, 02504 秘密, 04117 温泉 (8
+each), 00478 持つ, 02773 裁判, 03663 予算 (7 each).
+
+**Distinct from `crossref-missing-from-notes-prose` (1,402)**, which is about words named in
+notes prose; this one needs no text analysis at all — it is two set operations over `target_id`s.
+**Detect**: pairs from `--asymmetry-only` whose target's `cross_references` **and**
+`prominent_see_also` are both empty. **Scope**: 2,183 pairs / 1,550 entries. **Status**: open.
+The twelve entries the two polish runs fixed by hand are already out of the set, which is why
+none of them appears in this measurement.
+
+### Priority 58: Baseball vocabulary split between `sports` and `leisure` — 24 entries
+
+**Source**: 2026-08-13 accuracy-review (09309–09808), which counted "about 30 `sports` and about
+12 `leisure`" and proposed a cheap sweep. Measured dictionary-wide over entries whose gloss or
+definitions mention baseball: **132 entries — 83 `sports`, 24 `leisure`, 12 sole-`general`, 12
+other, 1 both.** `sports` is the convention by better than three to one.
+
+The `leisure` cohort: アウト, 大リーグ, 代打, ソフトボール, 野球 itself, ストライク, 防御率,
+ノーヒット, 変化球, ノック, キャップ, フォアボール, ツーストライク, ダッグアウト, スリーボール,
+バッター, 野手, 豪速球, 外野, 内野 …
+
+**The false-positive family is inside the cohort, not outside it.** キャップ (a cap), ノック (a
+knock) and アウト (out, in several senses) mention baseball in *one* sense of a polysemous entry;
+`leisure` may be right for them on other grounds and the tag should be judged against the
+headword, not the mention. So this is a per-entry systemic-fix batch of ~24, not a mechanical
+substitution — small enough that the verification is the cheap part. **Status**: open,
+batch-ready. **Detect**: gloss/definitions match `baseball` AND `semantic` contains `leisure`.
+
+### The `location`/`urban` off-vocabulary family has an in-list destination — half the standing escalation closes
+
+The 2026-08-13 harvest escalated to the curator that `VALID_SEMANTIC` has no place/location tag
+and no sound/perception tag, so ~75 off-list instances have nowhere to go and cycle through the
+sole-`general` detector forever. The 2026-08-13 accuracy-review run then answered the first half
+from inside the corpus: the street/district words (路地裏, 裏通り, 繁華街, 住宅街, 地下街) belong
+with the **54 street/district/area entries that already use `geography`** (横丁, 表通り, 並木道,
+道端, 沿道, 区域, 付近), with `transportation` for road infrastructure (交差点, 車線, T字路).
+
+Measured this harvest: `geography` is used by **617 entries**, so it is a well-established
+destination rather than a stretch, and the off-list place family is **~40 instances** —
+`place` 23, `location` 13, `places` 2, `location-area` 1, `regional` 1. All of it maps to
+`geography`, and the mapping belongs in `check_tag_drift.py`'s `TAG_MIGRATION`.
+
+**The sound/perception half of the escalation stands**: `perception` 11, `sound` 9, `sensation`
+7, `taste` 2 — 29 instances with no in-list destination, and 音/物音/騒音/足音 still sitting at
+sole-`general`. A third gap was filed this window from 04095 足跡: no in-list category covers a
+*physical trace or mark*. Two names in a Python set close the first and third; the escalation is
+now smaller and sharper than when it was raised.
+
+**Off-vocabulary queue re-measured**: **998 entries / 1,161 instances / 394 distinct names**,
+down from 1,134 / 1,329 / 431 on 2026-08-13 and 2,530 / 3,208 / 687 on 2026-08-06. The lane is
+still the fastest-clearing on this wiki.
+
+### Register markedness on ordinary vocabulary — 231 basic/core nouns
+
+**Source**: 2026-08-14 polish (03552 徹夜 carrying `style: slang` + `domain: colloquial`, when
+the slang item was オール, mentioned in its *notes*; 04095 足跡 carrying `formality: formal` +
+`style: literary`, of footprints in snow). Both look like a tagger that read the notes instead
+of the headword — the same failure mode P17 (`tag-formality-over-applied`) and
+`politeness-denotes-vs-encodes` record.
+
+Measured over basic- and core-tier noun entries — words that are foundational vocabulary by
+definition and therefore should almost never be register-marked: **231 carry a marked register**.
+
+| tags | entries |
+|---|---|
+| `formality: formal`, no marked style | 173 |
+| `style: literary`, neutral formality | 26 |
+| `style: literary` + `formality: formal` | 19 |
+| `style: slang` | 8 |
+| `style: archaic` (± formal) | 5 |
+
+Samples: 00147 価格 (price) `formal`; 00146 果実 (fruit) `formal`; 00129 自宅 (one's home)
+`formal`; 00028 近頃 (recently) `literary`; 00157 各自 (each person) `literary`; 00012 ×/バツ
+`slang`. Some of these are defensible — 給与 and 夫妻 really are the formal members of their
+pairs — so this is a **review queue, not a fix list**, and it is the tier restriction that makes
+it worth reviewing: the same predicate over the whole dictionary returns 5,079 `formal` entries,
+which the 2026-08-10 harvest already retired as a detector for exactly that reason. Restricting
+it to basic/core cuts it to 231 and to words whose register is decidable in one glance.
+**Status**: open, review-queue shaped.
+
+### Re-discoveries needing no new item
+
+- **`inline-link-block-06800-07100`**, sixth, seventh and eighth filings: 06910–06913
+  (interjections/fillers), 06915–06918 (colloquial particles), 06919–06925 (っていう, ていうか,
+  及び, 並びに, 若しくは, 故に) — all reported as *zero* links in examples and notes. The frontier
+  is inside the block and paying per-entry what the sweep would pay once. Unchanged advice.
+- **`inline-link-split-compound` (P47, 443 pairs)**: 03795 我々's notes link 私 and たち as two
+  adjacent separate links although 28351_watashitachi (私たち) has its own entry. Textbook
+  instance, and the shape the polish run proposed as a check — adjacent link pairs whose
+  concatenation is itself a headword — is precisely P47's detector.
+- **`inline-link-stale-noentry` (P35, 920 pairs)** and **`stale-calendar-month-links` (29)**:
+  three more sightings — 06916 ぜ pointing わよ/のよ at `noentry` with 30248/30249 live, 03500
+  半ば pointing 月 (がつ) at `noentry` three times with 30418 live, 04091 利害 pointing 利 at
+  `noentry` with 29142 live. Both detectors already find these. The 2026-08-13 polish run adds
+  the most useful datum yet for scheduling it: **a fourth consecutive band (03167–03756, 181
+  pairs) where the external self-check raised zero objections to a link-target substitution**,
+  so the context-checked short-base fix is now well evidenced as safe. Four polish runs in three
+  days have each cleared a handful by hand; one `systemic-fix` run would clear the class.
+- **`tag-sole-general` (3,681)**: two independent density readings this window — 47 of 129 tag
+  flags in 09309–09808 were sole-`general` narrowness swaps (all rejected as a family, per
+  standing policy), and 7 of a 33-entry self-check sample in the 03xxx band carried
+  `semantic: ["general"]` on a word with an obvious in-list category (all seven applied). The
+  contrast is the whole argument for working it deterministically: the *detector's* hit rate in
+  the 03xxx band is high and the *reviewer's* re-report of the same population is noise the
+  project pays for by the range.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns

@@ -1552,6 +1552,57 @@ cannot edit; recorded here and routed to the curator. Worth settling before the 
 run, since that run's own measurement puts proper nouns at ~80% survival against ~10–28% for
 common vocabulary, so era names will keep arriving.
 
+## Added 2026-08-14 (wiki harvest)
+
+### 01420_shiawase / 02368_shiawase — fifth open consolidation
+
+Both entries are 幸せ / しあわせ. 01420 is `{幸せ|しあわせ}` (noun, 3 examples); 02368 is
+`{幸|しあわ}せ` (noun and na-adjective, 6 examples) and is the fuller, better-formatted one — its
+headword also uses the correct wrapper, splitting the okurigana out of the ruby span. The
+2026-08-13 polish run judged it a clear merge with 02368 as the keeper.
+
+Filed rather than done, for the reason recorded under the 若い re-filing above: polish runs can
+only file consolidations. This makes **five open on this page** (悪口, 中火, 若い, にくい, 幸せ),
+which is now a large enough set to be worth one `consolidate_entries.md` session rather than five
+future re-discoveries. It is also a second instance of the malformed-headword-wrapper signal
+(`{若い|わかい}`, `{幸せ|しあわせ}`) appearing on the *worse* member of a duplicate pair — plausibly
+because both members came from different creation eras, which would make the wrapper style a
+cheap tiebreaker when deciding which entry to keep.
+
+### 03605 武器 — example 2 uses a non-word
+
+Example 2 reads 「核武器の廃絶を訴える」. 核武器 is not idiomatic Japanese; the standard term is
+核兵器. The 2026-08-13 polish run left it as out of scope for an inline-link sweep and flagged
+that the fix is a *replacement*, not a patch: the example has to keep containing the headword
+武器, and 核兵器 does not contain it. So the example needs rewriting around a different
+collocation (武器を捨てる, 武器を手に取る) rather than a one-word substitution.
+
+### 03459 図書 — 図書カード is glossed as "library card"
+
+The notes gloss 図書カード as "library card". A 図書カード is normally a **prepaid book gift
+card**; a borrower's card is 図書館カード or 貸出カード. Reported by the 2026-08-13 polish run and
+left for the curator to confirm, since it is a factual claim about Japanese usage rather than a
+formatting fix. If confirmed, check the sibling entries in the same notes block for the same
+conflation.
+
+### 02206 草 — entry-level `style: ["slang"]` for one documented sense
+
+草 carries `style: ["slang"]` for the whole entry because its notes document the internet-slang
+"w / lol" usage. The word itself is an ordinary noun (grass). The polish run left it and asked
+the right question: **does `style` describe the headword or any documented sense?** Neither the
+schema nor the skills say. This is a convention ruling first — the same shape as the 06899
+gloss-scope question above — and if the answer is "the headword", it is a detector-friendly
+sweep (entries whose marked style is asserted only inside one sense's notes).
+
+### 04095 足跡 — no in-list tag covers "physical trace or mark"
+
+The 2026-08-14 polish run stripped 足跡's incorrect `formality: formal` + `style: literary` and
+was left with sole-`general`, because `VALID_SEMANTIC` has no category for a physical trace or
+mark. Third taxonomy gap of this kind after place/location (now resolved to `geography`) and
+sound/perception (still open). Small — but like 音, it will re-surface in the sole-`general`
+detector on every sweep and no sweep can fix it. Revisit if the curator rules on the tag
+vocabulary.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
