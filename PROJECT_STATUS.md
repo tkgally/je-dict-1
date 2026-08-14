@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-08-14 (Routine v2: new-entries — 19 New Entries, IDs 30635–30653)
+
+Created 19 general-tier entries, **all of them from the "seen in entry" lane** — words the dictionary already used inside other entries' examples and notes but had never defined. That empties the lane again. The words break down as follows.
+
+- **Words the dictionary owed itself from yesterday's Tokyo-district entries (4)**: {歩行者天国|ほこうしゃてんごく} (the weekend car-free street, named in the Ginza entry), {歌舞伎町|かぶきちょう} (the Shinjuku nightlife quarter, written per the proper-noun policy so it covers what the name connotes — nightlife and slight disrepute — and notes that it has nothing to do with kabuki as an art), {映画俳優|えいがはいゆう} and {映画祭|えいがさい}.
+- **Idioms (2)**: {目|め}を{光|ひか}らせる and {目|め}を{奪|うば}う, each cross-noted against the near-neighbour learners confuse it with ({目|め}を{配|くば}る, added yesterday, and {目立|めだ}つ).
+- **Casual speech (3)**: うちら, かなあ, どっちみち — all three written against their neutral or formal equivalents, since choosing the wrong register is the actual learner problem.
+- **Formal and legal vocabulary (3)**: {選任|せんにん}, {処|しょ}する (two senses — handling a situation, and imposing a sentence), and いずれにしても.
+- **General vocabulary (7)**: {品不足|しなぶそく}, {数十年|すうじゅうねん}, {国鉄|こくてつ} (the pre-1987 national railway, still heard from older speakers), {我|われ}, {心身症|しんしんしょう}, {隠|かく}し{包丁|ぼうちょう}, どうあっても.
+
+One candidate was dropped as stale: 足手まとい had been queued under the reading あしてまとい, but the word is already entry 30625 under its standard reading あしでまとい. Conjugation tables were generated for the two suru-verbs. No new kanji.
+
+**§4 cross-model self-check on all 19 new entries: one flag, applied.** An independent model objected that tagging いずれにしても as `formal` overstated the register — correctly, since the entry's own note says the phrase is at home in ordinary polite conversation. Retagged `neutral`. $0.008.
+
+**Queue note**: seven new candidates were captured from words these entries reference but do not define ({心療内科|しんりょうないか}, {自律神経失調症|じりつしんけいしっちょうしょう}, {飾|かざ}り{包丁|ぼうちょう}, {切|き}り{込|こ}み, {供給不足|きょうきゅうぶそく}, {十数年|じゅうすうねん}, {音楽祭|おんがくさい}). The candidate queue now stands at 153 — just above the 150-word mark below which the selector stops suppressing a `candidates` restock run.
+
+**Systemic issue found**: `build/add_conjugations.py` generates the potential form of single-kanji サ変 verbs as 〜できる ({処|しょ}できる), which is not Japanese — the correct form is 〜せる ({処|しょ}せる). Existing entries {察|さっ}する and {面|めん}する carry the wrong form today. Fixed by hand in the new entry and logged to `polishing/observations.md` as a systemic-fix candidate.
+
 ### 2026-08-13 (Routine v2: new-entries — 20 New Entries, IDs 30615–30634)
 
 Created 20 general-tier entries. **Sixteen came from the "seen in entry" lane** — words the dictionary already uses inside other entries but had never defined — which empties that lane again. Those sixteen: the two hina-doll display terms {内裏雛|だいりびな} and {三人官女|さんにんかんじょ} (each written with the display's tier structure and the regional placement difference that learners actually ask about), the idiom {地獄|じごく}に{仏|ほとけ} (cross-noted against {渡|わた}りに{船|ふね}, added yesterday, since the two differ in how desperate the situation must be), {品薄|しなうす} (distinguished from {品切|しなぎ}れ and {品不足|しなぶそく}), {船酔|ふなよ}い, the three body-part idioms {耳|みみ}に{残|のこ}る, {目|め}を{配|くば}る, and {目|め}を{引|ひ}く (each contrasted with the near-neighbour that learners confuse it with — {心|こころ}に{残|のこ}る, {気|き}を{配|くば}る, {目立|めだ}つ), the two grammar patterns からといって and ではないか (both written with the following-clause restrictions that make them work), {何十年|なんじゅうねん} (with the note that も is effectively obligatory), {足手|あしで}まとい, the mimetic adverb まじまじ (contrasted with じろじろ, which is rude where this one is merely intent), {抜|ぬ}け{穴|あな} (two senses — the legal loophole and the literal secret passage), {北極星|ほっきょくせい}, and the hesitation filler そのー. **The other four are proper nouns** from the vetted queue — the Tokyo districts {銀座|ぎんざ}, {渋谷|しぶや}, {秋葉原|あきはばら}, and {新宿|しんじゅく} — written per the 2026-08-11 proper-noun policy, so each covers what the name connotes and not merely where it is: 〜の{銀座|ぎんざ} for any bustling shopping street, {渋谷|しぶや}{系|けい} for trends, アキバ and its generational shifts, and Shinjuku Station as the standing byword for crowds and getting lost. A conjugation table was generated for {船酔|ふなよ}いする. No new kanji. **§4 cross-model self-check on all 20 new entries: clean — zero flags.** $0.009.
