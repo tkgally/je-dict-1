@@ -2,29 +2,15 @@
   "entry_id": "00435_zettai",
   "headword": "{絶対|ぜったい}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:11:21Z",
+  "reviewed_at": "2026-08-14T03:33:10Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "warn",
-      "concern": "The English translation adds 'no matter what' which is not explicitly present in the Japanese and changes the nuance slightly.",
-      "suggestion": "Don't be late tomorrow, definitely."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation 'tends to become corrupt' is a bit clunky and not the most natural phrasing for '腐敗しやすい'.",
-      "suggestion": "Absolute power tends to corrupt."
-    }
-  ]
+  "issues": []
 }

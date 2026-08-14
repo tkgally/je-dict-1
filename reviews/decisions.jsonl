@@ -7413,3 +7413,9 @@
 {"entry": "09874", "dim": "translation", "sev": "error", "decision": "reject", "note": "kamotsusha covers road freight vehicles", "ts": "2026-08-14T01:02:23Z", "src": "accuracy"}
 {"dim": "translation", "sev": "error", "decision": "reject", "n": 7, "note": "family: example-relevance rewrites, out of scope", "ts": "2026-08-14T01:02:23Z", "src": "accuracy"}
 {"dim": "tags", "sev": "error", "decision": "flag", "n": 74, "note": "off-vocab tags with no safe in-list destination", "ts": "2026-08-14T01:02:23Z", "src": "accuracy"}
+{"ts":"2026-08-14T03:34:30Z","entry":"01684","src":"self-check","dim":"translation","sev":"error","decision":"apply","note":"on the trip -> during the trip"}
+{"ts":"2026-08-14T03:34:30Z","entry":"01808","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"notes call it written/official register"}
+{"ts":"2026-08-14T03:34:30Z","entry":"03795","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"notes state formal/written register"}
+{"ts":"2026-08-14T03:34:30Z","entry":"06919","src":"self-check","dim":"gloss","sev":"error","decision":"apply","note":"I mean belongs to っていうか not っていう"}
+{"ts":"2026-08-14T03:34:30Z","entry":"06919","src":"self-check","dim":"gloss","sev":"error","decision":"reject","note":"meaning that vs which means is a nit"}
+{"ts":"2026-08-14T03:34:30Z","entry":"06919","src":"self-check","dim":"translation","sev":"error","decision":"apply","note":"not impossible reversed 無理; rephrasing sense"}

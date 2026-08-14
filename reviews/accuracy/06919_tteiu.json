@@ -8,17 +8,31 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-18T09:29:11Z",
+  "reviewed_at": "2026-08-14T03:33:24Z",
   "summary": {
-    "flagged": 1
+    "flagged": 3
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.formality",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The headword 'っていう' is a casual expression, not formal.",
-      "suggestion": "neutral"
+      "concern": "The gloss 'I mean' is misleading and doesn't accurately represent the primary uses of 'っていう'. While it can sometimes be used in a similar context to clarify, it's not a direct or common translation for 'I mean' in the way 'called' or 'that says' are.",
+      "suggestion": "Remove 'I mean' from the main gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'meaning that' is not a direct or common translation for 'っていう' in this context. While 'っていう' can introduce an explanation of meaning, 'meaning that' as a standalone gloss is awkward and potentially misleading.",
+      "suggestion": "Change 'meaning that' to 'which means' or 'that means'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The English translation 'It's not impossible, but it is difficult.' misrepresents the nuance of '無理っていうか、難しいね。'. The Japanese implies a correction or rephrasing of 'impossible' to 'difficult', often used when the speaker initially considers something impossible but then softens their statement. The English translation loses this 'rephrasing' or 'rather' nuance.",
+      "suggestion": "Change the English translation to 'It's not impossible, or rather, it's difficult.' or 'Impossible, or should I say, difficult.'"
     }
   ]
 }

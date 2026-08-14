@@ -153,11 +153,40 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{徹夜|てつや}⟦する→する：00392_suru⟧ (to stay up all night)\n・{徹夜|てつや}⟦で→で：00502_de⟧〜⟦する→する：00392_suru⟧ (to do ~ by staying up all night)\n・⟦{徹夜|てつや}{明|あ}け→徹夜明け：14910_tetsuyaake⟧ (the morning after staying up all night)\n\nCOMMON USES:\n・{徹夜|てつや}⟦で→で：00502_de⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦する→する：00392_suru⟧ (to study all night)\n・{徹夜|てつや}⟦で→で：00502_de⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦する→する：00392_suru⟧ (to work all night)\n・{徹夜|てつや}⟦{続|つづ}き→続き：03526_tsuzuki⟧ (staying up multiple nights in a row)\n\nCOLLOQUIAL:\n・オール (all-nighter - casual/youth slang from \"all-night\")",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n・{徹夜|てつや}⟦する→する：00392_suru⟧ (to stay up all night)\n・{徹夜|てつや}⟦で→で：00502_de⟧〜⟦する→する：00392_suru⟧ (to do ~ by staying up all night)\n・⟦{徹夜|てつや}{明|あ}け→徹夜明け：14910_tetsuyaake⟧ (the morning after staying up all night)\n\nCOMMON USES:\n・{徹夜|てつや}⟦で→で：00502_de⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦する→する：00392_suru⟧ (to study all night)\n・{徹夜|てつや}⟦で→で：00502_de⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦する→する：00392_suru⟧ (to work all night)\n・{徹夜|てつや}⟦{続|つづ}き→続き：03526_tsuzuki⟧ (staying up multiple nights in a row)\n\nCOLLOQUIAL:\n・⟦オール→オール：28484_ooru⟧ (all-nighter — casual youth slang, clipped from \"all-night\")",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14910_tetsuyaake",
+      "reading": "てつやあけ",
+      "headword": "{徹夜|てつや}{明|あ}け",
+      "label": "the morning after an all-nighter"
+    },
+    {
+      "type": "related",
+      "target_id": "07693_yofukashi",
+      "reading": "よふかし",
+      "headword": "{夜更|よふ}かし",
+      "label": "staying up late (but still sleeping)"
+    },
+    {
+      "type": "related",
+      "target_id": "12169_yodooshi",
+      "reading": "よどおし",
+      "headword": "{夜通|よどお}し",
+      "label": "all night long (adverb)"
+    },
+    {
+      "type": "related",
+      "target_id": "07692_nebusoku",
+      "reading": "ねぶそく",
+      "headword": "{寝不足|ねぶそく}",
+      "label": "lack of sleep (the result)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T09:37:30Z",
-    "modified": "2026-06-12T18:28:11Z",
+    "modified": "2026-08-14T03:24:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -166,17 +195,12 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "style": [
-        "slang"
-      ],
-      "domain": [
-        "colloquial"
-      ],
       "politeness": "plain",
       "semantic": [
         "action"
       ],
       "verb_class": "suru"
-    }
+    },
+    "schema_version": "2.0"
   }
 }

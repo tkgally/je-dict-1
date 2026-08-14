@@ -1373,3 +1373,37 @@ All observations cleared.)_
   correctly with standalone readings. A detector for single-kanji furigana pairs
   whose reading starts with a voiced/handakuten mora that is unvoiced in the
   standalone reading would find this family cheaply.
+
+## 2026-08-14 (routine polish, priority lane 03476-04095 + frontier 06919-06925)
+
+- [pattern] Stale `noentry` markers keep turning up in entries last touched
+  months ago: 03500 半ば pointed 月(がつ) at `noentry` although 30418_gatsu now
+  exists (3 occurrences), and 04091 利害 pointed 利(り) at `noentry` although
+  29142_ri exists. `build/check_stale_noentry.py --mechanical` already detects
+  this class; the P35 backlog item is worth scheduling as a `systemic-fix` run
+  rather than waiting for the polish frontier to reach each entry.
+- [pattern] The 06919-06925 block (っていう, ていうか, 及び, 並びに, 若しくは,
+  故に) was created with **zero** inline links in either examples or notes —
+  the same "whole block created without links" pattern noted for 06900 on
+  2026-08-13. Entries created in this ID range in January 2026 appear to
+  predate the inline-link convention, so the frontier lane should expect
+  full-linking work (not spot fixes) for a while yet.
+- [pattern] Register tags on ordinary vocabulary are drifting toward "marked":
+  03552 徹夜 carried `style: slang` + `domain: colloquial` (it is a normal
+  everyday noun; the slang item was オール, mentioned in its notes), and
+  04095 足跡 carried `formality: formal` + `style: literary` (footprints in the
+  snow). Both look like a tagger reading the *notes* rather than the headword.
+  A detector for `style`/`formality` markedness on basic/core nouns would find
+  more of this family.
+- [pattern] Multi-word pronouns are being linked component-wise even when the
+  compound has its own entry: 03795 我々's notes linked 私 + たち separately
+  though 28351_watashitachi exists. Worth a targeted check for
+  ⟦…私…⟧⟦たち…⟧ style adjacent-link pairs that duplicate a real compound entry.
+- [entry] 04095 足跡 keeps the placeholder `general` semantic tag: no in-list
+  category covers "physical trace/mark". Same gap family as the missing
+  sound/perception tag logged 2026-08-13.
+- [tooling] Compound furigana spans that cross word boundaries block correct
+  linking: 06925 故に had `{我思|われおも}う` as one ruby span, which had to be
+  split into `{我|われ}{思|おも}う` before either word could be linked. A
+  detector for ruby spans whose kanji run spans a known word boundary would
+  surface these before the linking step.
