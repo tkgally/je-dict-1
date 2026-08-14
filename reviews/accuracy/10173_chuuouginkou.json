@@ -1,0 +1,24 @@
+{
+  "entry_id": "10173_chuuouginkou",
+  "headword": "{中央銀行|ちゅうおうぎんこう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:54:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific financial institution. 'economics' or 'finance' would be more appropriate.",
+      "suggestion": "economics"
+    }
+  ]
+}

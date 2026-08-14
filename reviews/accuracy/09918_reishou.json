@@ -1,0 +1,24 @@
+{
+  "entry_id": "09918_reishou",
+  "headword": "{冷笑|れいしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:50:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'attitude'.",
+      "suggestion": "emotion"
+    }
+  ]
+}

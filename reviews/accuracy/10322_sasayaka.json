@@ -1,0 +1,31 @@
+{
+  "entry_id": "10322_sasayaka",
+  "headword": "ささやか",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:57:03Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'description' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "Politeness 'polite' is incorrect for a na-adjective headword.",
+      "suggestion": "plain"
+    }
+  ]
+}

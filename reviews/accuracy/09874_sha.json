@@ -1,0 +1,52 @@
+{
+  "entry_id": "09874_sha",
+  "headword": "{車|しゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:49:12Z",
+  "summary": {
+    "flagged": 5
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss states 'vehicle; car (suffix)' but the headword 車 (sha) is not typically used as a standalone suffix meaning 'vehicle' or 'car'. It is a kanji that forms part of compound words for vehicles.",
+      "suggestion": "Change gloss to 'used in compound words for vehicles'"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss states 'vehicle; car (suffix)' but the headword 車 (sha) is not typically used as a standalone suffix meaning 'vehicle' or 'car'. It is a kanji that forms part of compound words for vehicles.",
+      "suggestion": "Change gloss to 'used in compound words for vehicles'"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation 'A freight truck is blocking the road.' for 貨物車が道を塞いでいる is incorrect. 貨物車 (kamotsusha) refers to a freight car (train car), not a truck.",
+      "suggestion": "Change English translation to 'A freight car is blocking the road.'"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The example '自転車で通勤している。' (Jitensha de tsūkin shiteiru.) is not an example of 車 (sha) as a suffix. 自転車 (jitensha) is a compound word where 車 (sha) is part of the word, but the example sentence itself doesn't demonstrate the suffix usage of 車 (sha).",
+      "suggestion": "Replace example with one that clearly demonstrates 車 (sha) as a suffix, e.g., '乗用車 (jōyōsha) - passenger car'"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The example '新車を買った。' (Shinsha o katta.) is not an example of 車 (sha) as a suffix. 新車 (shinsha) is a compound word where 車 (sha) is part of the word, but the example sentence itself doesn't demonstrate the suffix usage of 車 (sha).",
+      "suggestion": "Replace example with one that clearly demonstrates 車 (sha) as a suffix, e.g., '電車 (densha) - train'"
+    }
+  ]
+}

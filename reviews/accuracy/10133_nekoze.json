@@ -1,0 +1,24 @@
+{
+  "entry_id": "10133_nekoze",
+  "headword": "{猫背|ねこぜ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:53:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect. 猫背 (nekoze) refers to a posture or condition of the back, not a body part itself.",
+      "suggestion": "Replace 'body-part' with 'health' or 'appearance'."
+    }
+  ]
+}

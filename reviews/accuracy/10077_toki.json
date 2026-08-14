@@ -1,0 +1,24 @@
+{
+  "entry_id": "10077_toki",
+  "headword": "とき",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:52:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'time-temporal'",
+      "suggestion": "time-general"
+    }
+  ]
+}

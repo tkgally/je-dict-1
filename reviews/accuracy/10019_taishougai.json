@@ -1,0 +1,24 @@
+{
+  "entry_id": "10019_taishougai",
+  "headword": "{対象外|たいしょうがい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:51:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '対象外'. While it can be used in formal contexts, it is not inherently a formal word and is commonly used in neutral contexts as well.",
+      "suggestion": "neutral"
+    }
+  ]
+}

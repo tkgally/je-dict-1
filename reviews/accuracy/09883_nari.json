@@ -1,0 +1,24 @@
+{
+  "entry_id": "09883_nari",
+  "headword": "なり",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:49:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword 'なり' is a classical copula, which is inherently formal or literary, but not 'formal' in the sense of modern Japanese politeness levels. It's more archaic or literary than simply 'formal'.",
+      "suggestion": "archaic or literary"
+    }
+  ]
+}

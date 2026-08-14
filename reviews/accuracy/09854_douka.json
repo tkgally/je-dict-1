@@ -1,0 +1,31 @@
+{
+  "entry_id": "09854_douka",
+  "headword": "どうか",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:48:48Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss 'please, somehow' is misleading because 'somehow' is not a primary or direct meaning of どうか. It's more of a nuance in certain contexts, not a standalone gloss.",
+      "suggestion": "please"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'whether or not' for sense 2 is incorrect. どうか itself does not mean 'whether or not'. It's used in conjunction with かどうか to express uncertainty, but どうか alone doesn't carry that meaning.",
+      "suggestion": "by all means, by any means"
+    }
+  ]
+}

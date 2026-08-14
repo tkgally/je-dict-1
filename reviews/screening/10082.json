@@ -1,11 +1,10 @@
 {
   "entry_id": "10082",
-  "screened_at": "2026-06-26T15:44:30Z",
+  "screened_at": "2026-08-14T00:43:58Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for '水面' in entry 8 is 'すいめん', which is a valid reading for the kanji, but the entry itself is for '{水面|みなも}' which implies 'みなも' is the primary or expected reading. While 'すいめん' is a correct reading for the kanji, it deviates from the provided entry's explicit reading. However, given the context of \"common/t\", it might be an alternative reading. Without further context on the dictionary's intent for this specific entry, it's ambiguous if this is an error or an alternative reading. Given the instruction \"Do NOT flag partial readings as errors — they are correct by design\" and \"If you are not confident a reading is actually wrong, do not flag it\", I will not flag this as an error, but it's worth noting the discrepancy with the initial entry's explicit reading.",
-    "The reading for '面' in entry 13 is 'なも'. While 'なも' is part of the reading 'みなも' for '水面', '面' by itself is not typically read as 'なも'. It's a partial reading derived from the compound, but the instruction states \"the reading covers ONLY the kanji portion.\" Here, '面' is a single kanji, and 'なも' is not its standalone reading. This appears to be an incorrect mapping for the single kanji '面'."
+    "The reading for 面 (なも) is incorrect. While なも is part of the reading みなも for 水面, 面 by itself is not read as なも. It's a partial reading that doesn't correspond to the kanji in isolation."
   ],
-  "confidence": 0.8
+  "confidence": 0.9
 }

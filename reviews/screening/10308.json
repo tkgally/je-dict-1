@@ -1,10 +1,11 @@
 {
   "entry_id": "10308",
-  "screened_at": "2026-06-26T16:10:57Z",
+  "screened_at": "2026-08-14T00:46:24Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "Reading 16: 時計 is read as どけい. While とけい is the standard reading, どけい is not a common or standard reading for 時計, even in compounds or due to rendaku. It seems like a typo or an incorrect reading."
+    "Reading 16: 時計 is typically read as とけい, not どけい. While rendaku can occur, it's not standard for this word in isolation or as the first element of a compound unless there's a specific context not provided. Given the previous entry (3) for 時計 is とけい, this seems like an inconsistency or error.",
+    "Reading 18: 運 is read as はこ. While this is a valid reading for 運, in the context of 運び人形 (はこびにんぎょう), the reading for 運 is はこ. The provided context 'び{人形|にんぎょう}' suggests that 'び' is okurigana, making '運' = 'はこ' correct. However, the prompt states 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' This reading is technically correct as a partial reading for 運ぶ (はこぶ)."
   ],
-  "confidence": 0.9
+  "confidence": 0.8
 }

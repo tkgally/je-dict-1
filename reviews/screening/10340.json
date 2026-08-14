@@ -1,11 +1,8 @@
 {
   "entry_id": "10340",
-  "screened_at": "2026-06-26T16:14:41Z",
+  "screened_at": "2026-08-14T00:46:52Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The entry provides {最中|さなか} as the primary reading, but then later lists {最中|さいちゅう} with a note \"(read さいち)\". This suggests a potential inconsistency or a missing reading for 'さいちゅう' if 'さいち' is a common alternative. However, the instruction states 'さいちゅう' is the reading for '最中', and 'さいち' is a note about how it's read, not the reading itself. If 'さいち' is the intended reading for '最中' in some context, it should be explicitly mapped as {最中|さいち}.",
-    "The entry for {最中|さいちゅう} is followed by \"(read さいち)\". This is not a kanji-reading mapping error per se, but rather an annotation that is outside the expected format of {kanji|reading}. If 'さいち' is a valid reading for '最中', it should be presented as {最中|さいち}."
-  ],
-  "confidence": 0.8
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

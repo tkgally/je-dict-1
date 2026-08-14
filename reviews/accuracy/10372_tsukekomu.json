@@ -1,0 +1,24 @@
+{
+  "entry_id": "10372_tsukekomu",
+  "headword": "{付|つ}け{込|こ}む",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:57:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The semantic tag 'social-interaction' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

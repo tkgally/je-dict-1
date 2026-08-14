@@ -1,0 +1,31 @@
+{
+  "entry_id": "10012_chou",
+  "headword": "{帳|ちょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:51:43Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'notebook, register (suffix)' is misleading. While 帳 can be part of words meaning notebook or register, 帳 itself does not mean 'notebook' or 'register' as a standalone suffix. It refers to a 'book' or 'ledger' for records.",
+      "suggestion": "book, ledger (suffix)"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'notebook, register, book (suffix)' is misleading. While 帳 can be part of words meaning notebook or register, 帳 itself does not mean 'notebook' or 'register' as a standalone suffix. It refers to a 'book' or 'ledger' for records.",
+      "suggestion": "book, ledger (suffix)"
+    }
+  ]
+}

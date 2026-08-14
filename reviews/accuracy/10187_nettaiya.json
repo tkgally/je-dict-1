@@ -1,0 +1,24 @@
+{
+  "entry_id": "10187_nettaiya",
+  "headword": "{熱帯夜|ねったいや}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:54:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for '熱帯夜'.",
+      "suggestion": "Replace 'time' with 'time-general' or remove it as 'weather' already covers the concept of a specific type of night."
+    }
+  ]
+}

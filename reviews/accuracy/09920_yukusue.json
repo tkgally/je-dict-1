@@ -1,0 +1,31 @@
+{
+  "entry_id": "09920_yukusue",
+  "headword": "{行|ゆ}く{末|すえ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:50:09Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and not specific enough for '行く末'.",
+      "suggestion": "time-general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'literary' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

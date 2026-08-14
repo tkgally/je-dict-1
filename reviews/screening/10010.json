@@ -1,10 +1,10 @@
 {
   "entry_id": "10010",
-  "screened_at": "2026-06-26T15:36:34Z",
+  "screened_at": "2026-08-14T00:43:15Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The entry provides {両国|りょうこく} as the main reading, but then later lists {両国|りょうごく} as an alternative reading. While 'ryōgoku' is a valid reading for the place name, the dictionary entry itself should be consistent or clearly indicate the alternative reading within the main entry if it's a common alternative for the same meaning. As presented, it looks like a potential inconsistency or error in how the readings are listed for the same kanji combination."
+    "The reading for 両国 in item 15 is given as りょうごく, but the entry itself (item 1) and common usage for 'both countries' is りょうこく. While りょうごく is a valid reading for the place name Ryogoku, the context 'is also a place n' suggests it's being presented as an alternative reading for the same kanji, which is correct, but it's inconsistent with the primary reading given for 'both countries' in item 1. Given the instruction to 'Judge ONLY the \"kanji → reading\" pair itself' and 'Do NOT flag partial readings as errors', and the fact that Ryogoku (place name) is indeed りょうごく, this is technically not an error in isolation. However, if the intent was to provide the reading for 'both countries' consistently, then it would be an inconsistency. Since the prompt asks to flag 'incorrect kanji-reading mappings', and りょうごく is a correct mapping for the place name, I will not flag it as an error, but note the potential for confusion."
   ],
-  "confidence": 0.7
+  "confidence": 0.9
 }

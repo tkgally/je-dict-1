@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-26T03:24:16Z",
+  "reviewed_at": "2026-08-14T00:48:41Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.politeness",
       "severity": "error",
-      "concern": "The politeness tag 'polite' is incorrect for 'さん'. While 'さん' is a polite suffix, the politeness level of the word itself is 'neutral' in the context of Japanese grammar and usage. 'Polite' would typically refer to keigo forms.",
-      "suggestion": "neutral"
+      "concern": "The politeness tag 'polite' is incorrect for 〜さん. While it is a polite suffix, the politeness level of the word itself is 'neutral' as it is used in everyday speech without implying extra deference or humility from the speaker.",
+      "suggestion": "Change 'polite' to 'neutral'."
     }
   ]
 }
