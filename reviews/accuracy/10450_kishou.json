@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T03:39:32Z",
+  "reviewed_at": "2026-08-14T09:47:21Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is too narrow and potentially misleading for '気性', which refers to a person's innate character or disposition, encompassing more than just emotions.",
+      "suggestion": "Replace 'emotion' with 'personality' or 'general'."
+    }
+  ]
 }

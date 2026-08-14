@@ -1,0 +1,24 @@
+{
+  "entry_id": "10421_ichijirushii",
+  "headword": "{著|いちじる}しい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T09:46:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '著しい'. While it is often used in formal contexts, it is not inherently a formal word. It is more accurately described as 'neutral' or 'slightly formal' but not strictly 'formal'.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T03:40:02Z",
+  "reviewed_at": "2026-08-14T09:47:53Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'food-cooking' is not in the valid tag list. The headword is a type of food.",
-      "suggestion": "food"
+      "concern": "The headword is tagged as 'onomatopoeia' in the 'pos' field, but not in the 'semantic_tags' field. While 'food' is correct, the onomatopoeic nature of the word is also a key semantic aspect.",
+      "suggestion": "Add 'onomatopoeia' to the 'semantic_tags' list."
     }
   ]
 }

@@ -8,31 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T03:40:48Z",
+  "reviewed_at": "2026-08-14T09:48:39Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid semantic tag 'action-cognitive'",
-      "suggestion": "cognition"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid semantic tag 'information-communication'",
-      "suggestion": "communication"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "error",
-      "concern": "The English translation 'To trace the origins of history' is unnatural and redundant. 'History' already implies a study of origins.",
-      "suggestion": "To unravel history / To delve into history"
-    }
-  ]
+  "issues": []
 }

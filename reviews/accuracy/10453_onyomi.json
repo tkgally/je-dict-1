@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T03:39:36Z",
+  "reviewed_at": "2026-08-14T09:47:25Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is too narrow and misleading for '音読み'. While it might be encountered in educational contexts, '音読み' itself is a linguistic concept, not an educational one.",
+      "suggestion": "language"
+    }
+  ]
 }

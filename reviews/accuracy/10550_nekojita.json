@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T15:57:42Z",
+  "reviewed_at": "2026-08-14T09:49:19Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword '猫舌' (nekojita) refers to a person's sensitivity to hot food/drinks, not a body part itself. While it literally translates to 'cat tongue', its meaning is metaphorical and describes a characteristic or condition, not an anatomical part. The 'food' tag is also inappropriate as the word describes a person's characteristic, not food itself.",
-      "suggestion": "Remove 'body-part' and 'food'. Add 'person' or 'descriptive' or 'health' (if viewed as a sensitivity/condition)."
+      "concern": "The semantic tag 'descriptive' is too general and doesn't capture the specific meaning of '猫舌'.",
+      "suggestion": "person"
     }
   ]
 }

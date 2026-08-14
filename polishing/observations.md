@@ -1295,3 +1295,26 @@ last already the lowest-numbered open batch-ready queue item, so the next `syste
 takes it.
 
 All observations cleared.)_
+
+## 2026-08-14 (routine accuracy-review, 10401–10686)
+
+- [pattern] Sole-`general` semantic tags are widespread on abstract nouns well
+  outside the reviewed range. Spot checks found 権利, 義務, 責任 all tagged only
+  `general`, and 法律 tagged `work`. The cross-model reviewer catches these
+  reliably (13 of 39 applied fixes this run were sole-`general` → a specific
+  in-list tag). Worth a dedicated systemic-fix backlog item that lists every
+  entry whose only semantic tag is `general`, since `check_tag_drift.py`
+  already detects the class (P13).
+- [pattern] Part-of-speech term entries drift to the `education` tag. 名詞 and
+  音読み were both fixed this run; 形容詞 is still tagged `education` while
+  動詞 and 助詞 correctly use `grammatical`. A small closed set — worth a
+  one-shot sweep over the grammar-terminology entries.
+- [tooling] The furigana screening pass produced 43 flags over 10401–11000 and
+  every one was a false positive. The dominant family is new: the model
+  truncates the reading in its own report (e.g. reporting `{犯罪|はんざい}` as
+  "only はん provided") and then flags the truncation it invented. Worth adding
+  an explicit instruction to the screening prompt to quote the pair verbatim
+  from the entry before judging it.
+- [tooling] `build/review_accuracy.py` runs at roughly 4.5 entries/minute, so a
+  600-entry range needs about two hours of wall clock. Routine runs should size
+  accuracy-review ranges to ~250–300 entries, or the run has to be cut short.
