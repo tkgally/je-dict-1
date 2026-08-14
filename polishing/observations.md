@@ -1318,3 +1318,28 @@ All observations cleared.)_
 - [tooling] `build/review_accuracy.py` runs at roughly 4.5 entries/minute, so a
   600-entry range needs about two hours of wall clock. Routine runs should size
   accuracy-review ranges to ~250–300 entries, or the run has to be cut short.
+
+## 2026-08-14 — routine(polish) 04206/04928-04945 + 06926-06929
+
+- [pattern] Entries in the 06926–06929 conjunction/adverb block have **zero inline link
+  coverage** in both examples and notes — not partial coverage, none at all. All four
+  processed this run were like this, which suggests the whole 0690x–0693x band was created
+  before full link coverage became a tier-1 requirement. Worth a targeted sweep rather than
+  waiting for the sequential frontier to crawl through it.
+- [pattern] Stale `noentry` markers keep turning up in older notes: 04930 marked からし and
+  水戸 as `noentry` although both now have entries (28711, 28730). `build/check_stale_noentry.py`
+  exists for exactly this; the P35 backlog item looks worth prioritising.
+- [pattern] `formality: formal` is over-applied to neutral adverbs and conjunctions. Three of
+  the four frontier entries this run (06927, 06928, and — via the cross-model self-check —
+  06929) were tagged `formal` while their own REGISTER notes said "neutral". A detector
+  comparing the formality tag against the entry's own REGISTER line would catch this class
+  cheaply.
+- [entry] 04945 kaba: notes had been a list of English zoology trivia (breath-holding time,
+  running speed) with no learner value. Rewritten around writing conventions, the 頭 counter,
+  and collocations. Other animal entries created in the same batch (04946 sushi is adjacent,
+  04951 rakuda) may have the same shape.
+- [tooling] `python3 build/validate_tags.py` reports 11 pre-existing errors unrelated to any
+  entry touched this run: five 〜ずる verbs (09029, 13144, 18394, 19600, 20377) whose
+  `verb_class: ichidan` contradicts their `verb-irregular` POS tag, plus a proper-noun entry
+  carrying `organization-name` without the required `proper-noun` umbrella tag. These are
+  small, mechanical, and well suited to a systemic-fix run.

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06928_donomichi_ex1",
-      "japanese": "どのみち{間|ま}に{合|あ}わないから、{急|いそ}いでも{無駄|むだ}だ。",
+      "japanese": "どのみち⟦{間|ま}に{合|あ}わない→間に合う：01142_maniau⟧⟦から→から：00504_kara⟧、⟦{急|いそ}いでも→急ぐ：01191_isogu⟧⟦{無駄|むだ}→無駄：02512_muda⟧⟦だ→だ：09496_da⟧。",
       "english": "We won't make it anyway, so there's no point in hurrying.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06928_donomichi_ex2",
-      "japanese": "どのみち{同|おな}じ{結果|けっか}になる。",
+      "japanese": "どのみち⟦{同|おな}じ→同じ：02857_onaji⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Either way, the result will be the same.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "06928_donomichi_ex3",
-      "japanese": "どのみち{言|い}わなきゃいけないことだから、{今|いま}{言|い}うよ。",
+      "japanese": "どのみち⟦{言|い}わなきゃいけない→言う：00515_iu⟧⟦こと→こと：01164_koto⟧⟦だから→だ：09496_da⟧、⟦{今|いま}→今：00945_ima⟧⟦{言|い}う→言う：00515_iu⟧⟦よ→よ：09475_yo⟧。",
       "english": "Since I have to say it anyway, I'll say it now.",
       "sense_numbers": [
         1
@@ -38,28 +38,51 @@
     },
     {
       "id": "06928_donomichi_ex4",
-      "japanese": "{成功|せいこう}しても{失敗|しっぱい}しても、どのみち{経験|けいけん}になる。",
+      "japanese": "⟦{成功|せいこう}→成功：02638_seikou⟧⟦しても→する：00392_suru⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦しても→する：00392_suru⟧、どのみち⟦{経験|けいけん}→経験：01179_keiken⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "Whether you succeed or fail, either way it becomes experience.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "NUANCE: Expresses inevitability or fatalism—the outcome is fixed regardless of different paths or choices.\n\nETYMOLOGY: どの (which) + {道|みち} (path) = \"whichever path\"\nImplies that all roads lead to the same destination.\n\nCOMMON CONTEXTS:\n- Resignation: accepting an inevitable outcome\n- Pragmatic reasoning: since X is certain, let's do Y\n- Consolation: pointing out that the result doesn't change\n\nSIMILAR EXPRESSIONS:\n- いずれにしても/いずれにせよ: \"in any case\" (slightly more formal)\n- どうせ: \"anyway\" (more pessimistic/dismissive)\n- {結局|けっきょく}: \"in the end\" (conclusion reached)\n- どっちみち: variant form (same meaning, slightly casual)\n\nVS. どうせ:\n- どのみち: neutral, states inevitability\n- どうせ: often negative, implies \"it's pointless\" or self-deprecation\n\nREGISTER: Neutral. Appropriate in both casual and semi-formal contexts.",
+  "notes": "NUANCE: Expresses inevitability — the outcome is fixed whichever path is taken.\n\nETYMOLOGY: どの (which) + ⟦{道|みち}→道：00505_michi⟧ (path) = \"whichever path\", the idea being that all roads lead to the same place.\n\nCOMMON CONTEXTS:\n・Resignation: accepting an outcome that cannot be changed\n・Pragmatic reasoning: since X is certain anyway, let's do Y\n・Consolation: pointing out that the result is the same either way\n\nSIMILAR EXPRESSIONS:\n・⟦いずれにせよ→いずれにせよ：06779_izureniseyo⟧ / ⟦いずれにしても→いずれにしても：noentry⟧ — \"in any case\" (slightly more formal)\n・⟦どうせ→どうせ：06355_douse⟧ — \"anyway\" (more pessimistic or dismissive)\n・⟦{結局|けっきょく}→結局：03815_kekkyoku⟧ — \"in the end\" (a conclusion actually reached)\n・⟦どっちみち→どっちみち：noentry⟧ — variant form, same meaning, slightly more casual\n\nVS. ⟦どうせ→どうせ：06355_douse⟧:\n・どのみち states inevitability neutrally\n・⟦どうせ→どうせ：06355_douse⟧ usually carries a negative colouring — \"it's pointless anyway\", often with a note of self-deprecation\n\nREGISTER: Neutral. Appropriate in both casual and semi-formal contexts.",
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-01-19T12:17:44.792123Z",
+    "modified": "2026-08-14T14:49:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "descriptive"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "06779_izureniseyo",
+      "reading": "いずれにせよ",
+      "headword": "いずれにせよ",
+      "label": "in any case (more formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06355_douse",
+      "reading": "どうせ",
+      "headword": "どうせ",
+      "label": "anyway (dismissive)"
+    },
+    {
+      "type": "related",
+      "target_id": "03815_kekkyoku",
+      "reading": "けっきょく",
+      "headword": "{結局|けっきょく}",
+      "label": "in the end"
+    }
+  ]
 }
