@@ -29,7 +29,7 @@
     },
     {
       "id": "03500_nakaba_ex2",
-      "japanese": "3⟦{月|がつ}→月：noentry⟧{半|なか}ば⟦に→に：00314_ni⟧⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧。",
+      "japanese": "3⟦{月|がつ}→月：30418_gatsu⟧{半|なか}ば⟦に→に：00314_ni⟧⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧。",
       "english": "I'm moving in mid-March.",
       "notes": "〜{半|なか}ば = mid-~",
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "03500_nakaba_ex3",
-      "japanese": "8⟦{月|がつ}→月：noentry⟧{半|なか}ば⟦に→に：00314_ni⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦です→です：09485_desu⟧。",
+      "japanese": "8⟦{月|がつ}→月：30418_gatsu⟧{半|なか}ば⟦に→に：00314_ni⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦です→です：09485_desu⟧。",
       "english": "I plan to go on a trip in mid-August.",
       "notes": null,
       "has_audio": false,
@@ -118,10 +118,40 @@
       ]
     }
   ],
-  "notes": "USAGE: {半|なか}ば can function as both a noun (midpoint) and an adverb (partially, half).\n\nCOMMON PATTERNS:\n・〜⟦{月|がつ}→月：noentry⟧{半|なか}ば (mid-month)\n・⟦{年|ねん}→年：09876_nen⟧{半|なか}ば (mid-year)\n・{半|なか}ば⟦{過|す}ぎ→過ぎ：09885_sugi⟧ (past the halfway point)\n・{半|なか}ば⟦{諦|あきら}める→諦める：01813_akirameru⟧ (half give up)\n・{半|なか}ば⟦{強制的|きょうせいてき}→強制的：06133_kyouseiteki⟧⟦に→に：00314_ni⟧ (semi-forcibly)\n・⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧{半|なか}ば (halfway along the road)\n\nNUANCE: When used adverbially with verbs or adjectives, {半|なか}ば suggests the action or state is incomplete or partial. It often carries a nuance of ambivalence.",
+  "notes": "USAGE: {半|なか}ば can function as both a noun (midpoint) and an adverb (partially, half).\n\nCOMMON PATTERNS:\n・〜⟦{月|がつ}→月：30418_gatsu⟧{半|なか}ば (mid-month)\n・⟦{年|ねん}→年：09876_nen⟧{半|なか}ば (mid-year)\n・{半|なか}ば⟦{過|す}ぎ→過ぎ：09885_sugi⟧ (past the halfway point)\n・{半|なか}ば⟦{諦|あきら}める→諦める：01813_akirameru⟧ (half give up)\n・{半|なか}ば⟦{強制的|きょうせいてき}→強制的：06133_kyouseiteki⟧⟦に→に：00314_ni⟧ (semi-forcibly)\n・⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧{半|なか}ば (halfway along the road)\n\nNUANCE: When used adverbially with verbs or adjectives, {半|なか}ば suggests the action or state is incomplete or partial. It often carries a nuance of ambivalence.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02938_hanbun",
+      "reading": "はんぶん",
+      "headword": "半分",
+      "label": "half (a portion)"
+    },
+    {
+      "type": "related",
+      "target_id": "01684_tochuu",
+      "reading": "とちゅう",
+      "headword": "途中",
+      "label": "on the way, partway through"
+    },
+    {
+      "type": "related",
+      "target_id": "11309_chuujun",
+      "reading": "ちゅうじゅん",
+      "headword": "中旬",
+      "label": "middle third of a month"
+    },
+    {
+      "type": "related",
+      "target_id": "00968_mannaka",
+      "reading": "まんなか",
+      "headword": "真ん中",
+      "label": "the exact center"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T10:30:00Z",
-    "modified": "2026-05-25T22:05:17Z",
+    "modified": "2026-08-14T03:23:49Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -134,6 +164,7 @@
       "semantic": [
         "descriptive"
       ]
-    }
+    },
+    "schema_version": "2.0"
   }
 }

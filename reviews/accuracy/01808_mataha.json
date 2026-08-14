@@ -2,13 +2,13 @@
   "entry_id": "01808_mataha",
   "headword": "または",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:34:37Z",
+  "reviewed_at": "2026-08-14T03:33:14Z",
   "summary": {
     "flagged": 1
   },
@@ -17,7 +17,7 @@
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect. 'または' is a neutral conjunction, not specifically formal.",
+      "concern": "The formality tag 'formal' is incorrect for 'または'. While it can be used in formal contexts, it is not exclusively formal and is also used in neutral or slightly elevated everyday speech. 'または' is generally considered more formal than 'か' but not strictly 'formal' in the sense of being restricted to highly formal situations.",
       "suggestion": "neutral"
     }
   ]

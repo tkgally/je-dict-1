@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T18:21:48Z",
+  "reviewed_at": "2026-08-14T03:33:18Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '我々'. While it is more formal than '私たち', it is not strictly 'formal' in the sense of highly elevated or stiff language. It is often used in speeches, official statements, or when emphasizing group identity, but can also appear in less formal contexts.",
+      "suggestion": "Change 'formal' to 'neutral' or 'slightly formal' if such a tag exists, but 'neutral' is more appropriate given the dictionary's tag conventions."
+    }
+  ]
 }

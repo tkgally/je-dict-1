@@ -14,38 +14,46 @@
   "examples": [
     {
       "id": "06923_narabini_ex1",
-      "japanese": "{取締役|とりしまりやく}{並|なら}びに{監査役|かんさやく}の{選任|せんにん}について",
+      "japanese": "⟦{取締役|とりしまりやく}→取締役：12124_torishimariyaku⟧{並|なら}びに⟦{監査役|かんさやく}→監査役：29075_kansayaku⟧⟦の→の：09472_no⟧⟦{選任|せんにん}→選任：noentry⟧⟦について→〜について：03103_nitsuite⟧",
       "english": "Regarding the appointment of directors and auditors",
       "sense_numbers": [
         1
-      ]
+      ],
+      "notes": null,
+      "has_audio": false
     },
     {
       "id": "06923_narabini_ex2",
-      "japanese": "{日本国民|にほんこくみん}{並|なら}びに{外国人|がいこくじん}に{適用|てきよう}される。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦{国民|こくみん}→国民：02757_kokumin⟧{並|なら}びに⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧⟦に→に：00314_ni⟧⟦{適用|てきよう}される→適用する：21739_tekiyousuru⟧。",
       "english": "This applies to Japanese citizens and foreign nationals.",
       "sense_numbers": [
         1
-      ]
+      ],
+      "notes": null,
+      "has_audio": false
     },
     {
       "id": "06923_narabini_ex3",
-      "japanese": "{経済|けいざい}{並|なら}びに{社会|しゃかい}の{発展|はってん}に{貢献|こうけん}する。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧{並|なら}びに⟦{社会|しゃかい}→社会：01427_shakai⟧⟦の→の：09472_no⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦に→に：00314_ni⟧⟦{貢献|こうけん}する→貢献する：21682_koukensuru⟧。",
       "english": "To contribute to economic and social development.",
       "sense_numbers": [
         1
-      ]
+      ],
+      "notes": null,
+      "has_audio": false
     },
     {
       "id": "06923_narabini_ex4",
-      "japanese": "{株主|かぶぬし}{及|およ}び{債権者|さいけんしゃ}{並|なら}びに{従業員|じゅうぎょういん}{及|およ}びその{家族|かぞく}",
+      "japanese": "⟦{株主|かぶぬし}→株主：15274_kabunushi⟧⟦{及|およ}び→及び：06922_oyobi⟧⟦{債権者|さいけんしゃ}→債権者：22802_saikensha⟧{並|なら}びに⟦{従業員|じゅうぎょういん}→従業員：10018_juugyouin⟧⟦{及|およ}び→及び：06922_oyobi⟧⟦その→その：00993_sono⟧⟦{家族|かぞく}→家族：00552_kazoku⟧",
       "english": "Shareholders and creditors, as well as employees and their families",
       "sense_numbers": [
         1
-      ]
+      ],
+      "notes": null,
+      "has_audio": false
     }
   ],
-  "notes": "REGISTER: Very formal. Used primarily in:\n- Legal documents and contracts\n- Corporate bylaws\n- Government regulations\n- Official announcements\n\nHIERARCHICAL STRUCTURE: In legal Japanese, {及|およ}び and {並|なら}びに create a hierarchy:\n- {及|およ}び: connects items within a group (smaller units)\n- {並|なら}びに: connects groups (larger units)\n\nEXAMPLE STRUCTURE:\nA{及|およ}びB{並|なら}びにC{及|およ}びD\n= (A and B) AND (C and D)\n\nThis creates two groups: (A+B) connected to (C+D).\n\nVS. {及|およ}び:\n- Both mean \"and\" formally\n- {並|なら}びに is more formal and connects larger units\n- In everyday formal writing, they're often interchangeable\n\nCAUTION: Too formal for casual use. Even in business emails, {及|およ}び or just と is usually sufficient.",
+  "notes": "REGISTER: Very formal. Used primarily in:\n- Legal documents and contracts\n- Corporate bylaws\n- Government regulations\n- Official announcements\n\nHIERARCHICAL STRUCTURE: In legal Japanese, ⟦{及|およ}び→及び：06922_oyobi⟧ and {並|なら}びに create a hierarchy:\n- ⟦{及|およ}び→及び：06922_oyobi⟧: connects items within a group (smaller units)\n- {並|なら}びに: connects groups (larger units)\n\nEXAMPLE STRUCTURE:\nA⟦{及|およ}び→及び：06922_oyobi⟧B{並|なら}びにC⟦{及|およ}び→及び：06922_oyobi⟧D\n= (A and B) AND (C and D)\n\nThis creates two groups: (A+B) connected to (C+D).\n\nVS. ⟦{及|およ}び→及び：06922_oyobi⟧:\n- Both mean \"and\" formally\n- {並|なら}びに is more formal and connects larger units\n- In everyday formal writing, they are often interchangeable\n\nCAUTION: Too formal for casual use. Even in business emails, ⟦{及|およ}び→及び：06922_oyobi⟧ or just ⟦と→と：00512_to⟧ is usually sufficient.",
   "cross_references": [
     {
       "type": "contrast",
@@ -57,7 +65,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-04-18T07:11:09Z",
+    "modified": "2026-08-14T03:29:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -73,6 +81,7 @@
       "semantic": [
         "grammatical"
       ]
-    }
+    },
+    "schema_version": "2.0"
   }
 }

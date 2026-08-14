@@ -14,41 +14,72 @@
   "examples": [
     {
       "id": "06924_moshikuha_ex1",
-      "japanese": "{電話|でんわ}{若|も}しくはメールでご{連絡|れんらく}ください。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧{若|も}しくは⟦メール→メール：04435_meeru⟧⟦で→で：00502_de⟧⟦ご{連絡|れんらく}→連絡：01524_renraku⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please contact us by phone or email.",
       "sense_numbers": [
         1
-      ]
+      ],
+      "notes": null,
+      "has_audio": false
     },
     {
       "id": "06924_moshikuha_ex2",
-      "japanese": "{本人|ほんにん}{若|も}しくは{代理人|だいりにん}が{申請|しんせい}できます。",
+      "japanese": "⟦{本人|ほんにん}→本人：03627_honnin⟧{若|も}しくは⟦{代理人|だいりにん}→代理人：18508_dairinin⟧⟦が→が：00051_ga⟧⟦{申請|しんせい}できます→申請：04207_shinsei⟧。",
       "english": "The applicant or their representative may apply.",
       "sense_numbers": [
         1
-      ]
+      ],
+      "notes": null,
+      "has_audio": false
     },
     {
       "id": "06924_moshikuha_ex3",
-      "japanese": "{罰金|ばっきん}{若|も}しくは{禁固刑|きんこけい}に{処|しょ}する。",
+      "japanese": "⟦{罰金|ばっきん}→罰金：18767_bakkin⟧{若|も}しくは⟦{禁固刑|きんこけい}→禁固刑：23731_kinkokei⟧⟦に→に：00314_ni⟧⟦{処|しょ}する→処する：noentry⟧。",
       "english": "Punishable by fine or imprisonment.",
       "sense_numbers": [
         1
-      ]
+      ],
+      "notes": null,
+      "has_audio": false
     },
     {
       "id": "06924_moshikuha_ex4",
-      "japanese": "{現金|げんきん}{若|も}しくはクレジットカードでお{支払|しはら}いいただけます。",
+      "japanese": "⟦{現金|げんきん}→現金：02716_genkin⟧{若|も}しくは⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧⟦で→で：00502_de⟧⟦お{支払|しはら}い→支払う：02116_shiharau⟧⟦いただけます→いただく：01326_itadaku⟧。",
       "english": "You may pay by cash or credit card.",
       "sense_numbers": [
         1
-      ]
+      ],
+      "notes": null,
+      "has_audio": false
     }
   ],
-  "notes": "REGISTER: Formal/written. Common in:\n- Legal documents\n- Official forms and notices\n- Terms and conditions\n- Formal instructions\n\nFORMALITY SCALE (\"or\"):\n- か: neutral, everyday\n- または: formal, written\n- {若|も}しくは: very formal, legal\n- あるいは: formal, with nuance of possibility\n\nHIERARCHICAL USAGE: In legal Japanese:\n- {若|も}しくは: connects items within a group (smaller \"or\")\n- または: connects groups (larger \"or\")\n\nEXAMPLE:\nA{若|も}しくはBまたはC{若|も}しくはD\n= (A or B) OR (C or D)\n\nKANJI NOTE: The kanji {若|わか}い means \"young,\" but in {若|も}しくは it's ateji (phonetic kanji use) and has no semantic connection to youth.\n\nEVERYDAY ALTERNATIVE: In normal speech and writing, use か or または instead.",
+  "notes": "REGISTER: Formal/written. Common in:\n- Legal documents\n- Official forms and notices\n- Terms and conditions\n- Formal instructions\n\nFORMALITY SCALE (\"or\"):\n- ⟦か→か：09473_ka⟧: neutral, everyday\n- ⟦または→または：01808_mataha⟧: formal, written\n- {若|も}しくは: very formal, legal\n- ⟦あるいは→あるいは：03825_aruiha⟧: formal, with a nuance of possibility\n\nHIERARCHICAL USAGE: In legal Japanese:\n- {若|も}しくは: connects items within a group (the smaller \"or\")\n- ⟦または→または：01808_mataha⟧: connects groups (the larger \"or\")\n\nEXAMPLE:\nA{若|も}しくはB⟦または→または：01808_mataha⟧C{若|も}しくはD\n= (A or B) OR (C or D)\n\nKANJI NOTE: The kanji written here normally carries the meaning \"young\" (⟦{若|わか}い→若い：00823_wakai⟧), but in {若|も}しくは it is ateji — a purely phonetic use with no connection to youth.\n\nEVERYDAY ALTERNATIVE: In normal speech and writing, use ⟦か→か：09473_ka⟧ or ⟦または→または：01808_mataha⟧ instead.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01808_mataha",
+      "reading": "または",
+      "headword": "または",
+      "label": "or (the larger \"or\" in legal hierarchy)"
+    },
+    {
+      "type": "related",
+      "target_id": "03825_aruiha",
+      "reading": "あるいは",
+      "headword": "あるいは",
+      "label": "or, or perhaps (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "09473_ka",
+      "reading": "か",
+      "headword": "か",
+      "label": "or (everyday particle)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-03-18T10:20:26Z",
+    "modified": "2026-08-14T03:31:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +94,7 @@
       "semantic": [
         "grammatical"
       ]
-    }
+    },
+    "schema_version": "2.0"
   }
 }

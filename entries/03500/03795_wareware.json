@@ -63,10 +63,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {我々|われわれ} is a formal/written pronoun meaning \"we.\" It's commonly used in speeches, formal writing, and when emphasizing group identity.\n\nREGISTER: Formal/written. In casual speech, ⟦{私|わたし}→私：02988_watashi⟧⟦たち→たち：01551_tachi⟧ or ⟦{僕|ぼく}→僕：01729_boku⟧⟦たち→たち：01551_tachi⟧ are more common.\n\nCONTRAST:\n・{我々|われわれ} - formal \"we\" (speeches, formal writing)\n・⟦{私|わたし}→私：02988_watashi⟧⟦たち→たち：01551_tachi⟧ - standard polite \"we\"\n・⟦{僕|ぼく}→僕：01729_boku⟧⟦たち→たち：01551_tachi⟧ - casual \"we\" (male)\n・⟦{俺|おれ}→俺：02185_ore⟧⟦たち→たち：01551_tachi⟧ - casual \"we\" (masculine, rough)\n・⟦うちら→うちら：noentry⟧ - casual \"we\" (younger speakers)",
+  "notes": "USAGE: {我々|われわれ} is a formal/written pronoun meaning \"we.\" It's commonly used in speeches, formal writing, and when emphasizing group identity.\n\nREGISTER: Formal/written. In casual speech, ⟦{私|わたし}たち→私たち：28351_watashitachi⟧ or ⟦{僕|ぼく}→僕：01729_boku⟧⟦たち→たち：01551_tachi⟧ are more common.\n\nCONTRAST:\n・{我々|われわれ} - formal \"we\" (speeches, formal writing)\n・⟦{私|わたし}たち→私たち：28351_watashitachi⟧ - standard polite \"we\"\n・⟦{僕|ぼく}→僕：01729_boku⟧⟦たち→たち：01551_tachi⟧ - casual \"we\" (male)\n・⟦{俺|おれ}→俺：02185_ore⟧⟦たち→たち：01551_tachi⟧ - casual \"we\" (masculine, rough)\n・⟦うちら→うちら：noentry⟧ - casual \"we\" (younger speakers)",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "28351_watashitachi",
+      "reading": "わたしたち",
+      "headword": "{私|わたし}たち",
+      "label": "standard polite \"we\""
+    },
+    {
+      "type": "related",
+      "target_id": "13449_wagakuni",
+      "reading": "わがくに",
+      "headword": "{我|わ}が{国|くに}",
+      "label": "our country (same formal 我 register)"
+    },
+    {
+      "type": "related",
+      "target_id": "01729_boku",
+      "reading": "ぼく",
+      "headword": "{僕|ぼく}",
+      "label": "casual \"I\" (僕たち = casual \"we\")"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-05-27T18:19:31Z",
+    "modified": "2026-08-14T03:25:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -78,6 +101,7 @@
       "semantic": [
         "person"
       ]
-    }
+    },
+    "schema_version": "2.0"
   }
 }
