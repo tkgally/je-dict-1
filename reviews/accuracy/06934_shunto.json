@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-10T06:32:29Z",
+  "reviewed_at": "2026-08-14T21:29:53Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword is an onomatopoeia/mimetic word, not merely descriptive.",
+      "suggestion": "onomatopoeia"
+    }
+  ]
 }

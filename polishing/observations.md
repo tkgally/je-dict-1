@@ -1384,3 +1384,20 @@ inverse-reading pattern may be mechanically detectable: `formality: formal` wher
 entries (武士, 親類, 眉, 花弁, 銀杏, 笹, 認知症) — ~19%, all with obvious in-list destinations
 (history, family, body-part, plant-flower, plant-tree, plant-general, health). P13's detector
 already tracks these; the band is worth a targeted pass.
+
+## 2026-08-14 — routine polish (entries 04946–04999 priority lane, 06930–06935 frontier)
+
+- [pattern] The adverb/mimetic block around 06930–06935 has well-structured, informative notes but **zero
+  inline word links** in either examples or notes. Whatever pass created these entries produced good prose
+  and skipped linking entirely. Worth checking whether the surrounding 06900–07000 range shares this shape;
+  if so it is a bounded, high-value systemic-fix candidate rather than one-at-a-time frontier work.
+- [pattern] Core-tier noun entries from the January 2026 creation batch (04946, 04951, 04988, 04991, 04994,
+  04999 all seen this run) use ad-hoc note section labels ("Components:", "Types:", "Related:") instead of
+  the UPPERCASE headers the note-quality scorer and the rest of the dictionary use, and none of them has a
+  collocations section. They score a uniform 75. This is why they cluster on the notes priority list, and
+  restructuring lifts them to 94–97. A detector for "noun entry, no uppercase header, no collocations
+  section" would find the rest of the batch cheaply.
+- [entry] 10166 寿司屋: notes contain bare Japanese throughout (回転寿司, 高級寿司屋, 立ち食い寿司, 板前,
+  魚屋/花屋/肉屋) with no inline links. Touched only to add a back-link this run; needs a full linking pass.
+- [tooling] `review_accuracy.py` writes an empty `description` field on issues; the useful text is in
+  `concern`. Anything reading these reports should read `concern`, not `description`.

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06933_kerotto_ex1",
-      "japanese": "{怒|おこ}られたのに、けろっとしている。",
+      "japanese": "⟦{怒|おこ}られた→怒る：00876_okoru⟧⟦のに→のに：10529_noni⟧、けろっと⟦している→する：00392_suru⟧。",
       "english": "Even though they were scolded, they're acting like nothing happened.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06933_kerotto_ex2",
-      "japanese": "{失敗|しっぱい}しても、けろっと{次|つぎ}に{進|すす}む。",
+      "japanese": "⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧、けろっと⟦{次|つぎ}→次：00819_tsugi⟧⟦に→に：00314_ni⟧⟦{進|すす}む→進む：01225_susumu⟧。",
       "english": "Even after failing, they nonchalantly move on.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "06933_kerotto_ex3",
-      "japanese": "{風邪|かぜ}を{引|ひ}いたけど、{翌日|よくじつ}にはけろっと{治|なお}っていた。",
+      "japanese": "⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦{引|ひ}いた→引く：01978_hiku⟧⟦けど→けど：09477_kedo⟧、⟦{翌日|よくじつ}→翌日：17960_yokujitsu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧けろっと⟦{治|なお}っていた→治る：19598_naoru⟧。",
       "english": "I had a cold, but the next day I was completely fine.",
       "sense_numbers": [
         1
@@ -38,14 +38,14 @@
     },
     {
       "id": "06933_kerotto_ex4",
-      "japanese": "さっき{泣|な}いていたのに、もうけろっとしてる。",
+      "japanese": "⟦さっき→さっき：01264_sakki⟧⟦{泣|な}いていた→泣く：00655_naku⟧⟦のに→のに：10529_noni⟧、⟦もう→もう：00602_mou⟧けろっと⟦してる→する：00392_suru⟧。",
       "english": "They were crying just now, but they're already completely fine.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "TYPE: Mimetic word (gitaigo) describing emotional state or recovery.\n\nNUANCE: Suggests:\n- Quick emotional recovery\n- Lack of expected remorse or embarrassment\n- Surprising resilience\n- Sometimes: inappropriate lack of concern\n\nCAN BE:\n- Positive: resilience, not dwelling on problems\n- Negative: shamelessness, insensitivity\n\nCOMMON PATTERNS:\n- けろっとしている: acting unaffected\n- けろっと + verb: doing something nonchalantly\n- けろっと{治|なお}る: recover completely\n\nSIMILAR EXPRESSIONS:\n- しれっと: coolly, acting innocent\n- {平気|へいき}で: without concern\n- {何食|なにく}わぬ{顔|かお}で: with an innocent face\n- あっけらかん: carefree, untroubled\n\nCONTRAST:\n- けろっと: shows no effect\n- しゅんと: dejected, downcast (opposite reaction)",
+  "notes": "TYPE: Mimetic word (gitaigo) describing an emotional state, or recovery from one.\n\nNUANCE: Quick emotional recovery, an absence of the remorse or embarrassment the situation calls for, or surprising resilience. Depending on the speaker's sympathies it reads as admirable toughness or as shamelessness.\n\nCOMMON PATTERNS:\n- けろっと⟦している→する：00392_suru⟧ - to be visibly unaffected\n- けろっと + verb - to do something without a flicker of concern\n- けろっと⟦{治|なお}る→治る：19598_naoru⟧ - to recover completely (of illness)\n\nSIMILAR EXPRESSIONS:\n- ⟦しれっと→しれっと：06759_shiretto⟧ - coolly, playing innocent (usually critical)\n- ⟦{平気|へいき}→平気：00095_heiki⟧⟦で→で：00502_de⟧ - without concern\n- ⟦{何食|なにく}わぬ{顔|かお}→何食わぬ顔：15736_nanikuwanukao⟧⟦で→で：00502_de⟧ - with an innocent face\n- ⟦あっけらかん→あっけらかん：noentry⟧ - carefree, untroubled\n\nCONTRAST:\n- けろっと: shows no after-effect at all\n- ⟦しゅんと→しゅんと：06934_shunto⟧: dejected, downcast - the opposite reaction",
   "cross_references": [
     {
       "type": "related",
@@ -53,11 +53,18 @@
       "reading": "しれっと",
       "headword": "しれっと",
       "label": "nonchalantly (more critical)"
+    },
+    {
+      "type": "contrast",
+      "reading": "しゅんと",
+      "headword": "しゅんと",
+      "label": "dejected (opposite reaction)",
+      "target_id": "06934_shunto"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-08-14T21:21:34Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
