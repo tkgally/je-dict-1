@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T15:58:17Z",
+  "reviewed_at": "2026-08-14T09:49:54Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'clothing' is too narrow and potentially misleading for '織物' (textile/woven fabric), which can be used for many things beyond clothing.",
+      "suggestion": "general"
+    }
+  ]
 }

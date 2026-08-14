@@ -1,0 +1,31 @@
+{
+  "entry_id": "10430_oyako",
+  "headword": "{親子|おやこ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T09:46:52Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is too narrow and misses a common meaning of 親子.",
+      "suggestion": "parent and child; parent and offspring; (fig.) large and small (of related items)"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The translation for example 2 is missing a crucial part of the meaning of 親子丼, which is that it literally means 'parent and child bowl' and refers to the chicken and egg as parent and child.",
+      "suggestion": "Oyakodon, literally 'parent and child bowl', is a dish made with chicken and egg."
+    }
+  ]
+}

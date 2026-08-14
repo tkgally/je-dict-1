@@ -1,0 +1,24 @@
+{
+  "entry_id": "10410_tottoto",
+  "headword": "とっとと",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T09:46:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation 'Get out of here already.' for 'とっとと帰れ。' is misleading. While 'とっとと' implies urgency and impatience, '帰れ' specifically means 'go home' or 'go back', not 'get out of here' in a general sense of leaving a place.",
+      "suggestion": "Change the translation to 'Go home already.' or 'Hurry up and go home.'"
+    }
+  ]
+}

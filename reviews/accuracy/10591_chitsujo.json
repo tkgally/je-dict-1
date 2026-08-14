@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T15:58:25Z",
+  "reviewed_at": "2026-08-14T09:50:04Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word that specifically refers to 'order' or 'discipline' in a societal or systematic context.",
+      "suggestion": "society"
+    }
+  ]
 }

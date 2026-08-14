@@ -1,10 +1,8 @@
 {
   "entry_id": "10595",
-  "screened_at": "2026-06-27T15:22:06Z",
+  "screened_at": "2026-08-14T09:39:41Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for `初々` is `ういうい` but the okurigana `しい` is missing from the entry. The entry is `{初々|ういうい}しい` but the reading is only for `初々` which is `ういうい`. The full word is `初々しい` (ういういしい). The provided reading `ういうい` for `初々` is correct, but the context implies that `しい` is okurigana, which is not explicitly stated in the entry format. However, given the example `{走|はし}る`, where `る` is okurigana, it seems `しい` should be treated as okurigana. The issue is with the entry format itself, not the reading of `初々`."
-  ],
-  "confidence": 0.8
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

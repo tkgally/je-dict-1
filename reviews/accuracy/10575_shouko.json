@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T15:58:08Z",
+  "reviewed_at": "2026-08-14T09:49:44Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for '証拠'.",
+      "suggestion": "cognition"
+    }
+  ]
 }

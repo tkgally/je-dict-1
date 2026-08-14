@@ -1,10 +1,11 @@
 {
   "entry_id": "10617",
-  "screened_at": "2026-06-27T15:24:50Z",
+  "screened_at": "2026-08-14T09:42:22Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 跡取 is given as あとと, but the full reading for 跡取り is あととり. The provided reading is a partial reading, but it's split before the okurigana り, which is not explicitly marked as okurigana in the input format. While the prompt states 'Compound readings split before okurigana: 先行→さきゆ followed by き (先行き=さきゆき)' are known-correct, the example shows the okurigana *after* the split. Here, 'り' is part of the word '跡取り' and not explicitly marked as okurigana outside the markup. If 'り' is considered okurigana, then the split is correct. However, if 'り' is part of the kanji reading, then 'と' is incomplete."
+    "The reading for 跡取 is given as あとと, but the full reading for 跡取り is あととり. The provided reading あとと is a partial reading, which is allowed by the rules, but it's worth noting that the 'り' is missing.",
+    "The reading for 婿入 is given as むこい, but the full reading for 婿入り is むこいり. The provided reading むこい is a partial reading, which is allowed by the rules, but it's worth noting that the 'り' is missing."
   ],
-  "confidence": 0.6
+  "confidence": 0.8
 }

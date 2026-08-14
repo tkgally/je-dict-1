@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T03:40:59Z",
+  "reviewed_at": "2026-08-14T09:48:51Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'action-cognitive'.",
+      "suggestion": "action"
+    }
+  ]
 }

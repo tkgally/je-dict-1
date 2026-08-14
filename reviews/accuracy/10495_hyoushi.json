@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T03:40:21Z",
+  "reviewed_at": "2026-08-14T09:48:13Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'music-sound' is not in the valid tag list.",
+      "suggestion": "music"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time-moment' is not in the valid tag list.",
+      "suggestion": "time-general"
+    }
+  ]
 }

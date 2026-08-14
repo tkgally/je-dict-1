@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T03:40:08Z",
+  "reviewed_at": "2026-08-14T09:47:59Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food-cooking' is incorrect. Tsukemen is a type of food, not a cooking method.",
+      "suggestion": "food"
+    }
+  ]
 }

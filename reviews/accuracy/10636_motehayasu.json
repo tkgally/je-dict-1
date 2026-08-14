@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T15:59:18Z",
+  "reviewed_at": "2026-08-14T09:50:53Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'social' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
 }

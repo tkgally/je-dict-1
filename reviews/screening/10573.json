@@ -1,10 +1,10 @@
 {
   "entry_id": "10573",
-  "screened_at": "2026-06-27T15:19:29Z",
+  "screened_at": "2026-08-14T09:37:04Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 纏 in pair 15 is given as まつ, but the dictionary entry for 纏う is まとう. While まつわる is a valid word, the reading for 纏 in 纏わる should be まと, not まつ, if it's derived from 纏う. If 纏わる is a separate entry, then this reading might be correct for that specific word, but given the context of checking readings for 纏う, it's inconsistent."
+    "The reading for 纏 in entry 15 is まつ, but the verb is 纏う (まとう). While 纏う can be read まつわる in some contexts, the entry is for 纏う (まとう), and the okurigana is わる, suggesting the kanji 纏 should be read まと. However, 纏わる is a separate verb, and if the entry is for 纏う, then まつわる is a different word. If the entry is for 纏わる, then the reading まつ is correct. Given the context of the main entry being 纏う (まとう), this specific instance of 纏 → まつ followed by わる seems to be a different word (纏わる) and thus the reading for 纏 in 纏わる is indeed まつ. Therefore, this is not an error."
   ],
-  "confidence": 0.9
+  "confidence": 0.5
 }

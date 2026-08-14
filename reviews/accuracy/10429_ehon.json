@@ -1,0 +1,24 @@
+{
+  "entry_id": "10429_ehon",
+  "headword": "{絵本|えほん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T09:46:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is incorrect for '絵本' (picture book).",
+      "suggestion": "Replace 'education' with 'art' or 'media' or 'daily-life'."
+    }
+  ]
+}
