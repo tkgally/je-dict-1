@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T02:27:05Z",
+  "reviewed_at": "2026-08-14T18:21:08Z",
   "summary": {
     "flagged": 2
   },
@@ -17,15 +17,15 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for a specific historical and cultural term like '武士'.",
-      "suggestion": "person"
+      "concern": "The semantic tag 'general' is too broad for a specific historical and cultural term.",
+      "suggestion": "Replace 'general' with 'history' or 'culture'."
     },
     {
       "dimension": "tags",
       "location": "tags.formality",
-      "severity": "warn",
-      "concern": "The formality tag 'formal' seems slightly off. While '武士' refers to a historical concept, the word itself isn't inherently formal in everyday Japanese; it's simply the correct term. 'Neutral' might be more appropriate.",
-      "suggestion": "neutral"
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. While the topic can be formal, the word itself is neutral.",
+      "suggestion": "Change 'formal' to 'neutral'."
     }
   ]
 }

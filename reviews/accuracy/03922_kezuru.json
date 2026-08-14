@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T02:26:13Z",
+  "reviewed_at": "2026-08-14T18:21:04Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The headword '削る' is a common verb and its formality is neutral, not formal.",
+      "concern": "The headword '削る' is a common verb and not formal.",
       "suggestion": "neutral"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[13]",
-      "severity": "error",
-      "concern": "The English translation 'I edited the manuscript to make it shorter' misrepresents the Japanese '原稿を削って短くした'. The Japanese implies 'cutting' or 'reducing' the manuscript, not just editing it.",
-      "suggestion": "I cut down the manuscript to make it shorter."
     }
   ]
 }
