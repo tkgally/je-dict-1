@@ -4788,6 +4788,123 @@ down-weight this item has recommended since 2026-06-25**, arrived at independent
 forty-something-th time. Nothing new to decide; recorded because the throughput number (4 of 39)
 is the concrete cost figure the item has otherwise lacked.
 
+## Updates 2026-08-14 (wiki harvest)
+
+### 113. The asymmetry report needs a "target holds no references" grouping
+
+`find_merge_candidates.py --asymmetry-only` emits **8,633 one-way pairs** as a flat list. Two
+polish runs in two days independently guessed it was blind to bare entries; it is not (see
+Cleanup P57). What it lacks is the one split that turns its output into work: **2,183 of those
+pairs point at a target with no `cross_references` and no `prominent_see_also` at all** — 1,550
+distinct entries — where the back-reference decision needs no judgment, against 6,450 pairs
+where the target has a reference list and chose differently.
+
+Ask: a `--bare-targets` flag (or a `bare_target: true` field in `--json`) plus grouping by
+target, so 正月 appears once with its ten inbound references rather than ten times among 8,633
+lines. Both are read-only additions to an existing report. **Cost**: small. **Value**: converts
+a report nobody works into a queue a `systemic-fix` run can take.
+
+### 114. The furigana screening cache cannot express "re-screen entries screened before X"
+
+The 2026-08-14 accuracy-review run measured the cost of the stale cache directly: in 9809–10400,
+**46 of 48 `flagged` entries had been screened before the 2026-08-11 `trim_context` fix**;
+re-screening the same entries with the current prompt cut them to 10, of which 2 were real. The
+~36 eliminated flags were all the truncated-wrapper family (`{天文台|てんもんだ)`) that
+`trim_context` was written to remove — and `--pass deep --range` deep-reviews every one of them
+at ~$0.01/entry.
+
+The run asked for a `--rescreen-before DATE` flag. **As stored, that cannot be implemented**:
+`reviews/screening/screening_status.json` is `{"screened": {id: "ok"|"flagged"}, "last_updated":
+<one timestamp for the whole file>}` — 10,888 entries, **1,002 currently `flagged`**, and not one
+per-entry timestamp. So the item is two changes, in order:
+
+1. **Stamp per entry** — store `{"status": ..., "screened_at": ..., "prompt_version": ...}`.
+   This is the same defect as item 110 (`reviewed_at` not written at pass time) in the other
+   review instrument, and the same fix.
+2. Then `--rescreen-before` becomes trivial. Until then the only available remedy is a one-time
+   reset of the 1,002 `flagged` values so they re-screen cheaply (~$0.0001/entry) instead of
+   being deep-reviewed at 100× the price.
+
+Related: `quality-metrics.md` attributes the `furigana` dimension's ~1% apply rate partly to
+this cache, so the fix also un-contaminates a headline metric.
+
+### 115. `--notes-only` mode for the inline-link checks
+
+From the 2026-08-13 polish run: in the priority-lane entries it worked, examples were usually
+fully linked while the *notes* were bare — 00970 緑 was the extreme case, every example linked
+and ~12 unlinked words in the notes. The existing queue item
+`inline-link-examples-bare-notes-linked` (33) is the mirror image of this and was found because
+someone looked; nobody has measured the notes-bare direction, because every link instrument
+scans both fields together and reports one number per entry. A `--notes-only` switch on the
+link checks would size it in one run.
+
+### 116. A rendaku sanity check in `manage_candidates.py add`
+
+Candidate C23122 stored 足手まとい as あしてまとい; the standard modern reading is あしでまとい.
+It was caught at entry creation, but nothing in the candidate pipeline checks it — and a wrong
+reading in the queue becomes a wrong `romaji` in the entry ID, which
+[CLAUDE.md](../../../CLAUDE.md) forbids renumbering later because IDs are URLs. Ask: when a
+candidate's reading contains a compound-second-element kanji whose standard reading voices
+(手→で, 川→がわ, 箱→ばこ, 紙→がみ, 花→ばな …) and the stored reading uses the unvoiced form, warn.
+Rendaku is not fully rule-governed, so this must warn rather than rewrite — but the warning is
+free and the class of error it catches is permanent.
+
+### 117. Two furigana detectors the polish and review lanes asked for
+
+- **Ruby spans that cross a word boundary.** 06925 故に carried `{我思|われおも}う` as a single
+  span, which had to be split into `{我|われ}{思|おも}う` before either word could be linked. A
+  span whose kanji run contains a boundary between two known headwords blocks linking silently,
+  and the linking step is where it surfaces — one entry at a time.
+- **Single-kanji spans carrying their in-compound reading.** Component/etymology sections present
+  a kanji with the reading it takes *inside* the compound rather than its own: 10043
+  `{風|ぷう}` (from 薫風), 10082 `{面|なも}` (from 水面). Both were genuine errors; 10083 陽炎 does
+  the same job correctly with standalone readings. Cheap predicate: a single-kanji span whose
+  reading begins with a voiced or handakuten mora that is unvoiced in the kanji's own readings —
+  and `kanji/` already holds on'yomi and kun'yomi for every kanji in the dictionary, so the
+  check needs no new data.
+
+### Update to item 111 (the reviewer's `tags` dimension should report only off-vocabulary tags)
+
+New evidence from the 2026-08-13 accuracy-review: of 45 entries carrying an off-vocabulary tag
+in 09309–09808, the model reported **5 at `error` severity and 40 at `warn`** — for a property
+that is decidable by set membership against a list the prompt itself supplies. §A's
+effort-scaling rule invites working `error` flags individually and sampling `warn` flags, so a
+run that follows it misses 89% of the highest-precision class the reviewer produces. Two
+remedies, either sufficient: force `error` for set-membership failures in the prompt, or have
+accuracy-review runs start from the free, complete deterministic scan
+(`validate_tags.py`) and use the model only for the attachment question. The second is
+preferable because it stops paying a model to re-derive a set difference.
+
+### Update to item 84 (`RATE_LIMIT_INTERVAL` is what bounds review coverage)
+
+Second independent measurement, from the same run and the same account at the same time:
+`review_accuracy.py` covered 495 entries in ~20 minutes (~37/min) while
+`review_runner.py --pass screening` took ~50 minutes for 277 entries (~9/min). Screening also
+cost **eight times less** ($0.035 vs $0.216). The constraint on the cheaper instrument is
+therefore latency, not budget — the same conclusion item 84 reached from the other side, now
+with the two instruments measured against each other rather than against a target rate.
+
+### Correction: the `style: ["literary"]` retirement does not reproduce
+
+Retired on 2026-08-12 with: *"Measured across 06800–06999: **zero entries** carry
+`style: ["literary"]`."* Re-run this harvest over the same range: **five entries do** — 06879
+運命, 06897 眉をひそめる, 06903 耳を傾ける, 06954 残らず, 06971 よろめく. Three of the five
+(06879, 06954, 06971) were last modified *before* the retirement was written, so they carried the
+tag at the time it was measured.
+
+The conclusion the retirement drew still holds on the evidence available now — dictionary-wide,
+`literary` appears on **443 entries**, which is a normal style label rather than a batch artifact,
+and the contradiction the 2026-08-13 polish run proposed to sweep (`literary` co-occurring with
+`formality: informal`) is **3 entries** corpus-wide: 02792 けち, 06000 郷愁, 07400 巡り合わせ. No
+cleanup item is warranted, and やっぱ was correctly fixed by hand.
+
+What does not hold is the *number*, and that matters more than the verdict: a retirement is the
+strongest thing this wiki writes, and one written on a measurement that does not reproduce is
+worse than no retirement. Recorded on
+[Instrument Defects](../topics/instrument-defects.md) as case 10, with the practical rule —
+**a filing that retires an item should quote the command it ran**, the same discipline the
+2026-08-12 retirement note asked of filings that accuse an instrument.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address

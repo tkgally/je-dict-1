@@ -1,6 +1,8 @@
 # Instrument Defects vs. Corpus Defects
 
-**Last updated**: 2026-08-13 (case 9: the "stale `get_check_runs` API" reported by three Routine runs is most likely a stopwatch defect in the caller — §7's backgrounded `sleep 30` returns immediately, so an unawaited poll loop spends its entire ~16-poll budget in under a minute and reads "still running" as "stale". Escalated as Tooling 109; the API-staleness diagnosis is demoted to unproven.)
+**Last updated**: 2026-08-14 (case 10: a *retirement* that does not reproduce — "zero entries in 06800–06999 carry `style: ["literary"]`" was written on 2026-08-12 while five entries did, three of them unmodified since. The verdict survived re-measurement; the number did not. New rule: a filing that retires an item should quote the command it ran.)
+
+Prior 2026-08-13 (case 9: the "stale `get_check_runs` API" reported by three Routine runs is most likely a stopwatch defect in the caller — §7's backgrounded `sleep 30` returns immediately, so an unawaited poll loop spends its entire ~16-poll budget in under a minute and reads "still running" as "stale". Escalated as Tooling 109; the API-staleness diagnosis is demoted to unproven.)
 
 Prior 2026-08-11
 
@@ -285,6 +287,35 @@ sessions do not edit prompts. Filed as [Tooling 109](../ideas/tooling-backlog.md
 Routine run executes. An instrument defect there does not corrupt an entry — it strands a
 finished PR, which is the failure mode §0a exists to clean up after, and the one the project
 has spent the most process design on.
+
+### 10. The retirement that does not reproduce
+
+**Signal**: on 2026-08-12 a harvest retired a filing with a measurement. The filing (from a
+06881 fix) asked whether a creation batch had applied `style: ["literary"]` by template
+elsewhere; the retirement answered: *"Measured across 06800–06999: **zero entries** carry
+`style: ["literary"]`. 06881 was a single mis-tag, with no batch behind it."*
+
+**What re-running it finds**: five entries in that range carry exactly that value — 06879 運命,
+06897 眉をひそめる, 06903 耳を傾ける, 06954 残らず, 06971 よろめく. Three of the five were last
+modified *before* 2026-08-12, so they held the tag while it was being measured as absent. The
+next day, a polish run found a sixth entry in the same range (06915 やっぱ) carrying `literary`
+on a casual spoken contraction and filed the pattern again — against a page that said it had
+been measured to zero.
+
+**Why it belongs on this page.** Every other case here is an instrument that made the corpus
+look worse than it is. This one is an instrument that made the corpus look *cleaner* than it is,
+which is the more dangerous direction: a false positive costs one adjudication, a false
+retirement closes a question and takes the evidence with it. The verdict happened to survive
+re-measurement — `literary` is on 443 entries dictionary-wide, a normal style label, and the
+contradiction worth sweeping (`literary` with `formality: informal`) is 3 entries — but that is
+luck, not method.
+
+**Rule.** A filing that *retires* an item should quote the command it ran, not just its result.
+The 2026-08-12 harvest asked exactly this discipline of filings that accuse an instrument
+("a filing against a data file should quote the lookup that failed"); retirements are the
+stronger claim and need it more. A quoted predicate is also what lets the next session tell
+"the population changed" from "the query was wrong" — here, three unmodified entries are what
+distinguish the two, and they were only checkable because entries carry a `modified` timestamp.
 
 ## What the cases have in common
 

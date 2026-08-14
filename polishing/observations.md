@@ -1251,159 +1251,47 @@ one entry at a time, since the frontier has entered the block.
 
 All observations cleared.)_
 
-## 2026-08-13 — routine accuracy-review (09309–09808)
+## 2026-08-14 (routine wiki harvest — all prior observations cleared)
 
-- [pattern] The off-vocabulary semantic-tag cohort thins sharply at 09309. A deterministic scan
-  of `metadata.tags.semantic` against `VALID_SEMANTIC` found **45 of 495 entries (9%)** in
-  09309–09808, against **46%** in the immediately preceding 08851–09350 block reviewed on
-  2026-08-12. The contaminated creation-batch band appears to end around 09350; the residue here
-  is concentrated in one sub-block (09351–09465) and is clean above 09465.
-- [tooling] The reviewer's severity assignment for off-vocabulary tags is arbitrary. Of the 45
-  off-vocab entries, the model reported **5 at `error` severity and 40 at `warn`**, even though
-  "not in `VALID_SEMANTIC`" is decidable by set membership and the reviewer prompt embeds the
-  list. A run that works only `error`-severity tag flags (which §A's effort-scaling rule
-  invites) would miss 89% of this class. Either the prompt should force `error` for
-  set-membership failures, or accuracy-review runs should keep starting from the deterministic
-  scan (which is free and complete) rather than the model's severity ranking.
-- [pattern] Sole-`general` is the dominant tag flag in this range: **47 of 129 tag flags** were
-  "`general` is too broad for X" or an equivalent in-list narrowness swap, all rejected as a
-  family per §A policy. At that density the dictionary-wide `sole-general` count (3,677) will
-  keep re-surfacing in every accuracy-review range. Evidence for prioritising Cleanup P13 as a
-  dedicated systemic-fix batch rather than paying for a model to re-report it per range.
-- [pattern] The `location`/`urban` off-vocab family (11 + 5 instances here, all street and
-  district words: 路地裏, 裏通り, 繁華街, 住宅街, 地下街 …) has a settled in-list destination after
-  all: **`geography`**, which 54 existing street/district/area entries already use (横丁, 表通り,
-  並木道, 道端, 沿道, 区域, 付近 …), with `transportation` for road infrastructure (交差点, 車線,
-  T字路). This partially answers the 2026-08-13 curator escalation asking for a ruling on the
-  missing place/location tag: no new tag is needed for this class.
-- [pattern] Baseball vocabulary is split between two tags. About 30 entries use `sports` (安打,
-  三振, 投手, 打線, 完投 …) and about 12 use `leisure` (セーフ, 出塁, ピッチャー, 捕手, バッター,
-  フォアボール, ダッグアウト, ストライク, 野手, 大リーグ, 野球 itself …). `sports` is plainly the
-  convention; the `leisure` cluster is an outlier family a cheap systemic-fix sweep could clear
-  (detectable as: gloss contains "baseball" AND semantic contains `leisure`).
-- [pattern] Surname entries are tagged `person` (田中 09528, 鈴木 09530, 山田 09529, 佐藤 27597)
-  while place-name proper nouns carry `proper-noun` + `place-name` (甲子園 23102, 浅草 28393).
-  The reviewer flags `person` on surnames as too broad and wants `proper-noun`. Rejected here for
-  consistency with existing practice, but the two conventions disagree and one of them should be
-  written down — `person-name` and `proper-noun` both exist in `VALID_SEMANTIC` and neither is
-  used on surnames.
-- [tooling] The furigana screener is now the slow instrument. In this run `review_accuracy.py`
-  covered 495 entries in about 20 minutes (~37/min) while `review_runner.py --pass screening`
-  took about 50 minutes for 277 entries (~9/min, 223 more skipped as unchanged), on the same
-  OpenRouter account at the same time. Screening also cost eight times less ($0.035 vs $0.216),
-  so the constraint is latency, not budget — worth checking whether the screener batches its
-  requests as aggressively as the accuracy reviewer.
+_(All 34 observations from the two 2026-08-13 accuracy-review/polish runs, the 2026-08-13
+new-entries run, and the 2026-08-14 accuracy-review and polish runs have been harvested by the
+wiki maintenance session of 2026-08-14.
 
-## 2026-08-13 — routine polish (run 005)
+**Two new cleanup priorities, both from measuring the sighting instead of filing it.** P57: the
+"empty `cross_references` on basic/core nouns" filing came with a hypothesis — that the asymmetry
+report is blind to entries holding no references — which is wrong (it iterates sources and
+reports every A→B with no B→A). Measuring its output gave the item the hypothesis was reaching
+for: of 8,633 one-way pairs, **2,183 (1,550 distinct entries) point at a target with no
+references at all**, where the back-reference decision is already made. P58: baseball vocabulary
+at **83 `sports` vs 24 `leisure`** of 132 entries, with the false-positive family inside the
+cohort (キャップ, ノック, アウト are polysemous). Also sized: register markedness at **231
+basic/core nouns**, a review queue rather than a fix list.
 
-- [pattern] The interjection/filler block starting at the comprehensive frontier (06910 えーと,
-  06911 あのー, 06912 ほら, 06913 ねえ) had **zero inline links** across every example and note —
-  the same zero-link block that runs 006/007 hit at 06896–06901, so it continues unbroken through
-  at least 06913. 06914 よね (polished 2026-08-10) is fully linked, so the block appears to end
-  where recent polishing began. Expect the next few frontier runs to be link-heavy rather than
-  content-heavy.
-- [pattern] Basic-tier noun entries in the priority lane keep turning up with `cross_references: []`
-  while their own notes name three to five neighbours in a "COMPOUNDS"/"RELATED" section (00812
-  宿題, 00970 緑, 01392 毛, 01510 星, 02206 草, 02265 野菜 — six for six this run). In two cases
-  (00509 果物, 16279 生野菜) the neighbour already linked *back* to the entry, so the asymmetry was
-  visible from one side only. A detector that flags entries whose notes name an existing entry that
-  is absent from `cross_references` would find these mechanically.
-- [tooling] Notes fields are where the unlinked Japanese hides. Examples in these entries were
-  usually fully linked while the notes were bare (00970 緑 was the extreme case: every example
-  linked, ~12 unlinked words in the notes). A `--notes-only` mode on the inline-link checks would
-  target this directly.
-- [entry] 02206 草 carries `style: ["slang"]` for the whole entry because of its INTERNET SLANG
-  note, but the word itself is an ordinary noun; only the "w/lol" usage is slang. Left as-is —
-  changing it needs a policy call on whether `style` describes the headword or any documented sense.
-- [entry] 03605 武器 example 2 reads 「核武器の廃絶を訴える」. 核武器 is not idiomatic Japanese —
-  the standard term is 核兵器. Left unchanged this run (out of scope for the inline-link sweep),
-  but it needs a rewrite; the example also has to keep containing the headword 武器, so it likely
-  needs replacing rather than patching.
-- [entry] 03459 図書 notes gloss 図書カード as "library card". A 図書カード is normally a prepaid
-  book gift card; a borrower's card is 図書館カード or 貸出カード. Worth a check by the curator.
-- [pattern] Sole-`general` semantic tags keep dominating the §4 self-check flags: 7 of this run's
-  33-entry sample (03167 資源, 03174 遊園地, 03236 商人, 03335 磁器, 03643 有機, 03665 予測,
-  03748 未来) carried `semantic: ["general"]` on a word with an obvious in-list category, and all
-  seven were applied. `check_tag_drift.py`'s sole-general check (P13) already detects these
-  mechanically — the population looks large enough in the 03xxx band to deserve its own
-  systemic-fix pass rather than being cleaned up incidentally by self-check samples.
-- [pattern] Fourth consecutive stale-`noentry` band (entries 03167-03756, 181 pairs) where the
-  external self-check raised **zero** flags about a link target — every flag was a pre-existing
-  tag/gloss issue on an entry the sweep happened to touch. The per-entry context read is still
-  what catches the polysemy cases, but the evidence that A1+A2 short-base substitution is safe
-  when context-checked is now quite strong.
+**Half a curator escalation closed without a ruling.** The off-list place family (~40 instances)
+maps to `geography`, already used by **617 entries** for exactly these words — a `TAG_MIGRATION`
+row. The sound/perception half (29 instances) still has no destination, and 04095 足跡 adds a
+third gap (physical trace/mark). The off-vocabulary queue re-measured at 998 entries / 1,161
+instances / 394 names.
 
-## 2026-08-13 (routine new-entries, 30615-30634)
+**One retirement retired.** The 2026-08-12 note retiring the `style: ["literary"]` template
+hypothesis states "zero entries in 06800–06999"; five carry it, three unmodified since. The
+verdict survives (443 entries dictionary-wide; the `literary`+`informal` contradiction is 3
+entries corpus-wide, so no sweep) but the number does not — filed as Instrument Defects case 10,
+with the rule that a filing which *retires* an item must quote the command it ran.
 
-- [tooling] Candidate C23122 stored 足手まとい with the reading あしてまとい; the standard
-  modern reading is あしでまとい (rendaku on 手). The reading was corrected at entry creation,
-  but nothing in the candidate pipeline checks rendaku in compound readings, and a wrong
-  reading in the queue becomes a wrong `romaji` in the entry ID — which cannot be renumbered
-  later. A rendaku sanity check in `manage_candidates.py add` (flag 手/川/箱/etc. as the second
-  element of a compound and ask for confirmation) would catch this class before it reaches an ID.
-- [pattern] Second consecutive new-entries run with a completely clean §4 self-check
-  (0 flags on 20 entries, after 1-flag-rejected on the previous run). Freshly authored entries
-  are now essentially never flagged by the external reviewer, which suggests the self-check's
-  value on `new-entries` runs is mostly insurance rather than detection — worth watching for a
-  few more runs before deciding whether the budget is better spent on the accuracy-review sweep.
+**Five tooling items and one metrics refresh.** Tooling 113 (`--bare-targets` grouping for the
+asymmetry report), 114 (the screening cache holds 1,002 `flagged` of 10,888 under one file-level
+timestamp, so `--rescreen-before DATE` is unimplementable until entries are stamped individually),
+115 (`--notes-only` link checks), 116 (rendaku warning in `manage_candidates.py add`), 117 (two
+furigana detectors); updates to 111 (severity is arbitrary for a set-membership property) and 84
+(screening is latency-bound at ~9/min against accuracy review's ~37/min). Metrics 36th refresh:
+the off-vocabulary tag family escalated 74 flags for the first time, which makes its apply rate a
+leading indicator of taxonomy coverage.
 
-## 2026-08-13 (routine polish, 06915–06918 + priority lane)
+Entry follow-ups filed: 01420/02368 幸せ, 03605 武器 (核武器), 03459 図書カード, 02206 草,
+04095 足跡. Re-discoveries needing no item: `inline-link-block-06800-07100` (6th–8th),
+`inline-link-split-compound`, `inline-link-stale-noentry` + `stale-calendar-month-links` — the
+last already the lowest-numbered open batch-ready queue item, so the next `systemic-fix` run
+takes it.
 
-- [entry] 幸せ has two entries: 01420_shiawase ({幸せ|しあわせ}, noun, 3 examples) and 02368_shiawase ({幸|しあわ}せ, noun/na-adjective, 6 examples). Clear merge candidate — 02368 is the fuller and better-formatted one. Needs `consolidate_entries.md`.
-- [pattern] The colloquial-particle block around 06915–06918 (やっぱ, ぞ, なんて) was created with zero inline word links in examples and notes, while its neighbours (ぜ 06916, かしら 06921) are fully linked. Suggests a creation batch that predates the link requirement; entries 06919–06930 are likely in the same state and worth a targeted sweep.
-- [pattern] Stale `noentry` markers keep surfacing where the word has since been given an entry (06916 ぜ pointed わよ/のよ at `noentry` though 30248/30249 exist). `check_stale_noentry.py --mechanical` would clear this class in bulk.
-- [pattern] Basic/core-tier nouns polished long ago still routinely have an empty `cross_references` array while their obvious neighbours already back-link to them (02266 休み, 02273 映画, 02883 先, 00151 括弧, 00374 私鉄, 01351 お見舞い — six for six). The asymmetry report may be under-reporting because it only looks at entries that have at least one reference.
-- [pattern] `style: ["literary"]` was set on やっぱ (06915), a casual spoken contraction — the opposite of literary. Worth a detector sweep for `style: literary` co-occurring with `formality: informal`.
-
-## 2026-08-14 (routine accuracy-review, entries 9809-10400)
-
-- [tooling] Screening results written before the 2026-08-11 `trim_context` fix in
-  `build/review_runner.py` are still on disk and still marked `flagged`, and
-  `--pass deep --range` deep-reviews them at ~$0.01/entry. In 9809-10400, 46 of 48
-  flags predated the fix; re-screening those same entries with the current prompt
-  cut them to 10, of which only 2 were real. The ~36 eliminated flags were all the
-  truncated-wrapper family (`{天文台|てんもんだ)`) that `trim_context` was written to
-  remove. Suggest a one-time sweep that clears pre-2026-08-11 `flagged` entries from
-  `reviews/screening/screening_status.json` so future runs re-screen cheaply instead
-  of paying for deep review of known-fixed noise, or a `--rescreen-before DATE` flag.
-- [pattern] Component/etymology breakdown sections are a blind spot for furigana
-  correctness: they present a single kanji with the reading it takes *inside the
-  compound* (10043 `{風|ぷう}` from 薫風, 10082 `{面|なも}` from 水面) rather than the
-  kanji's own reading. Both were genuine errors. Other entries (10083 陽炎) do it
-  correctly with standalone readings. A detector for single-kanji furigana pairs
-  whose reading starts with a voiced/handakuten mora that is unvoiced in the
-  standalone reading would find this family cheaply.
-
-## 2026-08-14 (routine polish, priority lane 03476-04095 + frontier 06919-06925)
-
-- [pattern] Stale `noentry` markers keep turning up in entries last touched
-  months ago: 03500 半ば pointed 月(がつ) at `noentry` although 30418_gatsu now
-  exists (3 occurrences), and 04091 利害 pointed 利(り) at `noentry` although
-  29142_ri exists. `build/check_stale_noentry.py --mechanical` already detects
-  this class; the P35 backlog item is worth scheduling as a `systemic-fix` run
-  rather than waiting for the polish frontier to reach each entry.
-- [pattern] The 06919-06925 block (っていう, ていうか, 及び, 並びに, 若しくは,
-  故に) was created with **zero** inline links in either examples or notes —
-  the same "whole block created without links" pattern noted for 06900 on
-  2026-08-13. Entries created in this ID range in January 2026 appear to
-  predate the inline-link convention, so the frontier lane should expect
-  full-linking work (not spot fixes) for a while yet.
-- [pattern] Register tags on ordinary vocabulary are drifting toward "marked":
-  03552 徹夜 carried `style: slang` + `domain: colloquial` (it is a normal
-  everyday noun; the slang item was オール, mentioned in its notes), and
-  04095 足跡 carried `formality: formal` + `style: literary` (footprints in the
-  snow). Both look like a tagger reading the *notes* rather than the headword.
-  A detector for `style`/`formality` markedness on basic/core nouns would find
-  more of this family.
-- [pattern] Multi-word pronouns are being linked component-wise even when the
-  compound has its own entry: 03795 我々's notes linked 私 + たち separately
-  though 28351_watashitachi exists. Worth a targeted check for
-  ⟦…私…⟧⟦たち…⟧ style adjacent-link pairs that duplicate a real compound entry.
-- [entry] 04095 足跡 keeps the placeholder `general` semantic tag: no in-list
-  category covers "physical trace/mark". Same gap family as the missing
-  sound/perception tag logged 2026-08-13.
-- [tooling] Compound furigana spans that cross word boundaries block correct
-  linking: 06925 故に had `{我思|われおも}う` as one ruby span, which had to be
-  split into `{我|われ}{思|おも}う` before either word could be linked. A
-  detector for ruby spans whose kanji run spans a known word boundary would
-  surface these before the linking step.
+All observations cleared.)_
