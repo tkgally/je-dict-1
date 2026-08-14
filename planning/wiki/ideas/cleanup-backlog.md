@@ -2405,6 +2405,39 @@ argument yet that the per-entry read is cheap insurance rather than the thing fi
 but the two rejections it did catch (朝日新聞, フライ) were both invisible to every mechanical
 test, so the item stays `verify: per-entry`.
 
+**2026-08-14 systemic-fix run** — fifth per-entry short-base batch, and the third consecutive
+fully clean one. 174 A1/A2 pairs (210 instances, 141 entries, IDs 03757–04458) were read in a
+±60-character context window and applied, with **zero rejections**; the queue is now **751 pairs
+/ 865 instances** and everything below **04459** is swept for A1+A2.
+
+The band's one genuinely new question was **compound-element markers** — a marker sitting on one
+half of a lexicalized compound, pointing at that half's standalone entry. Three 込む pairs
+(`04226` 持ち込む, `04229` 打ち込む, `04237` 押し込む, all in "formed from X + 込む (into)"
+decomposition notes) target `00719_komu`, whose *gloss* is "to be crowded" — a different sense
+from the compound suffix. Likewise `03916`'s 思い浮かぶ targets `10248_omoi` "thought, feeling",
+the noun rather than the verb stem. Both were **applied** after opening the target entries:
+`00719`'s notes carry an explicit `〜{込|こ}む (compound suffix: into)` line, and `10248`'s notes
+list 思い出/思い入れ/思い込み under COMMON COMPOUNDS. This is the 年寄り臭い → `01133_kusai`
+precedent again, and the rule it establishes is now firm enough to state generally: **for a
+compound-element marker, the test is whether the target entry's notes document the compound role,
+not whether its gloss expresses it.** Gloss-only screening would have rejected all four.
+
+Families verified as groups in this band: morphological-decomposition notes in compound-verb
+entries (取り除く = 取る + 除く, 振り返る = 振る + 返る, 再生 = 再〜 + 生), kendo and karate
+equipment/scoring terms (小手/組み手/面), Tokyo district names used as places
+(上野/浅草/新宿/成田), medical term lists (心不全/狭心症/心電図/弁膜症/見当識), plant and food
+compounds (甘栗/毬栗/白桃/甘柿/芍薬/藤棚), and katakana loanwords whose target entry carries the
+needed sense (ツボ "the right spot", オール "oar", エース "top player") — the same shape as the
+2026-08-13 ベスト/カード family.
+
+`04379` 銀杏 is worth recording as a clean demonstration of **class R doing its job**: the entry
+documents both readings (いちょう the tree, ぎんなん the nut), and only the `{銀杏|ぎんなん}`
+marker was linked to `28490_ginnan`. The homograph family that produced 2026-08-08's rejections
+is now genuinely handled mechanically.
+
+Running false-positive rate across the 893 hand-verified short-base pairs (2026-08-09 through
+2026-08-14): **~0.2%**.
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword

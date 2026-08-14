@@ -1357,3 +1357,30 @@ All observations cleared.)_
   prompt and several skills describe registers as "casual", which invites `formality: "casual"` and
   a validation failure at the end of a session (hit three times this run). Worth aligning the prompt
   wording with the schema value `informal`.
+
+## 2026-08-14 routine (systemic-fix, P35 stale-noentry band 03757-04458)
+
+[pattern] Compound-element inline-link markers (one half of a lexicalized compound pointing at
+that half's standalone entry) are decided by the TARGET ENTRY'S NOTES, not its gloss. 込む ->
+00719_komu ("to be crowded") looks wrong by gloss but the notes carry an explicit
+"〜込む (compound suffix: into)" line; 思い -> 10248_omoi ("thought, feeling") likewise lists
+思い出/思い入れ/思い込み under COMMON COMPOUNDS. Four applies this run that gloss-only screening
+would have rejected. Same precedent as 年寄り臭い -> 01133_kusai (2026-08-13).
+
+[tooling] 03995_atena carries a katakana headword wrapped in furigana braces with a hiragana
+reading: `{ラベル|らべる}`. Katakana needs no furigana, and neither validate.py nor
+find_missing_furigana.py flags the inverse case (furigana supplied where none is wanted).
+Possible cheap detector cut: brace groups whose base is all-katakana. Scope unmeasured.
+
+[pattern] Formality tag `formal` on ordinary everyday words keeps appearing where the entry's
+notes mark a DIFFERENT word as the formal alternative — 03922 削る (notes: 削減する is formal),
+04077 火傷 (notes: 火傷を負う is formal), 04222 取り除く (notes: 除去する is "more formal,
+technical"). The mis-tagging looks like it was read off a neighbouring collocation. The §A rule
+("apply only when the entry's own notes contradict the label") resolves these correctly, but the
+inverse-reading pattern may be mechanically detectable: `formality: formal` where the only
+"formal" string in notes attaches to a cross-referenced word.
+
+[entry] Sole-`general` semantic tags remain dense in the 03900-04450 band: 7 of 36 sampled
+entries (武士, 親類, 眉, 花弁, 銀杏, 笹, 認知症) — ~19%, all with obvious in-list destinations
+(history, family, body-part, plant-flower, plant-tree, plant-general, health). P13's detector
+already tracks these; the band is worth a targeted pass.
