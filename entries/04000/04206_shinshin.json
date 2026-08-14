@@ -63,10 +63,26 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{心身|しんしん}⟦ともに→共に：03468_tomoni⟧ (both mentally and physically)\n・{心身|しんしん}⟦の→の：09472_no⟧⟦{健康|けんこう}→健康：02706_kenkou⟧ (mental and physical health)\n・{心身|しんしん}⟦の→の：09472_no⟧⟦{バランス|ばらんす}→バランス：03870_baransu⟧ (mind-body balance)\n・{心身|しんしん}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧ (to train mind and body)\n\nRELATED CONCEPTS:\n・{心身|しんしん}⟦{症|しょう}→症：noentry⟧ (psychosomatic disorder)\n・{心身|しんしん}⟦{医学|いがく}→医学：01301_igaku⟧ (psychosomatic medicine)\n・{心身|しんしん}⟦{障害|しょうがい}→障害：03228_shougai⟧ (mental and physical disability)\n\nSIMILAR:\n・⟦{精神|せいしん}→精神：03377_seishin⟧⟦と→と：00512_to⟧⟦{肉体|にくたい}→肉体：13912_nikutai⟧ (spirit and body - more literary)",
+  "notes": "COMMON PATTERNS:\n・{心身|しんしん}⟦ともに→共に：03468_tomoni⟧ (both mentally and physically)\n・{心身|しんしん}⟦の→の：09472_no⟧⟦{健康|けんこう}→健康：02706_kenkou⟧ (mental and physical health)\n・{心身|しんしん}⟦の→の：09472_no⟧⟦{バランス|ばらんす}→バランス：03870_baransu⟧ (mind-body balance)\n・{心身|しんしん}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧ (to train mind and body)\n\nRELATED CONCEPTS:\n・⟦{心身症|しんしんしょう}→心身症：noentry⟧ (psychosomatic disorder)\n・{心身|しんしん}⟦{医学|いがく}→医学：01301_igaku⟧ (psychosomatic medicine)\n・{心身|しんしん}⟦{障害|しょうがい}→障害：03228_shougai⟧ (mental and physical disability)\n\nSIMILAR:\n・⟦{精神|せいしん}→精神：03377_seishin⟧⟦と→と：00512_to⟧⟦{肉体|にくたい}→肉体：13912_nikutai⟧ (spirit and body - more literary)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03377_seishin",
+      "reading": "せいしん",
+      "headword": "{精神|せいしん}",
+      "label": "the mind/spirit half"
+    },
+    {
+      "type": "related",
+      "target_id": "13912_nikutai",
+      "reading": "にくたい",
+      "headword": "{肉体|にくたい}",
+      "label": "the body half"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-08-14T14:49:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -79,7 +95,7 @@
       ],
       "politeness": "plain",
       "semantic": [
-        "general"
+        "health"
       ]
     }
   }

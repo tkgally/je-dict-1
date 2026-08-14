@@ -44,7 +44,7 @@
     },
     {
       "id": "04930_nattou_ex4",
-      "japanese": "{納豆|なっとう}⟦に→に：00314_ni⟧⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧⟦と→と：00512_to⟧⟦からし→からし：noentry⟧⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧。",
+      "japanese": "{納豆|なっとう}⟦に→に：00314_ni⟧⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧⟦と→と：00512_to⟧⟦からし→からし：28711_karashi⟧⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧。",
       "english": "Add soy sauce and mustard to the natto and mix it.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "A highly nutritious food rich in protein, vitamin K2, and probiotics. Typically eaten for breakfast with rice, often with:\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ or ⟦{付属|ふぞく}→付属：27518_fuzoku⟧⟦の→の：09472_no⟧⟦タレ→タレ：10500_tare⟧ (soy sauce or included sauce)\n- ⟦からし→からし：noentry⟧ (mustard)\n- ⟦ねぎ→葱：05189_negi⟧ (green onion)\n- ⟦{生卵|なまたまご}→生卵：19011_namatamago⟧ (raw egg)\n\nThe stringy texture is called ⟦{糸|いと}→糸：01315_ito⟧⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ (drawing threads). Regional specialty of ⟦{水戸|みと}→水戸：noentry⟧ in Ibaraki Prefecture. Opinions are divided - some love it, others can't stand it (⟦{好|す}き→好き：02355_suki⟧⟦{嫌|きら}い→嫌い：02871_kirai⟧⟦が→が：00051_ga⟧⟦{分|わ}かれる→分かれる：10976_wakareru⟧).",
-  "cross_references": [],
+  "notes": "A highly nutritious food rich in protein, vitamin K2, and probiotics. Typically eaten for breakfast with rice, often with:\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ or ⟦{付属|ふぞく}→付属：27518_fuzoku⟧⟦の→の：09472_no⟧⟦タレ→タレ：10500_tare⟧ (soy sauce or included sauce)\n- ⟦からし→からし：28711_karashi⟧ (mustard)\n- ⟦ねぎ→葱：05189_negi⟧ (green onion)\n- ⟦{生卵|なまたまご}→生卵：19011_namatamago⟧ (raw egg)\n\nThe stringy texture is called ⟦{糸|いと}→糸：01315_ito⟧⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ (drawing threads). Regional specialty of ⟦{水戸|みと}→水戸：28730_mito⟧ in Ibaraki Prefecture. Opinions are divided - some love it, others can't stand it (⟦{好|す}き→好き：02355_suki⟧⟦{嫌|きら}い→嫌い：02871_kirai⟧⟦が→が：00051_ga⟧⟦{分|わ}かれる→分かれる：10976_wakareru⟧).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10536_daizu",
+      "reading": "だいず",
+      "headword": "{大豆|だいず}",
+      "label": "the soybean it is made from"
+    },
+    {
+      "type": "related",
+      "target_id": "04928_toufu",
+      "reading": "とうふ",
+      "headword": "{豆腐|とうふ}",
+      "label": "another soybean staple"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T12:48:25Z",
-    "modified": "2026-06-03T15:10:34Z",
+    "modified": "2026-08-14T14:49:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

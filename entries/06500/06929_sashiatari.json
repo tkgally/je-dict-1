@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06929_sashiatari_ex1",
-      "japanese": "{差|さ}し{当|あ}たり、この{計画|けいかく}で{進|すす}めましょう。",
+      "japanese": "{差|さ}し{当|あ}たり、⟦この→この：00962_kono⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦で→で：00502_de⟧⟦{進|すす}めましょう→進める：01949_susumeru⟧。",
       "english": "Let's proceed with this plan for the time being.",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06929_sashiatari_ex2",
-      "japanese": "{差|さ}し{当|あ}たり{必要|ひつよう}なものだけ{買|か}っておく。",
+      "japanese": "{差|さ}し{当|あ}たり⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦な→な：09497_na⟧⟦もの→物：02259_mono⟧⟦だけ→〜だけ：03093_dake⟧⟦{買|か}っておく→買う：00489_kau⟧。",
       "english": "I'll buy only what's needed for now.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "06929_sashiatari_ex3",
-      "japanese": "{差|さ}し{当|あ}たり{問題|もんだい}はないが、{将来|しょうらい}は{分|わ}からない。",
+      "japanese": "{差|さ}し{当|あ}たり⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧⟦が→が：00051_ga⟧、⟦{将来|しょうらい}→将来：01438_shourai⟧⟦は→は：00079_ha⟧⟦{分|わ}からない→分かる：00463_wakaru⟧。",
       "english": "There's no problem for now, but the future is uncertain.",
       "sense_numbers": [
         1
@@ -38,14 +38,14 @@
     },
     {
       "id": "06929_sashiatari_ex4",
-      "japanese": "{差|さ}し{当|あ}たりの{目標|もくひょう}は{合格|ごうかく}することだ。",
+      "japanese": "{差|さ}し{当|あ}たり⟦の→の：09472_no⟧⟦{目標|もくひょう}→目標：03631_mokuhyou⟧⟦は→は：00079_ha⟧⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦する→する：00392_suru⟧⟦こと→こと：01164_koto⟧⟦だ→だ：09496_da⟧。",
       "english": "My immediate goal is to pass.",
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "NUANCE: Implies temporariness—the current state or action is provisional and may be revised later.\n\nCOMMON USES:\n- Business decisions: temporary measures pending further discussion\n- Planning: immediate priorities vs long-term goals\n- Responses: tentative answers subject to change\n\nCOMMON PATTERNS:\n- {差|さ}し{当|あ}たり + verb: for now, [do something]\n- {差|さ}し{当|あ}たりの + noun: immediate/current [noun]\n\nSIMILAR EXPRESSIONS:\n- とりあえず: \"for now, first of all\" (more casual)\n- {当面|とうめん}: \"for the present, immediately\" (more formal)\n- ひとまず: \"for the moment, tentatively\"\n- {暫|しば}らく: \"for a while\"\n\nVS. とりあえず:\n- {差|さ}し{当|あ}たり: slightly more formal, emphasizes current focus\n- とりあえず: casual, often \"as a first step\"\n\nREGISTER: Neutral to slightly formal. Appropriate in business contexts.",
+  "notes": "NUANCE: Marks something as provisional — the current state or action holds for now and may well be revised later.\n\nCOMMON USES:\n・Business decisions: interim measures pending further discussion\n・Planning: immediate priorities as against long-term goals\n・Replies: tentative answers, subject to change\n\nCOMMON PATTERNS:\n・{差|さ}し{当|あ}たり + verb: for now, [do something]\n・{差|さ}し{当|あ}たり⟦の→の：09472_no⟧ + noun: the immediate / current [noun]\n\nSIMILAR EXPRESSIONS:\n・⟦とりあえず→とりあえず：05209_toriaezu⟧ — \"for now, first of all\" (more casual)\n・⟦{当面|とうめん}→当面：07579_toumen⟧ — \"for the present\" (more formal)\n・⟦ひとまず→ひとまず：05730_hitomazu⟧ — \"for the moment, tentatively\"\n・⟦しばらく→しばらく：01267_shibaraku⟧ — \"for a while\" (about duration, not provisionality)\n\nVS. ⟦とりあえず→とりあえず：05209_toriaezu⟧:\n・{差|さ}し{当|あ}たり is slightly more formal and stresses the present focus\n・⟦とりあえず→とりあえず：05209_toriaezu⟧ is casual and often means \"as a first step\"\n\nREGISTER: Neutral to slightly formal. At home in business contexts.",
   "cross_references": [
     {
       "type": "synonym",
@@ -67,18 +67,25 @@
       "reading": "とうめん",
       "headword": "{当面|とうめん}",
       "label": "for the present (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "01267_shibaraku",
+      "reading": "しばらく",
+      "headword": "しばらく",
+      "label": "for a while (duration)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-08-14T14:49:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "domain": [
         "business"
       ],

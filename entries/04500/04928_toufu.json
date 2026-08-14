@@ -64,10 +64,39 @@
     }
   ],
   "notes": "Common types:\n- ⟦{木綿|もめん}→木綿：01738_momen⟧{豆腐|どうふ} (firm tofu) - denser, holds shape well\n- ⟦{絹|きぬ}→絹：01383_kinu⟧ごし{豆腐|どうふ} (silken tofu) - smoother, softer texture\n- ⟦{焼|や}き→焼く：01123_yaku⟧{豆腐|どうふ} (grilled tofu) - for sukiyaki\n- ⟦{揚|あ}げ→揚げる：16879_ageru⟧⟦{出|だ}し→出汁：04917_dashi⟧{豆腐|どうふ} (deep-fried tofu in broth)\n\nCounted with ⟦{丁|ちょう}→丁：noentry⟧: ⟦{一丁|いっちょう}→一丁：noentry⟧ (one block).\n\nRelated foods: ⟦{厚揚|あつあ}げ→厚揚げ：07478_atsuage⟧ (thick fried tofu), ⟦{油揚|あぶらあ}げ→油揚げ：07477_aburaage⟧ (thin fried tofu), ⟦{高野豆腐|こうやどうふ}→高野豆腐：07948_kouyadoufu⟧ (freeze-dried tofu).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07478_atsuage",
+      "reading": "あつあげ",
+      "headword": "{厚揚|あつあ}げ",
+      "label": "thick fried tofu"
+    },
+    {
+      "type": "related",
+      "target_id": "07477_aburaage",
+      "reading": "あぶらあげ",
+      "headword": "{油揚|あぶらあ}げ",
+      "label": "thin fried tofu"
+    },
+    {
+      "type": "related",
+      "target_id": "07948_kouyadoufu",
+      "reading": "こうやどうふ",
+      "headword": "{高野豆腐|こうやどうふ}",
+      "label": "freeze-dried tofu"
+    },
+    {
+      "type": "related",
+      "target_id": "20258_maaboodoufu",
+      "reading": "まーぼーどうふ",
+      "headword": "{麻婆豆腐|マーボーどうふ}",
+      "label": "mapo tofu"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T12:48:25Z",
-    "modified": "2026-06-03T15:10:34Z",
+    "modified": "2026-08-14T14:49:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
