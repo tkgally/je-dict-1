@@ -1,0 +1,24 @@
+{
+  "entry_id": "09886_arigatougozaimasu",
+  "headword": "ありがとうございます",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:49:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword 'ありがとうございます' is not formal. It is polite, but not formal. The explanation for sense 1 also states it is used in formal situations, which is misleading.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

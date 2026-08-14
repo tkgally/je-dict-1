@@ -1,0 +1,24 @@
+{
+  "entry_id": "10334_konoyo",
+  "headword": "この{世|よ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:57:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'abstract-concept' is not in the valid tag list.",
+      "suggestion": "abstract"
+    }
+  ]
+}

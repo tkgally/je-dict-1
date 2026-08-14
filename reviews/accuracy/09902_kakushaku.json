@@ -1,0 +1,24 @@
+{
+  "entry_id": "09902_kakushaku",
+  "headword": "{矍鑠|かくしゃく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:49:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'age' is not in the valid tag list.",
+      "suggestion": "Replace 'age' with 'general' or 'descriptive'."
+    }
+  ]
+}

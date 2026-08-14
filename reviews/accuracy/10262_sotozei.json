@@ -1,0 +1,31 @@
+{
+  "entry_id": "10262_sotozei",
+  "headword": "{外税|そとぜい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:55:57Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'tax-exclusive price' is misleading. 外税 refers to the tax itself, or the system of adding tax separately, not the price.",
+      "suggestion": "tax not included in price; tax-exclusive"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'tax-exclusive, price before tax' is misleading. 外税 refers to the tax itself, or the system of adding tax separately, not the price.",
+      "suggestion": "tax not included in price; tax-exclusive"
+    }
+  ]
+}

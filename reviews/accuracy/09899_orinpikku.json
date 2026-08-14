@@ -1,0 +1,24 @@
+{
+  "entry_id": "09899_orinpikku",
+  "headword": "オリンピック",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:49:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too broad and doesn't accurately capture the nature of the Olympics.",
+      "suggestion": "sports"
+    }
+  ]
+}

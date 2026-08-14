@@ -1,0 +1,31 @@
+{
+  "entry_id": "09864_sainsuru",
+  "headword": "サインする",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:49:00Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 1 is misleading because 'サインする' can also mean 'to get an autograph' or 'to give an autograph', which is not covered by 'to sign (one's name)'.",
+      "suggestion": "Change 'to sign (one's name)' to 'to sign (one's name or an autograph)' or similar to encompass both meanings."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'I got an autograph from a famous player.' for '有名な選手にサインをもらった。' is correct, but the Japanese verb 'サインする' in the headword means 'to sign' or 'to give an autograph'. The example uses 'サインをもらう' which means 'to get an autograph'. This example does not directly illustrate the headword 'サインする'.",
+      "suggestion": "Replace the example with one that uses 'サインする' in the sense of giving an autograph, e.g., '有名な選手が私にサインしてくれた。' (A famous player signed for me.)"
+    }
+  ]
+}

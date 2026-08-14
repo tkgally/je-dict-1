@@ -1,0 +1,24 @@
+{
+  "entry_id": "10190_ryougaeki",
+  "headword": "{両替機|りょうがえき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:54:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'machine' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

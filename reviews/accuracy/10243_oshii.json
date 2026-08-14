@@ -1,0 +1,31 @@
+{
+  "entry_id": "10243_oshii",
+  "headword": "{惜|お}しい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:55:35Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'close' is misleading as a primary meaning for 惜しい. While it can mean 'close' in the sense of 'nearly succeeding', the core meaning is about regret or惜しむ気持ち (reluctance to part with something valuable). The current gloss prioritizes a secondary meaning.",
+      "suggestion": "regrettable, precious"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'regrettable, unfortunate, a shame' is missing the nuance of 'precious' or 'valuable' which is central to this sense of 惜しい, especially as seen in example 0.",
+      "suggestion": "precious, regrettable, a shame"
+    }
+  ]
+}

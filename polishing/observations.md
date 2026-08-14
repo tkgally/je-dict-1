@@ -1354,3 +1354,22 @@ All observations cleared.)_
 - [pattern] Stale `noentry` markers keep surfacing where the word has since been given an entry (06916 ぜ pointed わよ/のよ at `noentry` though 30248/30249 exist). `check_stale_noentry.py --mechanical` would clear this class in bulk.
 - [pattern] Basic/core-tier nouns polished long ago still routinely have an empty `cross_references` array while their obvious neighbours already back-link to them (02266 休み, 02273 映画, 02883 先, 00151 括弧, 00374 私鉄, 01351 お見舞い — six for six). The asymmetry report may be under-reporting because it only looks at entries that have at least one reference.
 - [pattern] `style: ["literary"]` was set on やっぱ (06915), a casual spoken contraction — the opposite of literary. Worth a detector sweep for `style: literary` co-occurring with `formality: informal`.
+
+## 2026-08-14 (routine accuracy-review, entries 9809-10400)
+
+- [tooling] Screening results written before the 2026-08-11 `trim_context` fix in
+  `build/review_runner.py` are still on disk and still marked `flagged`, and
+  `--pass deep --range` deep-reviews them at ~$0.01/entry. In 9809-10400, 46 of 48
+  flags predated the fix; re-screening those same entries with the current prompt
+  cut them to 10, of which only 2 were real. The ~36 eliminated flags were all the
+  truncated-wrapper family (`{天文台|てんもんだ)`) that `trim_context` was written to
+  remove. Suggest a one-time sweep that clears pre-2026-08-11 `flagged` entries from
+  `reviews/screening/screening_status.json` so future runs re-screen cheaply instead
+  of paying for deep review of known-fixed noise, or a `--rescreen-before DATE` flag.
+- [pattern] Component/etymology breakdown sections are a blind spot for furigana
+  correctness: they present a single kanji with the reading it takes *inside the
+  compound* (10043 `{風|ぷう}` from 薫風, 10082 `{面|なも}` from 水面) rather than the
+  kanji's own reading. Both were genuine errors. Other entries (10083 陽炎) do it
+  correctly with standalone readings. A detector for single-kanji furigana pairs
+  whose reading starts with a voiced/handakuten mora that is unvoiced in the
+  standalone reading would find this family cheaply.

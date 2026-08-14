@@ -1,17 +1,8 @@
 {
   "entry_id": "10334",
-  "screened_at": "2026-06-26T16:13:57Z",
+  "screened_at": "2026-08-14T00:46:46Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for `美` should be `うつくし` to cover the kanji portion, not `うつく`.",
-    "The reading for `終` should be `おわ` to cover the kanji portion, not `お`.",
-    "The reading for `去` should be `さる` to cover the kanji portion, not `さ`.",
-    "The reading for `生` (in `生きる`) should be `いき` to cover the kanji portion, not `い`.",
-    "The reading for `生` (in `生まれる`) should be `うま` to cover the kanji portion, not `う`.",
-    "The reading for `現世` should be `げんせ` to cover the kanji portion, not `げんせ` (it's already correct, but the prompt implies it should be `げんせ` and then the rest of the word is missing).",
-    "The reading for `世界` should be `せかい` to cover the kanji portion, not `せかい` (it's already correct, but the prompt implies it should be `せかい` and then the rest of the word is missing).",
-    "The reading for `中` should be `なか` to cover the kanji portion, not `なか` (it's already correct, but the prompt implies it should be `なか` and then the rest of the word is missing)."
-  ],
-  "confidence": 0.9
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

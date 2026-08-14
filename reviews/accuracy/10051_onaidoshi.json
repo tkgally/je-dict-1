@@ -1,0 +1,24 @@
+{
+  "entry_id": "10051_onaidoshi",
+  "headword": "{同|おな}い{年|どし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:52:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'interpersonal' is not in the valid tag list.",
+      "suggestion": "family"
+    }
+  ]
+}

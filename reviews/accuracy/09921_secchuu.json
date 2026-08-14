@@ -1,0 +1,31 @@
+{
+  "entry_id": "09921_secchuu",
+  "headword": "{折衷|せっちゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:50:10Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'style' is not in the valid tag list.",
+      "suggestion": "Replace 'style' with 'general' or 'descriptive'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'method' is not in the valid tag list.",
+      "suggestion": "Replace 'method' with 'general' or 'action'."
+    }
+  ]
+}

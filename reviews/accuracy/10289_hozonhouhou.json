@@ -1,0 +1,24 @@
+{
+  "entry_id": "10289_hozonhouhou",
+  "headword": "{保存方法|ほぞんほうほう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:56:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is too narrow for '保存方法'. While often used for food, it applies to other items like medicine or chemicals as well.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

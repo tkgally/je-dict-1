@@ -1,0 +1,24 @@
+{
+  "entry_id": "10179_shutsuryokusouchi",
+  "headword": "{出力装置|しゅつりょくそうち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:54:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'computing' is not in the valid tag list.",
+      "suggestion": "technology"
+    }
+  ]
+}

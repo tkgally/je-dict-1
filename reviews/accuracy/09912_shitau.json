@@ -1,0 +1,31 @@
+{
+  "entry_id": "09912_shitau",
+  "headword": "{慕|した}う",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:49:59Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'affection' is not in the valid tag list.",
+      "suggestion": "emotion"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '慕う' is not formal. It is a common verb used in everyday language.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "10048_sumiwake",
+  "headword": "{棲|す}み{分|わ}け",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:52:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'ecology' is not in the valid tag list.",
+      "suggestion": "science"
+    }
+  ]
+}

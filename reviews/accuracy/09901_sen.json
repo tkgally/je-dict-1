@@ -1,0 +1,38 @@
+{
+  "entry_id": "09901_sen",
+  "headword": "{線|せん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:49:47Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The headword '線' is a noun meaning 'line', 'route', or 'wire'. The gloss incorrectly states '(suffix)' which is only true for some uses, not the headword itself.",
+      "suggestion": "line; route; wire"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 1 incorrectly states '(suffix)' which is only true for some uses, not the headword itself.",
+      "suggestion": "line; route"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 2 incorrectly states '(suffix)' which is only true for some uses, not the headword itself.",
+      "suggestion": "wire; cable"
+    }
+  ]
+}

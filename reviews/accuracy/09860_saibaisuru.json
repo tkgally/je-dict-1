@@ -1,0 +1,24 @@
+{
+  "entry_id": "09860_saibaisuru",
+  "headword": "{栽培|さいばい}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:48:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'action' is too general and doesn't capture the specific meaning of '栽培する'.",
+      "suggestion": "Replace 'action' with 'plant-general' or 'agriculture'."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "10374_tsumamu",
+  "headword": "つまむ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-14T00:58:00Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'body-action' is not in the valid tag list.",
+      "suggestion": "body-part"
+    },
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'food-eating' is not in the valid tag list.",
+      "suggestion": "food"
+    }
+  ]
+}

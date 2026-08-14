@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-26T03:24:11Z",
+  "reviewed_at": "2026-08-14T00:48:36Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'building' is too narrow for the headword's meaning, which encompasses various types of places, not just buildings.",
+      "suggestion": "place"
+    }
+  ]
 }
