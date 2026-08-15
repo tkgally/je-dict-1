@@ -1653,6 +1653,22 @@ find the rest of the batch cheaply and is a better route than meeting them one a
 priority lane. Recorded here rather than as a tooling item because the scorer already computes
 everything needed; the query is a filter over `build/score_note_quality.py` output.
 
+### 06920, 16105 — check the ていうか / というか / つーか cluster for stacked contractions
+
+The 2026-08-15 polish run found 06941 つーか carrying the example
+`難しいっていうか、つーか無理だよ`, which stacks っていうか and つーか in one clause — not natural
+Japanese, since the two are the same word at different contraction levels. It rewrote that
+example to `難しい、つーか無理だよ` and flagged the two sibling entries in the cluster as likely to
+carry the same shape. Both are quick to check: read each example for two members of the cluster
+in one clause.
+
+### 06946 をもって — `三月末` is marked `noentry` and probably should stay that way
+
+The example `{三月末|さんがつまつ}をもって…` links 三月末 as `noentry`. The 2026-08-15 polish run
+judged it compositional (三月 + 末) and not headword-worthy, so it filed no candidate. Recorded
+here only so the decision is visible: if a later run disagrees, the marker is in place and the
+entry is the one to revisit.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

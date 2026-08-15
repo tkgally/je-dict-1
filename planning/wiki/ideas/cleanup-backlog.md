@@ -3373,6 +3373,9 @@ not three small ones.
 
 ## Priority 50: Zero links *anywhere*, behind the frontier (55 entries) — the other half of P46
 
+> **Re-measured 2026-08-15: 54 entries**, and they fall in six contiguous ID runs rather than
+> scattered — see [Updates 2026-08-15 (run 2)](#p50-re-measured-54-from-55-and-the-residue-is-contiguous-runs).
+
 **Source**: two independent 2026-08-09 routine polish observations, both proposing the same
 instrument — "a detector that reports entries with Japanese examples containing no ⟦⟧ at all
 would size this block precisely and is cheap to write — it is a pure absence test, no judgment
@@ -4373,6 +4376,118 @@ of the task. Not mechanizable as specified.
   linking, worth a targeted sweep") — it is not a batch artifact. See
   [Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23404-and-not-a-defect),
   where this harvest replaced the single-window growth note with a 66-day measurement.
+
+## Updates 2026-08-15 (wiki harvest, run 2)
+
+Twelve observations from the three runs since the midday harvest. One new priority, one
+re-measurement, and — the useful part — **the zero-link "creation cohort" claim finally has an
+explanation for why it keeps coming back.**
+
+### Priority 62: `・` bullets in notes — 2,496 entries the note scorer silently penalises
+
+**Source**: the 2026-08-15 polish run, which met eight of them on the priority lane, converted
+them, and watched each score go 77 → 87.
+
+`.claude/skills/vocabulary-notes/SKILL.md` mandates `- ` (hyphen-space) for note bullet lists.
+`build/score_note_quality.py` credits only `- `. Entries that use `・` instead therefore lose a
+fixed 10 points for a defect that is purely typographic, and those 10 points are enough to push
+an otherwise-sound entry up the notes priority ranking.
+
+Measured 2026-08-15 across all 30,464 entries:
+
+| | count |
+|---|---|
+| entries with line-initial `・` in `notes` | **2,496** |
+| `・` bullet lines across them | 18,089 |
+| of the **top 500** entries on `polishing/priority/notes.txt`, carrying `・` bullets | **130 (26%)** |
+
+The 26% figure is the item's real argument. It is lower than the filing's "the priority lane is
+currently full of them", but a quarter of the worst-scoring queue being mis-ranked for a
+character substitution is still the largest single distortion measured on that ranking, and it
+compounds with the [item 20](tooling-backlog.md) staleness problem: the lane spends a quarter of
+its attention re-deciding entries whose notes are fine.
+
+**Why this is batch-safe.** The transformation is `^・` → `- `, per line, **notes field only**.
+`・` is also the katakana middle dot (ローマ・カトリック, an author's ・-joined name), so a
+global replace would corrupt running text — but a line-initial `・` in a bullet list cannot be a
+mid-word separator. This is the shape §B calls "provably cannot introduce an error", and it is
+still worth validating and spot-checking before commit.
+
+**Sequencing note, from P16's standing lesson**: nothing generates `・` bullets today (they are
+hand-written), so unlike P59/P60 there is no generator to fix first. But `make priorities`
+should be re-run *after* the sweep, or the ranking keeps the pre-sweep order.
+
+### P50 re-measured: 54 (from 55), and the residue is contiguous runs
+
+Re-scanning below the current frontier (`next: 06947`) gives **54** zero-link entries, one fewer
+than the 2026-08-09 sizing — the frontier advanced ~100 IDs in six days and cleared one. The
+item is not converging on its own.
+
+What the re-scan adds is the *shape*: the 54 are not scattered. They are six contiguous runs —
+03949–03969 (21), 06006–06014 (9), 06670–06676 (7), 06593–06598 (6), 06363–06367 (5), plus
+seven singletons (03100, 03356, 04620, 04623, 04974, 06109, 06747). A block of 21 consecutive
+IDs is a lane that skipped a directory's worth of work, not entries that individually resisted
+linking. Whoever works P50 should work it run-by-run; the runs are large enough that a single
+session clears three of them.
+
+### The zero-link "creation cohort" is the polish frontier seen through the creation-date axis
+
+**Source**: the 2026-08-15 polish run — "four of the five entries with no links at all were
+created in the same 2026-01-18/19 window; inline linking appears to have been added to the
+entry-creation flow after that batch, so the January-18/19 cohort is systematically unlinked
+rather than randomly so."
+
+This is the **eighth** independent rediscovery of the finding that
+[Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23404-and-not-a-defect)
+already records with a standing "do not file a zero-link detector". It is also the first one to
+arrive on a new axis, and measuring that axis explains the whole recurrence pattern.
+
+Zero-link rate by `metadata.created` date:
+
+| created | zero-link / total | rate |
+|---|---|---|
+| 2026-01-16 | 9 / 1,098 | 0.8% |
+| 2026-01-17 | 5 / 525 | 1.0% |
+| **2026-01-18** | **207 / 590** | **35.1%** |
+| 2026-01-19 | 234 / 240 | 97.5% |
+| 2026-01-20 onward | ~100% every day | ~100% |
+
+That is a clean cliff on 2026-01-18, and it looks exactly like a process change. It is not one.
+Entries were created in ID order, so creation date is a proxy for entry ID, and the same scan by
+ID band puts the cliff between **06000–06999 (7.5% zero-link)** and **07000–07999 (98.9%)** —
+i.e. at `next: 06947`, the comprehensive-polish frontier, to within one band.
+
+The creation-flow hypothesis is also refuted directly by policy: CLAUDE.md has always said
+*"Never add inline word links (⟦...⟧) during entry creation — those are added in a separate
+polishing step."* Linking was never in the creation flow, so it cannot have been removed from it.
+
+**Why this matters beyond the correction.** The recurrence has been treated as sessions failing
+to read the standing note. The mechanism is simpler and not the sessions' fault: a polish run
+sees four or five unlinked entries, checks one shared field to explain them, and *any* field
+that correlates with entry ID — creation date, creation batch, ID neighbourhood — returns a
+perfect-looking cluster, because the frontier is a step function in ID. The finding will keep
+being rediscovered on new axes until the sessions' own instrument answers it. The cheap fix is
+not another wiki note: it is to make the frontier visible where a polishing session already
+looks (see [Tooling 124](tooling-backlog.md)).
+
+### Note-header kanji without furigana — 8 entries, and the global scanner already reports them
+
+**Source**: the 2026-08-15 new-entries run — English note headers that embed a Japanese suffix
+(`THE 〜物 SERIES:`, `THE 〜顔 SERIES:`) carry bare kanji, because the kanji reads as a display of
+the suffix rather than as running text. Two of that run's 20 entries had the shape; both were
+caught by `find_missing_furigana.py` and fixed before the PR.
+
+Dictionary-wide the surviving population is **8 entries**: 00950 (`NOTE ON 九:`), 01588
+(`TYPES OF 公務員:`), 02156 (`READINGS OF 角:`), 03114 (`SIMILAR 大 COMPOUNDS:`), 23465
+(`TYPES OF 御神体:`), 26870 (`RELATED ～内 COMPOUNDS:`), 26879 (`RELATED ～力 COMPOUNDS:`),
+26884 (`RELATED 初～ COMPOUNDS:`).
+
+All 8 are reported by `find_missing_furigana.py` today, so this is not a detector gap — it is
+an eight-item queue that nobody has drained, and it is small enough to fold into whichever run
+next touches those IDs rather than to schedule. The observation's second suggestion (write the
+header in plain English and annotate the suffix in the sentence below) is the better standing
+convention and belongs in the vocabulary-notes skill; recorded for the curator, since wiki
+sessions do not edit skills.
 
 ## Related pages
 
