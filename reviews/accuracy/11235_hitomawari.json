@@ -8,31 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-29T15:44:27Z",
+  "reviewed_at": "2026-08-15T09:21:03Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "error",
-      "concern": "The translation 'Please give me a size one larger' is unnatural and potentially misleading. 'One larger' is not standard English for clothing sizes.",
-      "suggestion": "Please give me one size larger."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "error",
-      "concern": "The translation 'This shirt feels like it shrank a size' is unnatural. 'Shrank a size' is not standard English.",
-      "suggestion": "This shirt feels like it shrank one size."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "error",
-      "concern": "The translation 'She and I share the same zodiac sign but are one full cycle apart' is confusing and doesn't accurately convey the meaning of 一回り違う in this context. It implies a difference of 12 years, but 'one full cycle apart' could be interpreted as 12 years or 24 years, etc., depending on how 'apart' is understood.",
-      "suggestion": "She and I have the same zodiac sign, meaning she is 12 years older or younger than me."
-    }
-  ]
+  "issues": []
 }

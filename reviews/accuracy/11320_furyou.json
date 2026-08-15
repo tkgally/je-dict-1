@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-30T06:22:51Z",
+  "reviewed_at": "2026-08-15T09:22:24Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with specific meanings like 'defective' and 'delinquent'.",
+      "suggestion": "Add 'evaluation' and 'personality' to better reflect the senses."
+    }
+  ]
 }

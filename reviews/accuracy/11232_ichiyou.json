@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-29T15:44:23Z",
+  "reviewed_at": "2026-08-15T09:20:59Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '一様' is not inherently formal. It can be used in everyday contexts.",
+      "suggestion": "neutral"
+    }
+  ]
 }

@@ -8,9 +8,31 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-30T18:39:32Z",
+  "reviewed_at": "2026-08-15T09:25:06Z",
   "summary": {
-    "flagged": 0
+    "flagged": 3
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is missing a key meaning of 'promotion' in Japanese, which is 'advancement in rank or position'.",
+      "suggestion": "promotion, marketing campaign, advancement"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The definition gloss is missing a key meaning of 'promotion' in Japanese, which is 'advancement in rank or position'.",
+      "suggestion": "promotion, marketing campaign, publicity, advancement"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'work' is too narrow and doesn't cover the 'advancement' meaning of promotion. 'business' or 'general' would be more appropriate.",
+      "suggestion": "business"
+    }
+  ]
 }

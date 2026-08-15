@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-30T18:39:22Z",
+  "reviewed_at": "2026-08-15T09:24:57Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word that clearly relates to 'business' or 'sports' contexts, as shown in the examples and gloss.",
+      "suggestion": "business"
+    }
+  ]
 }

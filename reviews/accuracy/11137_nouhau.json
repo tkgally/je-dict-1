@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-29T06:52:04Z",
+  "reviewed_at": "2026-08-15T09:19:29Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for 'ノウハウ'.",
+      "suggestion": "cognition"
+    }
+  ]
 }

@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-30T06:22:34Z",
+  "reviewed_at": "2026-08-15T09:22:09Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '不在'. While it can be used in formal contexts, it is also very common in everyday situations (e.g., delivery notices). 'Neutral' would be more appropriate.",
+      "suggestion": "neutral"
+    }
+  ]
 }

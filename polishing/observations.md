@@ -1381,3 +1381,34 @@ cohort is systematically unlinked rather than randomly so. A detector that count
 っていうか and つーか in one clause, which is not natural. Rewritten this run to
 `難しい、つーか無理だよ`. Other entries in the ていうか / というか / つーか cluster (06920, 16105)
 may carry similar stacked-contraction examples and are worth a look.
+
+[tooling] The accuracy reviewer's `tags` dimension is now the dominant source of flags, and most
+of them are not actionable. Over entries 11008–11500 (493 reviewed, 2026-08-15) it raised 114
+issues on 111 entries — a 22.5% flag rate, above the 20% "this is reviewer noise" threshold in
+routine2.md §A step 4 — and 108 of the 114 were tag flags. Of those, 74 were a single family:
+"the semantic tag 'general' is too broad, replace it with X", raised at `error` severity. The
+dictionary's own tooling already classifies a sole `general` tag as `info`-severity
+under-specification (`build/check_tag_drift.py --check sole-general`, 3,641 entries
+dictionary-wide), so the reviewer is re-reporting a known, tracked, low-priority backlog item once
+per entry at error severity. A further 8 were "formality should be neutral, not formal" on entries
+whose own REGISTER notes state the word is formal (11232 一様, 11302 不在, 11411 乗用車). Suggested
+fix to the reviewer prompt in `build/review_accuracy.py`: tell the model that `general` is an
+accepted fallback tag and must not be flagged on breadth grounds alone, and that the entry's own
+notes are authoritative for the formality label. That one change would have removed 82 of 108 tag
+flags this run without losing a single applied correction.
+
+[tooling] The two OpenRouter review passes differ in throughput by roughly 7x, which makes a
+single ID range the wrong unit for sizing an accuracy-review run. Measured 2026-08-15 on the same
+493-entry range: `review_accuracy.py` sustained about 62 entries/minute (493 entries, ~8 minutes,
+$0.2165), while `review_runner.py --pass screening` sustained about 8.5 entries/minute — roughly
+an hour for the same range. This run therefore covered 11008–11500 for glosses/translations/tags
+but only 11008–11105 for furigana. Either the furigana screener should be given its own,
+smaller range parameter by the selector, or its per-entry calls should be batched or run
+concurrently the way the accuracy reviewer's appear to be.
+
+[pattern] Furigana screening precision over recently-created ranges remains at or near zero. All
+3 flags raised across 98 entries (11008–11105) were documented false-positive families: 腹→なか in
+お{腹|なか} (the model does not account for the お prefix), 仕入→しい in {仕入|しい}れ{先|さき} (the
+okurigana split the calibration report describes), and はかせ vs はくし for 博士, where both
+readings are correct in their respective compounds. The deep pass was skipped under §A's
+known-noise shortcut. This is consistent with the 0–5% precision measured on 2026-06-10/11.

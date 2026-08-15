@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-30T18:38:28Z",
+  "reviewed_at": "2026-08-15T09:24:15Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a verb with specific meanings like 'to devise' or 'to set up'.",
+      "suggestion": "action"
+    }
+  ]
 }

@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-30T06:23:26Z",
+  "reviewed_at": "2026-08-15T09:22:55Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'time-manner' is not a valid semantic tag.",
-      "suggestion": "general"
+      "concern": "The semantic tag 'time-general' is incorrect for '不意'. While it relates to timing, 'unexpected' or 'sudden' describes the *manner* or *quality* of an event, not a general time period. A more appropriate tag would be 'descriptive' or 'change'.",
+      "suggestion": "descriptive"
     }
   ]
 }
