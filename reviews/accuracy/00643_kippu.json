@@ -2,22 +2,14 @@
   "entry_id": "00643_kippu",
   "headword": "{切符|きっぷ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
-    "translation",
-    "tags"
+    "translation"
   ],
-  "reviewed_at": "2026-06-10T02:56:47Z",
+  "reviewed_at": "2026-08-15T06:28:18Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for 'ticket' is incomplete. While it mentions transportation and events, it doesn't explicitly cover other common uses like lottery tickets or meal tickets, which '切符' can also refer to.",
-      "suggestion": "Expand the explanation to include other common types of tickets, e.g., 'A ticket for transportation (train, bus, etc.), admission to events, or other purposes like lottery or meal tickets.'"
-    }
-  ]
+  "issues": []
 }
