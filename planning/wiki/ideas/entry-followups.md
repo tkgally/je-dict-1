@@ -1603,6 +1603,56 @@ sound/perception (still open). Small — but like 音, it will re-surface in the
 detector on every sweep and no sweep can fix it. Revisit if the curator rules on the tag
 vocabulary.
 
+## Filed 2026-08-15 (wiki harvest)
+
+### 20837 さする — a godan verb carrying a サ変 conjugation table
+
+Tagged `verb-godan`, which is correct (擦る "to rub, stroke" is a godan verb), but its
+`conjugation` block is `type: "suru"` and every row follows 察する: さします, さした, さしよう,
+さすれば, さできる. The correct forms are さすります, さすった, さすろう, さすれば, さすれる.
+**The whole table on the live page is wrong**, not one row. Found by the `conjugation.type`
+vs POS check proposed as [Tooling 120](tooling-backlog.md); it appears in Cleanup P59's list only
+because its headword happens to end in する, and it should be fixed by hand rather than swept
+with that batch. Highest-value single-entry fix in this harvest.
+
+### 23394 二枚貝 — `{カキ|がき}` should be かき
+
+Oyster (カキ) is given the reading がき inside a furigana wrapper it should not have at all. The
+wrapper is Cleanup P60's mechanical class; the reading error is not, and no furigana instrument
+could have found it, because they all key on kanji. Fix the reading and drop the wrapper.
+
+### 10166 寿司屋 — notes are bare Japanese throughout
+
+Notes carry 回転寿司, 高級寿司屋, 立ち食い寿司, 板前, 魚屋/花屋/肉屋 with no inline links. The
+2026-08-14 polish run touched it only to add a back-link. Needs a full linking pass. Note that
+this entry sits **above** the comprehensive frontier (06936), so the lane will not reach it —
+this is the below/above-frontier distinction from
+[Inline Link Integrity](../topics/inline-link-integrity.md) in its individual form.
+
+### 10951 ショート — ショートケーキ is not a sense of ショート
+
+The entry carries ショートケーキ as an example, but ショートケーキ is a separate compound whose
+meaning ("shortcake") is not covered by either of ショート's senses (short / shortstop /
+short-circuit). Example-and-sense restructuring, out of scope for the run that found it.
+
+### 04946, 04951 — check for the 04945 かば note shape
+
+The 2026-08-14 polish run rewrote 04945 かば, whose notes were English zoology trivia
+(breath-holding time, running speed) with no learner value, around writing conventions, the 頭
+counter, and collocations. It flagged 04946 and 04951 as likely siblings from the same creation
+batch. Both sit **behind** the frontier, so nothing will revisit them automatically.
+
+### The January 2026 core-noun note-shape batch
+
+Six entries seen in one run (04946, 04951, 04988, 04991, 04994, 04999) use ad-hoc note section
+labels ("Components:", "Types:", "Related:") instead of the UPPERCASE headers the note-quality
+scorer expects, and none has a collocations section. They score a uniform **75**, which is why
+they cluster on the notes priority list, and restructuring lifts them to **94–97**. The run
+proposed a detector — "noun entry, no uppercase header, no collocations section" — which would
+find the rest of the batch cheaply and is a better route than meeting them one at a time on the
+priority lane. Recorded here rather than as a tooling item because the scorer already computes
+everything needed; the query is a filter over `build/score_note_quality.py` output.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

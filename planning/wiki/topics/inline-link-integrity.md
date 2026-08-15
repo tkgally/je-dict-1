@@ -1,6 +1,14 @@
 # Inline Link Integrity
 
-**Last updated**: 2026-08-09 (re-measured the zero-link population at **23,404** with the
+**Last updated**: 2026-08-15 (**replaced the two-day growth delta with 66 days of rate data**:
+across 516 Routine runs the frontier advances **14.3 IDs/day** against **24.1 entries/day** of
+growth, a net **+9.8/day**, and the gap has not closed in a single 7-, 14-, 30- or 66-day window.
+Zero-link re-measured at **23,444** against **23,508** entries ahead of the frontier — the two
+populations are now the same set to within 64 entries. Also corrected the eighth and ninth
+"creation batch skipped linking" filings, which were reading the cliff edge at 06900–06999 from
+inside the frontier's own bucket.)
+
+Prior 2026-08-09 (re-measured the zero-link population at **23,404** with the
 frontier at 06845: it **grew by 110 while the frontier advanced 122 IDs**, which is the
 frontier-versus-growth gap expressed on the link metric for the first time. Separated out the
 **55 zero-link entries that sit *behind* the frontier** — the actionable residue the "77% of
@@ -37,7 +45,7 @@ are batch-ready from the four that are not.
 | Base form written in kana, not dictionary form | 3,567 | Cosmetic/lookup | [Cleanup P32](../ideas/cleanup-backlog.md#priority-32-inline-link-base-forms-written-in-kana-instead-of-the-dictionary-form) |
 | Target disagrees with the base form (homophone substitution) | 405 → 318 | Defect, per-entry | `link-target-baseform-disagreement` |
 | **Stale `noentry` markers** | **3,809** (2,887 unique-target; 447 never correct) | **Defect, batch-ready** | [Cleanup P35](../ideas/cleanup-backlog.md) *(new, this page's measurement)* |
-| **Entries with zero links** | **23,404** (of which **55** behind the frontier) | **Not a defect above the frontier — see below**; the 55 are | *(structural; do not file)* + [Cleanup P50](../ideas/cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46) |
+| **Entries with zero links** | **23,444** (of which **55** behind the frontier) | **Not a defect above the frontier — see below**; the 55 are | *(structural; do not file)* + [Cleanup P50](../ideas/cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46) |
 | `Xする` base label on a bare-noun target | 441 (267 decidable) | Convention gap, not a defect | [Cleanup informational](../ideas/cleanup-backlog.md#informational-inline-link-base-forms-labelled-xする-while-targeting-the-bare-noun-entry-441-links) |
 
 The two bold rows were both proposed as backlog items by 2026-07-31 / 2026-08-01 polish runs
@@ -144,7 +152,7 @@ would delete a する the sentence actually contains. Filed as a
 with the three coherent options; only the "prefer the する entry where one exists" reading is a
 sweep, and it is a 267-link one.
 
-## Zero-link entries — 23,404, and *not* a defect
+## Zero-link entries — 23,444, and *not* a defect
 
 Two polish runs (2026-07-31, 2026-08-01) reported that a frontier block "was created with
 zero inline links … consistent with a creation batch that predates the inline-link
@@ -243,6 +251,82 @@ The operational lesson generalises past this class: **when a coverage detector r
 the dictionary, the useful query is almost always the same detector intersected with a cursor
 position.** "77% of entries are unlinked" is a restatement of the schedule; "55 entries the
 schedule already passed are unlinked" is a bug report.
+
+### The gap has never once closed — 66 days of rate data (measured 2026-08-15)
+
+Every previous version of this section argued the growth point from a **two-day delta**
+(23,294 → 23,404 while the frontier advanced 122 IDs). Two days is not enough to distinguish a
+trend from a busy Tuesday, and the argument deserved better evidence than it had. It now has it:
+`pipeline/metrics-history.jsonl` has recorded `comprehensive_next` and `entries_total` on every
+Routine run since 2026-06-10, which is **516 runs over 66 days**.
+
+| Window | Frontier | Dictionary | Net gap |
+|---|---|---|---|
+| Last 7 days | +16.1 IDs/day | +22.8 entries/day | **+6.7/day** |
+| Last 14 days | +15.5 IDs/day | +26.5 entries/day | **+11.0/day** |
+| Last 30 days | +14.4 IDs/day | +25.8 entries/day | **+11.4/day** |
+| **Full 66 days** | **+14.3 IDs/day** | **+24.1 entries/day** | **+9.8/day** |
+
+**The dictionary has grown faster than the frontier has advanced in every window measured, and
+the ratio is stable at roughly 3:5.** This is no longer an inference from a delta; it is the
+shape of the whole series. The frontier is not slowly catching up, not holding even, and not
+noisy around break-even — it loses about ten entries of ground per day, and has done so
+continuously for two months.
+
+The link metric confirms it independently. Re-measured 2026-08-15 with the frontier at **06936**:
+
+| | 2026-08-09 | 2026-08-15 | change |
+|---|---|---|---|
+| Frontier (`comprehensive_next`) | 06845 | 06936 | +91 |
+| Zero-link entries | 23,404 | **23,444** | **+40** |
+| Entries ahead of the frontier | — | 23,508 | — |
+
+The frontier advanced 91 IDs and the zero-link population still grew by 40, because ~130 new
+entries arrived unlinked in the same window. And the two right-hand numbers are the finding:
+**23,444 zero-link entries against 23,508 entries ahead of the frontier — a difference of 64.**
+Zero-link status and above-the-frontier status are now very nearly the same set. Inline linking
+is not a property of the dictionary that happens to be incomplete; it is a property of the
+polished prefix, and its boundary *is* the cursor.
+
+Per-bucket, re-measured 2026-08-15, the cliff is sharper than the older band table suggested,
+because 500-entry buckets resolve it and 2,000-entry bands blur it:
+
+| Bucket | Entries | Zero-link |
+|---|---|---|
+| 06000–06499 | 500 | 3% |
+| 06500–06999 | 500 | 15% |
+| **06900–06999** (the frontier's own bucket) | 100 | **59%** |
+| 07000–07499 | 418 | 98% |
+| 07500–09499 | 2,000 | 95–100% |
+| 09500–09999 | 495 | 77% |
+| 10000–30653 | 20,900 | **100.0%** (one entry has links) |
+
+**This is what the two "creation batch" filings of 2026-08-14 were looking at.** Both polish runs
+that window reported the same thing — that 06926–06929 and 06930–06935 have *zero* links in both
+examples and notes, "not partial coverage, none at all", and proposed a targeted sweep of the
+06900–07000 band on the theory that one creation batch skipped linking. The frontier sat at 06936
+when they filed. They were standing on the cliff edge and describing the drop: 59% of the 06900
+bucket is unlinked because the cursor is *inside* that bucket, and the 97–100% they would have
+found one bucket further on has nothing to do with any batch. This is the eighth and ninth
+rediscovery of the same non-item, and the first pair to land close enough to the cursor that the
+band they proposed sweeping is genuinely bounded — which is exactly why it looked like a batch.
+
+The corrected framing for future runs: **a zero-link report is only interesting below the
+cursor.** Above it, the number is the schedule. The one below-cursor queue remains the 55 of
+`zero-link-behind-frontier`, plus P46's 33.
+
+What changes with better data is not the diagnosis but its urgency. The 2026-08-09 conclusion —
+that the frontier lane cannot close this gap and that
+[Tooling 49](../ideas/tooling-backlog.md#49-read-only-inline-link-suggester-propose--never-write)
+(the read-only link suggester) is the only lever that would — was reasoned from two days and
+happened to be right. At the measured 66-day rates the "roughly two years to reach ID 30,000"
+estimate is optimistic in a specific way: it treats ID 30,000 as a fixed target. The target moves
+at 24 entries/day while the frontier closes at 14, so **at current rates the frontier does not
+converge on the end of the dictionary at all.** That is a curator-level fact about what the
+polish lane is for, and it should be decided deliberately: either the lane is a quality pass over
+a permanently-bounded prefix, or something has to change the 3:5 ratio — a faster linker
+(Tooling 49), a linking step at creation time (which `CLAUDE.md` currently forbids by design), or
+a slower growth rate.
 
 ## The unlinkable residue: Japanese that no rule can currently handle
 

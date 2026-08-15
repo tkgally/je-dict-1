@@ -4905,6 +4905,146 @@ worse than no retirement. Recorded on
 **a filing that retires an item should quote the command it ran**, the same discipline the
 2026-08-12 retirement note asked of filings that accuse an instrument.
 
+## Updates 2026-08-15 (wiki harvest)
+
+Five new items and two updates, from the 2026-08-14 and 2026-08-15 runs. **Item 118 is the
+important one**: the project's newest paid review dimension is not merely noisy, it is
+systematically reporting on data it was given and ignoring the data it was given, and it has been
+billed for two ranges already.
+
+### 118. `review_accuracy.py --dimensions tags` reports invented tags and misses the real ones
+
+**Source**: the 2026-08-15 accuracy-review run over 10687–11200 (411 entries), already escalated
+to `reviews/needs_curator.txt`.
+
+The measurement is unusually clean, because the dimension fails in both directions at once over
+the same 411 entries:
+
+| | count |
+|---|---|
+| tag flags produced | 80 |
+| flags sampled that were confabulations | **every one sampled** |
+| entries in the range genuinely carrying off-vocabulary tags | **22** |
+| of those 22, flagged by the reviewer | **0** |
+
+The failure mode: the model invents a plausible finer-grained tag that the entry does not
+carry, flags it, and then "suggests" as the correction the tag that is already there. So the
+false-positive rate is near 1.0 and the false-negative rate is exactly 1.0 on the one class the
+dimension exists to catch — the class a five-line deterministic set-difference against
+`VALID_SEMANTIC` finds for free.
+
+**The fix belongs in the prompt, not the model.** The entry payload already includes the real
+`semantic_tags`; the prompt does not tell the model that the list is complete and authoritative.
+Two sentences — *this is the entry's complete current tag list; only a tag appearing verbatim in
+it may be flagged* — should close both directions. Until then the `tags` dimension should not be
+run: it is the one dimension whose target population is already covered deterministically by
+`build/validate_tags.py --check-no-new-unknown` and `build/check_tag_drift.py`.
+
+This is the third independent measurement in one window pointing the same way (see Cleanup's
+"off-vocabulary tags cluster by creation batch" note): **for closed-vocabulary properties, pay
+for the deterministic check, not the model.**
+
+### 119. Screening prompt should quote the furigana pair verbatim before judging it
+
+**Source**: the 2026-08-14 accuracy-review run — 43 screening flags over 10401–11000, **all 43
+false positives**, with a dominant family that has not been recorded before.
+
+The model **truncates the reading inside its own report** and then flags the truncation it
+created: it renders `{犯罪|はんざい}` as "only はん provided" and reports a missing-reading error
+against a pair that is complete in the entry. This is not a Japanese-language judgment failing;
+it is a transcription step failing before the judgment starts, which is why it is fixable in the
+prompt: require the model to quote the brace pair verbatim from the entry before evaluating it.
+
+The family is distinct from the ones in `reviews/calibration_report.md` (rendaku in compounds,
+okurigana splits, readings the entry itself discusses), which are all real disagreements about
+Japanese. This one is a clerical error, and should be cheaper to eliminate than any of them.
+
+### 120. A `conjugation.type` vs POS-tag consistency check — 3 lines, and it already found a bug
+
+Two of this window's defects share a root the existing validators cannot see: the conjugation
+table and the POS tag disagree about what kind of word the entry is. Nothing checks that.
+
+Measured 2026-08-15 across all 30,444 entries (map `conjugation.type` → its expected `verb-*`
+POS tag, report disagreements): **2 hits.**
+
+- **20837 さする** — POS `verb-godan` (correct: 擦る is godan) with a **サ変 table end to end**
+  (さします, さした, さしよう, さすれば). Every row on the live page is wrong.
+- **00392 する** — `verb-suru` table, `verb-irregular` POS; a known naming disagreement, not a
+  defect (see Cleanup P61).
+
+A two-hit detector is normally not worth building, but this one costs three lines, runs in one
+pass over data already loaded by `validate_tags.py`, and the single true positive is a whole
+conjugation table of wrong Japanese that survived every existing gate. Cheap ratchets that hold
+a correct invariant at zero ongoing cost are worth more than their current hit count.
+
+### 121. Furigana detector for katakana bases — the inverse case nothing checks
+
+**Source**: the 2026-08-14 systemic-fix run (`{ラベル|らべる}` in 03995 宛名), which observed that
+every furigana instrument asks "does this kanji have a reading?" and none asks "does this reading
+belong here?", and left the scope unmeasured.
+
+Measured: **275 instances / 229 entries** (see Cleanup P60), renders as visible ruby on the live
+site, and 271 of the 275 are provably strippable. Add to `build/check_furigana_format.py`:
+flag brace groups whose base side is entirely katakana. Also worth flagging the sub-case the
+sweep must *not* strip blindly — a katakana base whose reading is **not** the kana
+transliteration, which is how 23394 二枚貝's genuine `{カキ|がき}` reading error surfaced.
+
+### 122. `add_conjugations.py`: single-kanji サ変 verbs take 〜せる, not 〜できる
+
+**Source**: the 2026-08-14 new-entries run, which hit it while creating 30647 処する.
+
+The generator emits 〜できる as the potential for every `conjugation.type: "suru"` verb. Correct
+for 漢語+する (勉強できる); wrong for the single-kanji サ変 verbs, which take 〜せる (愛せる,
+発せる, 接せる). Scope measured at **32 live entries** (Cleanup P59). Detection is exactly the
+rule the filing proposed: `type == "suru"` and the pre-する portion is one character.
+
+**Fix the generator before sweeping the 32**, or the next `add_conjugations.py --force` run puts
+all of them back. This is the standing lesson from the P16 `[Register:]` artifacts: a data
+cleanup whose generator is unfixed is a scheduled regression.
+
+### Update to item 84 (what bounds an accuracy-review run) — three measured numbers
+
+Two runs this window measured throughput directly, and the numbers should be planned against:
+
+| | rate | a 600-entry range |
+|---|---|---|
+| `review_accuracy.py` | ~4.5 entries/min | ~2h 15m |
+| `review_runner.py --pass screening` | ~5× slower (~0.9/min) | impractical |
+
+And a finding that inverts the obvious optimisation: **running the two passes concurrently
+against OpenRouter collapsed screening to near-zero throughput.** Parallelising them to save
+wall-clock is counterproductive; run accuracy first and treat screening as optional. The 2026-08-14
+run's practical conclusion stands — **size accuracy-review ranges to 250–300 entries**, not the
+400–600 the routine2 playbook currently suggests — since the binding constraint is wall-clock,
+not dollars.
+
+### Update: `review_accuracy.py` writes an empty `description`
+
+Issues in `reviews/accuracy/{id}.json` carry an empty `description` field; the useful text is in
+`concern`. Anything reading these reports — including future prompts — must read `concern`.
+Either populate `description` or drop it, because an empty field invites a reader to conclude
+the issue has no content.
+
+### Prompt/skill wording: "casual" is not a schema value
+
+**Source**: the 2026-08-14 new-entries run, which hit a validation failure three times in one
+session.
+
+`schema.json`'s `formality` enum is `formal` / `neutral` / `informal` / `vulgar`, but
+`prompts/newentries.md` and several skills describe registers in prose as "casual" — so a session
+writing tags from the prose writes `formality: "casual"` and finds out at the end of the run.
+The fix is one word in the prompt wording, not a schema change. Recorded here rather than acted
+on because wiki sessions do not modify prompts or skills; recommended to the curator.
+
+### Retired 2026-08-15: both proposed formality detectors
+
+The two formality detectors filed on 2026-08-14 (REGISTER-line contradiction; formality read off
+a neighbouring collocation) do not survive measurement — 8 hits with ~2 real, and 419 hits
+dominated by the correct case respectively. The commands and the full argument are in
+[Cleanup Backlog → Retired 2026-08-15](cleanup-backlog.md#retired-2026-08-15-both-proposed-formality-detectors).
+The existing queue item `tag-formality-contradicts-register-note` is updated to record the
+measurement rather than left implying a live batch.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address
