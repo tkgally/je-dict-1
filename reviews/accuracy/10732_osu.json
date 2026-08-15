@@ -8,16 +8,23 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T03:39:08Z",
+  "reviewed_at": "2026-08-15T00:29:24Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
       "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is incomplete and misleading as it omits the technical context mentioned in the explanation.",
+      "suggestion": "male (animal, plug, connector)"
+    },
+    {
+      "dimension": "gloss",
       "location": "definitions[0].gloss",
       "severity": "error",
-      "concern": "The gloss is incomplete and misleading given the explanation.",
+      "concern": "The gloss is incomplete and misleading as it omits the technical context mentioned in the explanation.",
       "suggestion": "male (animal, plug, connector)"
     }
   ]

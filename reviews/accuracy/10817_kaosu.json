@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T03:40:32Z",
+  "reviewed_at": "2026-08-15T00:31:00Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word 'カオス' is a loanword from English 'chaos' and is used in both formal and informal contexts in Japanese. Labeling it as 'informal' is misleading as it can be used in a neutral or even formal context depending on the surrounding language and topic.",
+      "suggestion": "neutral"
+    }
+  ]
 }

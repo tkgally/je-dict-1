@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T18:46:24Z",
+  "reviewed_at": "2026-08-15T00:32:48Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'abstract-concept' is not in the valid tag list.",
-      "suggestion": "abstract"
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'side effect' is misleading for sense 2. While it refers to an indirect impact, 'side effect' often implies an unintended consequence of a deliberate action, whereas 煽り in sense 2 refers more broadly to negative repercussions or fallout from any event or situation.",
+      "suggestion": "repercussion, knock-on effect, fallout"
     }
   ]
 }

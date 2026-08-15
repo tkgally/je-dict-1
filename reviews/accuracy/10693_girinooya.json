@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T16:00:26Z",
+  "reviewed_at": "2026-08-15T00:28:44Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss includes 'stepparent', but '義理の親' primarily refers to parents-in-law. While it can sometimes refer to stepparents, it's not the primary or most common meaning, and including it in the main gloss without qualification is misleading for an intermediate learner.",
-      "suggestion": "Remove 'stepparent' from the main gloss, or qualify it (e.g., 'parent-in-law; sometimes stepparent')."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "error",
-      "concern": "The gloss 'stepparent' for sense 2 is misleading. While 義理の親 can refer to a stepparent, the more common and direct term for stepparent is 継親 (keishin) or 義親 (gishin). Using 義理の親 for stepparent is less common and can be confusing given its primary meaning of parent-in-law.",
-      "suggestion": "Re-evaluate if 'stepparent' should be a distinct sense for 義理の親, or if it should be noted as a less common or secondary usage within the parent-in-law sense. If kept, add a note about its less common usage compared to parent-in-law."
+      "concern": "The headword gloss includes 'stepparent', but 義理の親 primarily refers to parents-in-law. While it can sometimes refer to stepparents, it's not the primary or most common meaning, and including it in the main gloss can be misleading for an intermediate learner.",
+      "suggestion": "parent-in-law"
     }
   ]
 }

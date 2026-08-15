@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T18:45:41Z",
+  "reviewed_at": "2026-08-15T00:32:08Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'descriptive' is too general and doesn't capture the core meaning of '寛容'.",
+      "suggestion": "Replace 'descriptive' with 'personality' or 'emotion' as it describes a characteristic or feeling."
+    }
+  ]
 }

@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-27T16:00:34Z",
+  "reviewed_at": "2026-08-15T00:28:53Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword 'アプローチ' (approach) is a suru-verb and action noun, so it should have the 'action' tag.",
+      "suggestion": "Add 'action' to the semantic tags."
+    }
+  ]
 }

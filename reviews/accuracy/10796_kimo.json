@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T03:40:10Z",
+  "reviewed_at": "2026-08-15T00:30:39Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'abstract-concept' is not in the valid tag list.",
-      "suggestion": "abstract"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'body-organ' is not in the valid tag list.",
-      "suggestion": "body-internal"
+      "concern": "The headword '肝' (kimo) primarily refers to the liver or guts, and figuratively to courage. 'Abstract' is not a suitable primary semantic tag for this word.",
+      "suggestion": "Remove 'abstract'. 'body-internal' is appropriate."
     }
   ]
 }

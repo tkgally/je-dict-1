@@ -1401,3 +1401,13 @@ already tracks these; the band is worth a targeted pass.
   魚屋/花屋/肉屋) with no inline links. Touched only to add a back-link this run; needs a full linking pass.
 - [tooling] `review_accuracy.py` writes an empty `description` field on issues; the useful text is in
   `concern`. Anything reading these reports should read `concern`, not `description`.
+
+## 2026-08-15T00:35:36Z — routine (accuracy-review, 10687-11200)
+
+[tooling] review_accuracy.py's `tags` dimension is not usable as written. Over 411 entries it produced 80 tag flags, and every one sampled was a confabulation: the model invents a plausible finer-grained tag the entry does not carry, then suggests the tag that is already there. It simultaneously missed all 22 entries in the range that genuinely carry off-vocabulary tags. The entry payload does include the real tags, so the fix belongs in the prompt: state that `semantic_tags` is the complete current list and that only a tag appearing verbatim in it may be flagged. See reviews/needs_curator.txt.
+
+[pattern] Off-vocabulary semantic tags cluster by creation batch, not by ID neighbourhood — 22 in 10687-11200, concentrated in 10688-10810 (katakana loanwords and casual expressions) and 10968-10975. The recurring shapes are composite tags ("food-seafood", "appearance-evaluation", "emotion-anger") that decompose into one or two in-list tags, and near-miss plurals ("people" -> "person", "plant" -> "plant-general"). A deterministic sweep over VALID_SEMANTIC would find these far more cheaply than a model review does.
+
+[tooling] The furigana screening pass runs roughly 5x slower than review_accuracy.py and collapsed to near-zero throughput when the two ran concurrently against OpenRouter. Running them in parallel to save wall-clock is counterproductive; run accuracy first and treat screening as optional.
+
+[entry] 10951 (ショート) carries ショートケーキ as an example, but ショートケーキ is a separate compound whose meaning is not covered by either sense of ショート. Example/sense restructuring was out of scope this run.

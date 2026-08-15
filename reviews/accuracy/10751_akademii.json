@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T03:39:24Z",
+  "reviewed_at": "2026-08-15T00:29:43Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss 'academy' is too narrow given the first example sentence, which refers to the 'Academy Awards'. While 'academy' can refer to an institution, it also refers to the organization that gives out the awards, which is not strictly an educational institution in that context.",
+      "suggestion": "academy, association, institution"
+    }
+  ]
 }

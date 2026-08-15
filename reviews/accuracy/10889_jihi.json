@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T18:45:42Z",
+  "reviewed_at": "2026-08-15T00:32:10Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is too narrow and potentially misleading for '慈悲'. While compassion involves emotion, '慈悲' is more fundamentally a concept or virtue, especially in its original Buddhist context.",
+      "suggestion": "Replace 'emotion' with 'abstract' or 'religion'."
+    }
+  ]
 }

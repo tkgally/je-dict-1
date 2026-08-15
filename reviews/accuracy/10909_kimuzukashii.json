@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T18:46:03Z",
+  "reviewed_at": "2026-08-15T00:32:31Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "translation",
+      "location": "examples[1]",
       "severity": "error",
-      "concern": "Invalid tag 'people-personality'",
-      "suggestion": "personality"
+      "concern": "The English translation 'stern expression' for 気難しい顔 (kimuzukashii kao) is misleading. While 'stern' can be a result of being hard to please, 気難しい顔 specifically implies a 'fussy' or 'displeased' look, not necessarily 'stern'.",
+      "suggestion": "That teacher had a displeased/fussy/difficult expression on his face."
     }
   ]
 }
