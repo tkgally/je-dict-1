@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -149,9 +149,9 @@
       "priority": 10,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 3681,
+      "scope_estimate": 3642,
       "severity": "info",
-      "notes": "Low-urgency enrichment, not an error. 2026-08-06: the gloss-keyword suggester this item and Tooling 6 have proposed since 2026-05-23 was built empirically and measured -- it proposes for only 14.8% of the queue (2.9% at a trustworthy threshold) and ~1 in 5 proposals is wrong, and its errors are P11 defects by construction (tag taken from context the gloss mentions, not from what the headword denotes). Instrument question CLOSED: do not automate from gloss text. Remaining levers: the 350 pure-katakana entries (retag from the English source word), the within-block-inconsistency heuristic (06690/06691 exam pair), and frontier applies. Only replace 'general' when a specific tag clearly applies; otherwise leave it. Large scope -- drain slowly. | 2026-08-11: detector 3,681 (was 3,741). A polish run found 5 of 11 entries in 06865-06875 sole-general and ALL 5 replaceable with precise in-list tags, so same-era creation blocks are worth batching even though the dictionary-wide population is a slow drain. Separately: the accuracy reviewer's 'general is too broad' flags are ~25-30% of tag-flag volume every sweep and are rejected wholesale under standing policy -- escalated to the curator 2026-08-11 (tooling 95). If the curator rules general unacceptable as a sole tag, this detector becomes the whole instrument and the reviewer stops being asked the question."
+      "notes": "Low-urgency enrichment, not an error. 2026-08-06: the gloss-keyword suggester this item and Tooling 6 have proposed since 2026-05-23 was built empirically and measured -- it proposes for only 14.8% of the queue (2.9% at a trustworthy threshold) and ~1 in 5 proposals is wrong, and its errors are P11 defects by construction (tag taken from context the gloss mentions, not from what the headword denotes). Instrument question CLOSED: do not automate from gloss text. Remaining levers: the 350 pure-katakana entries (retag from the English source word), the within-block-inconsistency heuristic (06690/06691 exam pair), and frontier applies. Only replace 'general' when a specific tag clearly applies; otherwise leave it. Large scope -- drain slowly. | 2026-08-11: detector 3,681 (was 3,741). A polish run found 5 of 11 entries in 06865-06875 sole-general and ALL 5 replaceable with precise in-list tags, so same-era creation blocks are worth batching even though the dictionary-wide population is a slow drain. Separately: the accuracy reviewer's 'general is too broad' flags are ~25-30% of tag-flag volume every sweep and are rejected wholesale under standing policy -- escalated to the curator 2026-08-11 (tooling 95). If the curator rules general unacceptable as a sole tag, this detector becomes the whole instrument and the reviewer stops being asked the question. | Re-measured 2026-08-15: 3,642 entries (3,151 general, 442 core, 49 basic), down from 3,681 on 2026-08-14 -- hand-clearing runs at roughly 40/day against a class of 3,600. A 2026-08-14 accuracy-review run asked for 'a dedicated systemic-fix backlog item' for this class; it is this item, open and batch_ready since 2026-08-01."
     },
     {
       "id": "tag-formality-over-applied",
@@ -547,11 +547,11 @@
       "fix_type": "mechanical-safe",
       "verify": "spot-check",
       "priority": 7,
-      "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 5,
+      "batch_ready": false,
+      "status": "retired",
+      "scope_estimate": 8,
       "severity": "warn",
-      "notes": "Measured 2026-08-05: exactly 5 entries dictionary-wide (07352 ぼやく, 07367 ややこしい, 07397 待ち合わせ, 07398 後回し, 07411 しんどい -- one contiguous creation cohort) whose REGISTER/FORMALITY section describes the headword itself as Casual/Neutral while the tag says formal. The naive predicate (formal tag + any casual mention in notes) returns 1,560 and is unusable: a formal word listing its CASUAL EQUIVALENTS is correct content, which is why 06779 いずれにせよ was mis-filed as a defect. Only 555 of 5,068 formal entries have a REGISTER section at all, so this predicate is a ratchet for new entries, not a sweep. See cleanup-backlog.md Priority 37 update 2026-08-05. | 2026-08-11: a run reproduced ALL 19 of its formality adjudications (13 confirm, 6 reject) from the first sentence of each entry's own REGISTER section -- casual/colloquial/everyday -> informal, 'Neutral to...' -> neutral, formal/official/legal -> formal. This is a COST argument, not a precision one: the rule was already correct and already what the reviewer applies, but it is deterministic wherever a REGISTER section exists, so paying OpenRouter for it is waste. The 555-of-5,068 coverage limit above still caps this as a ratchet, not a sweep."
+      "notes": "Retired 2026-08-15 by measurement. Scanning all 5,067 formality:formal entries for a REGISTER line containing 'neutral' returns 8, and 6 of the 8 are correct as tagged -- they read 'Neutral TO formal' (01182, 06289, 06938, 03103), 'Formal/polite for sense 1; neutral ... for sense 2' (07801), or 'neutral to negative CONNOTATION' (09232), where neutral describes connotation, not register. At most 2 are candidates. A second, independently-filed variant ('formal tag read off a neighbouring collocation') returns 419 entries dominated by the correct case (00122 寺院, 00147 価格, 00252 苦情, 00264 給与 -- all entries where the formal word IS the headword), and separating those from the real cases is the whole semantic task. Neither is mechanizable. See cleanup-backlog.md#retired-2026-08-15-both-proposed-formality-detectors."
     },
     {
       "id": "inline-link-stale-noentry",
@@ -1176,6 +1176,66 @@
       "scope_unit": "entries",
       "severity": "info",
       "notes": "Measured 2026-08-14: 173 `formality: formal` with no marked style, 26 `style: literary` at neutral formality, 19 literary+formal, 8 slang, 5 archaic. Foundational vocabulary should almost never be register-marked; samples 00147 価格, 00146 果実, 00129 自宅, 00028 近頃, 00157 各自, 00012 ×/バツ. Some are defensible (給与, 夫妻), so this is a review queue rather than a fix list. The tier restriction is what makes it workable: the same predicate over the whole dictionary returns 5,079 entries, retired as a detector on 2026-08-10 for exactly that reason."
+    },
+    {
+      "id": "conjugation-suru-single-kanji-potential",
+      "title": "Single-kanji サ変 verbs whose generated potential is 〜できる instead of 〜せる (32 entries)",
+      "source": "ideas/cleanup-backlog.md#priority-59-single-kanji-サ変-verbs-whose-generated-potential-form-is-not-japanese--32-entries",
+      "detect": "conjugation.type == 'suru' AND the headword's pre-する portion (furigana stripped) is one character AND the Potential row's affirmative contains できる",
+      "fix_type": "mechanical",
+      "verify": "spot-check",
+      "priority": 4,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 32,
+      "scope_unit": "entries",
+      "severity": "error",
+      "notes": "Measured 2026-08-15: 4,592 suru-type tables, 33 with a single-character stem, 32 carrying the impossible 〜できる potential (愛できる, 発できる, 接できる...). 30647 処する is the one correct case, fixed by hand at creation. Rewrite the Potential row to 〜せる/〜せない -- provably safe, since 〜できる is not a possible form of this class. FIX build/add_conjugations.py FIRST (Tooling 122) or the next --force run reintroduces all 32. 20837 さする is in the list but is a different, worse defect (godan verb with a サ変 table end to end) -- fix by hand, see Entry Follow-ups."
+    },
+    {
+      "id": "furigana-katakana-base",
+      "title": "Katakana wrapped in furigana braces, rendering as ruby on the live site (275 instances / 229 entries)",
+      "source": "ideas/cleanup-backlog.md#priority-60-katakana-wrapped-in-furigana-braces--275-instances--229-entries",
+      "detect": "brace groups {base|reading} whose base side is entirely katakana (build/check_furigana_format.py, Tooling 121)",
+      "fix_type": "mechanical",
+      "verify": "spot-check",
+      "priority": 5,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 229,
+      "scope_unit": "entries",
+      "severity": "error",
+      "notes": "Measured 2026-08-15: 275 instances across 229 entries spanning 00138-30640 (not one creation batch). Fields: notes 135, examples[].japanese 129, definitions[].explanation 11. Renders as visible ruby -- docs/entries/00000/00138_kaisetsu.html emits <ruby>ニュース<rt>にゅーす</rt></ruby>. 271 readings are the exact kana transliteration of the base and 3 repeat the katakana unchanged, so 274 are provably lossless to strip. The 275th, 23394 二枚貝 {カキ|がき}, is a genuine reading error the class was hiding -- fix by hand, see Entry Follow-ups."
+    },
+    {
+      "id": "validate-tags-standing-errors",
+      "title": "validate_tags.py's 11 standing errors -- mechanical, stalled on one convention ruling",
+      "source": "ideas/cleanup-backlog.md#priority-61-validate_tagspys-11-standing-errors--mechanical-and-stalled-on-one-ruling",
+      "detect": "python3 build/validate_tags.py (the Errors block)",
+      "fix_type": "mechanical",
+      "verify": "per-entry",
+      "priority": 8,
+      "batch_ready": false,
+      "status": "open",
+      "scope_estimate": 11,
+      "scope_unit": "entries",
+      "severity": "error",
+      "notes": "Measured 2026-08-15, correcting the 2026-08-14 filing's composition: 5 〜ずる verbs with verb_class ichidan vs POS verb-irregular (09029, 13144, 18394, 19600, 20377); 3 (not 1) proper nouns carrying organization-name without the proper-noun umbrella (08853 NGO, 08907 NBA, 08908 MLB); and the 3 genuinely irregular verbs 00006 ある / 00254 来る / 00392 する, where verb_class holds the precise value and the POS tag the coarse one -- arguably the validator's bug. The 3 proper nouns are a one-line fix each; the other 8 need a ruling on which axis each field describes. Not batch_ready until that ruling. Standing cost: every run must re-read 11 errors to confirm none is its own."
+    },
+    {
+      "id": "tag-grammar-terminology-convention",
+      "title": "Grammar-terminology entries split across five semantic tags -- needs a convention ruling (26 entries)",
+      "source": "ideas/cleanup-backlog.md#a-small-closed-set-that-is-a-five-way-convention-gap--grammar-terminology",
+      "detect": "headword in the grammar/writing terminology set (名詞, 動詞, 形容詞, 音読み, 訓読み, 送り仮名, 品詞 ...); report metadata.tags.semantic",
+      "fix_type": "semantic",
+      "verify": "per-entry",
+      "priority": 9,
+      "batch_ready": false,
+      "status": "blocked",
+      "scope_estimate": 26,
+      "scope_unit": "entries",
+      "severity": "info",
+      "notes": "Measured 2026-08-15 over 26 terminology headwords: grammatical 8, language 8, education 6, general 4, communication 3. Filed as 'POS terms drift to education, a small closed set worth a one-shot sweep' -- but there is no convention to sweep toward. The filing run fixed 名詞 and 音読み in the same pass to DIFFERENT tags (grammatical vs language), and the sibling pairs 訓読み/音読み and 他動詞/自動詞 are split the same way. Blocked on a curator ruling: is the house tag for metalinguistic vocabulary `grammatical` or `language`? Once chosen the sweep is trivial. Escalated to reviews/needs_curator.txt."
     }
   ]
 }

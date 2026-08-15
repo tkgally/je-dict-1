@@ -1296,118 +1296,63 @@ takes it.
 
 All observations cleared.)_
 
-## 2026-08-14 (routine accuracy-review, 10401–10686)
+## 2026-08-15 (routine wiki harvest — all prior observations cleared)
 
-- [pattern] Sole-`general` semantic tags are widespread on abstract nouns well
-  outside the reviewed range. Spot checks found 権利, 義務, 責任 all tagged only
-  `general`, and 法律 tagged `work`. The cross-model reviewer catches these
-  reliably (13 of 39 applied fixes this run were sole-`general` → a specific
-  in-list tag). Worth a dedicated systemic-fix backlog item that lists every
-  entry whose only semantic tag is `general`, since `check_tag_drift.py`
-  already detects the class (P13).
-- [pattern] Part-of-speech term entries drift to the `education` tag. 名詞 and
-  音読み were both fixed this run; 形容詞 is still tagged `education` while
-  動詞 and 助詞 correctly use `grammatical`. A small closed set — worth a
-  one-shot sweep over the grammar-terminology entries.
-- [tooling] The furigana screening pass produced 43 flags over 10401–11000 and
-  every one was a false positive. The dominant family is new: the model
-  truncates the reading in its own report (e.g. reporting `{犯罪|はんざい}` as
-  "only はん provided") and then flags the truncation it invented. Worth adding
-  an explicit instruction to the screening prompt to quote the pair verbatim
-  from the entry before judging it.
-- [tooling] `build/review_accuracy.py` runs at roughly 4.5 entries/minute, so a
-  600-entry range needs about two hours of wall clock. Routine runs should size
-  accuracy-review ranges to ~250–300 entries, or the run has to be cut short.
+_(All 19 observations from the 2026-08-14 accuracy-review, polish, new-entries and systemic-fix
+runs and the 2026-08-15 accuracy-review run have been harvested by the wiki maintenance session
+of 2026-08-15.
 
-## 2026-08-14 — routine(polish) 04206/04928-04945 + 06926-06929
+**The run's largest finding replaced an argument, not an item.** Two polish runs filed the
+06900–07000 zero-inline-link band as "a creation batch that skipped linking, worth a targeted
+sweep" — the eighth and ninth time that non-item has been filed. It is the comprehensive-polish
+frontier, which sat at 06936 when they filed: they were inside the frontier's own bucket
+describing the cliff edge (06900–06999 is 59% zero-link, 07000+ is 97–100%). The page arguing
+this had been resting on a two-day delta; it now rests on **66 days and 516 runs of
+`metrics-history.jsonl`** — the frontier advances **14.3 IDs/day** against **24.1 entries/day**
+of growth, net **+9.8/day**, and the gap has not closed in any 7-, 14-, 30- or 66-day window.
+Zero-link is now **23,444** against **23,508** entries ahead of the frontier: the same set to
+within 64. The "two years to reach ID 30,000" estimate treats a moving target as fixed — at
+measured rates the frontier does not converge at all. Escalated to the curator as a strategy
+call.
 
-- [pattern] Entries in the 06926–06929 conjunction/adverb block have **zero inline link
-  coverage** in both examples and notes — not partial coverage, none at all. All four
-  processed this run were like this, which suggests the whole 0690x–0693x band was created
-  before full link coverage became a tier-1 requirement. Worth a targeted sweep rather than
-  waiting for the sequential frontier to crawl through it.
-- [pattern] Stale `noentry` markers keep turning up in older notes: 04930 marked からし and
-  水戸 as `noentry` although both now have entries (28711, 28730). `build/check_stale_noentry.py`
-  exists for exactly this; the P35 backlog item looks worth prioritising.
-- [pattern] `formality: formal` is over-applied to neutral adverbs and conjunctions. Three of
-  the four frontier entries this run (06927, 06928, and — via the cross-model self-check —
-  06929) were tagged `formal` while their own REGISTER notes said "neutral". A detector
-  comparing the formality tag against the entry's own REGISTER line would catch this class
-  cheaply.
-- [entry] 04945 kaba: notes had been a list of English zoology trivia (breath-holding time,
-  running speed) with no learner value. Rewritten around writing conventions, the 頭 counter,
-  and collocations. Other animal entries created in the same batch (04946 sushi is adjacent,
-  04951 rakuda) may have the same shape.
-- [tooling] `python3 build/validate_tags.py` reports 11 pre-existing errors unrelated to any
-  entry touched this run: five 〜ずる verbs (09029, 13144, 18394, 19600, 20377) whose
-  `verb_class: ichidan` contradicts their `verb-irregular` POS tag, plus a proper-noun entry
-  carrying `organization-name` without the required `proper-noun` umbrella tag. These are
-  small, mechanical, and well suited to a systemic-fix run.
+**Two new mechanical priorities, both visible on the live site.** P59: 32 single-kanji サ変 verbs
+whose generated potential form is 愛できる / 発できる / 接できる — not possible Japanese; the
+class takes 〜せる. P60: 275 instances / 229 entries wrapping katakana in furigana braces, which
+renders as `<ruby>ニュース<rt>にゅーす</rt></ruby>` on the live site; 274 of the 275 are provably
+lossless to strip, and the 275th is a genuine reading error (23394 `{カキ|がき}`) that no
+furigana instrument could ever have found.
 
-## 2026-08-14 (routine new-entries, 30635–30653)
+**Two proposed detectors retired, and both were the same sighting filed from opposite ends.**
+The REGISTER-line formality contradiction returns 8 entries of which ~6 are correct as tagged
+("Neutral **to** formal"); the collocation-reading variant returns 419 dominated by the correct
+case (寺院, 価格, 苦情, 給与 — where the formal word *is* the headword). Its three named
+witnesses had already been fixed by the run that filed them.
 
-- [tooling] `build/add_conjugations.py` generates the potential form of single-kanji サ変 verbs
-  (処する, 察する, 面する, 訳する …) as 〜できる, which is not Japanese; the correct potential is
-  〜せる (処せる, 察せる). Verified on 08053_sassuru and 14629_mensuru, which both carry 察できる /
-  面できる today. Fixed by hand in the new entry 30647_shosuru. This affects every entry whose
-  `conjugation.type` is `suru` but whose stem is a single kanji taking する directly (as opposed to
-  漢語 + する, where 〜できる is correct). Detection: `conjugation.type == "suru"` and the headword's
-  pre-する portion is one kanji. Candidate for a systemic-fix batch.
-- [pattern] The schema's `formality` enum is `formal/neutral/informal/vulgar`, but the newentries
-  prompt and several skills describe registers as "casual", which invites `formality: "casual"` and
-  a validation failure at the end of a session (hit three times this run). Worth aligning the prompt
-  wording with the schema value `informal`.
+**Two filings corrected by counting.** The "small closed set" of grammar terms drifting to
+`education` is a five-way convention gap (grammatical 8, language 8, education 6, general 4,
+communication 3) whose filing run fixed 名詞 and 音読み to *different* tags in the same pass —
+escalated for a ruling. The "11 validate_tags errors: five 〜ずる verbs plus a proper-noun entry"
+is 5 + **3** proper nouns + the 3 irregular verbs, where the validator is arguably the one at
+fault.
 
-## 2026-08-14 routine (systemic-fix, P35 stale-noentry band 03757-04458)
+**One "dedicated backlog item" request answered by an item open since 2026-08-01**:
+`tag-sole-general`, re-measured at 3,642 entries (from 3,681), i.e. hand-clearing at ~40/day
+against a class of 3,600.
 
-[pattern] Compound-element inline-link markers (one half of a lexicalized compound pointing at
-that half's standalone entry) are decided by the TARGET ENTRY'S NOTES, not its gloss. 込む ->
-00719_komu ("to be crowded") looks wrong by gloss but the notes carry an explicit
-"〜込む (compound suffix: into)" line; 思い -> 10248_omoi ("thought, feeling") likewise lists
-思い出/思い入れ/思い込み under COMMON COMPOUNDS. Four applies this run that gloss-only screening
-would have rejected. Same precedent as 年寄り臭い -> 01133_kusai (2026-08-13).
+**Five tooling items.** 118 (`review_accuracy.py --dimensions tags` is 0% precision *and* 0%
+recall over 411 entries — invents tags, misses all 22 real off-vocabulary ones; fix the prompt,
+and until then don't run the dimension), 119 (screening truncates the reading in its own report
+then flags the truncation it invented — 43/43 false positives), 120 (`conjugation.type` vs POS
+check: 3 lines, 2 hits, one of them a wholly wrong conjugation table on 20837 さする), 121
+(katakana-base furigana detector), 122 (`add_conjugations.py` generator fix, which must land
+before P59 sweeps or `--force` reintroduces all 32). Plus measured throughput for item 84
+(accuracy ~4.5 entries/min, screening ~5× slower, and running them concurrently collapses
+screening) and a prompt-wording recommendation ("casual" is not a schema `formality` value).
 
-[tooling] 03995_atena carries a katakana headword wrapped in furigana braces with a hiragana
-reading: `{ラベル|らべる}`. Katakana needs no furigana, and neither validate.py nor
-find_missing_furigana.py flags the inverse case (furigana supplied where none is wanted).
-Possible cheap detector cut: brace groups whose base is all-katakana. Scope unmeasured.
+Entry follow-ups filed: 20837 さする, 23394 二枚貝, 10166 寿司屋, 10951 ショート, 04946/04951,
+and the January-2026 core-noun note-shape batch.
 
-[pattern] Formality tag `formal` on ordinary everyday words keeps appearing where the entry's
-notes mark a DIFFERENT word as the formal alternative — 03922 削る (notes: 削減する is formal),
-04077 火傷 (notes: 火傷を負う is formal), 04222 取り除く (notes: 除去する is "more formal,
-technical"). The mis-tagging looks like it was read off a neighbouring collocation. The §A rule
-("apply only when the entry's own notes contradict the label") resolves these correctly, but the
-inverse-reading pattern may be mechanically detectable: `formality: formal` where the only
-"formal" string in notes attaches to a cross-referenced word.
+**Metrics trend (activity H) not run**: `metrics-history.jsonl` holds 516 lines against
+`quality-metrics.md`'s last refresh at 509 — 7 new, below the ≥10 threshold. Due next run.
 
-[entry] Sole-`general` semantic tags remain dense in the 03900-04450 band: 7 of 36 sampled
-entries (武士, 親類, 眉, 花弁, 銀杏, 笹, 認知症) — ~19%, all with obvious in-list destinations
-(history, family, body-part, plant-flower, plant-tree, plant-general, health). P13's detector
-already tracks these; the band is worth a targeted pass.
-
-## 2026-08-14 — routine polish (entries 04946–04999 priority lane, 06930–06935 frontier)
-
-- [pattern] The adverb/mimetic block around 06930–06935 has well-structured, informative notes but **zero
-  inline word links** in either examples or notes. Whatever pass created these entries produced good prose
-  and skipped linking entirely. Worth checking whether the surrounding 06900–07000 range shares this shape;
-  if so it is a bounded, high-value systemic-fix candidate rather than one-at-a-time frontier work.
-- [pattern] Core-tier noun entries from the January 2026 creation batch (04946, 04951, 04988, 04991, 04994,
-  04999 all seen this run) use ad-hoc note section labels ("Components:", "Types:", "Related:") instead of
-  the UPPERCASE headers the note-quality scorer and the rest of the dictionary use, and none of them has a
-  collocations section. They score a uniform 75. This is why they cluster on the notes priority list, and
-  restructuring lifts them to 94–97. A detector for "noun entry, no uppercase header, no collocations
-  section" would find the rest of the batch cheaply.
-- [entry] 10166 寿司屋: notes contain bare Japanese throughout (回転寿司, 高級寿司屋, 立ち食い寿司, 板前,
-  魚屋/花屋/肉屋) with no inline links. Touched only to add a back-link this run; needs a full linking pass.
-- [tooling] `review_accuracy.py` writes an empty `description` field on issues; the useful text is in
-  `concern`. Anything reading these reports should read `concern`, not `description`.
-
-## 2026-08-15T00:35:36Z — routine (accuracy-review, 10687-11200)
-
-[tooling] review_accuracy.py's `tags` dimension is not usable as written. Over 411 entries it produced 80 tag flags, and every one sampled was a confabulation: the model invents a plausible finer-grained tag the entry does not carry, then suggests the tag that is already there. It simultaneously missed all 22 entries in the range that genuinely carry off-vocabulary tags. The entry payload does include the real tags, so the fix belongs in the prompt: state that `semantic_tags` is the complete current list and that only a tag appearing verbatim in it may be flagged. See reviews/needs_curator.txt.
-
-[pattern] Off-vocabulary semantic tags cluster by creation batch, not by ID neighbourhood — 22 in 10687-11200, concentrated in 10688-10810 (katakana loanwords and casual expressions) and 10968-10975. The recurring shapes are composite tags ("food-seafood", "appearance-evaluation", "emotion-anger") that decompose into one or two in-list tags, and near-miss plurals ("people" -> "person", "plant" -> "plant-general"). A deterministic sweep over VALID_SEMANTIC would find these far more cheaply than a model review does.
-
-[tooling] The furigana screening pass runs roughly 5x slower than review_accuracy.py and collapsed to near-zero throughput when the two ran concurrently against OpenRouter. Running them in parallel to save wall-clock is counterproductive; run accuracy first and treat screening as optional.
-
-[entry] 10951 (ショート) carries ショートケーキ as an example, but ショートケーキ is a separate compound whose meaning is not covered by either sense of ショート. Example/sense restructuring was out of scope this run.
+All observations cleared.)_

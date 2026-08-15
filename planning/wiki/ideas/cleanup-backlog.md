@@ -4191,6 +4191,189 @@ it to basic/core cuts it to 231 and to words whose register is decidable in one 
   the 03xxx band is high and the *reviewer's* re-report of the same population is noise the
   project pays for by the range.
 
+## Updates 2026-08-15 (wiki harvest)
+
+Nineteen observations from the 2026-08-14 accuracy-review, polish, new-entries and systemic-fix
+runs and the 2026-08-15 accuracy-review run. **Two become new priorities, both provably
+mechanical and both visible on the live site.** Two proposed detectors are **retired by
+measurement** — they were the same sighting described twice, and neither survives counting. One
+filing asking for a "dedicated backlog item" turns out to be asking for an item that has existed
+since 2026-08-01. And one sighting that named a small closed set turns out to be a convention gap
+five tags wide, which needs a curator ruling rather than a sweep.
+
+### Priority 59: Single-kanji サ変 verbs whose generated potential form is not Japanese — 32 entries
+
+**Source**: the 2026-08-14 `new-entries` run (30635–30653), which hit the bug while creating
+30647 処する, fixed that one entry by hand, and filed the class with two named witnesses
+(08053 察する, 14629 面する) and a detection rule.
+
+**The rule is right and the scope is 32 entries.** `build/add_conjugations.py` builds the
+potential form of every `conjugation.type: "suru"` verb as 〜できる. That is correct for
+漢語+する compounds (勉強する → 勉強できる) but wrong for the single-kanji サ変 verbs, which take
+〜せる: 愛せる, 発せる, 接せる. 愛できる is not a possible Japanese word, and it is currently
+printed in the conjugation table on 32 entry pages of the live site.
+
+Measured 2026-08-15 (`conjugation.type == "suru"`, headword's pre-する portion one character,
+reading the `Potential` row out of `conjugation.forms`):
+
+| | count |
+|---|---|
+| `suru`-type conjugation tables | 4,592 |
+| …whose stem is a single character | 33 |
+| …**carrying the impossible 〜できる potential** | **32** |
+| …already correct | 1 (30647 処する, fixed by hand at creation) |
+
+The 32: 01811 愛する, 02045 関する, 02126 対する, 02129 達する, 02297 適する, 02401 罰する,
+08053 察する, 09142 屈する, 09168 臆する, 09794 熱する, 11664 介する, 11906 制する, 11966 反する,
+11970 博する, 11971 即する, 12003 呈する, 12402 属する, 12567 徹する, 12776 扮する, 12920 接する,
+13400 有する, 13401 瀕する, 13639 発する, 14342 要する, 20837 さする, 21490 没する, 23992 議する,
+25545 値する, 27887 害する, 28650 脱する, 29124 喫する.
+
+**Batch-ready and mechanical**: rewrite the `Potential` row's `affirmative`/`negative` from
+〜できる/〜できない to 〜せる/〜せない. The transformation cannot introduce an error for this class
+because 〜できる is not a possible form of it. Fix `add_conjugations.py` first (Tooling 122) or
+the next `--force` run reintroduces all 32.
+
+**One of the 32 is a different and worse defect.** 20837 さする is tagged `verb-godan` (correctly
+— 擦る is a godan verb) but carries a **サ変 conjugation table end to end**: さします, さした,
+さしよう, さすれば. Every row is wrong, not just the potential. It is in this list only because
+its headword happens to end in する. See Entry Follow-ups; the deterministic check that found it
+is Tooling 120.
+
+### Priority 60: Katakana wrapped in furigana braces — 275 instances / 229 entries
+
+**Source**: the 2026-08-14 `systemic-fix` run (P35 band 03757–04458), which found
+`{ラベル|らべる}` in 03995 宛名, noted that neither `validate.py` nor `find_missing_furigana.py`
+can see the inverse case (furigana supplied where none is wanted), proposed the detector cut
+("brace groups whose base is all-katakana"), and recorded the scope as unmeasured.
+
+**Measured 2026-08-15: 275 instances across 229 entries**, spread over the whole ID range rather
+than one creation batch — 00138 through 30640.
+
+| field | instances |
+|---|---|
+| `notes` | 135 |
+| `examples[].japanese` | 129 |
+| `definitions[].explanation` | 11 |
+
+It renders. `docs/entries/00000/00138_kaisetsu.html` currently emits
+`<ruby>ニュース<rp>(</rp><rt>にゅーす</rt><rp>)</rp></ruby>` — the live site prints にゅーす as
+ruby text above ニュース, which is information-free and reads as a mistake to the learner the
+ruby is for. This is the first class on this page that is both invisible to every furigana
+instrument *and* visibly wrong to a reader.
+
+**Provably safe to strip.** Of the 275, **271** have a reading that is the exact kana
+transliteration of the katakana base, and 3 more repeat the katakana unchanged
+(`{ホスト|ホスト}` in 30640, `{コンピュータ|コンピュータ}` in 27356, `{ホルモン|ホルモン}` in
+28936) — for all 274, deleting the wrapper and keeping the base loses nothing.
+
+**The 275th is a genuine reading error the class was hiding**: 23394 二枚貝 carries
+`{カキ|がき}` — oyster, read がき instead of かき. No furigana instrument could ever have found
+it, because they all key on kanji. Fix that one by hand; sweep the other 274.
+
+### Priority 61: `validate_tags.py`'s 11 standing errors — mechanical, and stalled on one ruling
+
+**Source**: the 2026-08-14 polish run, which reported "11 pre-existing errors unrelated to any
+entry touched this run: five 〜ずる verbs … plus a proper-noun entry".
+
+**The count is right; the composition is not.** Measured 2026-08-15 —
+
+| class | count | entries |
+|---|---|---|
+| 〜ずる verbs: `verb_class: ichidan` vs POS `verb-irregular` | 5 | 09029 準ずる, 13144 案ずる, 18394 乗ずる, 19600 禁ずる, 20377 断ずる |
+| proper nouns carrying `organization-name` without the `proper-noun` umbrella | **3** (not 1) | 08853 NGO, 08907 NBA, 08908 MLB |
+| the three irregular verbs themselves | 3 | 00006 ある, 00254 来る, 00392 する |
+
+The middle three are a one-line fix each. The 〜ずる five need a call the validator cannot make:
+〜ずる verbs *are* morphologically irregular and *do* inflect like ichidan verbs, so either tag
+is defensible and the two fields simply disagree about which axis they describe. The last three
+are the dictionary's genuinely irregular verbs, where `verb_class` is already carrying the
+precise value (`suru`, `kuru`, `irregular`) and the POS tag is carrying the coarse one — that is
+arguably the validator's bug, not the entries'. Worth resolving as a set, because as long as
+these 11 sit in the output every future run has to re-read them to confirm they are not its own.
+
+### A "small closed set" that is a five-way convention gap — grammar terminology
+
+**Source**: the 2026-08-14 accuracy-review run: "Part-of-speech term entries drift to the
+`education` tag. 名詞 and 音読み were both fixed this run; 形容詞 is still tagged `education`
+while 動詞 and 助詞 correctly use `grammatical`. A small closed set — worth a one-shot sweep."
+
+**There is no convention to sweep toward.** Measured over 26 grammar-and-writing terminology
+headwords, the cohort uses **five different semantic tags**:
+
+| tag | count | examples |
+|---|---|---|
+| `grammatical` | 8 | 主語, 助詞, 動詞, 名詞, 活用, 命令形, 目的語, 過去形 |
+| `language` | 8 | 品詞, 感動詞, 漢字, 自動詞, 音読み, 命令形, 目的語, 過去形 |
+| `education` | 6 | 他動詞, 形容詞, 接続詞, 訓読み, 語彙, 送り仮名 |
+| `general` | 4 | 助動詞, 平仮名, 片仮名, 述語 |
+| `communication` | 3 | 副詞, 敬語, 文法 |
+
+(Three entries carry two tags, which is why the column exceeds 26.)
+
+The sharpest evidence is inside the filing itself. The run reports fixing 名詞 and 音読み
+together — and it fixed them to **different tags**: 名詞 is now `grammatical`, 音読み is
+`language`. Its sibling 訓読み is still `education`, and 他動詞 (`education`) and 自動詞
+(`language`) split the same pair. The reviewer is not drifting toward `education`; it is picking
+freely among four in-list tags that all fit, because the project has never chosen one.
+
+**This needs a curator ruling, not a systemic-fix run**: is the house tag for metalinguistic
+vocabulary `grammatical` or `language`, and does `education` belong to the学習 sense at all?
+Once chosen, the sweep is 26 entries and trivial. Filed to `reviews/needs_curator.txt`.
+
+### Retired 2026-08-15: both proposed formality detectors
+
+Two runs on 2026-08-14 filed what is recognisably the same sighting from opposite ends, each
+proposing a mechanical detector. Neither survives measurement. Per the Instrument Defects case-10
+rule, the commands are quoted.
+
+**(a) "`formality: formal` where the entry's own REGISTER line says neutral."** Filed by the
+polish run, which saw it on three of four frontier entries (06927, 06928, 06929). Scanning all
+**5,067** `formality: formal` entries for a `REGISTER` line containing "neutral" returns **8**,
+and six of the eight are correct as tagged — they say "Neutral **to** formal" (01182 尋ねる,
+06289 新規, 06938 疎外感, 03103 について), "Formal/polite for sense 1; neutral … for sense 2"
+(07801 粗相), or "Somewhat formal/literary; neutral to negative *connotation*" (09232 辟易する),
+where "neutral" is describing connotation, not register. At most two are candidates. The class
+the run saw was real and the run fixed it; the residue does not justify an instrument. The
+existing queue item `tag-formality-contradicts-register-note` (scope 5) is updated to reflect
+this rather than left implying a live batch.
+
+**(b) "`formality: formal` where the only 'formal' string in notes attaches to a
+cross-referenced word."** Filed by the systemic-fix run from 03922 削る, 04077 火傷, 04222 取り除く.
+All three **already read `formality: neutral`** — the same run fixed them, so the filing describes
+its own completed work. Testing the proposed rule anyway (formal-tagged entries whose notes
+contain "more formal"/"is the formal"/"formal equivalent" preceded by Japanese text) returns
+**419** entries, and the sample is dominated by the *correct* case: 00122 寺院 ("寺院 is more
+formal than お寺"), 00147 価格 ("the formal term for price"), 00252 苦情, 00264 給与 — all
+entries where the formal word being described **is the headword**. Separating "this word is
+formal" from "that other word is the formal one" is the semantic judgment, and it is the whole
+of the task. Not mechanizable as specified.
+
+### Re-discoveries needing no new item
+
+- **"A dedicated systemic-fix backlog item listing every sole-`general` entry"** (2026-08-14
+  accuracy-review; 13 of 39 applied fixes that run were sole-`general` swaps) —
+  `tag-sole-general` has been open and `batch_ready` since 2026-08-01. Re-measured 2026-08-15 at
+  **3,642 entries** (3,151 general, 442 core, 49 basic), down from 3,681 on 2026-08-14, i.e. the
+  hand-clearing is running at roughly 40/day against a class of 3,600. The second sighting the
+  same window (systemic-fix: 7 of 36 sampled in 03900–04450, ~19%) is a density reading of the
+  same population, consistent with the dictionary-wide 12%.
+- **Off-vocabulary tags cluster by creation batch, not ID neighbourhood** (2026-08-15
+  accuracy-review, 22 in 10687–11200 concentrated in 10688–10810 and 10968–10975) — a shape note
+  on `unknown-semantic-tags` (998 entries), not a new item. The run's own conclusion, that a
+  deterministic `VALID_SEMANTIC` sweep finds these far more cheaply than a paid model review,
+  is the same finding as Tooling 118 below and is now the third independent measurement of it.
+- **Stale `noentry` markers** (2026-08-14 polish, 04930 からし/水戸) — P35 /
+  `inline-link-stale-noentry`, already the lowest-numbered open batch-ready item.
+- **Compound-element inline links are decided by the target entry's notes, not its gloss**
+  (2026-08-14 systemic-fix; 込む → 00719, 思い → 10248, four applies that gloss-only screening
+  would have rejected) — the 2026-08-13 年寄り臭い → 01133 臭い precedent, now with three
+  witnesses. Recorded on [Inline Link Integrity](../topics/inline-link-integrity.md); no item.
+- **The 06900+ zero-link band** (filed twice this window as a "creation batch that skipped
+  linking, worth a targeted sweep") — it is not a batch artifact. See
+  [Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23404-and-not-a-defect),
+  where this harvest replaced the single-window growth note with a 66-day measurement.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns
