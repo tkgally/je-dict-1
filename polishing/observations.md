@@ -1429,3 +1429,10 @@ suffix, not running Japanese text, so it is easy to forget it still needs furiga
 run had exactly this shape. Either write the header in plain English (`SEASONAL SERIES:`,
 `EXPRESSION SERIES:`) and put the annotated suffix in the sentence below it, or annotate the
 kanji in the header itself.
+
+## 2026-08-15 — routine(polish)
+
+- [pattern] 2,507 entries use `・` for note bullet lists instead of the `- ` (hyphen-space) format mandated by `.claude/skills/vocabulary-notes/SKILL.md`. `build/score_note_quality.py` only credits `- `, so every one of those entries silently loses 10 points and is pushed up the `polishing/priority/notes.txt` ranking — the priority lane is currently full of otherwise-good entries whose only defect is the bullet character. Converting line-initial `・` to `- ` is a safe, purely mechanical transformation (regex `^・` per line, notes field only; `・` used mid-line as a katakana separator must be left alone). Good candidate for a `systemic-fix` batch item: ~2.5k entries, one detector + one sweep, and it would make the notes priority ranking meaningful again. This run converted 8 entries as part of the priority lane (score 77 -> 87 each).
+- [tooling] `build/word_id_lookup.json`'s `by_headword` index does not expand slash-separated headword variants: `00514_hayai` is stored under the single key `速い／早い`, so a lookup of `早い` or `速い` returns nothing and inline-link tooling falls through to `noentry`. Indexing each variant separately would prevent false `noentry` markers on a whole class of entries.
+- [tooling] `build/review_accuracy.py` writes `"description": null` on every issue it reports — only `suggestion` carries information. Adjudication currently has to infer the reviewer's reasoning from the suggested replacement alone, which is slower and less reliable. Worth checking whether the reviewer prompt asks for a description field the parser then drops.
+- [entry] 06946 womotte: the example `{三月末|さんがつまつ}をもって…` links 三月末 as `noentry`. It is compositional (三月 + 末) and probably not headword-worthy, so no candidate was filed; if a future run disagrees, the marker is there to find.

@@ -2,43 +2,15 @@
   "entry_id": "00532_kariru",
   "headword": "{借|か}りる",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:32Z",
+  "reviewed_at": "2026-08-15T15:27:55Z",
   "summary": {
-    "flagged": 4
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete for intermediate learners.",
-      "suggestion": "Add 'to hire' to the top-level gloss, as it is a common meaning for '借りる' in contexts like cars or bicycles, which are present in the examples."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[2].gloss",
-      "severity": "warn",
-      "concern": "The gloss for sense 2 is incomplete.",
-      "suggestion": "Add 'to hire' to the gloss for sense 2, as it is a common meaning for '借りる' in contexts like cars or bicycles, which are present in the examples."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[2].explanation",
-      "severity": "warn",
-      "concern": "The explanation for sense 2 is incomplete.",
-      "suggestion": "Add 'or hire' to the explanation for sense 2, as 'to hire' is also a common meaning for '借りる' in contexts like cars or bicycles, which are present in the examples."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "warn",
-      "concern": "The English translation is not the most natural rendering for '自転車を借りました'.",
-      "suggestion": "Change 'I rented a bicycle for the trip.' to 'I hired a bicycle for the trip.' or 'I rented a bike for the trip.' 'Hired' is more common for bicycles in many English-speaking regions."
-    }
-  ]
+  "issues": []
 }

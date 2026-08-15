@@ -2,36 +2,15 @@
   "entry_id": "00521_okiru",
   "headword": "{起|お}きる",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:15Z",
+  "reviewed_at": "2026-08-15T15:27:52Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete as it only covers the first sense and omits the 'to occur/happen' meaning.",
-      "suggestion": "Change 'to wake up, to get up' to 'to wake up, to get up; to occur, to happen'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for sense 1 includes information about sense 2, which is confusing and redundant given that sense 2 is separately defined.",
-      "suggestion": "Remove 'Can also mean to happen or occur (for events).' from the explanation for sense 1."
-    },
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "The 'action' tag is too narrow for the headword '起きる' as it also means 'to occur/happen' (sense 2), which is not an action performed by a subject.",
-      "suggestion": "Add a tag like 'event' or 'occurrence' to reflect the second sense of the verb."
-    }
-  ]
+  "issues": []
 }

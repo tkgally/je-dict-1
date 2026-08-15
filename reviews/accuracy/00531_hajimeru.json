@@ -2,22 +2,15 @@
   "entry_id": "00531_hajimeru",
   "headword": "{始|はじ}める",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:28Z",
+  "reviewed_at": "2026-08-15T15:27:54Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for sense 1 is incomplete and potentially misleading regarding the intransitive pair.",
-      "suggestion": "The explanation should clarify that 始める can also be used as an auxiliary verb (e.g., 食べ始める) which is not directly covered by the 'transitive verb' explanation. While it mentions 始まる as the intransitive pair, it doesn't fully capture the auxiliary usage of 始める. A more complete explanation would be: 'To cause something to begin. A transitive verb - you start something. It can also be used as an auxiliary verb following the stem of another verb to mean 'to begin to do (something)'. The intransitive pair is {始|はじ}まる (hajimaru).'"
-    }
-  ]
+  "issues": []
 }
