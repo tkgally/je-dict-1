@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T03:40:46Z",
+  "reviewed_at": "2026-08-15T00:31:15Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'person' is too broad and misleading for the headword's meaning of 'spectators/onlookers'.",
+      "suggestion": "Replace 'person' with 'person-general' or 'person-group'."
+    }
+  ]
 }

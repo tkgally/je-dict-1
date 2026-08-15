@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T03:40:53Z",
+  "reviewed_at": "2026-08-15T00:31:21Z",
   "summary": {
     "flagged": 2
   },
@@ -17,15 +17,15 @@
       "dimension": "translation",
       "location": "examples[3]",
       "severity": "error",
-      "concern": "The English translation misrepresents the Japanese. 'Can I keep a bottle here?' implies the speaker wants to store their own bottle, not use the bottle keep service.",
-      "suggestion": "Can I bottle keep? / Do you offer bottle keep?"
+      "concern": "The English translation implies the speaker wants to store their own bottle, but the Japanese refers to the service of 'bottle keep' where a bottle purchased at the establishment is stored for future consumption.",
+      "suggestion": "Can I do bottle keep here? / Do you offer bottle keep?"
     },
     {
       "dimension": "translation",
       "location": "examples[4]",
       "severity": "error",
-      "concern": "The English translation misrepresents the Japanese. 'The bottle I kept from last time is still here' implies the speaker personally stored the bottle, not that it was bottle-kept by the establishment.",
-      "suggestion": "The bottle I bottle-kept last time is still here. / My bottle from last time is still here."
+      "concern": "The English translation implies the speaker brought a bottle and stored it, but the Japanese refers to a bottle that was purchased and stored at the establishment as part of the 'bottle keep' service.",
+      "suggestion": "The bottle I had kept from last time is still here."
     }
   ]
 }

@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-28T03:40:49Z",
+  "reviewed_at": "2026-08-15T00:31:18Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific item like 'cash card'.",
+      "suggestion": "finance"
+    }
+  ]
 }

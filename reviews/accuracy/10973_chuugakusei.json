@@ -1,0 +1,24 @@
+{
+  "entry_id": "10973_chuugakusei",
+  "headword": "{中学生|ちゅうがくせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-15T00:33:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'people'",
+      "suggestion": "person"
+    }
+  ]
+}

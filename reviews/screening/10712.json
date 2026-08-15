@@ -1,10 +1,8 @@
 {
   "entry_id": "10712",
-  "screened_at": "2026-06-27T15:36:18Z",
+  "screened_at": "2026-08-15T00:21:14Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for 百組 (hyakukumi) is incorrect. The correct reading for 組 when referring to groups of performers or teams is usually くみ, but when preceded by a number like 百 (hyaku), it often becomes ぐみ due to rendaku, or in this specific context, it should be ひゃくくみ as given, but the context \"百組を{超|こ}える\" suggests it's referring to groups of artists, and the reading 'ひゃくくみ' is acceptable. However, the provided reading 'ひゃくくみ' is correct for 百組. The issue is that the example provided in the prompt for 百組 is 'ひゃくくみ', but the context '百組 → ひゃくくみ (followed by: を{超|こ}えるアー)' implies that 'ひゃくくみ' is the reading for '百組'. This is correct. The problem is that the prompt's example for '国内外' is '国内外 → こくないがい (followed by: から{百組|ひゃくく)', which means the reading for '百組' is 'ひゃくく'. This is a partial reading and is acceptable according to the rules. Therefore, there are no incorrect kanji-reading mappings."
-  ],
-  "confidence": 0.5
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }
