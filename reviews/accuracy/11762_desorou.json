@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-02T06:36:52Z",
+  "reviewed_at": "2026-08-15T21:23:03Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'quantity' is incorrect for the headword '出揃う'.",
+      "suggestion": "Replace 'quantity' with 'existence' or 'change'."
+    }
+  ]
 }

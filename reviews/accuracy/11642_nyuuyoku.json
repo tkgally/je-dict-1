@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-01T21:28:23Z",
+  "reviewed_at": "2026-08-15T21:20:32Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
+      "location": "tags.formality",
       "severity": "error",
-      "concern": "The semantic tag 'consumption' is incorrect for '入浴'.",
-      "suggestion": "Replace 'consumption' with 'daily-life' or 'health'."
+      "concern": "The formality tag 'formal' is incorrect for '入浴'. While it is more formal than お風呂に入る, it is not strictly 'formal' in the sense of highly elevated or ceremonial language. It's more of a neutral, slightly elevated term often used in written contexts or for specific types of bathing (e.g., medical, public baths). 'Neutral' or 'slightly formal' would be more accurate, but given the options, 'neutral' is the closest appropriate tag.",
+      "suggestion": "neutral"
     }
   ]
 }

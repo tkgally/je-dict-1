@@ -1,0 +1,24 @@
+{
+  "entry_id": "11840_hinshu",
+  "headword": "{品種|ひんしゅ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-15T21:24:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'plant-general' is too narrow; 品種 can also refer to animal breeds.",
+      "suggestion": "Add 'animal-general' to the semantic tags."
+    }
+  ]
+}

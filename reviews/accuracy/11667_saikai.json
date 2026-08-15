@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-02T06:34:33Z",
+  "reviewed_at": "2026-08-15T21:20:59Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'communication' is incorrect for '再会'.",
+      "suggestion": "The most appropriate tag would be 'event-name' or 'action' (since it's a suru-verb)."
+    }
+  ]
 }

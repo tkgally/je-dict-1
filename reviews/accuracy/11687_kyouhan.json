@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-02T06:35:17Z",
+  "reviewed_at": "2026-08-15T21:21:21Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'general' is too broad for a word with a specific legal meaning.",
+      "concern": "The semantic tag 'general' is too broad for a word with a specific legal/criminal context.",
       "suggestion": "law"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '共犯' is not formal; it's a standard term used in legal contexts and everyday speech when discussing crimes.",
+      "suggestion": "neutral"
     }
   ]
 }

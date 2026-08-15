@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-01T09:45:19Z",
+  "reviewed_at": "2026-08-15T21:18:35Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'business-operation' is not in the valid tag list.",
-      "suggestion": "business"
+      "severity": "error",
+      "concern": "Missing 'action' tag for a suru-verb.",
+      "suggestion": "Add 'action' to semantic_tags."
     }
   ]
 }

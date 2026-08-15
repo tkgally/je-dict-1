@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-02T06:35:20Z",
+  "reviewed_at": "2026-08-15T21:21:23Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword '内面' has two distinct senses, one related to 'emotion' and another to 'physical interior'. The current semantic tag 'emotion' only covers the first sense, making it incomplete and potentially misleading for the second sense.",
-      "suggestion": "Add 'general' or 'descriptive' to cover the broader meaning of 'inner surface/inside' for physical objects, or split the entry into two headwords if the dictionary allows for it. Given the current structure, 'general' would be the most appropriate addition to encompass both meanings without being overly specific."
+      "concern": "The semantic tag 'emotion' is too narrow for the headword '内面', which encompasses more than just emotions (e.g., thoughts, psychological state, inner surface of objects).",
+      "suggestion": "Replace 'emotion' with 'general' or 'abstract' to better reflect the broad meaning of '内面'."
     }
   ]
 }

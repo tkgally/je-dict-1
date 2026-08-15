@@ -8,31 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-02T06:35:30Z",
+  "reviewed_at": "2026-08-15T21:28:32Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The gloss 'today; nowadays, these days' is misleading because the headword 'こんにち' (konnichi) is almost never used to mean 'today' in the same way as 'きょう' (kyou) in modern Japanese. It primarily means 'nowadays' or 'the present day', or 'this day' in more formal/literary contexts, often as part of set phrases.",
-      "suggestion": "Change gloss to 'nowadays, these days; this day (formal)'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "error",
-      "concern": "The Japanese sentence uses '今日' (konnichi) but the English translation 'Let's call it a day for today' implies 'きょう' (kyou). 'こんにち' is not typically used in this common, everyday phrase.",
-      "suggestion": "This example sentence is inappropriate for 'こんにち'. It should be replaced with an example that correctly uses 'こんにち' in a formal or set phrase context for 'this day', or removed."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "error",
-      "concern": "The Japanese sentence uses '今日' (konnichi) but the English translation 'Today's meeting is now concluded' implies 'きょう' (kyou). 'こんにち' is not typically used in this common, everyday phrase for 'today's [event]'.",
-      "suggestion": "This example sentence is inappropriate for 'こんにち'. It should be replaced with an example that correctly uses 'こんにち' in a formal or set phrase context for 'this day', or removed."
-    }
-  ]
+  "issues": []
 }

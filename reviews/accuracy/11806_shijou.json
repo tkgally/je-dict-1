@@ -1,0 +1,24 @@
+{
+  "entry_id": "11806_shijou",
+  "headword": "{史上|しじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-15T21:23:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for '史上'.",
+      "suggestion": "Replace 'time' with 'time-period' or remove it, as 'history' already covers the temporal aspect."
+    }
+  ]
+}

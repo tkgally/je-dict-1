@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-01T09:44:17Z",
+  "reviewed_at": "2026-08-15T21:17:55Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.formality",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for '定例'. While it often appears in formal contexts, the word itself is neutral in formality, describing something that is regular or routine. It's not inherently formal language.",
-      "suggestion": "neutral"
+      "concern": "The semantic tag 'work' is too narrow for '定例'. While '定例' often appears in work contexts, its core meaning of 'regular' or 'routine' applies to many other areas of life (e.g., 定例行事 'regular event', 定例会 'regular meeting' which could be for a hobby group).",
+      "suggestion": "Replace 'work' with 'general' or 'time-general' to better reflect its broader applicability."
     }
   ]
 }
