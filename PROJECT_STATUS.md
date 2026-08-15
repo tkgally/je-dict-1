@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-08-13
+**Last updated**: 2026-08-15
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,10 +19,10 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~30,405 |
+| Total entries | ~30,464 |
 | Basic tier | 801 (closed) |
 | Core tier | ~1,982 (closed) |
-| General tier | ~27,562 (open) |
+| General tier | ~27,681 (open) |
 | Candidate words | ~154 (all vetted; queue cleaned 2026-08-11) |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
@@ -50,6 +50,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-08-15 (Routine v2: new-entries — 20 New Entries, IDs 30654–30673)
+
+Created 20 general-tier entries, **all 20 from the "seen in entry" lane** — words the dictionary already used inside other entries' examples and notes but had never defined. That empties the lane completely for the second run in a row. The words break down as follows.
+
+- **Health (3)**: {心療内科|しんりょうないか} (the psychosomatic medicine department, written against {精神科|せいしんか} and {神経内科|しんけいないか} because choosing the right clinic is the real-world question), {自律神経失調症|じりつしんけいしっちょうしょう} (noted as the broad everyday diagnostic label it is, not a precise disease), and {瘤|こぶ} (with the idiom {目|め}の{上|うえ}のたんこぶ).
+- **Cooking and cutting (2)**: {飾|かざ}り{包丁|ぼうちょう} and {切|き}り{込|こ}み. The first is cross-linked to {隠|かく}し{包丁|ぼうちょう} (created yesterday) as a contrast — decorative cuts versus cuts hidden for cooking — which is exactly the distinction that sends learners to a dictionary.
+- **Grammar and register (3)**: ごとに (written around the ごとに/おきに confusion — "every day" versus "every other day" — which is the single most common learner error with this suffix), ついさっき (informal; pointed at {先|さき}ほど for polite contexts), and ためらいがち (with the 〜がち suffix pattern).
+- **News and time vocabulary (2)**: {供給不足|きょうきゅうぶそく} (linked to the existing {供給過剰|きょうきゅうかじょう}) and {十数年|じゅうすうねん}, contrasted with {数十年|すうじゅうねん} — the same characters in the other order, meaning decades rather than a dozen years.
+- **Shinto ritual language (2)**: {祝詞|のりと} and {奏上|そうじょう}, cross-linked to each other since they appear together in the fixed phrase {祝詞|のりと}を{奏上|そうじょう}する.
+- **General vocabulary (8)**: {音楽祭|おんがくさい} (distinguished from フェス), ごぼごぼ, {肥|こ}やし (two senses — manure, and the figurative "nourishment" of 失敗を肥やしにする), チェスト (with the warning that it never means the body part), {夏物|なつもの} (linked to {冬物|ふゆもの}), {賞状|しょうじょう}, {敬虔|けいけん}, and {得意顔|とくいがお}.
+
+A conjugation table was generated for the one suru-verb ({奏上|そうじょう}する). Two new kanji were given index IDs: 瘤 (02795) and 虔 (02796).
+
+**§4 cross-model self-check on all 20 new entries: clean — zero flags** across glosses, example translations, and semantic tags. $0.009.
+
+**Queue note**: eight new candidates were captured from words these entries reference but do not define — おきに, {上奏|じょうそう}, {表彰状|ひょうしょうじょう}, {信心深|しんじんぶか}い, したり{顔|がお}, {更年期障害|こうねんきしょうがい}, {地鎮祭|じちんさい}, and {先|さき}ほど. The candidate queue stands at 154.
+
+**Two systemic notes logged** to `polishing/observations.md`: `prompts/newentries.md` documents the closed lists for POS, semantic, and domain tags but never lists the four legal `formality` values, so the natural English word "casual" fails validation (one entry tripped on it this run); and bare kanji slip into notes through English section headers that embed a Japanese suffix (`THE 〜物 SERIES:`), which the furigana scanner catches only after the entry is written (two entries this run).
 
 ### 2026-08-14 (Routine v2: new-entries — 19 New Entries, IDs 30635–30653)
 
@@ -102,9 +121,3 @@ Created 20 general-tier entries, **all 20 drawn from the "seen in entry" lane** 
 - **Proper noun (1)**: {夏目漱石|なつめそうせき}
 
 **Queue note**: ten candidate rows (C23094–C23103) had been filed with furigana markup inside the word itself, so the automatic "this word now has an entry" sync could not match them and they were removed by hand; a fix for the candidate tool is logged in `polishing/observations.md`. One candidate, ぶり in the sense of "manner of doing" ({仕事|しごと}ぶり), was deliberately not created — entry 28358 already holds that headword for the unrelated "for the first time in" sense, so this belongs there as a second sense. Candidate queue now 167.
-
-### 2026-08-11 (Routine: candidate restock — 75 words added, queue 102 → 177)
-Second restock of the word queue that feeds entry writing, run under the new vetting workflow. **75 of 76 proposed words were added** (浅草 turned out to already have an entry). The run first measured where the dictionary is still thin, and the answer is worth recording: **ordinary vocabulary is close to exhausted**. Four trial batches drawn from different areas came back almost entirely as words we already have — office and business life 25 out of 25 already present, residency and administrative paperwork 14 of 15, modern-life compounds and weather words 25 of 28, mimetics and literary-register verbs 13 of 18. Proper names, opened up only this morning, ran the other way: roughly four in five survived. So this batch is deliberately weighted toward names — **64 proper nouns and 11 ordinary words**. The names were chosen for the lexical work they do beyond pointing at a referent: {清水寺|きよみずでら} (source of {清水|きよみず}の{舞台|ぶたい}から{飛|と}び{降|お}りる), {築地|つきじ}, {永田町|ながたちょう} and {霞|かすみ}が{関|せき} as metonyms for the fish trade, politics and the bureaucracy, {原宿|はらじゅく} (as in {原宿系|はらじゅくけい}), {上杉謙信|うえすぎけんしん} (behind {敵|てき}に{塩|しお}を{送|おく}る), {源義経|みなもとのよしつね} (behind {判官|ほうがん}びいき), {世阿弥|ぜあみ} ({初心|しょしん}{忘|わす}るべからず), plus the school-canon literary works ({竹取|たけとり}{物語|ものがたり}, {平家|へいけ}{物語|ものがたり}, {徒然草|つれづれぐさ}, {方丈記|ほうじょうき}, {奥|おく}の{細道|ほそみち}, {羅生門|らしょうもん}, {走|はし}れメロス) and four historical periods. The 11 ordinary words are the survivors of the thin veins: ノルマ, サプリ, {厚生|こうせい}{年金|ねんきん}, {買|か}い{占|し}め, {食品|しょくひん}ロス, {時雨|しぐれ}, {顧|かえり}みる (distinguished from the existing {省|かえり}みる), and the mimetics まざまざ, ひしひし, ずけずけ, こぢんまり. A second read of the added list corrected one label: {大河|たいが}ドラマ was filed as a proper noun but is a genre term, and its note now says so. Two structural notes for future restocks: no semantic field is below 60% coverage any more, and every remaining scenario "gap" is a conjugated form or free phrase that the vetting gates reject, so those two audit tools are no longer usable as generation aims.
-
-### 2026-08-11 (Candidate-queue overhaul: cleanup, verified-restock workflow, proper nouns in scope, new `candidates` Routine mode)
-Curator-directed session answering the six-run escalation about the unusable candidate queue. **Cleanup**: all 964 corpus-harvested candidates (Feb–May 2026) were removed from `candidate_words.json` — coinages, free phrases, inflected forms, number+counter combinations, wrong glosses — and archived with reason labels to `planning/archive/candidate-cleanup-2026-08-11.json`; the 5 recent "seen in entry" candidates were kept. **New workflow**: candidate discovery is now the *verified restock* — generate from lexical knowledge aimed by gap data, vet every word against explicit gates (real word, lemma form, headword-worthy, correct reading/gloss, learner value), add via the new duplicate-checking `manage_candidates.py add-batch` (a `remove` subcommand was also added). `prompts/newcandidates.md` and the `find-candidates` skill were rewritten around this; `corpus_harvesting.md` is deprecated. **Proper nouns are now in scope** (place/person/organization/work/event/brand names), prioritizing collocationally and semantically rich names (甲子園-style metonymy, 〜の銀座 patterns, banknote figures); seven semantic tags were added to `VALID_SEMANTIC` (`proper-noun` umbrella + six categories) with an enforced pairing rule in `validate_tags.py`, and 56 existing proper-noun entries (東京, 富士山, 芥川賞, 日本銀行, 聖徳太子, 紅白歌合戦…) were retro-tagged for consistency. **New Routine mode**: `candidates` joined the selector rotation (weight 0.10), self-suppressing while the queue holds ≥150 words and boosted when it drops below 80, so restock fires exactly when needed; selector tests extended (16 pass). **First restock executed**: 88 vetted words added (73 rich proper nouns — 新宿, 山手線, 関ヶ原, 夏目漱石's peers 紫式部/織田信長/福沢諭吉, トヨタ, ジブリ, 源氏物語, ドラえもん, 箱根駅伝 — plus salvaged real words in correct lemma form such as 擦り寄る, 手薄, 底力, and idioms/proverbs 匙を投げる, 渡りに船, 餅は餅屋). Queue now 93, every word entry-ready. Note: 夏目漱石 (C22806) no longer needs a curator call — person names are in scope.
