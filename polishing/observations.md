@@ -1412,3 +1412,20 @@ concurrently the way the accuracy reviewer's appear to be.
 okurigana split the calibration report describes), and はかせ vs はくし for 博士, where both
 readings are correct in their respective compounds. The deep pass was skipped under §A's
 known-noise shortcut. This is consistent with the 0–5% precision measured on 2026-06-10/11.
+
+## 2026-08-15 (routine, new-entries 30654–30673)
+
+[skill] The `formality` field's allowed values are `formal`, `neutral`, `informal`, `vulgar`, or
+null — but `prompts/newentries.md` never lists them, while it does spell out the closed lists for
+`pos`, `semantic`, and `domain`. Writing `"casual"` (the natural English word, and the word the
+register notes in many entries actually use) fails schema validation. One of 20 entries this run
+tripped on it. Adding a one-line formality row to the newentries tag tables would remove the trip
+hazard entirely.
+
+[pattern] Bare kanji creep into notes through English section headers that embed a Japanese
+suffix — `THE 〜物 SERIES:`, `THE 〜顔 SERIES:`. The kanji inside the header is a display of the
+suffix, not running Japanese text, so it is easy to forget it still needs furigana;
+`find_missing_furigana.py` catches it, but only after the entry is written. Two of 20 entries this
+run had exactly this shape. Either write the header in plain English (`SEASONAL SERIES:`,
+`EXPRESSION SERIES:`) and put the annotated suffix in the sentence below it, or annotate the
+kanji in the header itself.
