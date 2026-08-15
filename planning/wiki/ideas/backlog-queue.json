@@ -963,11 +963,11 @@
       "priority": 9,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 55,
+      "scope_estimate": 54,
       "scope_unit": "entries",
       "scope_measured_at": "2026-08-09",
       "severity": "warn",
-      "notes": "Sibling of P46 (notes linked / examples bare, 33 entries): both are work the frontier reached and left unfinished, and no cursor returns to them. Mostly contiguous blocks: 03949-03969 (21, single-kanji bound-morpheme headwords), 06006-06014 (9, anatomy), 06670-06676 (7, i-adjectives), 06593-06598 (6), 06363-06367 (4), 04620/04623, plus 6 isolates. Verified linkable by spot-check (03949's examples contain 空港/予約/迎える/行く). Take the 03949-03969 block LAST and settle the bound-morpheme-headword linking convention once rather than 21 times. 06844 kirikuzusu is a member and is already parked at the frontier cursor for a dedicated polish run."
+      "notes": "Sibling of P46 (notes linked / examples bare, 33 entries): both are work the frontier reached and left unfinished, and no cursor returns to them. Mostly contiguous blocks: 03949-03969 (21, single-kanji bound-morpheme headwords), 06006-06014 (9, anatomy), 06670-06676 (7, i-adjectives), 06593-06598 (6), 06363-06367 (4), 04620/04623, plus 6 isolates. Verified linkable by spot-check (03949's examples contain 空港/予約/迎える/行く). Take the 03949-03969 block LAST and settle the bound-morpheme-headword linking convention once rather than 21 times. 06844 kirikuzusu is a member and is already parked at the frontier cursor for a dedicated polish run. Re-measured 2026-08-15 below `next: 06947`: 54 entries, and they are six contiguous ID runs (03949-03969 x21, 06006-06014 x9, 06670-06676 x7, 06593-06598 x6, 06363-06367 x5) plus seven singletons (03100, 03356, 04620, 04623, 04974, 06109, 06747). Work it run-by-run, not entry-by-entry."
     },
     {
       "id": "furigana-wrapper-empty-side",
@@ -1236,6 +1236,22 @@
       "scope_unit": "entries",
       "severity": "info",
       "notes": "Measured 2026-08-15 over 26 terminology headwords: grammatical 8, language 8, education 6, general 4, communication 3. Filed as 'POS terms drift to education, a small closed set worth a one-shot sweep' -- but there is no convention to sweep toward. The filing run fixed 名詞 and 音読み in the same pass to DIFFERENT tags (grammatical vs language), and the sibling pairs 訓読み/音読み and 他動詞/自動詞 are split the same way. Blocked on a curator ruling: is the house tag for metalinguistic vocabulary `grammatical` or `language`? Once chosen the sweep is trivial. Escalated to reviews/needs_curator.txt."
+    },
+    {
+      "id": "notes-nakaguro-bullets",
+      "title": "`・` used for note bullet lists instead of `- ` -- 2,496 entries silently lose 10 note-quality points",
+      "source": "ideas/cleanup-backlog.md#priority-62-・-bullets-in-notes--2496-entries-the-note-scorer-silently-penalises",
+      "detect": "python3 - : for each entry, count lines in `notes` whose stripped form starts with ・",
+      "filter": "line-initial ・ only; a mid-line ・ is the katakana middle dot and must not be touched",
+      "fix_type": "mechanical",
+      "verify": "spot-check",
+      "priority": 6,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 2496,
+      "scope_unit": "entries",
+      "severity": "info",
+      "notes": "Measured 2026-08-15 across 30,464 entries: 2,496 entries / 18,089 bullet lines. .claude/skills/vocabulary-notes/SKILL.md mandates '- ' and build/score_note_quality.py credits only '- ', so each of these entries loses a flat 10 points for a typographic defect and is pushed up polishing/priority/notes.txt -- 130 of the top 500 priority entries (26%) carry the shape. Transformation is regex ^・ -> '- ' on the notes field only; a line-initial ・ cannot be the katakana separator, so this is the 'provably cannot introduce an error' class, but still validate and spot-check. No generator emits ・ bullets, so unlike P59/P60 there is no generator to fix first. Re-run `make priorities` after the sweep or the ranking keeps the pre-sweep order."
     }
   ]
 }

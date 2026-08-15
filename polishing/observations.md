@@ -1359,80 +1359,74 @@ All observations cleared.)_
 
 ---
 
-## 2026-08-15 — routine(polish), entries 05012/06936–06941/06966/07289/07399
+## 2026-08-15 (routine wiki harvest, run 2 — all prior observations cleared)
 
-[tooling] `build/verify_furigana.py` does not check the `headword` field. Entry 06940 carried the
-headword `知らんけど` — bare kanji, no furigana wrapper — and both `verify_furigana.py 06940` and
-`validate.py --id 06940` reported it clean. The furigana rule is stated for "headwords, examples,
-AND notes", so this is a real detector gap, not a policy choice. A one-line addition (run the same
-wrapper check over `headword` that already runs over examples) would close it. Worth a
-dictionary-wide scan afterwards: if the headword field has never been checked, other entries
-created in the same January-2026 batch may carry the same defect.
+_(Harvested the 12 observations from the three runs since the midday harvest: polish
+05012/06936–06941/06966/07289/07399, accuracy-review 11008–11500, new-entries 30654–30673, and
+polish 06942–06947. Five claims were measured dictionary-wide before filing, and three of the
+five changed shape under measurement.
 
-[pattern] Zero-link entries survive well past the polish frontier when they sit in the priority
-lane's tail. Four of the five entries touched this run that had *no* inline links at all
-(06936, 06937, 06940, 06941, 06966) were created in the same 2026-01-18/19 window. Inline linking
-appears to have been added to the entry-creation flow after that batch, so the January-18/19
-cohort is systematically unlinked rather than randomly so. A detector that counts entries with zero
-`⟦` occurrences, bucketed by `created` date, would size this precisely and could seed a
-`systemic-fix` backlog item.
+**Cleanup P62 filed** (`・` note bullets): confirmed at **2,496 entries / 18,089 lines**, with the
+useful new number being that **130 of the top 500** entries on `polishing/priority/notes.txt`
+(26%) carry the shape — the largest single distortion measured on that ranking. Added to
+`backlog-queue.json` as `notes-nakaguro-bullets`, batch-ready, mechanical.
 
-[entry] 06941 つーか: example 2 previously read `難しいっていうか、つーか無理だよ`, stacking
-っていうか and つーか in one clause, which is not natural. Rewritten this run to
-`難しい、つーか無理だよ`. Other entries in the ていうか / というか / つーか cluster (06920, 16105)
-may carry similar stacked-contraction examples and are worth a look.
+**P50 re-measured** at **54** (from 55) and, more usefully, found to be six contiguous ID runs
+(03949–03969 is 21 consecutive entries) rather than scattered singletons — work it run-by-run.
 
-[tooling] The accuracy reviewer's `tags` dimension is now the dominant source of flags, and most
-of them are not actionable. Over entries 11008–11500 (493 reviewed, 2026-08-15) it raised 114
-issues on 111 entries — a 22.5% flag rate, above the 20% "this is reviewer noise" threshold in
-routine2.md §A step 4 — and 108 of the 114 were tag flags. Of those, 74 were a single family:
-"the semantic tag 'general' is too broad, replace it with X", raised at `error` severity. The
-dictionary's own tooling already classifies a sole `general` tag as `info`-severity
-under-specification (`build/check_tag_drift.py --check sole-general`, 3,641 entries
-dictionary-wide), so the reviewer is re-reporting a known, tracked, low-priority backlog item once
-per entry at error severity. A further 8 were "formality should be neutral, not formal" on entries
-whose own REGISTER notes state the word is formal (11232 一様, 11302 不在, 11411 乗用車). Suggested
-fix to the reviewer prompt in `build/review_accuracy.py`: tell the model that `general` is an
-accepted fallback tag and must not be flagged on breadth grounds alone, and that the entry's own
-notes are authoritative for the formality label. That one change would have removed 82 of 108 tag
-flags this run without losing a single applied correction.
+**The zero-link "January 18/19 creation cohort" is the polish frontier seen through the
+creation-date axis.** The cliff is real (2026-01-17: 1.0% zero-link; 2026-01-19: 97.5%) and it
+sits on top of the frontier: by ID band the same cliff falls between 06000–06999 (7.5%) and
+07000–07999 (98.9%), i.e. at `next: 06947`. Entries were created in ID order, so *any* field
+correlated with ID returns a perfect-looking cluster. This is the eighth rediscovery of a
+finding with a standing "do not file" note, and the first to explain the recurrence: filed as
+**Tooling 124** — print the frontier in the tools sessions already run, rather than in a document
+they must recall.
 
-[tooling] The two OpenRouter review passes differ in throughput by roughly 7x, which makes a
-single ID range the wrong unit for sizing an accuracy-review run. Measured 2026-08-15 on the same
-493-entry range: `review_accuracy.py` sustained about 62 entries/minute (493 entries, ~8 minutes,
-$0.2165), while `review_runner.py --pass screening` sustained about 8.5 entries/minute — roughly
-an hour for the same range. This run therefore covered 11008–11500 for glosses/translations/tags
-but only 11008–11105 for furigana. Either the furigana screener should be given its own,
-smaller range parameter by the selector, or its per-entry calls should be batched or run
-concurrently the way the accuracy reviewer's appear to be.
+**The `verify_furigana.py` filing was corrected and got worse.** The checker *does* read
+`headword` (proved on 01310). What it does is exit 0 with a clean-looking "Entries checked: 0"
+summary when its argument matches nothing — and the argument form that matches nothing,
+`verify_furigana.py 06940`, is the one CLAUDE.md documents. Filed as **Tooling 123**. The
+`validate.py` half stands: schema validation does not gate on furigana, which is why P52's 258
+bare-kanji headwords survive.
 
-[pattern] Furigana screening precision over recently-created ranges remains at or near zero. All
-3 flags raised across 98 entries (11008–11105) were documented false-positive families: 腹→なか in
-お{腹|なか} (the model does not account for the お prefix), 仕入→しい in {仕入|しい}れ{先|さき} (the
-okurigana split the calibration report describes), and はかせ vs はくし for 博士, where both
-readings are correct in their respective compounds. The deep pass was skipped under §A's
-known-noise shortcut. This is consistent with the 0–5% precision measured on 2026-06-10/11.
+**The `word_id_lookup` slash-variant gap is 3 headwords, not a class** (3 slash-containing keys
+of 28,546; 4 unindexed variant sides). Real, three-line fix, but de-scoped — the third headword-index
+hypothesis in three weeks to shrink under measurement.
 
-## 2026-08-15 (routine, new-entries 30654–30673)
+Also filed: **note-header kanji** without furigana measured at 8 surviving entries, all already
+reported by `find_missing_furigana.py`, so a small undrained queue rather than a detector gap;
+**Tooling 84 update** reconciling two throughput measurements that disagreed 14× (the 4.5
+entries/min figure was measured under concurrent screening — uncontended, `review_accuracy.py`
+runs ~62/min, so routine2 §A's 400–600 range target is correct after all and it was the
+*screening* pass, at ~8.5/min, that needed the smaller range); **Tooling 111/118 update** (74 of
+this window's 108 tag flags are one family, "`general` is too broad", raised at error severity
+against a tracked info-level backlog item — four sentences of prompt would remove 82 of 108).
+Entry follow-ups filed for the ていうか/というか/つーか cluster (06920, 16105) and 06946.
+Two recurrences noted — the empty `description` field and "casual" as a `formality` value were
+both filed this morning and re-observed within hours; the "casual" one is escalated to the
+curator, since it is one line in `prompts/newentries.md` and wiki sessions do not edit prompts.
 
-[skill] The `formality` field's allowed values are `formal`, `neutral`, `informal`, `vulgar`, or
-null — but `prompts/newentries.md` never lists them, while it does spell out the closed lists for
-`pos`, `semantic`, and `domain`. Writing `"casual"` (the natural English word, and the word the
-register notes in many entries actually use) fails schema validation. One of 20 entries this run
-tripped on it. Adding a one-line formality row to the newentries tag tables would remove the trip
-hazard entirely.
+All observations cleared.)_
 
-[pattern] Bare kanji creep into notes through English section headers that embed a Japanese
-suffix — `THE 〜物 SERIES:`, `THE 〜顔 SERIES:`. The kanji inside the header is a display of the
-suffix, not running Japanese text, so it is easy to forget it still needs furigana;
-`find_missing_furigana.py` catches it, but only after the entry is written. Two of 20 entries this
-run had exactly this shape. Either write the header in plain English (`SEASONAL SERIES:`,
-`EXPRESSION SERIES:`) and put the annotated suffix in the sentence below it, or annotate the
-kanji in the header itself.
+---
 
-## 2026-08-15 — routine(polish)
+## 2026-08-15 — routine(wiki), metrics refresh 37
 
-- [pattern] 2,507 entries use `・` for note bullet lists instead of the `- ` (hyphen-space) format mandated by `.claude/skills/vocabulary-notes/SKILL.md`. `build/score_note_quality.py` only credits `- `, so every one of those entries silently loses 10 points and is pushed up the `polishing/priority/notes.txt` ranking — the priority lane is currently full of otherwise-good entries whose only defect is the bullet character. Converting line-initial `・` to `- ` is a safe, purely mechanical transformation (regex `^・` per line, notes field only; `・` used mid-line as a katakana separator must be left alone). Good candidate for a `systemic-fix` batch item: ~2.5k entries, one detector + one sweep, and it would make the notes priority ranking meaningful again. This run converted 8 entries as part of the priority lane (score 77 -> 87 each).
-- [tooling] `build/word_id_lookup.json`'s `by_headword` index does not expand slash-separated headword variants: `00514_hayai` is stored under the single key `速い／早い`, so a lookup of `早い` or `速い` returns nothing and inline-link tooling falls through to `noentry`. Indexing each variant separately would prevent false `noentry` markers on a whole class of entries.
-- [tooling] `build/review_accuracy.py` writes `"description": null` on every issue it reports — only `suggestion` carries information. Adjudication currently has to infer the reviewer's reasoning from the suggested replacement alone, which is slower and less reliable. Worth checking whether the reviewer prompt asks for a description field the parser then drops.
-- [entry] 06946 womotte: the example `{三月末|さんがつまつ}をもって…` links 三月末 as `noentry`. It is compositional (三月 + 末) and probably not headword-worthy, so no candidate was filed; if a future run disagrees, the marker is there to find.
+- [pattern] The review queue rose for the second consecutive window: 10,279 → 10,553 (+274)
+  across three accuracy-review runs that each removed their own reviewed range. This is the
+  mechanism Tooling 94 named — CI re-queues every entry a run changes, so a productive window
+  raises the queue — and it means the queue-depth series cannot be read in either direction
+  until the `reviewed_at >= modified` predicate ships. Recording it so the metric's second
+  adverse reading is on the record, not so it is treated as deterioration.
+- [pattern] Frontier-versus-growth reopened to 65% over runs 510–521: +79 entries against +51
+  frontier IDs in 32 hours. Consistent with the standing finding that this ratio mostly reads
+  out the selector's mode mix (4 polish, 2 new-entries this window) rather than either lane's
+  speed, but it is the third refresh in a row where growth outruns the frontier.
+- [tooling] The §4 self-check's precision series should be reported split by the mode that
+  triggered it. Measured over runs 510–521: `new-entries` self-checks ran 1 applied / 0
+  rejected, `polish` and `systemic-fix` self-checks ran 27 / 9. Averaging them produces a number
+  that describes neither, and the blended series is what led refresh 36 to propose trimming the
+  check. `metrics_snapshot.py` already knows the run's mode; carrying it into the decisions
+  ledger's `src` (or adding a `mode` field) would make the split automatic instead of requiring
+  a hand sort each refresh.

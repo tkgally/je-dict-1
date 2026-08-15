@@ -5045,6 +5045,178 @@ dominated by the correct case respectively. The commands and the full argument a
 The existing queue item `tag-formality-contradicts-register-note` is updated to record the
 measurement rather than left implying a live batch.
 
+## Updates 2026-08-15 (wiki harvest, run 2)
+
+Two new items, one de-scoped filing, and a throughput number that **contradicts the one filed
+this morning by a factor of fourteen** — the reconciliation is item 84's update below and it
+changes how accuracy-review runs should be sized.
+
+### 123. `verify_furigana.py` reports "clean" for an argument that matches no entry
+
+**Source**: the 2026-08-15 polish run, filed as *"`verify_furigana.py` does not check the
+`headword` field — entry 06940 carried the bare-kanji headword `知らんけど` and both
+`verify_furigana.py 06940` and `validate.py --id 06940` reported it clean."*
+
+**The headword half of that is wrong, and the real defect is worse.** Reproduced 2026-08-15:
+
+```
+$ python3 build/verify_furigana.py 06940
+WARNING: Entry not found: 06940
+--- Summary ---
+Entries checked: 0
+Entries with issues: 0
+Entries OK: 0
+$ echo $?
+0
+```
+
+versus the same entry named in full:
+
+```
+$ python3 build/verify_furigana.py 06940_shirankedo
+✓ 06940_shirankedo: OK
+```
+
+The checker **does** read `headword` — confirmed on 01310 召し上がる, where it reports
+`Missing furigana for: 召, 上` with the headword as context. What it does not do is fail when
+its argument matches nothing. It warns once, then prints a summary whose three zeros read as a
+pass, and **exits 0**.
+
+The trap is that the failing invocation is the *documented* one. CLAUDE.md's essential-commands
+table says `python3 build/verify_furigana.py <id>`, and `<id>` naturally reads as the five-digit
+number, not `NNNNN_romaji`. Every session following the documentation gets a silent no-op.
+
+Two-line fix, and worth both lines: exit non-zero when zero entries were checked, and accept a
+bare five-digit ID by globbing `entries/*/NNNNN_*.json` (the same resolution
+`get_entry_path.py` already does). Until then, treat "Entries checked: 0" as a failure, never as
+a clean bill.
+
+**The `validate.py` half of the filing stands**: `validate.py --id 01310_meshiagaru` prints
+"Entry is valid!" for an entry whose headword is bare kanji. Schema validation does not gate on
+furigana — that is Tooling 11's territory, and it is why Cleanup P52's 258 bare-kanji headwords
+survive: the global scan (`find_missing_furigana.py`) reports all of them, but nothing that
+*gates* a commit looks.
+
+### 124. Show the polish frontier where polishing sessions already look
+
+**Source**: the eighth rediscovery of the zero-link non-defect (Cleanup, this harvest), whose
+measurement showed *why* the rediscoveries keep happening rather than that they keep happening.
+
+A polish session that meets four unlinked entries checks a shared field to explain them. Any
+field correlated with entry ID — `created`, creation batch, ID neighbourhood — returns a
+perfect-looking cluster, because the frontier is a step function in ID. So the session files a
+"creation cohort skipped linking" observation, a harvest measures it, refutes it, and writes
+another wiki note that the next session has no reason to read.
+
+Eight rediscoveries in ten weeks is the cost of expecting sessions to remember. The instrument
+should answer instead: have the inline-link checks (and ideally `verify_furigana.py`, which
+sessions run per-entry anyway) print one line when the entry sits above
+`polishing/tasks/comprehensive/progress.txt`'s `next:` — *"06975 is above the comprehensive
+frontier (06947); zero inline links is expected here, not a defect."* One file read, one
+comparison, and the observation is never written.
+
+This is the general form of the lesson in Tooling 118 and the off-vocabulary-tag measurements:
+**when a question has a cheap deterministic answer, put the answer in the tool rather than in a
+document that must be recalled.**
+
+### De-scoped: the `word_id_lookup` slash-variant gap is 3 headwords, not a class
+
+**Source**: the 2026-08-15 polish run — *"`by_headword` does not expand slash-separated headword
+variants: `00514_hayai` is stored under the single key `速い／早い`, so a lookup of `早い` returns
+nothing and inline-link tooling falls through to `noentry`. Indexing each variant separately
+would prevent false `noentry` markers on a whole class of entries."*
+
+The mechanism is real and reproduces exactly. The class is not. Measured against
+`build/word_id_lookup.json`: of **28,546** `by_headword` keys, **3** contain a slash
+(`速い／早い`, `×/バツ`, and one other), yielding **4** variant sides that are not independently
+indexed.
+
+Worth the three-line fix — a false `noentry` on 速い is a visible wrong marker on a common
+word, and both slash characters (`／` fullwidth and `/` halfwidth) are in use, which is itself
+worth normalising. Not worth scheduling as a sweep, and specifically **not** evidence of a
+broader indexing gap: this is the third headword-index hypothesis in three weeks to shrink under
+measurement (cf. "Retired 2026-08-12: the katakana `word_id_lookup` gap does not exist"). The
+`by_headword` index appears to be in better shape than the polish lane's impression of it.
+
+### Update to item 84: the 4.5 entries/min figure was measured under contention
+
+Two runs one day apart measured `review_accuracy.py` throughput on comparable ranges and
+disagree by ~14×:
+
+| run | range | entries | wall clock | rate | concurrent screening? |
+|---|---|---|---|---|---|
+| 2026-08-14 | — | ~600 | ~2h 15m | ~4.5/min | **yes** |
+| 2026-08-15 | 11008–11500 | 493 | ~8 min ($0.2165) | **~62/min** | no |
+
+The 2026-08-14 window filed both numbers itself: the 4.5/min rate *and* the finding that
+"running the two passes concurrently against OpenRouter collapsed screening to near-zero
+throughput". Read together, the collapse was mutual — contention halved nothing and throttled
+both — so **4.5/min is a contention artifact, not the tool's rate**, and the recommendation it
+produced ("size accuracy-review ranges to 250–300 entries, not the 400–600 routine2 suggests")
+was drawn from the wrong number.
+
+Revised guidance, from the uncontended measurement:
+
+- `review_accuracy.py` alone: ~60 entries/min. **routine2 §A's 400–600 target is correct**; a
+  600-entry range is ~10 minutes, not two hours.
+- `review_runner.py --pass screening` alone: ~8.5 entries/min — ~7× slower, and the same
+  493-entry range would take about an hour. This is what actually bounds a run.
+- **Never run the two concurrently.** Both measurements agree on that, and it is the one
+  conclusion from 2026-08-14 that survives.
+
+The operational consequence is the observation's own proposal: the two passes should not share
+one range parameter. The 2026-08-15 run covered 11008–11500 for accuracy but only 11008–11105
+for furigana, and had to decide that by hand mid-run. The selector should hand out a full-size
+accuracy range and a separate, ~5× smaller screening range — or screening should batch its
+per-entry calls the way the accuracy reviewer's appear to be.
+
+### Update to items 111/118: the `tags` dimension's dominant family is `general`-is-too-broad
+
+**Source**: the 2026-08-15 accuracy-review run over 11008–11500 (493 entries).
+
+Item 118 established that the dimension confabulates tags and misses the real off-vocabulary
+ones. This run measures the flag *volume* and finds one family accounts for most of it:
+
+| | count |
+|---|---|
+| issues raised | 114 on 111 entries (**22.5%** flag rate — above routine2 §A's 20% noise threshold) |
+| of which tag flags | 108 |
+| "the tag `general` is too broad, replace it with X", at **`error`** severity | **74** |
+| "formality should be neutral, not formal" on entries whose own REGISTER notes say formal | 8 |
+
+Both families are cases where the project already holds the authoritative answer and the
+reviewer was not told:
+
+- A sole `general` tag is **tracked, known, and low priority** — `check_tag_drift.py --check
+  sole-general` reports 3,641 entries and grades it `info`. The reviewer re-reports it once per
+  entry at `error`.
+- The entry's own REGISTER note is the authority on formality (this is already routine2 §A's
+  adjudication rule: apply a formality flag "only when the entry's own notes contradict the
+  label").
+
+Two sentences added to the prompt in `build/review_accuracy.py` — *`general` is an accepted
+fallback tag and must not be flagged on breadth grounds alone*; *the entry's own notes are
+authoritative for `formality`* — would have removed **82 of 108** tag flags without losing a
+single applied correction. Combined with item 118's two sentences, that is four sentences
+against the dimension's entire measured noise budget, and it should land before the dimension is
+paid for again.
+
+### Recurrences: two items filed again after being filed
+
+Both were filed by the midday 2026-08-15 harvest and re-observed by later runs the same day:
+
+- **`review_accuracy.py` writes an empty `description`** (re-filed by the 2026-08-15 polish run,
+  which reached the same conclusion independently — adjudication has to infer the reasoning from
+  the suggested replacement). Already recorded above under "Update"; the recurrence raises its
+  priority, because it is now demonstrably costing adjudication time on every run that reads a
+  report.
+- **"casual" is not a schema `formality` value** (re-filed by the 2026-08-15 new-entries run,
+  which tripped on it once in 20 entries). Filed this morning as a prompt-wording
+  recommendation; the same trap fired again within nine hours. It is one line in
+  `prompts/newentries.md`'s tag tables — the `pos`, `semantic`, and `domain` closed lists are
+  spelled out there and `formality` is not — and wiki sessions cannot make the edit. **Escalated
+  to the curator this run.**
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address
