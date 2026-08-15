@@ -1356,3 +1356,28 @@ and the January-2026 core-noun note-shape batch.
 `quality-metrics.md`'s last refresh at 509 — 7 new, below the ≥10 threshold. Due next run.
 
 All observations cleared.)_
+
+---
+
+## 2026-08-15 — routine(polish), entries 05012/06936–06941/06966/07289/07399
+
+[tooling] `build/verify_furigana.py` does not check the `headword` field. Entry 06940 carried the
+headword `知らんけど` — bare kanji, no furigana wrapper — and both `verify_furigana.py 06940` and
+`validate.py --id 06940` reported it clean. The furigana rule is stated for "headwords, examples,
+AND notes", so this is a real detector gap, not a policy choice. A one-line addition (run the same
+wrapper check over `headword` that already runs over examples) would close it. Worth a
+dictionary-wide scan afterwards: if the headword field has never been checked, other entries
+created in the same January-2026 batch may carry the same defect.
+
+[pattern] Zero-link entries survive well past the polish frontier when they sit in the priority
+lane's tail. Four of the five entries touched this run that had *no* inline links at all
+(06936, 06937, 06940, 06941, 06966) were created in the same 2026-01-18/19 window. Inline linking
+appears to have been added to the entry-creation flow after that batch, so the January-18/19
+cohort is systematically unlinked rather than randomly so. A detector that counts entries with zero
+`⟦` occurrences, bucketed by `created` date, would size this precisely and could seed a
+`systemic-fix` backlog item.
+
+[entry] 06941 つーか: example 2 previously read `難しいっていうか、つーか無理だよ`, stacking
+っていうか and つーか in one clause, which is not natural. Rewritten this run to
+`難しい、つーか無理だよ`. Other entries in the ていうか / というか / つーか cluster (06920, 16105)
+may carry similar stacked-contraction examples and are worth a look.

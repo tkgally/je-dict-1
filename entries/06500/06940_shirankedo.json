@@ -1,6 +1,6 @@
 {
   "id": "06940_shirankedo",
-  "headword": "知らんけど",
+  "headword": "{知|し}らんけど",
   "reading": "しらんけど",
   "part_of_speech": "expression",
   "gloss": "I don't know though; just saying",
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06940_shirankedo_ex1",
-      "japanese": "あの{店|みせ}、おいしいらしいよ。{知|し}らんけど。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{店|みせ}→店：00497_mise⟧、⟦おいしい→おいしい：00740_oishii⟧⟦らしい→らしい：09502_rashii⟧⟦よ→よ：09475_yo⟧。{知|し}らんけど。",
       "english": "Apparently that restaurant is good. I don't know though.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06940_shirankedo_ex2",
-      "japanese": "{明日|あした}は{晴|は}れるって。{知|し}らんけど。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧⟦{晴|は}れる→晴れる：00701_hareru⟧⟦って→って：29146_tte⟧。{知|し}らんけど。",
       "english": "They say it'll be sunny tomorrow. Just saying.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06940_shirankedo_ex3",
-      "japanese": "あの{二人|ふたり}、{付|つ}き{合|あ}ってるらしい。{知|し}らんけど。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{二人|ふたり}→二人：00622_futari⟧、⟦{付|つ}き{合|あ}ってる→付き合う：02291_tsukiau⟧⟦らしい→らしい：09502_rashii⟧。{知|し}らんけど。",
       "english": "I heard those two are dating. But don't quote me on that.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "Originally from Kansai dialect, this phrase has spread nationwide through social media and TV.\n\nUSAGE:\nAdded at the end of a statement to disclaim responsibility for accuracy. The speaker shares information but signals they cannot guarantee it.\n\nNUANCE:\n・Softens assertions and avoids sounding too definitive\n・Often used when sharing rumors or hearsay\n・Can be humorous or ironic\n・Popular internet/youth slang\n\nVARIATIONS:\n・{知|し}らんけど (Kansai-origin)\n・{知|し}らないけど (standard Japanese)\n・{分|わ}からんけど (alternative)",
-  "cross_references": [],
+  "notes": "Originally ⟦{関西弁|かんさいべん}→関西弁：17855_kansaiben⟧, this phrase spread nationwide through social media and TV during the 2010s and is now used by speakers with no connection to Kansai.\n\nSTRUCTURE: {知|し}らん is the Kansai (and wider western) negative of ⟦{知|し}る→知る：00458_shiru⟧, where standard Japanese uses {知|し}らない, plus the concessive ⟦けど→けど：09477_kedo⟧ (\"though\").\n\nUSAGE: Tacked onto the end of a statement to disclaim responsibility for its accuracy. The speaker passes information along while signalling they cannot vouch for it. It follows a complete sentence and is usually spoken as its own short unit, after a pause.\n\nNUANCE:\n・Softens an assertion and avoids sounding too authoritative\n・Standard when relaying rumor or hearsay, often after ⟦らしい→らしい：09502_rashii⟧ or ⟦って→って：29146_tte⟧\n・Frequently a joke - the speaker has just given confident advice and then undercuts it, which is much of the appeal\n・Casual only: it would be evasive or flippant in a work or service setting\n\nVARIATIONS:\n・{知|し}らんけど - the Kansai-origin form, and the one that spread\n・⟦{知|し}らない→知る：00458_shiru⟧⟦けど→けど：09477_kedo⟧ - the standard-Japanese wording; grammatical, but without the set-phrase flavor\n・⟦{分|わ}からん→分かる：00463_wakaru⟧⟦けど→けど：09477_kedo⟧ - \"not that I understand it\"; less fixed as a catchphrase",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00458_shiru",
+      "reading": "しる",
+      "headword": "{知|し}る",
+      "label": "to know"
+    },
+    {
+      "type": "related",
+      "target_id": "09477_kedo",
+      "reading": "けど",
+      "headword": "けど",
+      "label": "but; although"
+    },
+    {
+      "type": "related",
+      "target_id": "17855_kansaiben",
+      "reading": "かんさいべん",
+      "headword": "{関西弁|かんさいべん}",
+      "label": "Kansai dialect"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T12:00:28Z",
-    "modified": "2026-01-19T12:17:44.800513Z",
+    "modified": "2026-08-15T06:21:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,41 +14,49 @@
   "examples": [
     {
       "id": "06936_uyauyashii_ex1",
-      "japanese": "うやうやしく{頭|あたま}を{下|さ}げた。",
+      "japanese": "うやうやしく⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧⟦{下|さ}げた→下げる：00807_sageru⟧。",
       "english": "They bowed their head respectfully.",
       "sense_numbers": [
         1
-      ]
+      ],
+      "has_audio": false,
+      "notes": null
     },
     {
       "id": "06936_uyauyashii_ex2",
-      "japanese": "{神主|かんぬし}がうやうやしく{祝詞|のりと}を{奏上|そうじょう}した。",
+      "japanese": "⟦{神主|かんぬし}→神主：16732_kannushi⟧⟦が→が：00051_ga⟧うやうやしく⟦{祝詞|のりと}→祝詞：noentry⟧⟦を→を：00422_wo⟧⟦{奏上|そうじょう}した→奏上する：noentry⟧。",
       "english": "The Shinto priest reverently recited the prayer.",
       "sense_numbers": [
         1
-      ]
+      ],
+      "has_audio": false,
+      "notes": null
     },
     {
       "id": "06936_uyauyashii_ex3",
-      "japanese": "うやうやしい{態度|たいど}で{接|せっ}する。",
+      "japanese": "うやうやしい⟦{態度|たいど}→態度：03396_taido⟧⟦で→で：00502_de⟧⟦{接|せっ}する→接する：12920_sessuru⟧。",
       "english": "To treat someone with a respectful attitude.",
       "sense_numbers": [
         1
-      ]
+      ],
+      "has_audio": false,
+      "notes": null
     },
     {
       "id": "06936_uyauyashii_ex4",
-      "japanese": "{賞状|しょうじょう}をうやうやしく{受|う}け{取|と}った。",
+      "japanese": "⟦{賞状|しょうじょう}→賞状：noentry⟧⟦を→を：00422_wo⟧うやうやしく⟦{受|う}け{取|と}った→受け取る：01883_uketoru⟧。",
       "english": "They received the certificate with great reverence.",
       "sense_numbers": [
         1
-      ]
+      ],
+      "has_audio": false,
+      "notes": null
     }
   ],
-  "notes": "KANJI: Can be written as {恭|うやうや}しい, though hiragana is common.\n\nNUANCE: Describes formal, ceremonial, or deeply respectful behavior that is often:\n- Deliberate and careful\n- Traditional or ritualistic\n- Sometimes excessively formal\n\nCOMMON CONTEXTS:\n- Religious ceremonies\n- Formal receptions\n- Handling precious objects\n- Meeting important people\n- Traditional Japanese settings\n\nCONJUGATION (i-adjective):\n- うやうやしい: dictionary form\n- うやうやしく: adverbial (most common usage)\n- うやうやしくない: negative\n- うやうやしかった: past\n\nCOMMON PATTERN: うやうやしく + verb (describes respectful manner of action)\n\nSIMILAR EXPRESSIONS:\n- {丁寧|ていねい}: polite (more everyday)\n- {恭|うやうや}しく: same word with kanji\n- {慇懃|いんぎん}: courteous (more formal)\n- {敬虔|けいけん}: pious, devout\n\nCAUTION: Can imply excessive or overly elaborate formality when used ironically.",
+  "notes": "KANJI: Usually written in hiragana; the kanji spelling {恭|うやうや}しい also occurs, mainly in formal or literary writing.\n\nNUANCE: Describes formal, ceremonial, or deeply respectful conduct - deliberate and careful, often traditional or ritual, and occasionally so elaborate that it tips into stiffness. It describes how someone acts, not how they feel, so it attaches to gestures and bearing rather than to inner states.\n\nCOMMON CONTEXTS:\n- Religious ceremonies\n- Formal receptions and award presentations\n- Handling precious or sacred objects\n- Meeting people of high status\n\nGRAMMAR: The adverbial form うやうやしく is by far the most common - it modifies a verb to say the action was performed reverently. The plain form before a noun (うやうやしい⟦{態度|たいど}→態度：03396_taido⟧) is also natural; as a bare predicate it is rare.\n\nSIMILAR EXPRESSIONS:\n- ⟦{丁寧|ていねい}→丁寧：00896_teinei⟧ - polite and careful; the everyday word, with no ceremonial weight\n- ⟦{慇懃|いんぎん}→慇懃：09465_ingin⟧ - courteous in a stiff, formal way; often heard in {慇懃|いんぎん}{無礼|ぶれい} (politeness so exaggerated it insults)\n- ⟦{敬虔|けいけん}→敬虔：noentry⟧ - pious, devout; about religious feeling rather than outward manner\n\nCAUTION: Because the word marks conspicuous formality, it can be used ironically to suggest the respect is overdone or insincere.",
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-01-19T12:17:44.797686Z",
+    "modified": "2026-08-15T06:21:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -58,7 +66,7 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "emotion"
+        "descriptive"
       ]
     }
   },
@@ -96,5 +104,28 @@
         "negative": "うやうやしくなかったら"
       }
     ]
-  }
+  },
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "00896_teinei",
+      "reading": "ていねい",
+      "headword": "{丁寧|ていねい}",
+      "label": "polite; careful"
+    },
+    {
+      "type": "synonym",
+      "target_id": "09465_ingin",
+      "reading": "いんぎん",
+      "headword": "{慇懃|いんぎん}",
+      "label": "courteous; formal"
+    },
+    {
+      "type": "related",
+      "target_id": "03396_taido",
+      "reading": "たいど",
+      "headword": "{態度|たいど}",
+      "label": "attitude; manner"
+    }
+  ]
 }

@@ -17,21 +17,27 @@
       "japanese": "{券売機|けんばいき}で{切符|きっぷ}を{買|か}う。",
       "english": "To buy a ticket at the ticket machine.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09553_kenbaiki_ex2",
       "japanese": "{券売機|けんばいき}は{現金|げんきん}のみです。",
       "english": "The ticket machine accepts cash only.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09553_kenbaiki_ex3",
       "japanese": "ラーメン{屋|や}の{券売機|けんばいき}で{食券|しょっけん}を{買|か}った。",
       "english": "I bought a meal ticket at the ramen shop's ticket machine.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{券売機|けんばいき} is a ticket vending machine found throughout Japan, especially at train stations and many restaurants.\n\nWORD FORMATION:\n{券|けん} (ticket) + {売|ばい} (sell) + {機|き} (machine).\n\nCOMMON LOCATIONS:\n- {駅|えき}: train stations (for {切符|きっぷ} and IC card top-ups)\n- ラーメン{屋|や}: ramen shops (order and pay before sitting)\n- {食堂|しょくどう}: cafeterias and casual restaurants\n\nCOMMON COLLOCATIONS:\n- {券売機|けんばいき}で{買|か}う: to buy at the ticket machine\n- {券売機|けんばいき}で{食券|しょっけん}を{買|か}う: to buy a meal ticket\n\nRELATED:\n- {切符|きっぷ}: ticket\n- {食券|しょっけん}: meal ticket\n- {精算機|せいさんき}: fare adjustment machine\n- {自動|じどう}{販売機|はんばいき}: vending machine (drinks, etc.)",
@@ -49,18 +55,29 @@
       "reading": "きっぷ",
       "headword": "{切符|きっぷ}",
       "label": "ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "06966_kippuuriba",
+      "reading": "きっぷうりば",
+      "headword": "{切符|きっぷ}{売|う}り{場|ば}",
+      "label": "ticket booth; ticket counter"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:42:08Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-08-15T06:21:32Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     }
   }
 }

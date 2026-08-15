@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06966_kippuuriba_ex1",
-      "japanese": "{切符|きっぷ}{売|う}り{場|ば}はどこですか。",
+      "japanese": "{切符|きっぷ}{売|う}り{場|ば}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Where is the ticket counter?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06966_kippuuriba_ex2",
-      "japanese": "{切符|きっぷ}{売|う}り{場|ば}で{切符|きっぷ}を{買|か}った。",
+      "japanese": "{切符|きっぷ}{売|う}り{場|ば}⟦で→で：00502_de⟧⟦{切符|きっぷ}→切符：00643_kippu⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a ticket at the ticket counter.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06966_kippuuriba_ex3",
-      "japanese": "{切符|きっぷ}{売|う}り{場|ば}で{定期券|ていきけん}を{買|か}った。",
+      "japanese": "{切符|きっぷ}{売|う}り{場|ば}⟦で→で：00502_de⟧⟦{定期券|ていきけん}→定期券：01064_teikiken⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a commuter pass at the ticket counter.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "06966_kippuuriba_ex4",
-      "japanese": "{駅|えき}の{切符|きっぷ}{売|う}り{場|ば}には{長|なが}い{列|れつ}ができていた。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{切符|きっぷ}{売|う}り{場|ば}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧⟦{列|れつ}→列：02171_retsu⟧⟦が→が：00051_ga⟧⟦できていた→できる：00557_dekiru⟧。",
       "english": "There was a long line at the station's ticket booth.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "06966_kippuuriba_ex5",
-      "japanese": "{券売機|けんばいき}が{使|つか}えなかったので、{切符|きっぷ}{売|う}り{場|ば}の{窓口|まどぐち}で{買|か}うことにした。",
+      "japanese": "⟦{券売機|けんばいき}→券売機：09553_kenbaiki⟧⟦が→が：00051_ga⟧⟦{使|つか}えなかった→使う：00473_tsukau⟧⟦ので→ので：09501_node⟧、{切符|きっぷ}{売|う}り{場|ば}⟦の→の：09472_no⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧⟦した→する：00392_suru⟧。",
       "english": "Since the ticket machine wasn't working, I decided to buy at the ticket counter window.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,47 @@
       ]
     }
   ],
-  "notes": "STRUCTURE:\n{切符|きっぷ} (ticket) + {売|う}り{場|ば} (selling place)\n\nMODERN CONTEXT:\nMany stations now have {券売機|けんばいき} (ticket vending machines), but {切符|きっぷ}{売|う}り{場|ば} still exists for:\n・{定期券|ていきけん} (commuter passes)\n・{特急券|とっきゅうけん} (express tickets)\n・Complex routes\n・Assistance with tickets\n\nSYNONYMS:\n・{窓口|まどぐち} - ticket window, service counter\n・チケット{売|う}り{場|ば} - ticket counter (events)\n\nRELATED TERMS:\n・{券売機|けんばいき} - ticket vending machine\n・{改札口|かいさつぐち} - ticket gate",
-  "cross_references": [],
+  "notes": "STRUCTURE:\n⟦{切符|きっぷ}→切符：00643_kippu⟧ (ticket) + ⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ (selling place). The second element is the general-purpose word for a place where something is sold, so the same pattern gives ⟦チケット→チケット：11014_chiketto⟧⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ and ⟦{肉|にく}→肉：02240_niku⟧⟦{売|う}り{場|ば}→売り場：01331_uriba⟧.\n\nMODERN CONTEXT:\nMany stations now have ⟦{券売機|けんばいき}→券売機：09553_kenbaiki⟧ (ticket vending machines), but a staffed {切符|きっぷ}{売|う}り{場|ば} still exists for:\n・⟦{定期券|ていきけん}→定期券：01064_teikiken⟧ (commuter passes)\n・⟦{特急券|とっきゅうけん}→特急券：15799_tokkyuuken⟧ (limited express tickets)\n・Complex or multi-leg routes\n・Assistance with fares and refunds\n\nSYNONYMS:\n・⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧ - service window or counter; the staffed window inside a {切符|きっぷ}{売|う}り{場|ば}\n・⟦チケット→チケット：11014_chiketto⟧⟦{売|う}り{場|ば}→売り場：01331_uriba⟧ - the usual wording for concerts, sports, and other events, where {切符|きっぷ} sounds dated\n\nRELATED TERMS:\n・⟦{券売機|けんばいき}→券売機：09553_kenbaiki⟧ - ticket vending machine\n・⟦{改札口|かいさつぐち}→改札口：09552_kaisatsuguchi⟧ - ticket gate\n・⟦{駅|えき}→駅：02180_eki⟧ - station",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00643_kippu",
+      "reading": "きっぷ",
+      "headword": "{切符|きっぷ}",
+      "label": "ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "01331_uriba",
+      "reading": "うりば",
+      "headword": "{売|う}り{場|ば}",
+      "label": "sales floor; counter"
+    },
+    {
+      "type": "related",
+      "target_id": "09553_kenbaiki",
+      "reading": "けんばいき",
+      "headword": "{券売機|けんばいき}",
+      "label": "ticket vending machine"
+    },
+    {
+      "type": "related",
+      "target_id": "03154_madoguchi",
+      "reading": "まどぐち",
+      "headword": "{窓口|まどぐち}",
+      "label": "service window; counter"
+    },
+    {
+      "type": "related",
+      "target_id": "09552_kaisatsuguchi",
+      "reading": "かいさつぐち",
+      "headword": "{改札口|かいさつぐち}",
+      "label": "ticket gate"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T12:08:44Z",
-    "modified": "2026-06-17T01:28:38Z",
+    "modified": "2026-08-15T06:21:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
