@@ -7511,3 +7511,19 @@
 {"ts":"2026-08-15T00:35:08Z","entry":"10909","src":"accuracy","dim":"translation","sev":"error","decision":"reject","note":"stern acceptable for 気難しい顔"}
 {"ts":"2026-08-15T00:35:08Z","entry":"10951","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"brief gloss; def1 disambiguates"}
 {"ts":"2026-08-15T00:35:08Z","entry":"11182","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","n":2,"note":"両 counter for train cars is correct"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11008", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "consumption->health; notes say not about eating"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11189", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "work->finance; stock listing"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11212", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "work->business; customer not occupation"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11259", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "leisure->music; melody"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11431", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "housing not in vocab; ->building"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11486", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "leisure->music for rap sense"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11496", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "time-relative not in vocab; ->time-general"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11403", "src": "accuracy", "dim": "translation", "sev": "error", "decision": "apply", "note": "Wide shows not English; daytime TV shows"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11200", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "reject", "note": "top gloss already leisure, recreation"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11268", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "reject", "note": "pose; pause signals both senses"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11488", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "reject", "n": 2, "note": "notes say rank sense is 昇進 not this"}
+{"ts": "2026-08-15T09:35:00Z", "entry": "11464", "src": "accuracy", "dim": "translation", "sev": "error", "decision": "reject", "note": "unpleasant mood is acceptable rendering"}
+{"ts": "2026-08-15T09:35:00Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 74, "note": "family: sole general too broad; known info-level backlog"}
+{"ts": "2026-08-15T09:35:00Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 8, "note": "family: formal->neutral; entry notes support formal"}
+{"ts": "2026-08-15T09:35:00Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 19, "note": "family: in-list narrowness/polysemy substitutions"}
+{"ts": "2026-08-15T09:35:00Z", "src": "furigana", "dim": "furigana", "sev": "error", "decision": "reject", "n": 3, "note": "family: okurigana/compound split + legit variant reading"}

@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-30T06:22:54Z",
+  "reviewed_at": "2026-08-15T09:22:27Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword '中華' has a broader meaning than just 'food'. While often used in the context of food, it also refers to China and Chinese culture more generally, as evidenced by senses 2 and examples 3, 4, and 5.",
-      "suggestion": "Add 'culture' and 'geography' to the semantic tags."
+      "concern": "The headword '中華' has a broader meaning than just 'food'. While 'food' is a common usage, the word itself refers to 'Chinese' in a general sense, encompassing culture, country, etc., as shown in senses 2 and examples 3, 4, 5.",
+      "suggestion": "Add 'culture' and 'geography' to the semantic tags, or replace 'food' with a more general tag like 'general' or 'culture' if only one is allowed."
     }
   ]
 }

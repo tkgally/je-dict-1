@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-29T06:52:33Z",
+  "reviewed_at": "2026-08-15T09:19:57Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is too narrow for the headword's full meaning, which includes non-food related menus (e.g., digital interfaces, training programs).",
+      "suggestion": "Remove 'food' and add 'technology' and 'sports' to reflect the broader usage of 'メニュー' as described in sense 2 and exemplified in sentences 3, 4, and 5."
+    }
+  ]
 }

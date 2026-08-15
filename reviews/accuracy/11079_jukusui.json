@@ -1,0 +1,24 @@
+{
+  "entry_id": "11079_jukusui",
+  "headword": "{熟睡|じゅくすい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-15T09:18:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word that clearly describes a state of being. '熟睡' refers to a specific type of sleep.",
+      "suggestion": "Replace 'general' with 'health' or 'daily-life' or 'existence'."
+    }
+  ]
+}

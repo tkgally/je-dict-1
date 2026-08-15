@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-29T15:44:56Z",
+  "reviewed_at": "2026-08-15T09:21:28Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'tool' is too broad for the headword's meaning. While 'punch' can refer to a 'hole punch' (a tool), the headword 'パンチ' itself is not exclusively a tool. It also refers to a 'punch' (a strike) and 'impact/force'.",
+      "suggestion": "Remove 'tool' as a semantic tag for the headword. The 'tool' aspect is covered by sense 3, but the headword itself is not solely a tool."
+    }
+  ]
 }

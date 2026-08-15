@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-29T15:45:06Z",
+  "reviewed_at": "2026-08-15T09:21:37Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The tag 'general' is too broad for a word with specific meanings like 'pose' and 'pause'.",
-      "suggestion": "action"
+      "concern": "The top-level gloss combines two distinct meanings that are separated into different senses below, which can be confusing. 'Pause' is a separate sense from 'pose'.",
+      "suggestion": "pose"
+    },
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word that has specific meanings related to 'appearance' and 'action'.",
+      "suggestion": "appearance, action"
     }
   ]
 }

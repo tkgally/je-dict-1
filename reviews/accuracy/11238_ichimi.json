@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-29T15:44:29Z",
+  "reviewed_at": "2026-08-15T09:21:06Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'person' is too broad for the headword's meaning in sense 1, which specifically refers to a group of people involved in illicit activities. The tag 'food' is correct for sense 2.",
+      "suggestion": "Replace 'person' with 'society' or 'crime' for sense 1, or add 'crime' to better specify the context of 'person'."
+    }
+  ]
 }

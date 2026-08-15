@@ -8,24 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-30T18:38:34Z",
+  "reviewed_at": "2026-08-15T09:24:20Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'crime' is too narrow for the headword's meaning, which also covers non-criminal invasions (e.g., viruses, invasive species).",
-      "suggestion": "Remove 'crime' and add 'action' as it is a suru-verb."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'general' is too broad and doesn't add much specific information.",
-      "suggestion": "Replace 'general' with 'action' as it is a suru-verb."
-    }
-  ]
+  "issues": []
 }

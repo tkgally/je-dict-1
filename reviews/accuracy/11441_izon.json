@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-30T18:38:36Z",
+  "reviewed_at": "2026-08-15T09:24:21Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'psychology' is not in the valid tag list.",
-      "suggestion": "cognition"
+      "severity": "error",
+      "concern": "The semantic tag 'cognition' is incorrect for '依存'.",
+      "suggestion": "The headword '依存' (dependence, reliance, addiction) is an action noun and suru-verb. The most appropriate semantic tag for such words is 'action'."
     }
   ]
 }

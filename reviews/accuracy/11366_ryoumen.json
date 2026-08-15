@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-30T06:23:44Z",
+  "reviewed_at": "2026-08-15T09:23:09Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid semantic tag 'position-direction'.",
-      "suggestion": "direction"
+      "severity": "error",
+      "concern": "The tag 'direction' is incorrect for '両面' (both sides/aspects).",
+      "suggestion": "Replace 'direction' with 'general' or 'abstract'."
     }
   ]
 }

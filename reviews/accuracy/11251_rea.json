@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-29T15:44:43Z",
+  "reviewed_at": "2026-08-15T09:21:19Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
+      "location": "semantic_tags",
       "severity": "error",
-      "concern": "The semantic tag 'food' is too specific for the headword 'レア' which primarily means 'rare, uncommon' in a general sense, and only secondarily refers to food preparation.",
-      "suggestion": "Remove 'food' tag. The 'descriptive' tag is sufficient for the general meaning, and the specific 'food' sense is covered by the definition."
+      "concern": "The tag 'food' is too specific for the headword's general meaning, which encompasses more than just food. While one sense relates to food, the primary meaning is 'rare' in a general sense.",
+      "suggestion": "Remove 'food' from semantic_tags."
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11030_seebu",
+  "headword": "セーブ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-15T09:17:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with specific meanings related to technology and sports. 'action' is also appropriate as it's a suru-verb.",
+      "suggestion": "['action', 'technology', 'sports']"
+    }
+  ]
+}
