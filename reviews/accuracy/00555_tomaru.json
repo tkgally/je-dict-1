@@ -2,43 +2,65 @@
   "entry_id": "00555_tomaru",
   "headword": "{止|と}まる",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:54:15Z",
+  "reviewed_at": "2026-08-15T15:27:58Z",
   "summary": {
-    "flagged": 4
+    "flagged": 7
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The top-level gloss only covers sense 1 and completely omits sense 2.",
-      "suggestion": "The top-level gloss should reflect both senses, e.g., 'to stop, to halt; to stay, to lodge'."
+      "concern": "The main gloss 'to stop, to halt' only covers the first sense of the word, ignoring the second sense 'to stay, to lodge'.",
+      "suggestion": "to stop, to halt; to stay, to lodge"
     },
     {
-      "dimension": "tags",
-      "location": "semantic_tags",
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
       "severity": "error",
-      "concern": "The tag 'action' does not fully encompass the meaning of 'to stay, to lodge' (sense 2), which is more about a state or location.",
-      "suggestion": "Add 'state' or 'location' to the semantic tags, or refine 'action' if it's meant to be broader."
+      "concern": "The gloss for sense 2 is 'to stay, to lodge', but the headword 止まる does not carry this meaning. This sense is for 泊まる.",
+      "suggestion": "This sense is not applicable to the headword 止まる."
     },
     {
       "dimension": "translation",
       "location": "examples[5]",
-      "severity": "warn",
-      "concern": "The English translation 'To stay at a hotel.' is grammatically correct but less natural as a standalone example than 'Stay at a hotel.' or 'To stay at a hotel (is the plan).'",
-      "suggestion": "Change to 'Stay at a hotel.'"
+      "severity": "error",
+      "concern": "The example 'ホテルに泊まる。' uses 泊まる, not 止まる, so it does not illustrate the headword.",
+      "suggestion": "Remove this example as it uses a different kanji (泊まる) for the 'to stay' meaning, which is not the headword 止まる."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[6]",
+      "severity": "error",
+      "concern": "The example '友達の家に泊まりました。' uses 泊まる, not 止まる, so it does not illustrate the headword.",
+      "suggestion": "Remove this example as it uses a different kanji (泊まる) for the 'to stay' meaning, which is not the headword 止まる."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[7]",
+      "severity": "error",
+      "concern": "The example '今夜はどこに泊まりますか？' uses 泊まる, not 止まる, so it does not illustrate the headword.",
+      "suggestion": "Remove this example as it uses a different kanji (泊まる) for the 'to stay' meaning, which is not the headword 止まる."
     },
     {
       "dimension": "translation",
       "location": "examples[8]",
-      "severity": "warn",
-      "concern": "The English translation 'On my trip, I stayed at a hot spring inn for three days.' is slightly unnatural. 'hot spring inn' is a bit clunky.",
-      "suggestion": "Change to 'On my trip, I stayed at a hot spring resort for three days.' or '...a ryokan with hot springs...'"
+      "severity": "error",
+      "concern": "The example '旅行で三日間、温泉に泊まりました。' uses 泊まる, not 止まる, so it does not illustrate the headword.",
+      "suggestion": "Remove this example as it uses a different kanji (泊まる) for the 'to stay' meaning, which is not the headword 止まる."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[9]",
+      "severity": "error",
+      "concern": "The example '出張のとき、いつも駅の近くのホテルに泊まることにしています。' uses 泊まる, not 止まる, so it does not illustrate the headword.",
+      "suggestion": "Remove this example as it uses a different kanji (泊まる) for the 'to stay' meaning, which is not the headword 止まる."
     }
   ]
 }

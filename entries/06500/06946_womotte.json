@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "06946_womotte_ex1",
-      "japanese": "{誠意|せいい}をもって{対応|たいおう}いたします。",
+      "japanese": "⟦{誠意|せいい}→誠意：19759_seii⟧をもって⟦{対応|たいおう}いたします→対応する：02510_taiou⟧。",
       "english": "We will respond with sincerity.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "06946_womotte_ex2",
-      "japanese": "{本日|ほんじつ}をもって、{閉店|へいてん}とさせていただきます。",
+      "japanese": "⟦{本日|ほんじつ}→本日：09643_honjitsu⟧をもって、⟦{閉店|へいてん}→閉店：09698_heiten⟧⟦と→と：00512_to⟧⟦させていただきます→いただく：01326_itadaku⟧。",
       "english": "As of today, we will be closing the store.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "06946_womotte_ex3",
-      "japanese": "この{書類|しょるい}をもって{申請|しんせい}{完了|かんりょう}となります。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{書類|しょるい}→書類：01103_shorui⟧をもって⟦{申請|しんせい}→申請：04207_shinsei⟧⟦{完了|かんりょう}→完了：02560_kanryou⟧⟦と→と：00512_to⟧⟦なります→なる：01970_naru⟧。",
       "english": "With this document, the application will be complete.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "06946_womotte_ex4",
-      "japanese": "{全力|ぜんりょく}をもって{取|と}り{組|く}みます。",
+      "japanese": "⟦{全力|ぜんりょく}→全力：11637_zenryoku⟧をもって⟦{取|と}り{組|く}みます→取り組む：04225_torikumu⟧。",
       "english": "I will tackle it with all my effort.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "06946_womotte_ex5",
-      "japanese": "{三月末|さんがつまつ}をもって{退職|たいしょく}いたします。",
+      "japanese": "⟦{三月末|さんがつまつ}→三月末：noentry⟧をもって⟦{退職|たいしょく}いたします→退職する：04559_taishoku⟧。",
       "english": "I will be retiring as of the end of March.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "06946_womotte_ex6",
-      "japanese": "{今回|こんかい}の{公演|こうえん}をもって、{活動|かつどう}を{休止|きゅうし}させていただきます。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{公演|こうえん}→公演：11639_kouen⟧をもって、⟦{活動|かつどう}→活動：00201_katsudou⟧⟦を→を：00422_wo⟧⟦{休止|きゅうし}させていただきます→休止する：27006_kyuushisuru⟧。",
       "english": "As of this performance, we will be suspending our activities.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,26 @@
       ]
     }
   ],
-  "notes": "STRUCTURE:\nNoun + をもって\n\nSENSE DISTINCTIONS:\n1. Means/method: {誠意|せいい}をもって (with sincerity), {全力|ぜんりょく}をもって (with full effort)\n2. Time point: {本日|ほんじつ}をもって (as of today), {今月末|こんげつまつ}をもって (as of month end)\n\nREGISTER:\nVery formal. Common in official announcements, business documents, and formal speeches.\n\nVARIATIONS:\n・をもって (standard formal)\n・をもちまして (extra-polite, announcements)\n・をもってしても (even with...)",
-  "cross_references": [],
+  "notes": "STRUCTURE:\nNoun + をもって\n\nSENSE DISTINCTIONS:\n1. Means/method: ⟦{誠意|せいい}→誠意：19759_seii⟧をもって (with sincerity), ⟦{全力|ぜんりょく}→全力：11637_zenryoku⟧をもって (with full effort)\n2. Time point: ⟦{本日|ほんじつ}→本日：09643_honjitsu⟧をもって (as of today), {今月末|こんげつまつ}をもって (as of month end)\n\nREGISTER:\nVery formal. Common in official announcements, business documents, and formal speeches.\n\nVARIATIONS:\n- をもって (standard formal)\n- をもちまして (extra-polite, announcements)\n- をもってしても (even with...)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00422_wo",
+      "reading": "を",
+      "headword": "を",
+      "label": "the particle をもって is built on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00502_de",
+      "reading": "で",
+      "headword": "で",
+      "label": "neutral means/instrument marker"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T12:02:25Z",
-    "modified": "2026-03-14T13:32:05Z",
+    "modified": "2026-08-15T15:27:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

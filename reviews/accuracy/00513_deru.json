@@ -2,57 +2,37 @@
   "entry_id": "00513_deru",
   "headword": "{出|で}る",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:01Z",
+  "reviewed_at": "2026-08-15T15:27:50Z",
   "summary": {
-    "flagged": 6
+    "flagged": 3
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete and doesn't fully represent the breadth of meanings covered by '出る'.",
-      "suggestion": "Add 'to graduate', 'to be published/released', 'to be produced/yielded', 'to be emitted/come forth' to the top-level gloss to better reflect the various senses."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "warn",
-      "concern": "The gloss for sense 2 is incomplete.",
-      "suggestion": "Add 'to be published', 'to be released', 'to be produced', 'to be yielded' to the gloss for sense 2 to cover examples like books, answers, and fevers."
-    },
-    {
       "dimension": "translation",
       "location": "examples[5]",
-      "severity": "warn",
-      "concern": "The English translation 'I can't make a sound' is a natural rendering but loses some of the directness of '声が出ません' which literally means 'My voice doesn't come out'. While contextually correct, it's less literal.",
-      "suggestion": "Consider 'My voice won't come out' or 'I can't speak' for a more direct translation, depending on the nuance intended. 'I can't make a sound' is acceptable but less literal."
+      "severity": "error",
+      "concern": "The English translation 'I can't make a sound' is too narrow. The Japanese '声が出ません' can also mean 'I've lost my voice' or 'My voice won't come out,' implying an inability to speak, not just to produce any sound.",
+      "suggestion": "Change the translation to 'My voice won't come out.' or 'I've lost my voice.'"
     },
     {
       "dimension": "translation",
       "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The English translation 'Did you find the answer?' is a natural rendering but '答えが出ましたか' more literally means 'Did the answer come out?' or 'Has the answer been produced/yielded?'.",
-      "suggestion": "Consider 'Has the answer come out?' or 'Have you gotten the answer?' for a more direct translation, though 'Did you find the answer?' is common usage."
+      "severity": "error",
+      "concern": "The English translation 'Did you find the answer?' is a possible interpretation but '答えが出ましたか' more directly means 'Has the answer come out/been produced?' or 'Is the answer out yet?' which implies the answer being revealed or determined, rather than actively searched for and found.",
+      "suggestion": "Change the translation to 'Has the answer come out?' or 'Is the answer out yet?'"
     },
     {
       "dimension": "translation",
       "location": "examples[10]",
-      "severity": "warn",
-      "concern": "The English translation 'I got a fever' is a natural rendering but '熱が出た' literally means 'a fever came out/appeared'.",
-      "suggestion": "Consider 'A fever came out, so I was absent from school' or 'I developed a fever, so I was absent from school' for a more direct translation, though 'I got a fever' is perfectly natural."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[12]",
       "severity": "error",
-      "concern": "The English translation 'Since graduating from university, I've been working at this company' is a correct interpretation but '大学を出てから' literally means 'after leaving university'. 'Graduating' is a specific type of 'leaving'.",
-      "suggestion": "The gloss for '出る' does not explicitly include 'to graduate'. While 'to leave' can encompass 'to graduate' in this context, it's a specific nuance that might be worth adding to a sense or explanation if this usage is common. For the translation itself, 'Since leaving university...' would be more literal, but 'graduating' is a very common and natural interpretation here. If 'to graduate' is not added as a specific sense, then 'Since leaving university...' would be more faithful to the existing glosses."
+      "concern": "The English translation 'I got a fever, so I was absent from school.' is slightly off. '熱が出た' means 'a fever came out' or 'I developed a fever,' not just 'I got a fever' in a general sense. The nuance of '出る' (deru) is important here.",
+      "suggestion": "Change the translation to 'I developed a fever, so I was absent from school.'"
     }
   ]
 }
