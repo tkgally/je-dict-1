@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-02T06:36:11Z",
+  "reviewed_at": "2026-08-15T21:22:12Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'food' is too narrow for the headword '冷蔵'. While often used for food, '冷蔵' applies to any item that needs refrigeration, as shown in example 2 with medicine.",
-      "suggestion": "Replace 'food' with 'daily-life' or 'general' to better reflect its broader application."
+      "concern": "The tag 'food' is too narrow for the headword '冷蔵'. While often used for food, '冷蔵' refers to the act of refrigeration itself, which can apply to various items beyond just food (e.g., medicine, chemicals).",
+      "suggestion": "action"
     }
   ]
 }

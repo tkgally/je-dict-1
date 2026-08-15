@@ -1,0 +1,24 @@
+{
+  "entry_id": "11841_shouten",
+  "headword": "{商店|しょうてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-15T21:24:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'building' is incorrect for '商店'. While a shop is often in a building, the word itself refers to the business or establishment, not the physical structure.",
+      "suggestion": "Replace 'building' with 'business' or 'shopping'."
+    }
+  ]
+}

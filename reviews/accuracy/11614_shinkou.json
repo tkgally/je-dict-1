@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-01T21:27:53Z",
+  "reviewed_at": "2026-08-15T21:20:02Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'action' is too general and does not capture the specific meaning of 'invasion' or 'military offensive'.",
+      "suggestion": "military"
+    }
+  ]
 }

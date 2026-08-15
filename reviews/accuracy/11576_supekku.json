@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-01T21:26:58Z",
+  "reviewed_at": "2026-08-15T21:19:18Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad and doesn't reflect the specific meanings of 'スペック'.",
+      "suggestion": "Replace 'general' with more specific tags like 'technology' or 'cognition' (for the personal attributes sense)."
+    }
+  ]
 }

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11839_kaisou",
+  "headword": "{回想|かいそう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-15T21:24:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation 'A flashback scene played in the movie' for '映画の中で回想シーンが流れた' is misleading. While '回想シーン' can be translated as 'flashback scene', the verb '流れた' (nagareta) implies that the scene was shown or aired, not that it 'played' in the sense of an actor playing a role. It should be 'A flashback scene was shown/aired in the movie.'",
+      "suggestion": "A flashback scene was shown in the movie."
+    }
+  ]
+}

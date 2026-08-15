@@ -1430,3 +1430,36 @@ All observations cleared.)_
   check. `metrics_snapshot.py` already knows the run's mode; carrying it into the decisions
   ledger's `src` (or adding a `mode` field) would make the split automatic instead of requiring
   a hand sort each refresh.
+
+## 2026-08-15 — routine(accuracy-review), entries 11501–12000
+
+- [pattern] The 11750–11950 band is where the dictionary's off-vocabulary semantic tags cluster.
+  Of 39 corrections applied this run, 31 were tags that are simply not in `VALID_SEMANTIC`
+  (`life`, `social`, `time`, `math`, `spatial`, `death`, `literature`, `industry`, `competition`,
+  `medical`, `sound`, `people-general`, `rules`, `security`, `social-customs`, `health-medicine`,
+  `quality-evaluation`, `personality-traits`, `family-relationships`, `historical`,
+  `action-physical`, `body-general`), and almost all of them sit above ID 11750. The
+  entry-creation cohort in that band evidently invented tag names freely. 937 entries still carry
+  baselined off-vocab tags dictionary-wide; a `systemic-fix` pass driven by
+  `check_tag_drift.py --check unknown-semantic` would clear most of them faster than the
+  accuracy-review sweep will reach them.
+- [tooling] The reviewer sometimes proposes replacement tags that are themselves off-vocabulary —
+  this run it suggested `magic` (11843 呪文), `mythology` (11929 化け物), and `organization-name`
+  (11831 協会, a proper-noun-only tag) as fixes. Applying its suggestions mechanically would
+  create the very drift the tags dimension exists to remove. The reviewer prompt embeds
+  `VALID_SEMANTIC`, so this is a compliance gap in the model rather than a missing list; worth a
+  post-filter in `review_accuracy.py` that drops any suggestion naming a tag outside the list.
+- [pattern] Flag-family proportions match the two previous accuracy runs almost exactly: of 121
+  issues, 43 were "sole `general` is too broad", 20 in-list narrowness swaps, 9 formality
+  neutral-vs-formal, 4 "add `action` to this suru-verb" — 76 of 82 rejections came from four
+  known-noise families. Precision on the remainder was high: every off-vocabulary tag flag was
+  correct by definition, and 3 of 7 translation flags found real errors.
+- [entry] 03647 {優勝|ゆうしょう} carries semantic tags `food` and `leisure`. `food` on "winning a
+  championship" is a plain error, noticed while checking house precedent for 勝利. Outside this
+  run's range, so recorded rather than fixed.
+- [tooling] The furigana screener remains the wall-clock bottleneck: it ran roughly 7x slower than
+  the accuracy reviewer again this run and was stopped after 7 entries so it would not double the
+  run's duration for a pass whose measured precision stays near zero (its single flag — まいとし
+  vs まいねん for 毎年 — was another false positive, both readings being correct). This is the
+  third consecutive run to log it; the selector giving the screener its own smaller range, or
+  retiring it in favour of the accuracy pass, would end the recurring judgment call.

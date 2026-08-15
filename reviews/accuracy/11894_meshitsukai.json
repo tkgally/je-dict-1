@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-03T09:25:38Z",
+  "reviewed_at": "2026-08-15T21:25:41Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'people-roles' is not in the valid tag list.",
-      "suggestion": "person"
+      "severity": "error",
+      "concern": "The tag 'historical' is not in the valid tag list.",
+      "suggestion": "history"
     }
   ]
 }
