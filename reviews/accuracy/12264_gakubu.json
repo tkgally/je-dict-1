@@ -1,0 +1,24 @@
+{
+  "entry_id": "12264_gakubu",
+  "headword": "{学部|がくぶ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:29:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss combines two distinct meanings without clear separation, which could confuse a learner. 'undergraduate' is a separate sense.",
+      "suggestion": "Split into two distinct glosses or use a clear separator like 'or' or 'also'."
+    }
+  ]
+}

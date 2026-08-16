@@ -1,0 +1,24 @@
+{
+  "entry_id": "12287_kakei",
+  "headword": "{家計|かけい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:29:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague and doesn't accurately reflect the meaning of '家計'.",
+      "suggestion": "finance"
+    }
+  ]
+}

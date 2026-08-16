@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-04T09:34:18Z",
+  "reviewed_at": "2026-08-16T12:24:41Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'economy' is not in the valid tag list.",
-      "suggestion": "finance"
+      "severity": "error",
+      "concern": "The tag 'food' is too narrow and misleading for the headword '国産'. While it is often applied to food, the word itself means 'domestically produced' and can apply to any product.",
+      "suggestion": "Remove 'food' tag."
     }
   ]
 }

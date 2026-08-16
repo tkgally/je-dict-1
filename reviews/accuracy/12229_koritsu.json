@@ -1,0 +1,24 @@
+{
+  "entry_id": "12229_koritsu",
+  "headword": "{孤立|こりつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:28:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with a more specific meaning related to social or physical separation.",
+      "suggestion": "change to 'existence' or 'society'"
+    }
+  ]
+}

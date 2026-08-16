@@ -1,0 +1,24 @@
+{
+  "entry_id": "12216_taiyoukei",
+  "headword": "{太陽系|たいようけい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:28:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'geography' is incorrect for 'solar system'.",
+      "suggestion": "Replace 'geography' with 'science' or 'astronomy' (if 'astronomy' were a valid tag, but it's not, so 'science' is the best fit)."
+    }
+  ]
+}

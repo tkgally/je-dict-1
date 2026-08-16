@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-04T09:35:25Z",
+  "reviewed_at": "2026-08-16T12:25:44Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'general' is too broad and doesn't capture the specific meanings of '堪能'.",
-      "suggestion": "Replace 'general' with 'cognition' (for proficiency/skill) and 'emotion' (for enjoyment)."
+      "concern": "The tag 'general' is too vague for a word with more specific meanings like 'enjoyment' and 'skill'.",
+      "suggestion": "cognition, emotion, action"
     }
   ]
 }

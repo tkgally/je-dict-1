@@ -1,0 +1,24 @@
+{
+  "entry_id": "12273_sadamaru",
+  "headword": "{定|さだ}まる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:29:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '定まる'. While it can be used in formal contexts, it is not inherently a formal word and is commonly used in neutral contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

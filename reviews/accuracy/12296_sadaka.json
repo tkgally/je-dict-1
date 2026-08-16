@@ -1,0 +1,24 @@
+{
+  "entry_id": "12296_sadaka",
+  "headword": "{定|さだ}か",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:29:54Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. While '定か' is often used in more formal contexts, it is not exclusively formal and can appear in neutral or slightly elevated speech. 'Neutral' would be more appropriate.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-05T12:46:24Z",
+  "reviewed_at": "2026-08-16T12:30:09Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is too narrow; it implies '多額' only refers to money, but it can refer to any large amount or sum.",
+      "suggestion": "large amount/sum"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is too narrow; it implies '多額' only refers to money, but it can refer to any large amount or sum.",
+      "suggestion": "large amount/sum"
+    }
+  ]
 }

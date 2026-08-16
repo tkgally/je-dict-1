@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-04T09:34:48Z",
+  "reviewed_at": "2026-08-16T12:25:08Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'descriptive' is too general for a word that clearly denotes an action or state of being overwhelmed.",
+      "suggestion": "action"
+    }
+  ]
 }

@@ -1558,3 +1558,36 @@ All observations cleared.)_
   single bucket mixing genuinely-ambiguous cases with the provably-safe
   katakana-ruby class above. Splitting it would turn a large unactionable warn
   pile into a small mechanical batch.
+
+## 2026-08-16 — routine(accuracy-review), entries 12001–12341
+
+- `[pattern]` The 12001–12341 block is saturated with sole-`general` semantic
+  tags on words with an obvious in-list field: 国政/圧政/国益 (politics),
+  外貨 (finance), 大金 (money), 妖怪 (culture), 妊娠/大病/外傷 (health),
+  天使/奉納 (religion), 外見/外観 (appearance). 38 of the 42 corrections this
+  run were of this shape. This looks like a creation-batch default rather than
+  a judgment, and it is the P13 sole-`general` family showing up at high
+  density in one ID band — a good `systemic-fix` candidate if a detector can
+  rank blocks by sole-`general` density.
+- `[tooling]` The accuracy reviewer flagged 23.5% of entries in this block,
+  the same rate as the 2026-08-15 run on 11501–12000. Per §A that is reviewer
+  noise rather than dictionary error. The dominant noise family remains
+  "`general` is too broad" with a vague replacement (`action`, `abstract`),
+  followed by unsupported formality downgrades (formal → neutral) that the
+  entries' own register notes contradict.
+- `[tooling]` OpenRouter throughput was ~2 entries/min for the first hour of
+  this run against ~7/min on 2026-08-15, with no errors in the log — purely
+  slow upstream responses. Runs that size their range from the dollar budget
+  alone will overshoot the wall clock; the range had to be cut from 500 to
+  ~340. Sizing advice in §A step 1 could mention a throughput check.
+- `[tooling]` The furigana screener remains the slow lane: 7 entries in ~19
+  minutes running alongside the accuracy reviewer, 0 flags. Stopped early for
+  the fourth run in a row. Its per-run value on already-polished ranges looks
+  low enough to justify retiring it from the default accuracy-review recipe.
+- `[entry]` 忍耐 (outside this run's range) carries the off-list semantic tags
+  `endurance` and `psychology`; noticed while checking how the dictionary tags
+  endurance verbs for 12087 耐える.
+- `[entry]` 12305 官邸 had two examples whose English translations had been
+  swapped relative to their Japanese — a distinct defect class from anything
+  the reviewer flags, since each translation is fine in isolation. A detector
+  comparing example-level Japanese/English content words might find more.
