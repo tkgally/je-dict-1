@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06951_shisshin_ex1",
-      "japanese": "{腕|うで}に{湿疹|しっしん}ができた。",
+      "japanese": "⟦{腕|うで}→腕：01006_ude⟧⟦に→に：00314_ni⟧{湿疹|しっしん}⟦が→が：00051_ga⟧⟦できた→できる：00557_dekiru⟧。",
       "english": "I got a rash on my arm.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06951_shisshin_ex2",
-      "japanese": "アレルギーで{湿疹|しっしん}が{出|で}ることがある。",
+      "japanese": "⟦アレルギー→アレルギー：04645_arerugii⟧⟦で→で：00502_de⟧{湿疹|しっしん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "I sometimes get eczema from allergies.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06951_shisshin_ex3",
-      "japanese": "{湿疹|しっしん}がひどくて、{皮膚科|ひふか}に{行|い}った。",
+      "japanese": "{湿疹|しっしん}⟦が→が：00051_ga⟧⟦ひどくて→ひどい：01097_hidoi⟧、⟦{皮膚科|ひふか}→皮膚科：11073_hifuka⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "My eczema was bad, so I went to a dermatologist.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "KANJI:\n{湿|しつ} (wet/damp) + {疹|しん} (rash)\n\nTYPES:\n・アトピー{性|せい}{湿疹|しっしん} - atopic eczema\n・{接触|せっしょく}{性|せい}{湿疹|しっしん} - contact dermatitis\n・{脂漏|しろう}{性|せい}{湿疹|しっしん} - seborrheic dermatitis\n\nCOLLOCATIONS:\n・{湿疹|しっしん}ができる (to develop a rash)\n・{湿疹|しっしん}が{出|で}る (to break out in a rash)\n・{湿疹|しっしん}を{治療|ちりょう}する (to treat eczema)\n\nRELATED TERMS:\n・かぶれ - rash (from contact)\n・{発疹|はっしん} - skin eruption\n・{蕁麻疹|じんましん} - hives",
-  "cross_references": [],
+  "notes": "KANJI:\n{湿|しつ} (wet/damp) + {疹|しん} (rash)\n\nTYPES:\n・⟦アトピー→アトピー：23012_atopii⟧⟦{性|せい}→性：09880_sei⟧{湿疹|しっしん} - atopic eczema\n・⟦{接触|せっしょく}→接触：12904_sesshoku⟧⟦{性|せい}→性：09880_sei⟧{湿疹|しっしん} - contact dermatitis\n・⟦{脂漏|しろう}→脂漏：noentry⟧⟦{性|せい}→性：09880_sei⟧{湿疹|しっしん} - seborrheic dermatitis\n\nCOLLOCATIONS:\n・{湿疹|しっしん}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧ (to develop a rash)\n・{湿疹|しっしん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (to break out in a rash)\n・{湿疹|しっしん}⟦を→を：00422_wo⟧⟦{治療|ちりょう}する→治療：03503_chiryou⟧ (to treat eczema)\n\nRELATED TERMS:\n・⟦かぶれ→かぶれ：25271_kabure⟧ - rash caused by contact with a specific irritant\n・⟦{発疹|はっしん}→発疹：20451_hasshin⟧ - skin eruption; the broader clinical term, of which {湿疹|しっしん} is one kind\n・⟦{蕁麻疹|じんましん}→蕁麻疹：15182_jinmashin⟧ - hives, which come up as raised welts and usually fade within hours\n\nUSAGE:\nAn everyday word, not restricted to medical settings - patients use it themselves when describing symptoms at a clinic or pharmacy. The verb that goes with it is ⟦できる→できる：00557_dekiru⟧ or ⟦{出|で}る→出る：00513_deru⟧, not ⟦なる→なる：01970_naru⟧.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "はっしん",
+      "headword": "{発疹|はっしん}",
+      "target_id": "20451_hasshin",
+      "label": "skin eruption (broader term)"
+    },
+    {
+      "type": "related",
+      "reading": "じんましん",
+      "headword": "{蕁麻疹|じんましん}",
+      "target_id": "15182_jinmashin",
+      "label": "hives"
+    },
+    {
+      "type": "related",
+      "reading": "かぶれ",
+      "headword": "かぶれ",
+      "target_id": "25271_kabure",
+      "label": "contact rash"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T12:04:02Z",
-    "modified": "2026-01-19T12:17:44.809093Z",
+    "modified": "2026-08-16T00:19:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +79,10 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "health"
+      ],
+      "domain": [
+        "medical"
       ]
     }
   }

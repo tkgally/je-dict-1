@@ -8,17 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T14:38:27Z",
+  "reviewed_at": "2026-08-16T00:29:52Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The headword '直る' has two distinct meanings, one for repair and one for recovery from illness. The current semantic tag 'action' is too general and doesn't capture the nuances of both senses. Specifically, the 'recovery' sense is missing an appropriate tag.",
-      "suggestion": "Add 'health' to the semantic tags to cover the 'recover' meaning. 'action' can remain for the 'repair' meaning."
-    }
-  ]
+  "issues": []
 }

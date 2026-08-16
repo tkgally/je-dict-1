@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06950_tajitanan_ex1",
-      "japanese": "{今年|ことし}は{多事多難|たじたなん}な{一年|いちねん}だった。",
+      "japanese": "⟦{今年|ことし}→今年：00722_kotoshi⟧⟦は→は：00079_ha⟧{多事多難|たじたなん}⟦な→な：noentry⟧⟦{一年|いちねん}→一年：10994_ichinen⟧⟦だった→だ：09496_da⟧。",
       "english": "This year was a turbulent one.",
       "notes": null,
       "has_audio": false,
@@ -24,8 +24,8 @@
     },
     {
       "id": "06950_tajitanan_ex2",
-      "japanese": "{会社|かいしゃ}は{多事多難|たじたなん}の{時期|じき}を{乗|の}り{越|こ}えた。",
-      "english": "The company overcame a difficult period.",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{多事多難|たじたなん}⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}えた→乗り越える：04620_norikoeru⟧。",
+      "english": "The company got through a difficult period.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -34,7 +34,7 @@
     },
     {
       "id": "06950_tajitanan_ex3",
-      "japanese": "{多事多難|たじたなん}な{船出|ふなで}となったが、なんとか{成功|せいこう}した。",
+      "japanese": "{多事多難|たじたなん}⟦な→な：noentry⟧⟦{船出|ふなで}→船出：noentry⟧⟦と→と：00512_to⟧⟦なった→なる：01970_naru⟧⟦が→が：00051_ga⟧、⟦なんとか→何とか：01126_nantoka⟧⟦{成功|せいこう}した→成功：02638_seikou⟧。",
       "english": "It was a troubled start, but we managed to succeed.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "STRUCTURE (YOJIJUKUGO):\n{多|た} (many) + {事|じ} (matters) + {多|た} (many) + {難|なん} (difficulties)\nLiteral: \"many matters, many difficulties\"\n\nUSAGE:\n・{多事多難|たじたなん}な{時代|じだい} (turbulent era)\n・{多事多難|たじたなん}な{一年|いちねん} (eventful year)\n・{多事多難|たじたなん}の{時期|じき} (troubled times)\n\nCONTEXTS:\nOften used to describe historical periods, business conditions, or personal circumstances marked by numerous challenges.\n\nOPPOSITE:\n・{平穏無事|へいおんぶじ} - peaceful and uneventful",
+  "notes": "STRUCTURE (YOJIJUKUGO):\n{多|た} (many) + {事|じ} (matters) + {多|た} (many) + {難|なん} (difficulties)\nLiteral: \"many matters, many difficulties\"\n\nUSAGE:\n・{多事多難|たじたなん}⟦な→な：noentry⟧⟦{時代|じだい}→時代：01424_jidai⟧ (turbulent era)\n・{多事多難|たじたなん}⟦な→な：noentry⟧⟦{一年|いちねん}→一年：10994_ichinen⟧ (eventful year)\n・{多事多難|たじたなん}⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧ (troubled times)\n\nCONTEXTS:\nBoth {多事多難|たじたなん}⟦な→な：noentry⟧ and {多事多難|たじたなん}⟦の→の：09472_no⟧ occur before a noun, with の sounding slightly more formal and written. The word is a set phrase of year-end and new-year commentary, so it turns up often in speeches and editorials looking back on a hard year. Often used to describe historical periods, business conditions, or personal circumstances marked by numerous challenges.\n\nOPPOSITE:\n・⟦{平穏無事|へいおんぶじ}→平穏無事：15252_heionbuji⟧ - peaceful and uneventful",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "reading": "はらんばんじょう",
       "headword": "{波乱万丈|はらんばんじょう}",
       "label": "tumultuous, eventful"
+    },
+    {
+      "type": "antonym",
+      "reading": "へいおんぶじ",
+      "headword": "{平穏無事|へいおんぶじ}",
+      "target_id": "15252_heionbuji",
+      "label": "peaceful and uneventful"
     }
   ],
   "metadata": {
     "created": "2026-01-18T12:03:44Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-08-16T00:19:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

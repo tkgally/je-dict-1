@@ -1463,3 +1463,35 @@ All observations cleared.)_
   vs まいねん for 毎年 — was another false positive, both readings being correct). This is the
   third consecutive run to log it; the selector giving the screener its own smaller range, or
   retiring it in favour of the accuracy pass, would end the recurring judgment call.
+
+## 2026-08-16 — routine(polish), priority lane 00563–00895 + frontier 06947–06952
+
+- [pattern] The four-character-idiom (yojijukugo) block that begins at 06947 has **zero inline
+  word links** in examples or notes — not partial coverage, none at all. 06947–06950 were
+  identical in this respect, and the neighbouring non-idiom entries 06951 and 06952 were the
+  same, so this looks like a whole creation batch made before full inline linking became the
+  house standard rather than an idiom-specific gap. Worth a targeted sweep: a detector counting
+  entries whose examples contain Japanese but no `⟦` at all would size the block in seconds and
+  is a good `systemic-fix` candidate.
+- [pattern] Basic-tier verbs that have a transitivity pair share a note template that states the
+  pair twice: once in the `TRANSITIVITY:` header and again in a trailing `PAIR:` paragraph that
+  adds only one short example. All five verb entries polished from the priority lane this run
+  (00563, 00605, 00735, 00841, 00869, 00895) had it. The trailing paragraph is the natural home
+  for the thing learners actually need — which member of the pair to choose, or which kanji to
+  use — so rewriting it is a high-yield, repeatable edit rather than a cosmetic one. That the
+  note-quality ranking surfaced these entries together suggests the scorer is already detecting
+  the redundancy.
+- [pattern] Two of the priority-lane verbs (00841 {始|はじ}まる, 00895 {助|たす}ける) listed their
+  transitivity pair in `prominent_see_also` but not in `cross_references`, and one neighbour
+  (00531 {始|はじ}める) was missing the return `pair` link entirely. `check_semantic_clusters.py`
+  should be seeing these; if it is not flagging them, its pair-completeness rule may only be
+  checking one of the two fields.
+- [entry] 00563 {開|あ}ける had a genuinely wrong example sentence — 「{本|ほん}を{開|あ}けて」 for
+  "open your books", where Japanese requires {開|ひら}く. Neither schema validation nor the
+  furigana checker can see an error of this kind, and it sat in a **basic-tier** entry, the tier
+  most likely to be read by beginners. Wrong-collocation errors are exactly what the cross-model
+  accuracy pass is for; this one argues for pointing a future accuracy-review run at the basic
+  tier specifically rather than at the next sequential ID block.
+- [entry] 06951 {湿疹|しっしん} carried `general` as its only semantic tag despite being a
+  specific medical noun (changed to `health` + `body-part`, domain `medical`). Specialty nouns in
+  this ID range may share the default.

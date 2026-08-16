@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06952_bunsuu_ex1",
-      "japanese": "{小学校|しょうがっこう}で{分数|ぶんすう}を{習|なら}った。",
+      "japanese": "⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧⟦で→で：00502_de⟧{分数|ぶんすう}⟦を→を：00422_wo⟧⟦{習|なら}った→習う：00479_narau⟧。",
       "english": "I learned fractions in elementary school.",
       "notes": null,
       "has_audio": false,
@@ -24,8 +24,8 @@
     },
     {
       "id": "06952_bunsuu_ex2",
-      "japanese": "{分数|ぶんすう}の{足|た}し{算|ざん}は{通分|つうぶん}が{必要|ひつよう}だ。",
-      "english": "Adding fractions requires finding a common denominator.",
+      "japanese": "{分数|ぶんすう}⟦の→の：09472_no⟧⟦{足|た}し{算|ざん}→足し算：05332_tashizan⟧⟦は→は：00079_ha⟧⟦{通分|つうぶん}→通分：noentry⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦だ→だ：09496_da⟧。",
+      "english": "Adding fractions requires putting them over a common denominator.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -34,8 +34,8 @@
     },
     {
       "id": "06952_bunsuu_ex3",
-      "japanese": "{二分|にぶん}の{一|いち}は{分数|ぶんすう}で{表|あらわ}すと1/2だ。",
-      "english": "One half is expressed as 1/2 as a fraction.",
+      "japanese": "⟦{二分|にぶん}→二分：30504_nibun⟧⟦の→の：09472_no⟧⟦{一|いち}→一：00705_ichi⟧⟦は→は：00079_ha⟧{分数|ぶんすう}⟦で→で：00502_de⟧⟦{表|あらわ}す→表す：01868_arawasu⟧⟦と→と：00512_to⟧1/2⟦だ→だ：09496_da⟧。",
+      "english": "Written as a fraction, one half is 1/2.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "COMPONENTS:\n・{分子|ぶんし} - numerator (top number)\n・{分母|ぶんぼ} - denominator (bottom number)\n\nTYPES:\n・{真分数|しんぶんすう} - proper fraction (numerator < denominator)\n・{仮分数|かぶんすう} - improper fraction (numerator ≥ denominator)\n・{帯分数|たいぶんすう} - mixed number\n\nOPERATIONS:\n・{通分|つうぶん} - finding common denominator\n・{約分|やくぶん} - reducing/simplifying fractions\n\nRELATED MATH TERMS:\n・{整数|せいすう} - integer\n・{小数|しょうすう} - decimal\n・{百分率|ひゃくぶんりつ} - percentage",
-  "cross_references": [],
+  "notes": "COMPONENTS:\n・⟦{分子|ぶんし}→分子：11769_bunshi⟧ - numerator (top number)\n・⟦{分母|ぶんぼ}→分母：15936_bunbo⟧ - denominator (bottom number)\n\nTYPES:\n・⟦{真分数|しんぶんすう}→真分数：noentry⟧ - proper fraction (numerator < denominator)\n・⟦{仮分数|かぶんすう}→仮分数：noentry⟧ - improper fraction (numerator ≥ denominator)\n・⟦{帯分数|たいぶんすう}→帯分数：noentry⟧ - mixed number\n\nOPERATIONS:\n・⟦{通分|つうぶん}→通分：noentry⟧ - finding common denominator\n・⟦{約分|やくぶん}→約分：noentry⟧ - reducing/simplifying fractions\n\nRELATED MATH TERMS:\n・⟦{整数|せいすう}→整数：04328_seisuu⟧ - integer\n・⟦{小数|しょうすう}→小数：27356_shousuu⟧ - decimal\n・⟦{百分率|ひゃくぶんりつ}→百分率：24428_hyakubunritsu⟧ - percentage\n\nHOW FRACTIONS ARE READ:\nJapanese names the denominator first: 1/2 is ⟦{二分|にぶん}→二分：30504_nibun⟧⟦の→の：09472_no⟧⟦{一|いち}→一：00705_ichi⟧ (literally 'one of two parts'), and 3/4 is {四分|よんぶん}⟦の→の：09472_no⟧{三|さん}. This is the reverse of the English order, and it is the single most common stumbling block for learners meeting the word.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ぶんし",
+      "headword": "{分子|ぶんし}",
+      "target_id": "11769_bunshi",
+      "label": "numerator"
+    },
+    {
+      "type": "related",
+      "reading": "ぶんぼ",
+      "headword": "{分母|ぶんぼ}",
+      "target_id": "15936_bunbo",
+      "label": "denominator"
+    },
+    {
+      "type": "related",
+      "reading": "しょうすう",
+      "headword": "{小数|しょうすう}",
+      "target_id": "27356_shousuu",
+      "label": "decimal"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T12:04:20Z",
-    "modified": "2026-06-18T21:45:56Z",
+    "modified": "2026-08-16T00:19:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

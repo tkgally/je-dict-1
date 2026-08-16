@@ -144,8 +144,8 @@
     },
     {
       "id": "00563_akeru_ex5",
-      "japanese": "⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{開|あ}けて、10⟦ページ→ページ：02961_peeji⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦ください→ください：02899_kudasai⟧。⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦ここ→ここ：00961_koko⟧⟦から→から：00504_kara⟧⟦{始|はじ}めます→始める：00531_hajimeru⟧。",
-      "english": "Open your books and look at page 10. We'll start from here today.",
+      "japanese": "⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{引|ひ}き{出|だ}し→引き出し：01498_hikidashi⟧⟦を→を：00422_wo⟧{開|あ}けました。⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{古|ふる}い→古い：00488_furui⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧⟦{入|はい}っていました→入る：00494_hairu⟧。",
+      "english": "I used a key to open the drawer. There were old photographs inside.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{開|あ}く→開く：00689_aku⟧ (intransitive, to open by itself). Pattern: X⟦を→を：00422_wo⟧{開|あ}ける.\n\nASPECT: ている indicates resulting state. {開|あ}けている usually means 'have opened (and it's still open)' rather than 'is opening.'\n\nCOMMON PATTERNS:\n・⟦{窓|まど}→窓：02254_mado⟧⟦を→を：00422_wo⟧{開|あ}ける (open the window)\n・⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧{開|あ}ける (open the door)\n・⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧{開|あ}ける (open one's mouth)\n・⟦{穴|あな}→穴：01691_ana⟧⟦を→を：00422_wo⟧{開|あ}ける (make a hole)\n\nOpposite: ⟦{閉|し}める→閉める：00485_shimeru⟧ (to close something).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{開|あ}く→開く：00689_aku⟧ (intransitive, to open by itself). Pattern: X⟦を→を：00422_wo⟧{開|あ}ける.\n\nASPECT: ている indicates resulting state. {開|あ}けている usually means 'have opened (and it's still open)' rather than 'is opening.'\n\nCOMMON PATTERNS:\n・⟦{窓|まど}→窓：02254_mado⟧⟦を→を：00422_wo⟧{開|あ}ける (open the window)\n・⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧{開|あ}ける (open the door)\n・⟦{口|くち}→口：00560_kuchi⟧⟦を→を：00422_wo⟧{開|あ}ける (open one's mouth)\n・⟦{穴|あな}→穴：01691_ana⟧⟦を→を：00422_wo⟧{開|あ}ける (make a hole)\n\nOpposite: ⟦{閉|し}める→閉める：00485_shimeru⟧ (to close something).\n\nCONFUSABLE: {開|あ}ける vs ⟦{開|ひら}く→開く：01979_hiraku⟧, which are written with the same kanji but are not interchangeable. Use {開|あ}ける for things that swing, slide, or come apart to leave a gap: ⟦{窓|まど}→窓：02254_mado⟧, ⟦ドア→ドア：00773_doa⟧, lids, and containers. Use ⟦{開|ひら}く→開く：01979_hiraku⟧ for things that unfold or spread out, and for holding an event: ⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧ (open a book) is standard, while ⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{開|あ}ける is not said.",
   "prominent_see_also": [
     {
       "target_id": "00689_aku",
@@ -169,11 +169,18 @@
       "headword": "{閉|し}める",
       "target_id": "00485_shimeru",
       "label": "to close"
+    },
+    {
+      "type": "contrast",
+      "reading": "ひらく",
+      "headword": "{開|ひら}く",
+      "target_id": "01979_hiraku",
+      "label": "to open (unfold, spread); to hold (an event)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T14:43:48Z",
-    "modified": "2026-05-11T23:16:08Z",
+    "modified": "2026-08-16T00:19:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
