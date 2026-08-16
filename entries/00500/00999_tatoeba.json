@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00999_tatoeba_ex1",
-      "japanese": "{例|たと}えば⟦{何|なに}→何：00498_nani⟧?",
+      "japanese": "{例|たと}えば⟦{何|なに}→何：00498_nani⟧？",
       "english": "For example, what?",
       "notes": null,
       "has_audio": false,
@@ -64,10 +64,39 @@
     }
   ],
   "notes": "{例|たと}えば is an essential adverb for introducing examples, equivalent to \"for example\" or \"for instance.\"\n\nPOSITIONS:\n- Sentence-initial: {例|たと}えば、⟦{寿司|すし}→寿司：04946_sushi⟧⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧⟦です→です：09485_desu⟧。\n- Mid-sentence: ⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧、{例|たと}えば⟦{寿司|すし}→寿司：04946_sushi⟧⟦や→や：10080_ya⟧⟦{天|てん}ぷら→天ぷら：04948_tenpura⟧\n\nETYMOLOGY:\nFrom ⟦{例|たと}える→例える：10365_tatoeru⟧ (to compare) + ば (if). Literally means \"if we give an example.\"\n\nRELATED EXPRESSIONS:\n- ⟦{例|れい}→例：09932_rei⟧⟦を→を：00422_wo⟧⟦{挙|あ}げる→上げる：02443_ageru⟧⟦と→と：00512_to⟧: to give an example\n- ⟦{具体的|ぐたいてき}→具体的：04781_gutaiteki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧: specifically\n- ⟦{言|い}い{換|か}えれば→言い換える：04595_iikaeru⟧: in other words",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10365_tatoeru",
+      "reading": "たとえる",
+      "headword": "{例|たと}える",
+      "label": "source verb"
+    },
+    {
+      "type": "related",
+      "target_id": "09932_rei",
+      "reading": "れい",
+      "headword": "{例|れい}",
+      "label": "example (noun)"
+    },
+    {
+      "type": "related",
+      "target_id": "04781_gutaiteki",
+      "reading": "ぐたいてき",
+      "headword": "{具体的|ぐたいてき}",
+      "label": "specifically"
+    },
+    {
+      "type": "related",
+      "target_id": "04595_iikaeru",
+      "reading": "いいかえる",
+      "headword": "{言|い}い{換|か}える",
+      "label": "in other words"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:45:03Z",
-    "modified": "2026-05-13T19:17:12Z",
+    "modified": "2026-08-16T09:18:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

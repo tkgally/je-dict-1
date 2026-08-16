@@ -228,7 +228,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pattern: X⟦が→が：00051_ga⟧{眠|ねむ}る (X sleeps).\n\nASPECT: ている indicates state of sleeping. {眠|ねむ}っている = 'is asleep.'\n\nCOMMON PATTERNS:\n・⟦ぐっすり→ぐっすり：02676_gussuri⟧{眠|ねむ}る (sleep soundly)\n・⟦よく→よく：00601_yoku⟧{眠|ねむ}れる (can sleep well)\n・{眠|ねむ}れない (can't sleep)\n・⟦{眠|ねむ}り→眠り：13673_nemuri⟧⟦に→に：00314_ni⟧⟦つく→就く：10123_tsuku⟧ (fall asleep)\n・⟦{永遠|えいえん}→永遠：01873_eien⟧⟦の→の：09472_no⟧⟦{眠|ねむ}り→眠り：13673_nemuri⟧ (eternal sleep—death euphemism)\n\nCONTRAST WITH ⟦{寝|ね}る→寝る：00470_neru⟧:\n・{眠|ねむ}る: to sleep (the state of being asleep)\n・⟦{寝|ね}る→寝る：00470_neru⟧: to go to bed, to lie down, to sleep (broader meaning)\n\n⟦{寝|ね}る→寝る：00470_neru⟧ is more common in everyday speech and includes 'going to bed.' {眠|ねむ}る specifically means 'to be asleep.'\n\nRELATED:\n・⟦{眠|ねむ}い→眠い：00872_nemui⟧ (sleepy—adjective)\n・⟦{眠|ねむ}り→眠り：13673_nemuri⟧ (sleep—noun)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦が→が：00051_ga⟧{眠|ねむ}る (X sleeps).\n\nASPECT: ている indicates state of sleeping. {眠|ねむ}っている = 'is asleep.'\n\nCOMMON PATTERNS:\n・⟦ぐっすり→ぐっすり：02676_gussuri⟧{眠|ねむ}る (sleep soundly)\n・⟦よく→よく：00601_yoku⟧{眠|ねむ}れる (can sleep well)\n・{眠|ねむ}れない (can't sleep)\n・⟦{眠|ねむ}り→眠り：13673_nemuri⟧⟦に→に：00314_ni⟧⟦つく→就く：10123_tsuku⟧ (fall asleep)\n・⟦{永遠|えいえん}→永遠：01873_eien⟧⟦の→の：09472_no⟧⟦{眠|ねむ}り→眠り：13673_nemuri⟧ (eternal sleep—death euphemism)\n\nCONTRAST WITH ⟦{寝|ね}る→寝る：00470_neru⟧:\n・{眠|ねむ}る: to sleep (the state of being asleep)\n・⟦{寝|ね}る→寝る：00470_neru⟧: to go to bed, to lie down, to sleep (broader meaning)\n\n⟦{寝|ね}る→寝る：00470_neru⟧ is more common in everyday speech and includes 'going to bed.' {眠|ねむ}る specifically means 'to be asleep.'\n\nRELATED:\n・⟦{眠|ねむ}い→眠い：00872_nemui⟧ (sleepy—adjective)\n・⟦{眠|ねむ}り→眠り：13673_nemuri⟧ (sleep—noun)",
   "cross_references": [
     {
       "type": "contrast",
@@ -236,11 +236,18 @@
       "reading": "ねる",
       "headword": "{寝|ね}る",
       "label": "go to bed (broader)"
+    },
+    {
+      "type": "related",
+      "target_id": "00872_nemui",
+      "reading": "ねむい",
+      "headword": "{眠|ねむ}い",
+      "label": "sleepy (adjective)"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:19:47Z",
-    "modified": "2026-05-14T16:10:07Z",
+    "modified": "2026-08-16T09:18:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
@@ -251,7 +258,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "health"
       ],
       "verb_class": "godan-ru"
     }

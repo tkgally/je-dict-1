@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06955_baito_ex1",
-      "japanese": "{大学生|だいがくせい}の{時|とき}、コンビニでバイトしていた。",
+      "japanese": "⟦{大学生|だいがくせい}→大学生：01653_daigakusei⟧⟦の→の：09472_no⟧⟦{時|とき}→時：02918_toki⟧、⟦コンビニ→コンビニ：01081_konbini⟧⟦で→で：00502_de⟧バイト⟦していた→する：00392_suru⟧。",
       "english": "When I was a university student, I worked part-time at a convenience store.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06955_baito_ex2",
-      "japanese": "{今日|きょう}はバイトがあるから、{遊|あそ}べない。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧バイト⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦から→から：00504_kara⟧、⟦{遊|あそ}べない→遊ぶ：00550_asobu⟧。",
       "english": "I have work today, so I can't hang out.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06955_baito_ex3",
-      "japanese": "バイト{代|だい}で{旅行|りょこう}に{行|い}きたい。",
+      "japanese": "バイト⟦{代|だい}→〜代：28331_dai⟧⟦で→で：00502_de⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "I want to use my part-time wages to travel.",
       "notes": null,
       "has_audio": false,
@@ -43,19 +43,26 @@
       ]
     }
   ],
-  "notes": "ORIGIN:\nAbbreviation of アルバイト, which comes from German \"Arbeit\" (work).\n\nCOLLOCATIONS:\n・バイトをする (to work part-time)\n・バイトに{入|はい}る (to start a shift)\n・バイトを{辞|や}める (to quit a part-time job)\n・バイト{代|だい} (part-time wages)\n・バイト{先|さき} (workplace)\n\nTYPES:\n・{短期|たんき}バイト - short-term job\n・{日雇|ひやと}いバイト - day labor\n・{掛|か}け{持|も}ちバイト - working multiple jobs\n\nREGISTER:\nCasual. For formal contexts, use アルバイト or パートタイム.",
+  "notes": "ORIGIN:\nAbbreviation of ⟦アルバイト→アルバイト：01528_arubaito⟧, which comes from German \"Arbeit\" (work).\n\nCOLLOCATIONS:\n・バイト⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to work part-time)\n・バイト⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to start a shift)\n・バイト⟦を→を：00422_wo⟧⟦{辞|や}める→辞める：00909_yameru⟧ (to quit a part-time job)\n・バイト⟦{代|だい}→〜代：28331_dai⟧ (part-time wages)\n・バイト⟦{先|さき}→先：02883_saki⟧ (workplace)\n\nTYPES:\n・⟦{短期|たんき}→短期：04050_tanki⟧バイト - short-term job\n・⟦{日雇|ひやと}い→日雇い：14965_hiyatoi⟧バイト - day labor\n・⟦{掛|か}け{持|も}ち→掛け持ち：29305_kakemochi⟧バイト - working multiple jobs\n\nREGISTER:\nCasual. For formal contexts, use ⟦アルバイト→アルバイト：01528_arubaito⟧ or ⟦パートタイム→パートタイム：25267_paatotaimu⟧.",
   "cross_references": [
     {
       "type": "related",
+      "target_id": "01528_arubaito",
       "reading": "あるばいと",
       "headword": "アルバイト",
-      "label": "full form",
-      "target_id": "01528_arubaito"
+      "label": "full form"
+    },
+    {
+      "type": "related",
+      "target_id": "25267_paatotaimu",
+      "reading": "ぱーとたいむ",
+      "headword": "パートタイム",
+      "label": "part-time work"
     }
   ],
   "metadata": {
     "created": "2026-01-18T12:05:14Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-08-16T09:18:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
