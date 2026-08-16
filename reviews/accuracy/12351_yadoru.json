@@ -8,31 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-05T12:47:09Z",
+  "reviewed_at": "2026-08-16T21:28:15Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The headword '宿る' is not inherently formal; it can be used in various contexts, including literary or poetic, but also in more general descriptions. Labeling it 'formal' is misleading.",
+      "concern": "The headword '宿る' is not formal. It is a neutral, somewhat literary verb.",
       "suggestion": "neutral"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "error",
-      "concern": "The English translation 'A bird is perching on the tree branch' for '木の枝に鳥が宿っている' misrepresents the meaning of 宿る. '宿る' implies dwelling or residing, not merely perching temporarily.",
-      "suggestion": "A bird is nesting/dwelling in the tree branch."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "error",
-      "concern": "The English translation 'Dew is resting on the leaves' for '葉に露が宿っている' misrepresents the meaning of 宿る. '宿る' implies dwelling or being contained, not just resting on the surface.",
-      "suggestion": "Dew is settled/contained in the leaves."
     }
   ]
 }

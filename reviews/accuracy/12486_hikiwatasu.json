@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-05T12:49:24Z",
+  "reviewed_at": "2026-08-16T21:30:25Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. While the word can be used in formal contexts, it is not inherently formal and is commonly used in neutral contexts as well.",
+      "suggestion": "neutral"
+    }
+  ]
 }

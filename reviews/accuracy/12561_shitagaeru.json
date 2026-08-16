@@ -4,21 +4,26 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
-    "tags"
+    "gloss"
   ],
-  "reviewed_at": "2026-07-06T12:41:18Z",
+  "reviewed_at": "2026-08-16T21:42:14Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "Tag 'society-role' is not in the valid tag list.",
-      "suggestion": "society"
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'to be accompanied by' is misleading. The verb 従える is transitive and means 'to lead' or 'to have someone follow you', not 'to be accompanied by' (which implies a passive or intransitive sense). The examples correctly show the transitive usage.",
+      "suggestion": "Remove 'to be accompanied by' from the gloss. A better gloss would be 'to lead, to have in tow, to take along'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'to be accompanied by' is misleading. The verb 従える is transitive and means 'to lead' or 'to have someone follow you', not 'to be accompanied by' (which implies a passive or intransitive sense). The examples correctly show the transitive usage.",
+      "suggestion": "Remove 'to be accompanied by' from the gloss. A better gloss would be 'to lead, to have in tow, to take along'."
     }
   ]
 }

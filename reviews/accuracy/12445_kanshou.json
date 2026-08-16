@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-05T12:48:44Z",
+  "reviewed_at": "2026-08-16T21:29:44Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'interaction' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
 }

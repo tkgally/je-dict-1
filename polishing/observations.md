@@ -1444,3 +1444,25 @@ katakana-ruby count of "50 entry files" (a shell-regex artifact — the real fig
 instances / 225 files, matching P60's 275/229); and the transitivity `PAIR:`-paragraph template
 said to be shared by six named priority-lane verbs (24 entries dictionary-wide carry the shape,
 and none of the six is among them).)_
+
+## 2026-08-16 — accuracy-review run (routine, entries 12342–12650)
+
+- [tooling] `build/review_runner.py --pass screening` runs ~2.3 s/entry, so a
+  500-entry range exceeds a single 10-minute tool call. Screening a full
+  accuracy-review range needs to be backgrounded or split; this run only
+  re-screened 12507–12593 before the call timed out.
+- [pattern] All 45 pre-existing furigana screening flags in 12342–12900 were the
+  documented "partial/incomplete reading" false positive: the screener reports a
+  truncated reading (e.g. `{計画|けいか}`) where the entry actually contains the
+  full correct reading (`{計画|けいかく}`). Verified against the source files for
+  five of them. This family is calibration-report iteration-1 noise resurfacing;
+  the screener remains near-zero precision on already-polished ranges.
+- [pattern] The accuracy reviewer's `tags` dimension is dominated by in-list
+  narrowness nits ("`general` is too vague, use `movement`") — 30 of 38 flagged
+  entries. Its genuinely useful tag output is the off-vocabulary tag detection
+  (5 entries this run: `thought`, `interaction`, `body-general`,
+  `history-period`, `action-general`). Consider narrowing the tag prompt to
+  off-list detection only.
+- [entry] Transitive verbs glossed with an English passive ("to be accompanied
+  by" for 従える) read as intransitive to learners. Worth a targeted sweep for
+  transitive entries whose gloss starts "to be ...".

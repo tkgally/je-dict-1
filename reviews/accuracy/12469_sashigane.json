@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-05T12:49:09Z",
+  "reviewed_at": "2026-08-16T21:30:09Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'action' is incorrect for '差し金'. While it relates to an action, the word itself refers to the instigation or manipulation, which is a concept or an act, not an action in the sense of a verb or a suru-verb's nominal form. '差し金' is a noun referring to the act of instigating or the instigation itself.",
+      "suggestion": "Replace 'action' with 'cognition' or 'general' or 'expression'."
+    }
+  ]
 }
