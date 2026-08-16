@@ -1591,3 +1591,15 @@ All observations cleared.)_
   swapped relative to their Japanese — a distinct defect class from anything
   the reviewer flags, since each translation is fine in isolation. A detector
   comparing example-level Japanese/English content words might find more.
+- `[tooling]` During the 2026-08-16 accuracy-review wrap-up, MCP
+  `pull_request_read method=get_check_runs` reported PR #3216's `validate`
+  check as `in_progress` for more than 40 minutes across 14 polls. When the
+  check finally reported `completed`, its own `completed_at` was 12:37:29 —
+  about 70 seconds after `started_at`. The check had been green the whole
+  time and the MCP layer was serving a stale cached response. This is a
+  serious trap for the §7 CI gate: a run that honours the documented ~8-minute
+  polling cap will conclude "still pending" and strand a PR whose CI passed
+  minutes earlier, which likely explains some past strands blamed on CI
+  timeouts. Worth considering a cheap cross-check before giving up — e.g.
+  `list_pull_requests` `mergeable_state`, or re-reading the run via
+  `actions_get` — rather than trusting a single stale-prone field.
