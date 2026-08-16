@@ -1516,3 +1516,14 @@ All observations cleared.)_
   `{痛|いたみ}` where the okurigana is inside the ruby (correct form is `{痛|いた}み`). Class R of
   the stale-`noentry` detector did not catch it because the base form's reading still matches.
   `build/check_furigana_format.py` may or may not see this shape — worth a check.
+- [pattern] 2026-08-16 (routine new-entries): two "hub" entries had their whole family of
+  `noentry` inline links resolved in one run. 06942 {さもないと} pointed at さもなければ /
+  そうしないと / じゃないと / でないと, and 06952 {分数|ぶんすう} pointed at 真分数 / 仮分数 /
+  帯分数 / 通分 / 約分 — all nine now exist as entries 30681-30684 and 30689-30693. A
+  `build/check_stale_noentry.py --mechanical` pass over 06942 and 06952 should convert those
+  links immediately; more generally, creating entries from one hub entry's `noentry` list is an
+  efficient way to close the dictionary in on itself, and the stale-noentry detector is the
+  natural follow-up step to schedule after any such run.
+- [entry] 04165 {先程|さきほど} has no note about the very common kana-kanji variant 先ほど.
+  A candidate for 先ほど was queued as if it were a separate word and removed as a stale
+  duplicate this run; adding an orthography line to 04165 would stop it being re-proposed.
