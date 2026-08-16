@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-08-15
+**Last updated**: 2026-08-16
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-08-16 (Routine v2: new-entries — 20 New Entries, IDs 30674–30693)
+
+Created 20 general-tier entries, **all 20 from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined. This run deliberately worked two "hub" entries whose internal links all pointed at nothing, so both families are now complete:
+
+- **The "otherwise" family (6)**, all from the dead links inside {さもないと} (entry 06942): さもなければ (formal, written), そうしないと (the everyday spoken choice), じゃないと (casual, two senses — after a noun, and standing alone), でないと (the neutral middle register, two senses), plus だとすると (drawing a provisional conclusion) and ということは (drawing a firm one). Each entry says plainly where it sits on the formality scale, since choosing between them is the actual learner problem.
+- **The fractions family (5)**, all from the dead links inside {分数|ぶんすう} (entry 06952): {通分|つうぶん} and {約分|やくぶん} (the two operations, written as each other's complement), and {真分数|しんぶんすう}, {仮分数|かぶんすう}, {帯分数|たいぶんすう} (the three kinds of fraction, cross-explained).
+- **Everyday and cultural vocabulary (9)**: おきに (the interval suffix, written directly against ごとに — "every other day" versus "every day" — which is the classic confusion), {表彰状|ひょうしょうじょう} (distinguished from {賞状|しょうじょう} and {感謝状|かんしゃじょう}), {信心深|しんじんぶか}い, したり{顔|がお}, {更年期障害|こうねんきしょうがい}, {地鎮祭|じちんさい} (the ground-breaking rite, with the related {上棟式|じょうとうしき}/{竣工式|しゅんこうしき} named), {上奏|じょうそう} (historical, reporting to the emperor), {心血|しんけつ} (used almost only in {心血|しんけつ}を{注|そそ}ぐ), and {船出|ふなで} (literal sailing and the figurative "new start").
+
+**§4 cross-model self-check on all 20 entries: 5 issues raised, 3 applied, 2 rejected, 0 sent to the curator.** The applied fixes all concerned {通分|つうぶん}: its gloss read "reduction to a common denominator", which invites the wrong reading of "reduce" (the operation usually makes the numbers larger, not smaller), so it now reads "finding a common denominator", and one example whose English restated itself was replaced. The two rejections were a reviewer error about 二日おきに and a request to swap one in-list semantic tag for a broader one, which project policy declines. Cost $0.009.
+
+**Queue note**: the candidate 先ほど was removed as a stale duplicate — it is the same word as the existing {先程|さきほど} entry (04165) written in kana. Twelve new candidates were captured from words used inside the new entries, and the twenty words just written were removed from the queue automatically. Candidate queue now 159.
 
 ### 2026-08-15 (Routine v2: new-entries — 20 New Entries, IDs 30654–30673)
 
@@ -112,12 +124,3 @@ Created 20 general-tier entries. **Ten came from the "seen in entry" lane** — 
 
 **Queue note**: five candidates were removed as stale. Four were spelling variants of words the dictionary already has — {擦|す}り{寄|よ}る against 17576 ({摺|す}り{寄|よ}る), {匙|さじ}を{投|な}げる against 20433 (さじを{投|な}げる), {首|くび}をかしげる against 17531 ({首|くび}を{傾|かし}げる), and {有耶無耶|うやむや} against 08049 (うやむや) — and the fifth was the ぶり sense folded into 28358. The duplicate checker reports such pairs only as "homophones", so they pass candidate vetting; that gap and a related one (vetting cannot see that a word matches an existing entry's *other* sense) are logged as observations. Four new candidates were added from words the new entries reference: {内裏雛|だいりびな}, {三人|さんにん}{官女|かんじょ}, {地獄|じごく}に{仏|ほとけ}, {品薄|しなうす}. Candidate queue now 154 — only just above the 150-word mark at which a `candidates` restock run stops being suppressed.
 
-### 2026-08-12 (Routine v2: new-entries — 20 New Entries, IDs 30575–30594)
-Created 20 general-tier entries, **all 20 drawn from the "seen in entry" lane** — words the dictionary already uses inside other entries' examples and notes but had never defined. This is the first run in some months where that lane alone supplied a full batch, because the 2026-08-11 queue overhaul left only vetted words behind. **Fourteen of the twenty are everyday idioms built on a body part**, filling out the block of such expressions the polish runs walked through last week: {口|くち}が{滑|すべ}る (to let something slip) and {口|くち}が{悪|わる}い (sharp-tongued), {頭|あたま}に{来|く}る (to lose one's temper, marked informal against the neutral {腹|はら}が{立|た}つ it now cross-references), {顔|かお}が{利|き}く (to have pull somewhere), {声|こえ}をかける (written with two senses — calling out to a stranger, and inviting someone along, six examples), {手|て}が{空|あ}く and {手|て}が{足|た}りない (entered as a linked pair, free hands vs. not enough hands), {肩身|かたみ}が{広|ひろ}い (able to hold one's head high — noted as the rarer mirror of the common {肩身|かたみ}が{狭|せま}い), {気|き}が{長|なが}い (entered as the antonym the existing {気|き}が{短|みじか}い entry had been pointing at with a dead link), {気|き}が{回|まわ}る, {気|き}を{取|と}られる, plus {怒|おこ}りっぽい and {居|い}づらい as i-adjectives with full conjugation tables, and {図星|ずぼし}. **The remaining six are ordinary vocabulary**: コインロッカー, {制限時間|せいげんじかん}, {古米|こまい} (old rice, cross-linked as the antonym of {新米|しんまい}, with the note that {新米|しんまい} alone also means "novice"), {主|ぬし} (the ownership reading, distinguished from the あるじ entry at 19365 and shown chiefly through {世帯主|せたいぬし}/{飼|か}い{主|ぬし}/{持|も}ち{主|ぬし}), {候補生|こうほせい}, and **the dictionary's first novelist**, {夏目漱石|なつめそうせき} — held back for six consecutive runs before proper names were ruled in scope on 2026-08-11, and written with the connotations that earn a name an entry (the pen name used alone, the old 1,000-yen note, {坊|ぼ}っちゃん as a nickname). One new kanji, 漱, was given an index ID. **§4 cross-model self-check on all 20 entries: clean — 0 issues raised.** $0.009. Four slips were caught locally before that check: two entries had an English word or katakana accidentally inside a furigana wrapper, one used a formality label outside the schema's list, and the {手|て}が{空|あ}く/{手|て}が{足|た}りない pair briefly cross-referenced a wrong entry ID.
-
-- **Body-part idioms (12)**: {口|くち}が{滑|すべ}る, {口|くち}が{悪|わる}い, {頭|あたま}に{来|く}る, {顔|かお}が{利|き}く, {声|こえ}をかける, {手|て}が{空|あ}く, {手|て}が{足|た}りない, {肩身|かたみ}が{広|ひろ}い, {気|き}が{長|なが}い, {気|き}が{回|まわ}る, {気|き}を{取|と}られる, {図星|ずぼし}
-- **Character adjectives (2)**: {怒|おこ}りっぽい, {居|い}づらい
-- **Everyday nouns (5)**: コインロッカー, {制限時間|せいげんじかん}, {古米|こまい}, {主|ぬし}, {候補生|こうほせい}
-- **Proper noun (1)**: {夏目漱石|なつめそうせき}
-
-**Queue note**: ten candidate rows (C23094–C23103) had been filed with furigana markup inside the word itself, so the automatic "this word now has an entry" sync could not match them and they were removed by hand; a fix for the candidate tool is logged in `polishing/observations.md`. One candidate, ぶり in the sense of "manner of doing" ({仕事|しごと}ぶり), was deliberately not created — entry 28358 already holds that headword for the unrelated "for the first time in" sense, so this belongs there as a second sense. Candidate queue now 167.

@@ -1,0 +1,24 @@
+{
+  "entry_id": "30674_okini",
+  "headword": "おきに",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T06:27:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The English translation 'every third day' for '二日おきに' is incorrect. '二日おきに' means 'every other day' or 'every two days', implying a gap of two days, making the cycle three days.",
+      "suggestion": "Change 'every third day' to 'every two days' or 'every other day'."
+    }
+  ]
+}
