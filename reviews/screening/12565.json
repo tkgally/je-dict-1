@@ -1,10 +1,10 @@
 {
   "entry_id": "12565",
-  "screened_at": "2026-07-06T12:24:36Z",
+  "screened_at": "2026-08-16T21:24:07Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for {技術|ぎじ} is incomplete. The full reading for 技術 is ぎじゅつ."
+    "The reading for 祭 (matsuri) is まつ, but in item 8, it is given as まつ. While まつ is a valid partial reading for 祭 (as in 祭り), the context \"りが\" suggests that the full reading should be まつり. However, the instruction states \"Do NOT flag partial readings as errors — they are correct by design.\" and \"The reading covers ONLY the kanji portion.\" So, まつ for 祭 is technically correct as a partial reading. But in item 17, 祭 is read as さい, which is a different reading for the same kanji. This highlights the ambiguity. Given the instruction to not flag partial readings, I will not flag 祭 → まつ as an error. However, 祭 → さい is also a valid reading for 祭 (as in 祭日 - saijitsu, or in the context of Easter as a festival). Both are valid readings depending on context."
   ],
-  "confidence": 0.9
+  "confidence": 0.8
 }

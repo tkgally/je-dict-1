@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-05T12:49:02Z",
+  "reviewed_at": "2026-08-16T21:30:01Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.formality",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for '安保'. While it often appears in formal contexts like news and political discussions, the word itself is a common abbreviation and not inherently formal in its register. It's more neutral or even slightly informal due to being an abbreviation.",
-      "suggestion": "neutral"
+      "concern": "The tag 'general' is too broad for a term specifically related to national security and treaties.",
+      "suggestion": "politics"
     }
   ]
 }

@@ -4,21 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
-    "tags"
+    "gloss"
   ],
-  "reviewed_at": "2026-07-05T12:47:39Z",
+  "reviewed_at": "2026-08-16T21:42:11Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'general' is too broad for a word with specific meanings related to vehicles and support.",
-      "suggestion": "Add 'transportation' and 'action' to semantic tags."
-    }
-  ]
+  "issues": []
 }

@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-05T12:48:14Z",
+  "reviewed_at": "2026-08-16T21:29:14Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'nature' is too broad and misleading for a spice. While the plant grows in nature, the headword refers to the spice itself.",
+      "suggestion": "Remove 'nature' and add 'plant-general' to reflect the origin of the spice."
+    }
+  ]
 }

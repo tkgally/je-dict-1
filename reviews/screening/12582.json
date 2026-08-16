@@ -1,10 +1,10 @@
 {
   "entry_id": "12582",
-  "screened_at": "2026-07-06T12:26:39Z",
+  "screened_at": "2026-08-16T21:26:00Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The entry defines 強者 as つわもの, but pair 23 maps 強者 to きょうしゃ. While both are valid readings for 強者, the entry's primary reading is つわもの, and きょうしゃ is presented as an alternative or related term. If the goal is to strictly adhere to the provided entry's primary reading, then this is a discrepancy. However, if the context implies that きょうしゃ is also a valid reading for 強者 in general, then it might not be an error. Given the prompt's focus on the provided entry, it's worth flagging as a potential inconsistency."
+    "The entry defines 強者 as つわもの. However, item 23 provides an alternative reading きょうしゃ for 強者. While this is a valid reading for 強者 in other contexts, it contradicts the primary reading provided in the dictionary entry for this specific word. The prompt states to judge ONLY the \"kanji → reading\" pair itself and not to infer truncation. Given the context \"can be read as きょ\", it implies that きょうしゃ is an alternative reading for 強者, which is not the primary reading given in the entry."
   ],
-  "confidence": 0.8
+  "confidence": 0.9
 }

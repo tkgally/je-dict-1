@@ -8,9 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-05T12:47:00Z",
+  "reviewed_at": "2026-08-16T21:28:08Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
@@ -18,14 +18,7 @@
       "location": "tags.semantic",
       "severity": "error",
       "concern": "The semantic tag 'existence' is incorrect for '富む'.",
-      "suggestion": "Replace 'existence' with 'quantity' or 'descriptive'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for '富む'.",
-      "suggestion": "Replace 'formal' with 'neutral'."
+      "suggestion": "The word '富む' means 'to be rich in' or 'to abound in', which relates to quantity or possession, not mere existence. A more appropriate tag would be 'quantity' or 'possession' (if 'possession' were a valid tag, which it isn't). Given the valid tags, 'quantity' is the best fit."
     }
   ]
 }
