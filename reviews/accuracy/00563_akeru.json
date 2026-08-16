@@ -2,22 +2,15 @@
   "entry_id": "00563_akeru",
   "headword": "{開|あ}ける",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:54:33Z",
+  "reviewed_at": "2026-08-16T00:29:50Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation 'Open your books' is a bit too direct and doesn't fully capture the nuance of '本を開けて' in this context, which implies opening to a specific page rather than just opening the cover.",
-      "suggestion": "Consider 'Open your books to page 10' or 'Please open your books to page 10' for a more natural and complete translation in this specific context."
-    }
-  ]
+  "issues": []
 }
