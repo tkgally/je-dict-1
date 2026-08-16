@@ -2,15 +2,30 @@
   "entry_id": "00981_onegaishimasu",
   "headword": "お{願|ねが}いします",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:52:49Z",
+  "reviewed_at": "2026-08-16T09:24:35Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'grammatical' is incorrect for 'お願いします'.",
+      "suggestion": "Replace 'grammatical' with 'communication' or 'expression'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation for example 2 is misleading. 'よろしくお願いします' is not a direct translation of 'お願いします' and has a different nuance.",
+      "suggestion": "Remove example 2 as it uses a different phrase (よろしくお願いします) than the headword (お願いします)."
+    }
+  ]
 }

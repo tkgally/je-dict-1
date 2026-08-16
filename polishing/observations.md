@@ -1540,3 +1540,21 @@ All observations cleared.)_
   only the check-run `id`, which `get_check_runs` itself returns even while stale). Suggest
   amending CLAUDE.md → "MCP path" step 5 and `prompts/routine2.md` §7.5.2 so that a run still
   reading `pending` after ~3 polls cross-checks with one of those before treating it as pending.
+
+## 2026-08-16 (routine polish, session routine_2026-08-16_001)
+
+- [pattern] Katakana loanwords wrapped in furigana braces with a hiragana
+  "reading" — `{レポート|れぽーと}`, `{ルール|るーる}`, `{タクシー|たくしー}` etc.
+  Katakana needs no ruby, so these render a pointless hiragana gloss above the
+  word on the site. 50 entry files affected; detect with
+  `grep -rlo '{[ァ-ヴー]\+|' entries/`. `build/check_furigana_format.py` already
+  catches them inside the 374 `pure-kana` warns, but emits no suggested fix, so
+  they are invisible in the summary. Two concrete asks: (a) split a
+  `katakana-ruby` subpattern out of `pure-kana` whose surface is all-katakana and
+  whose reading is that surface in hiragana, with suggestion = bare surface
+  (mechanically safe — the wrapper carries no information); (b) queue it as a
+  systemic-fix backlog item. Fixed the one instance in 01087_dasu by hand.
+- [tooling] `build/check_furigana_format.py` reports `pure-kana` (374 warns) as a
+  single bucket mixing genuinely-ambiguous cases with the provably-safe
+  katakana-ruby class above. Splitting it would turn a large unactionable warn
+  pile into a small mechanical batch.
