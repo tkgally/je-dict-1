@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T13:05:39Z",
+  "reviewed_at": "2026-08-16T03:21:49Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'furniture' is incorrect for '便器' (toilet bowl).",
+      "suggestion": "Replace 'furniture' with 'daily-life' or 'building'."
+    }
+  ]
 }

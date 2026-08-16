@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T13:08:21Z",
+  "reviewed_at": "2026-08-16T03:22:23Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword 'コンロ' (stove/burner) is not inherently an electronic device. While some stoves are electric, many are gas-powered. 'Electronics' is too specific and potentially misleading.",
-      "suggestion": "Remove 'electronics' tag."
+      "concern": "The tag 'electronics' is incorrect for 'コンロ'. While some modern stoves have electronic components, the core function of a 'コンロ' (stove/burner) is not primarily electronic. It's a cooking appliance.",
+      "suggestion": "Replace 'electronics' with 'cooking'."
     }
   ]
 }

@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-14T03:47:50Z",
+  "reviewed_at": "2026-08-16T03:23:05Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'animal-general' is too broad for '魚類' (fish class).",
+      "suggestion": "animal-fish"
+    }
+  ]
 }

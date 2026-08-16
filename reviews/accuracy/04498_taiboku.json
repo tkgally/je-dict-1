@@ -8,9 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T13:05:30Z",
+  "reviewed_at": "2026-08-16T03:21:43Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
@@ -19,6 +19,13 @@
       "severity": "error",
       "concern": "The semantic tag 'general' is too broad for a specific noun like '大木'.",
       "suggestion": "plant-tree"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '大木'. It is a neutral, everyday word.",
+      "suggestion": "neutral"
     }
   ]
 }

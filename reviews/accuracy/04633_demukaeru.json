@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T13:07:24Z",
+  "reviewed_at": "2026-08-16T03:22:11Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "translation",
-      "location": "examples[0]",
+      "dimension": "tags",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The English translation 'I met my mother at the station' does not fully capture the nuance of '出迎える', which implies going to the station specifically to greet and welcome her upon her arrival, rather than just meeting her there by chance or for another purpose.",
-      "suggestion": "I went to the station to meet my mother."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "error",
-      "concern": "The English translation 'I welcomed the guest at the entrance' is too passive. '出迎える' implies going out to meet and greet, not just welcoming them once they are already at the entrance.",
-      "suggestion": "I went to the entrance to greet the guest."
+      "concern": "The semantic tag 'greeting' is too narrow for the headword's meaning, which includes 'to welcome' in a broader sense than just a greeting.",
+      "suggestion": "Replace 'greeting' with 'communication' or 'action'."
     }
   ]
 }

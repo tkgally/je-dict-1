@@ -2438,6 +2438,48 @@ is now genuinely handled mechanically.
 Running false-positive rate across the 893 hand-verified short-base pairs (2026-08-09 through
 2026-08-14): **~0.2%**.
 
+**2026-08-16 systemic-fix run** — sixth per-entry short-base batch. 177 A1/A2 pairs (212
+instances, 120 entries, IDs 04459–04999) were read in a ±60-character context window; **176 were
+applied and one was rejected**. The queue is now **602 pairs / 685 instances** and everything
+below **05000** is swept for A1+A2 apart from the deliberate rejections.
+
+The single rejection is the cleanest example of the polysemous-katakana family yet, and it points
+at a mechanical improvement. `04562` (a home-security entry) has 二重⟦ロック⟧ "double lock", and
+the only ロック entry is `08116_rokku`, glossed "rock (music); rock 'n' roll". Its notes end with
+the sentence *"ロック as 'lock' (to lock something) is a different word with the same reading.
+Context makes the meaning clear."* — i.e. **the target entry itself already declares the
+homophone split in prose**. Class R catches contradictions between the marker's furigana and the
+target's reading; it cannot catch a same-reading, different-word split. A cheap new class would
+be: if the candidate target's notes match a pattern like *"X as 'Y' is a different word"*, demote
+the pair out of the mechanical bucket. That would have caught this one without any semantic
+judgment, and it is the same shape as the 2026-08-08 フライ/パン rejections.
+
+Marginal applies worth recording, all resolved by opening the target entry rather than trusting
+its gloss — the 2026-08-14 rule holding up:
+
+- `04795` 連立⟦方程式⟧ "system of equations" → `14492_renritsu`, glossed "coalition; alliance
+  (especially of political parties)". Applied because the entry's notes close with "Also used in
+  mathematics: {連立|れんりつ}{方程式|ほうていしき} means simultaneous equations."
+- `04703` 年少/年中/年長 as **kindergarten age-group names** → `29613_nenshou` / `29601_nenchou`,
+  glossed only "young; junior in age" / "senior in age". Applied: `29613`'s collocation list has
+  "{年少|ねんしょう}{組|ぐみ}: the younger group (e.g. in kindergarten)".
+- `04969` おしゃれ{着|ぎ}⟦コース⟧ (a washing-machine cycle) → `10864_koosu`, whose SENSE 2 is
+  program/set menu. Applied as the nearest documented sense; the appliance-setting use is a
+  reasonable extension of it rather than a separate lexeme.
+- `04468` {購読|こうどく}⟦{料|りょう}⟧ → `03797_ryoukin` 料金 and ⟦{購|こう}⟧ → `03057_kounyuu`
+  購入: bare-kanji markers whose *base* is the full compound word, the same authoring shape as the
+  〜{者|しゃ}/〜{家|か} suffix family.
+
+Families verified as groups in this band: 〜{者|しゃ} and 〜{長|ちょう} title lists (`04662`,
+`04665` — twelve and nine pairs respectively, each pointing at the entry for that exact title),
+Japanese traditional-arts vocabulary (義太夫/長唄/虚無僧/室内楽), bird and plant name lists
+(白鷺/青鷺/朱鷺, 唐松/杜若/花菖蒲), kitchen and appliance terms (七輪/蒸籠/中力粉/上新粉/天つゆ),
+tax and finance compounds (税別/税率/税込み/年利/月給制/週給), and compound-decomposition notes
+({仕|し}+{上|あ}げる, {出|で}る+{迎|むか}える, {申|もう}し+{込|こ}む).
+
+Running false-positive rate across the 1,070 hand-verified short-base pairs (2026-08-09 through
+2026-08-16): **~0.2%**.
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword
