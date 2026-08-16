@@ -1527,3 +1527,16 @@ All observations cleared.)_
 - [entry] 04165 {先程|さきほど} has no note about the very common kana-kanji variant 先ほど.
   A candidate for 先ほど was queued as if it were a separate word and removed as a stale
   duplicate this run; adding an orthography line to 04165 would stop it being re-proposed.
+- [tooling] 2026-08-16 (routine new-entries, PR #3213): the §7 CI gate's
+  `mcp__github__pull_request_read method=get_check_runs` returned a **stale** `in_progress`
+  status across a dozen consecutive polls after the `validate` job had actually finished (the
+  job's own logs showed post-job cleanup at 06:34:06, about 70 seconds after the run started,
+  and the workflow run's `updated_at` was 06:34:08). Following the
+  documented loop alone — poll `get_check_runs`, give up at the ~8-minute cap — would have
+  stranded a green PR for the next run to rescue, and this may explain some past CI-timeout
+  strands. Two other MCP calls reported `completed`/`success` immediately and should be the
+  documented fallback: `mcp__github__actions_get method=get_workflow_run` (needs the run ID,
+  which is embedded in the check run's `html_url`) and `mcp__github__get_check_run` (needs
+  only the check-run `id`, which `get_check_runs` itself returns even while stale). Suggest
+  amending CLAUDE.md → "MCP path" step 5 and `prompts/routine2.md` §7.5.2 so that a run still
+  reading `pending` after ~3 polls cross-checks with one of those before treating it as pending.
