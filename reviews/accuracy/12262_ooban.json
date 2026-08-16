@@ -1,0 +1,24 @@
+{
+  "entry_id": "12262_ooban",
+  "headword": "{大判|おおばん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:29:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation implies the subject is 'he' (He treated everyone generously), but the Japanese sentence does not specify a subject. It should be more neutral or reflect the lack of a specified subject.",
+      "suggestion": "Everyone was treated generously. / I treated everyone generously. (if context implies the speaker)"
+    }
+  ]
+}

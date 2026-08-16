@@ -1,0 +1,24 @@
+{
+  "entry_id": "12295_haramu",
+  "headword": "{孕|はら}む",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:29:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is too broad and misleading for a verb primarily meaning 'to conceive' or 'to be pregnant'.",
+      "suggestion": "Replace 'existence' with 'body-part' or 'health' or 'family' or 'change'."
+    }
+  ]
+}

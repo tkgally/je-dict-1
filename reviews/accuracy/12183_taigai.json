@@ -1,0 +1,24 @@
+{
+  "entry_id": "12183_taigai",
+  "headword": "{大概|たいがい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:27:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'informal' is incorrect for '大概'. While it can be used colloquially, it is not inherently informal and can be used in neutral contexts. The explanation for sense 1 even states 'slightly more colloquial' than だいたい, implying it's not strictly informal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

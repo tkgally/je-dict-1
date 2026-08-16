@@ -1,0 +1,24 @@
+{
+  "entry_id": "12253_gakkyuu",
+  "headword": "{学級|がっきゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:29:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '学級'. While the explanation mentions it's 'somewhat formal' in educational administration, the word itself is commonly used in everyday contexts related to school and is not considered formal in general usage.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "12198_taibyou",
+  "headword": "{大病|たいびょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:28:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a specific concept like 'serious illness'.",
+      "suggestion": "health"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "12208_koubutsu",
+  "headword": "{好物|こうぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-16T12:28:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is too narrow for the headword '好物', which can refer to any favorite thing, not just food.",
+      "suggestion": "Replace 'food' with 'general' or 'consumption'."
+    }
+  ]
+}
