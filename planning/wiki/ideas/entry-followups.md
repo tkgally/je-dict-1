@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-08-13 (added **08989 車席**, a probably-fabricated headword flagged five times by the reviewer and escalated rather than deleted; **08985 日日**, the wrong orthography for ひにち; **17576 摺り寄る**, a rare spelling as headword, found only because a duplicate-check mislabelled its common variant as a homophone; **06899 顔を出す**, whose top-level gloss covers one of two senses and which needs a convention ruling before it needs an edit; and **00743 音**, parked at sole-`general` because the tag vocabulary has no sound/perception slot. Also corrected a dangling "Cleanup P56" forward reference in the 06886 follow-up.) Prior 2026-08-12 (added **28358_buri** — the manner/style sense of 〜ぶり belongs in the existing time-interval entry, the second instance after 03515 日光 of a candidate that is real, is not a duplicate entry, and cannot be created because `check_duplicate.py` sees the headword as taken; **06886 haragatatsu** — 腹が立たしい corrected to 腹立たしい, with the sibling-idiom spot-check deferred to the frontier pass over the same creation cohort (P56); **00823/01525 若い** re-filed, a *second* report of a duplicate already on this page since 2026-08-08, recorded to make the re-filing cost visible — polish runs can only file consolidations, never perform them, so four are now open here; and a ruling recommendation for **historical era names**, filed as `event-name` for want of a fit when `time-period` + `proper-noun` are both already in `VALID_SEMANTIC` and say what an era actually is.) Prior 2026-07-27 (added **03794_warukuchi / 12672_waruguchi 悪口** — the same word split across two standard readings (わるくち / わるぐち), a variant-reading consolidation rather than a delete, needing a curator call on which reading leads the headword; and **08169_chuubi / 17946_nakabi 中火** — one of the two is simply wrong: 中火 is read ちゅうび, and なかび is the reading of 中日, so 17946 is either a mis-created duplicate or an entry that was meant to be 中日 and got the wrong kanji, notable because a 2026-07-20 furigana screen flagged its reading and the run *correctly* rejected the flag as an alternate reading — the real defect was invisible from inside the entry.) Prior 2026-07-26
+**Last updated**: 2026-08-16 (added four entries from the 2026-08-15/16 harvest, **each verified still-unfixed at harvest time**: **03647 優勝** tagged `food`; **05212 忍耐** carrying the off-vocabulary tags `endurance`/`psychology`, whose own lexical family disagrees three ways; **04651 関節痛**, whose `{痛|いたみ}` wrapper survived the run that repaired its tags and is the head of the new P64 class; and **04165 先程**, missing the 先ほど orthography line that keeps re-proposing a duplicate candidate. Entries whose filing run had already repaired them — 12305 官邸's swapped example translations, 06965 不協和音's dangling cross-reference — were checked and deliberately not listed.) Prior 2026-08-13 (2026-08-13 (added **08989 車席**, a probably-fabricated headword flagged five times by the reviewer and escalated rather than deleted; **08985 日日**, the wrong orthography for ひにち; **17576 摺り寄る**, a rare spelling as headword, found only because a duplicate-check mislabelled its common variant as a homophone; **06899 顔を出す**, whose top-level gloss covers one of two senses and which needs a convention ruling before it needs an edit; and **00743 音**, parked at sole-`general` because the tag vocabulary has no sound/perception slot. Also corrected a dangling "Cleanup P56" forward reference in the 06886 follow-up.) Prior 2026-08-12 (added **28358_buri** — the manner/style sense of 〜ぶり belongs in the existing time-interval entry, the second instance after 03515 日光 of a candidate that is real, is not a duplicate entry, and cannot be created because `check_duplicate.py` sees the headword as taken; **06886 haragatatsu** — 腹が立たしい corrected to 腹立たしい, with the sibling-idiom spot-check deferred to the frontier pass over the same creation cohort (P56); **00823/01525 若い** re-filed, a *second* report of a duplicate already on this page since 2026-08-08, recorded to make the re-filing cost visible — polish runs can only file consolidations, never perform them, so four are now open here; and a ruling recommendation for **historical era names**, filed as `event-name` for want of a fit when `time-period` + `proper-noun` are both already in `VALID_SEMANTIC` and say what an era actually is.) Prior 2026-07-27 (added **03794_warukuchi / 12672_waruguchi 悪口** — the same word split across two standard readings (わるくち / わるぐち), a variant-reading consolidation rather than a delete, needing a curator call on which reading leads the headword; and **08169_chuubi / 17946_nakabi 中火** — one of the two is simply wrong: 中火 is read ちゅうび, and なかび is the reading of 中日, so 17946 is either a mis-created duplicate or an entry that was meant to be 中日 and got the wrong kanji, notable because a 2026-07-20 furigana screen flagged its reading and the run *correctly* rejected the flag as an alternate reading — the real defect was invisible from inside the entry.) Prior 2026-07-26
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -1668,6 +1668,33 @@ The example `{三月末|さんがつまつ}をもって…` links 三月末 as `
 judged it compositional (三月 + 末) and not headword-worthy, so it filed no candidate. Recorded
 here only so the decision is visible: if a later run disagrees, the marker is in place and the
 entry is the one to revisit.
+
+
+## Added 2026-08-16 (wiki harvest of the 2026-08-15/16 runs)
+
+All four were verified as still-unfixed at harvest time; entries that their filing run had
+already repaired (12305 官邸's swapped translations, 06965 不協和音's dangling cross-reference)
+are deliberately not listed.
+
+- **03647 {優勝|ゆうしょう}** — semantic tags `food` and `leisure`. `food` on "winning a
+  championship" is a plain error, not a narrowness nit. Noticed by the 2026-08-15
+  accuracy-review run while checking house precedent for 勝利, outside its range.
+  **Verified still present 2026-08-16** (entry unmodified since 2026-08-08). `leisure` is
+  defensible for sport; `food` should simply go.
+- **05212 {忍耐|にんたい}** — carries the off-vocabulary semantic tags `endurance` and
+  `psychology`, neither in `VALID_SEMANTIC`. **Verified still present 2026-08-16.** Noticed by
+  the 2026-08-16 accuracy-review run while checking how the dictionary tags endurance verbs for
+  12087 耐える. Worth noting that the same lexical family disagrees with itself:
+  19989 忍耐力 carries `character` and 15589 忍耐強い carries `descriptive`, so this is also an
+  instance of the lexical-family incoherence item.
+- **04651 {関節痛|かんせつつう}** — `{痛|いたみ}` in the notes; correct form `{痛|いた}み`.
+  **Verified still present 2026-08-16**, and verified invisible to
+  `check_furigana_format.py` (Tooling 130). The entry's tags were repaired on 2026-08-16 by the
+  run that filed this, but the wrapper was not. Head of the P64 class.
+- **04165 {先程|さきほど}** — no note about the very common kana-kanji variant 先ほど. A
+  candidate for 先ほど was queued as a separate word and removed as a stale duplicate; an
+  orthography line here would stop it being re-proposed. (Low priority, but it is the cheap fix
+  that closes a recurring candidate-queue loop.)
 
 ## Related pages
 

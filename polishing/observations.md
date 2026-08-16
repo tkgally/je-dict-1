@@ -1411,203 +1411,36 @@ All observations cleared.)_
 
 ---
 
-## 2026-08-15 — routine(wiki), metrics refresh 37
+## 2026-08-16 (routine wiki harvest — all prior observations cleared)
 
-- [pattern] The review queue rose for the second consecutive window: 10,279 → 10,553 (+274)
-  across three accuracy-review runs that each removed their own reviewed range. This is the
-  mechanism Tooling 94 named — CI re-queues every entry a run changes, so a productive window
-  raises the queue — and it means the queue-depth series cannot be read in either direction
-  until the `reviewed_at >= modified` predicate ships. Recording it so the metric's second
-  adverse reading is on the record, not so it is treated as deterioration.
-- [pattern] Frontier-versus-growth reopened to 65% over runs 510–521: +79 entries against +51
-  frontier IDs in 32 hours. Consistent with the standing finding that this ratio mostly reads
-  out the selector's mode mix (4 polish, 2 new-entries this window) rather than either lane's
-  speed, but it is the third refresh in a row where growth outruns the frontier.
-- [tooling] The §4 self-check's precision series should be reported split by the mode that
-  triggered it. Measured over runs 510–521: `new-entries` self-checks ran 1 applied / 0
-  rejected, `polish` and `systemic-fix` self-checks ran 27 / 9. Averaging them produces a number
-  that describes neither, and the blended series is what led refresh 36 to propose trimming the
-  check. `metrics_snapshot.py` already knows the run's mode; carrying it into the decisions
-  ledger's `src` (or adding a `mode` field) would make the split automatic instead of requiring
-  a hand sort each refresh.
-
-## 2026-08-15 — routine(accuracy-review), entries 11501–12000
-
-- [pattern] The 11750–11950 band is where the dictionary's off-vocabulary semantic tags cluster.
-  Of 39 corrections applied this run, 31 were tags that are simply not in `VALID_SEMANTIC`
-  (`life`, `social`, `time`, `math`, `spatial`, `death`, `literature`, `industry`, `competition`,
-  `medical`, `sound`, `people-general`, `rules`, `security`, `social-customs`, `health-medicine`,
-  `quality-evaluation`, `personality-traits`, `family-relationships`, `historical`,
-  `action-physical`, `body-general`), and almost all of them sit above ID 11750. The
-  entry-creation cohort in that band evidently invented tag names freely. 937 entries still carry
-  baselined off-vocab tags dictionary-wide; a `systemic-fix` pass driven by
-  `check_tag_drift.py --check unknown-semantic` would clear most of them faster than the
-  accuracy-review sweep will reach them.
-- [tooling] The reviewer sometimes proposes replacement tags that are themselves off-vocabulary —
-  this run it suggested `magic` (11843 呪文), `mythology` (11929 化け物), and `organization-name`
-  (11831 協会, a proper-noun-only tag) as fixes. Applying its suggestions mechanically would
-  create the very drift the tags dimension exists to remove. The reviewer prompt embeds
-  `VALID_SEMANTIC`, so this is a compliance gap in the model rather than a missing list; worth a
-  post-filter in `review_accuracy.py` that drops any suggestion naming a tag outside the list.
-- [pattern] Flag-family proportions match the two previous accuracy runs almost exactly: of 121
-  issues, 43 were "sole `general` is too broad", 20 in-list narrowness swaps, 9 formality
-  neutral-vs-formal, 4 "add `action` to this suru-verb" — 76 of 82 rejections came from four
-  known-noise families. Precision on the remainder was high: every off-vocabulary tag flag was
-  correct by definition, and 3 of 7 translation flags found real errors.
-- [entry] 03647 {優勝|ゆうしょう} carries semantic tags `food` and `leisure`. `food` on "winning a
-  championship" is a plain error, noticed while checking house precedent for 勝利. Outside this
-  run's range, so recorded rather than fixed.
-- [tooling] The furigana screener remains the wall-clock bottleneck: it ran roughly 7x slower than
-  the accuracy reviewer again this run and was stopped after 7 entries so it would not double the
-  run's duration for a pass whose measured precision stays near zero (its single flag — まいとし
-  vs まいねん for 毎年 — was another false positive, both readings being correct). This is the
-  third consecutive run to log it; the selector giving the screener its own smaller range, or
-  retiring it in favour of the accuracy pass, would end the recurring judgment call.
-
-## 2026-08-16 — routine(polish), priority lane 00563–00895 + frontier 06947–06952
-
-- [pattern] The four-character-idiom (yojijukugo) block that begins at 06947 has **zero inline
-  word links** in examples or notes — not partial coverage, none at all. 06947–06950 were
-  identical in this respect, and the neighbouring non-idiom entries 06951 and 06952 were the
-  same, so this looks like a whole creation batch made before full inline linking became the
-  house standard rather than an idiom-specific gap. Worth a targeted sweep: a detector counting
-  entries whose examples contain Japanese but no `⟦` at all would size the block in seconds and
-  is a good `systemic-fix` candidate.
-- [pattern] Basic-tier verbs that have a transitivity pair share a note template that states the
-  pair twice: once in the `TRANSITIVITY:` header and again in a trailing `PAIR:` paragraph that
-  adds only one short example. All five verb entries polished from the priority lane this run
-  (00563, 00605, 00735, 00841, 00869, 00895) had it. The trailing paragraph is the natural home
-  for the thing learners actually need — which member of the pair to choose, or which kanji to
-  use — so rewriting it is a high-yield, repeatable edit rather than a cosmetic one. That the
-  note-quality ranking surfaced these entries together suggests the scorer is already detecting
-  the redundancy.
-- [pattern] Two of the priority-lane verbs (00841 {始|はじ}まる, 00895 {助|たす}ける) listed their
-  transitivity pair in `prominent_see_also` but not in `cross_references`, and one neighbour
-  (00531 {始|はじ}める) was missing the return `pair` link entirely. `check_semantic_clusters.py`
-  should be seeing these; if it is not flagging them, its pair-completeness rule may only be
-  checking one of the two fields.
-- [entry] 00563 {開|あ}ける had a genuinely wrong example sentence — 「{本|ほん}を{開|あ}けて」 for
-  "open your books", where Japanese requires {開|ひら}く. Neither schema validation nor the
-  furigana checker can see an error of this kind, and it sat in a **basic-tier** entry, the tier
-  most likely to be read by beginners. Wrong-collocation errors are exactly what the cross-model
-  accuracy pass is for; this one argues for pointing a future accuracy-review run at the basic
-  tier specifically rather than at the next sequential ID block.
-- [entry] 06951 {湿疹|しっしん} carried `general` as its only semantic tag despite being a
-  specific medical noun (changed to `health` + `body-part`, domain `medical`). Specialty nouns in
-  this ID range may share the default.
-- [pattern] The stale-`noentry` sweep of entries 04459-04999 (177 A1/A2 pairs, 120 entries) produced
-  exactly one rejection, and it was the documented polysemous-katakana family: 04562 二重ロック
-  (double lock) resolves to 08116_rokku, whose gloss is "rock (music)" and whose own notes say in
-  as many words that ロック "lock" is a different word with the same reading. That note is a
-  machine-readable signal the detector could use: when a candidate target entry's notes contain a
-  sentence of the form "X as 'Y' is a different word", the pair deserves a class of its own rather
-  than sitting in the mechanical A1 bucket. Running false-positive rate across 1,070 hand-verified
-  short-base pairs is now ~0.2%.
-- [pattern] The §4 self-check over the 119 entries touched in this band flagged 53 of them (45%),
-  well above the ~20% reviewer-noise threshold, and 54 of the 57 issues were in the `tags`
-  dimension. Seventeen were genuinely wrong semantic tags rather than narrowness nits: physical
-  categories stuck on abstract or unrelated headwords ('building' on {菜箸|さいばし} cooking
-  chopsticks, 'communication' on {本棚|ほんだな} bookshelf, 'transportation'+'weather' on
-  {跳|は}ね{上|あ}がる, 'emotion' on {関節痛|かんせつつう} joint pain and {鬱病|うつびょう}
-  depression, 'work' on {消費税|しょうひぜい} consumption tax). This is the P11 drift family, and
-  band 04459-04999 looks contaminated the way 5700-6340 was. It is a good next range for
-  `prompts/fix_semantic_tag_drift.md` Phase 2.
-- [entry] 04651 {関節痛|かんせつつう} carries a malformed furigana wrapper in its notes:
-  `{痛|いたみ}` where the okurigana is inside the ruby (correct form is `{痛|いた}み`). Class R of
-  the stale-`noentry` detector did not catch it because the base form's reading still matches.
-  `build/check_furigana_format.py` may or may not see this shape — worth a check.
-- [pattern] 2026-08-16 (routine new-entries): two "hub" entries had their whole family of
-  `noentry` inline links resolved in one run. 06942 {さもないと} pointed at さもなければ /
-  そうしないと / じゃないと / でないと, and 06952 {分数|ぶんすう} pointed at 真分数 / 仮分数 /
-  帯分数 / 通分 / 約分 — all nine now exist as entries 30681-30684 and 30689-30693. A
-  `build/check_stale_noentry.py --mechanical` pass over 06942 and 06952 should convert those
-  links immediately; more generally, creating entries from one hub entry's `noentry` list is an
-  efficient way to close the dictionary in on itself, and the stale-noentry detector is the
-  natural follow-up step to schedule after any such run.
-- [entry] 04165 {先程|さきほど} has no note about the very common kana-kanji variant 先ほど.
-  A candidate for 先ほど was queued as if it were a separate word and removed as a stale
-  duplicate this run; adding an orthography line to 04165 would stop it being re-proposed.
-- [tooling] 2026-08-16 (routine new-entries, PR #3213): the §7 CI gate's
-  `mcp__github__pull_request_read method=get_check_runs` returned a **stale** `in_progress`
-  status across a dozen consecutive polls after the `validate` job had actually finished (the
-  job's own logs showed post-job cleanup at 06:34:06, about 70 seconds after the run started,
-  and the workflow run's `updated_at` was 06:34:08). Following the
-  documented loop alone — poll `get_check_runs`, give up at the ~8-minute cap — would have
-  stranded a green PR for the next run to rescue, and this may explain some past CI-timeout
-  strands. Two other MCP calls reported `completed`/`success` immediately and should be the
-  documented fallback: `mcp__github__actions_get method=get_workflow_run` (needs the run ID,
-  which is embedded in the check run's `html_url`) and `mcp__github__get_check_run` (needs
-  only the check-run `id`, which `get_check_runs` itself returns even while stale). Suggest
-  amending CLAUDE.md → "MCP path" step 5 and `prompts/routine2.md` §7.5.2 so that a run still
-  reading `pending` after ~3 polls cross-checks with one of those before treating it as pending.
-
-## 2026-08-16 (routine polish, session routine_2026-08-16_001)
-
-- [pattern] Katakana loanwords wrapped in furigana braces with a hiragana
-  "reading" — `{レポート|れぽーと}`, `{ルール|るーる}`, `{タクシー|たくしー}` etc.
-  Katakana needs no ruby, so these render a pointless hiragana gloss above the
-  word on the site. 50 entry files affected; detect with
-  `grep -rlo '{[ァ-ヴー]\+|' entries/`. `build/check_furigana_format.py` already
-  catches them inside the 374 `pure-kana` warns, but emits no suggested fix, so
-  they are invisible in the summary. Two concrete asks: (a) split a
-  `katakana-ruby` subpattern out of `pure-kana` whose surface is all-katakana and
-  whose reading is that surface in hiragana, with suggestion = bare surface
-  (mechanically safe — the wrapper carries no information); (b) queue it as a
-  systemic-fix backlog item. Fixed the one instance in 01087_dasu by hand.
-- [tooling] `build/check_furigana_format.py` reports `pure-kana` (374 warns) as a
-  single bucket mixing genuinely-ambiguous cases with the provably-safe
-  katakana-ruby class above. Splitting it would turn a large unactionable warn
-  pile into a small mechanical batch.
-
-## 2026-08-16 — routine(accuracy-review), entries 12001–12341
-
-- `[pattern]` The 12001–12341 block is saturated with sole-`general` semantic
-  tags on words with an obvious in-list field: 国政/圧政/国益 (politics),
-  外貨 (finance), 大金 (money), 妖怪 (culture), 妊娠/大病/外傷 (health),
-  天使/奉納 (religion), 外見/外観 (appearance). 38 of the 42 corrections this
-  run were of this shape. This looks like a creation-batch default rather than
-  a judgment, and it is the P13 sole-`general` family showing up at high
-  density in one ID band — a good `systemic-fix` candidate if a detector can
-  rank blocks by sole-`general` density.
-- `[tooling]` The accuracy reviewer flagged 23.5% of entries in this block,
-  the same rate as the 2026-08-15 run on 11501–12000. Per §A that is reviewer
-  noise rather than dictionary error. The dominant noise family remains
-  "`general` is too broad" with a vague replacement (`action`, `abstract`),
-  followed by unsupported formality downgrades (formal → neutral) that the
-  entries' own register notes contradict.
-- `[tooling]` OpenRouter throughput was ~2 entries/min for the first hour of
-  this run against ~7/min on 2026-08-15, with no errors in the log — purely
-  slow upstream responses. Runs that size their range from the dollar budget
-  alone will overshoot the wall clock; the range had to be cut from 500 to
-  ~340. Sizing advice in §A step 1 could mention a throughput check.
-- `[tooling]` The furigana screener remains the slow lane: 7 entries in ~19
-  minutes running alongside the accuracy reviewer, 0 flags. Stopped early for
-  the fourth run in a row. Its per-run value on already-polished ranges looks
-  low enough to justify retiring it from the default accuracy-review recipe.
-- `[entry]` 忍耐 (outside this run's range) carries the off-list semantic tags
-  `endurance` and `psychology`; noticed while checking how the dictionary tags
-  endurance verbs for 12087 耐える.
-- `[entry]` 12305 官邸 had two examples whose English translations had been
-  swapped relative to their Japanese — a distinct defect class from anything
-  the reviewer flags, since each translation is fine in isolation. A detector
-  comparing example-level Japanese/English content words might find more.
-- `[tooling]` During the 2026-08-16 accuracy-review wrap-up, MCP
-  `pull_request_read method=get_check_runs` reported PR #3216's `validate`
-  check as `in_progress` for more than 40 minutes across 14 polls. When the
-  check finally reported `completed`, its own `completed_at` was 12:37:29 —
-  about 70 seconds after `started_at`. The check had been green the whole
-  time and the MCP layer was serving a stale cached response. This is a
-  serious trap for the §7 CI gate: a run that honours the documented ~8-minute
-  polling cap will conclude "still pending" and strand a PR whose CI passed
-  minutes earlier, which likely explains some past strands blamed on CI
-  timeouts. Worth considering a cheap cross-check before giving up — e.g.
-  `list_pull_requests` `mergeable_state`, or re-reading the run via
-  `actions_get` — rather than trusting a single stale-prone field.
-
-## 2026-08-16 — routine(polish), entries 01207–07441 (priority lane) + 06957–06966 (frontier)
-
-- [pattern] Low note-quality scores correlate strongly with an **empty `cross_references` array on entries whose notes already name the related words**. 02009_itaru, 02132_nagameru, and 05685_ukemotsu each had a full CONTRAST/SIMILAR VERBS section in prose but zero structured cross-references, so the relationships were invisible to the site's navigation and to `check_semantic_clusters.py`. A targeted sweep that extracts cross-references from existing notes prose (the words are already linked with ⟦…⟧, so the target IDs are sitting right there) looks cheap and high-yield. Possible `systemic-fix` backlog item.
-- [pattern] Several older entries open their notes with a bare section header (`ORIGIN:`, `KANJI:`, `STRUCTURE:`, `COMPOUND VERB:`) and never state what the word means in a sentence. `check_consistency.py --issue note-structure` catches only a subset of these, because it tests for the presence of expected *section names*, not for an opening description. A detector for "notes begin with an ALL-CAPS header line" would find the rest.
-- [tooling] `check_consistency.py`'s `no-collocations` check keys on the literal string `COLLOCATION` or on Japanese particle patterns. Entries that document collocations under a different heading (`COMMON EXPRESSIONS:`, `USAGE PATTERNS:`, `COMMON COMBINATIONS:`) are flagged as having none, which is a false positive on content but a true positive on *naming consistency*. Standardizing the heading to `COMMON COLLOCATIONS:` across the dictionary would make the check meaningful; worth a mechanical sweep since the transformation is heading-only.
-- [entry] 06965_fukyouwaon carried a `cross_references` item with **no `target_id`** (an antonym pointing at 協和音, which has no entry). Schema validation passed anyway — the field is evidently optional in the schema — so this class of dangling reference is invisible to `validate.py`. `check_artifacts.py` has a missing-target_id check (P2); worth confirming it covers cross-references and not just inline links. 協和音 added to candidates.
-- [tooling] When writing new inline links from memory, entry-ID guesses are wrong often enough to matter: 10 of ~30 IDs written this session were wrong (結構 is 10387 not 01212, 高い is 00500 not 00358, 子供 is 00554 not 00365, 話す is 00467 not 00420). `validate.py` catches every one, so the cost is only a fix round — but a helper that resolves a headword to its ID at write time (or a `--suggest-ids` mode) would remove the round trip entirely.
+_(2026-08-16 wiki (Routine v2) harvest: processed all 30 observations from the six runs of
+2026-08-15/16 — the wiki metrics-refresh-37 run, two accuracy-review runs (11501–12000,
+12001–12341), and three polish runs. Filed: **Tooling 125** (`check_consistency.py --issue
+no-collocations` measured 55% false-positive — 3,717 of 6,759 — with the filing run's proposed
+dictionary-wide heading rename refused, because it would merge three genuinely different note
+sections), **126** (`check_semantic_clusters.py` reads only `prominent_see_also` for
+transitivity pairs — confirmed from the code, blind spot measured at 17 entries and de-scoped),
+**127** (post-filter the accuracy reviewer's own tag suggestions against `VALID_SEMANTIC`; it
+proposed `magic`, `mythology`, `organization-name`), **128** (carry the run's mode into
+`reviews/decisions.jsonl` so the §4 self-check precision split stops requiring a hand sort each
+refresh), **129** (a swapped-translation detector for examples, after 12305 官邸), **130**
+(`check_furigana_format.py` is blind to okurigana swallowed into the ruby — verified on 04651,
+with a working detection rule); **update to Tooling 109**, whose stated root cause does not
+explain PR #3216's 40-minute stale read. **Cleanup P63** (730 entries with near-synonym
+collocation/pattern headings) and **P64** (okurigana-in-ruby, 90 pairs / 123 instances);
+**P20 relocated** — 934 entries carry off-vocabulary semantic tags and the hot spot is
+08000–08999 (201), not the 11750+ band its filing run named. **Entry follow-ups**: 03647 優勝
+(`food` tag), 05212 忍耐 (off-list `endurance`/`psychology`), 04651 関節痛 (`{痛|いたみ}`),
+04165 先程 (先ほど orthography) — each verified still-unfixed at harvest time. **Queue**:
+`collocation-heading-synonyms` and `furigana-okurigana-in-ruby` added; `unknown-semantic-tags`
+re-measured to 934; `crossref-missing-from-notes-prose` re-measured to 1,828 and noted as the
+answer to the polish run's request for a "possible new systemic-fix item". **Escalated**: the
+notes-opening convention (7,810 entries) and the CI-gate cross-check amendment.
+**Re-discoveries needing no new item**: the zero-link block at 06947+ for the tenth time
+(Tooling 124 already addresses it); the sole-`general` and stale-`noentry` families, both
+already open and batch-ready. **Not filed because measurement refuted them**: the
+"notes never state the meaning" premise (all 7,810 such entries have definitions); the
+katakana-ruby count of "50 entry files" (a shell-regex artifact — the real figure is 271
+instances / 225 files, matching P60's 275/229); and the transitivity `PAIR:`-paragraph template
+said to be shared by six named priority-lane verbs (24 entries dictionary-wide carry the shape,
+and none of the six is among them).)_

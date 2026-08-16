@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-08-13 (harvest of the 26 observations from the 2026-08-12/13 runs — **four new items, one escalation, one long-running item confirmed again**. **109 is escalated to the curator**: the Routine's CI gate waits with a *backgrounded* `sleep 30` that returns immediately, so an unawaited poll loop spends its whole ~16-poll budget in under a minute and reads "still running" as "the API is stale" — the likely explanation for all three stale-`get_check_runs` reports, and a one-sentence fix in a prompt this session may not edit. **110**: `review_accuracy.py`'s `reviewed_at` is not stamped at write time, which blocks both items 94 and 107, since both consume it. **111**: the accuracy reviewer's `tags` dimension should report only off-vocabulary tags — its not-in-list flags run 87–99% applied, its in-list substitutions ~5%. **112**: `check_duplicate.py` is blind to kanji/kana variants of the same word, to kana-headword entries queried by kanji, and to new senses of existing words — four of twenty-four candidates in one batch. Item 20 gains its first throughput number: 39 priority lines read to find 4 workable entries.) Prior 2026-08-12 (wiki harvest of the 26 loose 2026-08-11/12 observations — **three new items, two retirements, one proposal closed**. **105 closes rather than opens**: `TAG_MIGRATION`'s nine rows clear **8.1%** of the 1,364 off-vocabulary-tagged entries, which is the 2026-08-07 decision confirmed from the other side — a static map picks a destination per *tag name* (486 names, 243 singletons) where the reviewer picks one per *entry* at 99.4% precision — so the map stays at nine rows, this being the fourth proposal to extend it; the head of the tail (`place`, `location`, `loanword`) is a curator taxonomy call, and `loanword` has no in-list target because it is a category error. **New 106**: a `links` dimension for `review_accuracy.py`, fourth request, second measurement — **0 of 13 flags on a link-only run concerned a link** — now with a stated rule to check (same-lexeme, which separates the 朝日新聞 family from the 猫に小判 family). **New 107**: check for existing `reviews/accuracy/{id}.json` before paying for a pass; same predicate as Tooling 94, and the reason §A's "400–600 entries per run" is only honest on pre-covered ranges at the measured 1.5–2.6 entries/min. **New 108**: the **59 dangling cross-references** `check_artifacts.py` correctly suppresses are a candidate vein at a ~2% duplicate rate by construction, only 1 of 59 queued, against the 72–100% duplicate rates the candidates run measured on common-vocabulary lenses. **Retired**: the katakana `word_id_lookup` gap — `by_reading['べてらん']` resolves and `by_headword['ベテラン']` carries the hiragana reading, so this was a katakana query against a hiragana-keyed index, the second usage-error-filed-as-defect in two harvests — and the `style: ["literary"]` template hypothesis (**zero** entries in 06800–06999).) Prior 2026-07-27 (wiki harvest of the 17 loose 2026-07-27 observations — **three new items** and six updates, the theme being work a model was paid to do that a string comparison would have done: **new item 38** — `review_accuracy.py --ids` overwrites `reviews/accuracy/{id}.json`, so a §4 self-check destroys the §A review record for exactly the entries that changed; **new item 39** — cross-reference-pair tag consistency (06528 連勝 `formal`/`action` vs 06529 連敗 `neutral`/`leisure`), a free check whose disagreements prove *one of two* entries wrong, a far stronger prior than any single-entry heuristic; **new item 40** — the conjugation-vs-headword invariant behind 22070 走り続ける, whose whole-word furigana wrapper silently doubled the stem in all 33 generated forms while validating clean. Updates: **item 8** — the no-pipe family finally measured (**887 instances / 616 entries**, absent from every P9 scope estimate); **item 24** — a screen at 13/102 flagged / **0 applicable**, plus the two deterministic fixes (stop scheduling screening past the accuracy frontier; drop flags whose quoted reading isn't in the file); **item 11** — a *second* consecutive cycle of a polish run improvising its own link checker and finding real dead links; **item 6** — the ~50-rename `TAG_MIGRATION` extension and a free `domain-tag-in-semantic-slot` check; **item 23** — the candidate pool quantified at **~1,030 of 1,044** entries of corpus residue in four decidable families; **item 20** — the exact heading strings behind the scorer's section-name mismatch; **item 34** — fourth report, `CLAUDE.md` attribution re-verified false.) Prior 2026-07-26
+**Last updated**: 2026-08-16 (harvest of the 30 observations from the 2026-08-15/16 runs — **six new items, one root cause partly overturned**. **125**: `check_consistency.py --issue no-collocations` is **55% false-positive on content** (3,717 of 6,759 flagged entries carry an alternative heading) — but the fix belongs in the checker, not in a dictionary-wide rename, the second filing in two harvests to propose rewriting the corpus to satisfy a broken instrument. **126**: `check_semantic_clusters.py` reads only `prominent_see_also` for transitivity pairs — confirmed by reading the code, and the blind spot is the *opposite* field from the one the filing run guessed; measured at **17 entries**, so de-scoped. **130**: `check_furigana_format.py` cannot see okurigana swallowed into the ruby — verified blind on 04651, with a working detection rule and a measured population of **90 pairs / 123 instances**. Also **127** (post-filter the reviewer's own tag suggestions — it proposed `magic`, `mythology`, `organization-name`), **128** (carry the run mode into the decisions ledger, so the self-check precision split stops needing a hand sort), **129** (a swapped-translation detector). **109 partly overturned**: PR #3216 read `in_progress` for **40 minutes across 14 polls** with a `completed_at` 70 seconds after `started_at` — real wall clock, so the unawaited-`sleep` mechanism cannot explain it; there are two failure modes wearing one symptom, and it is now the most-reported operational defect in the project at five runs.) Prior 2026-08-13 (2026-08-13 (harvest of the 26 observations from the 2026-08-12/13 runs — **four new items, one escalation, one long-running item confirmed again**. **109 is escalated to the curator**: the Routine's CI gate waits with a *backgrounded* `sleep 30` that returns immediately, so an unawaited poll loop spends its whole ~16-poll budget in under a minute and reads "still running" as "the API is stale" — the likely explanation for all three stale-`get_check_runs` reports, and a one-sentence fix in a prompt this session may not edit. **110**: `review_accuracy.py`'s `reviewed_at` is not stamped at write time, which blocks both items 94 and 107, since both consume it. **111**: the accuracy reviewer's `tags` dimension should report only off-vocabulary tags — its not-in-list flags run 87–99% applied, its in-list substitutions ~5%. **112**: `check_duplicate.py` is blind to kanji/kana variants of the same word, to kana-headword entries queried by kanji, and to new senses of existing words — four of twenty-four candidates in one batch. Item 20 gains its first throughput number: 39 priority lines read to find 4 workable entries.) Prior 2026-08-12 (wiki harvest of the 26 loose 2026-08-11/12 observations — **three new items, two retirements, one proposal closed**. **105 closes rather than opens**: `TAG_MIGRATION`'s nine rows clear **8.1%** of the 1,364 off-vocabulary-tagged entries, which is the 2026-08-07 decision confirmed from the other side — a static map picks a destination per *tag name* (486 names, 243 singletons) where the reviewer picks one per *entry* at 99.4% precision — so the map stays at nine rows, this being the fourth proposal to extend it; the head of the tail (`place`, `location`, `loanword`) is a curator taxonomy call, and `loanword` has no in-list target because it is a category error. **New 106**: a `links` dimension for `review_accuracy.py`, fourth request, second measurement — **0 of 13 flags on a link-only run concerned a link** — now with a stated rule to check (same-lexeme, which separates the 朝日新聞 family from the 猫に小判 family). **New 107**: check for existing `reviews/accuracy/{id}.json` before paying for a pass; same predicate as Tooling 94, and the reason §A's "400–600 entries per run" is only honest on pre-covered ranges at the measured 1.5–2.6 entries/min. **New 108**: the **59 dangling cross-references** `check_artifacts.py` correctly suppresses are a candidate vein at a ~2% duplicate rate by construction, only 1 of 59 queued, against the 72–100% duplicate rates the candidates run measured on common-vocabulary lenses. **Retired**: the katakana `word_id_lookup` gap — `by_reading['べてらん']` resolves and `by_headword['ベテラン']` carries the hiragana reading, so this was a katakana query against a hiragana-keyed index, the second usage-error-filed-as-defect in two harvests — and the `style: ["literary"]` template hypothesis (**zero** entries in 06800–06999).) Prior 2026-07-27 (wiki harvest of the 17 loose 2026-07-27 observations — **three new items** and six updates, the theme being work a model was paid to do that a string comparison would have done: **new item 38** — `review_accuracy.py --ids` overwrites `reviews/accuracy/{id}.json`, so a §4 self-check destroys the §A review record for exactly the entries that changed; **new item 39** — cross-reference-pair tag consistency (06528 連勝 `formal`/`action` vs 06529 連敗 `neutral`/`leisure`), a free check whose disagreements prove *one of two* entries wrong, a far stronger prior than any single-entry heuristic; **new item 40** — the conjugation-vs-headword invariant behind 22070 走り続ける, whose whole-word furigana wrapper silently doubled the stem in all 33 generated forms while validating clean. Updates: **item 8** — the no-pipe family finally measured (**887 instances / 616 entries**, absent from every P9 scope estimate); **item 24** — a screen at 13/102 flagged / **0 applicable**, plus the two deterministic fixes (stop scheduling screening past the accuracy frontier; drop flags whose quoted reading isn't in the file); **item 11** — a *second* consecutive cycle of a polish run improvising its own link checker and finding real dead links; **item 6** — the ~50-rename `TAG_MIGRATION` extension and a free `domain-tag-in-semantic-slot` check; **item 23** — the candidate pool quantified at **~1,030 of 1,044** entries of corpus residue in four decidable families; **item 20** — the exact heading strings behind the scorer's section-name mismatch; **item 34** — fourth report, `CLAUDE.md` attribution re-verified false.) Prior 2026-07-26
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -5216,6 +5216,170 @@ Both were filed by the midday 2026-08-15 harvest and re-observed by later runs t
   `prompts/newentries.md`'s tag tables — the `pos`, `semantic`, and `domain` closed lists are
   spelled out there and `formality` is not — and wiki sessions cannot make the edit. **Escalated
   to the curator this run.**
+
+
+### 125. `check_consistency.py --issue no-collocations` is 55% false-positive on content
+
+**Source**: 2026-08-16 polish run (entries 01207–07441 priority lane + 06957–06966 frontier).
+
+The check keys on the literal string `COLLOCATION` (or on Japanese particle patterns). The
+filing run noticed entries documenting collocations under a different heading being reported
+as having none, and proposed *standardising the heading dictionary-wide* so the check becomes
+meaningful.
+
+**Measured (2026-08-16, 30,484 entries).** The check flags **6,759** entries. **3,717 of them
+(55.0%) carry an alternative heading** — `COMMON PATTERNS:` 2,140, `COMMON EXPRESSIONS:` 1,320,
+`EXPRESSIONS:` 154, `PATTERNS:` 72, `USAGE PATTERNS:` 30, `COMMON COMBINATIONS:` 1. So the
+observation is right about the direction and understates the size: the majority of this check's
+output is false on content.
+
+**But the proposed fix is the wrong one, and the measurement is what shows it.** Renaming every
+variant to `COMMON COLLOCATIONS:` would merge three sections that mean different things —
+`COMMON PATTERNS:` (grammatical frames) and `COMMON EXPRESSIONS:` (set phrases) are not
+collocations, and `PARTICLE PATTERNS:` (196) and `SIMILAR/RELATED EXPRESSIONS:` (788) even less
+so. The 3,460 entries in the two dominant families would lose a real distinction to make a
+checker happy.
+
+**The fix is one line in the checker**: add the alternative headings to the recognised set.
+The genuinely mechanical rename residue — the near-synonyms of headings that already exist —
+is small and is filed separately as [Cleanup P63](cleanup-backlog.md), 730 entries.
+
+General form: when a check is wrong about the corpus, fix the check before proposing to
+rewrite the corpus to match it. This is the second filing in two harvests to propose a
+dictionary-wide sweep where the defect was in the instrument (cf. item 118).
+
+### 126. `check_semantic_clusters.py` reads only `prominent_see_also` for transitivity pairs
+
+**Source**: 2026-08-16 polish run — 00841 {始|はじ}まる and 00895 {助|たす}ける listed their
+transitivity pair in `prominent_see_also` but not `cross_references`, and a neighbour was
+missing the return link; the run asked whether "its pair-completeness rule may only be checking
+one of the two fields."
+
+**Confirmed by reading the code, and the answer is the opposite field from the one the run
+guessed.** `check_transitivity_pairs()` builds `has_pair_psa` by scanning
+`entry['prominent_see_also']` for a `note` containing "transitive"/"intransitive", and checks
+the reciprocal by scanning the *target's* `prominent_see_also` only. `cross_references` is never
+consulted on either side. Two consequences:
+
+1. A pair recorded only in `cross_references` never sets `has_pair_psa`, so the entry is
+   skipped silently — no gap reported, no pair counted.
+2. A reciprocal recorded only in `cross_references` on the target is reported as
+   `missing_reciprocal` — a false positive.
+
+**Measured**: 493 entries carry the pair in `prominent_see_also`; **13** carry it only in
+`cross_references` (invisible); **4** reciprocals exist only in `cross_references` (falsely
+reported missing). So the gap is real, confirmed, and **small** — 17 entries, not a class.
+De-scoped accordingly: worth the few lines when someone is next in the file, not worth a batch.
+
+A third blind spot is worth noting because it is unmeasured: pair detection requires the
+literal words "transitive"/"intransitive" in the ref's `note`, so a correctly-linked pair
+annotated any other way ("opens by itself", "the 〜す counterpart") is invisible to all of the
+above.
+
+### 127. `review_accuracy.py` should post-filter its own tag suggestions against `VALID_SEMANTIC`
+
+**Source**: 2026-08-15 accuracy-review run (11501–12000).
+
+The reviewer proposed replacement semantic tags that are themselves off-vocabulary — `magic`
+(11843 呪文), `mythology` (11929 化け物), `organization-name` (11831 協会). Applying its
+suggestions mechanically would introduce exactly the drift the `tags` dimension exists to
+remove.
+
+The reviewer prompt already embeds `VALID_SEMANTIC`, so this is a model-compliance gap rather
+than a missing list, and it is decidable by set membership at zero cost: drop (or mark) any
+`suggestion` naming a tag outside the list before the report is written. Same shape as item 111
+and item 118 — a property the prompt asks the model to respect that the script can simply
+enforce. Until it ships, the standing §A rule holds: a not-in-list *flag* is correct by
+definition, but a not-in-list *suggestion* must not be applied as given.
+
+### 128. Carry the run's mode into `reviews/decisions.jsonl`
+
+**Source**: 2026-08-15 wiki run (metrics refresh 37).
+
+Refresh 37's headline finding required a hand sort: the §4 self-check's precision is two
+populations averaged together — `new-entries` self-checks ran 1 applied / 0 rejected (a birth
+check, mostly clean), `polish` and `systemic-fix` self-checks ran 27 / 9 (a *first* review of
+old entries, because "send exactly the entries this run changed" sends old entries when the run
+is a polishing run). The blended series is what led refresh 36 to propose trimming the project's
+highest-yield review instrument.
+
+`metrics_snapshot.py` already knows the run's mode. Carrying it into the ledger — either as a
+`mode` field or by qualifying `src` — makes the split automatic instead of a hand sort every
+refresh. Small change, and it protects a series that has already produced one near-miss
+retirement.
+
+### 129. A swapped-translation detector for examples
+
+**Source**: 2026-08-16 accuracy-review run — 12305 官邸 had two examples whose English
+translations were swapped relative to their Japanese. (Fixed by that run; the examples now read
+correctly.)
+
+This is a defect class no current instrument can see, and the reason is stated exactly right in
+the filing: **each translation is fine in isolation**, so a per-example reviewer judging
+"does this English match this Japanese" is the only thing that could catch it — and the
+cross-model accuracy pass evidently did not. A cheap deterministic pre-filter exists though:
+within one entry, compare content-word overlap between each Japanese example and each English
+translation, and flag when an off-diagonal pairing scores higher than the diagonal one. That is
+a few lines over data already in the file, needs no model, and its false-positive mode
+(entries whose examples are near-paraphrases) is benign.
+
+### 130. `check_furigana_format.py` cannot see okurigana swallowed into the ruby
+
+**Source**: 2026-08-16 polish run — 04651 {関節痛|かんせつつう} carries `{痛|いたみ}` in its
+notes, where the correct form is `{痛|いた}み`. The run asked whether the detector sees this
+shape.
+
+**It does not.** `check_furigana_format.py --json` returns 765 findings and **04651 is not
+among them** (verified 2026-08-16). The shape is invisible to every furigana instrument the
+project has, for the same structural reason the katakana case was (item 121): the checks all
+ask "does this kanji have a reading?", and here it does — the reading is simply too long,
+having eaten the okurigana that belongs outside the wrapper.
+
+**A detection rule that works, with the population measured.** For a single-kanji base K with
+reading R, flag R when some proper prefix of R is a *common* reading of K elsewhere in the
+dictionary (threshold: R occurs ≤3 times, the prefix ≥10). Measured across all single-kanji
+wrappers: **90 distinct (kanji, reading) pairs / 123 instances**, and 04651 is in the set. The
+signal is extremely strong at the head — `{切|きり}` ×1 against `{切|き}` ×3,631, `{入|いれ}` ×1
+against `{入|い}` ×2,785, `{付|つき}` ×1 against `{付|つ}` ×2,585, `{痛|いたみ}` ×1 against
+`{痛|いた}` ×810.
+
+**Not purely mechanical, and the exceptions are visible in the same output**: `{止|とど}` is a
+genuine reading (とどまる), and some entries legitimately wrap a whole word. At 123 instances
+the class is small enough to verify per entry, which is the standard §B shape. Filed as
+[Cleanup P64](cleanup-backlog.md).
+
+### Update to item 109 (2026-08-16) — the root cause does not explain the newest sighting
+
+Item 109 attributes the "`get_check_runs` is stale" reports to an *unawaited* backgrounded
+`sleep 30`: the poll budget burns in under a minute, and the run mistakes forty seconds of
+wall clock for a stuck API. That mechanism is real and the prompt fix still stands. But two
+2026-08-16 runs reported the symptom again, and **one of them is not explained by it**:
+
+- PR **#3213** (new-entries): stale `in_progress` across a dozen polls; consistent with 109.
+- PR **#3216** (accuracy-review): `validate` reported `in_progress` **for more than 40 minutes
+  across 14 polls**, and when it finally reported `completed`, its own `completed_at` was
+  12:37:29 — about **70 seconds after `started_at`**. Forty minutes of real wall clock is not a
+  sub-minute budget burn, and a `completed_at` that far in the past is the API serving a stale
+  cached response by its own timestamps.
+
+So there are two distinct failure modes wearing the same symptom, and 109's fix addresses only
+the first. Five runs have now reported it, which makes it the most-reported operational defect
+in the project.
+
+**Both filing runs proposed the same remedy, independently**: cross-check before concluding
+"pending". `mcp__github__get_check_run` (needs only the check-run `id`, which `get_check_runs`
+itself returns even while stale) and `mcp__github__actions_get` `get_workflow_run` (needs the
+run ID, embedded in the check run's `html_url`) both answered `completed`/`success` immediately
+in the #3213 run's own test. `list_pull_requests` `mergeable_state` is a third cheap probe.
+
+**Live test this session (a third data point, and it exonerates the API in this case)**: this
+run's own §7 gate is the natural place to test the claim, and the result is recorded in the
+session log rather than predicted here.
+
+Recommended amendment, for the curator (wiki sessions do not edit prompts): CLAUDE.md → "MCP
+path" step 5 and `prompts/routine2.md` §7.5.2 should say that a run still reading `pending`
+after ~3 polls cross-checks with `get_check_run` before continuing to burn the budget, and
+never concludes "timed out" on `get_check_runs` alone.
 
 ## Related pages
 
