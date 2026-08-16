@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T13:06:18Z",
+  "reviewed_at": "2026-08-16T03:21:59Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word that specifically means 'east and west' and is also used as an interjection. It should be more specific.",
+      "suggestion": "direction"
+    }
+  ]
 }

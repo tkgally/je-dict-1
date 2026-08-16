@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-14T03:48:11Z",
+  "reviewed_at": "2026-08-16T03:23:19Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss is just the romanized Japanese word, which is not helpful for an intermediate learner who might not know what tsukudani is. The definition provides a good explanation, but the main gloss should offer a brief English equivalent.",
+      "suggestion": "tsukudani (food simmered in soy sauce and mirin)"
+    }
+  ]
 }

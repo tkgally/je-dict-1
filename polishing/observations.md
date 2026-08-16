@@ -1495,3 +1495,24 @@ All observations cleared.)_
 - [entry] 06951 {湿疹|しっしん} carried `general` as its only semantic tag despite being a
   specific medical noun (changed to `health` + `body-part`, domain `medical`). Specialty nouns in
   this ID range may share the default.
+- [pattern] The stale-`noentry` sweep of entries 04459-04999 (177 A1/A2 pairs, 120 entries) produced
+  exactly one rejection, and it was the documented polysemous-katakana family: 04562 二重ロック
+  (double lock) resolves to 08116_rokku, whose gloss is "rock (music)" and whose own notes say in
+  as many words that ロック "lock" is a different word with the same reading. That note is a
+  machine-readable signal the detector could use: when a candidate target entry's notes contain a
+  sentence of the form "X as 'Y' is a different word", the pair deserves a class of its own rather
+  than sitting in the mechanical A1 bucket. Running false-positive rate across 1,070 hand-verified
+  short-base pairs is now ~0.2%.
+- [pattern] The §4 self-check over the 119 entries touched in this band flagged 53 of them (45%),
+  well above the ~20% reviewer-noise threshold, and 54 of the 57 issues were in the `tags`
+  dimension. Seventeen were genuinely wrong semantic tags rather than narrowness nits: physical
+  categories stuck on abstract or unrelated headwords ('building' on {菜箸|さいばし} cooking
+  chopsticks, 'communication' on {本棚|ほんだな} bookshelf, 'transportation'+'weather' on
+  {跳|は}ね{上|あ}がる, 'emotion' on {関節痛|かんせつつう} joint pain and {鬱病|うつびょう}
+  depression, 'work' on {消費税|しょうひぜい} consumption tax). This is the P11 drift family, and
+  band 04459-04999 looks contaminated the way 5700-6340 was. It is a good next range for
+  `prompts/fix_semantic_tag_drift.md` Phase 2.
+- [entry] 04651 {関節痛|かんせつつう} carries a malformed furigana wrapper in its notes:
+  `{痛|いたみ}` where the okurigana is inside the ruby (correct form is `{痛|いた}み`). Class R of
+  the stale-`noentry` detector did not catch it because the base form's reading still matches.
+  `build/check_furigana_format.py` may or may not see this shape — worth a check.

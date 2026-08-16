@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T13:05:36Z",
+  "reviewed_at": "2026-08-16T03:21:46Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for 'シャンプー'.",
+      "suggestion": "daily-life"
+    }
+  ]
 }

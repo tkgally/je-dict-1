@@ -8,24 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T13:07:27Z",
+  "reviewed_at": "2026-08-16T03:22:12Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The gloss 'recyclable' is misleading as '再生可能' primarily means 'renewable' or 'reproducible/recoverable', not 'recyclable'. While related to environmental concepts, 'recyclable' is a distinct meaning.",
-      "suggestion": "Remove 'recyclable' from the main gloss."
-    },
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "error",
-      "concern": "The tag 'nature' is too narrow and potentially misleading for the headword '再生可能'. While often applied to natural resources, the word itself describes a characteristic (being renewable/reproducible) that can apply to various fields beyond just nature (e.g., cells in biology, data in technology).",
-      "suggestion": "Replace 'nature' with 'general' or 'descriptive' as it describes a characteristic rather than a specific domain."
-    }
-  ]
+  "issues": []
 }

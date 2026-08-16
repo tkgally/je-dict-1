@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-13T13:06:21Z",
+  "reviewed_at": "2026-08-16T03:22:01Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss 'resignation' is too narrow. While 退職 can mean resignation, it also commonly means retirement or simply leaving a job, which is a broader concept than just resigning. The definition section correctly includes 'retirement' and 'leaving one's job', but the main gloss should reflect this broader meaning.",
+      "suggestion": "retirement; resignation; leaving one's job"
+    }
+  ]
 }
