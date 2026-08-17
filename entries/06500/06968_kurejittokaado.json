@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06968_kurejittokaado_ex1",
-      "japanese": "クレジットカードで{払|はら}えますか。",
+      "japanese": "クレジットカード⟦で→で：00502_de⟧⟦{払|はら}えます→払う：00535_harau⟧⟦か→か：09473_ka⟧。",
       "english": "Can I pay by credit card?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06968_kurejittokaado_ex2",
-      "japanese": "{新|あたら}しいクレジットカードを{申|もう}し{込|こ}んだ。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧クレジットカード⟦を→を：00422_wo⟧⟦{申|もう}し{込|こ}んだ→申し込む：02311_moushikomu⟧。",
       "english": "I applied for a new credit card.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06968_kurejittokaado_ex3",
-      "japanese": "クレジットカードの{請求|せいきゅう}{書|しょ}が{届|とど}いた。",
+      "japanese": "クレジットカード⟦の→の：09472_no⟧⟦{請求書|せいきゅうしょ}→請求書：04698_seikyuusho⟧⟦が→が：00051_ga⟧⟦{届|とど}いた→届く：00899_todoku⟧。",
       "english": "The credit card bill arrived.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,26 @@
       ]
     }
   ],
-  "notes": "ABBREVIATION:\n・クレカ (casual, common)\n\nCOLLOCATIONS:\n・クレジットカードで{払|はら}う (to pay by credit card)\n・クレジットカードを{使|つか}う (to use a credit card)\n・クレジットカードを{作|つく}る (to get a credit card)\n・クレジットカードの{限度額|げんどがく} (credit limit)\n・クレジットカードの{明細|めいさい} (credit card statement)\n\nRELATED TERMS:\n・デビットカード - debit card\n・プリペイドカード - prepaid card\n・ICカード - IC card (transit cards like Suica)\n・キャッシュレス{決済|けっさい} - cashless payment",
-  "cross_references": [],
+  "notes": "ABBREVIATION:\nIn conversation the word is almost always shortened to ⟦クレカ→クレカ：noentry⟧. The full クレジットカード is what appears in writing and in shop signage.\n\nVERB CHOICE:\n\"To get a credit card\" is クレジットカード⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧ — literally \"to make one.\" This is the ordinary phrase; a learner translating \"get\" directly will not land on it.\n\nCOLLOCATIONS:\n・クレジットカード⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧: to pay by credit card\n・クレジットカード⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use a credit card\n・クレジットカード⟦の→の：09472_no⟧⟦{限度額|げんどがく}→限度額：20870_gendogaku⟧: credit limit\n・クレジットカード⟦の→の：09472_no⟧⟦{明細|めいさい}→明細：06448_meisai⟧: credit card statement\n\nRELATED TERMS:\n・⟦デビットカード→デビットカード：29682_debittokaado⟧: debit card\n・⟦プリペイドカード→プリペイドカード：noentry⟧: prepaid card\n・⟦ICカード→ICカード：noentry⟧: IC card, the contactless transit and payment cards such as Suica\n・⟦キャッシュレス→キャッシュレス：noentry⟧⟦{決済|けっさい}→決済：05466_kessai⟧: cashless payment",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "でびっとかーど",
+      "headword": "デビットカード",
+      "target_id": "29682_debittokaado",
+      "label": "debit card"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T12:09:21Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-08-17T00:30:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "informal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "finance"

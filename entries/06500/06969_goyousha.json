@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06969_goyousha_ex1",
-      "japanese": "ご{不便|ふべん}をおかけしますが、ご{容赦|ようしゃ}ください。",
+      "japanese": "⟦ご→ご：09882_go⟧⟦{不便|ふべん}→不便：01501_fuben⟧⟦を→を：00422_wo⟧⟦おかけします→かける：00854_kakeru⟧⟦が→が：00051_ga⟧、ご{容赦|ようしゃ}⟦ください→ください：02899_kudasai⟧。",
       "english": "We apologize for the inconvenience; please bear with us.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06969_goyousha_ex2",
-      "japanese": "{品切|しなぎ}れの{際|さい}はご{容赦|ようしゃ}ください。",
+      "japanese": "⟦{品切|しなぎ}れ→品切れ：09557_shinagire⟧⟦の→の：09472_no⟧⟦{際|さい}→際：02819_sai⟧⟦は→は：00079_ha⟧ご{容赦|ようしゃ}⟦ください→ください：02899_kudasai⟧。",
       "english": "Please understand if items are out of stock.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06969_goyousha_ex3",
-      "japanese": "{何卒|なにとぞ}ご{容赦|ようしゃ}のほど、お{願|ねが}い{申|もう}し{上|あ}げます。",
+      "japanese": "⟦{何卒|なにとぞ}→何卒：19658_nanitozo⟧ご{容赦|ようしゃ}⟦の→の：09472_no⟧⟦ほど→程：01724_hodo⟧、⟦お{願|ねが}い{申|もう}し{上|あ}げます→願う：02387_negau⟧。",
       "english": "We humbly ask for your forgiveness.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "STRUCTURE:\nご (honorific prefix) + {容赦|ようしゃ} (pardon)\n\nREGISTER:\nVery formal. Common in:\n・Customer service announcements\n・Business correspondence\n・Official apologies\n・Signs and notices\n\nCOMMON PATTERNS:\n・ご{容赦|ようしゃ}ください - please forgive/understand\n・ご{容赦|ようしゃ}{願|ねが}います - we ask your understanding\n・ご{容赦|ようしゃ}のほど - (extra formal)\n・{何卒|なにとぞ}ご{容赦|ようしゃ}... - most humbly ask...\n\nSIMILAR EXPRESSIONS:\n・ご{了承|りょうしょう}ください - please acknowledge/understand\n・ご{理解|りかい}ください - please understand\n・お{許|ゆる}しください - please forgive (slightly less formal)",
+  "notes": "STRUCTURE:\n⟦ご→ご：09882_go⟧ (honorific prefix) + ⟦{容赦|ようしゃ}→容赦：12288_yousha⟧ (pardon, leniency).\n\nREGISTER:\nVery formal, and directed outward from an organization to its customers or audience. Learners will meet it far more often reading than speaking — in service announcements, business correspondence, official apologies, and posted notices. It is not used between friends.\n\nWHAT IT ACTUALLY ASKS FOR:\nDespite the \"forgiveness\" gloss, ご{容赦|ようしゃ}ください rarely follows a real wrongdoing. It asks the reader to accept an inconvenience in advance — a delay, a shortage, a limit on service — and is closer to English \"please bear with us\" or \"we appreciate your understanding.\"\n\nCOMMON PATTERNS:\n・ご{容赦|ようしゃ}⟦ください→ください：02899_kudasai⟧: please bear with us\n・ご{容赦|ようしゃ}⟦{願|ねが}います→願う：02387_negau⟧: we ask your understanding\n・ご{容赦|ようしゃ}⟦の→の：09472_no⟧⟦ほど→程：01724_hodo⟧: adds a further layer of formality\n・⟦{何卒|なにとぞ}→何卒：19658_nanitozo⟧ご{容赦|ようしゃ}〜: the most humble version, standard in written apologies\n\nSIMILAR EXPRESSIONS:\n・⟦ご→ご：09882_go⟧⟦{了承|りょうしょう}→了承：11415_ryoushou⟧⟦ください→ください：02899_kudasai⟧: please note and accept — used for facts the reader must simply acknowledge\n・⟦ご→ご：09882_go⟧⟦{理解|りかい}→理解：03674_rikai⟧⟦ください→ください：02899_kudasai⟧: please understand the reasoning\n・⟦お{許|ゆる}しください→許す：02325_yurusu⟧: please forgive — for an actual fault, and less institutional",
   "cross_references": [
     {
       "type": "related",
@@ -55,7 +55,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T12:09:38Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-08-17T00:31:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -68,7 +68,8 @@
         "business"
       ],
       "semantic": [
-        "general"
+        "expression",
+        "communication"
       ]
     }
   }

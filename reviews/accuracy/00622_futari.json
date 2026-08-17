@@ -2,43 +2,15 @@
   "entry_id": "00622_futari",
   "headword": "{二人|ふたり}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:24Z",
+  "reviewed_at": "2026-08-17T00:32:50Z",
   "summary": {
-    "flagged": 4
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for sense 1 is incomplete and potentially misleading.",
-      "suggestion": "The explanation should clarify that '二人' is not just 'the counter for two people' but *is* the word for 'two people' itself, and that it uses an irregular reading. The current phrasing might suggest it's a counter *word* like '個' or '匹', which it is not. It's the specific word for 'two people'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].explanation",
-      "severity": "warn",
-      "concern": "The explanation for sense 2 is redundant with the gloss.",
-      "suggestion": "The explanation 'Often used to mean 'the two of us/them together.'' is very similar to the gloss 'together (as a pair)'. It could be more helpful by explaining *how* this meaning arises or what nuance it adds beyond simply 'two people'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "warn",
-      "concern": "The English translation is a common idiomatic phrase in English, but it's not a direct or literal translation of the Japanese, which could be confusing for learners trying to understand the Japanese structure.",
-      "suggestion": "Change 'Table for two, please.' to a more literal translation like 'Two people, please.' or 'I'd like two people, please.' (though less natural in English, it shows the direct meaning of 二人ください). Or, add a note about the idiomatic usage."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "warn",
-      "concern": "The English translation 'The two of you get along well.' assumes the context of addressing the two people directly. While possible, 'The two of them get along well.' is also a very common and equally valid interpretation of the Japanese, and the current translation limits the scope.",
-      "suggestion": "Change 'The two of you get along well.' to 'The two of them get along well.' or 'You two get along well.' or 'They get along well.' to reflect the ambiguity of the Japanese, or provide both options."
-    }
-  ]
+  "issues": []
 }

@@ -1,78 +1,15 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-08-16",
+  "date": "2026-08-17",
   "daily_cap_usd": 5.0,
-  "spent_usd": 0.4025,
+  "spent_usd": 0.0059,
   "calls": [
     {
-      "ts": "2026-08-16T00:30:21Z",
+      "ts": "2026-08-17T00:33:15Z",
       "mode": "self-check",
       "phase": "self-check",
-      "entries": 15,
-      "est_usd": 0.0067
-    },
-    {
-      "ts": "2026-08-16T03:25:32Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 119,
-      "est_usd": 0.0525
-    },
-    {
-      "ts": "2026-08-16T06:28:59Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 20,
-      "est_usd": 0.0089
-    },
-    {
-      "ts": "2026-08-16T09:25:24Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 12,
-      "est_usd": 0.0055
-    },
-    {
-      "ts": "2026-08-16T12:32:59Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy+screening",
-      "entries": 348,
-      "est_usd": 0.1433
-    },
-    {
-      "ts": "2026-08-16T12:32:59Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 5,
-      "est_usd": 0.0022
-    },
-    {
-      "ts": "2026-08-16T15:25:31Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 12,
-      "est_usd": 0.0054
-    },
-    {
-      "ts": "2026-08-16T21:42:04Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy",
-      "entries": 309,
-      "est_usd": 0.1368
-    },
-    {
-      "ts": "2026-08-16T21:42:04Z",
-      "mode": "accuracy-review",
-      "phase": "screening",
-      "entries": 87,
-      "est_usd": 0.04
-    },
-    {
-      "ts": "2026-08-16T21:42:29Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 3,
-      "est_usd": 0.0012
+      "entries": 13,
+      "est_usd": 0.0059
     }
   ]
 }

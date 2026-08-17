@@ -1466,3 +1466,11 @@ and none of the six is among them).)_
 - [entry] Transitive verbs glossed with an English passive ("to be accompanied
   by" for 従える) read as intransitive to learners. Worth a targeted sweep for
   transitive entries whose gloss starts "to be ...".
+
+## 2026-08-17 — routine(polish) run
+
+- [pattern] Inline links to 02899_kudasai are written with two different base forms across the dictionary: `⟦ください→ください：02899_kudasai⟧` and `⟦ください→下さい：02899_kudasai⟧`. The entry's own headword is `{下|くだ}さい`, so the second is technically correct, but the first is far more common in practice. Worth a one-off normalization sweep and a line in the inline-word-links skill saying which base form wins. Seen in 00622 vs. 00602/00814/00882.
+- [pattern] Loanword-heavy general entries created in the 2026-01 batch (06967–06971 range) have full furigana but *zero* inline links in both examples and notes — the linking pass never reached them. This is a different failure mode from partial coverage and may be worth a detector: entries with a non-empty examples array and no `⟦` anywhere.
+- [pattern] The `sole-general` semantic tag shows up on basic-tier abstract nouns where a better in-list tag exists (00770 勉強 → education/cognition, 00882 最初 → time-general). But it is genuinely correct on some (00829 場所 has no better in-list option — there is no "location" tag in VALID_SEMANTIC). A "location/space" semantic tag may be a real gap in the vocabulary.
+- [entry] 06970 tsumazuku carries `domain: ["business"]`, which fits only its figurative sense 2. Several movement verbs in this range may have the same over-broad domain tag inherited from their creation batch.
+- [tooling] `build/word_id_lookup.json` is nested as `{metadata, by_headword, by_reading}`, but CLAUDE.md and comprehensive_polish.md both describe it as if it were a flat word→id map. A one-line correction in the prompt would save each polishing session a probe call.

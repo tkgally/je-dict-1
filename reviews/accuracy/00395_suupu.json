@@ -2,36 +2,15 @@
   "entry_id": "00395_suupu",
   "headword": "スープ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:10:12Z",
+  "reviewed_at": "2026-08-17T00:32:49Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The English translation 'I drink warm soup' is grammatically correct but sounds unnatural in everyday conversation. 'I'm drinking warm soup' or 'I'll drink warm soup' would be more common depending on context, but 'I'm having warm soup' is a more general and natural fit.",
-      "suggestion": "Change 'I drink warm soup' to 'I'm having warm soup.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "warn",
-      "concern": "The English translation 'On cold days, warm soup warms the body' is grammatically correct but sounds slightly unnatural. 'Warm soup warms you up on cold days' or 'Warm soup is comforting on cold days' would be more natural.",
-      "suggestion": "Change 'On cold days, warm soup warms the body' to 'Warm soup warms you up on cold days.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation 'Next came the salad, and finally the main dish' is grammatically correct but could be more natural. 'Then came the salad' or 'Next, the salad arrived' would flow better.",
-      "suggestion": "Change 'Next came the salad, and finally the main dish' to 'Then came the salad, and finally the main dish.'"
-    }
-  ]
+  "issues": []
 }

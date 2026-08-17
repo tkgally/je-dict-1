@@ -80,8 +80,8 @@
     {
       "id": "00770_benkyou_ex7",
       "japanese": "{勉強|べんきょう}⟦させて→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
-      "english": "Please give me a discount.",
-      "notes": "Business context",
+      "english": "Let me offer you a better price on that.",
+      "notes": "Business context: said by the seller, not the customer. The causative form means \"allow me to discount it.\"",
       "has_audio": false,
       "sense_numbers": [
         2
@@ -118,11 +118,33 @@
       ]
     }
   ],
-  "notes": "{勉強|べんきょう} is one of the most essential words for learners. Functions as a noun and suru verb.\n\nKANJI MEANING:\n{勉|べん} (effort) + {強|きょう} (strong) = \"making strong effort\"\n\nCOMMON PATTERNS:\n- ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧{勉強|べんきょう}⟦する→する：00392_suru⟧: to study Japanese\n- {勉強|べんきょう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to be educational/informative\n- {勉強|べんきょう}⟦{不足|ぶそく}→不足：03598_fusoku⟧: lack of study/preparation\n\nBUSINESS USAGE:\n{勉強|べんきょう}する can mean \"to give a discount\":\n- ⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{勉強|べんきょう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧: Please give me a better price\n- {勉強|べんきょう}⟦させて→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧: Let me give you a discount",
-  "cross_references": [],
+  "notes": "{勉強|べんきょう} is one of the most essential words for learners. Functions as a noun and suru verb.\n\nKANJI MEANING:\n{勉|べん} (effort) + {強|きょう} (strong) = \"making strong effort\"\n\nCOMMON PATTERNS:\n- ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧{勉強|べんきょう}⟦する→する：00392_suru⟧: to study Japanese\n- {勉強|べんきょう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to be educational/informative\n- {勉強|べんきょう}⟦{不足|ぶそく}→不足：03598_fusoku⟧: lack of study/preparation\n\nBUSINESS USAGE:\nIn shops and negotiations {勉強|べんきょう}⟦する→する：00392_suru⟧ means \"to cut the price.\" Which form you use depends on which side of the counter you are on:\n- Customer asking: ⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{勉強|べんきょう}⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧ — \"give me a bit better price\"\n- Seller offering: {勉強|べんきょう}⟦させて→する：00392_suru⟧⟦いただきます→いただく：01326_itadaku⟧ — \"allow me to discount it\"\nThe causative ({勉強|べんきょう}⟦させて→する：00392_suru⟧) always belongs to the seller; a customer who uses it is asking for permission to give a discount, which is not what they mean. This sense is idiomatic and only appears in commercial settings — it never means \"discount\" in a school context.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "がくしゅう",
+      "headword": "{学習|がくしゅう}",
+      "target_id": "02623_gakushuu",
+      "label": "learning, study (more formal)"
+    },
+    {
+      "type": "related",
+      "reading": "ふくしゅう",
+      "headword": "{復習|ふくしゅう}",
+      "target_id": "01718_fukushuu",
+      "label": "review of what was studied"
+    },
+    {
+      "type": "related",
+      "reading": "よしゅう",
+      "headword": "{予習|よしゅう}",
+      "target_id": "01748_yoshuu",
+      "label": "preparation before class"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:01:58Z",
-    "modified": "2026-05-12T19:11:07Z",
+    "modified": "2026-08-17T00:26:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -135,7 +157,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "education",
+        "cognition"
       ]
     }
   },

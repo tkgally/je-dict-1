@@ -2,23 +2,15 @@
   "entry_id": "00882_saisho",
   "headword": "{最初|さいしょ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:51:10Z",
+  "reviewed_at": "2026-08-17T00:32:55Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for a word that specifically refers to 'first' or 'beginning'.",
-      "suggestion": "time-general"
-    }
-  ]
+  "issues": []
 }
