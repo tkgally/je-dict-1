@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{去年|きょねん} means \"last year\" and is commonly used in everyday speech.\n\nYEAR REFERENCE SERIES:\n- {一昨年|おととし}: year before last\n- {去年|きょねん}: last year\n- {今年|ことし}: this year\n- {来年|らいねん}: next year\n- {再来年|さらいねん}: year after next\n\nCOMMON PATTERNS:\n- {去年|きょねん}の{夏|なつ}: last summer\n- {去年|きょねん}から: since last year\n- {去年|きょねん}の{今頃|いまごろ}: around this time last year\n\nFORMALITY:\n- {去年|きょねん}: casual/neutral\n- {昨年|さくねん}: formal, used in writing and formal speech\n\nBoth {去年|きょねん} and {昨年|さくねん} can function as adverbs without particles.",
-  "cross_references": [],
+  "notes": "{去年|きょねん} means \"last year\" and is the ordinary everyday word for it.\n\nYEAR REFERENCE SERIES:\n- ⟦おととし→おととし：02895_ototoshi⟧ (also written ⟦{一昨年|いっさくねん}→一昨年：15474_issakunen⟧): year before last\n- {去年|きょねん}: last year\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧: this year\n- ⟦{来年|らいねん}→来年：00745_rainen⟧: next year\n- ⟦{再来年|さらいねん}→再来年：01417_sarainen⟧: year after next\n\nCOMMON PATTERNS:\n- {去年|きょねん}⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧: last summer\n- {去年|きょねん}⟦から→から：00504_kara⟧: since last year\n- {去年|きょねん}⟦の→の：09472_no⟧⟦{今頃|いまごろ}→今頃：11605_imagoro⟧: around this time last year\n\nFORMALITY:\n- {去年|きょねん}: casual and neutral; the normal choice in conversation\n- ⟦{昨年|さくねん}→昨年：10433_sakunen⟧: formal, used in writing, news, and business speech\n\nNO PARTICLE NEEDED:\nLike other time words of this kind, {去年|きょねん} attaches directly to the verb as an adverb — {去年|きょねん}⟦{行|い}きました→行く：00119_iku⟧, not 去年に行きました. It takes ⟦に→に：00314_ni⟧ only when a more specific time is named inside it, as in {去年|きょねん}⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧. The same holds for ⟦{昨年|さくねん}→昨年：10433_sakunen⟧.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ことし",
+      "headword": "{今年|ことし}",
+      "target_id": "00722_kotoshi",
+      "label": "this year"
+    },
+    {
+      "type": "related",
+      "reading": "らいねん",
+      "headword": "{来年|らいねん}",
+      "target_id": "00745_rainen",
+      "label": "next year"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:49:31Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-08-17T00:25:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
