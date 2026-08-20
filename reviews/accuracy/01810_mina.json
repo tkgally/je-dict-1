@@ -2,30 +2,23 @@
   "entry_id": "01810_mina",
   "headword": "{皆|みな}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:34:39Z",
+  "reviewed_at": "2026-08-20T12:37:37Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The headword '皆' is not formal. It is a neutral term.",
+      "concern": "The headword 皆 (みな) is not formal. It is a common, neutral word.",
       "suggestion": "neutral"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'descriptive' is not appropriate for '皆'. It refers to quantity or people.",
-      "suggestion": "quantity"
     }
   ]
 }
