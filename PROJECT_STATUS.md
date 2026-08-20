@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-08-16
+**Last updated**: 2026-08-20
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-08-20 (Routine v2: new-entries — 20 New Entries, IDs 30694–30713)
+
+Created 20 general-tier entries. **Twelve came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined — which empties that lane except for one word left deliberately unclaimed (see the queue note). Those twelve: ことごとく (the formal "every one without exception", noted as attaching mostly to unfortunate outcomes), {街宣車|がいせんしゃ} (the loudspeaker van, with its right-wing association explained and the neutral {選挙|せんきょ}カー offered as the alternative), {養成所|ようせいじょ} (distinguished from {専門学校|せんもんがっこう} and {研修所|けんしゅうじょ}), {協和音|きょうわおん} (cross-linked as the antonym of the existing {不協和音|ふきょうわおん}), コーンスープ and ポタージュ (written as a pair, since Japanese uses ポタージュ specifically for the thick style against clear コンソメ), {名様|めいさま} (the service-industry counter, with the point that staff use it about customers and customers do not use it about themselves), クレカ (casual-only, with クレジットカード named as the form to use in a shop), プリペイドカード, {出|で}だし (the opening of a text, song, or race), {人妻|ひとづま} (with a register note that it is not a neutral way to say a woman is married), and {思|おも}いとどまる (the deliberate decision not to go through with something, contrasted with あきらめる).
+
+**The other eight are proper nouns** — the category opened up on 2026-08-11 — each written so the explanation carries the connotations, not just the referent: the Tokyo districts {池袋|いけぶくろ}, {品川|しながわ}, and {六本木|ろっぽんぎ} (crowds, business travel, and money respectively), the {山手線|やまのてせん} (with {内回|うちまわ}り/{外回|そとまわ}り and "inside the loop" as shorthand for central Tokyo), {神戸|こうべ}, {鎌倉|かまくら} (both the seaside town and the history-class period name), {箱根|はこね} (hot springs and the New Year's ekiden), and {軽井沢|かるいざわ} (a name that signals money and taste more than a location). One godan conjugation table added. No new kanji.
+
+**§4 cross-model self-check on all 21 changed entries: 1 flag, rejected, 0 sent to the curator.** All 20 new entries came back clean. The single flag was on the pre-existing entry 19680 {耐|た}え{難|がた}い, where the model wanted the `formal` register label changed to `neutral`; the entry's own notes describe it as a literary and formal expression, so project policy declines that swap. Cost $0.009.
+
+**Queue note**: the candidate 耐えがたい was removed as a stale duplicate — it is the same word as 19680 {耐|た}え{難|がた}い written with がたい in kana — and 19680's notes now record that spelling. One "seen in entry" candidate was deliberately left in the queue: 脂漏 (seborrhea), harvested from the eczema entry, is a technical dermatology term that a standalone learner entry serves poorly; the reasoning is logged as an observation. Three new candidates were captured from words the new entries reference but do not define: {駅伝|えきでん}, {異人館|いじんかん}, コンソメ. Candidate queue now 154.
 
 ### 2026-08-16 (Routine v2: new-entries — 20 New Entries, IDs 30674–30693)
 
@@ -110,17 +120,3 @@ Created 20 general-tier entries. **Sixteen came from the "seen in entry" lane** 
 - **General vocabulary (7)**: {品薄|しなうす}, {船酔|ふなよ}い, {何十年|なんじゅうねん}, {足手|あしで}まとい, まじまじ, {抜|ぬ}け{穴|あな}, {北極星|ほっきょくせい}
 
 **Queue note**: six new candidates were captured from words these entries reference but do not define — {歩行者天国|ほこうしゃてんごく}, {品不足|しなぶそく}, {目|め}を{光|ひか}らせる, {目|め}を{奪|うば}う, {数十年|すうじゅうねん}, and {歌舞伎町|かぶきちょう}. Candidate queue now 156, still above the 150-word mark at which a `candidates` restock run stops being suppressed.
-
-### 2026-08-13 (Routine v2: new-entries — 20 New Entries, IDs 30595–30614, plus a new sense for 〜ぶり)
-Created 20 general-tier entries. **Ten came from the "seen in entry" lane** — words the dictionary already uses inside other entries but had never defined — and that lane is now empty. Those ten: {五人|ごにん}{囃子|ばやし} and {三|み}つ{肴|ざかな} (the five musicians of a hina-doll display and the three dishes that make a minimal New Year's table, both written with the cultural context that earns them an entry), {几帳|きちょう} (the Heian curtained screen, with the memory hook that {几帳面|きちょうめん} is said to come from its joinery), {頭|あたま}が{柔|やわ}らかい (cross-noted against the far commoner {頭|あたま}が{固|かた}い, since the negation of this phrase is not idiomatic), {石頭|いしあたま}, {追|お}いすがる (two senses — clinging to someone who is leaving, and closing on a leader in a race), {追跡者|ついせきしゃ}, しがらみ (with the river-weir etymology that explains the image), スパート (noted as living mostly inside ラストスパート, which reaches well beyond sport), and {本腰|ほんごし} (essentially bound to {本腰|ほんごし}を{入|い}れる). **The other ten are general vocabulary**: {手|て}{薄|うす}, {底|そこ}{力|ぢから} (with the ぢ spelling flagged), {油|あぶら}を{売|う}る (with its hair-oil-seller etymology), {渡|わた}りに{船|ふね}, {火|ひ}の{車|くるま} (restricted to money — a tight schedule is not 火の車), {好|こう}{循環|じゅんかん} (pointing at the commoner {悪|あく}{循環|じゅんかん}), {芋|いも}づる{式|しき}, {適材|てきざい}{適所|てきしょ}, {顧|かえり}みる (distinguished from the existing {省|かえり}みる at 13656), and {買|か}い{占|し}め. Conjugation tables added to 4 entries (2 godan, 1 ichidan, 1 suru). No new kanji. **§4 cross-model self-check on all 21 changed entries: 1 flag, rejected** — the model wanted {顧|かえり}みる labelled `neutral` rather than `formal`, but the entry's own notes call it literary and its sibling 省みる carries the same label. $0.009.
-
-- **Traditional culture (3)**: {五人|ごにん}{囃子|ばやし}, {三|み}つ{肴|ざかな}, {几帳|きちょう}
-- **Character and idiom (6)**: {頭|あたま}が{柔|やわ}らかい, {石頭|いしあたま}, {油|あぶら}を{売|う}る, {渡|わた}りに{船|ふね}, {火|ひ}の{車|くるま}, {芋|いも}づる{式|しき}
-- **Pursuit and effort (5)**: {追|お}いすがる, {追跡者|ついせきしゃ}, スパート, {本腰|ほんごし}, {底|そこ}{力|ぢから}
-- **Work and economy (4)**: {手|て}{薄|うす}, {好|こう}{循環|じゅんかん}, {適材|てきざい}{適所|てきしょ}, {買|か}い{占|し}め
-- **Other (2)**: しがらみ, {顧|かえり}みる
-
-**Existing entry extended**: 28358 〜ぶり gained a second sense, "manner of doing" ({仕事|しごと}ぶり, {話|はな}しぶり, {暮|く}らしぶり, and the livelier っぷり variant), which the previous run had identified as belonging there rather than in a new entry.
-
-**Queue note**: five candidates were removed as stale. Four were spelling variants of words the dictionary already has — {擦|す}り{寄|よ}る against 17576 ({摺|す}り{寄|よ}る), {匙|さじ}を{投|な}げる against 20433 (さじを{投|な}げる), {首|くび}をかしげる against 17531 ({首|くび}を{傾|かし}げる), and {有耶無耶|うやむや} against 08049 (うやむや) — and the fifth was the ぶり sense folded into 28358. The duplicate checker reports such pairs only as "homophones", so they pass candidate vetting; that gap and a related one (vetting cannot see that a word matches an existing entry's *other* sense) are logged as observations. Four new candidates were added from words the new entries reference: {内裏雛|だいりびな}, {三人|さんにん}{官女|かんじょ}, {地獄|じごく}に{仏|ほとけ}, {品薄|しなうす}. Candidate queue now 154 — only just above the 150-word mark at which a `candidates` restock run stops being suppressed.
-

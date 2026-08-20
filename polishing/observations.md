@@ -1474,3 +1474,9 @@ and none of the six is among them).)_
 - [pattern] The `sole-general` semantic tag shows up on basic-tier abstract nouns where a better in-list tag exists (00770 勉強 → education/cognition, 00882 最初 → time-general). But it is genuinely correct on some (00829 場所 has no better in-list option — there is no "location" tag in VALID_SEMANTIC). A "location/space" semantic tag may be a real gap in the vocabulary.
 - [entry] 06970 tsumazuku carries `domain: ["business"]`, which fits only its figurative sense 2. Several movement verbs in this range may have the same over-broad domain tag inherited from their creation batch.
 - [tooling] `build/word_id_lookup.json` is nested as `{metadata, by_headword, by_reading}`, but CLAUDE.md and comprehensive_polish.md both describe it as if it were a flat word→id map. A one-line correction in the prompt would save each polishing session a probe call.
+
+## 2026-08-20 — routine(new-entries) 30694–30713
+
+- [entry] Candidate 耐えがたい (C23204) was the kana-okurigana variant of existing entry 19680 耐え難い. Removed the candidate and noted the alternative spelling in 19680's notes instead of creating a duplicate entry.
+- [pattern] The candidate queue still holds 脂漏 (しろう, seborrhea), harvested from 湿疹 06951. It is a technical dermatology term that a standalone learner entry serves poorly; left unclaimed this run. Consider a vetting rule that skips medical compounds harvested from a parent entry's SIMILAR WORDS list unless they stand alone in ordinary use.
+- [pattern] Proper-noun place entries pull in a predictable tail of supporting vocabulary (駅伝, 異人館, コンソメ). Adding those as candidates during the same run keeps the dictionary closing in on itself.
