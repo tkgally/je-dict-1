@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:09:11Z",
+  "reviewed_at": "2026-08-20T18:23:23Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with a more specific meaning related to rules and laws.",
+      "suggestion": "law"
+    }
+  ]
 }
