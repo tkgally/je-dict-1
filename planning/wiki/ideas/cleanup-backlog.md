@@ -2480,6 +2480,56 @@ tax and finance compounds (税別/税率/税込み/年利/月給制/週給), and
 Running false-positive rate across the 1,070 hand-verified short-base pairs (2026-08-09 through
 2026-08-16): **~0.2%**.
 
+**2026-08-20 systemic-fix run** — seventh per-entry short-base batch. 181 A1/A2 pairs (210
+instances, 139 entries, IDs 05000–05857) were read in a ±70-character context window; **179 were
+applied and two were rejected**. The queue is now **453 pairs / 511 instances** and everything
+below **05858** is swept for A1+A2 apart from the deliberate rejections.
+
+Both rejections belong to the family the 2026-08-16 run named, and its recurrence is the main
+finding of this batch:
+
+- `05053` ({彗星|すいせい}, comet) has an ANATOMY OF A COMET list whose middle item is ⟦コマ⟧ —
+  the coma, the gas cloud around the nucleus. The only コマ entry is `11110_koma`, whose senses are
+  the manga panel and the class period, and whose notes carry a HOMOPHONE NOTE listing {駒|こま}
+  and {独楽|こま} — but not the astronomical term. The prose declares a homophone split; it simply
+  does not enumerate this member of it.
+- `05762` ({解除|かいじょ}) has ⟦ロック⟧{解除|かいじょ} "unlock" → `08116_rokku` — the *same pair*
+  rejected at `04562` four days earlier, on the strength of the same sentence in the same target
+  entry's notes.
+
+That makes three occurrences of the family (フライ/パン 2026-08-08, ロック 2026-08-16,
+コマ + ロック 2026-08-20) and the second time `08116_rokku` specifically has had to be rejected by
+hand. The proposed detector class from 2026-08-16 — *if the candidate target's notes contain a
+"X as 'Y' is a different word (with the same reading)" self-declaration, demote the pair out of
+the mechanical bucket* — would have caught both of this batch's rejections with no semantic
+judgment, and would have prevented the ロック repeat outright. It is now the highest-value
+mechanical improvement available to this item.
+
+One marginal apply is worth recording because it sits right on the boundary of the 2026-08-11
+proper-name false-positive family and lands on the *other* side of it. `05387` ({紅葉|もみじ})
+lists famous viewing spots, one of them ⟦{日光|にっこう}⟧ "Nikko in Tochigi Prefecture", and the
+target `03515_nikkou` is glossed only "sunlight". Under the 朝日新聞/毎日新聞 rule that would be a
+rejection — except that `03515`'s notes end with *"{日光|にっこう} is also a famous tourist
+destination in Tochigi Prefecture, known for Tōshō-gū shrine. Context determines whether the word
+refers to the place or sunlight."* The reader clicking the link therefore does land on the place
+sense, so the 2026-08-14 rule (open the target entry rather than trusting its gloss) governs and
+the pair was applied. The operative distinction for this family is **whether the target entry
+documents the proper-noun sense at all**, not whether its lead gloss carries it. ヘビー級 →
+`29473_hebii` (`05235`, `05515`) was applied on the same basis: same lexeme, no contradicting note.
+
+Families verified as groups in this band: geometry vocabulary (六角形/内角/角錐/角柱/表面積),
+arithmetic and math terms ({四則|しそく}演算, {円周率|えんしゅうりつ}, {対数|たいすう},
+{線形|せんけい}代数), medical and anatomy lists (歯周病/胆汁/冠動脈/頸動脈/聴診/三角巾/ガーゼ),
+wedding-ceremony types (神前式/教会式/人前式/釣書/余興), school-club and student-council terms
+(運動部/文化部/児童会/学生会), milestone-birthday lists (古希/喜寿), banking terms
+({当座|とうざ}/ATM/{手数|てすう}), place names used as places (新宿/広島/箱根/軽井沢/鎌倉/富山県/
+伊豆諸島), and compound-element markers whose target entry documents that compound role
+(しゃがみ⟦{込|こ}む⟧ → `00719_komu`, {寝返|ねがえ}り's ⟦{返|かえ}る⟧ → `29164_kaeru`,
+{卸売|おろしうり}'s ⟦{卸|おろ}す⟧ → `02463_orosu`), matching the 2026-08-14 precedent.
+
+Running false-positive rate across the 1,251 hand-verified short-base pairs (2026-08-09 through
+2026-08-20): **~0.3%**.
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword
