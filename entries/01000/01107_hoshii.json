@@ -136,11 +136,33 @@
       ]
     }
   ],
-  "notes": "An i-adjective expressing desire. Used for wanting things (nouns), not for wanting to do actions (use ～たい for that).\n\nKEY GRAMMAR:\n- Noun + ⟦が→が：00051_ga⟧ + {欲|ほ}しい: I want [noun] (the desired thing takes が, not を)\n- ～て{欲|ほ}しい: I want someone to do ~ (the person takes ⟦に→に：00314_ni⟧)\n\nCOMMON MISTAKE:\nUsing を instead of が. The correct pattern is ⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{欲|ほ}しい (not ⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{欲|ほ}しい).\n\nCONTRAST:\n- {欲|ほ}しい: want a thing (noun)\n- ⟦～たい→たい：noentry⟧: want to do (verb)",
-  "cross_references": [],
+  "notes": "An i-adjective expressing desire. Used for wanting things (nouns), not for wanting to do actions (use ⟦～たい→たい：30375_tai⟧ for that).\n\nKEY GRAMMAR:\n- Noun + ⟦が→が：00051_ga⟧ + {欲|ほ}しい: I want [noun] (the desired thing takes ⟦が→が：00051_ga⟧, not ⟦を→を：00422_wo⟧)\n- ～て{欲|ほ}しい: I want someone to do ~ (the person takes ⟦に→に：00314_ni⟧)\n\nCOMMON MISTAKE:\nUsing ⟦を→を：00422_wo⟧ instead of ⟦が→が：00051_ga⟧. The correct pattern is ⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{欲|ほ}しい (not ⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{欲|ほ}しい).\n\nCONTRAST:\n- {欲|ほ}しい: want a thing (noun)\n- ⟦～たい→たい：30375_tai⟧: want to do (verb)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "30375_tai",
+      "reading": "たい",
+      "headword": "たい",
+      "label": "want to do (verb)"
+    },
+    {
+      "type": "related",
+      "target_id": "07573_hoshigaru",
+      "reading": "ほしがる",
+      "headword": "{欲|ほ}しがる",
+      "label": "third person wanting"
+    },
+    {
+      "type": "synonym",
+      "target_id": "01976_nozomu",
+      "reading": "のぞむ",
+      "headword": "{望|のぞ}む",
+      "label": "to desire (formal)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:23:23Z",
-    "modified": "2026-05-13T23:19:17Z",
+    "modified": "2026-08-20T12:24:43Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

@@ -2,13 +2,13 @@
   "entry_id": "01976_nozomu",
   "headword": "{望|のぞ}む",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:36:52Z",
+  "reviewed_at": "2026-08-20T12:37:38Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'emotion' is incorrect for the headword '望む'. While 'desire' can be an emotion, the primary meaning of '望む' is an action of wishing or hoping, or physically looking out onto something. 'Emotion' is too narrow and misleading.",
-      "suggestion": "action"
+      "concern": "The semantic tag 'emotion' is too narrow for the headword's full meaning, as it also encompasses physical orientation/viewing.",
+      "suggestion": "Add 'movement' or 'general' to better reflect the second sense of the word."
     }
   ]
 }

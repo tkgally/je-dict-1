@@ -2,13 +2,13 @@
   "entry_id": "01456_taisetsu",
   "headword": "{大切|たいせつ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:49:00Z",
+  "reviewed_at": "2026-08-20T12:37:36Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for '大切'.",
-      "suggestion": "descriptive"
+      "concern": "The tag 'general' is too vague for a word with a clear semantic category.",
+      "suggestion": "cognition"
     }
   ]
 }
