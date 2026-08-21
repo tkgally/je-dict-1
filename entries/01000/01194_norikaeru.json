@@ -208,18 +208,47 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pattern: Xで{乗|の}り{換|か}える (transfer at X) / Xに{乗|の}り{換|か}える (transfer to X).\n\nASPECT: ている indicates completed action. {乗|の}り{換|か}えている = 'has transferred.'\n\nCOMMON PATTERNS:\n・⟦{電車|でんしゃ}→電車：00522_densha⟧⟦を→を：00422_wo⟧{乗|の}り{換|か}える (transfer trains)\n・Xで{乗|の}り{換|か}える (transfer at X station)\n・Xに{乗|の}り{換|か}える (transfer to X line/train)\n・⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧ (transfer—noun)\n・⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧⟦{案内|あんない}→案内：01291_annai⟧ (transfer information)\n\nCOMPOUND VERB: This is a compound of ⟦{乗|の}る→乗る：00511_noru⟧ (to ride) + ⟦{換|か}える→換える：13346_kaeru⟧ (to change).\n\nTRAVEL VOCABULARY:\n・⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧⟦{駅|えき}→駅：02180_eki⟧ (transfer station)\n・⟦{直通|ちょくつう}→直通：13653_chokutsuu⟧ (direct, non-stop—opposite concept)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: Used both ways, so the tag is 'both'. The everyday learner patterns are intransitive — X⟦で→で：00502_de⟧{乗|の}り{換|か}える (transfer at X, a place) and X⟦に→に：00314_ni⟧{乗|の}り{換|か}える (transfer to X, a new line, vehicle, or service). The transitive X⟦を→を：00422_wo⟧{乗|の}り{換|か}える (⟦{電車|でんしゃ}→電車：00522_densha⟧⟦を→を：00422_wo⟧{乗|の}り{換|か}える, change trains) is also correct but much less frequent; に is the safer default.\n\nASPECT: ている describes the resulting state, not an action in progress. {乗|の}り{換|か}えて⟦いる→いる：00495_iru⟧ normally means 'has already switched (and is now on the other one)'.\n\nCOMMON PATTERNS:\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{乗|の}り{換|か}える: transfer at the next station\n- ⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦に→に：00314_ni⟧{乗|の}り{換|か}える: transfer to the Shinkansen\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧: the noun, a transfer\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧⟦{案内|あんない}→案内：01291_annai⟧: transfer guidance (station signage and apps)\n- ⟦{乗|の}り{換|か}え→乗り換え：16130_norikae⟧⟦{駅|えき}→駅：02180_eki⟧: a transfer station\n\nSENSE 2 — SWITCHING PROVIDERS: The same verb covers switching phone carrier, electricity supplier, insurance plan, or car, and by extension switching allegiance or jobs. Japanese advertising uses it heavily, so a learner meets sense 2 as often as sense 1. It is neutral in tone, though used of a person changing romantic partners it is pointedly critical.\n\nCOMPOUND STRUCTURE: ⟦{乗|の}る→乗る：00511_noru⟧ (to ride) + ⟦{換|か}える→換える：13346_kaeru⟧ (to exchange) — literally 'ride and swap'.\n\nSIMILAR VERBS AND TRAVEL VOCABULARY:\n- ⟦{直通|ちょくつう}→直通：13653_chokutsuu⟧: a direct, no-transfer service — the opposite situation\n- {乗|の}り{換|か}えなし: 'no transfers', the phrase used in route search results",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16130_norikae",
+      "reading": "のりかえ",
+      "headword": "{乗|の}り{換|か}え",
+      "label": "transfer (noun form)"
+    },
+    {
+      "type": "related",
+      "target_id": "00511_noru",
+      "reading": "のる",
+      "headword": "{乗|の}る",
+      "label": "to ride, to get on"
+    },
+    {
+      "type": "related",
+      "target_id": "13346_kaeru",
+      "reading": "かえる",
+      "headword": "{換|か}える",
+      "label": "to exchange, to convert"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13653_chokutsuu",
+      "reading": "ちょくつう",
+      "headword": "{直通|ちょくつう}",
+      "label": "direct service (no transfer)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:38:29Z",
-    "modified": "2026-05-14T16:10:07Z",
+    "modified": "2026-08-21T12:26:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
         "verb-ichidan"
       ],
-      "transitivity": "intransitive",
+      "transitivity": "both",
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06986_maajan_ex1",
-      "japanese": "{週末|しゅうまつ}に{友達|ともだち}と{麻雀|マージャン}をした。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧{麻雀|マージャン}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I played mahjong with friends on the weekend.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06986_maajan_ex2",
-      "japanese": "{麻雀|マージャン}のルールを{覚|おぼ}えるのは{難|むずか}しい。",
+      "japanese": "{麻雀|マージャン}⟦の→の：09472_no⟧⟦ルール→ルール：00354_ruuru⟧⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Learning the rules of mahjong is difficult.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06986_maajan_ex3",
-      "japanese": "{雀荘|じゃんそう}で{麻雀|マージャン}を{打|う}った。",
+      "japanese": "⟦{雀荘|じゃんそう}→雀荘：noentry⟧⟦で→で：00502_de⟧{麻雀|マージャン}⟦を→を：00422_wo⟧⟦{打|う}った→打つ：01221_utsu⟧。",
       "english": "I played mahjong at a mahjong parlor.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "ORTHOGRAPHY:\nCommonly written as {麻雀|マージャン} with katakana furigana or simply マージャン, though the kanji {麻雀|まーじゃん} is also used.\n\nCOLLOCATIONS:\n・{麻雀|マージャン}を{打|う}つ - to play mahjong (common verb)\n・{麻雀|マージャン}をする - to play mahjong (general)\n・{雀荘|じゃんそう} - mahjong parlor\n・{麻雀牌|マージャンパイ} - mahjong tiles\n・{麻雀卓|マージャンたく} - mahjong table\n・{全自動|ぜんじどう}{麻雀卓|マージャンたく} - automatic mahjong table\n\nCULTURAL NOTES:\nMahjong is popular in Japan as a social game, with many specialized mahjong parlors ({雀荘|じゃんそう}). The game is also popular in manga and anime. While gambling on mahjong is technically illegal, many people play for small stakes among friends.",
+  "notes": "ORTHOGRAPHY:\nUsually written {麻雀|マージャン} — kanji with katakana furigana — or simply マージャン. The kanji themselves are rarely read as {麻雀|まーじゃん} outside of dictionaries. The reading is a borrowing from Chinese, which is why it takes katakana despite being written with kanji.\n\nCOLLOCATIONS:\n- {麻雀|マージャン}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧: to play mahjong — the idiomatic verb, from striking the tiles down on the table\n- {麻雀|マージャン}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to play mahjong — the plain general verb, also correct\n- ⟦{雀荘|じゃんそう}→雀荘：noentry⟧: a mahjong parlour\n- {麻雀牌|マージャンパイ}: mahjong tiles\n- {麻雀卓|マージャンたく}: a mahjong table\n- {全自動|ぜんじどう}{麻雀卓|マージャンたく}: an automatic mahjong table, which shuffles and stacks the tiles itself\n\nCULTURAL CONTEXT:\nMahjong is a mainstream social game in Japan, with dedicated parlours in most towns and a long presence in manga and anime. Playing for money is technically illegal, but small stakes among friends are commonplace and rarely remarked on. The Japanese rule set differs considerably from the Chinese and Western ones, which is part of why ⟦{覚|おぼ}える→覚える：00739_oboeru⟧ (learning it) has a reputation for being hard.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-18T13:10:21Z",
-    "modified": "2026-01-19T12:17:44.835017Z",
+    "modified": "2026-08-21T12:26:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +57,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "leisure",
+        "entertainment"
       ]
     }
   }

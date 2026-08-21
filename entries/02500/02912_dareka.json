@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{誰|だれ}か means \"someone\" or \"somebody\" - an unspecified person.\n\nFORMATION:\n{誰|だれ} (who) + ⟦か→か：09473_ka⟧ (question particle) = someone\n\nINDEFINITE PRONOUN PATTERN:\nQuestion word + か = indefinite:\n- {誰|だれ}か: someone\n- ⟦{何|なに}か→何か：03873_nanika⟧: something\n- ⟦どこか→どこか：02361_dokoka⟧: somewhere\n- ⟦いつか→いつか：01809_itsuka⟧: sometime\n- ⟦{何|なん}とか→何とか：01126_nantoka⟧: somehow\n\nNEGATIVE FORMS (with も + negative verb):\n- {誰|だれ}⟦も→も：00484_mo⟧〜ない: no one\n- {何|なに}⟦も→も：00484_mo⟧〜ない: nothing\n- どこ⟦も→も：00484_mo⟧〜ない: nowhere\n\nCOMMON PATTERNS:\n- {誰|だれ}か⟦います→いる：00495_iru⟧⟦か→か：09473_ka⟧: Is anyone there?\n- {誰|だれ}か⟦に→に：00314_ni⟧⟦{聞|き}く→聞く：00483_kiku⟧: to ask someone\n- {誰|だれ}か⟦{来|き}た→来る：00254_kuru⟧: Someone came",
-  "cross_references": [],
+  "notes": "FORMATION:\n⟦{誰|だれ}→誰：00534_dare⟧ (who) + ⟦か→か：09473_ka⟧ (question particle) = someone\n\nINDEFINITE PRONOUN PATTERN:\nQuestion word + か = indefinite:\n- {誰|だれ}か: someone\n- ⟦{何|なに}か→何か：03873_nanika⟧: something\n- ⟦どこか→どこか：02361_dokoka⟧: somewhere\n- ⟦いつか→いつか：01809_itsuka⟧: sometime\n- ⟦{何|なん}とか→何とか：01126_nantoka⟧: somehow\n\nNEGATIVE FORMS (with も + negative verb):\n- ⟦{誰|だれ}→誰：00534_dare⟧⟦も→も：00484_mo⟧〜ない: no one\n- ⟦{何|なに}→何：00498_nani⟧⟦も→も：00484_mo⟧〜ない: nothing\n- ⟦どこ→どこ：00539_doko⟧⟦も→も：00484_mo⟧〜ない: nowhere\n\nか VS も: か makes the question word indefinite and positive (someone, something); も with a negative verb makes it universally negative (no one, nothing). The pair is the standard way Japanese expresses English 'some-' and 'no-' words.\n\nCOMMON PATTERNS:\n- {誰|だれ}か⟦います→いる：00495_iru⟧⟦か→か：09473_ka⟧: Is anyone there?\n- {誰|だれ}か⟦に→に：00314_ni⟧⟦{聞|き}く→聞く：00483_kiku⟧: to ask someone\n- {誰|だれ}か⟦{来|き}た→来る：00254_kuru⟧: Someone came\n\nIn questions, {誰|だれ}か is often best translated 'anyone' rather than 'someone': {誰|だれ}か⟦いません→いる：00495_iru⟧⟦か→か：09473_ka⟧ is 'Is anyone there?'",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03873_nanika",
+      "reading": "なにか",
+      "headword": "{何|なに}か",
+      "label": "something"
+    },
+    {
+      "type": "related",
+      "target_id": "02361_dokoka",
+      "reading": "どこか",
+      "headword": "どこか",
+      "label": "somewhere"
+    },
+    {
+      "type": "related",
+      "target_id": "01809_itsuka",
+      "reading": "いつか",
+      "headword": "いつか",
+      "label": "sometime"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-05-22T21:24:58Z",
+    "modified": "2026-08-21T12:26:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -75,7 +97,11 @@
         "pronoun"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "grammatical",
+        "person"
+      ]
     }
   },
   "prominent_see_also": [
