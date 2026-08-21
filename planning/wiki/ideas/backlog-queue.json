@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-08-16",
+  "updated": "2026-08-21",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -535,9 +535,11 @@
       "priority": 12,
       "batch_ready": false,
       "status": "needs-detector",
-      "scope_estimate": null,
+      "scope_estimate": 46,
       "severity": "warn",
-      "notes": "Supersedes the vaguer 'notes-leading-conjugation-bullets' spec: the discriminator is the populated `conjugation` field, not the bullet's position or marker. Three consecutive polish runs (2026-07-28/29/30) found it in EVERY verb entry they touched in the 066xx band (06678-06680, 06694-06697, 06701, 06704, 06973, 06981, 07004), so it is a property of the creation batch. Removal still wants a glance per entry — a few entries use the same shape to document a genuinely irregular form. Sequence AFTER the P21 inline-link work on the same cohort: deleting the bullets raises the note-quality score and would drop these entries down the priority ranking while they still have zero links."
+      "notes": "Supersedes the vaguer 'notes-leading-conjugation-bullets' spec: the discriminator is the populated `conjugation` field, not the bullet's position or marker. Three consecutive polish runs (2026-07-28/29/30) found it in EVERY verb entry they touched in the 066xx band (06678-06680, 06694-06697, 06701, 06704, 06973, 06981, 07004), so it is a property of the creation batch. Removal still wants a glance per entry — a few entries use the same shape to document a genuinely irregular form. Sequence AFTER the P21 inline-link work on the same cohort: deleting the bullets raises the note-quality score and would drop these entries down the priority ranking while they still have zero links. SIZED 2026-08-21 (wiki harvest), the first scope estimate this item has ever carried: **46 entries** dictionary-wide, measured as notes containing >=3 '->' plus a '・...->...(negative|past|te-form|polite|potential)' bullet. Representative IDs: 03470, 03658, 03748, 03997, 06346, 06468, 06670-06677, 06705-06707. 46 is far smaller than the 'whole creation batch' the 2026-07 reports implied, so this is one bounded systemic-fix batch once Tooling 132 adds the detector class to check_artifacts.py. Re-filed a fourth time by the 2026-08-20 polish run, which also noted the second-order cost: the duplicated text inflates the note-length signal that prioritize_polishing.py ranks on.",
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-21"
     },
     {
       "id": "tag-formality-contradicts-register-note",
@@ -954,20 +956,20 @@
     },
     {
       "id": "zero-link-behind-frontier",
-      "title": "Zero inline links anywhere, in entries the polish frontier already passed (55)",
+      "title": "Zero inline links anywhere, in entries the polish frontier already passed (57)",
       "source": "ideas/cleanup-backlog.md#priority-50-zero-links-anywhere-behind-the-frontier-55-entries--the-other-half-of-p46",
       "detect": "entry has >=1 examples[].japanese containing kanji, zero U+27E6 anywhere in the file, and numeric id < comprehensive frontier (next: in polishing/tasks/comprehensive/progress.txt)",
       "filter": "numeric id below the comprehensive frontier ONLY — unfiltered the same scan returns 23,404 entries (77%), which is the frontier position, not a defect",
       "fix_type": "content",
       "verify": "add inline links per the inline-word-links skill; every link verified against build/word_id_lookup.json",
-      "priority": 9,
+      "priority": 8,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 54,
+      "scope_estimate": 57,
       "scope_unit": "entries",
-      "scope_measured_at": "2026-08-09",
+      "scope_measured_at": "2026-08-21",
       "severity": "warn",
-      "notes": "Sibling of P46 (notes linked / examples bare, 33 entries): both are work the frontier reached and left unfinished, and no cursor returns to them. Mostly contiguous blocks: 03949-03969 (21, single-kanji bound-morpheme headwords), 06006-06014 (9, anatomy), 06670-06676 (7, i-adjectives), 06593-06598 (6), 06363-06367 (4), 04620/04623, plus 6 isolates. Verified linkable by spot-check (03949's examples contain 空港/予約/迎える/行く). Take the 03949-03969 block LAST and settle the bound-morpheme-headword linking convention once rather than 21 times. 06844 kirikuzusu is a member and is already parked at the frontier cursor for a dedicated polish run. Re-measured 2026-08-15 below `next: 06947`: 54 entries, and they are six contiguous ID runs (03949-03969 x21, 06006-06014 x9, 06670-06676 x7, 06593-06598 x6, 06363-06367 x5) plus seven singletons (03100, 03356, 04620, 04623, 04974, 06109, 06747). Work it run-by-run, not entry-by-entry."
+      "notes": "Sibling of P46 (notes linked / examples bare, 33 entries): both are work the frontier reached and left unfinished, and no cursor returns to them. Mostly contiguous blocks: 03949-03969 (21, single-kanji bound-morpheme headwords), 06006-06014 (9, anatomy), 06670-06676 (7, i-adjectives), 06593-06598 (6), 06363-06367 (4), 04620/04623, plus 6 isolates. Verified linkable by spot-check (03949's examples contain 空港/予約/迎える/行く). Take the 03949-03969 block LAST and settle the bound-morpheme-headword linking convention once rather than 21 times. 06844 kirikuzusu is a member and is already parked at the frontier cursor for a dedicated polish run. Re-measured 2026-08-15 below `next: 06947`: 54 entries, and they are six contiguous ID runs (03949-03969 x21, 06006-06014 x9, 06670-06676 x7, 06593-06598 x6, 06363-06367 x5) plus seven singletons (03100, 03356, 04620, 04623, 04974, 06109, 06747). Work it run-by-run, not entry-by-entry. Re-measured 2026-08-21 below `next: 06985`: **57 entries — the item GREW by 3** while the frontier advanced 38 IDs, the first increase in the series (55 -> 54 -> 57). All three new members (06958 アジェンダ, 06959 ストレージ, 06960 デバイス) sit inside the band the lane just crossed. Because the comprehensive cursor stands at 06985, the lane has by definition already walked past all 57: these are entries it VISITED and left unlinked, not entries it has yet to reach. Five (03100, 06109, 06594, 06959, 06960) still carry their 2026-01-19 creation-cleanup `modified` date, i.e. the visit changed nothing at all. Re-spot-checked 06011 (examples contain 病気/入院/喫煙/大きな/負担) alongside 03949. Tooling 131 (the scripted longest-match linker) is the tool for this item."
     },
     {
       "id": "furigana-wrapper-empty-side",
@@ -1284,6 +1286,23 @@
       "scope_unit": "instances",
       "severity": "warn",
       "notes": "Measured 2026-08-16: 90 distinct (kanji, reading) pairs / 123 instances across 30,484 entries. Invisible to check_furigana_format.py (verified: 765 findings, 04651 not among them) for the same structural reason as the katakana case -- every furigana instrument asks whether the kanji has a reading, and it does; the reading has absorbed the okurigana. Strong head: {切|きり}x1 vs {切|き}x3631, {入|いれ}x1 vs {入|い}x2785, {付|つき}x1 vs {付|つ}x2585, {痛|いたみ}x1 vs {痛|いた}x810. Detector not yet built -- see Tooling 130."
+    },
+    {
+      "id": "inline-link-kudasai-baseform-split",
+      "title": "`ください` inline links split across two base forms (1,323 kana / 237 kanji)",
+      "source": "ideas/cleanup-backlog.md#p66-ください-inline-links-are-split-across-two-base-forms--1560-instances",
+      "detect": "count of ⟦ください→ください：02899_kudasai⟧ vs ⟦ください→下さい：02899_kudasai⟧ across entries/",
+      "filter": "links to 02899_kudasai only; both forms resolve, so this is consistency, not integrity",
+      "fix_type": "mechanical",
+      "verify": "spot-check",
+      "priority": 14,
+      "batch_ready": false,
+      "status": "needs-decision",
+      "scope_estimate": 237,
+      "scope_unit": "instances",
+      "scope_measured_at": "2026-08-21",
+      "severity": "info",
+      "notes": "Measured 2026-08-21: 1,323 instances use the kana base form `ください`, 237 use the entry's own headword form `下さい`. Both render and both resolve; nothing is broken. Recommendation to the curator is to standardise on the kana form: it is 84.8% of existing usage, and the auxiliary/polite-request ください these links mark is conventionally written in kana. That makes the sweep 237 instances instead of 1,323. BLOCKED ON A RULING, and the ruling belongs in .claude/skills/inline-word-links/SKILL.md (see Tooling 133) -- without it the split regenerates as fast as it is cleaned."
     }
   ]
 }

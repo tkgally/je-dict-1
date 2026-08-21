@@ -1445,52 +1445,50 @@ instances / 225 files, matching P60's 275/229); and the transitivity `PAIR:`-par
 said to be shared by six named priority-lane verbs (24 entries dictionary-wide carry the shape,
 and none of the six is among them).)_
 
-## 2026-08-16 — accuracy-review run (routine, entries 12342–12650)
+_(2026-08-21 wiki (Routine v2) harvest: processed all 18 observations from the 2026-08-16
+accuracy-review run, the 2026-08-17 polish run, and the three 2026-08-20 runs (new-entries,
+systemic-fix P35, polish). **Filed**: Cleanup **P65** (conjugation tables transcribed into
+notes — measured at 46 entries dictionary-wide) and **P66** (`⟦ください⟧` links split 1,323
+`ください` / 237 `下さい`, needs a curator ruling before any sweep); Tooling **131** (promote the
+2026-08-20 run's scratchpad longest-match linker into `build/`, with its two hard-won guards),
+**132** (`duplicate-conjugation-in-notes` class for `check_artifacts.py`), **133** (point
+polishing sessions at the standing rulings they keep re-proposing), **134** (demote same-reading
+self-declared homophones out of `check_stale_noentry.py`'s mechanical bucket — third firing,
+first identical-pair repeat), **135** (`--pass screening` needs backgrounding/chunking at
+~2.3 s/entry, with a "read Quality Metrics §21 first" caveat); Entry Follow-ups 06970 つまずく
+(`domain: business` on a literal stumble verb) and the 13-entry "transitive verb glossed
+'to be …'" class; candidate-vetting findings added to Word Discovery Strategies; Quality Metrics
+refresh 38 (runs 522–536) plus a recompute of the stale all-time by-source table.
+**Not filed because measurement refuted them**: the zero-link coverage detector (23,460 entries
+dictionary-wide — sixth and seventh re-discovery of a class carrying an explicit *do not file*
+ruling; the actionable residue is P50, re-measured at 57); the "several movement verbs share
+06970's over-broad `business` domain" class (4 entries dictionary-wide carry `movement` +
+`business`, and the other 3 are legitimately business-domain); "`check_stale_noentry.py`
+under-weights notes" (it scans `notes`/`usage_notes` at line 135, before examples — the three
+sightings were outside the swept band, and all three had already been fixed by their filing run);
+"medical compounds harvested from a parent entry" as a candidate-vetting class (exactly 1 of 163
+queued words matches); and "CLAUDE.md and comprehensive_polish.md both describe
+`word_id_lookup.json` as a flat map" (half-refuted — `comprehensive_polish.md:82` is already
+correct; only CLAUDE.md's file-listing line is loose).
+**Sharpened rather than filed**: the P35 proper-name false-positive boundary — the test is
+whether the target entry documents the proper-noun sense *anywhere*, not whether its lead gloss
+carries it (05387 ⟦日光⟧ → 03515_nikkou looks like a member and is not).)_
 
-- [tooling] `build/review_runner.py --pass screening` runs ~2.3 s/entry, so a
-  500-entry range exceeds a single 10-minute tool call. Screening a full
-  accuracy-review range needs to be backgrounded or split; this run only
-  re-screened 12507–12593 before the call timed out.
-- [pattern] All 45 pre-existing furigana screening flags in 12342–12900 were the
-  documented "partial/incomplete reading" false positive: the screener reports a
-  truncated reading (e.g. `{計画|けいか}`) where the entry actually contains the
-  full correct reading (`{計画|けいかく}`). Verified against the source files for
-  five of them. This family is calibration-report iteration-1 noise resurfacing;
-  the screener remains near-zero precision on already-polished ranges.
-- [pattern] The accuracy reviewer's `tags` dimension is dominated by in-list
-  narrowness nits ("`general` is too vague, use `movement`") — 30 of 38 flagged
-  entries. Its genuinely useful tag output is the off-vocabulary tag detection
-  (5 entries this run: `thought`, `interaction`, `body-general`,
-  `history-period`, `action-general`). Consider narrowing the tag prompt to
-  off-list detection only.
-- [entry] Transitive verbs glossed with an English passive ("to be accompanied
-  by" for 従える) read as intransitive to learners. Worth a targeted sweep for
-  transitive entries whose gloss starts "to be ...".
+## 2026-08-21 — routine(wiki) harvest
 
-## 2026-08-17 — routine(polish) run
-
-- [pattern] Inline links to 02899_kudasai are written with two different base forms across the dictionary: `⟦ください→ください：02899_kudasai⟧` and `⟦ください→下さい：02899_kudasai⟧`. The entry's own headword is `{下|くだ}さい`, so the second is technically correct, but the first is far more common in practice. Worth a one-off normalization sweep and a line in the inline-word-links skill saying which base form wins. Seen in 00622 vs. 00602/00814/00882.
-- [pattern] Loanword-heavy general entries created in the 2026-01 batch (06967–06971 range) have full furigana but *zero* inline links in both examples and notes — the linking pass never reached them. This is a different failure mode from partial coverage and may be worth a detector: entries with a non-empty examples array and no `⟦` anywhere.
-- [pattern] The `sole-general` semantic tag shows up on basic-tier abstract nouns where a better in-list tag exists (00770 勉強 → education/cognition, 00882 最初 → time-general). But it is genuinely correct on some (00829 場所 has no better in-list option — there is no "location" tag in VALID_SEMANTIC). A "location/space" semantic tag may be a real gap in the vocabulary.
-- [entry] 06970 tsumazuku carries `domain: ["business"]`, which fits only its figurative sense 2. Several movement verbs in this range may have the same over-broad domain tag inherited from their creation batch.
-- [tooling] `build/word_id_lookup.json` is nested as `{metadata, by_headword, by_reading}`, but CLAUDE.md and comprehensive_polish.md both describe it as if it were a flat word→id map. A one-line correction in the prompt would save each polishing session a probe call.
-
-## 2026-08-20 — routine(new-entries) 30694–30713
-
-- [entry] Candidate 耐えがたい (C23204) was the kana-okurigana variant of existing entry 19680 耐え難い. Removed the candidate and noted the alternative spelling in 19680's notes instead of creating a duplicate entry.
-- [pattern] The candidate queue still holds 脂漏 (しろう, seborrhea), harvested from 湿疹 06951. It is a technical dermatology term that a standalone learner entry serves poorly; left unclaimed this run. Consider a vetting rule that skips medical compounds harvested from a parent entry's SIMILAR WORDS list unless they stand alone in ordinary use.
-- [pattern] Proper-noun place entries pull in a predictable tail of supporting vocabulary (駅伝, 異人館, コンソメ). Adding those as candidates during the same run keeps the dictionary closing in on itself.
-
-## 2026-08-20 — routine(systemic-fix) P35 stale noentry links 05000–05857
-
-- [tooling] The "target entry's own notes declare a same-reading different word" false-positive family fired for the third time, and this run's two rejections were both members of it: 05053's comet-anatomy ⟦コマ⟧ → 11110_koma (manga panel / class period, whose notes carry a homophone note that lists 駒 and 独楽 but not the astronomical coma) and 05762's ロック解除 → 08116_rokku, which is the *identical pair* rejected at 04562 on 2026-08-16. `08116_rokku` has now had to be rejected by hand twice, on the strength of the same sentence in its own notes. The detector class proposed on 2026-08-16 — scan the candidate target's notes for an "X as 'Y' is a different word (with the same reading)" self-declaration and demote the pair out of `check_stale_noentry.py`'s mechanical bucket — would have caught both of this batch's rejections with zero semantic judgment and would have prevented the ロック repeat outright. It is the highest-value mechanical improvement left on P35 and should land before the next band is swept.
-- [pattern] The 2026-08-11 proper-name false-positive family needs a sharper statement of its boundary. 05387's ⟦日光⟧ "Nikko in Tochigi Prefecture" → 03515_nikkou looks like a member (target glossed only "sunlight") but is not, because 03515's notes explicitly document the place-name sense. The operative test is **whether the target entry documents the proper-noun sense anywhere**, not whether its lead gloss carries it — the same "open the target entry rather than trusting its gloss" rule recorded on 2026-08-14. The genuine members of the family (朝日新聞 → 23495_asahi) are the ones where the target says nothing about the name at all.
-
-## 2026-08-20 — routine(polish) priority lane + frontier 06972–06984
-
-- [pattern] The "zero inline links anywhere" failure mode flagged on 2026-08-17 for 06967–06971 extends across the whole compound-verb block 06972–06984: every one of the 13 entries had full furigana but no `⟦` in examples or notes at all. Thirteen consecutive entries is no longer a stray gap, it is an entire creation batch that the linking pass never reached. The detector proposed on 2026-08-17 — entries with a non-empty `examples` array and no `⟦` anywhere in examples or notes — should be built and run over the whole dictionary before the frontier lane walks into another such block one entry at a time. It would turn a 13-entry manual slog into a bounded, measurable systemic-fix item.
-- [tooling] Full inline-link coverage over an unlinked entry is fast if the mechanical part is scripted. This run used a throwaway longest-match linker: project the text to plain form (stripping `{kanji|kana}` wrappers), mask every conjugated headword form using the entry's own `conjugation` table so self-references are never linked, longest-match the rest against `by_headword`/`by_reading` in `build/word_id_lookup.json`, auto-apply only unique non-kana matches, and report ambiguous/kana/unmatched runs for human adjudication via a per-entry override map. Thirteen entries took roughly three review rounds each instead of dozens of individual lookups. Two guards proved essential and are worth writing down: (1) the lookup table contains Latin-script headwords (`AT`, `OL`), so an unguarded matcher corrupts English prose in the notes — "FORMATION" became "FORM⟦AT→AT：07759_eetii⟧ION"; (2) single- and double-kana tokens must never auto-link, because `だ`, `た`, `み` resolve to real entries (だ copula, 他/田, 実/未/身) and will attach themselves to the tail of any unrecognized conjugation. This belongs in `build/` as a real script, not in a scratchpad.
-- [pattern] Every entry in the 06972–06984 batch opens its notes with a three-line conjugation list (`・{踏|ふ}み{込|こ}む → {踏|ふ}み{込|こ}まない (negative)` …) that duplicates the entry's own `conjugation` field, which the site already renders as a table. `build/check_artifacts.py` does not flag this shape — it currently reports only `missing-target-id` (40 instances). Worth adding as a detector class and then removing in bulk: it is redundant on the page and it inflates the notes-length metrics that drive the polishing priority lists.
-- [entry] Stale `noentry` inline links keep surfacing outside the ranges the P35 sweep has reached: `⟦～たい→たい：noentry⟧` in 01107 欲しい (たい is now 30375_tai), `⟦{込|こ}む→込む：noentry⟧` in 06983 組み込む (00719_komu), and `⟦あんた→あんた：noentry⟧` in 01384 君 (27721_anta). All three are kana or very short forms in *notes* rather than examples. Worth checking whether `check_stale_noentry.py` weights notes as heavily as examples.
-
-[pattern] 2026-08-20 (routine004 12657) Register/dated-usage entries (e.g. 女中) carry all their caveat text in USAGE notes but lack a register tag. Consider adding a schema-level 'register: dated' (and/or 'derogatory') value so the UI can surface these without requiring the learner to read the notes.
+- [pattern] The Routine's scheduling cadence broke during runs 522–536: eleven runs landed in
+  the 30 hours from 2026-08-15T18:28 to 2026-08-17T00:34, then nothing fired for **74 hours**,
+  then four runs on 2026-08-20. The metrics series can see the gap but has no way to explain it,
+  and it silently invalidates every per-window rate on `topics/quality-metrics.md` (which is why
+  refresh 38 skipped the frontier-versus-growth ratio). If the pause was intentional, a line in
+  `PROJECT_STATUS.md` would let future refreshes distinguish a scheduling decision from an
+  outage; if it was not, it is worth knowing that a multi-day stall produces no alert anywhere.
+- [pattern] Cleanup P50 (zero-link entries *behind* the polish frontier) **grew for the first
+  time**: 55 → 54 → **57** across three measurements, while the frontier advanced 06947 → 06985.
+  All three new members (06958 アジェンダ, 06959 ストレージ, 06960 デバイス) sit inside the band the
+  lane just crossed. Since the cursor guarantees the lane walked past all 57, they are entries it
+  *visited and left unlinked*, not entries it has yet to reach — and five of them still carry
+  their 2026-01-19 creation-cleanup `modified` date, meaning the visit changed nothing at all.
+  Spot-checks (03949 空〜, 06011 呼吸器) confirm both are ordinarily linkable. The linking
+  checklist item is being dropped on whole contiguous blocks, and understanding why matters more
+  than scheduling a backfill.

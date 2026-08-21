@@ -4673,6 +4673,176 @@ precision flag family the project has (87–99% applied across five windows).
 Top off-list names remain a long tail of near-misses: `time` 37, `body` 25, `place` 23,
 `loanword` 23, `degree` 21, `quality` 19, `mathematics` 17, `interpersonal` 16.
 
+## Updates 2026-08-21 (wiki harvest)
+
+Harvested the 18 observations from the 2026-08-16 accuracy-review run, the 2026-08-17 polish
+run, and the three 2026-08-20 runs (new-entries, systemic-fix P35, polish). Everything below
+was **measured before filing**; two of the harvested proposals were refuted by the measurement
+and are recorded as refutations rather than items.
+
+### P50 is growing, and its members were *visited*, not skipped — 57 (from 54)
+
+Two separate polish runs (2026-08-17 and 2026-08-20) proposed building a detector for "entries
+with a non-empty `examples` array and no `⟦` anywhere". Dictionary-wide that population is
+**23,460 of 30,504 entries (77%)**, which is the standing structural fact recorded in
+[Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23444-and-not-a-defect)
+under an explicit *do not file a zero-link detector* ruling. These are the sixth and seventh
+re-discoveries of that class. No new item.
+
+What the re-measurement *does* add is a sharper reading of **P50**, the actionable
+below-the-frontier residue:
+
+| Measured | Frontier | Zero-link below frontier |
+|---|---|---|
+| 2026-08-09 | 06845 | 55 |
+| 2026-08-15 | 06947 | 54 |
+| **2026-08-21** | **06985** | **57** |
+
+The frontier advanced 38 IDs in this window and P50 **grew by three**. The 2026-08-15 reading —
+"the item is not converging on its own" — is too generous: it is diverging, and the frontier
+lane is the source. All three new members (**06958 アジェンダ, 06959 ストレージ, 06960 デバイス**)
+sit inside the band the lane crossed during the window.
+
+The composition finding is stronger still. Because the comprehensive cursor stands at 06985,
+**the lane has by definition already walked past every one of the 57**. They are not entries
+the lane has yet to reach; they are entries it reached and left unlinked. Five of them
+(03100, 06109, 06594, 06959, 06960) still carry a `modified` date from the 2026-01-19 creation
+cleanup, meaning the lane visited them and changed *nothing at all*.
+
+Spot-checks confirm the residue is not a legitimately-unlinkable class:
+
+- **03949 {空|くう}〜** (prefix headword) — examples contain 予約, 空港, 迎え, 行く, 好き, and
+  the notes list roughly a dozen 空〜 compounds. Every one is a lookup away.
+- **06011 {呼吸器|こきゅうき}** — examples contain 病気, 入院, 喫煙, 大きな, 負担.
+
+So the 2026-08-15 diagnosis ("a lane that skipped a directory's worth of work") should be
+replaced with **"a lane that visited and silently dropped the linking checklist item"**. That
+changes the remedy: the fix is not scheduling a backfill pass over the runs, it is understanding
+why the checklist item is being dropped on whole contiguous blocks. The contiguity recorded on
+2026-08-15 still holds — 43 of the 57 are in four runs (03949–03969 ×21, 06006–06014 ×9,
+06670–06676 ×7, 06593–06598 ×6) — and contiguity is consistent with a per-session drop rather
+than per-entry difficulty.
+
+**Recommended for the curator**: P50 is small, bounded, batch-ready, and now known to be
+growing. It is a good `systemic-fix` candidate, and the 2026-08-20 polish run's scripted
+longest-match linker (filed as Tooling 131 this harvest) is the tool for it.
+
+### The standing zero-link ruling is not reaching the sessions that keep re-proposing it
+
+Seven re-discoveries of one class is a knowledge-routing failure, not seven independent
+insights. `prompts/comprehensive_polish.md` and `.claude/skills/inline-word-links/SKILL.md`
+were both checked this harvest: **neither mentions the zero-link ruling, P50, or
+`inline-link-integrity.md` at all.** The answer lives in the wiki; the working prompt does not
+point at it. This is the same shape as [Tooling 124](tooling-backlog.md#124-show-the-polish-frontier-where-polishing-sessions-already-look)
+("show the polish frontier where polishing sessions already look") and is filed alongside it as
+Tooling 133 rather than as a cleanup item, since the fix is a prompt line, not entry work.
+
+### Priority 31 finally has a number — conjugation tables transcribed into notes, 46 entries
+
+The 2026-08-20 polish run filed this as new: every entry in the 06972–06984 compound-verb block
+opens its notes with a bulleted conjugation list
+(`・{踏|ふ}み{込|こ}む → {踏|ふ}み{込|こ}まない (negative)` …) duplicating the entry's own
+`conjugation` field, which the site already renders as a table.
+
+It is **not new** — it is P31, carried in the queue as `notes-duplicate-conjugation-block`
+(which itself supersedes the vaguer `notes-leading-conjugation-bullets`), and three polish runs
+in 2026-07 already reported it from the same 066xx band. What has been missing since it was
+filed is a **scope estimate**: both queue entries carried `scope_estimate: null`, which is why
+the item has sat at `needs-detector` without ever being sized.
+
+Measured dictionary-wide this harvest (notes containing ≥3 `→` and a
+`・…→…(negative|past|te-form|polite|potential)` bullet): **46 entries**. Representative IDs:
+03470, 03658, 03748, 03997, 06346, 06468, 06670–06677, 06705–06707. The queue entry is updated
+with this figure.
+
+Forty-six is small enough to change the item's character: the earlier reports read as if a whole
+creation batch were affected, and the honest scope is two dozen-ish entries in the 066xx–067xx
+band plus a scatter. It is one bounded `systemic-fix` batch once a detector exists.
+
+Two reasons to remove it rather than leave it:
+
+1. It is **redundant on the rendered page** — the reader sees the same forms twice, once as
+   prose bullets and once as the conjugation table.
+2. It **inflates the note-length signal** that drives the polishing priority lists, so these
+   entries score as well-documented when the extra length is duplication.
+
+`build/check_artifacts.py` does not currently recognise this shape (it reports only
+`missing-target-id`, 40 instances). Adding it as a detector class is filed as Tooling 132.
+Scope is small enough that the removal is a single bounded `systemic-fix` batch, but it is
+**not** purely mechanical — some of the 46 may pair the list with genuine commentary that must
+survive, so per-entry verification applies.
+
+### P66. `⟦ください⟧` inline links are split across two base forms — 1,560 instances
+
+Filed from the 2026-08-17 polish run. Links to 02899_kudasai are written both ways:
+
+| Base form written | Instances | Share |
+|---|---|---|
+| `⟦ください→ください：02899_kudasai⟧` | 1,323 | 84.8% |
+| `⟦ください→下さい：02899_kudasai⟧` | 237 | 15.2% |
+
+The entry's own headword is `{下|くだ}さい`, so the 237 are the technically-correct form and the
+1,323 are the common-practice form. Both resolve, so nothing is broken — this is a consistency
+item, not an integrity one.
+
+The observation asked "which base form wins". The recommendation is **`ください`**, on two
+grounds: it is 85% of existing usage, and the auxiliary/polite-request ください that these links
+almost always mark is conventionally written in kana. Normalising the 237 is a one-line
+mechanical sweep once the ruling is made; normalising the 1,323 is not.
+
+**This needs a curator ruling before any sweep runs**, and the ruling belongs in the
+`inline-word-links` skill (recorded as a recommendation in Tooling 133's prompt-guidance note),
+because the split will otherwise regenerate as fast as it is cleaned.
+
+### Refuted: `check_stale_noentry.py` under-weights notes
+
+The 2026-08-20 polish run's `[entry]` observation reported three stale `noentry` links living in
+*notes* rather than examples (01107 欲しい `⟦～たい⟧`, 06983 組み込む `⟦{込|こ}む⟧`, 01384 君
+`⟦あんた⟧`) and asked whether the detector weights notes as heavily as examples.
+
+It does. `build/check_stale_noentry.py:135` scans `notes` and `usage_notes` before it reaches
+`examples` at line 139. The three sightings are outside the ID bands the P35 sweep has covered
+(the 2026-08-20 run worked 05000–05857), not detector blind spots.
+
+Current P35 population, measured this harvest: **4,877 `noentry` instances / 4,372 distinct
+pairs in 2,300 entries**, of which the safe mechanical bucket (A1+A2) is **452 pairs / 510
+instances**. The item is healthy and simply has more bands to walk.
+
+### Re-discoveries needing no new item
+
+- **Sole-`general` on basic/core abstract nouns** (2026-08-17: 00770 勉強, 00882 最初 vs.
+  legitimately-general 00829 場所) — already open and batch-ready; the observation's genuinely
+  new content is the **"location/space" vocabulary gap** it identifies, which is added to the
+  standing tag-vocabulary escalation below rather than filed separately.
+- **The accuracy reviewer's `tags` dimension is dominated by in-list narrowness nits**
+  (2026-08-16: 30 of 38 flagged entries) — this is [Tooling 111/118](tooling-backlog.md)'s
+  measured family, reproduced for a sixth window in
+  [Quality Metrics §21](../topics/quality-metrics.md).
+- **Furigana screening's truncated-reading false positive** (2026-08-16: all 45 flags in
+  12342–12900) — [Tooling 119](tooling-backlog.md#119-screening-prompt-should-quote-the-furigana-pair-verbatim-before-judging-it),
+  now with two consecutive exactly-zero adjudication windows behind it (§21).
+- **The "target's own notes declare a same-reading different word" P35 false positive**
+  (2026-08-20, third firing, including the *identical* 08116_rokku pair rejected by hand at
+  04562 on 2026-08-16) — the demotion rule proposed on 2026-08-16 is restated with its
+  recurrence count as Tooling 134.
+- **The 2026-08-11 proper-name P35 false-positive family needs a boundary** (2026-08-20:
+  05387 ⟦日光⟧ → 03515_nikkou looks like a member but is not, because 03515's notes document the
+  place-name sense). The operative test is **whether the target entry documents the proper-noun
+  sense anywhere, not whether its lead gloss carries it** — the same "open the target rather
+  than trusting its gloss" rule recorded on 2026-08-14. Added to the family's description in
+  the P35 notes; no new item.
+
+### For the curator: a "location/space" semantic tag
+
+`VALID_SEMANTIC` has no tag for physical location or space. The 2026-08-17 polish run hit this
+on **00829 場所**, where sole-`general` is not drift but the correct answer for lack of an
+alternative. The standing off-list tally on this page independently shows `place` at 23
+instances among the near-miss names. A `location` or `space` tag would close both the 00829
+class and part of the off-list tail, and it is the second time a location tag has surfaced from
+opposite directions (the `location`/`urban` family noted 2026-08-14 resolved to an in-list
+destination for the *urban* half only). This is a one-word vocabulary decision that only the
+curator can make.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns

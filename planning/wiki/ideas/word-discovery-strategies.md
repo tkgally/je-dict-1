@@ -114,6 +114,53 @@ The user's concern about overlooking fundamental words is valid. The brainstormi
 
 The project policy is to avoid comparing the headword list against existing dictionaries or published word lists. This preserves the dictionary's originality and avoids copyright concerns. All discovery methods above respect this constraint by working from communicative needs, semantic reasoning, or internal dictionary analysis rather than external wordlists.
 
+## Vetting findings from the queue itself (2026-08-21)
+
+Three observations from the 2026-08-20 `new-entries` run all concern what should and should not
+survive candidate vetting. Each was measured against the live queue during the 2026-08-21 wiki
+harvest, and the measurements point in different directions.
+
+### Technical compounds harvested from a parent entry's SIMILAR WORDS list — not a class
+
+The run left **脂漏** (しろう, seborrhea) unclaimed, harvested from 06951 湿疹, on the grounds
+that a technical dermatology term serves a learner poorly as a standalone headword. It proposed
+a vetting rule skipping medical compounds harvested from a parent entry unless they stand alone
+in ordinary use.
+
+Measured: the queue holds **163 words, of which 13 carry a "seen in entry" provenance note, and
+exactly one** — 脂漏 itself (C23183) — has a technical-medical gloss. There is no class here to
+write a rule for; the 2026-08-11 cleanup and the current per-word gates are already keeping this
+population near zero.
+
+The single instance is still worth a decision. 脂漏 is a reasonable *entry* for a dictionary this
+size, but a poor use of a `new-entries` slot while 150+ ordinary words wait. Leaving it queued
+and unclaimed, as the run did, is the right handling; a rule would cost more than it saves.
+
+### Proper-noun entries pull in a supporting tail — worth doing deliberately
+
+The same run noted that proper-noun place entries drag in a predictable tail of ordinary
+vocabulary (駅伝, 異人館, コンソメ) and that queuing those during the same run "keeps the
+dictionary closing in on itself."
+
+This is the strongest argument yet for the 2026-08-11 proper-noun policy, and it generalises
+beyond place names: a proper noun is dense in collocations precisely because it sits inside a
+web of ordinary words, so entering one exposes several. It belongs in the discovery-method list
+above as a deliberate technique rather than a side effect — **enter a proper noun, then harvest
+its supporting vocabulary in the same pass, while the context is loaded.**
+
+### Okurigana variants keep reaching the queue
+
+C23204 耐えがたい was claimed, found to be the kana-okurigana variant of existing entry
+19680 耐え難い, removed, and the alternative spelling recorded in 19680's notes instead. This is
+the recurrence of a known mechanism, already described in
+[Tooling Backlog](tooling-backlog.md): candidate vetting compares (surface, reading) pairs, and
+okurigana variation is exactly the case where a different surface does not imply a different
+word. `check_duplicate.py` cannot see it without okurigana normalisation.
+
+Handling it the way this run did — delete the candidate, add an orthography line to the existing
+entry — is the correct outcome and is worth stating as the house rule, because it also stops the
+variant being re-proposed later. The same fix closed a re-proposal loop for 04165 先程/先ほど.
+
 ## Related pages
 
 - [Content Pipeline](../project/content-pipeline.md) — how candidates flow through the system

@@ -5381,6 +5381,147 @@ path" step 5 and `prompts/routine2.md` §7.5.2 should say that a run still readi
 after ~3 polls cross-checks with `get_check_run` before continuing to burn the budget, and
 never concludes "timed out" on `get_check_runs` alone.
 
+## Updates 2026-08-21 (wiki harvest)
+
+Filed from the 2026-08-16 accuracy-review run, the 2026-08-17 polish run, and the three
+2026-08-20 runs. Measurements were taken this harvest; where a proposal was refuted by
+measurement it is recorded as a correction rather than an item.
+
+### 131. Promote the throwaway inline-link matcher into `build/`
+
+The 2026-08-20 polish run linked thirteen entries (06972–06984) that had full furigana and no
+`⟦` anywhere, and it did so by writing a scratchpad longest-match linker rather than by looking
+up words one at a time. Its report is precise enough to build from, and the measured payoff was
+"roughly three review rounds per entry instead of dozens of individual lookups."
+
+The algorithm it describes:
+
+1. Project the text to plain form, stripping `{kanji|kana}` wrappers.
+2. Mask every conjugated form of the entry's own headword, using the entry's own `conjugation`
+   table, so self-references are never linked.
+3. Longest-match the remainder against `by_headword` and `by_reading` in
+   `build/word_id_lookup.json`.
+4. **Auto-apply only unique, non-kana matches.** Report ambiguous, kana, and unmatched runs for
+   human adjudication through a per-entry override map.
+
+Two guards the run found the hard way, both of which belong in the committed version:
+
+- **Latin-script headwords corrupt English prose.** The lookup table contains entries like `AT`
+  and `OL`, so an unguarded matcher rewrote the word "FORMATION" in a notes field as
+  `FORM⟦AT→AT：07759_eetii⟧ION`. Restrict matching to Japanese script, or require a
+  non-Latin boundary.
+- **Single- and double-kana tokens must never auto-link.** `だ`, `た`, and `み` all resolve to
+  real entries (the copula だ; 他/田; 実/未/身) and will attach themselves to the tail of any
+  conjugation the masker did not recognise.
+
+This is the concrete, costed successor to
+[item 49](#49-read-only-inline-link-suggester-propose--never-write) (the read-only link
+suggester), and it is the tool that makes [Cleanup P50](cleanup-backlog.md) — now 57 entries and
+growing — a single bounded batch. Keeping step 4 read-only for everything except unique non-kana
+matches is what keeps it inside the project's "verify before you change" discipline.
+
+### 132. A `duplicate-conjugation-in-notes` class for `check_artifacts.py`
+
+`build/check_artifacts.py` reports `missing-target-id` (40 instances) but does not recognise
+notes that transcribe the entry's own conjugation table as a bullet list. Measured population:
+**46 entries** (notes containing ≥3 `→` plus a
+`・…→…(negative|past|te-form|polite|potential)` bullet). Detail and rationale in
+[Cleanup P65](cleanup-backlog.md).
+
+Worth adding because the pattern is invisible to every current checker *and* it silently
+inflates the note-length signal that `prioritize_polishing.py` ranks on — these entries look
+well-documented because they are long, and the length is duplication.
+
+Detector only. The removal is not mechanical: some of the 46 may interleave real commentary
+with the bullets, so the fix path is detector → per-entry verification, as with P64.
+
+### 133. Point polishing sessions at the standing rulings that answer their questions
+
+Seven separate polish runs have now proposed a zero-link coverage detector, a class the wiki
+settled long ago with an explicit *do not file* ruling in
+[Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23444-and-not-a-defect).
+This harvest checked why: **`prompts/comprehensive_polish.md` and
+`.claude/skills/inline-word-links/SKILL.md` mention neither the ruling, nor P50, nor the topic
+page.** The knowledge exists and the sessions that need it never see it.
+
+This is the same failure mode as [item 124](#124-show-the-polish-frontier-where-polishing-sessions-already-look)
+and wants the same remedy: a short "already settled — do not re-file" block in the polishing
+prompt, listing the handful of classes that recur, each with a one-line verdict and a wiki link.
+The zero-link ruling is the first entry; the furigana truncated-reading family and the
+in-list-narrowness tag family are the obvious next two, since both are also re-filed regularly.
+
+Recommended amendment, for the curator (wiki sessions do not edit prompts or skills): add the
+block to `prompts/comprehensive_polish.md`, and add to
+`.claude/skills/inline-word-links/SKILL.md` the ください base-form ruling requested by
+[Cleanup P66](cleanup-backlog.md) once it is made — the 85/15 split will otherwise regenerate as
+fast as it is normalised.
+
+### 134. Demote same-reading self-declared homophones out of `check_stale_noentry.py`'s mechanical bucket
+
+Third firing of this false-positive family, and the first repeat of an *identical pair*. The
+2026-08-20 P35 run's two rejections were both members: 05053's comet-anatomy `⟦コマ⟧` →
+11110_koma (manga panel / class period), and 05762's ロック解除 → 08116_rokku — the same pair a
+human already rejected at 04562 on 2026-08-16.
+
+The rule proposed on 2026-08-16 and now re-proposed with a recurrence count: scan the candidate
+*target's* notes for a self-declaration of the form "X as 'Y' is a different word (with the same
+reading)", and demote any pair whose target carries one out of the mechanical (A1/A2) bucket
+into the human-adjudication bucket. It requires zero semantic judgment, and it would have caught
+both of this batch's rejections and prevented the ロック repeat outright.
+
+Priority note: this is the highest-value mechanical improvement left on P35, whose safe
+mechanical bucket currently holds **452 pairs / 510 instances** out of 4,877 total `noentry`
+instances. It should land before the next band is swept, because the family's cost is a human
+rejection every time it fires.
+
+Related boundary sharpening for the same detector, from the same run: the 2026-08-11
+proper-name family's test is **whether the target entry documents the proper-noun sense
+anywhere**, not whether its lead gloss carries it. 05387's `⟦日光⟧` → 03515_nikkou looks like a
+member (the target is glossed only "sunlight") but is not, because 03515's notes document the
+place name. Genuine members are the ones where the target says nothing about the name at all
+(朝日新聞 → 23495_asahi).
+
+### 135. `review_runner.py --pass screening` needs backgrounding or chunking
+
+Measured by the 2026-08-16 accuracy-review run: screening runs **~2.3 s/entry**, so a 500-entry
+range needs ~19 minutes and exceeds a single 10-minute tool call. That run only re-screened
+12507–12593 before its call timed out, losing the rest of its intended range.
+
+This is a throughput constraint on the mode the project relies on for whole-dictionary coverage,
+and it interacts with [item 84](#84-rate_limit_interval-is-what-bounds-review-coverage)'s
+rate-limit finding: the wall-clock cost is per-entry and additive, so the accuracy-review
+playbook's "target ~400–600 entries per run" is not reachable in one screening call.
+
+Options, cheapest first: run screening as a backgrounded command and poll it; or teach
+`--pass screening` to chunk internally and checkpoint per chunk so a timeout keeps completed
+work. The run already has the right instinct in the playbook's resilience clause ("keep the
+per-entry results already written") — the tool should make that the default rather than the
+recovery path.
+
+**But see §21 of [Quality Metrics](../topics/quality-metrics.md) before investing here.** The
+furigana screening dimension has now recorded two consecutive exactly-zero adjudication windows
+(0 applied of 48, then 0 applied of 92; 140 flags, zero corrections). Making a zero-precision
+instrument faster is not obviously worth doing. The stronger recommendation is to stop running
+the furigana pass over already-polished ranges at all and spend the wall-clock on the accuracy
+dimensions, whose residual (noise-family-stripped) apply rate is 78–80%.
+
+### Correction: `word_id_lookup.json` is not undocumented, and one of the two named files is already right
+
+The 2026-08-17 polish run reported that "CLAUDE.md and comprehensive_polish.md both describe
+`build/word_id_lookup.json` as if it were a flat word→id map", costing each session a probe
+call to discover the real shape.
+
+Half-refuted on inspection. The file is
+`{metadata, by_reading, by_headword}`, and:
+
+- `CLAUDE.md:86` does say "Pre-built word→entry_id map", which is loose.
+- **`prompts/comprehensive_polish.md:82` is already accurate** — "look up entry IDs by reading
+  or headword" names both indexes.
+
+So the fix is one word in CLAUDE.md's file-listing line, not a correction to the polishing
+prompt. Filed here rather than as a numbered item because it is a documentation typo; recorded
+for the curator, since wiki sessions do not edit `CLAUDE.md`.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address
