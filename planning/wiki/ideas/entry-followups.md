@@ -1696,6 +1696,57 @@ are deliberately not listed.
   orthography line here would stop it being re-proposed. (Low priority, but it is the cheap fix
   that closes a recurring candidate-queue loop.)
 
+## Added 2026-08-21 (wiki harvest of the 2026-08-16/17/20 runs)
+
+Verified as still-unfixed at harvest time. Three items the harvest expected to file were
+**dropped because their filing run had already repaired them**: the stale `noentry` links in
+01107 欲しい (`⟦～たい⟧`), 06983 組み込む (`⟦{込|こ}む⟧`), and 01384 君 (`⟦あんた⟧`) are all gone
+from those files, which were modified on 2026-08-20.
+
+- **06970 つまずく** — carries `domain: ["business"]`, which fits only the figurative "hit a
+  snag" sense, not the literal "to stumble; to trip" that leads the gloss. **Verified still
+  present 2026-08-21.** Straight removal of the domain tag, or a split if the figurative sense
+  is worth keeping tagged.
+
+  The filing run suspected a class ("several movement verbs in this range may have the same
+  over-broad domain tag inherited from their creation batch"). **Measured and refuted**: the
+  whole dictionary contains four entries carrying both `movement` and `business`, and the other
+  three — 13067 来店, 17274 お見えになる, 26986 出張する — are legitimately business-domain.
+  06970 is the only member.
+
+- **Transitive verbs whose gloss opens "to be …"** — 13 entries dictionary-wide, filed as one
+  small class from the 2026-08-16 accuracy-review run's `[entry]` note that such glosses read as
+  intransitive to learners. Measured this harvest (`transitivity: transitive` and gloss starting
+  `to be `):
+
+  | ID | Headword | Gloss |
+  |---|---|---|
+  | 02042 | {悲\|かな}しむ | to be sad, to grieve, to mourn |
+  | 02469 | {具\|そな}える | to be equipped with, to possess |
+  | 05685 | {受\|う}け{持\|も}つ | to be in charge of; to take charge |
+  | 07574 | {怖\|こわ}がる | to be afraid of; to fear |
+  | 07701 | {踏\|ふ}まえる | to be based on; to take into account; to consider |
+  | 09771 | {気\|き}をつける | to be careful, to pay attention |
+  | 12797 | {授\|さず}かる | to be granted, to be blessed with |
+  | 16360 | {勘繰\|かんぐ}る | to be suspicious of; to read too much into |
+  | 17465 | {確信\|かくしん}する | to be convinced; to be certain; to have confidence |
+  | 17974 | {意識\|いしき}する | to be conscious of; to be aware of |
+  | 18731 | {謹\|つつし}む | to be respectful; to humbly do |
+  | 19530 | {愛想\|あいそ}を{尽\|つ}かす | to be fed up with; to lose patience with |
+  | 27011 | {楽観\|らっかん}する | to be optimistic |
+
+  **This is a review, not a sweep.** Several are correct as written — English simply has no
+  transitive verb for 悲しむ or 怖がる, and "to be convinced" is the natural gloss for 確信する.
+  The ones worth fixing are those where a transitive English gloss exists and was passed over:
+  02469 具える ("to be equipped with" → "to be equipped with; to have (a facility, feature)"),
+  05685 受け持つ ("to be in charge of" → "to take charge of; to be responsible for" — the entry
+  already offers the transitive alternative second), and 07701 踏まえる ("to be based on" → "to
+  base (something) on; to take into account", where the passive gloss actively inverts the
+  direction: 踏まえる is what the *speaker* does to the evidence).
+
+  Worth doing as one small polish batch, with the note that adding a transitive alternative
+  alongside the existing gloss is usually better than replacing it.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
