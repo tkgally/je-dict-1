@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06994_gomibako_ex1",
-      "japanese": "ゴミ{箱|ばこ}にゴミを{捨|す}ててください。",
+      "japanese": "ゴミ{箱|ばこ}⟦に→に：00314_ni⟧⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧⟦{捨|す}てて→捨てる：00892_suteru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please throw your trash in the garbage bin.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06994_gomibako_ex2",
-      "japanese": "{駅|えき}にゴミ{箱|ばこ}が{見当|みあ}たらない。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦に→に：00314_ni⟧ゴミ{箱|ばこ}⟦が→が：00051_ga⟧⟦{見当|みあ}たらない→見当たる：16760_miataru⟧。",
       "english": "I can't find a trash can at the station.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06994_gomibako_ex3",
-      "japanese": "{分別|ぶんべつ}ゴミ{箱|ばこ}が{設置|せっち}されている。",
+      "japanese": "⟦{分別|ぶんべつ}→分別：07706_bunbetsu⟧ゴミ{箱|ばこ}⟦が→が：00051_ga⟧⟦{設置|せっち}されている→設置する：26989_secchisuru⟧。",
       "english": "Sorted waste bins are installed.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ORTHOGRAPHY:\nOften written as ゴミ{箱|ばこ}, {塵箱|ごみばこ}, or ごみ{箱|ばこ}. ゴミ in katakana is very common.\n\nCOLLOCATIONS:\n・ゴミ{箱|ばこ}に{捨|す}てる - to throw away in a trash can\n・{分別|ぶんべつ}ゴミ{箱|ばこ} - sorted/recycling bin\n・ゴミ{箱|ばこ}を{空|から}にする - to empty the trash can\n\nCULTURAL NOTES:\nPublic trash cans are relatively rare in Japan, especially after the 1995 Tokyo subway sarin attack increased security concerns. Many people carry their trash home or look for convenience store bins.\n\nRELATED VOCABULARY:\n・{屑籠|くずかご} - wastebasket (more formal/traditional)\n・ダストボックス - dustbox (loanword)\n・ゴミ{袋|ぶくろ} - garbage bag",
+  "notes": "ORTHOGRAPHY:\nWritten ゴミ{箱|ばこ}, ごみ{箱|ばこ}, or rarely {塵箱|ごみばこ}. Katakana ゴミ is the most common. ⟦{箱|はこ}→箱：02162_hako⟧ voices to {箱|ばこ} in the compound.\n\nCOLLOCATIONS:\n- ゴミ{箱|ばこ}⟦に→に：00314_ni⟧⟦{捨|す}てる→捨てる：00892_suteru⟧: to throw something in the bin\n- ⟦{分別|ぶんべつ}→分別：07706_bunbetsu⟧ゴミ{箱|ばこ}: a sorted-waste bin, with separate openings by material\n- ゴミ{箱|ばこ}⟦を→を：00422_wo⟧⟦{空|から}→空：27640_kara⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to empty the bin\n\nCULTURAL CONTEXT:\nPublic bins are notably scarce in Japan — most were removed after the 1995 Tokyo subway attack and never fully restored. Visitors are often surprised to find none on the street; the usual solutions are the bins beside convenience-store entrances and vending machines, or carrying rubbish home. Where bins do exist they are almost always ⟦{分別|ぶんべつ}→分別：07706_bunbetsu⟧ sorted, and using the wrong opening is a real faux pas.\n\nRELATED VOCABULARY:\n- {屑籠|くずかご}: a wastebasket, more traditional and used of the small basket beside a desk\n- ダストボックス: dustbox, a loanword found on signage and product labels rather than in speech\n- ゴミ⟦{袋|ぶくろ}→袋：00837_fukuro⟧: a rubbish bag, which in most municipalities must be a specified colour and type",
   "cross_references": [
     {
       "type": "related",
@@ -55,17 +55,18 @@
   ],
   "metadata": {
     "created": "2026-01-18T13:10:21Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-08-21T12:26:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "daily-life",
+        "furniture"
       ]
     }
   }

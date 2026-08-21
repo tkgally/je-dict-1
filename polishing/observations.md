@@ -1492,3 +1492,37 @@ carries it (05387 ⟦日光⟧ → 03515_nikkou looks like a member and is not).
   Spot-checks (03949 空〜, 06011 呼吸器) confirm both are ordinarily linkable. The linking
   checklist item is being dropped on whole contiguous blocks, and understanding why matters more
   than scheduling a backfill.
+
+## 2026-08-21 — routine(polish) 06985–06994 + priority lane
+
+- [pattern] Direct confirmation of the P50 observation logged earlier today: the frontier block
+  06985–06994 (bonsai, mahjong, sheet music, musical note, improvisation, antique, sleeping bag,
+  campfire, tripod, rubbish bin) had **zero inline links** in examples or notes — all ten. Every
+  other tier-1 property was fine (furigana complete, schema valid, readings correct), so this is
+  not a block of neglected entries; it is the linking checklist item specifically being skipped.
+  Five of the ten still carried a creation-era `modified` date. The block is a coherent
+  hobbies/objects run created together, which suggests the gap tracks *creation batches* rather
+  than polish visits: whatever produced 06985–06994 emitted no links, and no later pass added
+  any. A backfill sweep keyed on creation batch would likely be more efficient than one keyed on
+  the polish frontier.
+- [pattern] Sole-`general` semantic tags remain common in this ID band: 6 of the 10 frontier
+  entries carried `["general"]` where an obvious in-vocabulary tag existed (bonsai → art/culture,
+  mahjong → leisure/entertainment, 音符 → music, 骨董品 → art/culture, 寝袋 → tool/leisure,
+  焚き火 → nature/leisure). `check_tag_drift.py`'s sole-general check should be reaching these;
+  worth confirming they are in its queue rather than being filtered out.
+- [entry] 06994 ゴミ箱 was tagged `"formality": "formal"` — plainly wrong for a household rubbish
+  bin, and the kind of error a template default produces. Fixed here, but a cheap detector for
+  `formality: formal` on daily-life concrete nouns would likely find more.
+- [entry] 30385 間に合わせる has no `transitivity` tag despite being the transitive half of a
+  linked `pair` with 01142 間に合う. Left alone under the no-neighbour-polishing rule; flagged so
+  a transitivity pass can pick it up.
+- [entry] 00534 誰 carries the semantic tag `interrogative`, which is not in `VALID_SEMANTIC`.
+  Neighbour of 02912 誰か, so left unchanged here. Likely a small family (question words) worth
+  migrating together — `grammatical` looks like the destination.
+- [tooling] `build/note_templates.json` rewards uppercase `SECTION:` headers and `- ` bullets,
+  but a large number of older entries use `・` bullets and sentence-case headers. Those entries
+  score 15–25 points below equivalent content written in the newer style, which inflates their
+  position in `polishing/priority/notes.txt`. Several priority-lane entries this run (01142,
+  01194, 01217, 01219) had substantively good notes and scored 77 purely on formatting. Either
+  the scorer should accept `・`, or a mechanical bullet-normalisation pass would sharpen the
+  priority ranking considerably.

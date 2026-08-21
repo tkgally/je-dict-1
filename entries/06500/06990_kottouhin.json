@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06990_kottouhin_ex1",
-      "japanese": "{祖母|そぼ}の{家|いえ}には{骨董品|こっとうひん}がたくさんある。",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{骨董品|こっとうひん}⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are many antiques at my grandmother's house.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06990_kottouhin_ex2",
-      "japanese": "この{骨董品|こっとうひん}は{江戸時代|えどじだい}のものだ。",
+      "japanese": "⟦この→この：00962_kono⟧{骨董品|こっとうひん}⟦は→は：00079_ha⟧⟦{江戸時代|えどじだい}→江戸時代：20431_edojidai⟧⟦の→の：09472_no⟧⟦もの→物：02259_mono⟧⟦だ→だ：09496_da⟧。",
       "english": "This antique is from the Edo period.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06990_kottouhin_ex3",
-      "japanese": "{骨董品|こっとうひん}{店|てん}で{掛|か}け{軸|じく}を{買|か}った。",
+      "japanese": "{骨董品|こっとうひん}⟦{店|てん}→店：10011_ten⟧⟦で→で：00502_de⟧⟦{掛|か}け{軸|じく}→掛け軸：06122_kakejiku⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a hanging scroll at an antique shop.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{骨董|こっとう} originally referred to miscellaneous old items, and {品|ひん} means \"goods\" or \"items.\"\n\nCOLLOCATIONS:\n・{骨董品|こっとうひん}{店|てん}/{屋|や} - antique shop\n・{骨董品|こっとうひん}を{集|あつ}める - to collect antiques\n・{骨董品|こっとうひん}{市|いち} - antique market/fair\n・{骨董品|こっとうひん}の{鑑定|かんてい} - antique appraisal\n\nRELATED VOCABULARY:\n・アンティーク - antique (loanword, often for Western items)\n・{古美術|こびじゅつ} - antique art\n・{古物|こぶつ} - secondhand goods\n・{年代物|ねんだいもの} - old item, vintage",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\n{骨董|こっとう} originally meant an assortment of miscellaneous old things, and {品|ひん} means goods or articles. The full form {骨董品|こっとうひん} is the ordinary word; bare {骨董|こっとう} appears mainly in compounds and shop names.\n\nCOLLOCATIONS:\n- {骨董品|こっとうひん}⟦{店|てん}→店：10011_ten⟧ / {骨董品|こっとうひん}⟦{屋|や}→屋：noentry⟧: an antique shop\n- {骨董品|こっとうひん}⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to collect antiques\n- {骨董品|こっとうひん}⟦{市|いち}→市：10013_ichi⟧: an antique market or fair\n- {骨董品|こっとうひん}⟦の→の：09472_no⟧⟦{鑑定|かんてい}→鑑定：16030_kantei⟧: appraisal of an antique\n\nSIMILAR WORDS:\n- ⟦アンティーク→アンティーク：noentry⟧: the loanword, used mostly of Western pieces and of shop styling; {骨董品|こっとうひん} carries a more Japanese and more traditional flavour\n- ⟦{古美術|こびじゅつ}→古美術：17221_kobijutsu⟧: old art objects specifically, a narrower and more scholarly term\n- ⟦{古物|こぶつ}→古物：24097_kobutsu⟧: secondhand goods in the legal and trade sense, with no implication of value\n- ⟦{年代物|ねんだいもの}→年代物：22323_nendaimono⟧: something old enough to be worth remarking on — used lightly, and of things like wine or a well-worn jacket as well as collectibles",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17221_kobijutsu",
+      "reading": "こびじゅつ",
+      "headword": "{古美術|こびじゅつ}",
+      "label": "antique art objects"
+    },
+    {
+      "type": "related",
+      "target_id": "24097_kobutsu",
+      "reading": "こぶつ",
+      "headword": "{古物|こぶつ}",
+      "label": "secondhand goods"
+    },
+    {
+      "type": "related",
+      "target_id": "22323_nendaimono",
+      "reading": "ねんだいもの",
+      "headword": "{年代物|ねんだいもの}",
+      "label": "vintage item"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T13:10:21Z",
-    "modified": "2026-01-19T12:17:44.837883Z",
+    "modified": "2026-08-21T12:26:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +79,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "art",
+        "culture"
       ]
     }
   }

@@ -2,23 +2,23 @@
   "entry_id": "01128_sugoi",
   "headword": "すごい",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:56:42Z",
+  "reviewed_at": "2026-08-21T12:38:08Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "translation",
+      "location": "examples[1]",
       "severity": "error",
-      "concern": "The semantic tag 'emotion' is too narrow for the headword 'すごい'. While it can express emotion, it also describes intensity, impressiveness, or dread, which are not strictly emotions.",
-      "suggestion": "['descriptive']"
+      "concern": "The English translation 'There are so many people!' for 'すごい人がたくさんいますね。' misrepresents the Japanese. While 'すごい' can mean 'so many' in some contexts, here it implies 'amazing/incredible people' or 'a lot of amazing people', not just a large quantity.",
+      "suggestion": "Change the English translation to 'There are so many amazing people!' or 'There are so many incredible people!'"
     }
   ]
 }
