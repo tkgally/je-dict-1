@@ -1526,3 +1526,31 @@ carries it (05387 ⟦日光⟧ → 03515_nikkou looks like a member and is not).
   01194, 01217, 01219) had substantively good notes and scored 77 purely on formatting. Either
   the scorer should accept `・`, or a mechanical bullet-normalisation pass would sharpen the
   priority ranking considerably.
+
+## 2026-08-22 — accuracy-review 12713–12912
+
+[pattern] Off-vocabulary semantic tags cluster in the 12700–12800 block, all
+from the same 2026-02-22 creation batch: `sensation`, `body` (12743),
+`place` + `war` (12746), `place` (12749), `crime` (12756), `sensation`
+(12758), `supernatural` (12764). Six entries in a 50-ID window carried tags
+that are not in `VALID_SEMANTIC`. A `systemic-fix` run over the whole
+2026-02-22 creation cohort using `build/check_tag_drift.py --only
+unknown-semantic` would likely clear a large batch at once, rather than
+waiting for the accuracy sweep to reach each entry. Note that the accuracy
+reviewer flagged `place` in 12746 but not the co-occurring `war` — the model
+reports one tag per issue, so deterministic detection is the better instrument
+for this family.
+
+[pattern] Entry-level `formality` cannot express register that differs by
+sense. 12766 {念|ねん} is tagged `formal`, and its own notes say sense 1
+(deep feeling: 感謝の念, 畏敬の念) is formal while sense 2 is the everyday
+念のため. The reviewer flagged the tag as wrong; both `formal` and `neutral`
+are wrong for half the entry. Worth considering whether `formality` should be
+allowed at the definition level for the handful of entries with split
+register.
+
+[entry] 12735 {突|つ}く lists 嘘を突く ("to tell a lie") as an example and in
+its COMMON EXPRESSIONS notes, but neither of its two senses ("to poke,
+thrust" / "to prop, lean on") covers that meaning, and 嘘をつく is normally
+written in kana or as 嘘を吐く. Flagged to the curator; needs a third sense,
+a kana rewrite of the example, or removal.

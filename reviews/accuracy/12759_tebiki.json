@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:10:14Z",
+  "reviewed_at": "2026-08-22T00:19:02Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
+      "dimension": "tags",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The gloss 'guide, handbook, manual' for sense 2 is too narrow and misses a crucial negative connotation present in some uses of 手引き, especially when referring to aiding a criminal.",
-      "suggestion": "Add 'abetment' or 'complicity' to the gloss for sense 2 to cover the negative connotation."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "error",
-      "concern": "The English translation 'helped guide the criminal' for example 1 is too mild and misses the strong negative connotation of 'abetting' or 'aiding and abetting' a criminal, which is implied by 手引き in this context.",
-      "suggestion": "Change the English translation to 'It seems an insider abetted the criminal.' or 'It seems an insider aided and abetted the criminal.'"
+      "concern": "The semantic tag 'communication' is too narrow and potentially misleading for '手引き'. While it can involve communication, the core meaning is about guidance or assistance, which can be broader than just communication.",
+      "suggestion": "action"
     }
   ]
 }

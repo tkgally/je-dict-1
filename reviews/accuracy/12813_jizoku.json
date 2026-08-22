@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:11:18Z",
+  "reviewed_at": "2026-08-22T00:19:52Z",
   "summary": {
     "flagged": 1
   },
@@ -17,7 +17,7 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'time-general' is too broad and doesn't capture the core meaning of '持続'.",
+      "concern": "The semantic tag 'time-general' is too narrow and misleading for '持続'. While it relates to duration, the core meaning is about maintaining or continuing something, which is an action or state, not just a time concept.",
       "suggestion": "action"
     }
   ]

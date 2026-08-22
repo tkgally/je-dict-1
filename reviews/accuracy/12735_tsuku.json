@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:09:44Z",
+  "reviewed_at": "2026-08-22T00:18:38Z",
   "summary": {
     "flagged": 2
   },
@@ -17,15 +17,15 @@
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The headword gloss 'to poke, to thrust, to prop' is incomplete and misleading because it omits a very common and distinct meaning of 'つく' (to tell a lie, to utter). This meaning is present in example 1 but not reflected in the main gloss or definitions.",
-      "suggestion": "Add 'to tell (a lie)' or similar to the main gloss."
+      "concern": "The main gloss includes 'to prop', which is only one sense of the word, and omits 'to tell (a lie)' which is a common usage.",
+      "suggestion": "Change to 'to poke, to thrust, to tell (a lie)'"
     },
     {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
+      "dimension": "translation",
+      "location": "examples[1]",
       "severity": "error",
-      "concern": "The gloss 'to poke, to thrust, to stab' for sense 1 is incomplete and misleading because it omits a very common and distinct meaning of 'つく' (to tell a lie, to utter). This meaning is present in example 1 but not reflected in the main gloss or definitions.",
-      "suggestion": "This definition should be split, or a new definition added, to account for 'to tell (a lie)'."
+      "concern": "The English translation 'To tell a lie.' is too literal and doesn't capture the nuance of '嘘を突く' which is more about 'telling a falsehood' or 'lying'.",
+      "suggestion": "Change to 'To lie.'"
     }
   ]
 }
