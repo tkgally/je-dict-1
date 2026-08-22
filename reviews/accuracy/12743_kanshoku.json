@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:09:54Z",
+  "reviewed_at": "2026-08-22T00:18:45Z",
   "summary": {
     "flagged": 2
   },
@@ -16,16 +16,16 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'sensation' is not in the valid tag list.",
-      "suggestion": "health"
+      "severity": "error",
+      "concern": "The tag 'sensation' is not in the valid tag list.",
+      "suggestion": "Replace 'sensation' with 'body-part' or 'health' or 'general'."
     },
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'body' is not in the valid tag list.",
-      "suggestion": "body-part"
+      "severity": "error",
+      "concern": "The tag 'body' is not in the valid tag list.",
+      "suggestion": "Replace 'body' with 'body-part' or 'health' or 'general'."
     }
   ]
 }

@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:11:53Z",
+  "reviewed_at": "2026-08-22T00:20:17Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "gloss",
+      "dimension": "tags",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The gloss 'peace; piece' is misleading because the Japanese word ピース (piisu) does not directly mean 'peace' in the sense of 'absence of conflict' as a standalone word. It primarily refers to 'piece' or the 'peace sign' gesture. The 'peace' meaning only appears in compounds like 世界ピース (sekai piisu, world peace) or ピースサイン (peace sign). Presenting 'peace' as a direct, standalone gloss for ピース is inaccurate and could confuse learners.",
-      "suggestion": "Change the gloss to 'piece; peace sign'."
+      "concern": "The tag 'general' is too vague for a word with specific meanings like 'peace' and 'piece'.",
+      "suggestion": "Add 'abstract' for the 'peace' sense and 'quantity' or 'general' for the 'piece' sense, or split the entry if the senses are too disparate."
     }
   ]
 }

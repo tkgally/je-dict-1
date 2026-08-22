@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:11:41Z",
+  "reviewed_at": "2026-08-22T00:20:10Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "semantic_tags",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'general' is too vague for a word with more specific meanings related to materials and actions.",
-      "suggestion": "action, daily-life"
+      "concern": "The tag 'general' is too broad for a word with specific meanings related to waste and clippings. 'action' is also missing for the verb-suru form.",
+      "suggestion": "['action', 'daily-life']"
     }
   ]
 }

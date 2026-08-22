@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:10:00Z",
+  "reviewed_at": "2026-08-22T00:18:50Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The tag 'war' is not in the valid tag list.",
-      "suggestion": "military"
+      "concern": "The gloss includes 'strategy', which is incorrect for 戦術 (tactics).",
+      "suggestion": "tactics"
     }
   ]
 }

@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:12:36Z",
+  "reviewed_at": "2026-08-22T00:20:53Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'general' is too vague for a word with specific meanings like 'guideline' and 'pointer/needle'.",
-      "suggestion": "Replace 'general' with more specific tags like 'cognition' (for guideline/principle) and 'tool' (for pointer/needle)."
+      "concern": "The tag 'general' is too vague for a word with specific meanings like 'guideline' and 'pointer'.",
+      "suggestion": "Add 'cognition' for sense 1 and 'tool' for sense 2, or 'general' if a single tag is required, but 'cognition' and 'tool' are more precise."
     }
   ]
 }

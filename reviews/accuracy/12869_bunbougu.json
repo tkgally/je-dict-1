@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:12:29Z",
+  "reviewed_at": "2026-08-22T00:20:48Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'tool' is too narrow for '文房具' (stationery/office supplies), which includes items like paper, notebooks, and erasers that are not typically considered tools.",
+      "suggestion": "Replace 'tool' with 'daily-life' or 'shopping' or 'general'."
+    }
+  ]
 }
