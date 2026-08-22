@@ -1554,3 +1554,16 @@ its COMMON EXPRESSIONS notes, but neither of its two senses ("to poke,
 thrust" / "to prop, lean on") covers that meaning, and 嘘をつく is normally
 written in kana or as 嘘を吐く. Flagged to the curator; needs a third sense,
 a kana rewrite of the example, or removal.
+
+[tooling] `kanji/kanji_list.json` carries two count fields in its metadata:
+`total_kanji`, which `update_kanji_index.py` keeps current, and a legacy
+`count`, which nothing updates. As of 2026-08-22 they read 2798 and 2794 — the
+gap grows every time a run assigns new kanji IDs. Either have the script write
+both or drop `count` from the file.
+
+[pattern] The "seen in entry" candidate lane keeps surfacing kana/kanji
+orthography twins of words that already have entries: this run found 思いつき
+queued while {思|おも}い{付|つ}き (27771) already existed, and removed it as a
+stale candidate. `check_duplicate.py` catches these only via its homophone
+note, so they survive vetting. A reading-plus-normalized-okurigana match in the
+candidate-add path would stop them being queued in the first place.
