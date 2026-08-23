@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T18:07:35Z",
+  "reviewed_at": "2026-08-23T00:27:57Z",
   "summary": {
     "flagged": 4
   },
@@ -17,29 +17,29 @@
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The main gloss is missing a key meaning present in the examples and definitions.",
-      "suggestion": "Add 'to exceed' or 'to surpass' to the main gloss."
+      "concern": "The main gloss is missing the meaning 'to get through/overcome' which is present in examples 2 and 6.",
+      "suggestion": "to cross, to pass, to move, to get through"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "This gloss is too narrow. While 'to move (residence)' is a common usage, the verb 越す itself doesn't inherently mean 'residence'. It's the combination with 引っ (引越し) that specifies residence. 越す alone in this sense means 'to move to a place'.",
+      "suggestion": "to move (to a place)"
     },
     {
       "dimension": "translation",
       "location": "examples[2]",
       "severity": "error",
-      "concern": "The English translation 'To get through winter' for '冬を越す' is too narrow. While 'get through' is one possible meaning, '越す' in this context also implies 'to spend' or 'to pass' (e.g., 'to spend the winter'). The current translation might mislead learners into thinking it only means overcoming hardship.",
-      "suggestion": "Change to 'To spend the winter' or 'To pass the winter'."
+      "concern": "The translation 'To get through winter' introduces a meaning not explicitly covered by the glosses, which focus on 'cross, pass, move, exceed'. This usage of 越す means 'to get through' or 'to live through' a period of time.",
+      "suggestion": "Add a new sense for 'to get through (a period of time)' or adjust existing glosses to include this meaning."
     },
     {
       "dimension": "translation",
       "location": "examples[6]",
       "severity": "error",
-      "concern": "The English translation 'I got through the crisis' for '危機を越した' is too narrow. While 'get through' is one possible meaning, '越す' in this context also implies 'to overcome' or 'to surmount' (e.g., 'I overcame the crisis'). The current translation might mislead learners into thinking it only means enduring hardship.",
-      "suggestion": "Change to 'I overcame the crisis' or 'I surmounted the crisis'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[13]",
-      "severity": "error",
-      "concern": "The English translation 'I broke the record' for '記録を越した' is too specific. While 'breaking a record' is a common way to exceed a record, '越す' simply means 'to exceed' or 'to surpass'. The translation should reflect this broader meaning.",
-      "suggestion": "Change to 'I exceeded the record' or 'I surpassed the record'."
+      "concern": "The translation 'I overcame the crisis' introduces a meaning not explicitly covered by the glosses, which focus on 'cross, pass, move, exceed'. This usage of 越す means 'to overcome' or 'to get over' a difficulty.",
+      "suggestion": "Add a new sense for 'to overcome' or adjust existing glosses to include this meaning."
     }
   ]
 }

@@ -1567,3 +1567,30 @@ queued while {思|おも}い{付|つ}き (27771) already existed, and removed it
 stale candidate. `check_duplicate.py` catches these only via its homophone
 note, so they survive vetting. A reading-plus-normalized-okurigana match in the
 candidate-add path would stop them being queued in the first place.
+
+[pattern] Verb entries created in the 06999–07003 block (and probably the whole
+run of compound-verb entries around them) open their notes with a three-line
+conjugation list — negative, te-form, past — that simply repeats data already
+held in the entry's `conjugation` field and rendered as a table on the page.
+This run removed the duplicate lines from 06999, 07000, 07001, 07002 and 07003.
+`build/check_artifacts.py` already detects this family (dup-conjugation); a
+sweep over the compound-verb ranges would clear the rest in one systemic-fix
+run rather than one entry at a time.
+
+[pattern] Entries in the 06995–07003 range have no inline word links at all —
+not in examples and not in notes — while neighbouring entry 07004 is fully
+linked. The comprehensive frontier has not reached this block yet, so the
+polish lane is doing the linking entry by entry. Nothing is wrong with that,
+but it means each frontier entry in this range costs a full linking pass
+(20–40 lookups), which is worth knowing when sizing future polish runs.
+
+[entry] 02485 {気持|きも}ち duplicates 01385 {気持|きも}ち — same headword, same
+reading, same gloss ("feeling, mood"). Inline links in the wild point at 01385.
+Needs a consolidation decision (keep 01385, redirect 02485) rather than a
+polish pass.
+
+[entry] 01484 なぜ is tagged `pos: ["noun"]` with semantic `general`, while its
+near-synonyms どうして (00834) and なんで (03875) are both `adverb` with semantic
+`descriptive`. なぜ is an interrogative adverb; the noun tag looks like a
+template default that survived. Worth checking the whole interrogative family
+for the same slip.

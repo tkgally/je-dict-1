@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06995_amido_ex1",
-      "japanese": "{夏|なつ}は{網戸|あみど}にして{風|かぜ}を{通|とお}す。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{網戸|あみど}⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦{風|かぜ}→風：00641_kaze⟧⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧。",
       "english": "In summer, I use the screen door to let the breeze through.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06995_amido_ex2",
-      "japanese": "{網戸|あみど}に{穴|あな}が{開|あ}いて{蚊|か}が{入|はい}ってきた。",
+      "japanese": "{網戸|あみど}⟦に→に：00314_ni⟧⟦{穴|あな}→穴：01691_ana⟧⟦が→が：00051_ga⟧⟦{開|あ}いて→開く：00689_aku⟧⟦{蚊|か}→蚊：04294_ka⟧⟦が→が：00051_ga⟧⟦{入|はい}って→入る：00494_hairu⟧⟦きた→来る：00254_kuru⟧。",
       "english": "Mosquitoes got in through a hole in the screen.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06995_amido_ex3",
-      "japanese": "{網戸|あみど}を{張|は}り{替|か}える{時期|じき}だ。",
+      "japanese": "{網戸|あみど}⟦を→を：00422_wo⟧⟦{張|は}り{替|か}える→張り替える：28418_harikaeru⟧⟦{時期|じき}→時期：03269_jiki⟧⟦だ→だ：09496_da⟧。",
       "english": "It's time to replace the screen.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{網|あみ} (net/mesh) + {戸|ど} (door). The reading {戸|ど} is a voiced compound form.\n\nCOLLOCATIONS:\n・{網戸|あみど}を{閉|し}める - to close the screen door\n・{網戸|あみど}を{張|は}り{替|か}える - to replace the screen\n・{網戸|あみど}の{網|あみ} - screen mesh\n・{網戸|あみど}を{掃除|そうじ}する - to clean the screen\n\nCULTURAL NOTES:\nScreen doors are ubiquitous in Japanese homes and are essential for summer living. Most Japanese windows are designed with sliding screen panels. Replacing or repairing screens ({網|あみ}の{張|は}り{替|か}え) is a common household maintenance task.",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\n⟦{網|あみ}→網：22587_ami⟧ (net/mesh) + ⟦{戸|と}→戸：00676_to⟧ (door). The reading {戸|ど} is a voiced compound form.\n\nCOLLOCATIONS:\n・{網戸|あみど}⟦を→を：00422_wo⟧⟦{閉|し}める→閉める：00485_shimeru⟧ - to close the screen door\n・{網戸|あみど}⟦を→を：00422_wo⟧⟦{張|は}り{替|か}える→張り替える：28418_harikaeru⟧ - to replace the screen\n・{網戸|あみど}⟦の→の：09472_no⟧⟦{網|あみ}→網：22587_ami⟧ - screen mesh\n・{網戸|あみど}⟦を→を：00422_wo⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦する→する：00392_suru⟧ - to clean the screen\n\nCULTURAL NOTES:\nScreen doors are ubiquitous in Japanese homes and are essential for summer living. Most Japanese windows are designed with sliding screen panels. Replacing or repairing screens (⟦{網|あみ}→網：22587_ami⟧⟦の→の：09472_no⟧⟦{張|は}り{替|か}え→張り替える：28418_harikaeru⟧) is a common household maintenance task.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "あみ",
+      "headword": "{網|あみ}",
+      "label": "the mesh itself",
+      "target_id": "22587_ami"
+    },
+    {
+      "type": "related",
+      "reading": "と",
+      "headword": "{戸|と}",
+      "label": "door",
+      "target_id": "00676_to"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T13:10:21Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-08-23T00:22:23Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

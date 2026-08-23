@@ -54,7 +54,7 @@
     },
     {
       "id": "03979_kana_ex5",
-      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{仮名|かな}⟦と→と：00512_to⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧がある。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{仮名|かな}⟦と→と：00512_to⟧⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Japanese has kana and kanji.",
       "notes": null,
       "has_audio": false,
@@ -76,11 +76,18 @@
       "reading": "かたかな",
       "headword": "{片仮名|かたかな}",
       "target_id": "02866_katakana"
+    },
+    {
+      "type": "contrast",
+      "reading": "かんじ",
+      "headword": "{漢字|かんじ}",
+      "label": "the other writing system",
+      "target_id": "09480_kanji"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-05-28T16:14:48Z",
+    "modified": "2026-08-23T00:18:50Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -90,7 +97,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "language"
       ]
     }
   }

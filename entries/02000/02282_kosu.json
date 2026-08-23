@@ -3,7 +3,7 @@
   "headword": "{越|こ}す",
   "reading": "こす",
   "part_of_speech": "godan verb, intransitive/transitive",
-  "gloss": "to cross, to pass, to move",
+  "gloss": "to cross, to get through, to move, to exceed",
   "conjugation": {
     "type": "godan",
     "forms": [
@@ -97,8 +97,8 @@
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "to cross, to go over",
-      "explanation": "To pass over something like a mountain or border."
+      "gloss": "to cross, to go over; to get through (a period or difficulty)",
+      "explanation": "To pass over something like a mountain or a border. By extension, to come out the other side of a stretch of time or a hardship: {冬|ふゆ}⟦を→を：00422_wo⟧{越|こ}す (to get through the winter), {危機|きき}⟦を→を：00422_wo⟧{越|こ}す (to get past a crisis)."
     },
     {
       "sense_number": 2,
@@ -184,7 +184,7 @@
     },
     {
       "id": "02282_kosu_ex8",
-      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧{引|ひ}っ{越|こ}す。",
+      "japanese": "⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧。",
       "english": "I'm moving next month.",
       "notes": null,
       "has_audio": false,
@@ -273,11 +273,26 @@
       ]
     }
   ],
-  "notes": "{越|こ}す means to cross over, move past, or exceed something.\n\nTRANSITIVITY:\nCan be both transitive and intransitive depending on usage.\n\nTHREE MAIN MEANINGS:\n1. To cross/pass over: ⟦{山|やま}→山：02168_yama⟧⟦を→を：00422_wo⟧{越|こ}す (cross a mountain)\n2. To move residence: ⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{越|こ}す\n3. To exceed: ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{越|こ}す (exceed the budget)\n\nCOMMON COMPOUNDS:\n- ⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧: to move (residence)\n- ⟦{乗|の}り{越|こ}す→乗り越す：21606_norikosu⟧: to ride past one's stop\n- ⟦{追|お}い{越|こ}す→追い越す：04623_oikosu⟧: to overtake, pass by\n- ⟦{年|とし}→年：00486_toshi⟧⟦を→を：00422_wo⟧{越|こ}す: to see the New Year in\n\nCONTRAST WITH ⟦{超|こ}える→超える：01942_koeru⟧:\nBoth mean \"to exceed,\" but {越|こ}す emphasizes physical crossing while {超|こ}える emphasizes surpassing limits.",
-  "cross_references": [],
+  "notes": "{越|こ}す means to cross over, move past, or exceed something.\n\nTRANSITIVITY:\nCan be both transitive and intransitive depending on usage.\n\nTHREE MAIN MEANINGS:\n1. To cross/pass over: ⟦{山|やま}→山：02168_yama⟧⟦を→を：00422_wo⟧{越|こ}す (cross a mountain)\n2. To move residence: ⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{越|こ}す\n3. To exceed: ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{越|こ}す (exceed the budget)\n\nCOMMON COMPOUNDS:\n- ⟦{引|ひ}っ{越|こ}す→引っ越す：01171_hikkosu⟧: to move (residence)\n- ⟦{乗|の}り{越|こ}す→乗り越す：21606_norikosu⟧: to ride past one's stop\n- ⟦{追|お}い{越|こ}す→追い越す：04623_oikosu⟧: to overtake, pass by\n- ⟦{年|とし}→年：00486_toshi⟧⟦を→を：00422_wo⟧{越|こ}す: to see the New Year in\n\nCONTRAST WITH ⟦{超|こ}える→超える：01942_koeru⟧:\nBoth mean \"to exceed,\" but {越|こ}す emphasizes physical crossing while ⟦{超|こ}える→超える：01942_koeru⟧ emphasizes surpassing limits.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "こえる",
+      "headword": "{越|こ}える",
+      "label": "same kanji, -eru form",
+      "target_id": "02099_koeru"
+    },
+    {
+      "type": "contrast",
+      "reading": "こえる",
+      "headword": "{超|こ}える",
+      "label": "exceeding a limit rather than crossing",
+      "target_id": "01942_koeru"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:15:18Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-08-23T00:28:42Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
