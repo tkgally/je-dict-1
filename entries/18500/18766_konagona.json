@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "18766_konagona_ex1",
-      "japanese": "コップが{粉々|こなごな}に{割|わ}れた。",
+      "japanese": "⟦コップ→コップ：00862_koppu⟧⟦が→が：00051_ga⟧{粉々|こなごな}⟦に→に：00314_ni⟧⟦{割|わ}れた→割れる：00907_wareru⟧。",
       "english": "The glass shattered into pieces.",
       "sense_numbers": [
         1
@@ -25,7 +25,7 @@
     },
     {
       "id": "18766_konagona_ex2",
-      "japanese": "{落|お}とした{皿|さら}が{粉々|こなごな}になってしまった。",
+      "japanese": "⟦{落|お}とした→落とす：01246_otosu⟧⟦{皿|さら}→皿：00883_sara⟧⟦が→が：00051_ga⟧{粉々|こなごな}⟦に→に：00314_ni⟧⟦なって→なる：01970_naru⟧⟦しまった→仕舞う：03064_shimau⟧。",
       "english": "The plate I dropped was smashed to bits.",
       "sense_numbers": [
         1
@@ -35,7 +35,7 @@
     },
     {
       "id": "18766_konagona_ex3",
-      "japanese": "{長年|ながねん}の{夢|ゆめ}が{粉々|こなごな}に{打|う}ち{砕|くだ}かれた{気持|きも}ちだった。",
+      "japanese": "⟦{長年|ながねん}→長年：09684_naganen⟧⟦の→の：09472_no⟧⟦{夢|ゆめ}→夢：01519_yume⟧⟦が→が：00051_ga⟧{粉々|こなごな}⟦に→に：00314_ni⟧⟦{打|う}ち{砕|くだ}かれた→打ち砕く：30356_uchikudaku⟧⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦だった→だ：09496_da⟧。",
       "english": "I felt as though my long-held dream had been shattered to pieces.",
       "sense_numbers": [
         1
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Almost always appears with the particle に: {粉々|こなごな}に{割|わ}れる (to shatter into pieces), {粉々|こなごな}に{砕|くだ}く (to crush to bits), {粉々|こなごな}になる (to be smashed to pieces). Can also function as a na-adjective: {粉々|こなごな}な{状態|じょうたい} (a shattered state). The word is a reduplication of {粉|こな} (powder), emphasizing complete fragmentation. Related: ばらばら (scattered in pieces — suggests separation rather than shattering), めちゃくちゃ (wrecked, in a mess — broader destruction).",
+  "notes": "USAGE: Almost always appears with the particle ⟦に→に：00314_ni⟧ before a verb of breaking:\n・{粉々|こなごな}⟦に→に：00314_ni⟧⟦{割|わ}れる→割れる：00907_wareru⟧ (to shatter into pieces)\n・{粉々|こなごな}⟦に→に：00314_ni⟧⟦{砕|くだ}く→砕く：03920_kudaku⟧ (to crush to bits)\n・{粉々|こなごな}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to be smashed to pieces)\n\nNA-ADJECTIVE USE: Less common, but possible before a noun:\n・{粉々|こなごな}な⟦{状態|じょうたい}→状態：03345_joutai⟧ (a shattered state)\n\nFORMATION: A reduplication of ⟦{粉|こな}→粉：02766_kona⟧ (powder), emphasizing complete fragmentation.\n\nSIMILAR WORDS:\n・⟦ばらばら→ばらばら：05165_barabara⟧ - scattered in pieces; suggests separation rather than shattering\n・⟦めちゃくちゃ→めちゃくちゃ：05178_mechakucha⟧ - wrecked, in a mess; broader destruction, often figurative",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +60,29 @@
       ]
     },
     "created": "2026-03-23T03:34:14Z",
-    "modified": "2026-03-23T03:34:14Z"
-  }
+    "modified": "2026-08-23T00:21:09Z"
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "こな",
+      "headword": "{粉|こな}",
+      "label": "the base word (powder)",
+      "target_id": "02766_kona"
+    },
+    {
+      "type": "related",
+      "reading": "ばらばら",
+      "headword": "ばらばら",
+      "label": "scattered rather than shattered",
+      "target_id": "05165_barabara"
+    },
+    {
+      "type": "related",
+      "reading": "われる",
+      "headword": "{割|わ}れる",
+      "label": "the verb it most often modifies",
+      "target_id": "00907_wareru"
+    }
+  ]
 }
