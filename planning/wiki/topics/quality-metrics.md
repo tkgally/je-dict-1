@@ -2432,6 +2432,39 @@ Two, per this page's maintenance rule: the 74-hour scheduling gap (a cadence sig
 series can see but cannot explain), and P50's growth from 54 to 57 while the frontier advanced
 38 IDs — the first time the below-frontier zero-link residue has increased.
 
+### Interim note 2026-08-23 — the 74-hour gap was a cadence change, not an outage
+
+Not a refresh (only 5 new `metrics-history.jsonl` lines since refresh 38, against the ≥10
+threshold). This resolves the open question refresh 38 logged as a `[pattern]` observation: the
+74-hour scheduling gap could be seen in the series but not explained, and it "silently invalidates
+every per-window rate" computed across it.
+
+Reading the run timestamps on both sides answers it:
+
+| Period | Interval between runs |
+|---|---|
+| 2026-08-14 → 2026-08-17T00:34 | **~3.0 h**, twenty consecutive intervals within ±0.2 h |
+| 2026-08-17T00:34 → 2026-08-20T02:51 | **74.3 h** (the gap) |
+| 2026-08-20 | 3.7 h, 6.1 h, 5.8 h — settling |
+| 2026-08-21T00:29 → 2026-08-23T00:30 | **~12.0 h**, four consecutive intervals within ±0.1 h |
+
+**An outage does not end in a new stable period.** The Routine resumed at a different, equally
+tight cadence — 12 hours where it had been 3 — held for four consecutive intervals, and this run
+fired on it as well. That is a schedule being changed, almost certainly by hand, not a failure
+being recovered from. Refresh 38's caution about per-window rates still applies, but for a
+different and more permanent reason than it supposed:
+
+**Throughput per window is now structurally ~4× lower**, from roughly 8 runs/day to 2. Every
+rate on this page that is expressed per-window or per-day — entries changed, flags adjudicated,
+review-queue growth, OpenRouter spend — has a discontinuity at 2026-08-17, and comparisons that
+straddle it are comparing two different machines. Rates quoted **per run** are unaffected and
+should be preferred in refresh headlines from here on.
+
+The one recommendation refresh 38 made still stands and is now cheap to act on: a line in
+`PROJECT_STATUS.md` when the schedule changes would let a refresh distinguish a decision from an
+outage without inferring it from interval arithmetic. This is the second time the series has had
+to guess.
+
 ## How this page is maintained
 
 `wiki`-mode Routine runs regenerate this page from the two ledgers when ≥10 new

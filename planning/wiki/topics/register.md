@@ -1,6 +1,12 @@
 # Register and Formality
 
-**Last updated**: 2026-08-09 (added the measured `politeness`-tag drift class: the 両親 error
+**Last updated**: 2026-08-23 (added a third way the register fields fail: `formality` is
+entry-level, so an entry whose senses differ in register — 12766 念, formal 感謝の念 beside
+everyday 念のため — has no right value to carry. Recorded as a curator question with the cost of
+a per-sense override spelled out, and with the note that a count of split-register entries should
+precede the ruling, since nobody has one)
+
+Prior 2026-08-09 (added the measured `politeness`-tag drift class: the 両親 error
 generalises to **16 noun entries**, about half of them genuine, and the distinguishing failure
 is tagging a word that *denotes* deference — 尊敬, 謙遜 — as one that *encodes* it)
 
@@ -232,6 +238,51 @@ Two consequences worth carrying:
    the same evidence source works for *finding* errors, not just rejecting them: in every one of
    the eight drift cases the gloss already says the word is neutral. A tag that contradicts its
    own entry's gloss is checkable without a model.
+
+## Gap: `formality` is entry-level, but register can differ by sense (2026-08-22)
+
+A third way the same field fails to say what it needs to. The two above are about *which*
+distinction the label draws; this one is about *how many* labels the entry gets: exactly one,
+regardless of how many senses it has.
+
+**The case**: **12766 {念|ねん}** is tagged `formality: "formal"`, and its own notes say so only
+for half of it. Sense 1 — deep feeling, as in 感謝の念 (gratitude), 畏敬の念 (awe) — is unambiguously
+formal, literary, and largely confined to written and set-phrase use. Sense 2 is the everyday
+念のため ("just in case"), which any speaker uses in ordinary conversation. `formal` is wrong for
+sense 2; `neutral` would be wrong for sense 1. There is no third value that is right, because
+the problem is not the value.
+
+The 2026-08-22 accuracy reviewer flagged the tag as wrong, which is correct in the only sense
+available to it — but the flag is unactionable, and a reviewer that keeps flagging entries where
+no available value is right is generating noise that looks like signal. That is the practical
+cost of the gap: it does not just mislabel entries, it contaminates the flag-precision statistics
+on [Quality Metrics](quality-metrics.md).
+
+**The question for the curator**: should `formality` — and by extension `politeness` and `style`
+— be permitted at the definition level, overriding the entry-level value for the handful of
+entries with split register?
+
+Arguments and costs, so the decision is not made on the strength of one example:
+
+- **For**: the entry-level field is a *lexeme* claim, and register is a property of a sense, not
+  of a spelling. Split-register entries are exactly the ones where a learner most needs the
+  label, because the two senses look identical on the page.
+- **Against**: every consumer of `metadata.tags.formality` — the renderer, `check_tag_drift.py`,
+  `validate_tags.py`, the accuracy-reviewer prompt, and the register-markedness detectors behind
+  [Cleanup P37](../ideas/cleanup-backlog.md#priority-37) and
+  [`tag-register-marked-basic-core`](../ideas/cleanup-backlog.md) — would need a fallback rule.
+  A per-sense override that most consumers ignore is worse than no override, because entries
+  would then carry a correct label that nothing reads.
+- **Unmeasured**: how many entries actually split. 念 is one. The population is probably small —
+  polysemy that crosses a register boundary is not the common case — but nobody has counted, and
+  the answer decides whether this is a schema change or four hand-written notes. **A count should
+  precede the ruling**: the cheap proxy is entries whose notes name a register distinction
+  between numbered senses.
+
+**Interim handling**: where the two senses differ, the entry-level tag should take the value that
+fits the *more common* sense and the notes should state the split explicitly, as 12766's already
+do. That is not a fix — it just means the entry is right where a learner will read it, and wrong
+only where a detector will.
 
 ## Implementation roadmap
 
