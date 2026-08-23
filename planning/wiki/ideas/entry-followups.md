@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-08-16 (added four entries from the 2026-08-15/16 harvest, **each verified still-unfixed at harvest time**: **03647 優勝** tagged `food`; **05212 忍耐** carrying the off-vocabulary tags `endurance`/`psychology`, whose own lexical family disagrees three ways; **04651 関節痛**, whose `{痛|いたみ}` wrapper survived the run that repaired its tags and is the head of the new P64 class; and **04165 先程**, missing the 先ほど orthography line that keeps re-proposing a duplicate candidate. Entries whose filing run had already repaired them — 12305 官邸's swapped example translations, 06965 不協和音's dangling cross-reference — were checked and deliberately not listed.) Prior 2026-08-13 (2026-08-13 (added **08989 車席**, a probably-fabricated headword flagged five times by the reviewer and escalated rather than deleted; **08985 日日**, the wrong orthography for ひにち; **17576 摺り寄る**, a rare spelling as headword, found only because a duplicate-check mislabelled its common variant as a homophone; **06899 顔を出す**, whose top-level gloss covers one of two senses and which needs a convention ruling before it needs an edit; and **00743 音**, parked at sole-`general` because the tag vocabulary has no sound/perception slot. Also corrected a dangling "Cleanup P56" forward reference in the 06886 follow-up.) Prior 2026-08-12 (added **28358_buri** — the manner/style sense of 〜ぶり belongs in the existing time-interval entry, the second instance after 03515 日光 of a candidate that is real, is not a duplicate entry, and cannot be created because `check_duplicate.py` sees the headword as taken; **06886 haragatatsu** — 腹が立たしい corrected to 腹立たしい, with the sibling-idiom spot-check deferred to the frontier pass over the same creation cohort (P56); **00823/01525 若い** re-filed, a *second* report of a duplicate already on this page since 2026-08-08, recorded to make the re-filing cost visible — polish runs can only file consolidations, never perform them, so four are now open here; and a ruling recommendation for **historical era names**, filed as `event-name` for want of a fit when `time-period` + `proper-noun` are both already in `VALID_SEMANTIC` and say what an era actually is.) Prior 2026-07-27 (added **03794_warukuchi / 12672_waruguchi 悪口** — the same word split across two standard readings (わるくち / わるぐち), a variant-reading consolidation rather than a delete, needing a curator call on which reading leads the headword; and **08169_chuubi / 17946_nakabi 中火** — one of the two is simply wrong: 中火 is read ちゅうび, and なかび is the reading of 中日, so 17946 is either a mis-created duplicate or an entry that was meant to be 中日 and got the wrong kanji, notable because a 2026-07-20 furigana screen flagged its reading and the run *correctly* rejected the flag as an alternate reading — the real defect was invisible from inside the entry.) Prior 2026-07-26
+**Last updated**: 2026-08-23 (added six entries from the 2026-08-21/22 harvest, each verified still-unfixed: **30385 間に合わせる**, missing `transitivity` while its own `pair` link to 01142 states the answer; **12735 突く**, whose example writes 嘘を突く in kanji for a sense the entry does not have, though its notes already document 嘘をつく correctly — so the fix is the example, not a new sense; and the **four katakana nouns tagged `formality: "formal"`** that survive the refuted formality detector (05081 バイク, 06960 デバイス, 08988 オペレーティングシステム, plus 03855 タイトル, whose real defect is a four-domain contaminated tag set). **01484 なぜ**'s `pos: ["noun"]` was filed as [Cleanup P67](cleanup-backlog.md#p67-the-interrogative-family--12-basic-tier-entries-six-semantic-labels-and-four-pos-labels) instead, since it is one member of a twelve-entry family that needs one ruling rather than twelve separate fixes.) Prior 2026-08-16 (added four entries from the 2026-08-15/16 harvest, **each verified still-unfixed at harvest time**: **03647 優勝** tagged `food`; **05212 忍耐** carrying the off-vocabulary tags `endurance`/`psychology`, whose own lexical family disagrees three ways; **04651 関節痛**, whose `{痛|いたみ}` wrapper survived the run that repaired its tags and is the head of the new P64 class; and **04165 先程**, missing the 先ほど orthography line that keeps re-proposing a duplicate candidate. Entries whose filing run had already repaired them — 12305 官邸's swapped example translations, 06965 不協和音's dangling cross-reference — were checked and deliberately not listed.) Prior 2026-08-13 (2026-08-13 (added **08989 車席**, a probably-fabricated headword flagged five times by the reviewer and escalated rather than deleted; **08985 日日**, the wrong orthography for ひにち; **17576 摺り寄る**, a rare spelling as headword, found only because a duplicate-check mislabelled its common variant as a homophone; **06899 顔を出す**, whose top-level gloss covers one of two senses and which needs a convention ruling before it needs an edit; and **00743 音**, parked at sole-`general` because the tag vocabulary has no sound/perception slot. Also corrected a dangling "Cleanup P56" forward reference in the 06886 follow-up.) Prior 2026-08-12 (added **28358_buri** — the manner/style sense of 〜ぶり belongs in the existing time-interval entry, the second instance after 03515 日光 of a candidate that is real, is not a duplicate entry, and cannot be created because `check_duplicate.py` sees the headword as taken; **06886 haragatatsu** — 腹が立たしい corrected to 腹立たしい, with the sibling-idiom spot-check deferred to the frontier pass over the same creation cohort (P56); **00823/01525 若い** re-filed, a *second* report of a duplicate already on this page since 2026-08-08, recorded to make the re-filing cost visible — polish runs can only file consolidations, never perform them, so four are now open here; and a ruling recommendation for **historical era names**, filed as `event-name` for want of a fit when `time-period` + `proper-noun` are both already in `VALID_SEMANTIC` and say what an era actually is.) Prior 2026-07-27 (added **03794_warukuchi / 12672_waruguchi 悪口** — the same word split across two standard readings (わるくち / わるぐち), a variant-reading consolidation rather than a delete, needing a curator call on which reading leads the headword; and **08169_chuubi / 17946_nakabi 中火** — one of the two is simply wrong: 中火 is read ちゅうび, and なかび is the reading of 中日, so 17946 is either a mis-created duplicate or an entry that was meant to be 中日 and got the wrong kanji, notable because a 2026-07-20 furigana screen flagged its reading and the run *correctly* rejected the flag as an alternate reading — the real defect was invisible from inside the entry.) Prior 2026-07-26
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -1746,6 +1746,55 @@ from those files, which were modified on 2026-08-20.
 
   Worth doing as one small polish batch, with the note that adding a transitive alternative
   alongside the existing gloss is usually better than replacing it.
+
+## Added 2026-08-23 (wiki harvest of the 2026-08-21/22 runs)
+
+Each verified still-unfixed at harvest time.
+
+### 30385 {間|ま}に{合|あ}わせる — no `transitivity` tag, on the transitive half of a linked pair
+
+`tags.transitivity` is absent, while the entry carries an explicit `pair` cross-reference to
+**01142 {間|ま}に{合|あ}う**, which *is* tagged `intransitive`. The pair link states the answer the
+missing field should hold, so this needs no semantic judgment at all — it is a one-field
+backfill, and the kind of case
+[Tooling 39](tooling-backlog.md) argues should be a free consistency check rather than a
+follow-up. Filed by the 2026-08-21 polish run under the no-neighbour-polishing rule.
+
+### 12735 {突|つ}く — the example uses kanji its own notes say to avoid, for a sense it does not have
+
+The entry's two senses are "to poke, to thrust, to stab" and "to prop, to lean on". Its
+**example sentence reads `{嘘|うそ}を{突|つ}く。` ("to tell a lie")**, which neither sense covers.
+
+The 2026-08-22 run filed this as needing "a third sense, a kana rewrite of the example, or
+removal". Reading the entry narrows it: the notes **already handle the lexical problem** — they
+say "{嘘|うそ}をつく is a fixed expression. Often written in kana only", list it under COMMON
+EXPRESSIONS beside 肘をつく / 杖をつく / 溜め息をつく, and carry a NOTE that many of these are
+written in kana rather than with 突. So the entry knows what it is doing everywhere except in
+the example, which writes the kanji form the notes warn against, for a meaning the sense list
+does not offer.
+
+**Recommended fix**: rewrite the example to kana (嘘をつく) or replace it with one of the senses
+the entry actually documents (肘をつく, 杖をつく). Adding a third sense is not needed — the
+expression is already documented as an expression. No new sense, no deletion.
+
+### Four katakana nouns tagged `formality: "formal"`
+
+The residue of the [refuted formality detector](cleanup-backlog.md#refuted-a-formality-formal-detector-for-everyday-concrete-nouns):
+restricting "everyday concrete noun tagged `formal`" to pure-katakana headwords leaves exactly
+four entries dictionary-wide, and three are wrong on sight.
+
+- **05081 バイク** (core, `transportation`) — a motorbike is not a formal word. Clearly `neutral`.
+- **06960 デバイス** (`electronics`) — technical, not formal. Also a member of
+  [P50](cleanup-backlog.md#p50-is-growing-and-its-members-were-visited-not-skipped--57-from-54)
+  (zero inline links behind the frontier) and still carrying its 2026-01-19 creation-cleanup
+  `modified` date.
+- **08988 オペレーティングシステム** (`electronics`) — same reading; technical register, not formal.
+- **03855 タイトル** — a bonus find rather than a formality case. Its semantic tags read
+  **`communication`, `food`, `leisure`, `tool`**, which is a textbook
+  [P11](cleanup-backlog.md#priority-11) example-topic contamination: four unrelated domains
+  harvested from four example sentences. The formality tag is the smaller of its two problems.
+
+Four entries, one field each (three of them), plus one tag-set rewrite. Worth one small batch.
 
 ## Related pages
 
