@@ -1519,3 +1519,49 @@ _(The 12 observations from the 2026-08-21 wiki run, the 2026-08-21 polish run, a
   removed 1,752 lines' worth of entries that no longer carry off-vocab tags (earlier
   migrations never refreshed it). The ratchet was therefore tolerating far more than
   it needed to. Worth regenerating after every migration pass, as CLAUDE.md says.
+
+## 2026-08-24 — routine(polish) (priority lane: notes.txt lines 270–280; frontier: 07005–07012)
+
+- [pattern] **The 07000 block opens verb notes with a conjugation stub that duplicates
+  the `conjugation` field.** 07005, 07007, 07008, and 07009 all began with three lines
+  of `・X → Xない (negative) / Xて (te-form) / Xた (past)`. Every one of those forms is
+  already in the entry's own conjugation table and is rendered on the page from there,
+  so the stub is pure duplication that also crowds out the TRANSITIVITY and
+  COMMON PATTERNS sections the verb note template calls for. Removed in these four.
+  Worth a detector sweep: the pattern is a fixed three-line shape and should be
+  cheap to match (`check_artifacts.py` already owns the dup-conjugation family).
+
+- [pattern] **`・` bullets instead of `- ` in the same block.** 07005–07012 use the
+  full-width bullet throughout their notes. `score_note_quality.py` only credits
+  `\n- `, so these notes lose the 10-point bullet score despite being properly
+  bulleted, and the site renders them inconsistently with the rest of the dictionary.
+  A mechanical `・` → `- ` sweep at line starts inside notes looks safe and would lift
+  a large number of scores; worth adding to the cleanup backlog.
+
+- [pattern] **Inline-link coverage stops mid-block in the 07000s.** 07006 is fully
+  linked; 07005 and 07007–07012 had essentially no links in their examples at all.
+  A linking pass appears to have been interrupted rather than to have skipped these
+  on purpose, so scanning for runs of consecutive unlinked entries (rather than
+  per-entry counts) would find the rest of the gap quickly.
+
+- [tooling] **`score_note_quality.py` credits section headers only when they are
+  ALL-CAPS** (`^[A-Z][A-Z /().-]+:`). A note headed `Common compounds:` scores exactly
+  the same as one with no headers at all, and also misses the optional-section credit
+  that the same header in caps would earn. That single rule is why ten core-tier nouns
+  in this run's priority lane sat at precisely 78: their content was fine, their
+  headers were sentence-case. Either the regex should accept title-case headers, or
+  the case convention should be stated in the vocabulary-notes skill (it currently
+  shows caps by example only). Until then, the priority list ranks presentation, not
+  substance, which is worth knowing when reading the rankings.
+
+- [entry] **07010 sennuki gave 「髪抜き」 as "tweezers".** The word is 毛抜き (けぬき);
+  髪抜き is not a word. Corrected this run, and 毛抜き added as a candidate.
+
+- [entry] **00126 jinji conflated two lemmata.** Sense 2 ("other people's affairs")
+  was illustrated by three examples that contained 他人事 (ひとごと) and never the
+  headword 人事 (じんじ) at all — and 他人事 already has its own entry, 09570. Removed
+  sense 2 and its examples, kept the reading trap as a note, and cross-linked the two
+  entries. `check_example_headword.py` (P19) is the detector for this class; it is
+  worth running over the whole dictionary rather than waiting for the polish frontier
+  to reach each case, since a sense whose examples never contain its headword is
+  almost always a merge of two words.

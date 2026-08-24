@@ -41,13 +41,48 @@
       "sense_numbers": [
         1
       ]
+    },
+    {
+      "id": "00218_ketsuatsu_ex4",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{血圧|けつあつ}⟦を→を：00422_wo⟧⟦{測|はか}っています→測る：01977_hakaru⟧。",
+      "english": "I measure my blood pressure every morning.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00218_ketsuatsu_ex5",
+      "japanese": "⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧{血圧|けつあつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦と→と：00512_to⟧⟦{言|い}われて→言う：00515_iu⟧、⟦{塩分|えんぶん}→塩分：09945_enbun⟧⟦に→に：00314_ni⟧⟦{気|き}をつけています→気をつける：09771_kiwotsukeru⟧。",
+      "english": "The doctor told me my blood pressure is high, so I am watching my salt intake.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{血圧|けつあつ} is an important medical term.\n\nTypes of blood pressure:\n- ⟦{上|うえ}→上：00682_ue⟧⟦の→の：09472_no⟧{血圧|けつあつ} / ⟦{最高|さいこう}→最高：02637_saikou⟧{血圧|けつあつ} (systolic blood pressure)\n- ⟦{下|した}→下：00670_shita⟧⟦の→の：09472_no⟧{血圧|けつあつ} / ⟦{最低|さいてい}→最低：01412_saitei⟧{血圧|けつあつ} (diastolic blood pressure)\n\nConditions:\n- ⟦{高|こう}{血圧|けつあつ}→高血圧：04415_kouketsuatsu⟧ (high blood pressure, hypertension)\n- ⟦{低|てい}{血圧|けつあつ}→低血圧：07103_teiketsuatsu⟧ (low blood pressure, hypotension)\n\nCommon collocations:\n- {血圧|けつあつ}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧ (to measure blood pressure)\n- {血圧|けつあつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧ (blood pressure is high/low)\n- {血圧|けつあつ}⟦{計|けい}→計：02691_kei⟧ (blood pressure monitor)\n- {血圧|けつあつ}⟦を→を：00422_wo⟧⟦{下|さ}げる→下げる：00807_sageru⟧/⟦{上|あ}げる→上げる：02443_ageru⟧ (to lower/raise blood pressure)",
-  "cross_references": [],
+  "notes": "{血圧|けつあつ} is the standard word at checkups, in pharmacies, and in everyday talk about health; it is not confined to medical writing.\n\nREADINGS ON A CHART:\n- ⟦{上|うえ}→上：00682_ue⟧⟦の→の：09472_no⟧{血圧|けつあつ}, formally ⟦{最高|さいこう}→最高：02637_saikou⟧{血圧|けつあつ} (systolic, the upper number)\n- ⟦{下|した}→下：00670_shita⟧⟦の→の：09472_no⟧{血圧|けつあつ}, formally ⟦{最低|さいてい}→最低：01412_saitei⟧{血圧|けつあつ} (diastolic, the lower number)\n\nCOMMON COLLOCATIONS:\n- {血圧|けつあつ}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧ (to take a blood pressure reading)\n- {血圧|けつあつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ / ⟦{低|ひく}い→低い：02947_hikui⟧ (blood pressure is high / low)\n- {血圧|けつあつ}⟦を→を：00422_wo⟧⟦{下|さ}げる→下げる：00807_sageru⟧ / ⟦{上|あ}げる→上げる：02443_ageru⟧ (to lower / raise blood pressure)\n- {血圧|けつあつ}⟦{計|けい}→計：02691_kei⟧ (blood pressure monitor)\n\nSIMILAR WORDS:\n- ⟦{高|こう}{血圧|けつあつ}→高血圧：04415_kouketsuatsu⟧ (hypertension, as a diagnosed condition)\n- ⟦{低|てい}{血圧|けつあつ}→低血圧：07103_teiketsuatsu⟧ (hypotension)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04415_kouketsuatsu",
+      "reading": "こうけつあつ",
+      "headword": "{高血圧|こうけつあつ}",
+      "label": "high blood pressure"
+    },
+    {
+      "type": "related",
+      "target_id": "07103_teiketsuatsu",
+      "reading": "ていけつあつ",
+      "headword": "{低血圧|ていけつあつ}",
+      "label": "low blood pressure"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:17:38Z",
-    "modified": "2026-05-09T23:41:35Z",
+    "modified": "2026-08-24T12:31:20Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
@@ -59,7 +94,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "health"
       ]
     }
   }

@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{日時|にちじ} combines ⟦{日|ひ}→日：02249_hi⟧ (day) and ⟦{時|とき}→時：02918_toki⟧ (time) to express both the date and time of an event. It is commonly used in formal contexts such as scheduling meetings, appointments, or events.\n\nCommon collocations:\n- {日時|にちじ}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ (to decide on a date and time)\n- {日時|にちじ}⟦を→を：00422_wo⟧⟦{指定|してい}する→指定：00373_shitei⟧ (to specify a date and time)\n- {日時|にちじ}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更：03616_henkou⟧ (to change the date and time)\n\nOften paired with ⟦{場所|ばしょ}→場所：00829_basho⟧ (location) when communicating event details.",
-  "cross_references": [],
+  "notes": "{日時|にちじ} is the date and the clock time treated as one piece of information. It is the heading you see on invitations, notices, and booking forms, normally next to ⟦{場所|ばしょ}→場所：00829_basho⟧.\n\nCOMMON COLLOCATIONS:\n- {日時|にちじ}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ (to fix a date and time)\n- {日時|にちじ}⟦を→を：00422_wo⟧⟦{指定|してい}する→指定：00373_shitei⟧ (to specify a date and time)\n- {日時|にちじ}⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更：03616_henkou⟧ (to reschedule)\n\nSIMILAR WORDS:\n- ⟦{日付|ひづけ}→日付：03706_hizuke⟧ - the date alone, with no time\n- ⟦{時刻|じこく}→時刻：03270_jikoku⟧ - a point in time on the clock, with no date\n- ⟦{時間|じかん}→時間：00468_jikan⟧ - time in general, or a length of time",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03706_hizuke",
+      "reading": "ひづけ",
+      "headword": "{日付|ひづけ}",
+      "label": "date"
+    },
+    {
+      "type": "related",
+      "target_id": "03270_jikoku",
+      "reading": "じこく",
+      "headword": "{時刻|じこく}",
+      "label": "time (on the clock)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T11:59:29Z",
-    "modified": "2026-05-10T15:10:02Z",
+    "modified": "2026-08-24T12:31:20Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07010_sennuki_ex1",
-      "japanese": "{栓|せん}{抜|ぬ}きでビール{瓶|びん}を{開|あ}けた。",
+      "japanese": "{栓|せん}{抜|ぬ}き⟦で→で：00502_de⟧⟦ビール→ビール：01015_biiru⟧⟦{瓶|びん}→瓶：01016_bin⟧⟦を→を：00422_wo⟧⟦{開|あ}けた→開ける：00563_akeru⟧。",
       "english": "I opened the beer bottle with a bottle opener.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07010_sennuki_ex2",
-      "japanese": "{栓|せん}{抜|ぬ}きがなくて、{歯|は}で{開|あ}けようとした。",
+      "japanese": "{栓|せん}{抜|ぬ}き⟦が→が：00051_ga⟧⟦なくて→ない：01118_nai⟧、⟦{歯|は}→歯：00778_ha⟧⟦で→で：00502_de⟧⟦{開|あ}けよう→開ける：00563_akeru⟧⟦と→と：00512_to⟧⟦した→する：00392_suru⟧。",
       "english": "I didn't have a bottle opener, so I tried to open it with my teeth.",
       "notes": "Not recommended!",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07010_sennuki_ex3",
-      "japanese": "この{栓|せん}{抜|ぬ}きは{缶切|かんき}りも{付|つ}いている。",
+      "japanese": "⟦この→この：00962_kono⟧{栓|せん}{抜|ぬ}き⟦は→は：00079_ha⟧⟦{缶切|かんき}り→缶切り：07011_kankiri⟧⟦も→も：00484_mo⟧⟦{付|つ}いている→付く：01960_tsuku⟧。",
       "english": "This bottle opener also has a can opener attached.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "Literally \"stopper puller\" — {栓|せん} (stopper/cap) + {抜|ぬ}き (from {抜|ぬ}く, to pull out). Used specifically for prying off metal bottle caps ({王冠|おうかん}).\n\nCOMMON PATTERNS:\n- {栓|せん}{抜|ぬ}きで{開|あ}ける: to open with a bottle opener\n- {王冠|おうかん}を{抜|ぬ}く: to remove a bottle cap\n\nWORD FORMATION PATTERN:\nThe ～{抜|ぬ}き pattern appears in several tool names:\n- コルク{抜|ぬ}き: corkscrew (cork + pull out)\n- {髪|かみ}{抜|ぬ}き: tweezers for plucking hair\n\nSimilarly, ～{切|き}り for cutting tools:\n- {缶切|かんき}り: can opener\n- {爪切|つめき}り: nail clippers\n- {紙切|かみき}りばさみ: paper scissors",
+  "notes": "A {栓|せん}{抜|ぬ}き is specifically for prying off a crimped metal bottle cap (⟦{王冠|おうかん}→王冠：15932_oukan⟧). A corkscrew is a different tool, ⟦コルク{抜|ぬ}き→コルク抜き：18004_korukunuki⟧. The name is literally 'stopper-puller': ⟦{栓|せん}→栓：19366_sen⟧ (stopper, cap) + {抜|ぬ}き, from ⟦{抜|ぬ}く→抜く：02384_nuku⟧ (to pull out).\n\nCOLLOCATIONS:\n- {栓|せん}{抜|ぬ}き⟦で→で：00502_de⟧⟦{開|あ}ける→開ける：00563_akeru⟧ (to open with a bottle opener)\n- {栓|せん}{抜|ぬ}き⟦{付|つ}き→付く：01960_tsuku⟧ (with a built-in bottle opener, on a multi-tool or keyring)\n\nWORD FORMATION:\nTool names are regularly built from a verb stem. 〜{抜|ぬ}き marks something that pulls out, and 〜{切|き}り something that cuts:\n- ⟦コルク{抜|ぬ}き→コルク抜き：18004_korukunuki⟧ (corkscrew)\n- ⟦{毛抜|けぬ}き→毛抜き：noentry⟧ (tweezers)\n- ⟦{缶切|かんき}り→缶切り：07011_kankiri⟧ (can opener)\n- ⟦{爪切|つめき}り→爪切り：05287_tsumekiri⟧ (nail clippers)",
   "cross_references": [
     {
       "type": "related",
@@ -62,7 +62,7 @@
   ],
   "metadata": {
     "created": "2026-01-18T13:35:29Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-08-24T12:31:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +72,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "tool"
       ]
     }
   }

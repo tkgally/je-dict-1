@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{本部|ほんぶ} refers to the central administrative location of an organization.\n\nCommon compounds:\n- ⟦{本社|ほんしゃ}→本社：09565_honsha⟧ (head office - specifically for companies)\n- ⟦{本店|ほんてん}→本店：09566_honten⟧ (main store/branch)\n- ⟦{対策|たいさく}→対策：02511_taisaku⟧{本部|ほんぶ} (response headquarters)\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦{対策|たいさく}→対策：02511_taisaku⟧{本部|ほんぶ} (election campaign headquarters)\n\nContrast:\n- {本部|ほんぶ} - headquarters (general, can be temporary)\n- ⟦{本社|ほんしゃ}→本社：09565_honsha⟧ - head office (specifically for corporations)\n- ⟦{支部|しぶ}→支部：09675_shibu⟧/⟦{支店|してん}→支店：03185_shiten⟧ - branch (opposite of headquarters)",
-  "cross_references": [],
+  "notes": "{本部|ほんぶ} is the centre that directs an organisation — a company division, a police force, a political campaign, a disaster response team. It names the command function, so it can be set up temporarily as well as permanently.\n\nCOMPOUNDS:\n- ⟦{対策|たいさく}→対策：02511_taisaku⟧{本部|ほんぶ} (response headquarters, set up to handle a specific problem)\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧⟦{対策|たいさく}→対策：02511_taisaku⟧{本部|ほんぶ} (election campaign headquarters)\n\nSIMILAR WORDS:\n- ⟦{本社|ほんしゃ}→本社：09565_honsha⟧ - a company's head office, as a place of business\n- ⟦{本店|ほんてん}→本店：09566_honten⟧ - the main shop or main branch of a retailer or bank\n- ⟦{支部|しぶ}→支部：09675_shibu⟧ and ⟦{支店|してん}→支店：03185_shiten⟧ - the branches that a {本部|ほんぶ} or ⟦{本店|ほんてん}→本店：09566_honten⟧ sits above",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "09675_shibu",
+      "reading": "しぶ",
+      "headword": "{支部|しぶ}",
+      "label": "branch office"
+    },
+    {
+      "type": "related",
+      "target_id": "09565_honsha",
+      "reading": "ほんしゃ",
+      "headword": "{本社|ほんしゃ}",
+      "label": "head office (of a company)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T11:59:29Z",
-    "modified": "2026-02-03T05:08:01Z",
+    "modified": "2026-08-24T12:31:20Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
