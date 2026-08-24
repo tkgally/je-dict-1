@@ -2,22 +2,15 @@
   "entry_id": "00143_kaiyou",
   "headword": "{海洋|かいよう}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:42:03Z",
+  "reviewed_at": "2026-08-24T12:45:57Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The 'general' semantic tag is too broad and unhelpful for a word with a specific scientific/geographical meaning.",
-      "suggestion": "Replace 'general' with a more specific tag like 'geography' or 'science'."
-    }
-  ]
+  "issues": []
 }

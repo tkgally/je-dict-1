@@ -2,36 +2,15 @@
   "entry_id": "00101_hikki",
   "headword": "{筆記|ひっき}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:41:00Z",
+  "reviewed_at": "2026-08-24T12:45:52Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete and doesn't fully represent the headword's meaning as covered in the definitions.",
-      "suggestion": "Add 'written (as opposed to oral)' to the top-level gloss to reflect Sense 2."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for the headword '筆記'. While it can appear in formal contexts, the word itself is not inherently formal in the same way as, for example, '拝啓'. It's a neutral term for 'writing' or 'note-taking'.",
-      "suggestion": "Change 'formal' to 'neutral'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "error",
-      "concern": "The translation 'Write in cursive' for '筆記体で書く。' is misleading. While 筆記体 (hikktai) specifically means 'cursive', the headword 筆記 (hikki) itself does not mean 'cursive'. This example uses 筆記体 as a compound, not 筆記 in isolation.",
-      "suggestion": "This example sentence is problematic for illustrating the headword '筆記' directly. If kept, the translation is accurate for 筆記体, but it doesn't directly illustrate '筆記' in a way that aligns with its glosses. Consider removing or replacing this example if the goal is to illustrate '筆記' itself."
-    }
-  ]
+  "issues": []
 }

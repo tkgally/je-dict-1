@@ -118,11 +118,19 @@
       ]
     }
   ],
-  "notes": "{筆記|ひっき} relates to writing and note-taking, often used in academic or formal contexts.\n\nCommon compounds:\n- {筆記|ひっき}⟦{試験|しけん}→試験：01422_shiken⟧ (written examination)\n- {筆記|ひっき}⟦{用具|ようぐ}→用具：09667_yougu⟧ (writing utensils)\n- {筆記|ひっき}⟦{体|たい}→体：09872_tai⟧ (cursive writing style)\n\nContrast:\n- {筆記|ひっき}⟦{試験|しけん}→試験：01422_shiken⟧ (written test) vs ⟦{口述|こうじゅつ}→口述：09629_koujutsu⟧⟦{試験|しけん}→試験：01422_shiken⟧ (oral test)\n\nRelated terms:\n- ⟦メモ→メモ：00274_memo⟧ (memo, note - more casual)\n- ⟦ノート→ノート：00738_nooto⟧ (notebook, notes)",
-  "cross_references": [],
+  "notes": "{筆記|ひっき} is writing things down by hand — taking notes as someone speaks, and, in the names of tests, the written format as opposed to the spoken one. It belongs to academic and official contexts; for everyday note-taking speakers reach for ⟦メモ→メモ：00274_memo⟧ instead.\n\nCOMPOUNDS:\n- {筆記|ひっき}⟦{試験|しけん}→試験：01422_shiken⟧ (written examination, as against ⟦{口述|こうじゅつ}→口述：09629_koujutsu⟧⟦{試験|しけん}→試験：01422_shiken⟧, an oral one)\n- {筆記|ひっき}⟦{用具|ようぐ}→用具：09667_yougu⟧ (writing implements — the standard wording on school and exam instructions)\n- {筆記|ひっき}⟦{体|たい}→体：09872_tai⟧ (cursive script)\n\nSIMILAR WORDS:\n- ⟦メモ→メモ：00274_memo⟧ - a quick note jotted down for yourself; casual\n- ⟦ノート→ノート：00738_nooto⟧ - a notebook, or the notes kept in one\n- ⟦{速記|そっき}→速記：09668_sokki⟧ - shorthand, a specialised kind of {筆記|ひっき}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09629_koujutsu",
+      "reading": "こうじゅつ",
+      "headword": "{口述|こうじゅつ}",
+      "label": "oral statement, dictation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T11:59:29Z",
-    "modified": "2026-06-09T07:42:49Z",
+    "modified": "2026-08-24T12:31:20Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
@@ -134,7 +142,8 @@
       ],
       "politeness": "plain",
       "semantic": [
-        "general"
+        "communication",
+        "education"
       ]
     }
   }

@@ -63,11 +63,19 @@
       ]
     }
   ],
-  "notes": "{海洋|かいよう} is a more formal/scientific term than ⟦{海|うみ}→海：00556_umi⟧, often used in technical, academic, or official contexts.\n\nCommon collocations:\n- {海洋|かいよう}⟦{生物|せいぶつ}→生物：03295_seibutsu⟧ (marine life)\n- {海洋|かいよう}⟦{汚染|おせん}→汚染：02595_osen⟧ (ocean pollution)\n- {海洋|かいよう}⟦{国家|こっか}→国家：02760_kokka⟧ (maritime nation)\n- {海洋|かいよう}⟦{学|がく}→学：09846_gaku⟧ (oceanography)\n- {海洋|かいよう}⟦{資源|しげん}→資源：03167_shigen⟧ (marine resources)\n\nRelated terms:\n- ⟦{海|うみ}→海：00556_umi⟧ (sea, ocean - everyday term)\n- ⟦{大洋|たいよう}→大洋：09679_taiyou⟧ (ocean - even more formal)\n- ⟦{太平洋|たいへいよう}→太平洋：09680_taiheiyou⟧ (Pacific Ocean)",
-  "cross_references": [],
+  "notes": "{海洋|かいよう} is the sea as a scientific and administrative subject — the domain studied, polluted, regulated, and drawn on for resources. For the sea you swim in or look at, the word is ⟦{海|うみ}→海：00556_umi⟧.\n\nCOMPOUNDS:\n- {海洋|かいよう}⟦{生物|せいぶつ}→生物：03295_seibutsu⟧ (marine life)\n- {海洋|かいよう}⟦{汚染|おせん}→汚染：02595_osen⟧ (ocean pollution)\n- {海洋|かいよう}⟦{資源|しげん}→資源：03167_shigen⟧ (marine resources)\n- {海洋|かいよう}⟦{国家|こっか}→国家：02760_kokka⟧ (maritime nation)\n- {海洋|かいよう}⟦{学|がく}→学：09846_gaku⟧ (oceanography)\n\nSIMILAR WORDS:\n- ⟦{海|うみ}→海：00556_umi⟧ - the everyday word; the one to use unless the context is technical\n- ⟦{大洋|たいよう}→大洋：09679_taiyou⟧ - the open ocean, as opposed to coastal waters\n- ⟦{太平洋|たいへいよう}→太平洋：09680_taiheiyou⟧ - the Pacific, one named ocean",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00556_umi",
+      "reading": "うみ",
+      "headword": "{海|うみ}",
+      "label": "sea (everyday word)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:17:38Z",
-    "modified": "2026-02-04T01:50:11Z",
+    "modified": "2026-08-24T12:31:20Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
@@ -80,7 +88,8 @@
       ],
       "politeness": "plain",
       "semantic": [
-        "general"
+        "nature",
+        "geography"
       ]
     }
   }

@@ -2,43 +2,15 @@
   "entry_id": "00371_shisei",
   "headword": "{姿勢|しせい}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:09:32Z",
+  "reviewed_at": "2026-08-24T12:46:01Z",
   "summary": {
-    "flagged": 4
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'emotion' does not fit the headword's meaning. While 'attitude' can relate to emotions, 姿勢 itself is not an emotion.",
-      "suggestion": "Remove 'emotion'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'body-part' does not fit the headword's meaning. 姿勢 refers to the way the body is held, not a part of the body itself.",
-      "suggestion": "Remove 'body-part'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The English translation 'My attitude toward work was appreciated' is a bit unnatural. 'Appreciated' is often used for things or efforts, not directly for an 'attitude' in this context.",
-      "suggestion": "Change to 'My attitude toward work was highly regarded' or 'My work ethic was appreciated'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "warn",
-      "concern": "The English translation 'Your approach to tackling problems is important' is a bit too direct and less natural than other options. The Japanese '大事だ' implies importance in a general sense, not necessarily a direct address.",
-      "suggestion": "Change to 'An approach to tackling problems is important' or 'The way one approaches problems is important'."
-    }
-  ]
+  "issues": []
 }
