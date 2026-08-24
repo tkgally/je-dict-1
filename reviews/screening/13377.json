@@ -1,10 +1,11 @@
 {
   "entry_id": "13377",
-  "screened_at": "2026-07-10T03:24:15Z",
+  "screened_at": "2026-08-24T00:27:48Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 炊 in entry 10 is given as すい, but the typical reading for 炊 when it means \"to cook\" is たく (as in 炊く). While すい is part of the compound 炊飯 (すいはん), as a standalone reading for the kanji 炊 meaning \"to cook\", it's incorrect. The prompt specifies that the reading covers ONLY the kanji portion and not to flag partial readings, but this seems to be a standalone entry for 炊 with an incorrect reading for its meaning."
+    "The reading for 炊 in pair 10 is given as すい, but in the context of 炊飯 (すいはん), 炊 is typically read as すい. However, the provided context \"(to cook rice) +\" suggests it might be an isolated kanji entry. If 炊 is meant to be read as a standalone kanji meaning \"to cook\" or \"to boil,\" its common readings are たく (taku) or かま (kama), not すい. The reading すい is primarily used in compounds like 炊飯 (suihan). Given the context, it's likely an error for a standalone kanji reading.",
+    "The reading for 炊 in pair 4 is た, which is a partial reading of 炊く (taku). While partial readings are allowed, the context \"く。\" clearly indicates that 炊く is the full word. The reading should ideally be たく for the kanji 炊 when followed by く as okurigana, or the entry should be {炊|た}く. As it stands, {炊|た} is a correct partial reading for 炊く, but it's worth noting the potential for ambiguity if not explicitly stated as a partial reading."
   ],
-  "confidence": 0.9
+  "confidence": 0.8
 }

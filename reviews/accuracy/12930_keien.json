@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:13:49Z",
+  "reviewed_at": "2026-08-24T00:20:23Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'sport' is too narrow and misleading for the primary meaning of 敬遠, which is 'keeping at arm's length' or 'avoidance' in a general sense. While it has a specific baseball meaning, the general meaning is not sport-related.",
+      "suggestion": "Remove 'sport' tag. The 'action' tag is sufficient for the verb-suru form."
+    }
+  ]
 }

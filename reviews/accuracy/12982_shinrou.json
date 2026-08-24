@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:14:50Z",
+  "reviewed_at": "2026-08-24T00:21:27Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid tag 'ceremony'",
-      "suggestion": "Replace 'ceremony' with 'daily-life' or 'culture'"
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '新郎'. While it can be used in formal contexts, the word itself is not inherently formal. It's a neutral term for 'groom'.",
+      "suggestion": "neutral"
     }
   ]
 }

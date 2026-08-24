@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:13:48Z",
+  "reviewed_at": "2026-08-24T00:20:22Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'transport' is not a valid semantic tag.",
-      "suggestion": "Replace 'transport' with 'transportation'."
+      "concern": "The tag 'place' is not in the valid tag list.",
+      "suggestion": "building"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'transport' is not in the valid tag list.",
+      "suggestion": "transportation"
     }
   ]
 }

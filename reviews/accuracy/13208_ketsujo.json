@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-09T00:37:17Z",
+  "reviewed_at": "2026-08-24T00:25:16Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word that specifically refers to a lack or absence of something essential, especially abstract qualities. 'Action' is also appropriate given its verb-suru form.",
+      "suggestion": "['existence', 'action']"
+    }
+  ]
 }

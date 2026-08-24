@@ -1,10 +1,8 @@
 {
   "entry_id": "13255",
-  "screened_at": "2026-07-09T00:28:37Z",
+  "screened_at": "2026-08-24T00:25:39Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for `裏打` is `うらう` but the full word is `裏打ち` (urauchi). The reading `うらう` is a partial reading, which is allowed, but the okurigana `ち` is missing from the kanji-reading mapping. This is not an error in the reading itself, but rather an error in how the okurigana is handled. The prompt states that the reading covers ONLY the kanji portion, and `ち` is okurigana. Therefore, the reading `うらう` for `裏打` is correct according to the rules."
-  ],
-  "confidence": 0.6
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

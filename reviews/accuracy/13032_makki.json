@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:15:49Z",
+  "reviewed_at": "2026-08-24T00:22:18Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and 'history' is too narrow for the headword's meaning, which is about the 'final stage' or 'terminal phase' of anything, not just historical periods. The gloss and examples clearly show it applies to diseases and general processes as well.",
+      "suggestion": "Replace 'time' and 'history' with 'time-period' and 'change'."
+    }
+  ]
 }

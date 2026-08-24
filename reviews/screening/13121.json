@@ -1,11 +1,11 @@
 {
   "entry_id": "13121",
-  "screened_at": "2026-07-08T16:12:30Z",
+  "screened_at": "2026-08-24T00:23:04Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for `格上` is `かくあ` but should be `かくあ` or `かくじょう`.",
-    "The reading for `格下` is `かくさ` but should be `かくさ` or `かくか`."
+    "Pair 14: 格上 → かくあげ. The reading provided is かくあ, which is a partial reading. However, the instruction states \"Do NOT flag partial readings as errors — they are correct by design.\" So this is not an error. The actual error is that the reading for 格上 should be かくあげ, not かくあ. The okurigana is げ, so the kanji reading should be かくあ.",
+    "Pair 15: 格下 → かくさげ. The reading provided is かくさ, which is a partial reading. However, the instruction states \"Do NOT flag partial readings as errors — they are correct by design.\" So this is not an error. The actual error is that the reading for 格下 should be かくさげ, not かくさ. The okurigana is げ, so the kanji reading should be かくさ."
   ],
   "confidence": 0.8
 }

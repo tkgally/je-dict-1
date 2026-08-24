@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:15:39Z",
+  "reviewed_at": "2026-08-24T00:22:09Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "warn",
-      "concern": "The tag 'crime' is not in the valid tag list.",
-      "suggestion": "Consider replacing 'crime' with 'law' or 'society' if applicable, or removing it if no suitable replacement exists."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for this headword.",
-      "suggestion": "The term 暴力団 is the official and legal term, making its formality 'neutral' or 'technical' rather than 'formal' in the sense of polite language."
+      "concern": "Tag 'crime' is not in the valid tag list.",
+      "suggestion": "law"
     }
   ]
 }

@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-09T00:37:51Z",
+  "reviewed_at": "2026-08-24T00:25:46Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'death' is not in the valid tag list.",
-      "suggestion": "existence"
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is incorrect for '死去'.",
+      "suggestion": "Replace 'existence' with 'change'."
     }
   ]
 }

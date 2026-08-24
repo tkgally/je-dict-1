@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:15:25Z",
+  "reviewed_at": "2026-08-24T00:21:57Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'time' is too narrow and misleading for '最終的'.",
-      "suggestion": "Replace 'time' with 'general' or 'descriptive'."
+      "concern": "The semantic tag 'time-general' is too broad and misleading for '最終的'. While it relates to the end of a process, it's more about the outcome or conclusion rather than a general time concept.",
+      "suggestion": "Replace 'time-general' with 'general' or 'descriptive' as it describes a characteristic of something being final or ultimate."
     }
   ]
 }

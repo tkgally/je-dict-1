@@ -1,10 +1,8 @@
 {
   "entry_id": "12999",
-  "screened_at": "2026-07-08T15:57:36Z",
+  "screened_at": "2026-08-24T00:21:08Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for '月収' in entry 4 is 'げっ' but the full reading should be 'げっしゅう'. This is a partial reading, but the instructions state 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' However, the example given for partial readings is '先行→さきゆ followed by き (先行き=さきゆき)', where the partial reading is for a kanji that is part of a larger word. In this case, '月収' is a complete word, and 'げっ' is not a complete reading for it. It seems like an incomplete reading for the entire word, not a partial reading of a kanji within a larger word. Given the instruction 'the reading covers ONLY the kanji portion', and '月収' is a single kanji portion here, 'げっ' is an incomplete reading for it."
-  ],
-  "confidence": 0.7
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

@@ -1,10 +1,8 @@
 {
   "entry_id": "13148",
-  "screened_at": "2026-07-08T16:15:43Z",
+  "screened_at": "2026-08-24T00:23:25Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for `業務用` is `ぎょうむよう`, but in pair 3, it's given as `ぎょうむ`. This is a partial reading, but the prompt states that partial readings are correct by design. However, the prompt also states that the reading covers ONLY the kanji portion. In pair 3, `業務用` is given as `{業務用|ぎょうむ)`. This means `業務用` is read as `ぎょうむ`, which is incorrect as it omits the `よう` part. If `よう` is okurigana, it should be outside the curly braces. If `よう` is part of the kanji reading, it should be included in the curly braces."
-  ],
-  "confidence": 0.8
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

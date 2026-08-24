@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T03:59:27Z",
+  "reviewed_at": "2026-08-24T00:28:27Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Invalid semantic tag 'space-location'",
-      "suggestion": "geography"
+      "severity": "error",
+      "concern": "The semantic tag 'geography' is too narrow for the headword's meaning. While it can apply to geographical features, the word itself describes a general spatial distribution, not exclusively geography.",
+      "suggestion": "Replace 'geography' with 'general' or 'movement' or 'existence'."
     }
   ]
 }

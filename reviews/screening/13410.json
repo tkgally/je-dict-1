@@ -1,10 +1,11 @@
 {
   "entry_id": "13410",
-  "screened_at": "2026-07-10T03:28:13Z",
+  "screened_at": "2026-08-24T00:28:27Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 灯 in entry 25 is given as ひ. While 灯 can be read as ひ (e.g., 火), in the context of the dictionary entry's primary reading {灯|ともしび} and the surrounding examples, it's highly likely that this instance of 灯 should also be ともしび or とも. The phrase \"灯をつける\" typically uses ともす (点す) or ひ (火) for the light source itself, but if 灯 is meant to be read as the noun ともしび, then \"ともしびをつける\" would be more common. Given the dictionary entry's focus on ともしび, reading 灯 as ひ here seems inconsistent with the primary entry and the other examples where 灯 is read as ともしび or とも."
+    "The entry is for {灯|ともしび} (ともしび), which implies 灯 alone can be read ともしび. However, pair 25 reads 灯 as ひ, which is a valid reading for 灯 (e.g., 火, 灯火). Given the context of the entry being for ともしび, and the example {灯火|ともしび} in pair 26, it's possible that pair 25 is intended to show an alternative reading of 灯, but it's not directly related to the main entry's reading of ともしび for 灯. If the goal is to only show readings directly related to the entry's primary reading, then 'ひ' for 灯 might be considered an outlier or a different sense of the kanji. However, since the prompt states 'Judge ONLY the \"kanji → reading\" pair itself' and 'Do NOT flag partial readings as errors — they are correct by design', and 'ひ' is a valid reading for 灯, it's not strictly an error in isolation. But in the context of the entry's primary reading, it's a different word.",
+    "Pair 26: 灯火 → ともしび. The entry is for {灯|ともしび} (ともしび). While 灯火 can be read ともしび, the entry itself is for the single kanji 灯. This pair is a compound word, not a reading of the single kanji 灯 as ともしび. It's a correct reading for 灯火, but it's not a direct mapping of the single kanji 灯 to ともしび as implied by the entry's primary focus. However, the prompt says 'Judge ONLY the \"kanji → reading\" pair itself', and 灯火=ともしび is a correct pair."
   ],
-  "confidence": 0.9
+  "confidence": 0.6
 }

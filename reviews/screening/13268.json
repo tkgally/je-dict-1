@@ -1,10 +1,10 @@
 {
   "entry_id": "13268",
-  "screened_at": "2026-07-09T00:30:09Z",
+  "screened_at": "2026-08-24T00:26:02Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 気配 (きくばり) is incorrect. The kanji 気配 is usually read as きはい or けはい, meaning 'sign' or 'indication'. The reading きくばり corresponds to the kanji 気配り, meaning 'consideration' or 'attentiveness'. It seems like a different kanji or a different reading for the given kanji."
+    "The reading for 気配 (きくばり) is given as きくば, which is a partial reading. While partial readings are allowed by the rules, the provided example for partial readings (先行→さきゆ followed by き) implies that the okurigana 'り' should be outside the markup. In this case, if the full word is 気配り (きくばり), then {気配|きくば}り would be the expected format. However, the entry is {気配|きくば} (followed by: 「り」), suggesting that 'り' is okurigana. The standard reading for 気配 is きはい or けはい. The reading きくばり is for 気配り. Given the context, it seems '気配' is intended to be read as 'きくばり', but the kanji '気配' itself is not typically read as 'きくば'. If the full word is 気配り, then the kanji should be 気配り, or the reading should be for 気配 (きはい/けはい). If it's a partial reading for 気配り, then {気配|きくば}り would be more consistent with the example. As it stands, '気配' is not read as 'きくば'."
   ],
   "confidence": 0.9
 }

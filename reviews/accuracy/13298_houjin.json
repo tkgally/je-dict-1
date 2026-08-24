@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-09T00:38:52Z",
+  "reviewed_at": "2026-08-24T00:26:42Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'work' is too general and doesn't accurately reflect the specific meaning of '法人' (corporation, legal entity).",
+      "suggestion": "business"
+    }
+  ]
 }
