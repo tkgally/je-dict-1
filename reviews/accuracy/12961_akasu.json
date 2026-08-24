@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:14:24Z",
+  "reviewed_at": "2026-08-24T00:21:05Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'communication' is too narrow for the headword's full meaning, as it also means 'to spend (the night)'.",
-      "suggestion": "Add 'time-general' to reflect the 'spend the night' meaning."
+      "concern": "The semantic tag 'communication' only covers one sense of the word. The second sense, 'to spend (the night)', is not related to communication.",
+      "suggestion": "Add 'time-general' or 'daily-life' to cover the second sense, or replace 'communication' with a more general tag like 'action' if a single tag is preferred."
     }
   ]
 }

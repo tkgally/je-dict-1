@@ -1,10 +1,8 @@
 {
   "entry_id": "13351",
-  "screened_at": "2026-07-10T03:21:07Z",
+  "screened_at": "2026-08-24T00:27:26Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for 焼失 is しょうしつ, but the kanji 焼 is typically read as やき or しょう. While しょう is a valid on'yomi for 焼, the combination 焼失 is usually read as しょうしつ, which is correct. However, the prompt asks to flag if the kanji-reading mapping is incorrect. In this case, 焼 is mapped to しょう, and 失 to しつ. This is a correct mapping for the compound. The prompt also states 'If you are not confident a reading is actually wrong, do not flag it.' Given that しょうしつ is the correct reading for 焼失, and しょう is a valid reading for 焼, I will not flag this as an error."
-  ],
-  "confidence": 0.9
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

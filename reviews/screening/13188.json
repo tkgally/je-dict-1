@@ -1,10 +1,11 @@
 {
   "entry_id": "13188",
-  "screened_at": "2026-07-08T16:20:39Z",
+  "screened_at": "2026-08-24T00:24:34Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for {書|が} in pair 12 is unusual. While 'が' can be a part of a compound reading like '書き方' (かきかた) where '書' is read as 'か', or '書物' (しょもつ) where it's 'しょ', 'が' by itself for '書' is not a standard reading. Given the context of '横書き' (よこがき), '書' is typically read as 'か' or 'がき' (with rendaku). The provided reading 'が' seems to be an incomplete or incorrect representation of the 'がき' part."
+    "The reading for 書 in item 12 is given as 'が', but it should be 'か' or 'しょ' depending on context. In the context of 横書き, '書' is read as 'か' (from 書く) or 'しょ' (as in 書物). 'が' is a particle or a voiced form of 'か' but not a direct reading of the kanji 書 in this context.",
+    "The reading for 書 in item 13 is given as 'か', which is correct for the verb 書く. However, in the context of 横書き, the '書' part is typically read as 'か' (from 書く) or 'しょ' (as in 書物). The entry itself is for 横書き, where 書 is read as 'が' (due to rendaku from かき). The provided reading 'か' for 書 alone is correct if it's meant to be the verb, but if it's part of the compound 横書き, then the 'が' in 'よこがき' is a rendaku of 'か'. The problem is that item 12 gives 'が' for 書, and item 13 gives 'か' for 書, both followed by 'き'. This suggests an inconsistency or a misunderstanding of how the readings are being presented. Given the entry is for 横書き (よこがき), the '書' part is 'がき'. If we are to split it as {書|が}き, then 'が' is the reading for 書. If it's {書|か}く, then 'か' is the reading for 書. The context 'き (writing, from' suggests it's the noun form of the verb. The reading 'が' for 書 alone is problematic."
   ],
-  "confidence": 0.8
+  "confidence": 0.9
 }

@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T03:58:59Z",
+  "reviewed_at": "2026-08-24T00:28:03Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The semantic tags 'nature-water' and 'nature-ocean' are not in the valid tag list.",
-      "suggestion": "Replace with 'nature'."
+      "concern": "The headword gloss 'tide, current' is misleading because 'current' is only one aspect of 'tide' (tidal current), and the word '潮' itself does not mean 'current' in a general sense (e.g., river current, electrical current). The primary meaning is 'tide'.",
+      "suggestion": "tide"
     }
   ]
 }

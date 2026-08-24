@@ -1,11 +1,12 @@
 {
   "entry_id": "13174",
-  "screened_at": "2026-07-08T16:18:57Z",
+  "screened_at": "2026-08-24T00:24:18Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 無作為 is given as むさくい, but the standard reading is むさくゐ or むさくい (with the 'ゐ' being a historical kana usage that is now typically 'い'). However, the more common modern reading for 無作為 is むさくい. The provided reading is acceptable.",
-    "The reading for 標本 is given as ひょうほ in item 21, but the full reading is ひょうほん. This is a partial reading, which is allowed by the rules."
+    "The reading for 無作為 (musakui) is given as むさくい, but the standard reading is むさくい (musakui). While the pronunciation is the same, the hiragana spelling is typically むさくい. However, given the instruction to not flag partial readings as errors and to only judge the kanji-reading pair, and that the pronunciation is identical, this might be considered acceptable in some contexts. But if strict adherence to standard hiragana spelling for a full word is required, it could be flagged. I'm flagging it for potential inconsistency in hiragana spelling, even if the sound is the same.",
+    "The reading for 標 (ひょう) is given as ひょう. This is correct as a standalone kanji reading. However, in the context of 標本 (ひょうほん), 標 is read as ひょう. The entry provides 標 (ひょう) as a separate item, which is fine. The concern is that the example context for 標 is \"(mark, sign, mode\", which doesn't directly relate to 標本. This is more of a context issue than a reading error, but it's worth noting if the goal is to check consistency within the entry's examples. However, the instruction is to judge ONLY the \"kanji → reading\" pair itself. So, 標 → ひょう is correct.",
+    "The reading for 本 (ほん) is given as ほん. This is correct as a standalone kanji reading. Similar to 標, in the context of 標本 (ひょうほん), 本 is read as ほん. The entry provides 本 (ほん) as a separate item, which is fine. The concern is that the example context for 本 is \"(origin, base, bo\", which doesn't directly relate to 標本. Again, this is more of a context issue than a reading error, but worth noting if consistency within the entry's examples is a goal. However, the instruction is to judge ONLY the \"kanji → reading\" pair itself. So, 本 → ほん is correct."
   ],
-  "confidence": 0.5
+  "confidence": 0.7
 }

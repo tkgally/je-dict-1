@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-09T00:37:48Z",
+  "reviewed_at": "2026-08-24T00:25:43Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'body' is not in the valid tag list.",
-      "suggestion": "body-part"
+      "concern": "The tag 'body-part' is incorrect for '母乳' (breast milk). Breast milk is a bodily fluid/substance, not a body part.",
+      "suggestion": "Replace 'body-part' with 'body-internal' or 'health'."
     }
   ]
 }

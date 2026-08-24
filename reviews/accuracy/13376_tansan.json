@@ -8,31 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T03:59:09Z",
+  "reviewed_at": "2026-08-24T00:28:11Z",
   "summary": {
-    "flagged": 3
+    "flagged": 2
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'food-drink' is not a valid tag. It should be 'food' or 'consumption'.",
-      "suggestion": "food"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "error",
-      "concern": "The English translation misrepresents the Japanese. The Japanese sentence refers to 'carbonic acid' as carbon dioxide dissolved in water, which is correct. However, the English translation 'Carbonic acid is carbon dioxide dissolved in water' is a direct translation of the Japanese, but 'carbonic acid' is not carbon dioxide dissolved in water. Carbonic acid is H2CO3, which is formed when carbon dioxide dissolves in water. The Japanese sentence is describing the formation of carbonic acid, not equating it to dissolved carbon dioxide.",
-      "suggestion": "Carbonic acid is formed when carbon dioxide dissolves in water."
+      "concern": "The tag 'food' is too narrow and potentially misleading for the headword '炭酸' which primarily refers to carbonation or carbonic acid, not food itself. While carbonation is found in beverages (which are consumed), 'food' as a general category is inaccurate for the chemical concept.",
+      "suggestion": "Remove 'food'. 'consumption' could be considered if focusing on the beverage aspect, but 'science' is already present and covers the chemical nature."
     },
     {
       "dimension": "translation",
       "location": "examples[5]",
       "severity": "error",
-      "concern": "The Japanese '炭酸ガス' (tansan gasu) refers to carbon dioxide gas. The English translation 'carbon dioxide emissions' is correct, but the Japanese '炭酸ガス' is not 'carbonic acid gas'. It is simply 'carbon dioxide'.",
-      "suggestion": "There is a demand to reduce carbon dioxide emissions."
+      "concern": "The English translation 'carbon dioxide emissions' for '炭酸ガスの排出量' is incorrect. '炭酸ガス' in this context refers to 'carbonic acid gas' or more commonly 'carbon dioxide'. The translation should reflect 'carbon dioxide' directly.",
+      "suggestion": "Change 'carbon dioxide emissions' to 'carbonic acid gas emissions' or 'carbon dioxide gas emissions' or simply 'carbon dioxide emissions' if 'gas' is implied."
     }
   ]
 }

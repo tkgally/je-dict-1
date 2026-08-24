@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:14:46Z",
+  "reviewed_at": "2026-08-24T00:21:22Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'death' is not in the valid tag list.",
+      "suggestion": "Remove 'death' or replace with a valid tag if appropriate (e.g., 'event-name' if referring to the event of death, or 'general' if no specific category fits)."
+    }
+  ]
 }

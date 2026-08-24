@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:15:44Z",
+  "reviewed_at": "2026-08-24T00:22:12Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'plant' is not in the valid tag list.",
-      "suggestion": "plant-general"
-    },
     {
       "dimension": "translation",
       "location": "examples[2]",
       "severity": "error",
-      "concern": "The English translation for example 2 misrepresents the Japanese. '新芽' refers to new buds/sprouts, not specifically 'new tea leaves'. While tea leaves are a type of new sprout, the translation is too specific and loses the general meaning of '新芽'.",
-      "suggestion": "New sprouts of tea are picked to make shincha (first-harvest tea)."
+      "concern": "The Japanese refers to 'new buds' (新芽), but the English translates it as 'new tea leaves'. While tea leaves are picked, the Japanese specifically uses the term for buds/sprouts, not fully formed leaves.",
+      "suggestion": "Change 'New tea leaves are picked' to 'New tea buds/sprouts are picked' or 'The new buds of tea are picked'."
     }
   ]
 }

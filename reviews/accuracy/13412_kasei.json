@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T03:59:49Z",
+  "reviewed_at": "2026-08-24T00:28:49Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'geography' is incorrect for a celestial body. Planets are typically categorized under 'science' or 'astronomy' (if available).",
+      "suggestion": "science"
+    }
+  ]
 }

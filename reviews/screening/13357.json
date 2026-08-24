@@ -1,10 +1,8 @@
 {
   "entry_id": "13357",
-  "screened_at": "2026-07-10T03:21:51Z",
+  "screened_at": "2026-08-24T00:27:40Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for {手続|てつづ} is incomplete. The full reading for 手続き should be てつづき, but only てつづ is provided for the kanji portion. This is a partial reading, but it's not split before okurigana in a way that makes sense for the full word. The okurigana 'き' is part of the word '手続き' and should be included in the reading for the kanji if the word is '手続き'. If the kanji is just '手続', then 'てつづ' is correct, but the context 'きをしてください' implies the full word '手続き'. Given the instruction 'the reading covers ONLY the kanji portion', and 'き' is okurigana, then 'てつづ' for '手続' is technically correct. However, it's a common point of confusion. Let's re-evaluate based on the strict rule: 'the reading covers ONLY the kanji portion'. In this case, 手続 = てつづ is correct, and き is okurigana. So, this is not an error."
-  ],
-  "confidence": 0.7
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

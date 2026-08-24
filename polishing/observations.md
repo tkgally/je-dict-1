@@ -1477,3 +1477,45 @@ carries it (05387 ⟦日光⟧ → 03515_nikkou looks like a member and is not).
 ## 2026-08-23 (routine wiki harvest — all prior observations cleared)
 
 _(The 12 observations from the 2026-08-21 wiki run, the 2026-08-21 polish run, and the 2026-08-22 accuracy-review run were harvested by the 2026-08-23 wiki maintenance session. Filed: Cleanup **P67** (the interrogative family — 12 basic-tier entries, six semantic labels, four POS labels, `needs-decision` on one convention ruling); Tooling **136** (`kanji_list.json`'s stale legacy `count` field, verified 2794 against an actual 2798); four **Entry Follow-ups** (30385 間に合わせる missing transitivity; 12735 突く's 嘘を突く example; and the four katakana nouns tagged `formal` — 05081 バイク, 06960 デバイス, 08988 オペレーティングシステム, 03855 タイトル); a **Register** page section on per-sense formality (12766 念); two **curator escalations** (the interrogative-family tag ruling; whether formality may be set per sense); and an interim note on **Quality Metrics** resolving the 74-hour scheduling gap — the Routine ran on a ~3.0 h cadence for twenty consecutive intervals to 2026-08-17, then resumed on a ~12.0 h cadence held for four consecutive intervals, so it was a schedule change, not an outage, and per-window rates on that page have a ~4× throughput discontinuity at 2026-08-17. Updated with measurements: **P20** — the 08000–08999 hot spot is the 2026-01-25 creation run (191 of 330 entries, 57.9%); **P50** — creation-batch keying refuted, the 03900–03999 block is 5× tighter, and at 57 entries neither keying is needed; **P62** — `・` entries are 24 of the top 100 priority lines against an 8.1% base rate; **entry-pair-consolidation** — the 気持ち merge direction settled by inbound-link count (01385 has 187, 02485 has 19). **Refuted**: the 2026-02-22 creation cohort as a tag hot spot (2.0%, below the 3.0% dictionary-wide rate); a `formality: formal` detector for everyday concrete nouns (214 flags, precise cut of 4); and the suggestion that the sole-`general` check filters 06985–06994 (the observing run had already fixed all ten). **Re-discoveries needing no new item**: duplicate conjugation blocks in verb notes (P31/P54, fifth filing); candidate-queue okurigana twins (Tooling 41/43, third sighting); the note scorer's `・` blindness (inside Tooling 20 since 2026-07-02); and the zero-link observation on 06995–07003, which is above the polish frontier and therefore the standing structural fact, not a defect.)_
+
+## 2026-08-24 — routine(accuracy-review), entries 12913–13412
+
+- [tooling] **Stale pre-fix screening results are poisoning the furigana review queue.**
+  `trim_context()` in `build/review_runner.py` (added 2026-08-16, commit b6bfa95ee)
+  fixed the truncation that made the screener quote wrappers like `{協議会|きょうぎか)`
+  and flag them as incomplete readings. But 22,680 of the 22,851 screening results on
+  disk were written *before* that fix, and `--pass screening` skips any entry already
+  present in `screening_status.json` — so those stale flags can never be re-screened
+  by normal operation. Measured this run: pre-fix flag rate 8.9% (2,021/22,680) vs
+  post-fix 2.9% (5/171). Re-screening the 66 flagged entries in this range with the
+  fixed prompt dropped them to 14 — a 79% reduction, and all 14 survivors were
+  ordinary okurigana-stem false positives. Suggested fix: a
+  `--rescreen-stale <date>` flag (or one-off status purge) to re-screen the ~2,000
+  pre-fix flagged entries; at the measured ~$0.00014/entry that is well under $1
+  and would clear most of the standing furigana review backlog.
+
+- [pattern] **`existence` is being used as a catch-all for action verbs.** Seven entries
+  in this 500-entry range carry `existence` as their sole or lead semantic tag on words
+  that denote actions or events: 13290 {浸|つ}かる, 13068 {明|あ}け{暮|く}れる,
+  13166 {欠|か}く, 13339 {浸|ひた}る, 13226 {殺害|さつがい}, 13360 {滅亡|めつぼう},
+  13240 {死去|しきょ}. Individually each is an in-list tag and arguably defensible, so
+  they were rejected under the narrowness rule; as a cluster they look like a batch
+  creation habit. Worth a targeted detector or a systemic-fix pass rather than
+  case-by-case accuracy-review adjudication.
+
+- [pattern] **Off-vocabulary semantic tags cluster by creation batch.** 40 of 500
+  entries in this range (8%) carried tags outside `VALID_SEMANTIC`, concentrated in
+  near-duplicate coinages: `degree` (6), `place` (4), `quality` (3), `time` (3),
+  `material`/`conflict`/`information`/`nature-plant`/`nature-water`/`object`/
+  `person-occupation` (2 each). Most are 1:1 mappable and are not in
+  `check_tag_drift.py`'s `TAG_MIGRATION` map yet — adding `degree`→`quantity`,
+  `quality`→`evaluation`, `place`→`building`, `object`→`general`,
+  `person-occupation`→`occupation`, `information`→`communication`,
+  `nature-plant`→`plant-general`, `nature-water`→`nature`, `conflict`→`action`,
+  `material`→`descriptive` would make the remaining ~840 baselined entries
+  largely mechanical.
+
+- [tooling] **The unknown-semantic-tag baseline was stale.** Regenerating it this run
+  removed 1,752 lines' worth of entries that no longer carry off-vocab tags (earlier
+  migrations never refreshed it). The ratchet was therefore tolerating far more than
+  it needed to. Worth regenerating after every migration pass, as CLAUDE.md says.

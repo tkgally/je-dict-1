@@ -1,10 +1,10 @@
 {
   "entry_id": "12951",
-  "screened_at": "2026-07-08T15:51:48Z",
+  "screened_at": "2026-08-24T00:20:46Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for '発' in pair 24 is 'た', but it should be 'はつ' when used in the context of '出発' (しゅっぱつ). While '発つ' (たつ) is a valid reading for '発', the provided context '発 → た (followed by: つ: to depa)' suggests it's meant to be part of '出発' or a similar compound, where 'た' is not the standard reading for the kanji '発' alone. However, given the example format {kanji|reading}okurigana, '発|た' followed by 'つ' would be correct for '発つ'. The issue is that the dictionary entry is for {旅立|たびだ}つ, and '発つ' is a separate word. If this is meant to be a reading for '発' in isolation, it's incorrect. If it's meant to be '発つ', then the reading 'た' is correct for the kanji part. Given the surrounding context of the dictionary entry for 旅立つ, this seems like an out-of-place or potentially confusing example. However, strictly following the rule \"the reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors — they are correct by design\", '発' = 'た' is a valid partial reading for '発つ'. The ambiguity arises from the context. I will flag it due to the potential for misinterpretation given the overall dictionary entry context, but acknowledge it could be technically correct for '発つ'."
+    "Reading 24: 発 → た. The kanji 発 (hatsu) is read as た in this context, which is unusual. While 発つ (tatsu) is a valid word, the reading for just 発 would typically be はつ or ほつ. The provided reading 'た' for only '発' is incorrect as it's part of a larger word '発つ' where 'つ' is okurigana. The instruction states 'the reading covers ONLY the kanji portion'."
   ],
-  "confidence": 0.7
+  "confidence": 0.9
 }

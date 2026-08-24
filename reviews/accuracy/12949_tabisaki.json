@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:14:11Z",
+  "reviewed_at": "2026-08-24T00:20:42Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word that specifically refers to a place related to travel.",
+      "suggestion": "travel"
+    }
+  ]
 }

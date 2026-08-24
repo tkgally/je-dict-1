@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-08T17:17:19Z",
+  "reviewed_at": "2026-08-24T00:23:41Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'position' is not in the valid tag list.",
-      "suggestion": "general"
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'position'.",
+      "suggestion": "Replace 'position' with 'general' or 'body-part' (depending on context)."
     }
   ]
 }
