@@ -1592,3 +1592,24 @@ _(The 12 observations from the 2026-08-21 wiki run, the 2026-08-21 polish run, a
   already rewriting (06303); left the two in untouched markers (06299, 06301) so the
   sweep stayed in scope. Worth a `check_furigana_format.py` class: `\{[^|{}]*\}` where
   the contents are entirely kana.
+
+- [pattern] **Creating an entry from a "seen in entry" candidate immediately strands the
+  referring entry's `noentry` inline marker.** Those candidates exist precisely because
+  some other entry links to the word with `⟦…：noentry⟧`, so the moment the entry is
+  written, that marker is stale — and it stays stale until a `systemic-fix` P35 sweep
+  happens to reach that ID band, which can be months. This run closed the loop in place:
+  a scan for `⟦…→<new headword>：noentry⟧` across `entries/` found 9 files pointing at 8
+  of the 13 words created from that lane, and each was rewritten to the new entry ID
+  (04987, 05511, 06998, 07005, 07007, 07009, 07010, 07011, 07012). The match is on the
+  link's base form, so it is exact rather than heuristic. Worth making a standing step in
+  `prompts/newentries.md`: after the post-creation validation sequence, resolve the
+  `noentry` markers that this session's own entries just made resolvable. It costs one
+  scan and keeps `check_stale_noentry.py`'s queue from being refilled by the very
+  workflow that drains it.
+
+- [tooling] `build/manage_candidates.py add-batch` earned its keep this run: 13 proposed
+  capture words went in, 9 were rejected as exact matches against existing entries
+  (鎧, ピンセット, ふりかけ, 季語, 準優勝, 割り当て, 昆布, 石畳, 身内). Proposing generously
+  and letting the duplicate gate filter is cheaper than checking each word by hand, and
+  the 9/13 rejection rate is a reminder that a word feeling "not yet covered" while
+  writing an entry is a poor signal.
