@@ -2530,6 +2530,50 @@ wedding-ceremony types (神前式/教会式/人前式/釣書/余興), school-clu
 Running false-positive rate across the 1,251 hand-verified short-base pairs (2026-08-09 through
 2026-08-20): **~0.3%**.
 
+**2026-08-25 systemic-fix run** — eighth per-entry short-base batch. 173 A1/A2 pairs (196
+instances) across 116 entries in **05879–06388**, each judged against a ±70-character context
+window around the marker. **Two rejections, both polysemous katakana loanwords**: 05909's
+スマホの⟦ロック⟧ → `08116_rokku`, which is rock *music* (the fourth firing of this same target,
+after 04562, 05762, and the 2026-08-08 フライ/パン pair), and 06183's scrollbar ⟦バー⟧ →
+`07060_baa`, a drinking establishment. Everything below **06389** is now swept for A1+A2; the
+queue stands at **290 pairs** (a recount; the 453 carried in the item was stale).
+
+**The proposed "target's notes declare a same-reading different word" detector class was tested
+against this band and needs one refinement to be usable.** Three previous updates proposed
+scanning a link target's `notes` for a self-declaration and demoting such pairs out of the
+mechanical bucket. Run naively over this band it fired on **7 of 175 pairs and only 1 was a real
+false positive** (ロック). The other six were good entries doing exactly their job: 臨む's notes
+distinguish it from 望む, 端午's from 単語, 利く's from 聞く/効く, 生む's from 産む, 五円玉's from
+ご縁. The refinement is one clause: **the declaration is a demotion signal only when it names the
+marker's own base form.** ロック's notes say "ロック as 'lock' … is a different word" — naming
+ロック itself; 臨む's name 望む, a *different* surface. That test keeps all six good pairs, catches
+ロック, and would also have caught the 2026-08-08 フライ/パン and 2026-08-20 コマ rejections. It
+would **not** have caught this run's バー rejection, whose target contrasts バー only with 居酒屋
+and スナック — so the class raises precision without replacing the context read.
+
+Families verified as groups in this band: the twelve zodiac sign names (06313), omikuji fortune
+levels (中吉/小吉/末吉), medical and anatomical compounds (胆嚢/膵臓癌/飛沫/胸痛/電解質/熱性痙攣),
+corporate-finance terms (監査役/決算書/決算期/不渡り/当座/使用料), funeral and Buddhist vocabulary
+(火葬/忌明け/服す/仏事/仏前/香道/聞香), aviation terms (駐機場/降下/降機/航空法/空撮), gardening
+supplies (培養土/鉢底石/鉢皿/植木屋), and counter and number words (一曲/何時間/何十年/三大).
+Marginal applies resolved by opening the target entry rather than trusting its gloss (the
+2026-08-14 rule): ヘビーゲーマー/コアゲーマー → `29473_hebii` / `29474_koa`, whose entries carry
+"intense, demanding" and "hardcore, devoted (modifier)"; {当座|とうざ}{小切手|こぎって} →
+`29548_touza` sense 2 "current account"; {邪気|じゃき}を{追|お}い{払|はら}う → `29599_jaki`
+sense 2 "evil spirit"; and {大器|たいき}{晩成|ばんせい}'s ⟦{大器|たいき}⟧ → `29641_taiki`, the
+literal-decomposition precedent.
+
+One incidental repair worth a separate detector: 06303 carried the marker surface `{ローン}` —
+kana wrapped in furigana braces with **no reading and no pipe**, which `validate.py` does not
+flag as either a furigana or a word-link warning. Fixed while rewriting that marker; two more
+instances (06299 `{めまい}`, 06301 `{ふくらはぎ}`) sit in markers this sweep did not touch and
+were left in place. This is a `check_furigana_format.py` class: `\{[^|{}]*\}` whose contents are
+entirely kana. (Related to the 2026-06-17 no-pipe brace sub-pattern under P9.)
+
+Running false-positive rate across the 1,426 hand-verified short-base pairs (2026-08-09 through
+2026-08-25): **~0.4%**.
+
+
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 
 **Source**: 2026-08-01 routine systemic-fix run, reporting one entry — `27889_ageru`'s headword

@@ -1565,3 +1565,30 @@ _(The 12 observations from the 2026-08-21 wiki run, the 2026-08-21 polish run, a
   worth running over the whole dictionary rather than waiting for the polish frontier
   to reach each case, since a sense whose examples never contain its headword is
   almost always a merge of two words.
+
+- [tooling] **The "target entry's notes declare a same-reading different word"
+  detector class, tested against a real band, is too blunt as first stated — but a
+  one-word refinement makes it work.** The stale-`noentry` backlog notes have three
+  times proposed scanning a link target's notes for a self-declaration ("X as Y is a
+  different word with the same reading") and demoting such pairs out of the mechanical
+  bucket. Run over entries 05879-06388, the naive version fired on 7 of 175 pairs and
+  only 1 was a genuine false positive (05909 ロック -> 08116 rock-music). The other 6
+  were good entries doing their job: 臨む's notes distinguish it from 望む, 端午's from
+  単語, 利く's from 聞く/効く, 生む's from 産む, 五円玉's from ご縁. **The refinement: the
+  declaration is only a demotion signal when it names the marker's own base form.**
+  ロック's notes say "ロック as 'lock' … is a different word" — naming ロック itself;
+  臨む's notes name 望む, a different surface. That test keeps all 6 good pairs and
+  catches ロック, and would also have caught the 2026-08-08 フライ/パン and 2026-08-20
+  コマ rejections. It would NOT have caught this run's second rejection (06183 スクロール
+  バー -> 07060 bar/drinking-establishment), whose target entry contrasts バー only with
+  居酒屋 and スナック — so the class is a filter that raises precision, not a replacement
+  for reading the context.
+
+- [pattern] **Kana wrapped in furigana braces with no reading (`{ローン}`, `{めまい}`,
+  `{ふくらはぎ}`) survives validation silently.** Three instances turned up incidentally
+  in the 05879-06388 band. The brace pair carries no information for an all-kana word
+  and the renderer has nothing to put in the ruby slot. `build/validate.py` reports no
+  word-link or furigana warning for them. Repaired the one inside a marker this run was
+  already rewriting (06303); left the two in untouched markers (06299, 06301) so the
+  sweep stayed in scope. Worth a `check_furigana_format.py` class: `\{[^|{}]*\}` where
+  the contents are entirely kana.
