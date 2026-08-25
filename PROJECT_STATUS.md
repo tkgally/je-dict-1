@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-08-20
+**Last updated**: 2026-08-25
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~30,464 |
+| Total entries | ~30,544 |
 | Basic tier | 801 (closed) |
 | Core tier | ~1,982 (closed) |
-| General tier | ~27,681 (open) |
-| Candidate words | ~154 (all vetted; queue cleaned 2026-08-11) |
+| General tier | ~27,741 (open) |
+| Candidate words | ~142 (all vetted; queue cleaned 2026-08-11) |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-08-25 (Routine v2: new-entries — 20 New Entries, IDs 30734–30753)
+
+Created 20 general-tier entries. **Thirteen came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined — which empties that lane completely: {手繰|たぐ}る (two senses: hauling in a rope and tracing a memory back), {牛|ぎゅう}タン (the Sendai specialty, with the 定食 convention), {洋館|ようかん} (the prewar Western-style house, separated from the neutral {洋風|ようふう}の{家|いえ}), {祈念|きねん} (formal prayer, with the {記念|きねん} homophone trap spelled out), {永谷園|ながたにえん} (the food company, written so the explanation carries the metonymy — the name means the product), {池田菊苗|いけだきくなえ} (the chemist who named umami in 1908), {次点|じてん} (runner-up, including the election sense where the runner-up takes the seat), {装甲|そうこう} (armour on machines, contrasted with {鎧|よろい} on a body), {毛抜|けぬ}き (tweezers, split from ピンセット by purpose rather than shape), プルタブ (with the school pull-tab charity drive as context), {巻|ま}き{起|お}こす and {跳|は}ね{返|かえ}す (the transitive partners of 07005 and 07009, cross-linked in both directions), and テーブルタップ (cross-referenced to 07012 {電源|でんげん}タップ).
+
+**The other seven are everyday vocabulary** from the general queue, chosen to balance a candidate list that has become proper-noun-heavy: ノルマ (quota, with its Russian etymology and its air of imposed pressure), サプリ (with the point that pills are {飲|の}む, not {食|た}べる), and five words whose difficulty is knowing when they fit — the mimetic adverbs まざまざ, ひしひし, ずけずけ, and こぢんまり (the ぢ spelling noted as the standard one), plus {時雨|しぐれ}, the early-winter passing shower that is a haiku season word. Five conjugation tables added (3 godan, 2 suru). No new kanji.
+
+**Nine stale inline links repaired.** Creating an entry from a "seen in entry" candidate immediately strands the `⟦…：noentry⟧` marker in the entry that referred to it. A base-form-exact scan found 9 such files and pointed them at the new IDs: 04987, 05511, 06998, 07005, 07007, 07009 (two markers), 07010, 07011, 07012.
+
+**§4 cross-model self-check on all 20 new entries: 1 flag, applied, 0 sent to the curator.** Nineteen came back clean. The flag was on 30745's last example, which translated {原材料|げんざいりょう}{費|ひ}の{上昇|じょうしょう}を{跳|は}ね{返|かえ}す as "absorb the rise in raw-material costs" — but {跳|は}ね{返|かえ}す means beating a pressure back, not bearing it, so "absorb" said the opposite in business English. Changed to "withstand". Cost $0.009.
+
+**Queue note**: 4 candidates captured from words the new entries reference but do not define ({防弾|ぼうだん}, たこ{足|あし}{配線|はいせん}, {味|あじ}の{素|もと}, {時雨煮|しぐれに}); 9 further proposals were rejected by the duplicate gate as words that already have entries. Candidate queue now 142, below the 150-word mark, so a `candidates` restock run is no longer suppressed.
 
 ### 2026-08-22 (Routine v2: new-entries — 20 New Entries, IDs 30714–30733)
 
@@ -104,21 +116,3 @@ A conjugation table was generated for the one suru-verb ({奏上|そうじょう
 **Queue note**: eight new candidates were captured from words these entries reference but do not define — おきに, {上奏|じょうそう}, {表彰状|ひょうしょうじょう}, {信心深|しんじんぶか}い, したり{顔|がお}, {更年期障害|こうねんきしょうがい}, {地鎮祭|じちんさい}, and {先|さき}ほど. The candidate queue stands at 154.
 
 **Two systemic notes logged** to `polishing/observations.md`: `prompts/newentries.md` documents the closed lists for POS, semantic, and domain tags but never lists the four legal `formality` values, so the natural English word "casual" fails validation (one entry tripped on it this run); and bare kanji slip into notes through English section headers that embed a Japanese suffix (`THE 〜物 SERIES:`), which the furigana scanner catches only after the entry is written (two entries this run).
-
-### 2026-08-14 (Routine v2: new-entries — 19 New Entries, IDs 30635–30653)
-
-Created 19 general-tier entries, **all of them from the "seen in entry" lane** — words the dictionary already used inside other entries' examples and notes but had never defined. That empties the lane again. The words break down as follows.
-
-- **Words the dictionary owed itself from yesterday's Tokyo-district entries (4)**: {歩行者天国|ほこうしゃてんごく} (the weekend car-free street, named in the Ginza entry), {歌舞伎町|かぶきちょう} (the Shinjuku nightlife quarter, written per the proper-noun policy so it covers what the name connotes — nightlife and slight disrepute — and notes that it has nothing to do with kabuki as an art), {映画俳優|えいがはいゆう} and {映画祭|えいがさい}.
-- **Idioms (2)**: {目|め}を{光|ひか}らせる and {目|め}を{奪|うば}う, each cross-noted against the near-neighbour learners confuse it with ({目|め}を{配|くば}る, added yesterday, and {目立|めだ}つ).
-- **Casual speech (3)**: うちら, かなあ, どっちみち — all three written against their neutral or formal equivalents, since choosing the wrong register is the actual learner problem.
-- **Formal and legal vocabulary (3)**: {選任|せんにん}, {処|しょ}する (two senses — handling a situation, and imposing a sentence), and いずれにしても.
-- **General vocabulary (7)**: {品不足|しなぶそく}, {数十年|すうじゅうねん}, {国鉄|こくてつ} (the pre-1987 national railway, still heard from older speakers), {我|われ}, {心身症|しんしんしょう}, {隠|かく}し{包丁|ぼうちょう}, どうあっても.
-
-One candidate was dropped as stale: 足手まとい had been queued under the reading あしてまとい, but the word is already entry 30625 under its standard reading あしでまとい. Conjugation tables were generated for the two suru-verbs. No new kanji.
-
-**§4 cross-model self-check on all 19 new entries: one flag, applied.** An independent model objected that tagging いずれにしても as `formal` overstated the register — correctly, since the entry's own note says the phrase is at home in ordinary polite conversation. Retagged `neutral`. $0.008.
-
-**Queue note**: seven new candidates were captured from words these entries reference but do not define ({心療内科|しんりょうないか}, {自律神経失調症|じりつしんけいしっちょうしょう}, {飾|かざ}り{包丁|ぼうちょう}, {切|き}り{込|こ}み, {供給不足|きょうきゅうぶそく}, {十数年|じゅうすうねん}, {音楽祭|おんがくさい}). The candidate queue now stands at 153 — just above the 150-word mark below which the selector stops suppressing a `candidates` restock run.
-
-**Systemic issue found**: `build/add_conjugations.py` generates the potential form of single-kanji サ変 verbs as 〜できる ({処|しょ}できる), which is not Japanese — the correct form is 〜せる ({処|しょ}せる). Existing entries {察|さっ}する and {面|めん}する carry the wrong form today. Fixed by hand in the new entry and logged to `polishing/observations.md` as a systemic-fix candidate.

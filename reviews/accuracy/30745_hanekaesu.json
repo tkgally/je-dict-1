@@ -1,0 +1,24 @@
+{
+  "entry_id": "30745_hanekaesu",
+  "headword": "{跳|は}ね{返|かえ}す",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-25T12:40:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[5]",
+      "severity": "error",
+      "concern": "The English translation 'absorb' misrepresents the Japanese '跳ね返す' (to repel/fight off). The Japanese implies resisting or deflecting the cost increase, not absorbing it.",
+      "suggestion": "This company still has the strength to repel/fight off the rise in raw-material costs."
+    }
+  ]
+}
