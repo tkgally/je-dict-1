@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-11T09:35:18Z",
+  "reviewed_at": "2026-08-26T12:56:07Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'shape' is not in the valid tag list.",
-      "suggestion": "Remove 'shape' or replace with a valid tag if appropriate (e.g., 'descriptive' or 'general')."
+      "concern": "The semantic tag 'emotion' is too narrow and misleading for the headword '盛り上がり' which also refers to physical swells/bulges.",
+      "suggestion": "Replace 'emotion' with 'general' or 'descriptive' to encompass both abstract and physical meanings."
     }
   ]
 }

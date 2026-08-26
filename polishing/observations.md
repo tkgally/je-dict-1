@@ -1651,3 +1651,43 @@ _(The 12 observations from the 2026-08-21 wiki run, the 2026-08-21 polish run, a
   only before adding the candidate. The candidate-add step happens to catch it, but only
   if you try to add a candidate — a bare `noentry` marker with no candidate add is
   silently wrong.
+
+## 2026-08-26 — accuracy-review 13413–13899
+
+- [tooling] **The accuracy reviewer's `tags` dimension is running at roughly 10% precision
+  and is dominated by one rejected family.** Over 487 entries it flagged 101 (20.7%,
+  above §A's "this is reviewer noise" threshold) with 103 issues; 93 were tag issues, and
+  **53 of them were the same "`general` is too broad" complaint** that the 2026-06-13
+  measurement already found and bulk-rejected, and that §A's semantic-tag policy tells the
+  adjudicator to reject on sight. A further 12 were other in-list narrow/broad
+  substitutions and 10 were formality flags on entries whose own USAGE notes explicitly
+  say the word is formal or literary. Only 10 tag flags survived adjudication. The
+  reviewer prompt is spending most of its output on a family whose disposition is already
+  fixed by policy: it should either be told that `general` is a sanctioned fallback and
+  that narrowness alone is not a defect, or the runner should filter those flags out
+  before they reach a human/agent adjudicator.
+
+- [tooling] **The reviewer reported a tag value the entry does not have.** On 13450
+  ({所存|しょぞん}) it claimed `politeness` was `plain` and should be `humble`; the entry
+  has carried `politeness: humble` since creation. A reviewer that misreports the current
+  value of the field it is auditing is a precision risk beyond ordinary disagreement —
+  worth a spot-check of how the tag block is serialized into the prompt.
+
+- [tooling] **`review_runner.py` screening emits `FLAGGED` lines whose own text says the
+  model decided *not* to flag.** Several 13413–13899 screening flags read, verbatim,
+  "Therefore, I will not flag any of the partial readings as errors" and "病 → やまい is a
+  correct mapping for the kanji" — the model reasoned its way to "no error" and the result
+  was still recorded as a flag with 0.7–0.8 confidence. This inflates the flag count that
+  the known-noise shortcut and any future precision statistic are computed from. The
+  parser should treat a concern whose conclusion is negative as a non-flag, or the prompt
+  should force a separate verdict field instead of inferring the verdict from prose.
+
+- [pattern] **`education` is being used as a catch-all for anything school-adjacent.**
+  Three entries in this range carried `education` as their *only* semantic tag where the
+  headword is not about schooling at all: {漢語|かんご} (a term from linguistics),
+  {漢詩|かんし} (a poetic form), {紀行|きこう} (a genre of travel writing). All three were
+  migrated this run (→ `language`, `art`, `travel`). The shared error is tagging a word by
+  *where a learner would encounter it* rather than by what it denotes — the same failure
+  mode that the P11 semantic-mismatch detector was built for, but invisible to that
+  detector because `education` is an in-vocabulary tag. A `--check` for sole-`education`
+  entries whose gloss contains no schooling vocabulary would surface the rest cheaply.

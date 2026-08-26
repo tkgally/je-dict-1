@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-11T09:35:37Z",
+  "reviewed_at": "2026-08-26T12:56:28Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'body-part' is incorrect for '発汗' (sweating/perspiration). '発汗' is an action or physiological process, not a body part.",
-      "suggestion": "action"
+      "concern": "The semantic tag 'body-part' is incorrect for '発汗' (sweating/perspiration).",
+      "suggestion": "Replace 'body-part' with 'health' or 'action'."
     }
   ]
 }

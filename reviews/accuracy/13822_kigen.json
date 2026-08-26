@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-11T18:28:06Z",
+  "reviewed_at": "2026-08-26T12:58:51Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss implies that '紀元' always refers to the Christian era, which is not true. It can refer to any era's beginning.",
+      "suggestion": "era, epoch, the beginning of an era"
+    }
+  ]
 }

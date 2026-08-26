@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-11T18:26:54Z",
+  "reviewed_at": "2026-08-26T12:57:26Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword is a suru-verb and action noun, so it should have the 'action' tag.",
+      "suggestion": "Add 'action' to the semantic tags."
+    }
+  ]
 }

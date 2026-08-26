@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-11T18:28:01Z",
+  "reviewed_at": "2026-08-26T12:58:45Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'body-part' is incorrect. While 'bare hands' refers to hands, the word '素手' itself describes the state of having nothing on or in one's hands, rather than being a body part itself.",
-      "suggestion": "Replace 'body-part' with 'descriptive' or 'general'."
+      "concern": "The tag 'body-part' is incorrect. 素手 refers to the state of having bare hands, not the hands themselves.",
+      "suggestion": "Remove 'body-part' and add 'descriptive' or 'general'."
     }
   ]
 }
