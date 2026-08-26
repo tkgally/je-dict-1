@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T04:00:44Z",
+  "reviewed_at": "2026-08-26T12:51:29Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'science-energy' is not in the valid tag list.",
-      "suggestion": "science"
+      "severity": "error",
+      "concern": "The tag 'science' is too narrow and misleading for the general concept of 'fuel'.",
+      "suggestion": "energy"
     }
   ]
 }
