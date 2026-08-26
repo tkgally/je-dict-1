@@ -63,10 +63,10 @@
       ]
     }
   ],
-  "notes": "GRAMMAR PATTERN:\n〜⟦に→に：00314_ni⟧{違|ちが}いない = must be ~, no doubt ~\n\nUsed after:\n・Nouns: ⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{違|ちが}いない\n・Verbs (plain form): ⟦{知|し}っている→知る：00458_shiru⟧⟦に→に：00314_ni⟧{違|ちが}いない\n・I-adjectives: ⟦{高|たか}い→高い：00500_takai⟧⟦に→に：00314_ni⟧{違|ちが}いない\n・Na-adjectives: ⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧{違|ちが}いない\n\nSIMILAR EXPRESSIONS (certainty levels):\n・〜⟦に→に：00314_ni⟧{違|ちが}いない (must be - strong certainty)\n・〜⟦はず→はず：01557_hazu⟧⟦だ→だ：09496_da⟧ (should be - expectation based on reason)\n・〜⟦かもしれない→かもしれない：00164_kamoshirenai⟧ (might be - possibility)\n・〜⟦だろう→だろう：09576_darou⟧ (probably - conjecture)\n\nNOTE:\n{違|ちが}いない expresses the speaker's strong conviction, often based on evidence or reasoning.",
+  "notes": "〜⟦に→に：00314_ni⟧{違|ちが}いない expresses the speaker's strong conviction that something is the case: 'it must be ~,' 'there is no doubt that ~.' The conviction is an inference, not direct knowledge — the speaker has reasoned from evidence and is confident of the conclusion.\n\nGrammar: it attaches to a plain-form clause, with ⟦に→に：00314_ni⟧ before it. The ⟦に→に：00314_ni⟧ is fixed and is not the usual location or direction particle.\n- Nouns: ⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{違|ちが}いない\n- Verbs (plain form): ⟦{知|し}っている→知る：00458_shiru⟧⟦に→に：00314_ni⟧{違|ちが}いない\n- I-adjectives: ⟦{高|たか}い→高い：00500_takai⟧⟦に→に：00314_ni⟧{違|ちが}いない\n- Na-adjectives: the bare stem, ⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧{違|ちが}いない — no ⟦な→な：09497_na⟧\n\nDegrees of certainty, strongest first:\n- 〜⟦に→に：00314_ni⟧{違|ちが}いない: must be — the speaker is sure\n- 〜⟦はず→はず：01557_hazu⟧⟦だ→だ：09496_da⟧: should be — expected on the basis of a known reason or arrangement, and so it can be overturned by facts\n- 〜⟦だろう→だろう：09576_darou⟧: probably — plain conjecture\n- 〜⟦かもしれない→かもしれない：00164_kamoshirenai⟧: might be — one possibility among several\n\nRegister: {違|ちが}いない is neutral and common in speech and writing alike. In formal writing you may also meet 〜⟦に→に：00314_ni⟧⟦{相違|そうい}→相違：04043_soui⟧⟦ない→ない：01118_nai⟧, a stiffer equivalent found in legal and official documents.",
   "metadata": {
     "created": "2026-01-12T12:48:00Z",
-    "modified": "2026-05-27T17:08:23Z",
+    "modified": "2026-08-26T00:25:37Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -79,5 +79,28 @@
         "expression"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01557_hazu",
+      "reading": "はず",
+      "headword": "はず",
+      "label": "weaker: expectation from reasoning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00164_kamoshirenai",
+      "reading": "かもしれない",
+      "headword": "かもしれない",
+      "label": "weaker: mere possibility"
+    },
+    {
+      "type": "related",
+      "target_id": "09576_darou",
+      "reading": "だろう",
+      "headword": "だろう",
+      "label": "weaker: conjecture"
+    }
+  ]
 }

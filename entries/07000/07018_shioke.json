@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07018_shioke_ex1",
-      "japanese": "このスープは{塩気|しおけ}が{足|た}りない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦スープ→スープ：00395_suupu⟧⟦は→は：00079_ha⟧{塩気|しおけ}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧。",
       "english": "This soup doesn't have enough salt.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07018_shioke_ex2",
-      "japanese": "{塩気|しおけ}が{強|つよ}すぎて{喉|のど}が{渇|かわ}く。",
+      "japanese": "{塩気|しおけ}⟦が→が：00051_ga⟧⟦{強|つよ}すぎて→強い：00820_tsuyoi⟧⟦{喉|のど}→喉：00977_nodo⟧⟦が→が：00051_ga⟧⟦{渇|かわ}く→渇く：10965_kawaku⟧。",
       "english": "It's too salty and makes me thirsty.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07018_shioke_ex3",
-      "japanese": "{健康|けんこう}のために{塩気|しおけ}を{控|ひか}えめにしている。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{塩気|しおけ}⟦を→を：00422_wo⟧⟦{控|ひか}えめ→控えめ：17234_hikaeme⟧⟦に→に：00314_ni⟧⟦している→する：00392_suru⟧。",
       "english": "I'm keeping the salt content low for my health.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{塩|しお} (salt) + {気|け} (quality/presence of)\n\nThe {気|け} suffix indicates the presence or quality of something.\n\nCOLLOCATIONS:\n・{塩気|しおけ}が{足|た}りない - not salty enough\n・{塩気|しおけ}が{強|つよ}い - too salty\n・{塩気|しおけ}を{控|ひか}える - to reduce salt\n・{塩気|しおけ}のある - having saltiness\n\nSIMILAR WORDS:\n・{塩味|しおあじ} - salty taste (also means salty flavor)\n・{塩分|えんぶん} - salt content (more technical)\n\nUSAGE:\n{塩気|しおけ} is more commonly used in everyday cooking contexts, while {塩分|えんぶん} is used in health/nutrition contexts.",
+  "notes": "{塩気|しおけ} is saltiness — how salty something tastes, or how much salt it contains. It belongs to the kitchen and the dinner table: this is the word for saying a soup needs more salt.\n\nFormation: ⟦{塩|しお}→塩：00887_shio⟧ 'salt' + 〜{気|け}, a suffix meaning 'a trace or presence of.' The same suffix gives {水気|みずけ} 'moisture' and {油気|あぶらけ} 'greasiness.'\n\nCollocations:\n- {塩気|しおけ}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧: not salty enough\n- {塩気|しおけ}⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧: too salty\n- {塩気|しおけ}⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧: to cut down on salt\n- {塩気|しおけ}⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧: having some saltiness to it\n\nSimilar words:\n- ⟦{塩味|しおあじ}→塩味：12106_shioaji⟧: salty flavour. Closest to {塩気|しおけ}, but it names the flavour as such, where {塩気|しおけ} is more about how much salt is present.\n- ⟦{塩分|えんぶん}→塩分：09945_enbun⟧: salt content as a measurable quantity. This is the word of nutrition labels and medical advice — a doctor tells you to reduce your ⟦{塩分|えんぶん}→塩分：09945_enbun⟧, a cook tastes the {塩気|しおけ}.",
   "cross_references": [
     {
       "type": "related",
@@ -55,20 +55,17 @@
   ],
   "metadata": {
     "created": "2026-01-18T13:35:29Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-08-26T00:28:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "domain": [
-        "technical"
-      ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "food"
       ]
     }
   }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07014_kakebuton_ex1",
-      "japanese": "{冬|ふゆ}は{厚|あつ}い{掛|か}け{布団|ぶとん}を{使|つか}う。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧⟦{厚|あつ}い→厚い：00690_atsui⟧{掛|か}け{布団|ぶとん}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I use a thick comforter in winter.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07014_kakebuton_ex2",
-      "japanese": "{掛|か}け{布団|ぶとん}を{干|ほ}してふかふかにした。",
+      "japanese": "{掛|か}け{布団|ぶとん}⟦を→を：00422_wo⟧⟦{干|ほ}して→干す：00115_hosu⟧⟦ふかふか→ふかふか：10475_fukafuka⟧⟦に→に：00314_ni⟧⟦した→する：00392_suru⟧。",
       "english": "I aired out the comforter to make it fluffy.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07014_kakebuton_ex3",
-      "japanese": "{羽毛|うもう}{掛|か}け{布団|ぶとん}は{軽|かる}くて{暖|あたた}かい。",
+      "japanese": "⟦{羽毛|うもう}→羽毛：13915_umou⟧{掛|か}け{布団|ぶとん}⟦は→は：00079_ha⟧⟦{軽|かる}くて→軽い：00785_karui⟧⟦{暖|あたた}かい→暖かい：00618_atatakai⟧。",
       "english": "A down comforter is light and warm.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{掛|か}け (from {掛|か}ける, to put over) + {布団|ぶとん} (futon/bedding)\n\nLiterally 'covering futon.'\n\nCOLLOCATIONS:\n・{掛|か}け{布団|ぶとん}を{掛|か}ける - to put on a comforter\n・{掛|か}け{布団|ぶとん}を{干|ほ}す - to air out a comforter\n・{羽毛|うもう}{掛|か}け{布団|ぶとん} - down comforter\n・{夏|なつ}{掛|か}け{布団|ぶとん} - summer comforter (thin)\n\nRELATED WORDS:\n・{敷|し}き{布団|ぶとん} - mattress futon (underneath)\n・{毛布|もうふ} - blanket\n・{布団|ぶとん}カバー - futon cover",
+  "notes": "{掛|か}け{布団|ぶとん} is the covering layer of Japanese bedding — the quilt, comforter, or duvet that goes over the sleeper.\n\nFormation: {掛|か}け, from ⟦{掛|か}ける→掛ける：00854_kakeru⟧ 'to hang or drape over,' + ⟦{布団|ぶとん}→布団：01720_futon⟧. Literally the 'draping futon,' as against the ⟦{敷|し}き{布団|ぶとん}→敷き布団：07015_shikibuton⟧ or 'spread-out futon' underneath. The pair is the basic division of a futon set: one to lie on, one to lie under.\n\nCollocations:\n- {掛|か}け{布団|ぶとん}⟦を→を：00422_wo⟧⟦{掛|か}ける→掛ける：00854_kakeru⟧: to put the comforter over oneself\n- {掛|か}け{布団|ぶとん}⟦を→を：00422_wo⟧⟦{干|ほ}す→干す：00115_hosu⟧: to air the comforter, typically over a balcony rail on a fine day\n- ⟦{羽毛|うもう}→羽毛：13915_umou⟧{掛|か}け{布団|ぶとん}: down comforter\n- ⟦{夏|なつ}→夏：02236_natsu⟧{掛|か}け{布団|ぶとん}: a thin summer comforter\n\nRelated words:\n- ⟦{敷|し}き{布団|ぶとん}→敷き布団：07015_shikibuton⟧: the mattress futon underneath\n- ⟦{毛布|もうふ}→毛布：03630_moufu⟧: a blanket, often used between the two\n- {布団|ぶとん}⟦カバー→カバー：07812_kabaa⟧: the removable cover, washed far more often than the futon itself",
   "cross_references": [
     {
       "type": "contrast",
@@ -60,16 +60,16 @@
       "target_id": "01720_futon"
     },
     {
-      "type": "antonym",
+      "type": "contrast",
       "target_id": "16878_shikibuton",
       "reading": "しきぶとん",
       "headword": "{敷布団|しきぶとん}",
-      "label": "bottom futon"
+      "label": "written 敷布団"
     }
   ],
   "metadata": {
     "created": "2026-01-18T13:35:29Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-08-26T00:28:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

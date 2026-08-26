@@ -2,23 +2,15 @@
   "entry_id": "01261_dondon",
   "headword": "どんどん",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:46:38Z",
+  "reviewed_at": "2026-08-26T00:31:09Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'quantity' is incorrect for 'どんどん'.",
-      "suggestion": "The word 'どんどん' is an onomatopoeia or descriptive adverb, not related to quantity. A more appropriate tag would be 'onomatopoeia' or 'descriptive'."
-    }
-  ]
+  "issues": []
 }

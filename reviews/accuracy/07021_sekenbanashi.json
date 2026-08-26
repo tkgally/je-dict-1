@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-10T06:34:04Z",
+  "reviewed_at": "2026-08-26T00:31:25Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The semantic tag 'building' is incorrect for '世間話' (small talk/chitchat).",
-      "suggestion": "Replace 'building' with 'communication' or 'daily-life'."
+      "concern": "The gloss includes 'gossip', which is not an accurate primary meaning for 世間話. While some small talk might involve gossip, 世間話 itself doesn't inherently mean gossip.",
+      "suggestion": "Remove 'gossip' from the main gloss."
     }
   ]
 }

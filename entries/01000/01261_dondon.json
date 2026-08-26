@@ -183,11 +183,33 @@
       ]
     }
   ],
-  "notes": "どんどん is an onomatopoeic adverb describing rapid, continuous action or change.\n\nPosition: Usually appears before the verb.\n\nOnomatopoeia origin: Originally mimics the sound of drums (ドンドン), extended to mean 'rapidly' or 'continuously.'\n\nSimilar expressions:\n- どんどん vs. ⟦だんだん→だんだん：00832_dandan⟧: ⟦だんだん→だんだん：00832_dandan⟧ means 'gradually' (slow change); どんどん means 'rapidly' (fast change).\n- どんどん vs. ⟦どしどし→どしどし：noentry⟧: Both encourage action, but ⟦どしどし→どしどし：noentry⟧ is more emphatic and casual.\n- どんどん vs. ⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦に→に：00314_ni⟧: ⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦に→に：00314_ni⟧ specifically means 'one after another'; どんどん emphasizes the pace.\n\nCommon usage:\n- どんどん〜て⟦ください→ください：02899_kudasai⟧: Encouragement to do something freely without holding back\n- どんどん〜て⟦いく→行く：00119_iku⟧: Keep ~ing more and more\n\nOrthography: Usually written in hiragana.",
-  "cross_references": [],
+  "notes": "どんどん is an onomatopoeic adverb describing rapid, continuous action or change. All three senses share the idea of momentum with nothing holding it back — a process that keeps going (sense 1), items arriving without pause (sense 2), or a listener told not to hold back (sense 3).\n\nPosition: usually immediately before the verb it modifies.\n\nOnomatopoeia origin: originally mimics the sound of drums (ドンドン), extended to mean 'rapidly' or 'continuously.'\n\nSimilar expressions:\n- どんどん vs. ⟦だんだん→だんだん：00832_dandan⟧: ⟦だんだん→だんだん：00832_dandan⟧ means 'gradually' (slow, incremental change); どんどん means 'rapidly.' Both fit ⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧, but they describe different rates of improvement.\n- どんどん vs. ⟦{徐々|じょじょ}に→徐々に：04131_jojoni⟧: ⟦{徐々|じょじょ}に→徐々に：04131_jojoni⟧ is the written-style equivalent of ⟦だんだん→だんだん：00832_dandan⟧ and likewise implies slowness.\n- どんどん vs. ⟦どしどし→どしどし：27616_doshidoshi⟧: both encourage action, but ⟦どしどし→どしどし：27616_doshidoshi⟧ is more emphatic and casual, and is largely limited to that encouraging use.\n- どんどん vs. ⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦に→に：00314_ni⟧: ⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦に→に：00314_ni⟧ specifically means 'one after another' and says nothing about speed; どんどん emphasizes the pace.\n\nCommon usage:\n- どんどん〜て⟦ください→ください：02899_kudasai⟧: encouragement to do something freely, without holding back. This is a warm, hospitable formula, the natural counterpart of telling a guest not to ⟦{遠慮|えんりょ}→遠慮：01337_enryo⟧.\n- どんどん〜て⟦いく→行く：00119_iku⟧ / どんどん〜て⟦いる→いる：00495_iru⟧: keep ~ing more and more; the 〜ていく version stresses that the change carries on into the future.\n\nOrthography: usually written in hiragana.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00832_dandan",
+      "reading": "だんだん",
+      "headword": "だんだん",
+      "label": "gradually"
+    },
+    {
+      "type": "related",
+      "target_id": "03522_tsugitsugi",
+      "reading": "つぎつぎ",
+      "headword": "{次々|つぎつぎ}",
+      "label": "one after another"
+    },
+    {
+      "type": "synonym",
+      "target_id": "27616_doshidoshi",
+      "reading": "どしどし",
+      "headword": "どしどし",
+      "label": "more emphatic"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:05:55Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-08-26T00:21:58Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {
@@ -197,7 +219,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "quantity"
+        "onomatopoeia",
+        "change"
       ]
     }
   }
