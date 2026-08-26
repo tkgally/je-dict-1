@@ -2,23 +2,15 @@
   "entry_id": "01316_kyoumi",
   "headword": "{興味|きょうみ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:47:18Z",
+  "reviewed_at": "2026-08-26T00:31:10Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'general' is too broad for a word that clearly describes a cognitive state.",
-      "suggestion": "cognition"
-    }
-  ]
+  "issues": []
 }

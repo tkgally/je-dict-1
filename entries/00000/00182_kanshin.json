@@ -64,10 +64,25 @@
     }
   ],
   "notes": "COMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{関心|かんしん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to be interested in ~)\n- {関心|かんしん}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to have interest, take interest)\n- {関心|かんしん}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ (high interest)\n\nNote: Don't confuse with ⟦{感心|かんしん}→感心：02559_kanshin⟧ (admiration) - same reading but different kanji and meaning.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "01316_kyoumi",
+      "reading": "きょうみ",
+      "headword": "{興味|きょうみ}",
+      "label": "everyday equivalent"
+    },
+    {
+      "type": "related",
+      "target_id": "05213_koukishin",
+      "reading": "こうきしん",
+      "headword": "{好奇心|こうきしん}",
+      "label": "curiosity as a trait"
+    }
+  ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-05-09T19:16:32Z",
+    "modified": "2026-08-26T00:23:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -77,7 +92,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "emotion",
+        "cognition"
       ]
     }
   },

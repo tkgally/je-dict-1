@@ -1613,3 +1613,41 @@ _(The 12 observations from the 2026-08-21 wiki run, the 2026-08-21 polish run, a
   and letting the duplicate gate filter is cheaper than checking each word by hand, and
   the 9/13 rejection rate is a reminder that a word feeling "not yet covered" while
   writing an entry is a poor signal.
+
+- [pattern] **A whole band of mid-07000 entries has zero inline link coverage.** Every
+  frontier entry this run touched (07013–07022) arrived with completely unlinked example
+  sentences and notes — not partial coverage to be completed, but nothing at all. The
+  entries are otherwise decent (sensible senses, real collocations, cultural notes), so
+  this looks like a creation-era cohort that predates the inline-link requirement rather
+  than sloppy individual work. Adding coverage is the single most expensive part of
+  polishing these, roughly 60–80 links per entry including notes. If the cohort is large,
+  it may be worth a detector (`entries with 0 ⟦ markers`) to size it, since the
+  comprehensive frontier will grind through it one entry at a time for a long while.
+
+- [pattern] **Sole-`general` semantic tags cluster in the same cohort.** 07013, 07016,
+  07017, 07018, 07019, 07022 all carried `semantic: ["general"]` despite having obvious
+  homes (`tool`, `food`, `health`, `communication`). The priority-lane entries showed the
+  same thing at lower IDs (03658, 03726, 03729, 03760, plus neighbours 00182, 05300).
+  `check_tag_drift.py`'s sole-general check already sees these; the volume suggests it is
+  worth a dedicated `systemic-fix` pass rather than waiting for the polish frontier.
+
+- [entry] 07015_shikibuton and 16878_shikibuton are the same word in two orthographies
+  ({敷|し}き{布団|ぶとん} vs {敷布団|しきぶとん}), both general tier, both with 3 examples.
+  This is a consolidation candidate for `prompts/consolidate_entries.md`. Related: 07014
+  listed 16878 as an `antonym`, which is plainly wrong — corrected to `contrast` this run,
+  but the underlying duplication is what should be fixed.
+
+- [tooling] `build/validate.py` catches malformed and unresolvable inline links but not
+  *naked* Japanese words — text with no link and no `noentry` marker passes clean. Since
+  full coverage is a tier-1 requirement of comprehensive polish, a checker that flags
+  unwrapped runs of Japanese in `examples[].japanese` and `notes` would turn the most
+  labour-intensive tier-1 item into something verifiable instead of eyeballed. It would
+  also have caught the 07013–07022 cohort above automatically.
+
+- [pattern] **Writing a `noentry` marker without checking is a live source of error.**
+  This run marked たわ{言|ごと} as `noentry` from memory; it has had entry 07394_tawagoto
+  all along. The `noentry` path deserves the same reflex as entry creation: run
+  `manage_candidates.py check` (or `check_duplicate.py`) *before* writing the marker, not
+  only before adding the candidate. The candidate-add step happens to catch it, but only
+  if you try to add a candidate — a bare `noentry` marker with no candidate add is
+  silently wrong.

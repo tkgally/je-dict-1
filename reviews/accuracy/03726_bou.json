@@ -8,38 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T18:20:34Z",
+  "reviewed_at": "2026-08-26T00:31:12Z",
   "summary": {
-    "flagged": 4
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
+      "dimension": "tags",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The gloss 'line, bar' for sense 2 is misleading. While 'bar' is sometimes correct (e.g., bar graph), 'line' is not the primary meaning of 棒 in this context. It refers more to the visual representation of a bar or a stroke, not a general 'line'.",
-      "suggestion": "bar, stroke"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "error",
-      "concern": "The English translation 'I ended up wasting all my hard work' for 'せっかくの努力を棒に振ってしまった。' is too literal and misses the idiomatic nuance of '棒に振る' which means to throw away or squander something valuable, often implying a complete loss or ruin.",
-      "suggestion": "I threw away all my hard work. / I squandered all my hard work."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "error",
-      "concern": "The English translation 'To draw a line' for '棒を引く。' is too general and doesn't capture the specific meaning of '棒を引く' in the context of sense 2, which refers to drawing a bar or a stroke, often for emphasis or cancellation.",
-      "suggestion": "To draw a bar/stroke."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "error",
-      "concern": "The English translation 'I crossed out the name by drawing a line over it' for '名前の上に棒を引いて消した。' is slightly inaccurate. '棒を引く' in this context specifically means to draw a bar or a stroke over something to cross it out, not just any 'line'.",
-      "suggestion": "I crossed out the name by drawing a bar over it."
+      "concern": "The headword '棒' has multiple meanings, and 'tool' only covers one of them. It also means 'bar' or 'stroke' (as in a line), which are not tools.",
+      "suggestion": "Add 'general' to the semantic tags to encompass all meanings."
     }
   ]
 }
