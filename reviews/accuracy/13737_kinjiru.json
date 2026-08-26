@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-11T18:26:37Z",
+  "reviewed_at": "2026-08-26T12:57:07Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'communication' is incorrect for the headword '禁じる'. The word primarily means 'to prohibit' or 'to suppress emotions', which are actions or states of being, not forms of communication.",
-      "suggestion": "Replace 'communication' with 'action'."
+      "concern": "The semantic tag 'communication' is too narrow and misleading for a verb that primarily means 'to prohibit' or 'to suppress'. While communication can be involved in prohibiting, the core meaning is about restriction or control.",
+      "suggestion": "action"
     }
   ]
 }

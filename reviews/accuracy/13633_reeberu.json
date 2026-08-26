@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T15:27:05Z",
+  "reviewed_at": "2026-08-26T12:55:00Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too narrow and misleading for the headword 'レーベル', which primarily refers to a 'label' or 'brand' in a broader sense, not just leisure activities. While music labels (sense 1) can be associated with leisure, the general meaning of 'label' or 'brand' (sense 2) applies to many other contexts beyond leisure.",
+      "suggestion": "Replace 'leisure' with 'business' or 'general' to better reflect the headword's meaning, especially considering sense 2 which refers to product labels/brands."
+    }
+  ]
 }

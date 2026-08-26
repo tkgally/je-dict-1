@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T04:01:35Z",
+  "reviewed_at": "2026-08-26T12:52:18Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'royal road' is misleading as a primary gloss for the modern usage of 王道, which primarily means 'the classic/standard approach'. The 'royal road' meaning is more archaic and often used in a specific idiom.",
+      "suggestion": "Change 'the classic approach; royal road' to 'the classic approach; standard way'"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'easy path, shortcut' for sense 2 is misleading. While 'royal road' is often associated with the idea of a shortcut, the term itself doesn't directly mean 'easy path' or 'shortcut'. It refers to a privileged or direct path, which is then often negated to mean 'no shortcuts'.",
+      "suggestion": "Change 'royal road, easy path, shortcut' to 'royal road (often implying a shortcut)'"
+    }
+  ]
 }

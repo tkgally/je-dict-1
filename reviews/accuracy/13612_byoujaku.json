@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T15:24:56Z",
+  "reviewed_at": "2026-08-26T12:54:25Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'descriptive' is too general and doesn't capture the core meaning. 'Health' is a more appropriate and specific tag.",
+      "suggestion": "health"
+    }
+  ]
 }

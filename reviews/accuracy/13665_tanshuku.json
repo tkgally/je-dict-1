@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-11T09:34:48Z",
+  "reviewed_at": "2026-08-26T12:55:40Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '短縮' (shortening, reduction) is an action noun/suru-verb. By convention, these should have the 'action' tag.",
+      "suggestion": "Add 'action' to the semantic tags."
+    }
+  ]
 }

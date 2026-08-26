@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T04:01:21Z",
+  "reviewed_at": "2026-08-26T12:52:03Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation 'open-weight matches' for 無差別級の試合 is too specific and doesn't fully capture the meaning of 無差別級, which implies 'unrestricted class' or 'no distinction in class'. While 'open-weight' is a common context, it's not the only one.",
+      "suggestion": "Change 'open-weight matches' to 'unrestricted class matches' or 'matches without class distinction' to better reflect the broader meaning of 無差別級."
+    }
+  ]
 }

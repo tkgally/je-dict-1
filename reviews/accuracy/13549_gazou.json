@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T04:02:22Z",
+  "reviewed_at": "2026-08-26T12:53:19Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'electronics' is too narrow for '画像'. While images are often displayed on electronic devices, the word itself refers to the visual representation, not the electronic medium.",
+      "suggestion": "general"
+    }
+  ]
 }

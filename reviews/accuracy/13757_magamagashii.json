@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-11T18:26:59Z",
+  "reviewed_at": "2026-08-26T12:57:31Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for '禍々しい'. This word describes something that evokes a negative feeling, rather than being an emotion itself.",
+      "suggestion": "Replace 'emotion' with 'descriptive'."
+    }
+  ]
 }

@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T15:27:08Z",
+  "reviewed_at": "2026-08-26T12:55:03Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword 'リニア' has two distinct meanings, one of which is 'linear' (sense 2), which is not covered by the 'transportation' tag.",
-      "suggestion": "Add 'general' or 'abstract' to cover the 'linear' meaning."
+      "concern": "The headword 'リニア' has two distinct meanings: 'maglev (train)' and 'linear'. The current semantic tag 'transportation' only covers the 'maglev' meaning. The 'linear' meaning is not covered by this tag.",
+      "suggestion": "Add 'general' or 'science' to cover the 'linear' meaning, or split the entry into two headwords if the meanings are truly distinct enough to warrant it. For now, 'general' is a good catch-all for the abstract 'linear' sense."
     }
   ]
 }

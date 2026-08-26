@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T04:00:17Z",
+  "reviewed_at": "2026-08-26T12:51:00Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'education' is incorrect for '漢詩' (Chinese poetry). While it might be studied in education, the word itself refers to a form of art/literature, not the act of education.",
-      "suggestion": "Replace 'education' with 'art' or 'language' or 'culture'."
+      "concern": "The tag 'education' is too narrow and misleading for the headword '漢詩' itself. While kanshi is studied in education, the word itself refers to a form of literature.",
+      "suggestion": "art"
     }
   ]
 }

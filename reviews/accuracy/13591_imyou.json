@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T15:23:46Z",
+  "reviewed_at": "2026-08-26T12:54:05Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is missing 'nickname', which is included in the definition and is a valid meaning.",
+      "suggestion": "alias, another name, epithet, nickname"
+    }
+  ]
 }

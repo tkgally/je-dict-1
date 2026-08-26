@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-10T15:27:28Z",
+  "reviewed_at": "2026-08-26T12:55:10Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'abstract' is too general and doesn't capture the core meaning of '発足'.",
-      "suggestion": "Replace 'abstract' with 'action' as '発足' is a suru-verb and refers to the action of starting or launching."
+      "concern": "The headword '発足' (inauguration, launch) is an action noun/suru-verb, and should have the 'action' tag.",
+      "suggestion": "Add 'action' to the semantic tags."
     }
   ]
 }
