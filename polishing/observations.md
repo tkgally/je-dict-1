@@ -1691,3 +1691,24 @@ _(The 12 observations from the 2026-08-21 wiki run, the 2026-08-21 polish run, a
   mode that the P11 semantic-mismatch detector was built for, but invisible to that
   detector because `education` is an in-vocabulary tag. A `--check` for sole-`education`
   entries whose gloss contains no schooling vocabulary would surface the rest cheaply.
+
+- [tooling] **The furigana screener is the Routine's wall-clock bottleneck, and a run that
+  sizes its range by dollars will not finish it.** `review_runner.py --pass screening` moves at
+  roughly **6 entries per minute**; the accuracy reviewer over the same entries moves at about
+  **40 per minute**. A 487-entry range therefore costs ~12 minutes of accuracy review and
+  ~80 minutes of screening, for $0.22 and $0.05 respectively — the cheap pass is the slow one,
+  so §A's budget-based sizing rule ("~$0.5 per 1,000 entries, target 400–600 entries") gives
+  no warning. This run screened 13550–13698 (146 entries) and stopped there; **13413–13549 and
+  13699–13899 have been reviewed for glosses, translations and tags but never furigana-screened**,
+  and because the mode cursor has advanced to 13900 no future run will revisit them on its own.
+  A future furigana sweep should be pointed at those two blocks explicitly. Two fixes worth
+  considering: run the screener concurrently (it is one independent HTTP call per entry, so a
+  small worker pool would cut this to minutes), or have the selector hand the furigana and
+  accuracy dimensions different, independently-tracked ranges sized to their real throughput.
+
+- [tooling] **`review_runner.py --pass screening --range A B` does not process entries in ID
+  order.** Given `--range 13413 13899` it began at 13550 and worked upward, because it iterates
+  the entry files in directory-glob order (`entries/13500/` before `entries/13000/`). Any run
+  that is interrupted therefore leaves a *hole* rather than a prefix, and "screened up to N" is
+  not a safe thing to infer from a partial log. Sorting the work list by ID before the loop
+  would make partial passes resumable in the obvious way.
