@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07042_kouishitsu_ex1",
-      "japanese": "{更衣室|こういしつ}で{着替|きが}えてください。",
+      "japanese": "{更衣室|こういしつ}⟦で→で：00502_de⟧⟦{着替|きが}えて→着替える：04603_kigaeru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please change in the changing room.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07042_kouishitsu_ex2",
-      "japanese": "プールの{更衣室|こういしつ}は{男女|だんじょ}{別々|べつべつ}だ。",
+      "japanese": "⟦プール→プール：02958_puuru⟧⟦の→の：09472_no⟧{更衣室|こういしつ}⟦は→は：00079_ha⟧⟦{男女|だんじょ}→男女：03117_danjo⟧⟦{別々|べつべつ}→別々：03972_betsubetsu⟧⟦だ→だ：09496_da⟧。",
       "english": "The pool changing rooms are separate for men and women.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07042_kouishitsu_ex3",
-      "japanese": "{更衣室|こういしつ}にロッカーがある。",
+      "japanese": "{更衣室|こういしつ}⟦に→に：00314_ni⟧⟦ロッカー→ロッカー：09734_rokkaa⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are lockers in the changing room.",
       "notes": null,
       "has_audio": false,
@@ -43,19 +43,26 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{更衣|こうい} (changing clothes) + {室|しつ} (room)\n\nLOCATIONS:\n・ジム - gym\n・プール - pool\n・スポーツ{施設|しせつ} - sports facilities\n・{試着室|しちゃくしつ} - fitting room (in stores, different term)\n\nCOLLOCATIONS:\n・{更衣室|こういしつ}で{着替|きが}える - to change in the changing room\n・{更衣室|こういしつ}を{使|つか}う - to use the changing room\n・{更衣室|こういしつ}のロッカー - changing room lockers\n\nSIMILAR TERMS:\n・{試着室|しちゃくしつ} - fitting room (for trying on clothes in stores)\n・{控室|ひかえしつ} - waiting room; green room",
+  "notes": "{更衣室|こういしつ} is the room where you change into or out of sports clothes, a uniform, or a swimsuit. Formation: ⟦{更衣|こうい}→更衣：23085_koui⟧ 'changing clothes' + ⟦{室|しつ}→室：09946_shitsu⟧ 'room'.\n\nWhere you find one: a ⟦ジム→ジム：04735_jimu⟧, a ⟦プール→プール：02958_puuru⟧, ⟦スポーツ→スポーツ：04740_supootsu⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧ of any kind, and the staff areas of workplaces where a uniform is worn.\n\nCollocations:\n- {更衣室|こういしつ}⟦で→で：00502_de⟧⟦{着替|きが}える→着替える：04603_kigaeru⟧: to change in the changing room\n- {更衣室|こういしつ}⟦の→の：09472_no⟧⟦ロッカー→ロッカー：09734_rokkaa⟧: the lockers in it\n\nDo not use it of a shop: trying on clothes before buying happens in a ⟦{試着室|しちゃくしつ}→試着室：09626_shichakushitsu⟧ (fitting room). A ⟦{控室|ひかえしつ}→控室：17258_hikaeshitsu⟧ is a room to wait in, not to change in.",
   "cross_references": [
     {
       "type": "related",
       "reading": "しちゃくしつ",
       "headword": "{試着室|しちゃくしつ}",
-      "label": "fitting room",
+      "label": "fitting room (in a shop)",
       "target_id": "09626_shichakushitsu"
+    },
+    {
+      "type": "related",
+      "reading": "ひかえしつ",
+      "headword": "{控室|ひかえしつ}",
+      "label": "waiting room",
+      "target_id": "17258_hikaeshitsu"
     }
   ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-02-03T14:48:46Z",
+    "modified": "2026-08-27T12:49:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +72,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "building"
       ]
     }
   }

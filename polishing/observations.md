@@ -1532,3 +1532,50 @@ fourth filing of the standing structural fact).)_
   window was +188 against 482. Tooling 94's `reviewed_at >= modified` predicate is still
   unshipped, and the 2026-08-10 measurement that 35% of the queue is already-reviewed padding
   still stands. The queue length should not be quoted in either direction until it ships.
+
+## 2026-08-27 — Routine polish (entries 07023–07042)
+
+- [pattern] The whole 07023–07042 block (all created 2026-01-18) had **zero inline-link
+  coverage** in examples and notes, and every one used the legacy ALL-CAPS
+  `FORMATION:` / `COLLOCATIONS:` / `SIMILAR WORDS:` notes template with `・` bullets rather
+  than the current prose-plus-hyphen-bullet house style. This looks like a whole creation
+  batch that predates both conventions; entries created on that date elsewhere in the ID
+  space are likely in the same state, so the frontier lane should expect ~full rewrites, not
+  touch-ups, for some distance yet.
+
+- [pattern] **Template-default tag drift in the same batch.** 07027 {不可欠|ふかけつ} carried
+  `domain: ["colloquial"]` while its own notes describe it as formal/written; 07031
+  {獣医|じゅうい} carried `domain: ["legal"]` and `formality: "formal"` for an everyday word
+  (it is {獣医師|じゅういし} that is the legal term). Both corrected. Worth a targeted sweep
+  of `domain` tags on entries created 2026-01-18: the values look copied rather than judged.
+
+- [pattern] **Sole-`general` semantic tags were the norm in this block** — 07026, 07034,
+  07035, 07036, 07037, 07040, 07041, 07042 all carried `semantic: ["general"]` alone and all
+  had an obvious better tag (`cognition`, `daily-life`, `tool`, `building`). This is the known
+  P13 sole-general family; the household-goods stretch 07034–07042 is a dense, cheap target
+  for it.
+
+- [pattern] **Product-classifier suffixes have no entries and recur constantly.** {製|せい}
+  ('made of'), {系|けい} ('-based'), {用|よう} ('for use with') appeared in almost every
+  household-product entry in this block and all had to be marked `noentry`. Added as
+  candidates this run; they would pay for themselves quickly across the 剤/器/機 product
+  vocabulary.
+
+- [entry] **Duplicate: {気持|きも}ち has two entries**, 01385_kimochi and 02485_kimochi, both
+  glossed "feeling, mood". Needs a consolidation pass (`prompts/consolidate_entries.md`).
+
+- [entry] **Near-duplicate: {次々|つぎつぎ} (03522_tsugitsugi) and {次々|つぎつぎ}と
+  (07028_tsugitsugito)** are the same adverb with and without the particle, each with its own
+  full entry. Cross-linked both ways this session as a stopgap; a merge-or-differentiate
+  decision is still needed.
+
+- [entry] **28575_shiki ({式|しき}) is glossed only "formula; expression; equation; ceremony"**
+  and does not cover the productive suffix sense (スプレー{式|しき} 'spray type',
+  {置|お}き{型|がた} vs 〜{式|しき}). Uses in 07036/07037 had to be marked `noentry` rather
+  than linked to a gloss that does not match. Add the suffix sense to that entry.
+
+- [tooling] `build/verify_furigana.py` reports `WARNING: Entry not found: 07023` for a bare
+  five-digit ID and needs the full `07023_oseji` form, while `build/find_missing_furigana.py`
+  keys off the five-digit prefix. CLAUDE.md documents it as `verify_furigana.py <id>`, which
+  reads as the numeric ID. Accepting a bare numeric ID (or naming the mismatch in the error)
+  would save a round trip per session.

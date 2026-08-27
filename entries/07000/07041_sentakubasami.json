@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07041_sentakubasami_ex1",
-      "japanese": "{洗濯物|せんたくもの}を{洗濯|せんたく}ばさみで{止|と}める。",
+      "japanese": "⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦を→を：00422_wo⟧{洗濯|せんたく}ばさみ⟦で→で：00502_de⟧⟦{止|と}める→止める：00678_tomeru⟧。",
       "english": "I secure the laundry with clothespins.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07041_sentakubasami_ex2",
-      "japanese": "{風|かぜ}が{強|つよ}いので{洗濯|せんたく}ばさみを{多|おお}めに{使|つか}った。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦が→が：00051_ga⟧⟦{強|つよ}い→強い：00820_tsuyoi⟧⟦ので→ので：09501_node⟧{洗濯|せんたく}ばさみ⟦を→を：00422_wo⟧⟦{多|おお}め→多め：28421_oome⟧⟦に→に：00314_ni⟧⟦{使|つか}った→使う：00473_tsukau⟧。",
       "english": "Since the wind was strong, I used extra clothespins.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07041_sentakubasami_ex3",
-      "japanese": "プラスチックの{洗濯|せんたく}ばさみが{壊|こわ}れた。",
+      "japanese": "⟦プラスチック→プラスチック：00347_purasuchikku⟧⟦の→の：09472_no⟧{洗濯|せんたく}ばさみ⟦が→が：00051_ga⟧⟦{壊|こわ}れた→壊れる：00791_kowareru⟧。",
       "english": "The plastic clothespin broke.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{洗濯|せんたく} (laundry) + ばさみ (clip/pincer, from {挟|はさ}む)\n\nALTERNATE WRITING:\nAlso written as {洗濯挟|せんたくばさみ} or {洗濯鋏|せんたくばさみ}.\n\nMATERIALS:\n・プラスチック{製|せい} - plastic (most common)\n・{木製|もくせい} - wooden (traditional)\n・ステンレス{製|せい} - stainless steel\n\nCOLLOCATIONS:\n・{洗濯|せんたく}ばさみで{止|と}める - to secure with clothespins\n・{洗濯|せんたく}ばさみで{挟|はさ}む - to clip with clothespins\n・{洗濯|せんたく}ばさみを{外|はず}す - to remove clothespins\n\nRELATED ITEMS:\n・{物干|ものほ}し{竿|ざお} - laundry pole\n・{角|かく}ハンガー - drying rack with clips",
-  "cross_references": [],
+  "notes": "{洗濯|せんたく}ばさみ is a clothespin or clothes peg. Formation: ⟦{洗濯|せんたく}→洗濯：13283_sentaku⟧ 'laundry' + ばさみ, the compounding form of ⟦{挟|はさ}む→挟む：00091_hasamu⟧ 'to pinch, to hold between'. Also written {洗濯挟|せんたくばさみ} or {洗濯鋏|せんたくばさみ}, but the mixed form is standard.\n\nMaterials:\n- ⟦プラスチック→プラスチック：00347_purasuchikku⟧⟦{製|せい}→製：noentry⟧: plastic, by far the most common, and the kind that goes brittle after a year outdoors\n- ⟦{木|き}→木：00524_ki⟧⟦{製|せい}→製：noentry⟧: wooden\n- ⟦ステンレス→ステンレス：08832_sutenresu⟧⟦{製|せい}→製：noentry⟧: stainless steel, which survives the sun\n\nCollocations:\n- {洗濯|せんたく}ばさみ⟦で→で：00502_de⟧⟦{止|と}める→止める：00678_tomeru⟧: to fasten with clothespins\n- {洗濯|せんたく}ばさみ⟦で→で：00502_de⟧⟦{挟|はさ}む→挟む：00091_hasamu⟧: to clip something\n- {洗濯|せんたく}ばさみ⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧: to take the pegs off\n\nRelated laundry hardware: ⟦{物干|ものほ}し{竿|ざお}→物干し竿：08019_monohoshizao⟧, the pole clothes are hung on, and ⟦{角|かく}→角：noentry⟧⟦ハンガー→ハンガー：08275_hangaa⟧, the rectangular frame ringed with pegs used for socks and underwear.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ものほしざお",
+      "headword": "{物干|ものほ}し{竿|ざお}",
+      "label": "laundry pole",
+      "target_id": "08019_monohoshizao"
+    },
+    {
+      "type": "related",
+      "reading": "せんたくもの",
+      "headword": "{洗濯物|せんたくもの}",
+      "label": "laundry",
+      "target_id": "09533_sentakumono"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-01-19T12:17:44.876688Z",
+    "modified": "2026-08-27T12:48:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +72,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "daily-life"
       ]
     }
   }

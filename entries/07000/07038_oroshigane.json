@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07038_oroshigane_ex1",
-      "japanese": "おろし{金|がね}で{大根|だいこん}をおろす。",
+      "japanese": "おろし{金|がね}⟦で→で：00502_de⟧⟦{大根|だいこん}→大根：05186_daikon⟧⟦を→を：00422_wo⟧⟦おろす→卸す：02463_orosu⟧。",
       "english": "I grate daikon radish with a grater.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07038_oroshigane_ex2",
-      "japanese": "{生姜|しょうが}をおろすのに{小|ちい}さいおろし{金|がね}を{使|つか}う。",
+      "japanese": "⟦{生姜|しょうが}→生姜：05191_shouga⟧⟦を→を：00422_wo⟧⟦おろす→卸す：02463_orosu⟧⟦の→の：09472_no⟧⟦に→に：00314_ni⟧⟦{小|ちい}さい→小さい：00025_chiisai⟧おろし{金|がね}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "I use a small grater to grate ginger.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07038_oroshigane_ex3",
-      "japanese": "おろし{金|がね}は{使|つか}った{後|あと}すぐに{洗|あら}う。",
+      "japanese": "おろし{金|がね}⟦は→は：00079_ha⟧⟦{使|つか}った→使う：00473_tsukau⟧⟦{後|あと}→後：09580_ato⟧⟦すぐに→すぐに：02905_suguni⟧⟦{洗|あら}う→洗う：00827_arau⟧。",
       "english": "I wash the grater right after using it.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "FORMATION:\nおろし (grating) + {金|がね} (metal)\n\nALTERNATE WRITING:\nAlso written as {卸|おろ}し{金|がね} or {下|お}ろし{金|がね}.\n\nTYPES:\n・{鬼|おに}おろし - coarse grater (for rough texture)\n・{銅製|どうせい}おろし{金|がね} - copper grater (traditional, fine)\n・セラミックおろし{金|がね} - ceramic grater\n\nCOLLOCATIONS:\n・おろし{金|がね}でおろす - to grate with a grater\n・{大根|だいこん}おろし - grated daikon\n・{薬味|やくみ}をおろす - to grate condiments\n\nCULTURAL NOTE:\nJapanese graters often have a circular design with fine teeth, different from Western box graters.",
-  "cross_references": [],
+  "notes": "おろし{金|がね} is a grater — in Japanese kitchens usually a flat plate or shallow dish covered in fine raised teeth, rather than a Western box grater. It is used for foods that are meant to come out as a wet pulp: daikon, ginger, wasabi, garlic.\n\nFormation: おろし 'grating', from ⟦おろす→卸す：02463_orosu⟧, + {金|がね} 'metal'. Also written {卸|おろ}し{金|がね} or {下|お}ろし{金|がね}; the kana-plus-kanji form above is the most common.\n\nTypes:\n- ⟦{鬼|おに}→鬼：02184_oni⟧おろし: a coarse grater with large teeth, for a rough, flaky texture\n- ⟦{銅|どう}→銅：19443_dou⟧⟦{製|せい}→製：noentry⟧おろし{金|がね}: a copper grater — the traditional professional tool, prized for a fine, non-bruising cut\n- ⟦セラミック→セラミック：noentry⟧おろし{金|がね}: ceramic, common in home kitchens\n\nCollocations:\n- おろし{金|がね}⟦で→で：00502_de⟧⟦おろす→卸す：02463_orosu⟧: to grate with a grater\n- ⟦{大根|だいこん}おろし→大根おろし：26890_daikonoroshi⟧: grated daikon — the standard accompaniment to grilled fish and tempura\n- ⟦{薬味|やくみ}→薬味：04964_yakumi⟧⟦を→を：00422_wo⟧⟦おろす→卸す：02463_orosu⟧: to grate a condiment",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "だいこんおろし",
+      "headword": "{大根|だいこん}おろし",
+      "label": "grated daikon",
+      "target_id": "26890_daikonoroshi"
+    },
+    {
+      "type": "related",
+      "reading": "おろす",
+      "headword": "{卸|おろ}す",
+      "label": "to grate",
+      "target_id": "02463_orosu"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-06-28T12:19:44Z",
+    "modified": "2026-08-27T12:47:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +72,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "tool"
       ]
     }
   }

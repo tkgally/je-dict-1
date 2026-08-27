@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07031_juui_ex1",
-      "japanese": "{猫|ねこ}を{獣医|じゅうい}に{連|つ}れて{行|い}った。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦を→を：00422_wo⟧{獣医|じゅうい}⟦に→に：00314_ni⟧⟦{連|つ}れて→連れる：01240_tsureru⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I took the cat to the vet.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07031_juui_ex2",
-      "japanese": "{獣医|じゅうい}になるには、6{年間|ねんかん}{大学|だいがく}で{学|まな}ぶ{必要|ひつよう}がある。",
+      "japanese": "{獣医|じゅうい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、6⟦{年間|ねんかん}→年間：00974_nenkan⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦で→で：00502_de⟧⟦{学|まな}ぶ→学ぶ：01987_manabu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "To become a veterinarian, you need to study at university for six years.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07031_juui_ex3",
-      "japanese": "{近所|きんじょ}に{評判|ひょうばん}のいい{獣医|じゅうい}がいる。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦に→に：00314_ni⟧⟦{評判|ひょうばん}→評判：03586_hyouban⟧⟦の→の：09472_no⟧⟦いい→いい：00118_ii⟧{獣医|じゅうい}⟦が→が：00051_ga⟧⟦いる→いる：00495_iru⟧。",
       "english": "There's a well-regarded vet in the neighborhood.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{獣|じゅう} (animal/beast) + {医|い} (doctor)\n\nFORMAL TERM:\n{獣医師|じゅういし} is the formal/official term used in legal and professional contexts.\n\nWORKPLACE:\n・{動物病院|どうぶつびょういん} - animal hospital\n・{獣医|じゅうい}クリニック - veterinary clinic\n\nCOLLOCATIONS:\n・{獣医|じゅうい}に{診|み}てもらう - to have a vet examine (an animal)\n・{獣医|じゅうい}に{連|つ}れて{行|い}く - to take (an animal) to the vet\n・{獣医|じゅうい}の{資格|しかく} - veterinary qualification",
+  "notes": "{獣医|じゅうい} is the everyday word for a vet, used both of the person and, loosely, of the practice you take an animal to. Formation: {獣|じゅう} 'beast' + {医|い} 'doctor'.\n\nThe official term is ⟦{獣医師|じゅういし}→獣医師：noentry⟧ — that is what appears on the licence and in law, in the same way that ⟦{医師|いし}→医師：11851_ishi⟧ is the formal counterpart of the everyday word for a doctor. In conversation {獣医|じゅうい} is normal.\n\nWhere they work:\n- ⟦{動物病院|どうぶつびょういん}→動物病院：15638_doubutsubyouin⟧: animal hospital — the usual name for a vet's practice, however small\n- {獣医|じゅうい}⟦クリニック→クリニック：08941_kurinikku⟧: veterinary clinic\n\nCollocations:\n- {獣医|じゅうい}⟦に→に：00314_ni⟧⟦{診|み}て→診る：09798_miru⟧⟦もらう→もらう：00520_morau⟧: to have a vet look at an animal\n- {獣医|じゅうい}⟦に→に：00314_ni⟧⟦{連|つ}れて→連れる：01240_tsureru⟧⟦{行|い}く→行く：00119_iku⟧: to take an animal to the vet\n- {獣医|じゅうい}⟦の→の：09472_no⟧⟦{資格|しかく}→資格：02834_shikaku⟧: veterinary qualification",
   "cross_references": [
     {
       "type": "related",
@@ -55,17 +55,15 @@
   ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-06-28T12:19:44Z",
+    "modified": "2026-08-27T12:44:24Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
-      "domain": [
-        "legal"
-      ],
+      "formality": "neutral",
+      "domain": [],
       "politeness": "plain",
       "semantic": [
         "occupation"
