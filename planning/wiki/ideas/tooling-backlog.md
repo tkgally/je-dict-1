@@ -4280,7 +4280,7 @@ in headwords, examples, AND notes") already justifies it as an error rather than
 ## 97. Scan for inline links whose surface reading disagrees with the target entry's reading
 
 **Source**: generalised from the 2026-08-10 stale calendar-month finding
-([Cleanup P51](cleanup-backlog.md#priority-51-stale-calendar-month-links--29-entries-point-月-がつ-at-the-moon-entry)).
+([Cleanup P51](cleanup-backlog.md#priority-51-stale-calendar-month-links--29-entries-point-月がつ-at-the-moon-entry)).
 
 29 entries link `⟦{月|がつ}→月：02230_tsuki⟧` — a がつ surface pointing at an entry whose reading
 is つき. The cause is structural rather than careless: the suffix entry `30418_gatsu` was created
@@ -5545,11 +5545,261 @@ started — but it needs a grep for readers first. **Scope**: one field, one scr
   recorded inside item 20's **structured-note credit** recommendation since 2026-07-02, which
   names `・`-bulleted collocation/forms blocks explicitly. The harvest measured the distortion
   it causes (24 of the top 100 priority lines against an 8.1% base rate, a 3× enrichment) and
-  recorded it under [Cleanup P62](cleanup-backlog.md#p62-・-bullets-in-notes--2496-entries-the-note-scorer-silently-penalises);
+  recorded it under [Cleanup P62](cleanup-backlog.md#p62-update-the--penalty-is-real-3--and-it-is-not-the-binding-defect);
   the fix stays part of item 20.
 - **Candidate-add should normalize okurigana before comparing** (2026-08-22, 思いつき against the
   existing 27771 {思\|おも}い{付\|つ}き) — this is the fix already written into items 41/43 by the
   2026-07-30 update. Third sighting, no change to the item.
+
+## Updates 2026-08-27 (wiki harvest)
+
+### 137. `screening_status.json` is missing 12,016 of the 22,991 screening results on disk
+
+**The furigana screener's skip-cache and its own results have diverged by more than half**, and
+one line of code explains it.
+
+`build/review_runner.py` saves each entry's result immediately (`save_screening_result`, inside
+the loop) but writes the index **once, after the loop ends**:
+
+```python
+    if not dry_run:
+        save_screening_status(status)   # line 377 — the only call
+```
+
+Every interruption — the 10-minute tool-call timeout that [item 135](#135-review_runnerpy---pass-screening-needs-backgrounding-or-chunking)
+documents, a crash, a budget stop that raises — therefore discards the whole run's index updates
+while keeping every per-entry file it paid for. Measured today:
+
+| | count |
+|---|---|
+| Per-entry result files in `reviews/screening/` | **22,991** |
+| Entries recorded in `screening_status.json` | **10,975** |
+| In results but not in the index | **12,016** |
+| In the index but not in results | **0** |
+
+The asymmetry is the proof: the index is a strict subset, which is what a lost end-of-run write
+produces and nothing else does.
+
+Two consequences, both currently live:
+
+1. **The skip logic reads the index**, so the next `--pass screening` over any of those 12,016
+   entries pays to screen them again. At the measured ~$0.0001/entry that is dollars, not
+   hundreds — but it is also wall-clock, which is the binding constraint (item 135).
+2. **Reported coverage is wrong by 52%.** `--pass status` divides index size by entry count, so
+   it reports ~36% screened when the results on disk cover ~75%.
+
+**Fix, in order:** (a) rebuild `screening_status.json` from the result files — every one carries
+`entry_id`, `flagged` and `screened_at`, so the rebuild is a dozen lines and needs no API calls;
+(b) move `save_screening_status` inside the loop (or checkpoint every N entries) so an
+interrupted pass keeps its index. (b) without (a) leaves the 12,016 stranded.
+
+### Update to item 114 — the per-entry timestamp already exists; the blocker was in the wrong file
+
+[Item 114](#114-the-furigana-screening-cache-cannot-express-re-screen-entries-screened-before-x)
+concluded that `--rescreen-before DATE` "cannot be implemented as stored" because
+`screening_status.json` holds one timestamp for the whole file, and made "stamp per entry" step 1.
+
+**Step 1 is already done, in the other file.** Every one of the 22,991 per-entry results in
+`reviews/screening/` carries `screened_at` — 22,991 of 22,991, no exceptions — because
+`run_screening_pass` has always written it into the result dict. The status file is a derived
+index that happens to throw the timestamp away. So `--rescreen-before` is implementable **today**
+by reading the result files, and it falls out for free from item 137's rebuild.
+
+With per-entry dates available, the 2026-08-24 run's pre/post-`trim_context` comparison can be
+computed over the whole disk instead of one range (the fix landed 2026-08-16):
+
+| screened | entries | flagged | rate |
+|---|---|---|---|
+| before 2026-08-16 | 22,519 | 1,947 | **8.6%** |
+| on/after 2026-08-16 | 472 | 27 | **5.7%** |
+
+That is a real improvement but **1.5×, not the 3× the single-range sample suggested** (the run
+measured 8.9% vs 2.9% on 171 post-fix entries; the larger post-fix sample regresses upward). The
+actionable number is unchanged: **1,947 flagged results were produced by the pre-fix prompt**, and
+re-screening all of them costs well under $1 while `--pass deep` prices each one at ~$0.01.
+
+### 138. Screening's skips are silent, and that is how partial passes get misread
+
+The 2026-08-26 accuracy-review run reported that `--pass screening --range 13413 13899` "does not
+process entries in ID order… it began at 13550 and worked upward, because it iterates the entry
+files in directory-glob order".
+
+**Refuted at the source.** `resolve_entry_ids` builds the range with
+`for i in range(start, end + 1)` — strictly ascending, no glob involved. What actually happened is
+the skip branch:
+
+```python
+        if entry_id_str in status.get("screened", {}) and not dry_run:
+            skipped += 1
+            continue
+```
+
+13413–13549 were already in the index (137 of 137, 16 flagged), so the run skipped them **without
+printing a line** and its first visible work was 13550. The run then inferred the opposite of the
+truth: it recorded 13413–13549 and 13699–13899 as never screened, when the state on disk is
+
+| block | in index | result files |
+|---|---|---|
+| 13413–13549 | 137/137 | 137 |
+| 13550–13698 | **3**/149 | 149 |
+| 13699–13899 | **3**/201 | 119 |
+
+— i.e. 13413–13549 is the one *complete* block, and the two blocks the run believed it had
+screened are the ones the index has lost (item 137 again: this range is a live instance).
+
+**Fix**: print one line per skip (`  13413 already screened 2026-08-19 — skipping`), or a compact
+head/tail summary of the skipped set. A pass that silently drops 137 of 487 entries and prints
+nothing about it is unauditable, and this run's session log is the proof.
+
+### 139. Two clerical inflators of the screening flag count
+
+The 2026-08-26 run reported screening flags whose own concern text concludes there is no error —
+verbatim, "Therefore, I will not flag any of the partial readings as errors" and "病 → やまい is a
+correct mapping for the kanji" — recorded as flags at 0.7–0.8 confidence.
+
+Two distinct mechanisms, both worth closing because every false flag is priced at ~$0.01 in the
+deep pass:
+
+1. **Parse failure is recorded as a flag.** When `parse_screening_response` returns `None` the
+   loop substitutes `{"flagged": True, "concerns": ["Parse failure"], "confidence": 0.0}`.
+   **69 of the 1,974 flagged results on disk (3.5%) are these** — a failed HTTP/JSON parse
+   entering the review queue as a Japanese-language finding. Fail-safe is defensible; recording
+   it in the same field as a real flag is not. Give it `"status": "parse_error"` and exclude it
+   from the deep pass's input and from every precision statistic.
+2. **The verdict is inferred from prose.** The model returns `flagged: true` alongside a concern
+   whose text reasons its way to "correct". A loose scan finds a "no error / is correct / will
+   not flag" phrase in **516 of the 1,974** flagged concerns, though most of those overlap
+   [item 119](#119-screening-prompt-should-quote-the-furigana-pair-verbatim-before-judging-it)'s
+   truncation family ("the reading for X is correct, but in pair 4…"). The fix is the same shape
+   as 119's: force a separate per-pair verdict field rather than letting the flag boolean and the
+   prose disagree.
+
+### Update to item 118 — the reviewer misreports non-semantic tag values too
+
+[Item 118](#118-review_accuracypy---dimensions-tags-reports-invented-tags-and-misses-the-real-ones)
+records the `tags` dimension inventing tags the entry does not carry. The 2026-08-26 run extends
+the family past `semantic`: on **13450 {所存|しょぞん}** the reviewer claimed `politeness` was
+`plain` and should be `humble` — the entry has carried `politeness: humble` since creation.
+
+Same defect, different field, and it raises the stakes: a reviewer that misreports the *current
+value* of the field it is auditing produces flags that cannot be adjudicated from the report
+alone. Whatever fixes 118 (serialise the tag block verbatim into the prompt, or post-filter
+suggestions against the entry's actual values) should cover the whole `metadata.tags` object,
+not just `semantic`.
+
+### Update to items 111/118 — the `general`-is-too-broad family, measured a third time
+
+The 2026-08-26 run over 13413–13899: **101 of 487 entries flagged (20.7%**, above §A's
+"this is reviewer noise" threshold**), 93 tag issues, and 53 of them — 57% — the single
+"`general` is too broad" complaint** that §A's semantic-tag policy tells the adjudicator to
+reject on sight. A further 12 were other in-list narrow/broad substitutions and 10 were formality
+flags on entries whose own USAGE notes say the word is formal. **10 tag flags survived.**
+
+This reproduces the 2026-08-15 measurement at a different band and confirms the standing
+recommendation ([item 127](#127-review_accuracypy-should-post-filter-its-own-tag-suggestions-against-valid_semantic),
+item 111): the runner should filter policy-settled families out before they reach an adjudicator.
+The reviewer is spending the majority of its `tags` output on a question that was closed by
+curator ruling on 2026-06-11.
+
+### Update to item 20 — the scorer credits section headers only when they are ALL-CAPS
+
+The 2026-08-24 polish run identified a second scorer rule with the same shape as item 20's
+`・` blindness: `score_note_quality.py` matches headers as `^[A-Z][A-Z /().-]+:`, so a note headed
+`Common compounds:` earns neither the header credit nor the optional-section credit that
+`COMMON COMPOUNDS:` would. The run reports this is why ten core-tier nouns in its priority lane
+sat at exactly 78 with substantively fine notes.
+
+Two ways out, and they are not equivalent: accept title-case headers in the regex (cheap, and
+consistent with the `・` fix already recommended here), or state the caps convention in the
+`vocabulary-notes` skill, which currently shows it by example only. Prefer the regex — the scorer
+should measure whether a note *has* structure, and the case of the header is presentation.
+Until either lands, `polishing/priority/notes.txt` ranks presentation over substance for this
+family, which is the same conclusion P62 reached from the bullet side.
+
+### Update to item 134 — the self-declaration test, measured against a real band
+
+[Item 134](#134-demote-same-reading-self-declared-homophones-out-of-check_stale_noentrypys-mechanical-bucket)
+proposed demoting `noentry` pairs whose *target* entry's notes declare "X as Y is a different
+word with the same reading". The 2026-08-24 polish run tested it over 05879–06388 and returned
+the first precision figure the item has had, plus a one-word refinement that changes its verdict:
+
+- Naive form: fired on **7 of 175 pairs**, of which **1** was a genuine false positive
+  (05909 ロック → 08116 rock-music). The other 6 were good entries doing their job — 臨む's notes
+  distinguish it from 望む, 端午's from 単語, 利く's from 聞く/効く, 生む's from 産む, 五円玉's from
+  ご縁. As stated, the test would demote 6 correct pairs to buy 1.
+- **The refinement: the declaration only counts when it names the marker's own base form.**
+  ロック's notes say "ロック as 'lock' … is a different word" — naming ロック itself; 臨む's name
+  *望む*, a different surface. That keeps all 6 good pairs, still catches ロック, and would also
+  have caught the 2026-08-08 フライ/パン and 2026-08-20 コマ rejections.
+- It would **not** have caught the same run's second rejection (06183 スクロールバー → 07060
+  bar/drinking-establishment), whose target contrasts バー only with 居酒屋 and スナック. So the
+  refined test is a precision filter, not a replacement for reading the context.
+
+Item 134 should be implemented in the refined form only.
+
+### Update to item 135 — a second throughput number, and why a timeout costs more than time
+
+The 2026-08-26 run measured screening at **~6 entries/minute** against the 2026-08-16 run's
+**~2.3 s/entry (~26/min)** — a 4× discrepancy between two runs of the same code that neither run
+can explain from its own data (contention, model latency and `RATE_LIMIT_INTERVAL` are all
+candidates; see [item 84](#84-rate_limit_interval-is-what-bounds-review-coverage)). Both numbers
+agree on the operational point: a 487-entry range is ~80 minutes of screening against ~12 minutes
+of accuracy review for the same entries, at $0.05 against $0.22 — **the cheap pass is the slow
+one**, so §A's dollar-sized ranges give no warning at all.
+
+The new argument for fixing this is not speed, it is item 137: because the index is written only
+at the end, **a timeout does not merely stop the pass, it discards the record of everything the
+pass completed**. Chunk-and-checkpoint fixes both at once.
+
+### The off-vocabulary tag migration map is missing every mapping the last two runs asked for
+
+`check_tag_drift.py`'s `TAG_MIGRATION` holds **9 entries**, and **none** of the ten 1:1 mappings
+the 2026-08-24 accuracy-review run proposed after finding off-vocab tags on 40 of 500 entries
+(8%): `degree`→`quantity`, `quality`→`evaluation`, `place`→`building`, `object`→`general`,
+`person-occupation`→`occupation`, `information`→`communication`, `nature-plant`→`plant-general`,
+`nature-water`→`nature`, `conflict`→`action`, `material`→`descriptive`. All ten targets are in
+`VALID_SEMANTIC`; all ten sources are off it, so by the standing semantic-tag policy each is
+**correct by definition** and the only judgment left is the destination.
+
+This is the highest-precision family on the whole project (Quality Metrics has it at 87–99%
+applied across five windows), and it is currently bottlenecked on a dictionary literal. Adding
+the ten entries makes ~840 baselined entries mechanical. Filed here rather than as a new numbered
+item because it is a data addition to an existing script — but it is the cheapest high-value
+thing on this page.
+
+### Prompt recommendations (recorded for the curator; wiki sessions do not edit prompts)
+
+- **`prompts/newentries.md` should resolve its own stale `noentry` markers.** Creating an entry
+  from a "seen in entry" candidate instantly strands the referring entry's `⟦…：noentry⟧` marker,
+  and it stays stale until a P35 sweep reaches that band — months. The 2026-08-24 run closed the
+  loop by hand: scanning for `⟦…→<new headword>：noentry⟧` found **9 files pointing at 8 of the 13
+  words it created**, each rewritten to the new ID (04987, 05511, 06998, 07005, 07007, 07009,
+  07010, 07011, 07012). The match is on the link's base form, so it is exact, not heuristic. One
+  scan after the post-creation validation sequence stops the entry-creation lane from refilling
+  the queue `check_stale_noentry.py` drains.
+- **Check before writing a `noentry` marker, not only before adding a candidate.** The same run
+  marked たわ{言|ごと} `noentry` from memory; 07394_tawagoto has existed all along. The
+  candidate-add step catches this — but only if a candidate is added, so a bare marker with no
+  candidate add is silently wrong. `manage_candidates.py check` is the same reflex entry creation
+  already has.
+- **`validate.py` cannot see naked Japanese.** It catches malformed and unresolvable inline links,
+  but text with no link and no `noentry` marker passes clean. Since full coverage is a tier-1
+  requirement of comprehensive polish, a check for unwrapped runs of Japanese in
+  `examples[].japanese` and `notes` would make the most labour-intensive tier-1 item verifiable
+  instead of eyeballed. **Scope it below the polish frontier** — above it, 99.4% of entries have
+  no links at all (see [Cleanup P68](cleanup-backlog.md#p50-re-measured-at-frontier-07023-still-exactly-57--and-the-residue-has-a-shape)),
+  so an unscoped check would flag 23,406 entries and mean nothing.
+
+### Re-discoveries needing no new item (2026-08-27)
+
+- **`manage_candidates.py add-batch` duplicate-gating works** (2026-08-24 polish: 13 proposed,
+  9 rejected as exact matches against existing entries). Recorded as a positive confirmation, not
+  a defect — and the 9/13 rate is a useful calibration: "this word feels uncovered" is a poor
+  signal while writing an entry, so propose generously and let the gate filter.
+- **The unknown-semantic-tag baseline goes stale after every migration** (2026-08-24): regenerating
+  it removed 1,752 entries' worth of tolerance the ratchet no longer needed. CLAUDE.md already says
+  to run `--write-unknown-baseline` after a migration pass; this is an adherence gap, not a
+  missing tool.
 
 ## Related pages
 
