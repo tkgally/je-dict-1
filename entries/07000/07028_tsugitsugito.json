@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07028_tsugitsugito_ex1",
-      "japanese": "{問題|もんだい}が{次々|つぎつぎ}と{発生|はっせい}した。",
+      "japanese": "⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{次々|つぎつぎ}と⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "Problems arose one after another.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07028_tsugitsugito_ex2",
-      "japanese": "{新製品|しんせいひん}が{次々|つぎつぎ}と{発売|はつばい}される。",
+      "japanese": "⟦{新製品|しんせいひん}→新製品：18629_shinseihin⟧⟦が→が：00051_ga⟧{次々|つぎつぎ}と⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦される→する：00392_suru⟧。",
       "english": "New products are released one after another.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07028_tsugitsugito_ex3",
-      "japanese": "お{客|きゃく}さんが{次々|つぎつぎ}と{来店|らいてん}した。",
+      "japanese": "お⟦{客|きゃく}→客：00865_kyaku⟧⟦さん→さん：09848_san⟧⟦が→が：00051_ga⟧{次々|つぎつぎ}と⟦{来店|らいてん}→来店：13067_raiten⟧⟦した→する：00392_suru⟧。",
       "english": "Customers came in one after another.",
       "notes": null,
       "has_audio": false,
@@ -43,19 +43,33 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{次|つぎ} (next) repeated + と (adverb particle)\n\nThe repetition emphasizes continuous succession.\n\nVARIANTS:\n・{次々|つぎつぎ}と - standard form\n・{次々|つぎつぎ}に - also common\n・{次々|つぎつぎ} - can be used without particle\n\nCOLLOCATIONS:\n・{次々|つぎつぎ}と{起|お}こる - to happen one after another\n・{次々|つぎつぎ}と{現|あらわ}れる - to appear successively\n・{次々|つぎつぎ}と{倒|たお}れる - to fall one after another\n\nSIMILAR WORDS:\n・{続々|ぞくぞく}と - one after another (emphasizes large numbers)\n・{立|た}て{続|つづ}けに - in rapid succession",
+  "notes": "{次々|つぎつぎ}と describes events or arrivals following each other without a gap — one finishes or appears, and the next is already there. It modifies the verb, so it goes with verbs of happening, appearing, arriving and releasing rather than with states.\n\nFormation: ⟦{次|つぎ}→次：00819_tsugi⟧ 'next' doubled + ⟦と→と：00512_to⟧, the particle that turns a manner word into an adverb.\n\nVariants, all interchangeable in most contexts:\n- {次々|つぎつぎ}と: the standard adverbial form\n- ⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧⟦に→に：00314_ni⟧: equally common, slightly more colloquial\n- ⟦{次々|つぎつぎ}→次々：03522_tsugitsugi⟧: the bare form, used before a verb in brisk or written style\n\nCollocations:\n- {次々|つぎつぎ}と⟦{起|お}こる→起こる：01910_okoru⟧: to happen one after another\n- {次々|つぎつぎ}と⟦{現|あらわ}れる→現れる：01870_arawareru⟧: to appear in succession\n- {次々|つぎつぎ}と⟦{倒|たお}れる→倒れる：01160_taoreru⟧: to go down one after another\n\nSimilar words:\n- ⟦{続々|ぞくぞく}と→続々と：14902_zokuzokuto⟧: also 'one after another', but implying large numbers arriving\n- ⟦{立|た}て{続|つづ}け→立て続け：13765_tatetsuzuke⟧⟦に→に：00314_ni⟧: in rapid succession, with the emphasis on how little time separates the events",
   "cross_references": [
     {
       "type": "synonym",
       "reading": "ぞくぞくと",
       "headword": "{続々|ぞくぞく}と",
-      "label": "one after another",
+      "label": "one after another (in large numbers)",
       "target_id": "14902_zokuzokuto"
+    },
+    {
+      "type": "related",
+      "reading": "つぎつぎ",
+      "headword": "{次々|つぎつぎ}",
+      "label": "bare form of the same adverb",
+      "target_id": "03522_tsugitsugi"
+    },
+    {
+      "type": "related",
+      "reading": "たてつづけ",
+      "headword": "{立|た}て{続|つづ}け",
+      "label": "in rapid succession",
+      "target_id": "13765_tatetsuzuke"
     }
   ],
   "metadata": {
     "created": "2026-01-18T13:35:29Z",
-    "modified": "2026-06-28T12:19:44Z",
+    "modified": "2026-08-27T12:42:29Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
