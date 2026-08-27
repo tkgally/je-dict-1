@@ -3233,7 +3233,7 @@ one another. Neither structure parses; the link cannot be recovered mechanically
 phrase needs re-authoring.
 
 **Why it went unnoticed for two months**: the check was proposed on 2026-06-17 as half of
-[Tooling 8](tooling-backlog.md#8-furigana-format-validator)'s enhancement, bundled with a
+[Tooling 8](tooling-backlog.md#8-furigana-format-validator-check_furigana_formatpy)'s enhancement, bundled with a
 second rule that turned out to be worthless (see the Informational entry below). Bundling a
 34-instance real defect with a 931-instance false positive is what kept both unbuilt.
 
@@ -3418,7 +3418,7 @@ reading).
 `find_missing_furigana.py` and the OpenRouter furigana screener read past link surfaces to the
 sentence text. This is the third instance of the same shape —
 [P36](#priority-36-headwords-missing-furigana) (headword field) and
-[Tooling 47](tooling-backlog.md#47-cross-reference-headword-reading-disagreement)
+[Tooling 47](tooling-backlog.md#47-cross-reference-headword-fields-are-invisible-to-every-furigana-instrument-7-confirmed-defects)
 (cross-reference headwords) were the first two: **a field outside `examples[].japanese` and
 `notes` falls through every furigana instrument the project owns.** The recurring fix is not 40
 edits but folding link surfaces into the instruments, which is why this is filed here *and*
@@ -3529,7 +3529,7 @@ split says exactly what it is measuring:
 
 To within 0.2%, "entries with kanji examples and no links" *is* "entries the frontier has not
 reached." That is the finding already recorded in the Informational note above and in
-[Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23404-and-not-a-defect),
+[Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23444-and-not-a-defect),
 whose standing instruction is **"do not file a zero-link detector."** These two observations
 are its sixth and seventh independent rediscovery, which is itself the item's most useful
 signal (see P46 and the "why these keep being rediscovered" section on that page).
@@ -4510,7 +4510,7 @@ of the task. Not mechanizable as specified.
   witnesses. Recorded on [Inline Link Integrity](../topics/inline-link-integrity.md); no item.
 - **The 06900+ zero-link band** (filed twice this window as a "creation batch that skipped
   linking, worth a targeted sweep") — it is not a batch artifact. See
-  [Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23404-and-not-a-defect),
+  [Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23444-and-not-a-defect),
   where this harvest replaced the single-window growth note with a 66-day measurement.
 
 ## Updates 2026-08-15 (wiki harvest, run 2)
@@ -4574,7 +4574,7 @@ entry-creation flow after that batch, so the January-18/19 cohort is systematica
 rather than randomly so."
 
 This is the **eighth** independent rediscovery of the finding that
-[Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23404-and-not-a-defect)
+[Inline Link Integrity](../topics/inline-link-integrity.md#zero-link-entries--23444-and-not-a-defect)
 already records with a standing "do not file a zero-link detector". It is also the first one to
 arrive on a new axis, and measuring that axis explains the whole recurrence pattern.
 
@@ -5129,6 +5129,151 @@ The population is unmeasured and probably small, and the cost is not zero — ev
 detector and reviewer prompt that reads `metadata.tags.formality` would need to fall back when a
 definition overrides it. Recorded in [Register](../topics/register.md) alongside the
 encodes-versus-denotes distinction, which is the same field failing to say two different things.
+
+## Updates 2026-08-27 (wiki harvest)
+
+### P50 re-measured at frontier 07023: still exactly 57 — and the residue has a shape
+
+The 2026-08-24 polish run reported that "a whole band of mid-07000 entries has zero inline link
+coverage" (07013–07022, every entry unlinked), read it as a creation-era cohort, and proposed a
+detector for *entries with zero `⟦` markers* to size it.
+
+Both halves are already settled here. The detector as proposed returns **23,463 of 30,544 entries
+(77%)** — the standing structural fact recorded in
+[Inline Link Integrity](../topics/inline-link-integrity.md) under an explicit *do not file a
+zero-link detector* ruling, now re-derived for the **eighth** time. And 07013–07022 is not a
+cohort: it is the first ten entries of the unpolished remainder, the fourth filing of that
+reading in five weeks (the 2026-08-23 harvest ruled identically on 06995–07003). Split at the
+frontier the same predicate says something useful:
+
+| | entries | zero-link | rate |
+|---|---|---|---|
+| Below the frontier (polished) | 6,988 | **57** | 0.8% |
+| Above the frontier (unpolished) | 23,556 | 23,406 | 99.4% |
+
+**The 57 are [P50](#p50-is-growing-and-its-members-were-visited-not-skipped--57-from-54)**, and
+the news is that the count *held*:
+
+| Measured | Frontier | Zero-link below frontier |
+|---|---|---|
+| 2026-08-09 | 06845 | 55 |
+| 2026-08-15 | 06947 | 54 |
+| 2026-08-21 | 06985 | 57 |
+| **2026-08-27** | **07023** | **57** |
+
+The frontier advanced another 38 IDs and P50 gained nothing, so the 2026-08-21 reading — "it is
+diverging, and the frontier lane is the source" — does not hold for this window. One window is
+not a trend either way; what it does mean is that the item is now genuinely bounded, and the
+2026-08-21 recommendation (small, batch-ready, do it) is unchanged.
+
+What this measurement adds is that **the residue is not scattered**:
+
+- **3949–3969 — 21 consecutive entries**, the whole bound-prefix family ({空|くう}〜, {現|げん}〜,
+  {高|こう}〜, {最|さい}〜, {同|どう}〜 …), modified 2026-03/04. A prefix entry's examples are
+  ordinary sentences and are linkable; nothing about the family exempts it.
+- **6006–6014 — 9 consecutive entries**, the anatomy cluster ({脊椎|せきつい}, {靭帯|じんたい},
+  {毛細血管|もうさいけっかん}, リンパ, {骨髄|こつずい}, {呼吸器|こきゅうき} …).
+- **6363–6367** plus singletons at 3100, 3356, 4620, 4623, 4974, 6109.
+
+Tier split: 50 `general`, 4 `basic` (03100 {何|なん}〜, 03952 {今|こん}〜, 03960 {第|だい}〜,
+03968 {毎|まい}〜), 3 `core`. The `basic`-tier four are the ones worth doing first — a basic-tier
+entry with no links is the case a learner is most likely to hit.
+
+**The detector to build is therefore `zero ⟦ markers AND id < frontier`**, which is a one-line
+filter and returns a list a single polish run could clear. The unrestricted version should not be
+built; it re-measures the frontier. Two blocks of 21 and 9 consecutive entries also mean this is
+not 57 separate decisions — it is three sittings.
+
+### P68. Sole-`education` on the names of academic disciplines — ~20 entries
+
+The 2026-08-26 accuracy-review run migrated {漢語|かんご} → `language`, {漢詩|かんし} → `art` and
+{紀行|きこう} → `travel`, all three tagged sole-`education`, and named the shared error precisely:
+tagging a word by *where a learner would encounter it* rather than by what it denotes. It asked
+for a `--check` for sole-`education` entries whose gloss contains no schooling vocabulary.
+
+Measured: **461 entries carry `semantic: ["education"]` alone.** The proposed filter (gloss
+without school/class/student/exam/… vocabulary) cuts that to **178**, but the cut is not precise
+— it keeps {課題|かだい}, {復習|ふくしゅう}, {黒板|こくばん}, {単位|たんい}, {算数|さんすう},
+{習字|しゅうじ}, all of which really are school words whose glosses simply do not repeat the word
+"school".
+
+The precise sub-family is **the names of disciplines**. Of the 45 sole-`education` entries whose
+reading ends 〜がく/〜ろん/〜じゅつ, roughly half denote a *field of knowledge* rather than a
+schooling process, and `science` is in `VALID_SEMANTIC`:
+
+{科学|かがく}, {化学|かがく}, {医学|いがく}, {数学|すうがく}, {幾何学|きかがく},
+{物理|ぶつり} (from the wider list), {工学|こうがく}, {薬学|やくがく}, {歯学|しがく},
+{生態学|せいたいがく} → `science`; {文学|ぶんがく}, {純文学|じゅんぶんがく},
+{現代|げんだい}{文学|ぶんがく} → `art` or `language`; {哲学|てつがく}, {心理学|しんりがく},
+{社会学|しゃかいがく}, {経営学|けいえいがく}, {歴史学|れきしがく}, {地理学|ちりがく},
+{東洋学|とうようがく}, {中国学|ちゅうごくがく}, {漢学|かんがく} → `science` / `history` /
+`geography` / `culture` as the denotation dictates.
+
+The other half of the 45 — {入学|にゅうがく}, {進学|しんがく}, {退学|たいがく}, {通学|つうがく},
+{在学|ざいがく}, {休学|きゅうがく}, {就学|しゅうがく}, {復学|ふくがく}, {停学|ていがく},
+{共学|きょうがく}, {私学|しがく}, {中学|ちゅうがく}, {小学|しょうがく} — are schooling processes
+and institutions, and `education` is correct for every one of them. **The 〜学 shape alone is not
+the predicate**; the predicate is "denotes a body of knowledge", which needs a gloss read. At ~20
+entries this is a half-hour of judgment, not a sweep — worth doing inside a `systemic-fix` batch
+with the entries open.
+
+### Refuted as a batch item: `existence` as a catch-all for action verbs
+
+The 2026-08-24 accuracy-review run found seven entries in 12913–13412 carrying `existence` as
+their sole or lead semantic tag on words denoting actions or events (13290 {浸|つ}かる,
+13068 {明|あ}け{暮|く}れる, 13166 {欠|か}く, 13339 {浸|ひた}る, 13226 {殺害|さつがい},
+13360 {滅亡|めつぼう}, 13240 {死去|しきょ}), rejected each under the in-list narrowness rule, and
+suggested a detector or a `systemic-fix` pass for the cluster.
+
+Measured dictionary-wide: **112 entries lead with `existence`** (129 carry it anywhere) — 0.37%
+of the dictionary against 1.4% in that range, so the range really was ~4× enriched. But reading
+the 92 verbs among them dissolves the family: 死ぬ, 滅亡, 消失, 現存, 生息, 実在, 尽きる, 絶える,
+夭折, 逝去 and most of the rest are *about* existing or ceasing to exist, and `existence` is the
+right tag. The tightest defensible cut — lead-`existence` verbs whose gloss opens "to become / to
+turn / to grow", i.e. state-change words that belong under `change` — is **6 entries** (00756
+すく, 11062 {空|あ}く, 12291 {寂|さび}れる, 14612 {青|あお}ざめる, 14680 {霞|かす}む, 18770
+{肥|こ}える).
+
+So there is no detectable family here, only a handful of individually-wrong tags that the
+existing in-list narrowness policy correctly declines to sweep. Recorded so the next run that
+notices the cluster does not re-propose the pass; fix the six opportunistically if a polish run
+lands on them.
+
+### P69. Furigana braces around kana-only text — 529 entries, 753 instances
+
+The 2026-08-24 polish run found three instances of kana wrapped in furigana braces with no
+reading (`{ローン}`, `{めまい}`, `{ふくらはぎ}`), noted that `build/validate.py` reports nothing
+for them, and asked for a `check_furigana_format.py` class matching `\{[^|{}]*\}` with all-kana
+contents.
+
+The class is real and larger than the sighting: **753 instances across 529 entries**. It is not
+one family, though, and the two members want different fixes:
+
+- **~29 inside inline links** — `⟦{いい}→いい：00118_ii⟧`, `⟦{おもちゃ}→おもちゃ：01334⟧`,
+  `⟦{パソコン}→パソコン：01534⟧`. The braces are pure noise around a link's surface form; deleting
+  them is mechanical and safe.
+- **~724 outside links**, and a sample shows these split again: some are the same noise in plain
+  example text, but others are notes using braces to *quote a reading* — 02002 reads "usually
+  read as {だて}, sometimes {たて}". That is a real communicative act being performed with
+  furigana syntax the renderer cannot honour (no `|`, so no ruby). Dropping the braces there
+  loses the quotation; the right repair is 「だて」.
+
+So: build the detector, and split its output by "inside a `⟦…⟧` marker" before fixing anything.
+Only the first bucket is mechanical.
+
+### Re-discoveries needing no new item (2026-08-27)
+
+- **`・` bullets instead of `- ` in 07005–07012 notes** (2026-08-24 polish) — this is
+  [P62](#p62-update-the--penalty-is-real-3--and-it-is-not-the-binding-defect), measured at 2,484
+  entries with the fix belonging to Tooling 20's structured-note credit. Third filing.
+- **Verb notes opening with a conjugation stub that duplicates the `conjugation` field**
+  (07005, 07007, 07008, 07009) — P31/P54 and Tooling 132, which already owns the fixed
+  three-line shape. Sixth filing.
+- **Sole-`general` semantic tags clustering in 07013–07022 and at 03658/03726/03729/03760** —
+  `check_tag_drift.py`'s sole-general check already sees these, and Quality Metrics has recorded
+  six consecutive windows of the accuracy sweep proposing the same family and the adjudicator
+  rejecting it wholesale. The standing ruling stands: sole-`general` is a **polish-lane** side
+  task, fixed with the entry open, never a sweep.
 
 ## Related pages
 

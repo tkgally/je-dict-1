@@ -269,7 +269,7 @@ Arguments and costs, so the decision is not made on the strength of one example:
   label, because the two senses look identical on the page.
 - **Against**: every consumer of `metadata.tags.formality` — the renderer, `check_tag_drift.py`,
   `validate_tags.py`, the accuracy-reviewer prompt, and the register-markedness detectors behind
-  [Cleanup P37](../ideas/cleanup-backlog.md#priority-37) and
+  [Cleanup P37](../ideas/cleanup-backlog.md#priority-37-politeness-polite-on-plain-vocabulary--and-the-detector-that-reports-zero) and
   [`tag-register-marked-basic-core`](../ideas/cleanup-backlog.md) — would need a fallback rule.
   A per-sense override that most consumers ignore is worse than no override, because entries
   would then carry a correct label that nothing reads.

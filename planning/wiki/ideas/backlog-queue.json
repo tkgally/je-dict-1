@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-08-23",
+  "updated": "2026-08-27",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -967,9 +967,9 @@
       "status": "open",
       "scope_estimate": 57,
       "scope_unit": "entries",
-      "scope_measured_at": "2026-08-23",
+      "scope_measured_at": "2026-08-27",
       "severity": "warn",
-      "notes": "Sibling of P46 (notes linked / examples bare, 33 entries): both are work the frontier reached and left unfinished, and no cursor returns to them. Mostly contiguous blocks: 03949-03969 (21, single-kanji bound-morpheme headwords), 06006-06014 (9, anatomy), 06670-06676 (7, i-adjectives), 06593-06598 (6), 06363-06367 (4), 04620/04623, plus 6 isolates. Verified linkable by spot-check (03949's examples contain 空港/予約/迎える/行く). Take the 03949-03969 block LAST and settle the bound-morpheme-headword linking convention once rather than 21 times. 06844 kirikuzusu is a member and is already parked at the frontier cursor for a dedicated polish run. Re-measured 2026-08-15 below `next: 06947`: 54 entries, and they are six contiguous ID runs (03949-03969 x21, 06006-06014 x9, 06670-06676 x7, 06593-06598 x6, 06363-06367 x5) plus seven singletons (03100, 03356, 04620, 04623, 04974, 06109, 06747). Work it run-by-run, not entry-by-entry. Re-measured 2026-08-21 below `next: 06985`: **57 entries — the item GREW by 3** while the frontier advanced 38 IDs, the first increase in the series (55 -> 54 -> 57). All three new members (06958 アジェンダ, 06959 ストレージ, 06960 デバイス) sit inside the band the lane just crossed. Because the comprehensive cursor stands at 06985, the lane has by definition already walked past all 57: these are entries it VISITED and left unlinked, not entries it has yet to reach. Five (03100, 06109, 06594, 06959, 06960) still carry their 2026-01-19 creation-cleanup `modified` date, i.e. the visit changed nothing at all. Re-spot-checked 06011 (examples contain 病気/入院/喫煙/大きな/負担) alongside 03949. Tooling 131 (the scripted longest-match linker) is the tool for this item. | 2026-08-23 wiki harvest, creation-window analysis (the 2026-08-21 polish run proposed 'a backfill sweep keyed on creation batch would be more efficient than one keyed on the polish frontier'): all 57 members were created inside one eight-day window, 2026-01-11 to 2026-01-18 -- and the control over EVERY sub-frontier entry shows the window is real but diffuse. Creation days 2026-01-05 through 01-10 are perfectly clean across 2,057 entries; inside the window the rates are 01-11 1/754, 01-12 1/699, 01-13 21/735 (2.9%), 01-14 3/527, 01-16 9/1098, 01-17 5/525, 01-18 17/445 (3.8%), against a 0.8% sub-frontier baseline (57/6,970). So the WORST creation day still means reading 445 entries to find 17, while the 03900-03999 block holds 21 of the 57 in one hundred IDs (21% of the block) -- block keying is 5x more efficient per entry read. RECOMMENDATION: neither keying is needed. 57 entries is one bounded batch; work it as the list of six contiguous runs plus seven singletons already recorded above. The scattered `modified` dates (2026-01-19 through 2026-07-28) confirm there is no shortcut -- these entries have been reopened repeatedly since creation without gaining links."
+      "notes": "Sibling of P46 (notes linked / examples bare, 33 entries): both are work the frontier reached and left unfinished, and no cursor returns to them. Mostly contiguous blocks: 03949-03969 (21, single-kanji bound-morpheme headwords), 06006-06014 (9, anatomy), 06670-06676 (7, i-adjectives), 06593-06598 (6), 06363-06367 (4), 04620/04623, plus 6 isolates. Verified linkable by spot-check (03949's examples contain 空港/予約/迎える/行く). Take the 03949-03969 block LAST and settle the bound-morpheme-headword linking convention once rather than 21 times. 06844 kirikuzusu is a member and is already parked at the frontier cursor for a dedicated polish run. Re-measured 2026-08-15 below `next: 06947`: 54 entries, and they are six contiguous ID runs (03949-03969 x21, 06006-06014 x9, 06670-06676 x7, 06593-06598 x6, 06363-06367 x5) plus seven singletons (03100, 03356, 04620, 04623, 04974, 06109, 06747). Work it run-by-run, not entry-by-entry. Re-measured 2026-08-21 below `next: 06985`: **57 entries — the item GREW by 3** while the frontier advanced 38 IDs, the first increase in the series (55 -> 54 -> 57). All three new members (06958 アジェンダ, 06959 ストレージ, 06960 デバイス) sit inside the band the lane just crossed. Because the comprehensive cursor stands at 06985, the lane has by definition already walked past all 57: these are entries it VISITED and left unlinked, not entries it has yet to reach. Five (03100, 06109, 06594, 06959, 06960) still carry their 2026-01-19 creation-cleanup `modified` date, i.e. the visit changed nothing at all. Re-spot-checked 06011 (examples contain 病気/入院/喫煙/大きな/負担) alongside 03949. Tooling 131 (the scripted longest-match linker) is the tool for this item. | 2026-08-23 wiki harvest, creation-window analysis (the 2026-08-21 polish run proposed 'a backfill sweep keyed on creation batch would be more efficient than one keyed on the polish frontier'): all 57 members were created inside one eight-day window, 2026-01-11 to 2026-01-18 -- and the control over EVERY sub-frontier entry shows the window is real but diffuse. Creation days 2026-01-05 through 01-10 are perfectly clean across 2,057 entries; inside the window the rates are 01-11 1/754, 01-12 1/699, 01-13 21/735 (2.9%), 01-14 3/527, 01-16 9/1098, 01-17 5/525, 01-18 17/445 (3.8%), against a 0.8% sub-frontier baseline (57/6,970). So the WORST creation day still means reading 445 entries to find 17, while the 03900-03999 block holds 21 of the 57 in one hundred IDs (21% of the block) -- block keying is 5x more efficient per entry read. RECOMMENDATION: neither keying is needed. 57 entries is one bounded batch; work it as the list of six contiguous runs plus seven singletons already recorded above. The scattered `modified` dates (2026-01-19 through 2026-07-28) confirm there is no shortcut -- these entries have been reopened repeatedly since creation without gaining links. Re-measured 2026-08-27 at frontier 07023: still exactly 57, so the item stopped growing this window (it grew 55->54->57 across the three previous measurements while the frontier advanced). The residue is not scattered: 3949-3969 is 21 consecutive bound-prefix entries, 6006-6014 is the 9-entry anatomy cluster, plus 6363-6367 and singletons 3100 3356 4620 4623 4974 6109. Tier split 50 general / 4 basic / 3 core; do the basic four first (03100 03952 03960 03968). The detector is 'zero U+27E6 markers AND id < frontier' -- unrestricted it returns 23,463 entries (99.4% of the unpolished dictionary), which is the standing do-not-file ruling in topics/inline-link-integrity.md, re-derived for the eighth time on 2026-08-24."
     },
     {
       "id": "furigana-wrapper-empty-side",
@@ -1337,6 +1337,57 @@
       "scope_measured_at": "2026-08-23",
       "severity": "info",
       "notes": "Reported by the 2026-08-22 accuracy-review run and verified in one read: metadata holds `total_kanji` (kept current by build/update_kanji_index.py, reads 2798) and a legacy `count` (updated by nothing, reads 2794), against an actual 2798 kanji records. The gap widens every time a run assigns new kanji IDs. Preferred fix is to DROP `count` -- two names for one quantity is how the drift started -- but grep for readers first; the fallback is to have update_kanji_index.py write both. One field, one script, no entry data touched."
+    },
+    {
+      "id": "screening-status-rebuild",
+      "title": "screening_status.json is missing 12,016 of the 22,991 screening results on disk",
+      "source": "ideas/tooling-backlog.md#137-screening_statusjson-is-missing-12016-of-the-22991-screening-results-on-disk",
+      "detect": "compare the entry ids of reviews/screening/[0-9]*.json against the keys of reviews/screening/screening_status.json['screened']",
+      "filter": "result files absent from the index; the index is a strict subset, so the difference is exactly the lost writes",
+      "fix_type": "tooling",
+      "verify": "mechanical",
+      "priority": 8,
+      "batch_ready": false,
+      "status": "open",
+      "scope_estimate": 12016,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-27",
+      "severity": "error",
+      "notes": "build/review_runner.py calls save_screening_status once, after the screening loop (line 377), while per-entry results are written inside it. Any interruption discards the whole run's index updates and keeps the files. Fix is (a) rebuild the index from the result files -- every one carries entry_id, flagged and screened_at, so no API calls are needed -- then (b) checkpoint the index inside the loop. Rebuilding also implements item 114's --rescreen-before for free, and un-strands the 1,947 flags produced by the pre-2026-08-16 prompt."
+    },
+    {
+      "id": "tag-education-disciplines",
+      "title": "Sole-`education` on the names of academic disciplines",
+      "source": "ideas/cleanup-backlog.md#p68-sole-education-on-the-names-of-academic-disciplines--20-entries",
+      "detect": "metadata.tags.semantic == ['education'] and the gloss names a body of knowledge rather than a schooling process",
+      "filter": "read the gloss -- the 〜学 shape alone is not the predicate (入学/退学/通学/中学 are correctly `education`)",
+      "fix_type": "content",
+      "verify": "per-entry",
+      "priority": 14,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 20,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-27",
+      "severity": "warn",
+      "notes": "461 entries carry sole-`education`; the gloss-keyword filter the filing run proposed cuts to 178 with poor precision (it keeps 課題/復習/黒板/単位/算数). The precise family is discipline names -- 科学 化学 医学 数学 幾何学 工学 薬学 歯学 生態学 -> `science`; 文学 純文学 現代文学 -> `art`/`language`; 哲学 心理学 社会学 経営学 歴史学 地理学 東洋学 中国学 漢学 -> by denotation. Same failure mode as the 2026-08-26 漢語/漢詩/紀行 migrations: tagged by where a learner meets the word, not by what it denotes."
+    },
+    {
+      "id": "furigana-kana-only-braces",
+      "title": "Furigana braces around kana-only text -- 753 instances, invisible to validate.py",
+      "source": "ideas/cleanup-backlog.md#p69-furigana-braces-around-kana-only-text--529-entries-753-instances",
+      "detect": "regex \\{[^|{}]*\\} in examples and notes where the contents are entirely kana",
+      "filter": "split by whether the match sits inside a U+27E6...U+27E7 inline link: ~29 do (mechanical), ~724 do not and include notes that use braces to quote a reading",
+      "fix_type": "format",
+      "verify": "per-entry",
+      "priority": 16,
+      "batch_ready": false,
+      "status": "open",
+      "scope_estimate": 753,
+      "scope_unit": "instances",
+      "scope_measured_at": "2026-08-27",
+      "severity": "warn",
+      "notes": "529 entries. A brace pair with no | carries no reading and gives the renderer nothing to put in the ruby slot; build/validate.py reports nothing. Only the inside-a-link bucket is safe to strip mechanically -- 02002's notes read 'usually read as {だて}, sometimes {たて}', where the repair is 「だて」, not deletion."
     }
   ]
 }

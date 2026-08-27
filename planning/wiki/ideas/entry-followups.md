@@ -1791,10 +1791,51 @@ four entries dictionary-wide, and three are wrong on sight.
 - **08988 オペレーティングシステム** (`electronics`) — same reading; technical register, not formal.
 - **03855 タイトル** — a bonus find rather than a formality case. Its semantic tags read
   **`communication`, `food`, `leisure`, `tool`**, which is a textbook
-  [P11](cleanup-backlog.md#priority-11) example-topic contamination: four unrelated domains
+  [P11](cleanup-backlog.md#priority-11-batch-creation-semantic-tag-transportation-misapplied) example-topic contamination: four unrelated domains
   harvested from four example sentences. The formality tag is the smaller of its two problems.
 
 Four entries, one field each (three of them), plus one tag-set rewrite. Worth one small batch.
+
+## Added 2026-08-27 (wiki harvest of the 2026-08-24/26 runs)
+
+### 07015 {敷|し}き{布団|ぶとん} and 16878 {敷布団|しきぶとん} — the same word, twice
+
+Two orthographies of one word ({敷|し}き{布団|ぶとん} against {敷布団|しきぶとん}), both `general`
+tier, both with three examples. Filed by the 2026-08-24 polish run as a
+`prompts/consolidate_entries.md` case.
+
+The run also fixed a symptom while it was there: **07014 listed 16878 as an `antonym`**, which is
+plainly wrong for a spelling variant, and was corrected to `contrast`. That correction papers over
+the duplication rather than resolving it — the merge is what fixes it. Direction should be settled
+the way the 気持ち pair was, by inbound-link count, before either entry is touched.
+
+### P19's detector is defeated by headwords that are substrings of other words
+
+The 2026-08-24 polish run found **00126 {人事|じんじ}** carrying a second sense ("other people's
+affairs") whose three examples all contained **{他人事|ひとごと}** and never the headword — and
+他人事 already has its own entry, **09570**. The run removed sense 2 and its examples, kept the
+reading trap as a note, and cross-linked the two entries. It then recommended running
+`check_example_headword.py` (P19) over the whole dictionary rather than waiting for the polish
+frontier, on the grounds that a sense whose examples never contain its headword is almost always
+two words merged.
+
+Both halves are worth recording, and the second half needs a caveat:
+
+- **The dictionary-wide run is cheap and the population is small**: `--summary` reports
+  **39 suspect examples in 16 noun entries** (22 headword-absent, 17 reading-only). That is a
+  finishable batch, not a sweep — worth doing in one `systemic-fix` pass.
+- **But the detector could never have found 00126.** `classify_entry` tests
+  `if headword in jp: continue` — plain substring containment — and 人事 *is* a substring of
+  他人事. Every case of this shape (a headword that is a substring of the compound its examples
+  actually illustrate) passes clean. That is the same class as the entries the check is for, so
+  the 16 it reports are a lower bound, and the substring exemption is the interesting half of
+  the gap.
+
+### 07010 {栓抜|せんぬ}き — fixed in flight, recorded for the pattern
+
+The entry gave 「髪抜き」 as "tweezers". The word is **{毛抜|けぬ}き**; 髪抜き is not a word. The
+2026-08-24 run corrected it and added 毛抜き as a candidate. No action needed — filed because an
+invented compound sitting inside a correct entry is a failure mode no current detector covers.
 
 ## Related pages
 
