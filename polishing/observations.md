@@ -1626,3 +1626,22 @@ fourth filing of the standing structural fact).)_
   Teaching the reviewer prompt that `general` is a legitimate terminal tag, and that it should
   only flag a tag it believes is *wrong* rather than *improvable*, would cut this dimension's
   noise by roughly 90% and make the remaining flags worth reading closely.
+
+## 2026-08-28 — routine(new-entries), entries 30754–30773
+
+- [pattern] Three "seen in entry" candidates (系/けい, 用/よう, 製/せい) were bare-suffix
+  duplicates of existing entries written with a leading tilde (28466 〜系, 09842 〜用,
+  02001 〜製). The comprehensive-polish capture step records the suffix as it appears in
+  running text, without the tilde, so `check_duplicate.py` does not match it. Worth
+  teaching the capture step to normalise a suspected suffix to 〜X before adding, or
+  teaching `check_duplicate.py` to try the tilde-prefixed form.
+- [tooling] `build/verify_furigana.py <id>` resolves entries through `entries_index.json`,
+  so it reports "Entry not found" for entries created earlier in the same session, before
+  `update_indexes.py` runs. `find_missing_furigana.py` and `check_furigana_format.py` scan
+  the filesystem and work fine at that point. The post-creation sequence should say so, or
+  `verify_furigana.py` should fall back to a filesystem lookup.
+- [entry] Self-check flagged the gloss "veterinarian (formal term)" (30766) as carrying a
+  register note the `formality` field already holds. Rejected: 216 existing entries use a
+  register parenthetical in the gloss, so this is house practice, not an error. The
+  newentries.md rule banning "register notes" in glosses conflicts with that practice and
+  should be reconciled one way or the other.
