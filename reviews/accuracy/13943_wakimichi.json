@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-12T12:29:36Z",
+  "reviewed_at": "2026-08-28T00:28:32Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'communication' is not appropriate for the headword '脇道' (wakimichi). While '脇道' can be used metaphorically in the context of conversation (e.g., '話が脇道にそれる' - the conversation went off on a tangent), the word itself does not primarily denote communication. The primary meanings relate to physical roads and metaphorical deviations, not the act of communicating.",
+      "suggestion": "Remove 'communication'."
+    }
+  ]
 }

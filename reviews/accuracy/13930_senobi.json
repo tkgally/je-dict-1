@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-12T12:29:23Z",
+  "reviewed_at": "2026-08-28T00:28:20Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation implies reaching for the 'top' of the shelf, but the Japanese '棚の上' means 'on top of the shelf' or 'the shelf above'. The nuance of 'top' is not present in the Japanese.",
+      "suggestion": "I stood on tiptoe and reached for the shelf above."
+    }
+  ]
 }

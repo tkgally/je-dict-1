@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-12T12:29:15Z",
+  "reviewed_at": "2026-08-28T00:28:15Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word that specifically refers to habits or instincts, especially in animals.",
+      "suggestion": "animal-general"
+    }
+  ]
 }

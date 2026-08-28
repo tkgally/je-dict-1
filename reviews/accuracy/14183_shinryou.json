@@ -1,0 +1,24 @@
+{
+  "entry_id": "14183_shinryou",
+  "headword": "{診療|しんりょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-28T00:32:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a specific medical term.",
+      "suggestion": "Replace 'general' with 'health'."
+    }
+  ]
+}

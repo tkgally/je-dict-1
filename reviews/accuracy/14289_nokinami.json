@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-13T15:56:05Z",
+  "reviewed_at": "2026-08-28T00:33:51Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
+      "location": "semantic_tags",
       "severity": "error",
-      "concern": "The semantic tag 'quantity' is incorrect for the headword '軒並み'. While it can imply 'all' or 'without exception', its core meaning is not about numerical quantity but rather about the manner or extent of something happening to all items in a group, or a physical arrangement of items.",
-      "suggestion": "Replace 'quantity' with 'descriptive' or 'expression'."
+      "concern": "The tag 'quantity' is not appropriate for the headword '軒並み'. While it can imply 'all' or 'every', its core meaning is about arrangement or universality, not a numerical quantity.",
+      "suggestion": "Replace 'quantity' with 'general' or 'descriptive'."
     }
   ]
 }

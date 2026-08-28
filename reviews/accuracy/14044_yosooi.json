@@ -1,0 +1,24 @@
+{
+  "entry_id": "14044_yosooi",
+  "headword": "{装|よそお}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-28T00:30:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '装い' is not 'formal'. It is an elegant or literary word, but not formal in the sense of official or stiff language. It's more 'neutral' or 'literary'.",
+      "suggestion": "neutral"
+    }
+  ]
+}

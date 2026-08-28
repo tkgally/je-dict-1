@@ -7856,3 +7856,35 @@
 {"ts": "2026-08-26T13:03:00Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 3, "note": "family: misc tag nits, not clearly false"}
 {"ts": "2026-08-26T13:10:00Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 5, "note": "family: okurigana stem/split false positives"}
 {"ts":"2026-08-27T12:51:45Z","entry":"07023","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"formality formal->neutral, everyday word"}
+{"ts":"2026-08-28T00:30:04Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":25,"note":"family: confabulated truncated reading; entries hold full reading"}
+{"ts":"2026-08-28T00:30:04Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":10,"note":"family: okurigana split; partial reading correct by design"}
+{"ts":"2026-08-28T00:30:04Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":4,"note":"family: rendaku/compound vs standalone reading"}
+{"ts":"2026-08-28T00:30:04Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":2,"note":"family: reading the entry itself discusses"}
+{"ts":"2026-08-28T00:33:24Z","entry":"13920","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"own notes say clinical neutral; formal->neutral"}
+{"ts":"2026-08-28T00:33:24Z","entry":"13981","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"gitei rendered as plain otouto; added in-law"}
+{"ts":"2026-08-28T00:33:24Z","entry":"13983","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"literary fiction tagged education; -> art"}
+{"ts":"2026-08-28T00:33:24Z","entry":"14009","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"de-phrase inverted; glorious exit in match"}
+{"ts":"2026-08-28T00:33:24Z","entry":"14072","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"life stage not a person; removed person"}
+{"ts":"2026-08-28T00:33:24Z","entry":"14118","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"firewood is not a tool; -> daily-life"}
+{"ts":"2026-08-28T00:33:24Z","entry":"13917","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"notes do not contradict formal label"}
+{"ts":"2026-08-28T00:33:24Z","entry":"13930","src":"accuracy","dim":"translation","sev":"error","decision":"reject","note":"tana no ue is top of shelf; model misread"}
+{"ts":"2026-08-28T00:33:24Z","entry":"13943","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"sense 2 is digression; communication fits"}
+{"ts":"2026-08-28T00:33:24Z","entry":"13978","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"entry itself says slightly formal"}
+{"ts":"2026-08-28T00:33:24Z","entry":"13981","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"gitei is younger by definition; gi-ani is older"}
+{"ts":"2026-08-28T00:33:24Z","entry":"14026","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"additive breadth nit; abstract not warranted"}
+{"ts":"2026-08-28T00:33:24Z","entry":"14029","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"in-list breadth nit on general"}
+{"ts":"2026-08-28T00:33:24Z","entry":"14044","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"literary/elegant; no literary formality value exists"}
+{"ts":"2026-08-28T00:33:24Z","entry":"14091","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"entry says more formal than michi; supports label"}
+{"ts":"2026-08-28T00:33:24Z","entry":"14115","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"summary gloss; tawny already in definition"}
+{"ts":"2026-08-28T00:33:24Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":37,"note":"family: in-list too-broad/too-narrow substitution nits"}
+{"ts":"2026-08-28T00:36:00Z","entry":"14152","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"eikoku is the UK not England; own explanation agrees"}
+{"ts":"2026-08-28T00:36:00Z","entry":"14209","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"both senses are acts not feelings; emotion->action"}
+{"ts":"2026-08-28T00:36:00Z","entry":"14216","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"entry contrasts with study material; education->media"}
+{"ts":"2026-08-28T00:36:00Z","entry":"14152","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"opposite flag on same entry; England is wrong"}
+{"ts":"2026-08-28T00:36:00Z","entry":"14195","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"nature/beauty parenthetical disambiguates from kanshou 鑑賞"}
+{"ts":"2026-08-28T00:36:00Z","entry":"14229","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"reading nit; reading field already tonjiru"}
+{"ts":"2026-08-28T00:36:00Z","entry":"14235","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"lateral in-list swap; suggestions no better"}
+{"ts":"2026-08-28T00:36:00Z","entry":"14289","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"lateral in-list swap; quantity defensible"}
+{"ts":"2026-08-28T00:36:00Z","entry":"14306","src":"accuracy","dim":"tags","sev":"error","decision":"reject","note":"additive nit; not a wrong tag"}
+{"ts":"2026-08-28T00:36:00Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":6,"note":"family: keigo-only reading of formal; entry notes support label"}
+{"ts":"2026-08-28T00:36:00Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":25,"note":"family: in-list too-broad/too-narrow substitution nits"}

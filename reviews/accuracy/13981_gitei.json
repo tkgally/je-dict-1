@@ -1,0 +1,31 @@
+{
+  "entry_id": "13981_gitei",
+  "headword": "{義弟|ぎてい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-28T00:36:19Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss implies that 義弟 can mean 'younger brother-in-law' OR 'younger stepbrother', but the headword 義弟 specifically refers to a brother-in-law. The 'stepbrother' meaning is incorrect for the headword itself.",
+      "suggestion": "Change gloss to 'younger brother-in-law'"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss implies that 義弟 can mean 'younger brother-in-law' OR 'younger stepbrother', but the headword 義弟 specifically refers to a brother-in-law. The 'stepbrother' meaning is incorrect for the headword itself.",
+      "suggestion": "Change gloss to 'younger brother-in-law'"
+    }
+  ]
+}
