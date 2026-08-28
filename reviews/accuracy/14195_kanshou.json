@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-13T15:52:59Z",
+  "reviewed_at": "2026-08-28T00:32:26Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is too restrictive, implying it only applies to nature/beauty. The examples show it can apply to objects like ornamental fish.",
+      "suggestion": "appreciation, viewing for enjoyment, admiring"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is too restrictive, implying it only applies to nature/beauty. The examples show it can apply to objects like ornamental fish.",
+      "suggestion": "appreciation, viewing for enjoyment, admiring"
+    }
+  ]
 }

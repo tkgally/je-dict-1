@@ -1579,3 +1579,38 @@ fourth filing of the standing structural fact).)_
   keys off the five-digit prefix. CLAUDE.md documents it as `verify_furigana.py <id>`, which
   reads as the numeric ID. Accepting a bare numeric ID (or naming the mismatch in the error)
   would save a round trip per session.
+
+- [tooling] **Furigana screening pass ran 0% precision over entries 13900–14399** (42 of 500
+  entries flagged, all rejected; deep pass skipped under the §A known-noise shortcut). The
+  dominant family — 25 of 42 — is `google/gemini-2.5-flash` *confabulating* that a reading is
+  "cut off" or "incomplete" (`衛生→えいせ`, `被害者→ひがいし`, `美少女→びしょ)`), when the entries
+  hold the full correct readings. This is **not** the `trim_context()` display-truncation bug
+  that was already fixed: rebuilding the screening prompt for 14337 shows the context rendered
+  intact as `(followed by: 「する{美少女|びしょうじょ}」)`, and the prompt already carries an
+  explicit "Never infer that a reading is truncated or incomplete from that excerpt" line. The
+  model ignores it. Remaining flags are the long-documented families (10 okurigana splits,
+  4 rendaku/compound, 2 readings the entry itself discusses) plus 1 unparseable response.
+  Given that screening over already-polished ranges has now measured 0–5% precision across
+  three separate runs (2026-06-10, 2026-06-11, this run), the options worth costing out are
+  swapping the screening model, or retiring the furigana screening pass on ranges the
+  comprehensive polish has already reached and spending that budget on the accuracy dimensions
+  instead.
+
+- [entry] **13981 {義弟|ぎてい} example 1 uses the awkward construction {妻|つま}の{義弟|ぎてい}.**
+  The English translation was fixed this run (it had rendered 義弟 as plain {弟|おとうと}, dropping
+  "-in-law"), but the Japanese itself is strained: from the wife's own perspective her 義弟 is
+  either the speaker's own younger brother or her younger sister's husband, so 妻の義弟 does not
+  pick out a clear referent. A cleaner example would use the speaker's own 義弟 directly.
+
+- [pattern] **The accuracy reviewer's `tags` dimension flags in-list breadth substitutions at
+  high volume and near-zero yield.** Over entries 13900–14399, 38 of 41 flagged entries were tag
+  flags, and 37 of those were "the tag 'general' is too vague, replace it with X" or the mirror
+  image ("'food' is too narrow", "'body-part' is too specific") — all substitutions between tags
+  that are already in `VALID_SEMANTIC`, which §A step 4 of the Routine directs us to reject. Only
+  4 tag flags in the whole range were genuine category errors (純文学 tagged `education`, 老年
+  tagged `person`, 薪 tagged `tool`, and one formality label the entry's own notes contradicted).
+  Several suggestions were also to tags that do not exist in the vocabulary at all
+  (`body-general`, `medical` as a semantic tag), so they could not have been applied as written.
+  Teaching the reviewer prompt that `general` is a legitimate terminal tag, and that it should
+  only flag a tag it believes is *wrong* rather than *improvable*, would cut this dimension's
+  noise by roughly 90% and make the remaining flags worth reading closely.

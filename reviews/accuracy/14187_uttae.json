@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-13T15:52:41Z",
+  "reviewed_at": "2026-08-28T00:32:18Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'communication' is too broad and doesn't capture the legal aspect of the word.",
+      "suggestion": "Add 'law' to the semantic tags."
+    }
+  ]
 }

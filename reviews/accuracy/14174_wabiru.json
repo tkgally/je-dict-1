@@ -1,0 +1,24 @@
+{
+  "entry_id": "14174_wabiru",
+  "headword": "{詫|わ}びる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-28T00:32:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '詫びる' is not formal. It is a standard, neutral verb for 'to apologize'. While it can convey deep remorse, it is not inherently formal in the way keigo or highly literary expressions are.",
+      "suggestion": "neutral"
+    }
+  ]
+}

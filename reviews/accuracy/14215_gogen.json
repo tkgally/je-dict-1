@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-13T15:53:44Z",
+  "reviewed_at": "2026-08-28T00:32:45Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is too narrow and potentially misleading for '語源' (etymology). While etymology can be studied in education, the word itself refers to the origin of words, which is a concept in linguistics or language studies, not education as a whole.",
+      "suggestion": "Replace 'education' with 'language' or 'cognition'."
+    }
+  ]
 }

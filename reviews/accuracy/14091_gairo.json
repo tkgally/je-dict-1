@@ -1,0 +1,24 @@
+{
+  "entry_id": "14091_gairo",
+  "headword": "{街路|がいろ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-28T00:30:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '街路' is not formal. It is a neutral term for 'street' or 'road' in a city context, often used in everyday language, news, and official documents without being particularly formal. The explanation itself states 'More formal than {道|みち} or {通|とお}り', which implies a relative formality, but not an absolute 'formal' register.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

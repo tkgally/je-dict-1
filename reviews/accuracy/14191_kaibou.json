@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-13T15:52:48Z",
+  "reviewed_at": "2026-08-28T00:32:22Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '解剖' (dissection, autopsy, analysis) has a primary meaning related to physical dissection, which is a medical or scientific procedure. 'Cognition' is too narrow and doesn't cover the physical act.",
+      "suggestion": "Add 'science' and 'health' to better reflect the primary meaning of physical dissection, and keep 'cognition' for the figurative sense of analysis."
+    }
+  ]
 }
