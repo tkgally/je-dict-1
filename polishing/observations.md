@@ -1580,21 +1580,33 @@ fourth filing of the standing structural fact).)_
   reads as the numeric ID. Accepting a bare numeric ID (or naming the mismatch in the error)
   would save a round trip per session.
 
-- [tooling] **Furigana screening pass ran 0% precision over entries 13900–14399** (42 of 500
-  entries flagged, all rejected; deep pass skipped under the §A known-noise shortcut). The
-  dominant family — 25 of 42 — is `google/gemini-2.5-flash` *confabulating* that a reading is
-  "cut off" or "incomplete" (`衛生→えいせ`, `被害者→ひがいし`, `美少女→びしょ)`), when the entries
-  hold the full correct readings. This is **not** the `trim_context()` display-truncation bug
-  that was already fixed: rebuilding the screening prompt for 14337 shows the context rendered
-  intact as `(followed by: 「する{美少女|びしょうじょ}」)`, and the prompt already carries an
-  explicit "Never infer that a reading is truncated or incomplete from that excerpt" line. The
-  model ignores it. Remaining flags are the long-documented families (10 okurigana splits,
-  4 rendaku/compound, 2 readings the entry itself discusses) plus 1 unparseable response.
-  Given that screening over already-polished ranges has now measured 0–5% precision across
-  three separate runs (2026-06-10, 2026-06-11, this run), the options worth costing out are
-  swapping the screening model, or retiring the furigana screening pass on ranges the
-  comprehensive polish has already reached and spending that budget on the accuracy dimensions
-  instead.
+- [tooling] **`reviews/screening/` results are overwritten in place with no run marker, so a
+  reader cannot tell this run's flags from a previous run's without opening every file.** This
+  cost real analysis time on 2026-08-28 and produced a wrong conclusion that had to be retracted
+  after the PR merged. The screening run for 13900–14399 was slow and still in flight; the
+  directory already held results for that range from 2026-07-13/14/15; counting flagged files by
+  ID looked like a completed 500-entry run at 8.4% flag rate, when in fact only 222 files were
+  this run's and the other 278 were three-week-old leftovers. Worse, the July results predate the
+  `trim_context()` fix, so their dominant "reading is cut off" family (`衛生→えいせ`,
+  `被害者→ひがいし`) read as live evidence that the fix had failed — the opposite of the truth.
+  Two cheap fixes, either sufficient: have `review_runner.py --pass screening` print a
+  start/finish marker and a completed-ID manifest, or have any analysis step filter on
+  `screened_at` rather than file presence. Until then, **always filter `reviews/screening/` by
+  `screened_at`, never by which files exist.**
+
+- [tooling] **Furigana screening ran 0% precision, but at a much lower flag volume than the raw
+  directory suggested** (7 of 222 entries actually screened this run, 3.2%; all rejected; deep
+  pass skipped under the §A known-noise shortcut). Every one of the 7 falls in a long-documented
+  false-positive family: okurigana splits (14003 {老|ふ}ける, 14081 {点|た}てる, 14128 {漸|ようや}く),
+  the 14020 {茶屋|ぢゃや} rendaku case the calibration report already records as a deliberate
+  editorial choice, readings the entry itself discusses (13942 contrasting {脅|おど}す), a
+  "similar words" headword that is simply a different word (14109 容量 vs 要領), and one
+  "insufficient context to judge" non-finding (13950). Notably the confabulated-truncation family
+  is **absent** from this run's output — it appears only in the July leftovers, i.e. the
+  `trim_context()` fix did what it was meant to. So the standing conclusion is unchanged in kind
+  but weaker in force than it first appeared: screening still yields nothing on already-polished
+  ranges (0–5% across four runs now), but it is also cheap and quiet, and the case for retiring it
+  rests on opportunity cost rather than on a live defect.
 
 - [entry] **13981 {義弟|ぎてい} example 1 uses the awkward construction {妻|つま}の{義弟|ぎてい}.**
   The English translation was fixed this run (it had rendered 義弟 as plain {弟|おとうと}, dropping
