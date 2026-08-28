@@ -1,8 +1,10 @@
 {
   "entry_id": "14128",
-  "screened_at": "2026-07-13T03:35:17Z",
+  "screened_at": "2026-08-28T00:43:01Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": false,
-  "concerns": [],
-  "confidence": 1.0
+  "flagged": true,
+  "concerns": [
+    "The reading for 漸 (9) is given as ようや, but the standard reading for 漸 in this context (ようやく) is ぜん or やや. The provided reading seems to be a partial reading of ようやく, but 漸 itself is not read as ようや."
+  ],
+  "confidence": 0.8
 }
