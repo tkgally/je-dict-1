@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-08-25
+**Last updated**: 2026-08-28
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-08-28 (Routine v2: new-entries — 20 New Entries, IDs 30754–30773)
+
+Created 20 general-tier entries. **Sixteen came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined, which empties that lane: {防弾|ぼうだん} (written so the learner sees it only ever heads a compound), たこ{足|あし}{配線|はいせん} (the overloaded outlet, which Japanese speakers meet as a fire-safety warning), {味|あじ}の{素|もと} (the brand, with the point that older speakers use the name for MSG generally), {時雨|しぐれ}{煮|に}, {相棒|あいぼう} (the palanquin-pole origin, and how it differs from {仲間|なかま} and {同僚|どうりょう}), {箸|はし}{立|た}て (separated from {箸|はし}{置|お}き and {箸|はし}{箱|ばこ}, which learners conflate), {甥|おい}っ{子|こ} and {姪|めい}っ{子|こ} (the affectionate 〜っ{子|こ} forms, noting Japanese has no single word for "nieces and nephews"), {好|す}く (with the warning that the plain affirmative sounds archaic and learners want {好|す}き), {負|ま}けん{気|き}, {動|どう}じる (met almost only as {動|どう}じない), {教諭|きょうゆ} and {獣医師|じゅういし} (the official job titles, each set against the word people actually say — {先生|せんせい} and {獣医|じゅうい}), {色柄物|いろがらもの} (the laundry term off detergent bottles), ラベンダー (with the Furano association), and セラミック (the engineered material, explicitly not {陶器|とうき}).
+
+**The other four are proper nouns** from the vetted queue, written so the explanation carries the connotations: {関|せき}ヶ{原|はら} (given two senses — the 1600 battle, and the everyday figurative "decisive showdown" behind {天下|てんか}{分|わ}け{目|め}の{関|せき}ヶ{原|はら}), {紫式部|むらさきしきぶ} (noting that neither half of the name is a real personal name), {松尾芭蕉|まつおばしょう}, and {日本海|にほんかい} (written around the {日本海|にほんかい}{側|がわ}/{太平洋|たいへいよう}{側|がわ} weather split rather than the geography). Two conjugation tables added (1 godan, 1 ichidan). Two new kanji given index IDs: 芭 (02799) and 蕉 (02800).
+
+**Three stale candidates removed before writing.** The suffix candidates 系, 用, and 製 already have entries written with a leading tilde (28466 〜系, 09842 〜用, 02001 〜製), which the duplicate check does not match — logged as a `[pattern]` observation.
+
+**§4 cross-model self-check on all 20 new entries: 3 flags, 1 applied as 2 edits, 1 rejected, 0 sent to the curator.** Eighteen entries came back clean. The applied flag was on {色柄物|いろがらもの}, whose gloss said "clothing" when the word covers towels and linens too in laundry instructions — broadened. The rejected flag objected to the register note in the gloss "veterinarian (formal term)"; 216 existing entries use that pattern, so it is house practice, not an error. Cost $0.009.
+
+**Queue note**: 3 candidates captured from words these entries reference but do not define — {白物|しろもの}, {向|む}こう{気|き}, and {天下|てんか}{分|わ}け{目|め}. Thirteen further proposals were rejected by the duplicate gate as words that already have entries. The candidate queue stands at 140.
+
+
 ### 2026-08-25 (Routine v2: new-entries — 20 New Entries, IDs 30734–30753)
 
 Created 20 general-tier entries. **Thirteen came from the "seen in entry" lane** — words the dictionary already used inside other entries but had never defined — which empties that lane completely: {手繰|たぐ}る (two senses: hauling in a rope and tracing a memory back), {牛|ぎゅう}タン (the Sendai specialty, with the 定食 convention), {洋館|ようかん} (the prewar Western-style house, separated from the neutral {洋風|ようふう}の{家|いえ}), {祈念|きねん} (formal prayer, with the {記念|きねん} homophone trap spelled out), {永谷園|ながたにえん} (the food company, written so the explanation carries the metonymy — the name means the product), {池田菊苗|いけだきくなえ} (the chemist who named umami in 1908), {次点|じてん} (runner-up, including the election sense where the runner-up takes the seat), {装甲|そうこう} (armour on machines, contrasted with {鎧|よろい} on a body), {毛抜|けぬ}き (tweezers, split from ピンセット by purpose rather than shape), プルタブ (with the school pull-tab charity drive as context), {巻|ま}き{起|お}こす and {跳|は}ね{返|かえ}す (the transitive partners of 07005 and 07009, cross-linked in both directions), and テーブルタップ (cross-referenced to 07012 {電源|でんげん}タップ).
@@ -97,22 +110,3 @@ Created 20 general-tier entries, **all 20 from the "seen in entry" lane** — wo
 **§4 cross-model self-check on all 20 entries: 5 issues raised, 3 applied, 2 rejected, 0 sent to the curator.** The applied fixes all concerned {通分|つうぶん}: its gloss read "reduction to a common denominator", which invites the wrong reading of "reduce" (the operation usually makes the numbers larger, not smaller), so it now reads "finding a common denominator", and one example whose English restated itself was replaced. The two rejections were a reviewer error about 二日おきに and a request to swap one in-list semantic tag for a broader one, which project policy declines. Cost $0.009.
 
 **Queue note**: the candidate 先ほど was removed as a stale duplicate — it is the same word as the existing {先程|さきほど} entry (04165) written in kana. Twelve new candidates were captured from words used inside the new entries, and the twenty words just written were removed from the queue automatically. Candidate queue now 159.
-
-### 2026-08-15 (Routine v2: new-entries — 20 New Entries, IDs 30654–30673)
-
-Created 20 general-tier entries, **all 20 from the "seen in entry" lane** — words the dictionary already used inside other entries' examples and notes but had never defined. That empties the lane completely for the second run in a row. The words break down as follows.
-
-- **Health (3)**: {心療内科|しんりょうないか} (the psychosomatic medicine department, written against {精神科|せいしんか} and {神経内科|しんけいないか} because choosing the right clinic is the real-world question), {自律神経失調症|じりつしんけいしっちょうしょう} (noted as the broad everyday diagnostic label it is, not a precise disease), and {瘤|こぶ} (with the idiom {目|め}の{上|うえ}のたんこぶ).
-- **Cooking and cutting (2)**: {飾|かざ}り{包丁|ぼうちょう} and {切|き}り{込|こ}み. The first is cross-linked to {隠|かく}し{包丁|ぼうちょう} (created yesterday) as a contrast — decorative cuts versus cuts hidden for cooking — which is exactly the distinction that sends learners to a dictionary.
-- **Grammar and register (3)**: ごとに (written around the ごとに/おきに confusion — "every day" versus "every other day" — which is the single most common learner error with this suffix), ついさっき (informal; pointed at {先|さき}ほど for polite contexts), and ためらいがち (with the 〜がち suffix pattern).
-- **News and time vocabulary (2)**: {供給不足|きょうきゅうぶそく} (linked to the existing {供給過剰|きょうきゅうかじょう}) and {十数年|じゅうすうねん}, contrasted with {数十年|すうじゅうねん} — the same characters in the other order, meaning decades rather than a dozen years.
-- **Shinto ritual language (2)**: {祝詞|のりと} and {奏上|そうじょう}, cross-linked to each other since they appear together in the fixed phrase {祝詞|のりと}を{奏上|そうじょう}する.
-- **General vocabulary (8)**: {音楽祭|おんがくさい} (distinguished from フェス), ごぼごぼ, {肥|こ}やし (two senses — manure, and the figurative "nourishment" of 失敗を肥やしにする), チェスト (with the warning that it never means the body part), {夏物|なつもの} (linked to {冬物|ふゆもの}), {賞状|しょうじょう}, {敬虔|けいけん}, and {得意顔|とくいがお}.
-
-A conjugation table was generated for the one suru-verb ({奏上|そうじょう}する). Two new kanji were given index IDs: 瘤 (02795) and 虔 (02796).
-
-**§4 cross-model self-check on all 20 new entries: clean — zero flags** across glosses, example translations, and semantic tags. $0.009.
-
-**Queue note**: eight new candidates were captured from words these entries reference but do not define — おきに, {上奏|じょうそう}, {表彰状|ひょうしょうじょう}, {信心深|しんじんぶか}い, したり{顔|がお}, {更年期障害|こうねんきしょうがい}, {地鎮祭|じちんさい}, and {先|さき}ほど. The candidate queue stands at 154.
-
-**Two systemic notes logged** to `polishing/observations.md`: `prompts/newentries.md` documents the closed lists for POS, semantic, and domain tags but never lists the four legal `formality` values, so the natural English word "casual" fails validation (one entry tripped on it this run); and bare kanji slip into notes through English section headers that embed a Japanese suffix (`THE 〜物 SERIES:`), which the furigana scanner catches only after the entry is written (two entries this run).
