@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07043_kitsuenjo_ex1",
-      "japanese": "{喫煙所|きつえんじょ}はどこですか。",
+      "japanese": "{喫煙所|きつえんじょ}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Where is the smoking area?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07043_kitsuenjo_ex2",
-      "japanese": "この{建物|たてもの}には{喫煙所|きつえんじょ}がない。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{建物|たてもの}→建物：01458_tatemono⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{喫煙所|きつえんじょ}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "This building doesn't have a smoking area.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07043_kitsuenjo_ex3",
-      "japanese": "{駅|えき}の{喫煙所|きつえんじょ}は{撤去|てっきょ}された。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{喫煙所|きつえんじょ}⟦は→は：00079_ha⟧⟦{撤去|てっきょ}された→撤去する：21321_tekkyosuru⟧。",
       "english": "The smoking area at the station was removed.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{喫煙|きつえん} (smoking) + {所|じょ} (place)\n\nRELATED TERMS:\n・{喫煙室|きつえんしつ} - smoking room (enclosed)\n・{喫煙席|きつえんせき} - smoking seat/section\n・{禁煙|きんえん} - no smoking\n・{分煙|ぶんえん} - separation of smoking/non-smoking areas\n\nCOLLOCATIONS:\n・{喫煙所|きつえんじょ}を{探|さが}す - to look for a smoking area\n・{喫煙所|きつえんじょ}で{吸|す}う - to smoke in the smoking area\n\nCULTURAL NOTE:\nSmoking regulations in Japan have become stricter. Many public places now require smoking in designated areas only, and some municipalities have banned street smoking entirely.",
+  "notes": "FORMATION:\n⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧ (smoking) + ⟦{所|じょ}→〜所：09844_sho⟧ (place; read じょ here through rendaku)\n\nRELATED TERMS:\n・⟦{喫煙室|きつえんしつ}→喫煙室：noentry⟧ - smoking room (enclosed)\n・⟦{喫煙席|きつえんせき}→喫煙席：22332_kitsuenseki⟧ - smoking seat/section\n・⟦{禁煙|きんえん}→禁煙：02644_kinen⟧ - no smoking\n・⟦{分煙|ぶんえん}→分煙：20832_bunen⟧ - separation of smoking and non-smoking areas\n\nCOLLOCATIONS:\n・{喫煙所|きつえんじょ}⟦を→を：00422_wo⟧⟦{探|さが}す→探す：00493_sagasu⟧ - to look for a smoking area\n・{喫煙所|きつえんじょ}⟦で→で：00502_de⟧⟦{吸|す}う→吸う：04394_suu⟧ - to smoke in the smoking area\n\nCULTURAL NOTE:\nSmoking regulations in Japan have become stricter. Many public places now require smoking in designated areas only, and some municipalities have banned street smoking entirely.",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,32 @@
       "headword": "{禁煙|きんえん}",
       "label": "no smoking",
       "target_id": "02644_kinen"
+    },
+    {
+      "type": "related",
+      "target_id": "17580_kitsuen",
+      "reading": "きつえん",
+      "headword": "{喫煙|きつえん}",
+      "label": "smoking"
+    },
+    {
+      "type": "related",
+      "target_id": "22332_kitsuenseki",
+      "reading": "きつえんせき",
+      "headword": "{喫煙席|きつえんせき}",
+      "label": "smoking seat/section"
+    },
+    {
+      "type": "related",
+      "target_id": "20832_bunen",
+      "reading": "ぶんえん",
+      "headword": "{分煙|ぶんえん}",
+      "label": "separation of smoking and non-smoking areas"
     }
   ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-08-29T00:23:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

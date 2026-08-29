@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07045_hijouguchi_ex1",
-      "japanese": "{非常口|ひじょうぐち}の{位置|いち}を{確認|かくにん}してください。",
+      "japanese": "{非常口|ひじょうぐち}⟦の→の：09472_no⟧⟦{位置|いち}→位置：11554_ichi⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：25332_kakuninsuru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the location of the emergency exit.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07045_hijouguchi_ex2",
-      "japanese": "{飛行機|ひこうき}に{乗|の}ったら、まず{非常口|ひじょうぐち}を{確認|かくにん}する。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦に→に：00314_ni⟧⟦{乗|の}ったら→乗る：00511_noru⟧、⟦まず→まず：00796_mazu⟧{非常口|ひじょうぐち}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "When boarding a plane, I first check where the emergency exit is.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07045_hijouguchi_ex3",
-      "japanese": "{非常口|ひじょうぐち}は{常|つね}に{開|あ}けておいてください。",
+      "japanese": "{非常口|ひじょうぐち}⟦は→は：00079_ha⟧⟦{常|つね}に→常に：01619_tsuneni⟧⟦{開|あ}けて→開ける：00563_akeru⟧⟦おいて→おく：01092_oku⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please always keep the emergency exit clear.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{非常|ひじょう} (emergency) + {口|ぐち} (exit/entrance)\n\nSIGN:\nEmergency exits in Japan are marked with a green pictogram showing a running figure. This follows international standards (ISO 7010).\n\nCOLLOCATIONS:\n・{非常口|ひじょうぐち}を{確認|かくにん}する - to check the emergency exit\n・{非常口|ひじょうぐち}の{表示|ひょうじ} - emergency exit sign\n・{非常口|ひじょうぐち}から{避難|ひなん}する - to evacuate through the emergency exit\n・{非常口|ひじょうぐち}を{塞|ふさ}ぐ - to block the emergency exit (prohibited)\n\nRELATED TERMS:\n・{避難|ひなん}{経路|けいろ} - evacuation route\n・{非常|ひじょう}{階段|かいだん} - emergency stairs\n・{誘導灯|ゆうどうとう} - emergency guidance light",
-  "cross_references": [],
+  "notes": "FORMATION:\n⟦{非常|ひじょう}→非常：01598_hijou⟧ (emergency) + ⟦{口|ぐち}→口：00560_kuchi⟧ (opening, exit; read ぐち here through rendaku)\n\nSIGN:\nEmergency exits in Japan are marked with a green pictogram showing a running figure. This follows the international standard ISO 7010.\n\nCOLLOCATIONS:\n・{非常口|ひじょうぐち}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧ - to check where the emergency exit is\n・{非常口|ひじょうぐち}⟦の→の：09472_no⟧⟦{表示|ひょうじ}→表示：03143_hyouji⟧ - emergency exit sign\n・{非常口|ひじょうぐち}⟦から→から：00504_kara⟧⟦{避難|ひなん}する→避難する：26827_hinansuru⟧ - to evacuate through the emergency exit\n・{非常口|ひじょうぐち}⟦を→を：00422_wo⟧⟦{塞|ふさ}ぐ→塞ぐ：00046_fusagu⟧ - to block the emergency exit (prohibited by law)\n\nRELATED TERMS:\n・⟦{避難経路|ひなんけいろ}→避難経路：07138_hinankeiro⟧ - evacuation route\n・⟦{非常階段|ひじょうかいだん}→非常階段：19207_hijoukaidan⟧ - emergency stairs, fire escape\n・⟦{誘導灯|ゆうどうとう}→誘導灯：23857_yuudoutou⟧ - illuminated exit-guidance sign",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07138_hinankeiro",
+      "reading": "ひなんけいろ",
+      "headword": "{避難経路|ひなんけいろ}",
+      "label": "evacuation route"
+    },
+    {
+      "type": "related",
+      "target_id": "19207_hijoukaidan",
+      "reading": "ひじょうかいだん",
+      "headword": "{非常階段|ひじょうかいだん}",
+      "label": "emergency stairs, fire escape"
+    },
+    {
+      "type": "related",
+      "target_id": "23857_yuudoutou",
+      "reading": "ゆうどうとう",
+      "headword": "{誘導灯|ゆうどうとう}",
+      "label": "illuminated exit-guidance sign"
+    },
+    {
+      "type": "related",
+      "target_id": "01598_hijou",
+      "reading": "ひじょう",
+      "headword": "{非常|ひじょう}",
+      "label": "emergency"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-01-19T12:17:44.879478Z",
+    "modified": "2026-08-29T00:24:24Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +86,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "building",
+        "daily-life"
       ]
     }
   }

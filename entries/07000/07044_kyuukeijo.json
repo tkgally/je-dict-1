@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07044_kyuukeijo_ex1",
-      "japanese": "{高速道路|こうそくどうろ}の{休憩所|きゅうけいじょ}で{休|やす}んだ。",
+      "japanese": "⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧⟦の→の：09472_no⟧{休憩所|きゅうけいじょ}⟦で→で：00502_de⟧⟦{休|やす}んだ→休む：00606_yasumu⟧。",
       "english": "I rested at a rest area on the highway.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07044_kyuukeijo_ex2",
-      "japanese": "{登山|とざん}コースに{休憩所|きゅうけいじょ}がある。",
+      "japanese": "⟦{登山|とざん}→登山：03457_tozan⟧⟦コース→コース：10864_koosu⟧⟦に→に：00314_ni⟧{休憩所|きゅうけいじょ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a rest area on the hiking trail.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07044_kyuukeijo_ex3",
-      "japanese": "{休憩所|きゅうけいじょ}で{飲|の}み{物|もの}を{買|か}った。",
+      "japanese": "{休憩所|きゅうけいじょ}⟦で→で：00502_de⟧⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a drink at the rest area.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{休憩|きゅうけい} (rest/break) + {所|じょ} (place)\n\nTYPES:\n・{高速道路|こうそくどうろ}の{休憩所|きゅうけいじょ} - highway rest area\n  - SA (サービスエリア) - service area (larger, more facilities)\n  - PA (パーキングエリア) - parking area (smaller)\n・{観光地|かんこうち}の{休憩所|きゅうけいじょ} - tourist spot rest area\n・{登山|とざん}{休憩所|きゅうけいじょ} - mountain hiking rest station\n\nCOLLOCATIONS:\n・{休憩所|きゅうけいじょ}で{休|やす}む - to rest at a rest area\n・{休憩所|きゅうけいじょ}に{寄|よ}る - to stop by a rest area\n\nSIMILAR TERMS:\n・{休憩室|きゅうけいしつ} - break room (indoors, in offices)\n・{道|みち}の{駅|えき} - roadside station (on regular roads)",
-  "cross_references": [],
+  "notes": "FORMATION:\n⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧ (rest, break) + ⟦{所|じょ}→〜所：09844_sho⟧ (place; read じょ here through rendaku)\n\nTYPES:\n・⟦{高速道路|こうそくどうろ}→高速道路：09242_kousokudouro⟧⟦の→の：09472_no⟧{休憩所|きゅうけいじょ} - highway rest area\n  - SA = ⟦サービスエリア→サービスエリア：11333_saabisueria⟧ (service area; larger, with more facilities)\n  - PA = ⟦パーキングエリア→パーキングエリア：25068_paakingueria⟧ (parking area; smaller)\n・⟦{観光地|かんこうち}→観光地：14163_kankouchi⟧⟦の→の：09472_no⟧{休憩所|きゅうけいじょ} - tourist spot rest area\n・⟦{登山|とざん}→登山：03457_tozan⟧{休憩所|きゅうけいじょ} - mountain hiking rest station\n\nCOLLOCATIONS:\n・{休憩所|きゅうけいじょ}⟦で→で：00502_de⟧⟦{休|やす}む→休む：00606_yasumu⟧ - to rest at a rest area\n・{休憩所|きゅうけいじょ}⟦に→に：00314_ni⟧⟦{寄|よ}る→寄る：02440_yoru⟧ - to stop by a rest area\n\nSIMILAR TERMS:\n・⟦{休憩室|きゅうけいしつ}→休憩室：23410_kyuukeishitsu⟧ - break room (indoors, in an office or workplace)\n・⟦{道|みち}→道：00505_michi⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧ - roadside station (on ordinary roads, with local produce and food stalls)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00262_kyuukei",
+      "reading": "きゅうけい",
+      "headword": "{休憩|きゅうけい}",
+      "label": "rest, break"
+    },
+    {
+      "type": "related",
+      "target_id": "23410_kyuukeishitsu",
+      "reading": "きゅうけいしつ",
+      "headword": "{休憩室|きゅうけいしつ}",
+      "label": "break room (indoors)"
+    },
+    {
+      "type": "related",
+      "target_id": "11333_saabisueria",
+      "reading": "さーびすえりあ",
+      "headword": "サービスエリア",
+      "label": "service area (large highway rest stop)"
+    },
+    {
+      "type": "related",
+      "target_id": "25068_paakingueria",
+      "reading": "ぱーきんぐえりあ",
+      "headword": "パーキングエリア",
+      "label": "parking area (small highway rest stop)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-01-19T12:17:44.878843Z",
+    "modified": "2026-08-29T00:23:24Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +86,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "geography"
+        "building",
+        "travel"
       ]
     }
   }

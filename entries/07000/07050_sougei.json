@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07050_sougei_ex1",
-      "japanese": "{駅|えき}から{送迎|そうげい}バスが{出|で}ている。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧{送迎|そうげい}⟦バス→バス：00769_basu⟧⟦が→が：00051_ga⟧⟦{出|で}ている→出る：00513_deru⟧。",
       "english": "There's a shuttle bus from the station.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07050_sougei_ex2",
-      "japanese": "ホテルの{送迎|そうげい}サービスを{利用|りよう}した。",
+      "japanese": "⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧{送迎|そうげい}⟦サービス→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧⟦{利用|りよう}した→利用する：21735_riyousuru⟧。",
       "english": "I used the hotel's shuttle service.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07050_sougei_ex3",
-      "japanese": "{空港|くうこう}{送迎|そうげい}は{無料|むりょう}ですか。",
+      "japanese": "⟦{空港|くうこう}→空港：00648_kuukou⟧{送迎|そうげい}⟦は→は：00079_ha⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Is the airport shuttle free?",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{送|そう} (sending) + {迎|げい} (welcoming/receiving)\n\nVERB FORM:\n{送迎|そうげい}する - to provide pickup and drop-off\n\nCOLLOCATIONS:\n・{送迎|そうげい}バス - shuttle bus\n・{送迎|そうげい}サービス - shuttle service\n・{送迎|そうげい}{付|つ}き - with shuttle service\n・{空港|くうこう}{送迎|そうげい} - airport transfer\n・{無料|むりょう}{送迎|そうげい} - free shuttle service\n\nCONTEXTS:\n・ホテル - hotels\n・{旅館|りょかん} - Japanese inns\n・{結婚式場|けっこんしきじょう} - wedding venues\n・{幼稚園|ようちえん} - kindergartens\n・{介護|かいご}{施設|しせつ} - nursing care facilities",
+  "notes": "FORMATION:\n{送|そう} (sending off) + {迎|げい} (going to meet). The word covers both directions of a trip — taking someone there and collecting them again.\n\nVERB FORM:\n{送迎|そうげい}⟦する→する：00392_suru⟧ - to provide pickup and drop-off\n\nCOLLOCATIONS:\n・{送迎|そうげい}⟦バス→バス：00769_basu⟧ - shuttle bus\n・{送迎|そうげい}⟦サービス→サービス：01531_saabisu⟧ - shuttle service\n・{送迎|そうげい}⟦{付|つ}き→付き：26333_tsuki⟧ - with shuttle service included\n・⟦{空港|くうこう}→空港：00648_kuukou⟧{送迎|そうげい} - airport transfer\n・⟦{無料|むりょう}→無料：01662_muryou⟧{送迎|そうげい} - free shuttle service\n\nWHERE YOU SEE IT:\n・⟦ホテル→ホテル：01027_hoteru⟧ and ⟦{旅館|りょかん}→旅館：01049_ryokan⟧ - shuttles from the nearest station or airport\n・⟦{結婚式場|けっこんしきじょう}→結婚式場：noentry⟧ - wedding venues, for guests\n・⟦{幼稚園|ようちえん}→幼稚園：04703_youchien⟧ - kindergarten buses\n・⟦{介護|かいご}→介護：04805_kaigo⟧⟦{施設|しせつ}→施設：02503_shisetsu⟧ - nursing-care facilities, for day visits",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-01-19T12:17:44.882304Z",
+    "modified": "2026-08-29T00:26:21Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +57,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "transportation",
+        "travel"
       ]
     }
   }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07046_shiteiseki_ex1",
-      "japanese": "{新幹線|しんかんせん}の{指定席|していせき}を{予約|よやく}した。",
+      "japanese": "⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧⟦の→の：09472_no⟧{指定席|していせき}⟦を→を：00422_wo⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧。",
       "english": "I reserved a seat on the Shinkansen.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07046_shiteiseki_ex2",
-      "japanese": "{指定席|していせき}は{追加料金|ついかりょうきん}がかかる。",
+      "japanese": "{指定席|していせき}⟦は→は：00079_ha⟧⟦{追加料金|ついかりょうきん}→追加料金：22313_tsuikaryoukin⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Reserved seats cost extra.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07046_shiteiseki_ex3",
-      "japanese": "{連休|れんきゅう}は{指定席|していせき}が{取|と}りにくい。",
+      "japanese": "⟦{連休|れんきゅう}→連休：07587_renkyuu⟧⟦は→は：00079_ha⟧{指定席|していせき}⟦が→が：00051_ga⟧⟦{取|と}りにくい→取る：00565_toru⟧。",
       "english": "It's hard to get reserved seats during consecutive holidays.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "07046_shiteiseki_ex4",
-      "japanese": "{指定席|していせき}{券|けん}を{窓口|まどぐち}で{買|か}った。",
+      "japanese": "{指定席|していせき}⟦{券|けん}→券：02150_ken⟧⟦を→を：00422_wo⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧⟦で→で：00502_de⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a reserved seat ticket at the counter.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "07046_shiteiseki_ex5",
-      "japanese": "{自由席|じゆうせき}は{満席|まんせき}だったので、{指定席|していせき}に{変更|へんこう}した。",
+      "japanese": "⟦{自由席|じゆうせき}→自由席：07047_jiyuuseki⟧⟦は→は：00079_ha⟧⟦{満席|まんせき}→満席：07585_manseki⟧⟦だった→だ：09496_da⟧⟦ので→ので：09501_node⟧、{指定席|していせき}⟦に→に：00314_ni⟧⟦{変更|へんこう}→変更：03616_henkou⟧⟦した→する：00392_suru⟧。",
       "english": "The unreserved seats were full, so I switched to a reserved seat.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{指定|してい} (designation/specification) + {席|せき} (seat)\n\nCONTRAST:\n・{指定席|していせき} - reserved seat (assigned seat)\n・{自由席|じゆうせき} - unreserved seat (first-come, first-served)\n・{グリーン車|しゃ} - Green Car (first class, all reserved)\n\nCOLLOCATIONS:\n・{指定席|していせき}を{予約|よやく}する - to reserve a seat\n・{指定席|していせき}を{取|と}る - to get a reserved seat\n・{指定席|していせき}{券|けん} - reserved seat ticket\n・{指定席|していせき}{車両|しゃりょう} - reserved seat car\n\nTRAIN CONTEXT:\nOn Japanese trains like the Shinkansen, reserved seats typically cost an additional fee ({指定席|していせき}{料金|りょうきん}) on top of the base fare.",
+  "notes": "FORMATION:\n⟦{指定|してい}→指定：00373_shitei⟧ (designation, specification) + ⟦{席|せき}→席：02215_seki⟧ (seat)\n\nCONTRAST:\n・{指定席|していせき} - reserved seat (a particular seat is assigned to you)\n・⟦{自由席|じゆうせき}→自由席：07047_jiyuuseki⟧ - unreserved seat (first come, first served)\n・⟦グリーン{車|しゃ}→グリーン車：08489_guriinsha⟧ - Green Car (the first-class car; all seats reserved)\n\nCOLLOCATIONS:\n・{指定席|していせき}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧ - to reserve a seat\n・{指定席|していせき}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ - to get a reserved seat\n・{指定席|していせき}⟦{券|けん}→券：02150_ken⟧ - reserved-seat ticket\n・{指定席|していせき}⟦{車両|しゃりょう}→車両：05297_sharyou⟧ - reserved-seat car\n\nTRAIN CONTEXT:\nOn Japanese trains such as the Shinkansen, a reserved seat costs an additional fee ({指定席|していせき}⟦{料金|りょうきん}→料金：03797_ryoukin⟧) on top of the base fare.",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,18 @@
       "headword": "{自由席|じゆうせき}",
       "label": "unreserved seat",
       "target_id": "07047_jiyuuseki"
+    },
+    {
+      "type": "related",
+      "target_id": "08489_guriinsha",
+      "reading": "ぐりーんしゃ",
+      "headword": "グリーン{車|しゃ}",
+      "label": "Green Car (first-class train car; all seats reserved)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-03-15T05:31:42Z",
+    "modified": "2026-08-29T00:24:29Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -85,7 +92,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "transportation",
+        "travel"
       ]
     }
   }

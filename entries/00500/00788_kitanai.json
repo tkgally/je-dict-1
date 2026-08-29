@@ -12,8 +12,8 @@
     },
     {
       "sense_number": 2,
-      "gloss": "unfair, underhanded",
-      "explanation": "Can describe behavior that is morally dirty or dishonest."
+      "gloss": "unfair, underhanded; crude, vulgar",
+      "explanation": "Describes behaviour or language that is morally dirty rather than physically dirty: dishonest, unfair, or foul-mouthed."
     }
   ],
   "examples": [
@@ -81,10 +81,10 @@
       "id": "00788_kitanai_ex7",
       "japanese": "{汚|きたな}い⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{使|つか}わないで→使う：00473_tsukau⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't use dirty words.",
-      "notes": null,
+      "notes": "Figurative: 汚い言葉 = crude or foul language, not physical dirt",
       "has_audio": false,
       "sense_numbers": [
-        1
+        2
       ]
     },
     {
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{汚|きたな}い is an i-adjective meaning dirty (physical or moral).\n\nFORMS:\n- Adverbial: {汚|きたな}く\n- Noun form: {汚|きたな}さ (dirtiness)\n- Intensified: ⟦{汚|きたな}らしい→きたならしい：noentry⟧ (filthy, disgusting)\n\nTWO MEANINGS:\n1. Physical: {汚|きたな}い⟦{部屋|へや}→部屋：00507_heya⟧ (dirty room)\n2. Moral: {汚|きたな}い⟦やり{方|かた}→やり方：10532_yarikata⟧ (underhanded method)\n\nCOMMON EXPRESSIONS:\n- {汚|きたな}い⟦{言葉|ことば}→言葉：02880_kotoba⟧: crude/vulgar language\n- {汚|きたな}い⟦{字|じ}→字：01606_ji⟧: messy handwriting\n- {汚|きたな}い⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to play dirty\n\nOPPOSITE:\n⟦きれい→きれい：00717_kirei⟧ (clean, pretty). In polite situations, ⟦きれいじゃない→きれい：00717_kirei⟧ may be preferred over {汚|きたな}い, which can sound harsh.",
+  "notes": "{汚|きたな}い is an i-adjective meaning dirty (physical or moral).\n\nFORMS:\n- Adverbial: {汚|きたな}く\n- Noun form: {汚|きたな}さ (dirtiness)\n- Related verbs: ⟦{汚|よご}れる→汚れる：01293_yogoreru⟧ (to get dirty, intransitive) and ⟦{汚|よご}す→汚す：02327_yogosu⟧ (to make dirty, transitive). Note the different reading よご〜 for the verbs.\n- Intensified: ⟦{汚|きたな}らしい→汚らしい：29808_kitanarashii⟧ (filthy, disgusting)\n\nTWO MEANINGS:\n1. Physical: {汚|きたな}い⟦{部屋|へや}→部屋：00507_heya⟧ (dirty room)\n2. Moral: {汚|きたな}い⟦やり{方|かた}→やり方：10532_yarikata⟧ (underhanded method)\n\nCOMMON EXPRESSIONS:\n- {汚|きたな}い⟦{言葉|ことば}→言葉：02880_kotoba⟧: crude/vulgar language\n- {汚|きたな}い⟦{字|じ}→字：01606_ji⟧: messy handwriting\n- {汚|きたな}い⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to play dirty\n\nOPPOSITE:\n⟦きれい→きれい：00717_kirei⟧ (clean, pretty). In polite situations, ⟦きれいじゃない→きれい：00717_kirei⟧ may be preferred over {汚|きたな}い, which can sound harsh.",
   "cross_references": [
     {
       "type": "antonym",
@@ -126,11 +126,32 @@
       "reading": "きれい",
       "headword": "きれい",
       "label": "clean, pretty"
+    },
+    {
+      "type": "related",
+      "target_id": "29808_kitanarashii",
+      "reading": "きたならしい",
+      "headword": "{汚|きたな}らしい",
+      "label": "filthy, grimy (stronger)"
+    },
+    {
+      "type": "related",
+      "target_id": "01293_yogoreru",
+      "reading": "よごれる",
+      "headword": "{汚|よご}れる",
+      "label": "to become dirty (intransitive verb)"
+    },
+    {
+      "type": "related",
+      "target_id": "02327_yogosu",
+      "reading": "よごす",
+      "headword": "{汚|よご}す",
+      "label": "to make dirty (transitive verb)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:23:40Z",
-    "modified": "2026-07-19T03:20:19Z",
+    "modified": "2026-08-29T00:21:46Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
