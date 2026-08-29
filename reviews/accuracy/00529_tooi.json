@@ -2,29 +2,15 @@
   "entry_id": "00529_tooi",
   "headword": "{遠|とお}い",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:25Z",
+  "reviewed_at": "2026-08-29T00:26:49Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The gloss 'far, distant' is incomplete as it doesn't fully capture the temporal meaning of 'long ago' or 'distant past' which is present in the examples and explanation.",
-      "suggestion": "Add a temporal aspect to the top-level gloss, e.g., 'far, distant; long ago'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The sense gloss 'far, distant' is incomplete as it doesn't fully capture the temporal meaning of 'long ago' or 'distant past' which is present in the explanation and examples.",
-      "suggestion": "Add a temporal aspect to the sense gloss, e.g., 'far, distant; long ago'."
-    }
-  ]
+  "issues": []
 }

@@ -1645,3 +1645,33 @@ fourth filing of the standing structural fact).)_
   register parenthetical in the gloss, so this is house practice, not an error. The
   newentries.md rule banning "register notes" in glosses conflicts with that practice and
   should be reconciled one way or the other.
+
+## 2026-08-29 (routine polish, 00510–03095 priority lane + 07043–07050 frontier)
+
+- [pattern] 50 entries wrap katakana inside furigana braces — `{サッカー|さっかー}`,
+  `{コース|こーす}`, `{ルール|るーる}` and about 60 more instances. Katakana never needs
+  furigana, so the wrapper is always wrong and the fix is always the same (drop the braces
+  and the reading, keep the katakana). Detectable with
+  `grep -roh "{[ァ-ヶー]\+|[ぁ-ゖー]\+}" entries/`. This is a good mechanical
+  systemic-fix batch: the transformation provably cannot change meaning. Fixed one instance
+  in 03095 by hand this run.
+- [pattern] The 07000-block entries created in the January 2026 batch (07043–07050 at least)
+  have **zero** inline link coverage in examples and notes, and most carry a sole `general`
+  semantic tag. The comprehensive frontier is now inside that block, so the next several
+  polish runs will be link-heavy — roughly 25–40 links per entry — and should budget about
+  6–8 frontier entries per run rather than 15–20.
+- [tooling] `build/check_artifacts.py` reports 44 cross-references with no `target_id` across
+  40 entries, and `build/validate.py` reports them only as a *note*, not an error, so they
+  pass CI silently and render as dead cross-reference rows. 07048 had one
+  (`{一泊|いっぱく}{二食付|にしょくつ}き`, a word with no entry). Worth either promoting to a
+  validation error or making it a systemic-fix backlog item: for each, either point it at a
+  real entry or drop the row and add the word as a candidate.
+- [entry] 00959 kiiroi claimed that "many color words function as na-adjectives (like 緑)".
+  That is wrong — 緑 is a noun in this dictionary and everywhere else, and Japanese colour
+  words are nouns used with の, not na-adjectives. Fixed here, but the same claim may have
+  been copied into other colour entries from the same batch; worth a targeted grep for
+  "na-adjective" in colour entries.
+- [entry] 00529 tooi documented `{目|め}が{遠|とお}い` as "farsighted; hard of hearing".
+  The real idiom is `{耳|みみ}が{遠|とお}い` (hard of hearing); 目が遠い is not standard.
+  Fixed. Idiom lines in FORMS/EXPRESSIONS blocks of basic-tier entries are worth a
+  dedicated accuracy-review dimension — they are invented more often than glosses are.

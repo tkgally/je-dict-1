@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07049_renpaku_ex1",
-      "japanese": "{連泊|れんぱく}すると{割引|わりびき}がある。",
+      "japanese": "{連泊|れんぱく}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧⟦{割引|わりびき}→割引：01526_waribiki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a discount if you stay multiple nights.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07049_renpaku_ex2",
-      "japanese": "3{泊|はく}{連泊|れんぱく}で{予約|よやく}した。",
+      "japanese": "3{泊|はく}{連泊|れんぱく}⟦で→で：00502_de⟧⟦{予約|よやく}した→予約する：22989_yoyakusuru⟧。",
       "english": "I made a reservation for three consecutive nights.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07049_renpaku_ex3",
-      "japanese": "{連泊|れんぱく}の{場合|ばあい}、{部屋|へや}の{清掃|せいそう}はどうなりますか。",
+      "japanese": "{連泊|れんぱく}⟦の→の：09472_no⟧⟦{場合|ばあい}→場合：01704_baai⟧、⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧⟦{清掃|せいそう}→清掃：04332_seisou⟧⟦は→は：00079_ha⟧⟦どう→どう：00543_dou⟧⟦なります→なる：01970_naru⟧⟦か→か：09473_ka⟧。",
       "english": "In the case of consecutive nights, what about room cleaning?",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{連|れん} (consecutive/continuous) + {泊|ぱく} (overnight stay)\n\nVERB FORM:\n{連泊|れんぱく}する - to stay consecutive nights\n\nCOLLOCATIONS:\n・{連泊|れんぱく}{割引|わりびき} - consecutive nights discount\n・{連泊|れんぱく}プラン - multi-night plan\n・〜{泊|はく}{連泊|れんぱく} - staying ~ consecutive nights\n\nRELATED TERMS:\n・{一泊|いっぱく} - one night stay\n・{二泊|にはく} - two nights stay\n・{延泊|えんぱく} - extending one's stay\n\nUSAGE NOTE:\nMany hotels and inns offer {連泊|れんぱく}{割引|わりびき} (multi-night discounts), making longer stays more economical.",
-  "cross_references": [],
+  "notes": "FORMATION:\n{連|れん} (consecutive, in a row) + {泊|ぱく} (an overnight stay; the counter for nights)\n\nVERB FORM:\n{連泊|れんぱく}⟦する→する：00392_suru⟧ - to stay several nights in a row\n\nCOLLOCATIONS:\n・{連泊|れんぱく}⟦{割引|わりびき}→割引：01526_waribiki⟧ - multi-night discount\n・{連泊|れんぱく}⟦プラン→プラン：00345_puran⟧ - multi-night plan\n・〜{泊|はく}{連泊|れんぱく} - staying ~ consecutive nights\n\nRELATED TERMS:\n・⟦{一泊|いっぱく}→一泊：08892_ippaku⟧ - a one-night stay\n・⟦{二泊|にはく}→二泊：noentry⟧ - a two-night stay\n・⟦{延泊|えんぱく}→延泊：noentry⟧ - extending a stay by an extra night\n\nUSAGE NOTE:\nMany hotels and inns offer a {連泊|れんぱく}{割引|わりびき}, so booking several nights at once is often cheaper per night than booking them separately.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08892_ippaku",
+      "reading": "いっぱく",
+      "headword": "{一泊|いっぱく}",
+      "label": "one-night stay"
+    },
+    {
+      "type": "related",
+      "target_id": "07048_sudomari",
+      "reading": "すどまり",
+      "headword": "{素泊|すど}まり",
+      "label": "room only, no meals"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-06-16T12:23:55Z",
+    "modified": "2026-08-29T00:26:21Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +72,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "travel",
+        "time-period"
       ]
     }
   }

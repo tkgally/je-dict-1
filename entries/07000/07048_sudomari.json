@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07048_sudomari_ex1",
-      "japanese": "{素泊|すど}まりプランは{安|やす}い。",
+      "japanese": "{素泊|すど}まり⟦プラン→プラン：00345_puran⟧⟦は→は：00079_ha⟧⟦{安|やす}い→安い：00464_yasui⟧。",
       "english": "The room-only plan is cheap.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07048_sudomari_ex2",
-      "japanese": "{食事|しょくじ}は{外|そと}で{食|た}べるので、{素泊|すど}まりにした。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦は→は：00079_ha⟧⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧⟦{食|た}べる→食べる：00396_taberu⟧⟦ので→ので：09501_node⟧、{素泊|すど}まり⟦に→に：00314_ni⟧⟦した→する：00392_suru⟧。",
       "english": "Since I'll eat out, I chose room-only lodging.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07048_sudomari_ex3",
-      "japanese": "{素泊|すど}まり{一泊|いっぱく}5000{円|えん}。",
+      "japanese": "{素泊|すど}まり⟦{一泊|いっぱく}→一泊：08892_ippaku⟧5000⟦{円|えん}→円：00774_en⟧。",
       "english": "Room-only rate is 5000 yen per night.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,33 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{素|す} (plain/bare) + {泊|と}まり (staying)\n\nACCOMMODATION OPTIONS:\n・{素泊|すど}まり - room only (no meals)\n・{朝食付|ちょうしょくつ}き - with breakfast\n・{夕食付|ゆうしょくつ}き - with dinner\n・{一泊|いっぱく}{二食付|にしょくつ}き - one night with two meals\n・{二食付|にしょくつ}き - with two meals (dinner and breakfast)\n\nCOLLOCATIONS:\n・{素泊|すど}まりプラン - room-only plan\n・{素泊|すど}まり{料金|りょうきん} - room-only rate\n・{素泊|すど}まりで{泊|と}まる - to stay room-only\n\nUSAGE NOTE:\nCommon when booking ryokan (Japanese inns) or minshuku (guesthouses), where meals are traditionally included in the standard rate.",
+  "notes": "FORMATION:\n{素|す} (plain, bare — a prefix meaning \"nothing added\") + ⟦{泊|と}まり→泊まり：22935_tomari⟧ (an overnight stay)\n\nACCOMMODATION OPTIONS:\n・{素泊|すど}まり - room only (no meals)\n・⟦{朝食付|ちょうしょくつ}き→朝食付き：07826_choushokutsuki⟧ - with breakfast\n・⟦{夕食付|ゆうしょくつ}き→夕食付き：noentry⟧ - with dinner\n・⟦{一泊二食付|いっぱくにしょくつ}き→一泊二食付き：noentry⟧ - one night with two meals (dinner and breakfast)\n\nCOLLOCATIONS:\n・{素泊|すど}まり⟦プラン→プラン：00345_puran⟧ - room-only plan\n・{素泊|すど}まり⟦{料金|りょうきん}→料金：03797_ryoukin⟧ - room-only rate\n・{素泊|すど}まり⟦で→で：00502_de⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧ - to stay on a room-only basis\n\nUSAGE NOTE:\nThis word comes up when booking a ryokan (a Japanese inn) or a minshuku (a family-run guesthouse), where meals are traditionally included in the standard rate, so the room-only option has to be named explicitly.",
   "cross_references": [
     {
       "type": "contrast",
-      "reading": "いっぱくにしょくつき",
-      "headword": "{一泊|いっぱく}{二食付|にしょくつ}き",
-      "label": "with two meals"
+      "target_id": "07826_choushokutsuki",
+      "reading": "ちょうしょくつき",
+      "headword": "{朝食付|ちょうしょくつ}き",
+      "label": "with breakfast included"
+    },
+    {
+      "type": "related",
+      "target_id": "22935_tomari",
+      "reading": "とまり",
+      "headword": "{泊|とま}まり",
+      "label": "overnight stay"
+    },
+    {
+      "type": "related",
+      "target_id": "07049_renpaku",
+      "reading": "れんぱく",
+      "headword": "{連泊|れんぱく}",
+      "label": "consecutive-night stay"
     }
   ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-08-29T00:26:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
