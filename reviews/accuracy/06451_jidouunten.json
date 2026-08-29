@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-11T15:29:44Z",
+  "reviewed_at": "2026-08-29T12:19:53Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific technology. 'Technology' is a more appropriate tag.",
+      "suggestion": "technology"
+    }
+  ]
 }

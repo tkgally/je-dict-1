@@ -1675,3 +1675,18 @@ fourth filing of the standing structural fact).)_
   The real idiom is `{耳|みみ}が{遠|とお}い` (hard of hearing); 目が遠い is not standard.
   Fixed. Idiom lines in FORMS/EXPRESSIONS blocks of basic-tier entries are worth a
   dedicated accuracy-review dimension — they are invented more often than glosses are.
+- [tooling] Fifth firing of the `ロック` -> `08116_rokku` ("rock (music)") stale-`noentry`
+  false positive, this time at 06464 (`二重のロック`, a door lock). The 2026-08-25 refinement
+  still holds: 08116's own notes say outright that "ロック as 'lock' is a different word with
+  the same reading", and the marker's base form *is* ロック, so a demotion rule keyed on the
+  target entry naming the marker's own base would have caught it. This one target alone now
+  accounts for four of the sweep's rejections (04562, 05762, 05909, 06464) — a hard-coded
+  denylist for that single pair would pay for itself before the detector class ships.
+- [pattern] New stale-`noentry` false-positive shape at 06574: `コーラスパート` ("chorus part")
+  resolving to `03106_paato`, whose entry covers only パート = part-time work and never
+  mentions the section/voice-part sense. Unlike the ロック family, the target entry makes no
+  self-declaration, so no notes-scanning rule can see it — the tell is that the entry's
+  glosses and every collocation belong to one sense while the marker's context belongs to
+  another. Worth adding to the wiki's inline-link-integrity page as the "target entry silently
+  covers a different sense" family, distinct from both the self-declaring homophone family and
+  the 2026-08-11 proper-name family.

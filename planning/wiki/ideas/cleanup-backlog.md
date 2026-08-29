@@ -2573,6 +2573,48 @@ entirely kana. (Related to the 2026-06-17 no-pipe brace sub-pattern under P9.)
 Running false-positive rate across the 1,426 hand-verified short-base pairs (2026-08-09 through
 2026-08-25): **~0.4%**.
 
+**2026-08-29 systemic-fix run** — ninth per-entry short-base batch. 177 A1/A2 pairs (203
+instances) across 123 entries, entries 06389-06810, each judged against a ±70-character context
+window around the marker. **Two rejections, both polysemous katakana loanwords:**
+
+- 06464's `二重のロック` (a door's double lock) → `08116_rokku`, *rock (music)*. This is the
+  **fifth** firing of this single target, after 04562, 05762, 05909 and the original 2026-08-08
+  フライ/パン pair. The 2026-08-25 refined rule still catches it — 08116's own notes state that
+  "ロック as 'lock' is a different word with the same reading", and the declaration names the
+  marker's own base form — so the case for shipping that detector class keeps strengthening. In
+  the meantime a one-line denylist for `ロック → 08116_rokku` would have saved four adjudications.
+- 06574's `コーラスパート` (chorus part, i.e. backup vocals) → `03106_paato`, whose entry covers
+  **only** パート = part-time work. This is a **new false-positive family**: *the target entry
+  silently covers a different sense*. It is not the self-declaring homophone family (03106 makes
+  no disambiguating statement at all) and not the 2026-08-11 proper-name family (the readings and
+  the lexeme agree). No notes-scanning rule can see it; the only tell is that the target's glosses
+  and every collocation it lists belong to one sense while the marker's context belongs to
+  another. Reading the context remains irreplaceable.
+
+Families verified as groups in this band: reference-apparatus terms (頭注/傍注/巻末注/後注 →
+2971x), building and infrastructure vocabulary (内壁/遮熱/単管/容積率/揚水/配電), baseball
+statistics and roles (打数/奪三振/中継ぎ/抑え/好打者/四番), swimming technique (蛙足/プル/バタ足/
+入水), janken hands (グー/チョキ/パー → 29915-29917, plus 後出し), legal-code lists (商法/訴訟法/
+判例/法体系), body and medical terms (上腕/前腕/熱性/留置場), emotion nominalizations (悲しさ/
+嬉しさ ← 悲しい/嬉しい), and place and proper names used as themselves (長崎, 成田, カナダ,
+甲子園, 夏目漱石). Marginal applies resolved by opening the target entry rather than trusting its
+gloss (the 2026-08-14 rule): 06783's `一部始終` → `04192_shijuu`, glossed as the adverb
+"constantly" but whose notes carry an explicit second usage, "Noun: the whole story/sequence";
+06450's `終活` decomposition → `29777_shuumatsu`; and 06798's `デジタル化` → `28335_ka`, the
+bare-kanji-surface/tilde-base suffix precedent.
+
+Running false-positive rate across the 1,603 hand-verified short-base pairs (2026-08-09 through
+2026-08-29): **~0.4%**.
+
+**The leak is now visible in the residue.** After this band, 123 mechanical pairs remain — but
+41 of them sit *below* 06811, in territory already swept. About ten are the accumulated
+deliberate rejections; the other ~31 are **new arrivals**, created by later `new-entries` runs
+adding the target entry beneath a marker written months earlier (00622 名様, the 00658 counter
+words, 01510 北極星, 02273 映画祭, and a run of place names). This is exactly the regrowth this
+priority predicted from the start, and it is the standing argument for Tooling 19's
+`manage_candidates.py` sync hook. The next sweep should be a low-ID catch-up band from 00007
+rather than a continuation above 06810.
+
 
 ## Priority 36: Headwords written as bare kanji with no furigana braces (248 entries)
 

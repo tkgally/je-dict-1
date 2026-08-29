@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-09T18:28:13Z",
+  "reviewed_at": "2026-08-29T12:19:50Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for a specific body part.",
+      "concern": "The tag 'general' is too broad for a specific body part.",
       "suggestion": "body-part"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for an everyday body part term.",
-      "suggestion": "neutral"
     }
   ]
 }

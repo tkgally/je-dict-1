@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-17T15:30:17Z",
+  "reviewed_at": "2026-08-29T12:20:25Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '天狗' refers to a mythical creature, which is a type of 'person' or 'being', not a 'culture'. While tengu are part of Japanese culture, the word itself denotes the creature.",
+      "suggestion": "Replace 'culture' with 'person'."
+    }
+  ]
 }

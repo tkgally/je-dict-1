@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T00:27:33Z",
+  "reviewed_at": "2026-08-29T12:21:27Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'departure' is misleading as it implies a general leaving, whereas 退去 specifically refers to leaving a place of residence or being forced to leave a place.",
+      "suggestion": "Remove 'departure' from the main gloss."
+    }
+  ]
 }
