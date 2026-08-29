@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-13T18:29:27Z",
+  "reviewed_at": "2026-08-29T12:20:13Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.formality",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The formality tag 'informal' is incorrect for 'プロフィール'.",
-      "suggestion": "Change 'informal' to 'neutral'."
+      "concern": "The headword 'プロフィール' can refer to a side view outline of someone's face, which is an 'appearance' related concept, not just 'communication'.",
+      "suggestion": "Add 'appearance' to semantic tags."
     }
   ]
 }

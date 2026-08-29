@@ -8,24 +8,38 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-04T09:26:37Z",
+  "reviewed_at": "2026-08-29T12:21:39Z",
   "summary": {
-    "flagged": 2
+    "flagged": 4
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss 'ice cream; iced' is misleading because 'iced' is an adjective, not a noun, and 'アイス' as a standalone noun can mean 'ice' (as in frozen water), not just 'ice cream'.",
-      "suggestion": "Change gloss to 'ice cream; ice; iced'"
+      "concern": "The main gloss 'ice cream; iced' is misleading because 'iced' is an adjective, but アイス is a noun. It should reflect the noun usage of 'ice' (as in 'ice for drinks') or 'iced drink'.",
+      "suggestion": "ice cream; ice (for drinks); iced drink"
     },
     {
       "dimension": "gloss",
       "location": "definitions[2].gloss",
       "severity": "error",
-      "concern": "The gloss 'ice; iced (as in iced coffee)' is misleading because 'iced' is an adjective, not a noun. 'アイス' can mean 'ice' (frozen water) as a noun, but the gloss implies it's only 'iced' when used in compounds.",
-      "suggestion": "Change gloss to 'ice; iced (as in iced coffee)'"
+      "concern": "The gloss 'ice; iced (as in iced coffee)' is misleading because 'iced' is an adjective, but アイス is a noun. It should reflect the noun usage of 'ice' (as in 'ice for drinks') or 'iced drink'.",
+      "suggestion": "ice (for drinks); iced drink"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[7]",
+      "severity": "error",
+      "concern": "The translation 'let's go with iced drinks' is too specific. アイス here refers to ordering something iced, not necessarily multiple drinks.",
+      "suggestion": "It's hot today, so let's get something iced."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[9]",
+      "severity": "error",
+      "concern": "The translation 'I always order iced' is too abrupt and unnatural. It should specify 'iced drinks' or 'something iced'.",
+      "suggestion": "In summer I always order iced drinks, but when winter comes I want something hot."
     }
   ]
 }

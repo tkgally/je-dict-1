@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-12T00:30:16Z",
+  "reviewed_at": "2026-08-29T12:19:56Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'informal' is incorrect for '役所'. It is a neutral term.",
-      "suggestion": "neutral"
-    },
-    {
-      "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for '役所'. A more specific tag is available.",
-      "suggestion": "society"
+      "concern": "The tag 'general' is too vague for a specific type of building/organization.",
+      "suggestion": "organization-name"
     }
   ]
 }
