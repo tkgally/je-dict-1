@@ -1722,3 +1722,28 @@ fourth filing of the standing structural fact).)_
   alone. A shop is a business first and a structure second, so `shopping` should be present
   on all of them. Fixed 14436 in this run; 00497 店 and 29495 散髪屋 are the same shape and
   the whole `building`-only set would make a clean, bounded systemic-fix batch.
+- [pattern] Note-quality scores in the low 40s–60s are very often caused by a missing
+  *required section header*, not thin content. Of the seven priority-lane entries in this
+  run, six scored 45–62 while already carrying substantive material — what they lacked was
+  the `usage` header for adjectives/na-adjectives, `functions` for particles, or
+  `transitivity` + `common patterns` for verbs, as defined in `build/note_templates.json`.
+  Rewriting the existing material under the expected headers (and adding the one thing the
+  header actually calls for) took scores to 87–100. The priority `notes.txt` ranking is
+  therefore, in practice, a *structure* backlog as much as a content backlog. Two consequences:
+  the polish lane is cheaper per entry than the raw scores suggest, and a `systemic-fix` item
+  that reports entries whose notes are long but missing their POS's required section would
+  isolate this class precisely.
+- [tooling] `build/word_id_lookup.json`'s `by_reading` map returns a *list* of homographs, and
+  any helper that truncates it (e.g. showing only the first three) can hide a real entry and
+  produce a wrong `noentry` marker. That happened once in this run: よう returned
+  よう/〜用/要 in the first three slots, so 酔う (14437) was missed and example 3 of 07051 was
+  briefly marked `noentry` before `check_duplicate.py` caught it. Any inline-link workflow
+  should either print all homographs or check `manage_candidates.py add` /
+  `check_duplicate.py` before writing a `noentry` marker — the candidate-add refusal is what
+  surfaced the error here, which argues for making that check the standard last step rather
+  than an accident.
+- [entry] The 2026-01 legacy block continues at 07051+: entries created then have **no inline
+  word links at all** and use the ALL-CAPS template with `・` bullets instead of the house
+  `- ` bullets. 07051–07058 were converted in this run. The same shape should be expected for
+  the rest of the 07000 range, so future `polish` runs over this block should budget for a
+  full link pass plus a notes rewrite on every entry rather than spot fixes.

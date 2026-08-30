@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-25T09:26:01Z",
+  "reviewed_at": "2026-08-30T12:29:39Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "semantic_tags",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword '高い' has multiple meanings beyond just 'size'. It also refers to cost and level/degree, which are not covered by 'size'.",
-      "suggestion": "Add 'money' and 'descriptive' to the semantic tags."
+      "concern": "The semantic tag 'size' is too narrow for the headword's meaning, which also includes 'high (in level/degree)' as per sense 3.",
+      "suggestion": "Add 'quantity' or 'descriptive' to better cover the 'level/degree' aspect."
     }
   ]
 }
