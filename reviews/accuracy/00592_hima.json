@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-25T03:55:16Z",
+  "reviewed_at": "2026-08-30T12:29:41Z",
   "summary": {
     "flagged": 1
   },
@@ -17,7 +17,7 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword '暇' (hima) is primarily a noun meaning 'free time' or 'leisure', and can also function as a na-adjective (暇な) meaning 'free' or 'idle'. The tag 'descriptive' is too broad and doesn't capture its core meaning as a noun related to time or a state of being free. 'Time-general' or 'existence' would be more appropriate for its noun sense, and 'descriptive' for its adjectival use. However, since it's listed as 'adjective-na' in the 'pos' field, 'descriptive' is plausible for the adjectival usage, but the primary glosses 'free time, not busy' lean heavily on the noun and adjectival senses respectively. Given the glosses, 'time-general' would be a better fit for the 'free time' aspect, and 'descriptive' for 'not busy'. Since only one tag is allowed, and the primary meaning is 'free time', 'time-general' is the most accurate.",
+      "concern": "The headword '暇' (hima) primarily refers to 'free time' or 'leisure', which is a concept related to time, not merely a descriptive quality. While it can describe a state of being 'free' or 'idle', its core meaning is about the availability of time.",
       "suggestion": "time-general"
     }
   ]

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07055_kabi_ex1",
-      "japanese": "パンにカビが{生|は}えた。",
+      "japanese": "⟦パン→パン：00553_pan⟧⟦に→に：00314_ni⟧カビ⟦が→が：00051_ga⟧⟦{生|は}えた→生える：02392_haeru⟧。",
       "english": "Mold grew on the bread.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07055_kabi_ex2",
-      "japanese": "{浴室|よくしつ}のカビを{取|と}る。",
+      "japanese": "⟦{浴室|よくしつ}→浴室：05301_yokushitsu⟧⟦の→の：09472_no⟧カビ⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "I remove the mold in the bathroom.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07055_kabi_ex3",
-      "japanese": "{梅雨|つゆ}の{時期|じき}はカビが{発生|はっせい}しやすい。",
+      "japanese": "⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧カビ⟦が→が：00051_ga⟧⟦{発生|はっせい}→発生：03133_hassei⟧⟦し→する：00392_suru⟧⟦やすい→〜やすい：18367_yasui⟧。",
       "english": "Mold tends to grow during the rainy season.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "WRITING:\nUsually written in katakana (カビ), but can also be written as {黴|かび}.\n\nVERB PATTERNS:\n・カビが{生|は}える - mold grows\n・カビが{発生|はっせい}する - mold occurs\n・カビを{取|と}る - to remove mold\n・カビが{付|つ}く - mold forms (on something)\n\nTYPES:\n・{黒|くろ}カビ - black mold\n・{白|しろ}カビ - white mold\n・{青|あお}カビ - blue mold (including penicillium)\n\nCOLLOCATIONS:\n・カビ{臭|くさ}い - moldy, musty (smell)\n・カビ{防止|ぼうし} - mold prevention\n・カビ{取|と}り - mold removal\n・カビ{取|と}り{剤|ざい} - mold remover\n\nCULTURAL NOTE:\nJapan's humid climate, especially during {梅雨|つゆ} (rainy season), makes mold prevention a common household concern.",
+  "notes": "カビ is the fungus that appears as fuzzy patches on damp food, walls, and fabric. Normally written in katakana; the kanji {黴|かび} exists but is rare.\n\nVERB PATTERNS:\n- カビ⟦が→が：00051_ga⟧⟦{生|は}える→生える：02392_haeru⟧: mould grows (the everyday phrase)\n- カビ⟦が→が：00051_ga⟧⟦{発生|はっせい}→発生：03133_hassei⟧⟦する→する：00392_suru⟧: mould develops (more formal, used in notices)\n- カビ⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to remove mould\n\nCOLLOCATIONS:\n- ⟦{黒|くろ}→黒：02205_kuro⟧カビ, ⟦{青|あお}→青：02841_ao⟧カビ: black mould, blue mould\n- カビ⟦{臭|くさ}い→臭い：01133_kusai⟧: musty, smelling of mould\n- カビ⟦{取|と}り→取る：00565_toru⟧⟦{剤|ざい}→剤：noentry⟧: mould remover (a supermarket staple)\n\nCULTURAL NOTE:\nJapan's summer is humid, and the ⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧ (rainy season) in particular makes mould a routine household worry. Airing rooms, running ⟦{換気|かんき}→換気：00172_kanki⟧ fans in the ⟦{浴室|よくしつ}→浴室：05301_yokushitsu⟧, and using moisture absorbers are ordinary parts of the domestic calendar rather than emergency measures.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-08-30T12:18:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +57,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "plant-general"
+        "nature",
+        "daily-life"
       ]
     }
   }
