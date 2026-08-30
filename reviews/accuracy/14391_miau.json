@@ -8,24 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:21:38Z",
+  "reviewed_at": "2026-08-30T00:19:42Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "error",
-      "concern": "The tag 'relation' is not in the valid tag list.",
-      "suggestion": "Replace 'relation' with a valid tag. 'general' or 'descriptive' might be appropriate given the glosses."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "error",
-      "concern": "The translation 'ally' for 味方 is incorrect in this context. 味方 means 'friend' or 'supporter', not 'ally' in a military sense when contrasted with 'enemy'.",
-      "suggestion": "Change 'ally' to 'friend' or 'comrade'."
-    }
-  ]
+  "issues": []
 }

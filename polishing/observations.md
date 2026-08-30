@@ -1690,3 +1690,35 @@ fourth filing of the standing structural fact).)_
   another. Worth adding to the wiki's inline-link-integrity page as the "target entry silently
   covers a different sense" family, distinct from both the self-declaring homophone family and
   the 2026-08-11 proper-name family.
+- [tooling] The `accuracy-review` deep furigana pass (`review_runner.py --pass deep`,
+  models openai/gpt-4.1 + google/gemini-2.5-pro) is unusable inside a Routine run in the
+  scheduled environment: on 2026-08-30 it completed **one** entry in ~15 minutes, so the
+  62 screening-flagged entries in 14330–14930 would have taken ~8 hours. The screening pass
+  and `review_accuracy.py` (google/gemini-2.5-flash) both run at ~6 entries/minute in the
+  same session, so the bottleneck is the 2.5-pro leg, not the network. Either swap the deep
+  pass's second model for a faster one, add a per-entry wall-clock timeout that drops to a
+  single model, or accept that the deep pass is a curator-run tool and let the Routine use
+  §A's known-noise shortcut by default.
+- [tooling] Stored `reviews/accuracy/*.json` go stale silently and adjudicating from them
+  wastes a run. In 14330–14630 the on-disk artifacts (2026-07-13) carried 14 "semantic tag
+  is not in the valid tag list" flags, every one of which had already been migrated — a
+  direct check against `VALID_SEMANTIC` found **zero** off-vocabulary semantic tags left in
+  that range. The artifacts have no "entry modified since review" marker, so nothing in the
+  file says it is obsolete. Either stamp each review with the entry's `modified` timestamp
+  and have the Routine skip artifacts older than it, or treat re-running as mandatory (as
+  this run did). Re-running is cheap: 236 entries cost ~$0.10.
+- [pattern] The semantic tag `existence` keeps drawing reviewer flags on stative and
+  intransitive verbs (14449 連なる, and in the older artifacts 14468 釣り合う, 14625 飢える,
+  14612 青ざめる, 14370 逝去) — but the replacements the reviewer proposes (`movement`,
+  `health`, `action`) are no better, so every one adjudicates as a reject. The real issue is
+  that `existence` has no documented denotation, so it has become the default for "verb that
+  describes a state rather than an act". Worth a taxonomy decision on the
+  schema-tag-reliability page: either define `existence` narrowly (be/exist/remain) and
+  migrate the stative-verb residue to `descriptive`, or accept it and add the definition to
+  the reviewer prompt so it stops flagging.
+- [pattern] Shop nouns are tagged inconsistently: `酒屋` (14436) carried only `building`,
+  while peers such as 弁当屋 (28445) and 総菜屋 (21648) use `shopping` (+ a domain tag) and
+  百貨店 (18639) uses `building` + `shopping`. Fifteen shop entries are tagged `building`
+  alone. A shop is a business first and a structure second, so `shopping` should be present
+  on all of them. Fixed 14436 in this run; 00497 店 and 29495 散髪屋 are the same shape and
+  the whole `building`-only set would make a clean, bounded systemic-fix batch.

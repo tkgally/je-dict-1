@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:22:56Z",
+  "reviewed_at": "2026-08-30T00:20:43Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is too broad and doesn't accurately describe '邦楽' (Japanese music).",
+      "suggestion": "music"
+    }
+  ]
 }

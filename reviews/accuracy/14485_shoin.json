@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:23:31Z",
+  "reviewed_at": "2026-08-30T00:21:08Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '署員' is not formal. It is a neutral term for 'station staff' or 'bureau employee'.",
+      "suggestion": "neutral"
+    }
+  ]
 }

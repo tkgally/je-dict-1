@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:26:21Z",
+  "reviewed_at": "2026-08-30T00:23:30Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'someone to rely on' which is a different sense of the word, not 'reliance' or 'dependence'.",
+      "suggestion": "reliance; dependence"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'someone or something to count on' which is a different sense of the word, not 'reliance' or 'dependence'.",
+      "suggestion": "reliance; dependence"
+    }
+  ]
 }

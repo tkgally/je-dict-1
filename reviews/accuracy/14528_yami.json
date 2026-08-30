@@ -8,24 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:24:23Z",
+  "reviewed_at": "2026-08-30T00:21:53Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The gloss 'illicit' is an adjective, but the headword '闇' is a noun. While '闇' can be used to form compound nouns that mean 'illicit X', 'illicit' itself is not a direct gloss for the noun '闇'.",
-      "suggestion": "Remove 'illicit' from the main gloss."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'general' is too broad for a word that specifically refers to 'darkness' and 'black market/illicit dealings'. More specific tags are available.",
-      "suggestion": "Replace 'general' with 'nature' (for darkness) and 'society' or 'economics' (for black market/illicit dealings). Since it has two distinct senses, it should have tags that cover both. 'nature' and 'society' would be appropriate."
-    }
-  ]
+  "issues": []
 }
