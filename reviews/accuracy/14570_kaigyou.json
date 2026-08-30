@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:25:09Z",
+  "reviewed_at": "2026-08-30T00:22:33Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation for example 2 uses 'began operating' which is too broad. '開業' in this context specifically means 'opened for service' or 'commenced operations' for a railway, implying it started carrying passengers.",
+      "suggestion": "This railway opened for service in 1920 and is still used by many people today."
+    }
+  ]
 }

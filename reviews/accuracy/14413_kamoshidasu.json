@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:22:03Z",
+  "reviewed_at": "2026-08-30T00:20:02Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation implies a deliberate action, which contradicts the explanation of the headword.",
+      "suggestion": "By dimming the lights and playing quiet music, a relaxed atmosphere was created."
+    }
+  ]
 }

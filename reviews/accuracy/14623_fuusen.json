@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:26:08Z",
+  "reviewed_at": "2026-08-30T00:23:19Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for '風船' (balloon).",
+      "suggestion": "Replace 'general' with 'daily-life'."
+    }
+  ]
 }

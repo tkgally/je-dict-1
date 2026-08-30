@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:24:28Z",
+  "reviewed_at": "2026-08-30T00:22:00Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword can refer to the act of retiring, not just a person. 'action' is missing.",
+      "suggestion": "Add 'action' to semantic_tags."
+    }
+  ]
 }

@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:26:15Z",
+  "reviewed_at": "2026-08-30T00:23:24Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '風土' encompasses both geographical and cultural aspects, but the semantic tag 'geography' only covers one part of its meaning. The gloss and definitions clearly show it refers to 'climate and culture' and 'local character' beyond just physical geography.",
+      "suggestion": "Add 'culture' to the semantic tags."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The translation 'within a climate of four distinct seasons' misrepresents the Japanese. '四季のある風土' refers to the natural features/environment (風土) that *has* four seasons, not a 'climate of four distinct seasons'. The nuance is that the *environment itself* has these seasons, which then nurtured the food culture.",
+      "suggestion": "Change to 'Japan's food culture has been nurtured within an environment that has four distinct seasons.'"
+    }
+  ]
 }
