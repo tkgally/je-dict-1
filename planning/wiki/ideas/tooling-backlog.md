@@ -5801,6 +5801,194 @@ thing on this page.
   to run `--write-unknown-baseline` after a migration pass; this is an adherence gap, not a
   missing tool.
 
+## Updates 2026-08-31 (wiki harvest)
+
+### 140. `score_note_quality.py` does not recognise `COMMON COLLOCATIONS` as a patterns section — 5,748 entries penalised, and it is what the notes priority list is mostly ranking
+
+A 2026-08-29 polish run reported that low note scores in the 40s–60s "are very often caused by a
+missing *required section header*, not thin content", from seven priority-lane entries. Measured
+dictionary-wide, the claim holds at a scale the run could not see, and the cause is one line of
+the scorer.
+
+**The population.** 9,067 entries have a POS whose `note_templates.json` entry declares required
+sections. **5,748 of them (63%) carry substantive notes — 250 characters or more — while missing
+at least one required section.** Only **2** entries in the whole dictionary are short *and*
+missing one, so this is not a thin-content class at all.
+
+| POS | Long notes missing a required section | Of scored | Rate |
+|---|---|---|---|
+| `verb-suru` | 2,965 | 3,715 | 79.8% |
+| `verb-godan` | 1,206 | 2,042 | 59.1% |
+| `adjective-na` | 774 | 1,621 | 47.7% |
+| `verb-ichidan` | 449 | 823 | 54.6% |
+| `adjective-i` | 214 | 468 | 45.7% |
+| `adjective-no` | 104 | 269 | 38.7% |
+| `particle` | 27 | 52 | 51.9% |
+
+**The cause.** `find_sections` matches `common patterns` through the variant list
+`[r'common pattern', r'patterns?:']`. **2,499 of the 2,965 verb-suru entries missing it (84%)
+write the section as `COMMON COLLOCATIONS:`** — which the same function happily matches to the
+*optional* section `collocations`, so the material is recognised, credited at optional weight,
+and then the required-section test fails on the name. Only 87 of the 2,965 have no ALL-CAPS
+header at all. The adjective-na half is the same shape: of the 774 missing `usage`, the headings
+actually present are `COMMON COLLOCATIONS` (487), `SIMILAR WORDS` (401), `FORMS` (223) and
+`COMMON PATTERNS` (124).
+
+**What it costs.** Required sections are worth 30 of the 100 points, and `verb-suru` declares
+exactly one required section — so every one of those 2,499 entries is capped at 70 for a heading
+name. That is enough to dominate the ranking: of the **worst-scoring 100 entries in
+`polishing/priority/notes.txt`, 76 are in this class**, against a dictionary-wide base rate of
+18.8% — a **4× enrichment**. The priority lane is, in its top stretch, ranking a vocabulary
+mismatch.
+
+**Two fixes, and they are not equivalent.** Adding `common collocation` to the `common patterns`
+variant list (and `collocations`/`forms` to `usage`) is one line and rescores thousands of
+entries at once. Renaming the headings in 2,499 entries is a large sweep that changes no
+content. The first is almost certainly right — the scorer's whole variant table exists to
+absorb exactly this kind of synonymy — but it silently moves thousands of entries up the
+ranking, so it is recorded here as a curator call rather than applied by an unattended run.
+Whichever is chosen, **the notes priority list should not be trusted for lane planning until it
+lands**: it is currently measuring heading vocabulary as much as note quality.
+
+### 141. The deep furigana pass cannot run inside a Routine — `gemini-2.5-pro` is the whole cost
+
+A 2026-08-30 accuracy-review run reported that `review_runner.py --pass deep` completed **one
+entry in ~15 minutes** in the scheduled environment, which puts the 62 screening-flagged entries
+in 14330–14930 at roughly eight hours. The same session ran the screening pass and
+`review_accuracy.py` at ~6 entries/minute, so this is not the network.
+
+The source agrees with the report: `SCREENING_MODEL = "google/gemini-2.5-flash"` but
+`DEEP_MODELS = ["openai/gpt-4.1", "google/gemini-2.5-pro"]` (`review_runner.py:50–52`), and
+`RATE_LIMIT_INTERVAL = 6.0` is per model, so rate limiting accounts for at most ~12 s of the 15
+minutes. The remainder is 2.5-pro's own latency on a reasoning-heavy prompt.
+
+Three fixes, any one sufficient: swap the second deep model for a fast one; add a per-entry
+wall-clock timeout that drops to a single model; or accept the deep pass as a curator-run tool
+and let the Routine lean on §A's known-noise shortcut by default. The third is nearly the status
+quo already — the shortcut has skipped the deep pass on the last several accuracy-review runs
+because screening precision over polished ranges is 0–5%. **The operational point is that a
+Routine that does start the deep pass has no way to stop it**, which is how a run loses its
+context budget before the wrap-up.
+
+### 142. `reviews/accuracy/*.json` go stale silently, and adjudicating from them wastes a run
+
+Stored accuracy reviews carry no marker saying which version of the entry they describe. The
+2026-08-30 run adjudicated 14330–14630 from on-disk artifacts dated 2026-07-13 that carried 14
+"semantic tag is not in the valid tag list" flags — **every one already migrated**; a direct
+check against `VALID_SEMANTIC` found zero off-vocabulary semantic tags left in that range. Nothing
+in the file said so.
+
+The fix is small: stamp each review with the entry's `modified` timestamp at review time, and
+have the Routine skip any artifact older than the entry it describes. Re-running is cheap enough
+(~$0.10 for 236 entries) that "always re-run" is an acceptable interim rule, and is what that run
+ended up doing — but only after spending the analysis. This is the same defect shape as
+[137](#137-screening_statusjson-is-missing-12016-of-the-22991-screening-results-on-disk) and
+[138](#138-screenings-skips-are-silent-and-that-is-how-partial-passes-get-misread) in the
+screening half: the review artifacts on disk cannot say when they were true.
+
+### 143. Demote katakana base forms out of `check_stale_noentry.py`'s mechanical bucket — 22 of 123 pairs, and it removes every known false positive
+
+Two runs asked for a fix to the same recurring false positive from opposite ends. One proposed a
+hard-coded denylist for the ロック → `08116_rokku` pair after its **fifth** firing (04562, 05762,
+05909, 06464 — four of the sweep's rejections come from that one target). The other reported a
+new shape at 06574, where コーラスパート's パート resolves to `03106_paato`, an entry covering only
+パート = part-time work, and noted that because the target makes no self-declaration, **no
+notes-scanning rule can see it** — correctly ruling out the refinement filed as
+[134](#134-demote-same-reading-self-declared-homophones-out-of-check_stale_noentrypys-mechanical-bucket).
+
+Both are instances of one family — *the target entry silently covers a different sense of the
+same word* — and the family does have a machine-visible tell, just not in the target's notes.
+It is in the base form: **the word is a katakana loanword.** Of the detector's 123
+mechanical-bucket pairs, **22 have an entirely katakana base form**, and reading all 22 against
+their targets:
+
+| Verdict | Count | Examples |
+|---|---|---|
+| Target covers a **different sense** | 8 | ロック ×4 (lock → "rock (music)"), パート (voice part → "part-time work"), バー (scroll bar → "bar, drinking establishment"), コマ (comet's coma → "frame, panel"), フライ (baseball fly → "deep-fried food") |
+| Target is right | 14 | パン, コーンスープ, ポタージュ, アンティーク ×2, ドラマチック, オファー, クレカ, ラベンダー, セラミック, … |
+
+So the katakana subset is 18% of the bucket and holds **every instance of this family either
+filing run found, plus three neither had spotted**. The rule is one predicate — base form matches
+`^[ァ-ヶー]+$` → judgment queue, not mechanical — and it needs no per-target denylist, no notes
+scan and no new data. It costs 14 correct pairs a human glance and buys 8 mislinks that would
+otherwise be written automatically.
+
+The reason it works is a property of the dictionary rather than of the checker: a katakana entry
+here almost always documents **one** borrowed sense of a word that was borrowed more than once,
+so same-spelling-different-sense is the *normal* case for loanwords and the exceptional one for
+native vocabulary.
+
+### Update to item 112 (`check_duplicate.py`'s blind shapes) — a fourth: the bare suffix vs its tilde entry
+
+A 2026-08-28 new-entries run found three "seen in entry" candidates — 系/けい, 用/よう, 製/せい —
+that were bare-suffix duplicates of **existing** entries written with a leading tilde: 28466 〜系,
+09842 〜用, 02001 〜製. `check_duplicate.py` compares the surface as given, so `製` does not match
+`〜製`, and the candidate is accepted. The capture step in the polish lane is what produces them:
+it records a suffix as it appears in running text, without the tilde.
+
+This also **refutes the premise** of a 2026-08-27 polish observation that these product
+classifiers "have no entries and recur constantly" — they have entries; the links could not find
+them. Measured: **99 entries carry a tilde-form headword**, and **42 `noentry` markers in the
+corpus have a bare product-classifier base** (製/系/用/式/型/剤/器/機). Those 42 are the
+already-filed `noentry-affix-tilde-forms` item seen from the creation side rather than the link
+side, and one normalisation — try `〜X` before concluding a single-character base has no entry —
+serves `check_duplicate.py`, `manage_candidates.py add` and the inline-link workflow at once.
+
+### Update to item 123 (`verify_furigana.py`) — two more ways the same argument handling costs a round trip
+
+Independently reported by a 2026-08-27 polish run and a 2026-08-28 new-entries run:
+
+- It requires the full `07023_oseji` stem and answers a bare five-digit ID with
+  `WARNING: Entry not found: 07023`, while `find_missing_furigana.py` and
+  `check_furigana_format.py` key off the five-digit prefix — and CLAUDE.md documents the tool as
+  `verify_furigana.py <id>`, which reads as the numeric ID.
+- It resolves entries through `entries_index.json`, so it reports "Entry not found" for entries
+  created earlier in the same session, before `update_indexes.py` runs. The other two scan the
+  filesystem and work at that point.
+
+Both are the same fix as 123's: resolve the argument against the filesystem, and make the failure
+message name what was actually looked up. Until then the post-creation sequence in CLAUDE.md
+should say that `verify_furigana.py` is unusable before `update_indexes.py`.
+
+### Update to item 138 — the standing rule that follows from it
+
+138 asks screening to print a completed-ID manifest. Until it does, the operational rule any
+analysis step must follow is: **filter `reviews/screening/` by the per-file `screened_at`, never
+by which files exist.** Results are overwritten in place with no run marker, so a directory
+listing mixes this run's output with every previous run's. On 2026-08-28 that produced a wrong
+conclusion that survived into a merged PR and had to be retracted — 222 files were the run's and
+278 were three-week-old leftovers, and because the leftovers predate the `trim_context()` fix,
+their truncation family read as live evidence that the fix had failed. It had not: the same run's
+own 222 results contain **no** confabulated-truncation flags at all.
+
+### Update to items 111/118 — the `general`-is-too-broad family, measured a fourth time
+
+Over 13900–14399 the accuracy reviewer flagged 41 entries; **38 of the 41 flags were tag flags,
+and 37 of those 38 were in-list breadth substitutions** ("`general` is too vague, use X";
+"`food` is too narrow") that §A step 4 directs the adjudicator to reject on sight. Only **4** tag
+flags in the whole range were real category errors (純文学 tagged `education`, 老年 tagged
+`person`, 薪 tagged `tool`, one formality label the entry's own notes contradicted), and several
+suggestions named tags that are not in the vocabulary at all (`body-general`, `medical` as a
+semantic tag), so they could not have been applied as written. This is the fourth consecutive
+measurement of the same family at the same rate, and 127's runner-side post-filter against
+`VALID_SEMANTIC` would remove most of it before a human ever reads it.
+
+### Re-discoveries needing no new item (2026-08-31)
+
+- **`reviews/queue.txt` rose a fourth consecutive window** (10,755 → 10,788, +33 against 343
+  entries changed) — Tooling 94's `reviewed_at >= modified` predicate, unshipped; the standing
+  rule that the queue length should not be quoted in either direction still holds.
+- **The furigana screener yields nothing on polished ranges** — 7 of 222 flagged, all rejected,
+  every one in a documented false-positive family. Fourth consecutive window at 0–5%. Recorded
+  in Quality Metrics; the retirement case rests on opportunity cost, and item 141 above is the
+  sharper version of it.
+- **`word_id_lookup.json`'s `by_reading` returns a list of homographs**, so any helper that shows
+  only the first few can hide a real entry and produce a wrong `noentry` marker (よう returned
+  よう/〜用/要, hiding 酔う at 14437). The standing practice — run `check_duplicate.py` or attempt
+  `manage_candidates.py add` before writing a `noentry` marker — is what caught it, which is an
+  argument for making that check the documented last step rather than a lucky accident. Already
+  filed among the 2026-08-27 prompt recommendations.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address

@@ -1837,6 +1837,38 @@ The entry gave 「髪抜き」 as "tweezers". The word is **{毛抜|けぬ}き**
 2026-08-24 run corrected it and added 毛抜き as a candidate. No action needed — filed because an
 invented compound sitting inside a correct entry is a failure mode no current detector covers.
 
+## Filed 2026-08-31 (wiki harvest)
+
+### 28575 {式|しき} — the productive suffix sense is missing
+
+The entry is glossed only "formula; expression; equation; ceremony" and does not cover the
+suffix use that names a type or mechanism: スプレー{式|しき} "spray type", {置|お}き{型|がた} vs
+〜{式|しき}. Two household-product entries in the 07000 block (07036, 07037) had to mark their
+式 uses `noentry` rather than link them to a gloss that does not match, so this is costing live
+links, not just coverage. Add the suffix sense to 28575.
+
+### 00529 {遠|とお}い — an invented idiom, fixed, and the class it belongs to
+
+The entry's FORMS/EXPRESSIONS block gave `{目|め}が{遠|とお}い` as "farsighted; hard of hearing".
+The real idiom is `{耳|みみ}が{遠|とお}い` (hard of hearing); 目が遠い is not standard. Fixed by
+the 2026-08-29 run.
+
+Worth recording as a class rather than an entry: idiom lines inside FORMS/EXPRESSIONS blocks of
+basic-tier entries are **invented more often than glosses are**, and no review dimension looks at
+them — `review_accuracy.py` covers glosses, example translations and tags. The same run's 07010
+髪抜き / 毛抜き case (recorded above) is the same failure mode in a different field. A
+`set-phrases` dimension over notes-block idioms is the natural fix; recorded here rather than
+filed as tooling because two instances is not yet a measured population.
+
+### 13981 {義弟|ぎてい} — example 1 is grammatical but referentially unclear
+
+Example 1 reads {妻|つま}の{義弟|ぎてい}, which does not pick out a definite person: from the
+wife's own point of view her 義弟 is either the speaker's own younger brother or her younger
+sister's husband. The English translation was corrected on 2026-08-28 (it had rendered 義弟 as
+plain {弟|おとうと}, dropping "-in-law"); the Japanese sentence still wants rebuilding around the
+speaker's own 義弟. The entry's separate gloss question — whether "stepbrother" belongs as a
+co-equal gloss — is already with the curator.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

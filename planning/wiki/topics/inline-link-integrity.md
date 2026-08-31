@@ -490,6 +490,46 @@ swept once, not a new discovery, and its size after that sweep is the useful num
 curator judgment, and it is filed as
 [`inline-link-homophone-target`](../ideas/cleanup-backlog.md) at scope 23.
 
+### Shape 3 — the target entry silently covers a different sense (2026-08-31)
+
+Shapes 1 and 2 are both *wrong-word* errors: the base form and the target headword are different
+words that happen to share a reading. There is a third shape where the base form and the target
+headword are the **same word**, spelled identically, and the link is still wrong — because the
+target entry documents a different sense of it. `check_stale_noentry.py` promotes exactly these
+into its mechanical bucket, since every test it runs (base form has an entry, readings agree,
+spelling agrees) passes.
+
+Two runs found it from opposite ends and neither could see the other's case:
+
+- **The self-declaring half.** ロック → `08116_rokku` "rock (music)" has now fired **five** times
+  in lock contexts (04562 盗難, 05762 解除, 05909 認証, 06464 二重の) and is four of the whole
+  sweep's rejections. 08116's own notes say outright that "ロック as 'lock' is a different word
+  with the same reading", which is what
+  [Tooling 134](../ideas/tooling-backlog.md#134-demote-same-reading-self-declared-homophones-out-of-check_stale_noentrypys-mechanical-bucket)
+  proposed keying a demotion on.
+- **The silent half.** 06574's コーラスパート resolves パート to `03106_paato`, an entry covering
+  only パート = part-time work, which never mentions the section/voice-part sense. The target
+  makes no self-declaration, so **no notes-scanning rule can see it** — 134's refinement is
+  structurally blind to this half, and the observing run concluded there was no detectable tell.
+
+There is one, and it is not in the target entry. It is in the base form: **the word is a katakana
+loanword.** Of the detector's 123 mechanical-bucket pairs, 22 have an entirely katakana base, and
+reading all 22 against their targets gives 8 sense mismatches — ロック ×4, パート, バー (scroll
+bar → drinking establishment), コマ (a comet's coma → "frame, panel"), フライ (a baseball fly →
+"deep-fried food") — against 14 that are correct (パン, ポタージュ, アンティーク, セラミック and
+the rest). That is 18% of the bucket holding every instance either filing run found plus three
+neither had spotted, and the rule needs no denylist and no notes scan. Filed as
+[Tooling 143](../ideas/tooling-backlog.md).
+
+The reason a spelling test works here is a fact about the dictionary, not about the checker.
+A katakana entry almost always documents **one** borrowed sense of a word Japanese borrowed more
+than once, from different source words, at different times — ロック from *lock* and from *rock*,
+パート from *part-time* and from *part* (a voice in a chorus). For native vocabulary the same
+spelling normally means the same word, which is why Shapes 1 and 2 are detectable by comparing
+readings and this one is not. **Same-spelling-different-sense is the normal case for loanwords
+and the exceptional case for everything else**, so "base form is katakana" is a proxy for
+"polysemy the link cannot see" that costs 14 correct pairs a human glance.
+
 ## Why these keep being rediscovered
 
 Every class on this page was found by a run that did not know it existed, and four of the six

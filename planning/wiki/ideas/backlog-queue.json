@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-08-27",
+  "updated": "2026-08-31",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -91,9 +91,11 @@
       "priority": 5,
       "batch_ready": false,
       "status": "open",
-      "scope_estimate": 12,
+      "scope_estimate": 44,
       "severity": "warn",
-      "notes": "A dangling reference object lacks target_id. Resolve the intended entry id (build/word_id_lookup.json), or drop the reference if no entry exists. PROGRESS 2026-06-17: detector down 190->136 (180->130 entries). Filled target_id on the 54 refs whose headword AND reading both uniquely match an existing entry (provably-correct exact-match resolution; structural diff confirmed only target_id+modified changed). The remaining 136 are 'headword has no entry' cases that need the drop-or-keep judgment per ref (homophone notes like 00250 工夫/こうふ 'laborer' are deliberately labeled pointers to no-entry words; do NOT bulk-drop). Future runs: verify each, drop only genuine dangling refs, leave intentional homophone/contrast notes. PROGRESS 2026-06-19: detector 136->96. Resolved 40 refs across 37 entries: promoted 22 vestigial `id`->`target_id`, repointed 4 stale ids (01040/02032/00373/00213 -> 02500_shinjin/04555_tenkin/00333_ondo/02869_gaikokujin), added target_id to 14 reading/surface-verified refs (incl. reciprocal kana antonym pairs and kanji variants 堪->耐/満ち潮->満潮/交じる->混じる). Self-checked all 37 via furigana screener: clean (6 flags, all partial-reading/misparse false positives, rejected). REMAINING 96 are mostly INTENTIONAL target-less refs: referenced word has no entry, many are homophone/contrast/antonym display labels that must be KEPT (do NOT drop). Captured 14 entry-worthy referenced words as candidates. Recommend refining the detector to exclude type=homophone/contrast (or labeled) refs whose reading has no entry, so this queue converges instead of flagging permanent intentional pointers. PROGRESS 2026-06-20: detector 96->82. Filled target_id on 13 refs (00296/03477/06242/11797/12070/14705/15551/15688/16184/16466/16476/16900/17729) whose headword AND reading both uniquely match a newly-created 29338-29351 entry (curator restock of antonym/related pairs: 有限/小学/独創/実名/能動/低温/高地/父性/好天/近刊/避寒/大食/答申). Provably-correct exact-match resolution, each target read and semantically confirmed. Self-checked all 13 via furigana screener: clean (2 flags, both false positives — model misread どくそうてき, and 毎年=まいとし is valid — rejected). Captured 4 entry-worthy referenced antonyms as candidates (悪徳/急減/軟質/一神教). REMAINING 82 are overwhelmingly INTENTIONAL target-less pointers (referenced word has no entry; homophone/contrast/antonym display labels that must be KEPT). The detector now mostly flags permanent intentional pointers; refining it to exclude type=homophone/contrast/labeled refs whose reading has no entry would let this queue converge instead of re-surfacing the same ~80 every run. PROGRESS 2026-06-21: RESOLVED. Filled the 5 newly-resolvable refs (06214/12651/12671/13899/16910 -> 29383/29371/29369/29368/29370 curator restock antonym/synonym pairs; each target read and semantically confirmed). 0 resolvable target-less refs now remain dictionary-wide. Implemented the 2026-06-19/06-20 detector recommendation: check_artifacts.py missing-target-id now flags ONLY refs whose referenced word has an entry (resolvable); intentional pointers to no-entry words (homophone/antonym/contrast labels, transitivity-pair pointers) are excluded so the queue converges. `--include-intentional` restores the full 77-item audit list. Self-check (furigana screener) on the 5: 1 flag, a false positive (大切 furigana correct), rejected. Captured 10 entry-worthy referenced words as candidates. REFILL 2026-07-29: the wiki refresh re-ran the detector and it reports 12 instances across 12 entries, against the 0 recorded when this item was marked resolved on 2026-06-21. The detector was narrowed that day to flag only refs whose referenced word HAS an entry, so a refill is the expected consequence of the dictionary growing into previously-intentional pointers: a homophone/antonym label that legitimately had no target when it was written acquires one the day that word gets an entry. This is the same back-edge problem as the stale-`noentry` markers (Tooling item 19) — new entries silently invalidate old 'no entry exists' annotations. Treat as a small recurring drain, not a regression."
+      "notes": "A dangling reference object lacks target_id. Resolve the intended entry id (build/word_id_lookup.json), or drop the reference if no entry exists. PROGRESS 2026-06-17: detector down 190->136 (180->130 entries). Filled target_id on the 54 refs whose headword AND reading both uniquely match an existing entry (provably-correct exact-match resolution; structural diff confirmed only target_id+modified changed). The remaining 136 are 'headword has no entry' cases that need the drop-or-keep judgment per ref (homophone notes like 00250 工夫/こうふ 'laborer' are deliberately labeled pointers to no-entry words; do NOT bulk-drop). Future runs: verify each, drop only genuine dangling refs, leave intentional homophone/contrast notes. PROGRESS 2026-06-19: detector 136->96. Resolved 40 refs across 37 entries: promoted 22 vestigial `id`->`target_id`, repointed 4 stale ids (01040/02032/00373/00213 -> 02500_shinjin/04555_tenkin/00333_ondo/02869_gaikokujin), added target_id to 14 reading/surface-verified refs (incl. reciprocal kana antonym pairs and kanji variants 堪->耐/満ち潮->満潮/交じる->混じる). Self-checked all 37 via furigana screener: clean (6 flags, all partial-reading/misparse false positives, rejected). REMAINING 96 are mostly INTENTIONAL target-less refs: referenced word has no entry, many are homophone/contrast/antonym display labels that must be KEPT (do NOT drop). Captured 14 entry-worthy referenced words as candidates. Recommend refining the detector to exclude type=homophone/contrast (or labeled) refs whose reading has no entry, so this queue converges instead of flagging permanent intentional pointers. PROGRESS 2026-06-20: detector 96->82. Filled target_id on 13 refs (00296/03477/06242/11797/12070/14705/15551/15688/16184/16466/16476/16900/17729) whose headword AND reading both uniquely match a newly-created 29338-29351 entry (curator restock of antonym/related pairs: 有限/小学/独創/実名/能動/低温/高地/父性/好天/近刊/避寒/大食/答申). Provably-correct exact-match resolution, each target read and semantically confirmed. Self-checked all 13 via furigana screener: clean (2 flags, both false positives — model misread どくそうてき, and 毎年=まいとし is valid — rejected). Captured 4 entry-worthy referenced antonyms as candidates (悪徳/急減/軟質/一神教). REMAINING 82 are overwhelmingly INTENTIONAL target-less pointers (referenced word has no entry; homophone/contrast/antonym display labels that must be KEPT). The detector now mostly flags permanent intentional pointers; refining it to exclude type=homophone/contrast/labeled refs whose reading has no entry would let this queue converge instead of re-surfacing the same ~80 every run. PROGRESS 2026-06-21: RESOLVED. Filled the 5 newly-resolvable refs (06214/12651/12671/13899/16910 -> 29383/29371/29369/29368/29370 curator restock antonym/synonym pairs; each target read and semantically confirmed). 0 resolvable target-less refs now remain dictionary-wide. Implemented the 2026-06-19/06-20 detector recommendation: check_artifacts.py missing-target-id now flags ONLY refs whose referenced word has an entry (resolvable); intentional pointers to no-entry words (homophone/antonym/contrast labels, transitivity-pair pointers) are excluded so the queue converges. `--include-intentional` restores the full 77-item audit list. Self-check (furigana screener) on the 5: 1 flag, a false positive (大切 furigana correct), rejected. Captured 10 entry-worthy referenced words as candidates. REFILL 2026-07-29: the wiki refresh re-ran the detector and it reports 12 instances across 12 entries, against the 0 recorded when this item was marked resolved on 2026-06-21. The detector was narrowed that day to flag only refs whose referenced word HAS an entry, so a refill is the expected consequence of the dictionary growing into previously-intentional pointers: a homophone/antonym label that legitimately had no target when it was written acquires one the day that word gets an entry. This is the same back-edge problem as the stale-`noentry` markers (Tooling item 19) — new entries silently invalidate old 'no entry exists' annotations. Treat as a small recurring drain, not a regression. | 2026-08-31: check_artifacts.py reports 44 instances across 40 entries; the stored 12 predated several creation batches. validate.py reports these as a note, not an error, so they pass CI and render as dead cross-reference rows.",
+      "scope_unit": "instances",
+      "scope_measured_at": "2026-08-31"
     },
     {
       "id": "tag-conjugation-no-verb-pos",
@@ -1015,12 +1017,12 @@
       "verify": "n/a — blocked on a curator convention decision before any instrument touches it",
       "priority": 20,
       "batch_ready": false,
-      "status": "blocked",
+      "status": "duplicate",
       "scope_estimate": 276,
       "scope_unit": "instances",
       "scope_measured_at": "2026-08-09",
       "severity": "info",
-      "notes": "276 instances / 230 entries / 208 distinct surfaces ({データ|でーた} x8, {バランス|ばらんす} x5, {チーム|ちーむ} x4); only 2 are identity wrappers, so this is consistent deliberate behaviour, not sloppiness. Two project rules collide: 'readings are always hiragana' (satisfied) vs 'furigana annotate kanji' (violated). Decide first, then either sweep mechanically or document the convention in entry-guidelines — sweeping ahead of the decision is the exact failure this page documents four times."
+      "notes": "276 instances / 230 entries / 208 distinct surfaces ({データ|でーた} x8, {バランス|ばらんす} x5, {チーム|ちーむ} x4); only 2 are identity wrappers, so this is consistent deliberate behaviour, not sloppiness. Two project rules collide: 'readings are always hiragana' (satisfied) vs 'furigana annotate kanji' (violated). Decide first, then either sweep mechanically or document the convention in entry-guidelines — sweeping ahead of the decision is the exact failure this page documents four times. | 2026-08-31: same 273-instance population as furigana-katakana-base (measured: 270 of 273 katakana surfaces carry a hiragana reading). Marked duplicate; the policy question moves to that item so a bounded fix stops having a blocked twin."
     },
     {
       "id": "stale-calendar-month-links",
@@ -1204,10 +1206,11 @@
       "priority": 5,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 229,
-      "scope_unit": "entries",
+      "scope_estimate": 273,
+      "scope_unit": "instances",
       "severity": "error",
-      "notes": "Measured 2026-08-15: 275 instances across 229 entries spanning 00138-30640 (not one creation batch). Fields: notes 135, examples[].japanese 129, definitions[].explanation 11. Renders as visible ruby -- docs/entries/00000/00138_kaisetsu.html emits <ruby>ニュース<rt>にゅーす</rt></ruby>. 271 readings are the exact kana transliteration of the base and 3 repeat the katakana unchanged, so 274 are provably lossless to strip. The 275th, 23394 二枚貝 {カキ|がき}, is a genuine reading error the class was hiding -- fix by hand, see Entry Follow-ups."
+      "notes": "Measured 2026-08-15: 275 instances across 229 entries spanning 00138-30640 (not one creation batch). Fields: notes 135, examples[].japanese 129, definitions[].explanation 11. Renders as visible ruby -- docs/entries/00000/00138_kaisetsu.html emits <ruby>ニュース<rt>にゅーす</rt></ruby>. 271 readings are the exact kana transliteration of the base and 3 repeat the katakana unchanged, so 274 are provably lossless to strip. The 275th, 23394 二枚貝 {カキ|がき}, is a genuine reading error the class was hiding -- fix by hand, see Entry Follow-ups. | 2026-08-31: measured 273 katakana-surface wrappers in 227 entries, of which 270 (224 entries) carry a hiragana reading -- i.e. this item and katakana-hiragana-reading-wrappers describe ONE population, currently filed as an open mechanical fix and a blocked policy question at the same time. Merge them and put the actual question (are any of the 273 a deliberate reading gloss on a hard-to-pronounce loanword?) to a sample. The rewrite itself -- drop the braces and the reading, keep the katakana -- provably cannot change meaning.",
+      "scope_measured_at": "2026-08-31"
     },
     {
       "id": "validate-tags-standing-errors",
@@ -1388,6 +1391,104 @@
       "scope_measured_at": "2026-08-27",
       "severity": "warn",
       "notes": "529 entries. A brace pair with no | carries no reading and gives the renderer nothing to put in the ruby slot; build/validate.py reports nothing. Only the inside-a-link bucket is safe to strip mechanically -- 02002's notes read 'usually read as {だて}, sometimes {たて}', where the repair is 「だて」, not deletion."
+    },
+    {
+      "id": "notes-required-section-heading-mismatch",
+      "title": "score_note_quality.py does not credit COMMON COLLOCATIONS as a patterns section -- 5,748 entries penalised",
+      "source": "ideas/tooling-backlog.md#140-score_note_qualitypy-does-not-recognise-common-collocations-as-a-patterns-section--5748-entries-penalised-and-it-is-what-the-notes-priority-list-is-mostly-ranking",
+      "detect": "for each entry with a POS template declaring required_sections, run score_note_quality.find_sections over notes and report entries >=250 chars missing a required section",
+      "filter": "split by the heading actually present: COMMON COLLOCATIONS is 2,499 of the 2,965 verb-suru cases",
+      "fix_type": "tooling",
+      "verify": "none (one-line change to the variants map) OR per-entry (if the rename path is chosen)",
+      "priority": 4,
+      "batch_ready": false,
+      "status": "needs-decision",
+      "scope_estimate": 5748,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-31",
+      "severity": "warn",
+      "notes": "63% of the 9,067 entries with a required-section template. Required sections are 30 of 100 points and verb-suru declares exactly one, so 2,499 entries are capped at 70 for a heading name. 76 of the worst-scoring 100 in polishing/priority/notes.txt are this class against an 18.8% base rate (4x enrichment), so the notes priority ranking should not be trusted for lane planning until this is settled. Two fixes: add 'common collocation' to the common-patterns variant list (one line, rescores thousands at once) or rename headings in 2,499 entries (large, changes no content). Curator call."
+    },
+    {
+      "id": "review-deep-pass-unusable-in-routine",
+      "title": "review_runner.py --pass deep runs ~1 entry per 15 minutes in the scheduled environment",
+      "source": "ideas/tooling-backlog.md#141-the-deep-furigana-pass-cannot-run-inside-a-routine--gemini-25-pro-is-the-whole-cost",
+      "detect": "n/a (operational)",
+      "fix_type": "tooling",
+      "verify": "none",
+      "priority": 6,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 1,
+      "scope_unit": "items",
+      "scope_measured_at": "2026-08-31",
+      "severity": "error",
+      "notes": "DEEP_MODELS = [openai/gpt-4.1, google/gemini-2.5-pro] at review_runner.py:52; RATE_LIMIT_INTERVAL=6.0 is per model and accounts for ~12s of the 15 minutes, so the rest is 2.5-pro latency. Screening (flash) and review_accuracy.py both run ~6 entries/min in the same session. Fix: faster second deep model, or a per-entry wall-clock timeout dropping to one model, or make the deep pass curator-only. A Routine that starts the deep pass has no way to stop it, which is how a run loses its wrap-up budget."
+    },
+    {
+      "id": "accuracy-review-artifact-staleness",
+      "title": "reviews/accuracy/*.json carry no marker saying which version of the entry they describe",
+      "source": "ideas/tooling-backlog.md#142-reviewsaccuracyjson-go-stale-silently-and-adjudicating-from-them-wastes-a-run",
+      "detect": "compare each reviews/accuracy/{id}.json mtime against the entry's metadata.modified",
+      "fix_type": "tooling",
+      "verify": "none",
+      "priority": 7,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 1,
+      "scope_unit": "items",
+      "scope_measured_at": "2026-08-31",
+      "severity": "warn",
+      "notes": "2026-08-30: a run adjudicated 14330-14630 from 2026-07-13 artifacts carrying 14 'tag not in valid list' flags, every one already migrated (a direct VALID_SEMANTIC check found zero left in the range). Stamp each review with the entry's modified timestamp and skip artifacts older than the entry. Same defect shape as items 137/138 on the screening side. Re-running is cheap (~$0.10 / 236 entries), so 'always re-run' is a workable interim rule."
+    },
+    {
+      "id": "stale-noentry-katakana-demotion",
+      "title": "Demote katakana base forms out of check_stale_noentry.py's mechanical bucket -- 22 of 123 pairs",
+      "source": "ideas/tooling-backlog.md#143-demote-katakana-base-forms-out-of-check_stale_noentrypys-mechanical-bucket--22-of-123-pairs-and-it-removes-every-known-false-positive",
+      "detect": "in check_stale_noentry.py, base form matching ^[katakana]+$ -> judgment queue instead of mechanical",
+      "fix_type": "tooling",
+      "verify": "none",
+      "priority": 5,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 22,
+      "scope_unit": "pairs",
+      "scope_measured_at": "2026-08-31",
+      "severity": "error",
+      "notes": "22 of the 123 mechanical pairs have a katakana base; reading all 22 gives 8 sense mismatches (rock x4 lock/rock-music, paato voice-part/part-time, baa scroll-bar/drinking-bar, koma comet-coma/frame, furai baseball-fly/deep-fried) and 14 correct. Holds every instance both filing runs found plus three neither spotted, needs no per-target denylist and no notes scan -- superseding the proposed hard-coded rock denylist and covering the half Tooling 134 is structurally blind to. Works because a katakana entry usually documents one borrowed sense of a word borrowed more than once."
+    },
+    {
+      "id": "tag-shop-nouns-building-only",
+      "title": "Shop nouns tagged semantic ['building'] alone -- 22 entries",
+      "source": "ideas/cleanup-backlog.md#p70-shop-nouns-tagged-building-alone--22-entries",
+      "detect": "headword ends in 屋 or 店 AND semantic == ['building']",
+      "filter": "exclude non-shop 屋 compounds (問屋, 長屋, 部屋) by inspection",
+      "fix_type": "tags",
+      "verify": "per-entry",
+      "priority": 12,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 22,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-31",
+      "severity": "warn",
+      "notes": "115 shop-shaped headwords exist; 22 carry sole-`building` (00497 mise and 29495 sanpatsuya among them). Peers use `shopping` plus a domain tag (28445, 21648) or `building`+`shopping` (18639). Unlike sole-`general` this family has a definite destination tag, so it is a legitimate systemic-fix batch rather than a polish-lane side task. 14436 sakaya fixed 2026-08-29."
+    },
+    {
+      "id": "tag-existence-undefined-denotation",
+      "title": "`existence` is an in-list semantic tag with no documented denotation -- 129 entries",
+      "source": "topics/schema-tag-reliability.md#existence-an-in-list-tag-with-no-denotation-and-what-that-costs-2026-08-31",
+      "detect": "semantic contains 'existence'",
+      "fix_type": "tags",
+      "verify": "per-entry (after the ruling)",
+      "priority": 18,
+      "batch_ready": false,
+      "status": "needs-decision",
+      "scope_estimate": 129,
+      "scope_unit": "entries",
+      "scope_measured_at": "2026-08-31",
+      "severity": "warn",
+      "notes": "129 entries, 102 of them verbs. The accuracy reviewer flags it repeatedly on stative/intransitive verbs (14449, 14468, 14625, 14612, 14370) and every flag rejects because the proposed replacements are worse. Not a sweep -- the 2026-08-27 harvest showed most holders are genuinely about existing and the crisp state-change cut is 6 entries. What is needed is one ruling: narrow the tag to be/exist/remain and migrate the stative residue to `descriptive`, or accept the broad reading and put the definition in the reviewer prompt. Escalated 2026-08-31."
     }
   ]
 }
