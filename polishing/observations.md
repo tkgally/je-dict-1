@@ -1544,3 +1544,25 @@ needing no new item**: sole-`general` in 07026–07042 (P13, standing polish-lan
 気持ち and 次々 duplicate pairs (`entry-pair-consolidation`, already decided), the review-queue
 rise (Tooling 94, unshipped), the furigana screener's fourth 0–5% window, and the `by_reading`
 homograph-list truncation.)_
+
+## 2026-08-31 — routine(wiki) wrap-up (captured during the PR's own CI wait)
+
+- [tooling] **The proposed remedy for the stale CI-status problem does not work, measured on this
+  run's own PR.** The curator note of 2026-08-16 (and Tooling 109) recommends that before
+  concluding a check is still pending, a run should cross-check with `get_check_run` or
+  `actions_get`, on the evidence that "in one run's own test both answered completed, success
+  immediately." On PR #3247 all three endpoints agreed on `in_progress` for **~29 minutes**, and
+  the job's own reported `completed_at` was **00:31:55 — 68 seconds after it started**. So the
+  staleness is not confined to the check-runs endpoint the routine polls; `get_check_run`
+  returned `status: in_progress` with an empty conclusion, `actions_get get_workflow_run` returned
+  `updated_at: 00:30:47` (never advanced), and `actions_get get_workflow_job` returned step-level
+  data showing "Validate entries" still running — a step that had in fact finished. **The
+  cross-check reads the same stale cache**, so adding it to CLAUDE.md's MCP path step 5 would cost
+  two extra API calls per poll and change nothing. This is the sixth run to hit the symptom and
+  the first to test the proposed fix against it. What did work was simply continuing to poll: the
+  status flipped to `completed / success` on the poll after ~29 minutes, and the merge went
+  through normally. The operational consequence for the Routine is about the **poll cap**, not the
+  endpoint — §7.5.2's "~16 polls (~8 min)" cap is well short of the observed staleness window, and
+  a run that honours it abandons a PR whose CI passed 28 minutes earlier. Raising the cap (or
+  making it wall-clock-based with a longer ceiling) is the change that would actually stop these
+  strands; the endpoint recommendation should be withdrawn.
