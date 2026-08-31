@@ -1511,239 +1511,36 @@ conjugation stub in verb notes (P31/P54 + Tooling 132, sixth filing), sole-`gene
 polish-lane side task by standing ruling, never a sweep), and the zero-link 07013–07022 band (the
 fourth filing of the standing structural fact).)_
 
-## 2026-08-27 — routine(wiki) metrics refresh
+## 2026-08-31 (routine wiki harvest — all prior observations cleared)
 
-- [pattern] **The furigana review dimension has now returned zero corrections for three
-  consecutive metrics windows — 221 flags, none applied — and this refresh found the mechanism
-  rather than inferring it.** 69 of the 1,974 flagged screening results on disk are *parse
-  failures* recorded as findings (`review_runner.py` substitutes `{"flagged": true, "concerns":
-  ["Parse failure"]}` when a response will not parse), and a further large share is Tooling 119's
-  truncation family, where the model truncates the reading in its own report and flags the
-  truncation it created — 516 of the 1,974 flagged concerns contain a "no error / is correct /
-  will not flag" phrase. The screener is also the Routine's wall-clock bottleneck (~6–26 entries
-  per minute against the accuracy reviewer's ~40). Metric moving the wrong way: the cost is
-  entirely real and the yield has been exactly zero for three windows. The standing
-  recommendation — stop running the furigana pass over already-polished ranges — should now be
-  acted on, or items 119/137/139 fixed first so the instrument is measuring the dictionary
-  instead of itself.
-
-- [pattern] **`reviews/queue.txt` rose a fourth consecutive window (10,755 → 10,788) but the net
-  is now small enough to be meaningless**: +33 against 343 entries changed, where the previous
-  window was +188 against 482. Tooling 94's `reviewed_at >= modified` predicate is still
-  unshipped, and the 2026-08-10 measurement that 35% of the queue is already-reviewed padding
-  still stands. The queue length should not be quoted in either direction until it ships.
-
-## 2026-08-27 — Routine polish (entries 07023–07042)
-
-- [pattern] The whole 07023–07042 block (all created 2026-01-18) had **zero inline-link
-  coverage** in examples and notes, and every one used the legacy ALL-CAPS
-  `FORMATION:` / `COLLOCATIONS:` / `SIMILAR WORDS:` notes template with `・` bullets rather
-  than the current prose-plus-hyphen-bullet house style. This looks like a whole creation
-  batch that predates both conventions; entries created on that date elsewhere in the ID
-  space are likely in the same state, so the frontier lane should expect ~full rewrites, not
-  touch-ups, for some distance yet.
-
-- [pattern] **Template-default tag drift in the same batch.** 07027 {不可欠|ふかけつ} carried
-  `domain: ["colloquial"]` while its own notes describe it as formal/written; 07031
-  {獣医|じゅうい} carried `domain: ["legal"]` and `formality: "formal"` for an everyday word
-  (it is {獣医師|じゅういし} that is the legal term). Both corrected. Worth a targeted sweep
-  of `domain` tags on entries created 2026-01-18: the values look copied rather than judged.
-
-- [pattern] **Sole-`general` semantic tags were the norm in this block** — 07026, 07034,
-  07035, 07036, 07037, 07040, 07041, 07042 all carried `semantic: ["general"]` alone and all
-  had an obvious better tag (`cognition`, `daily-life`, `tool`, `building`). This is the known
-  P13 sole-general family; the household-goods stretch 07034–07042 is a dense, cheap target
-  for it.
-
-- [pattern] **Product-classifier suffixes have no entries and recur constantly.** {製|せい}
-  ('made of'), {系|けい} ('-based'), {用|よう} ('for use with') appeared in almost every
-  household-product entry in this block and all had to be marked `noentry`. Added as
-  candidates this run; they would pay for themselves quickly across the 剤/器/機 product
-  vocabulary.
-
-- [entry] **Duplicate: {気持|きも}ち has two entries**, 01385_kimochi and 02485_kimochi, both
-  glossed "feeling, mood". Needs a consolidation pass (`prompts/consolidate_entries.md`).
-
-- [entry] **Near-duplicate: {次々|つぎつぎ} (03522_tsugitsugi) and {次々|つぎつぎ}と
-  (07028_tsugitsugito)** are the same adverb with and without the particle, each with its own
-  full entry. Cross-linked both ways this session as a stopgap; a merge-or-differentiate
-  decision is still needed.
-
-- [entry] **28575_shiki ({式|しき}) is glossed only "formula; expression; equation; ceremony"**
-  and does not cover the productive suffix sense (スプレー{式|しき} 'spray type',
-  {置|お}き{型|がた} vs 〜{式|しき}). Uses in 07036/07037 had to be marked `noentry` rather
-  than linked to a gloss that does not match. Add the suffix sense to that entry.
-
-- [tooling] `build/verify_furigana.py` reports `WARNING: Entry not found: 07023` for a bare
-  five-digit ID and needs the full `07023_oseji` form, while `build/find_missing_furigana.py`
-  keys off the five-digit prefix. CLAUDE.md documents it as `verify_furigana.py <id>`, which
-  reads as the numeric ID. Accepting a bare numeric ID (or naming the mismatch in the error)
-  would save a round trip per session.
-
-- [tooling] **`reviews/screening/` results are overwritten in place with no run marker, so a
-  reader cannot tell this run's flags from a previous run's without opening every file.** This
-  cost real analysis time on 2026-08-28 and produced a wrong conclusion that had to be retracted
-  after the PR merged. The screening run for 13900–14399 was slow and still in flight; the
-  directory already held results for that range from 2026-07-13/14/15; counting flagged files by
-  ID looked like a completed 500-entry run at 8.4% flag rate, when in fact only 222 files were
-  this run's and the other 278 were three-week-old leftovers. Worse, the July results predate the
-  `trim_context()` fix, so their dominant "reading is cut off" family (`衛生→えいせ`,
-  `被害者→ひがいし`) read as live evidence that the fix had failed — the opposite of the truth.
-  Two cheap fixes, either sufficient: have `review_runner.py --pass screening` print a
-  start/finish marker and a completed-ID manifest, or have any analysis step filter on
-  `screened_at` rather than file presence. Until then, **always filter `reviews/screening/` by
-  `screened_at`, never by which files exist.**
-
-- [tooling] **Furigana screening ran 0% precision, but at a much lower flag volume than the raw
-  directory suggested** (7 of 222 entries actually screened this run, 3.2%; all rejected; deep
-  pass skipped under the §A known-noise shortcut). Every one of the 7 falls in a long-documented
-  false-positive family: okurigana splits (14003 {老|ふ}ける, 14081 {点|た}てる, 14128 {漸|ようや}く),
-  the 14020 {茶屋|ぢゃや} rendaku case the calibration report already records as a deliberate
-  editorial choice, readings the entry itself discusses (13942 contrasting {脅|おど}す), a
-  "similar words" headword that is simply a different word (14109 容量 vs 要領), and one
-  "insufficient context to judge" non-finding (13950). Notably the confabulated-truncation family
-  is **absent** from this run's output — it appears only in the July leftovers, i.e. the
-  `trim_context()` fix did what it was meant to. So the standing conclusion is unchanged in kind
-  but weaker in force than it first appeared: screening still yields nothing on already-polished
-  ranges (0–5% across four runs now), but it is also cheap and quiet, and the case for retiring it
-  rests on opportunity cost rather than on a live defect.
-
-- [entry] **13981 {義弟|ぎてい} example 1 uses the awkward construction {妻|つま}の{義弟|ぎてい}.**
-  The English translation was fixed this run (it had rendered 義弟 as plain {弟|おとうと}, dropping
-  "-in-law"), but the Japanese itself is strained: from the wife's own perspective her 義弟 is
-  either the speaker's own younger brother or her younger sister's husband, so 妻の義弟 does not
-  pick out a clear referent. A cleaner example would use the speaker's own 義弟 directly.
-
-- [pattern] **The accuracy reviewer's `tags` dimension flags in-list breadth substitutions at
-  high volume and near-zero yield.** Over entries 13900–14399, 38 of 41 flagged entries were tag
-  flags, and 37 of those were "the tag 'general' is too vague, replace it with X" or the mirror
-  image ("'food' is too narrow", "'body-part' is too specific") — all substitutions between tags
-  that are already in `VALID_SEMANTIC`, which §A step 4 of the Routine directs us to reject. Only
-  4 tag flags in the whole range were genuine category errors (純文学 tagged `education`, 老年
-  tagged `person`, 薪 tagged `tool`, and one formality label the entry's own notes contradicted).
-  Several suggestions were also to tags that do not exist in the vocabulary at all
-  (`body-general`, `medical` as a semantic tag), so they could not have been applied as written.
-  Teaching the reviewer prompt that `general` is a legitimate terminal tag, and that it should
-  only flag a tag it believes is *wrong* rather than *improvable*, would cut this dimension's
-  noise by roughly 90% and make the remaining flags worth reading closely.
-
-## 2026-08-28 — routine(new-entries), entries 30754–30773
-
-- [pattern] Three "seen in entry" candidates (系/けい, 用/よう, 製/せい) were bare-suffix
-  duplicates of existing entries written with a leading tilde (28466 〜系, 09842 〜用,
-  02001 〜製). The comprehensive-polish capture step records the suffix as it appears in
-  running text, without the tilde, so `check_duplicate.py` does not match it. Worth
-  teaching the capture step to normalise a suspected suffix to 〜X before adding, or
-  teaching `check_duplicate.py` to try the tilde-prefixed form.
-- [tooling] `build/verify_furigana.py <id>` resolves entries through `entries_index.json`,
-  so it reports "Entry not found" for entries created earlier in the same session, before
-  `update_indexes.py` runs. `find_missing_furigana.py` and `check_furigana_format.py` scan
-  the filesystem and work fine at that point. The post-creation sequence should say so, or
-  `verify_furigana.py` should fall back to a filesystem lookup.
-- [entry] Self-check flagged the gloss "veterinarian (formal term)" (30766) as carrying a
-  register note the `formality` field already holds. Rejected: 216 existing entries use a
-  register parenthetical in the gloss, so this is house practice, not an error. The
-  newentries.md rule banning "register notes" in glosses conflicts with that practice and
-  should be reconciled one way or the other.
-
-## 2026-08-29 (routine polish, 00510–03095 priority lane + 07043–07050 frontier)
-
-- [pattern] 50 entries wrap katakana inside furigana braces — `{サッカー|さっかー}`,
-  `{コース|こーす}`, `{ルール|るーる}` and about 60 more instances. Katakana never needs
-  furigana, so the wrapper is always wrong and the fix is always the same (drop the braces
-  and the reading, keep the katakana). Detectable with
-  `grep -roh "{[ァ-ヶー]\+|[ぁ-ゖー]\+}" entries/`. This is a good mechanical
-  systemic-fix batch: the transformation provably cannot change meaning. Fixed one instance
-  in 03095 by hand this run.
-- [pattern] The 07000-block entries created in the January 2026 batch (07043–07050 at least)
-  have **zero** inline link coverage in examples and notes, and most carry a sole `general`
-  semantic tag. The comprehensive frontier is now inside that block, so the next several
-  polish runs will be link-heavy — roughly 25–40 links per entry — and should budget about
-  6–8 frontier entries per run rather than 15–20.
-- [tooling] `build/check_artifacts.py` reports 44 cross-references with no `target_id` across
-  40 entries, and `build/validate.py` reports them only as a *note*, not an error, so they
-  pass CI silently and render as dead cross-reference rows. 07048 had one
-  (`{一泊|いっぱく}{二食付|にしょくつ}き`, a word with no entry). Worth either promoting to a
-  validation error or making it a systemic-fix backlog item: for each, either point it at a
-  real entry or drop the row and add the word as a candidate.
-- [entry] 00959 kiiroi claimed that "many color words function as na-adjectives (like 緑)".
-  That is wrong — 緑 is a noun in this dictionary and everywhere else, and Japanese colour
-  words are nouns used with の, not na-adjectives. Fixed here, but the same claim may have
-  been copied into other colour entries from the same batch; worth a targeted grep for
-  "na-adjective" in colour entries.
-- [entry] 00529 tooi documented `{目|め}が{遠|とお}い` as "farsighted; hard of hearing".
-  The real idiom is `{耳|みみ}が{遠|とお}い` (hard of hearing); 目が遠い is not standard.
-  Fixed. Idiom lines in FORMS/EXPRESSIONS blocks of basic-tier entries are worth a
-  dedicated accuracy-review dimension — they are invented more often than glosses are.
-- [tooling] Fifth firing of the `ロック` -> `08116_rokku` ("rock (music)") stale-`noentry`
-  false positive, this time at 06464 (`二重のロック`, a door lock). The 2026-08-25 refinement
-  still holds: 08116's own notes say outright that "ロック as 'lock' is a different word with
-  the same reading", and the marker's base form *is* ロック, so a demotion rule keyed on the
-  target entry naming the marker's own base would have caught it. This one target alone now
-  accounts for four of the sweep's rejections (04562, 05762, 05909, 06464) — a hard-coded
-  denylist for that single pair would pay for itself before the detector class ships.
-- [pattern] New stale-`noentry` false-positive shape at 06574: `コーラスパート` ("chorus part")
-  resolving to `03106_paato`, whose entry covers only パート = part-time work and never
-  mentions the section/voice-part sense. Unlike the ロック family, the target entry makes no
-  self-declaration, so no notes-scanning rule can see it — the tell is that the entry's
-  glosses and every collocation belong to one sense while the marker's context belongs to
-  another. Worth adding to the wiki's inline-link-integrity page as the "target entry silently
-  covers a different sense" family, distinct from both the self-declaring homophone family and
-  the 2026-08-11 proper-name family.
-- [tooling] The `accuracy-review` deep furigana pass (`review_runner.py --pass deep`,
-  models openai/gpt-4.1 + google/gemini-2.5-pro) is unusable inside a Routine run in the
-  scheduled environment: on 2026-08-30 it completed **one** entry in ~15 minutes, so the
-  62 screening-flagged entries in 14330–14930 would have taken ~8 hours. The screening pass
-  and `review_accuracy.py` (google/gemini-2.5-flash) both run at ~6 entries/minute in the
-  same session, so the bottleneck is the 2.5-pro leg, not the network. Either swap the deep
-  pass's second model for a faster one, add a per-entry wall-clock timeout that drops to a
-  single model, or accept that the deep pass is a curator-run tool and let the Routine use
-  §A's known-noise shortcut by default.
-- [tooling] Stored `reviews/accuracy/*.json` go stale silently and adjudicating from them
-  wastes a run. In 14330–14630 the on-disk artifacts (2026-07-13) carried 14 "semantic tag
-  is not in the valid tag list" flags, every one of which had already been migrated — a
-  direct check against `VALID_SEMANTIC` found **zero** off-vocabulary semantic tags left in
-  that range. The artifacts have no "entry modified since review" marker, so nothing in the
-  file says it is obsolete. Either stamp each review with the entry's `modified` timestamp
-  and have the Routine skip artifacts older than it, or treat re-running as mandatory (as
-  this run did). Re-running is cheap: 236 entries cost ~$0.10.
-- [pattern] The semantic tag `existence` keeps drawing reviewer flags on stative and
-  intransitive verbs (14449 連なる, and in the older artifacts 14468 釣り合う, 14625 飢える,
-  14612 青ざめる, 14370 逝去) — but the replacements the reviewer proposes (`movement`,
-  `health`, `action`) are no better, so every one adjudicates as a reject. The real issue is
-  that `existence` has no documented denotation, so it has become the default for "verb that
-  describes a state rather than an act". Worth a taxonomy decision on the
-  schema-tag-reliability page: either define `existence` narrowly (be/exist/remain) and
-  migrate the stative-verb residue to `descriptive`, or accept it and add the definition to
-  the reviewer prompt so it stops flagging.
-- [pattern] Shop nouns are tagged inconsistently: `酒屋` (14436) carried only `building`,
-  while peers such as 弁当屋 (28445) and 総菜屋 (21648) use `shopping` (+ a domain tag) and
-  百貨店 (18639) uses `building` + `shopping`. Fifteen shop entries are tagged `building`
-  alone. A shop is a business first and a structure second, so `shopping` should be present
-  on all of them. Fixed 14436 in this run; 00497 店 and 29495 散髪屋 are the same shape and
-  the whole `building`-only set would make a clean, bounded systemic-fix batch.
-- [pattern] Note-quality scores in the low 40s–60s are very often caused by a missing
-  *required section header*, not thin content. Of the seven priority-lane entries in this
-  run, six scored 45–62 while already carrying substantive material — what they lacked was
-  the `usage` header for adjectives/na-adjectives, `functions` for particles, or
-  `transitivity` + `common patterns` for verbs, as defined in `build/note_templates.json`.
-  Rewriting the existing material under the expected headers (and adding the one thing the
-  header actually calls for) took scores to 87–100. The priority `notes.txt` ranking is
-  therefore, in practice, a *structure* backlog as much as a content backlog. Two consequences:
-  the polish lane is cheaper per entry than the raw scores suggest, and a `systemic-fix` item
-  that reports entries whose notes are long but missing their POS's required section would
-  isolate this class precisely.
-- [tooling] `build/word_id_lookup.json`'s `by_reading` map returns a *list* of homographs, and
-  any helper that truncates it (e.g. showing only the first three) can hide a real entry and
-  produce a wrong `noentry` marker. That happened once in this run: よう returned
-  よう/〜用/要 in the first three slots, so 酔う (14437) was missed and example 3 of 07051 was
-  briefly marked `noentry` before `check_duplicate.py` caught it. Any inline-link workflow
-  should either print all homographs or check `manage_candidates.py add` /
-  `check_duplicate.py` before writing a `noentry` marker — the candidate-add refusal is what
-  surfaced the error here, which argues for making that check the standard last step rather
-  than an accident.
-- [entry] The 2026-01 legacy block continues at 07051+: entries created then have **no inline
-  word links at all** and use the ALL-CAPS template with `・` bullets instead of the house
-  `- ` bullets. 07051–07058 were converted in this run. The same shape should be expected for
-  the rest of the 07000 range, so future `polish` runs over this block should budget for a
-  full link pass plus a notes rewrite on every entry rather than spot fixes.
+_(The 35 observations from the 2026-08-27 metrics refresh, the 2026-08-27 polish run (07023–07042),
+the 2026-08-28 new-entries run (30754–30773) and the 2026-08-29/30 polish and accuracy-review runs
+were harvested by the 2026-08-31 wiki maintenance session. Filed with measurements: Tooling **140**
+(`score_note_quality.py` does not credit `COMMON COLLOCATIONS` as a patterns section — **5,748
+entries** carry substantive notes missing a required section, 2,499 of the 2,965 する-verb cases use
+that one heading, and **76 of the worst-scoring 100 in `priority/notes.txt`** are this class against
+an 18.8% base rate); **141** (the deep furigana pass runs ~1 entry per 15 min because `DEEP_MODELS`
+carries `gemini-2.5-pro`; rate limiting explains ~12 s of it); **142** (`reviews/accuracy/*.json`
+carry no staleness marker); **143** (demote katakana base forms out of `check_stale_noentry.py`'s
+mechanical bucket — **22 of 123 pairs**, holding **8** sense mismatches including every ロック and
+the パート case, and needing no denylist); Cleanup **P70** (shop nouns tagged sole-`building`,
+measured at **22**); updates to **112** (the bare-suffix/tilde duplicate shape — 99 tilde-form
+headwords, 42 product-classifier `noentry` markers), **123** (bare numeric ID + the
+`entries_index.json` dependency), **138** (the standing rule: filter `reviews/screening/` by
+`screened_at`, never by which files exist), **111/118** (the `general`-is-too-broad family measured
+a fourth time — 37 of 38 tag flags, 4 real errors in 500 entries); a rescope of
+`artifact-missing-target-id` (12 → **44**); the katakana-brace **duplicate-item resolution** (273
+instances filed simultaneously as an open mechanical fix and a blocked policy question); Entry
+Follow-ups (28575 式's missing suffix sense, 00529's invented 目が遠い and the notes-block idiom
+class, 13981 義弟's referentially unclear example); a new inline-link family on
+`topics/inline-link-integrity.md` (**Shape 3** — the target entry silently covers a different
+sense); a taxonomy section on `topics/schema-tag-reliability.md` (**`existence`**, 129 entries, no
+denotation); three curator escalations. **Refuted**: the legacy ALL-CAPS notes template as a
+January-cohort artifact (**21,073 of 30,564 entries, 69%**, and the rate is *higher* on recent
+creation days — 89% on 2026-03-28 against 59% on 2026-01-18); the copied "colour words are
+na-adjectives" family (**2 sightings dictionary-wide, both correct**); and the premise that the
+product classifiers 製/系/用 "have no entries" (they exist as 〜製, 〜系, 〜用). **Re-discoveries
+needing no new item**: sole-`general` in 07026–07042 (P13, standing polish-lane ruling), the
+気持ち and 次々 duplicate pairs (`entry-pair-consolidation`, already decided), the review-queue
+rise (Tooling 94, unshipped), the furigana screener's fourth 0–5% window, and the `by_reading`
+homograph-list truncation.)_

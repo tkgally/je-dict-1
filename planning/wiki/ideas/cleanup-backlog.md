@@ -5317,6 +5317,104 @@ Only the first bucket is mechanical.
   rejecting it wholesale. The standing ruling stands: sole-`general` is a **polish-lane** side
   task, fixed with the entry open, never a sweep.
 
+## Updates 2026-08-31 (wiki harvest)
+
+### P70. Shop nouns tagged `building` alone — 22 entries
+
+A 2026-08-29 polish run found 酒屋 (14436) carrying only `building`, while its peers 弁当屋
+(28445) and 総菜屋 (21648) use `shopping` plus a domain tag and 百貨店 (18639) uses
+`building` + `shopping`. It reported "fifteen shop entries" in that state.
+
+Measured: **115 entries have a shop-shaped headword** (ending 屋 or 店), and **22 of them carry
+`semantic: ["building"]` and nothing else** — the run's estimate, slightly low. 00497 店 and
+29495 散髪屋 are in the set.
+
+The fix is a judgment the entries themselves settle: a shop is a business first and a structure
+second, so `shopping` belongs on all of them, with `building` retained where the word really does
+name a structure (百貨店 does; 酒屋 arguably does not). Twenty-two entries is one bounded batch,
+and unlike the sole-`general` family it has a definite destination tag, so it is a legitimate
+`systemic-fix` item rather than a polish-lane side task. Verify per entry — the 屋 suffix also
+forms non-shop words (問屋, 長屋, 部屋 are excluded by the sole-`building` filter but a wider
+predicate would catch them).
+
+### The katakana-in-furigana-braces population is filed twice, once open and once blocked
+
+Two queue items describe the same instances from different sides:
+
+- `furigana-katakana-base` — **open**, scope 229 entries / 275 instances, "renders as ruby on the
+  live site".
+- `katakana-hiragana-reading-wrappers` — **blocked**, scope 276, "policy decision, not a defect".
+
+Measured now: **273 wrappers with a katakana surface, in 227 entries — and 270 of the 273 (in 224
+entries) have a hiragana reading.** Within measurement noise these are one population, not two,
+which means the queue currently holds the same 273 instances as both a ready mechanical fix and a
+blocked policy question. A 2026-08-29 polish run, arriving at it a third time, argued the
+mechanical reading: katakana never needs furigana, so dropping the braces and the reading while
+keeping the katakana provably cannot change meaning, and the class is detectable with a single
+grep.
+
+That argument is right about the transformation and does not by itself settle the blocked item,
+because the policy question was never whether the rewrite is safe — it is whether any of the 273
+are *deliberate*, i.e. a reading gloss on a loanword the author expected a learner not to be able
+to pronounce. **The two items should be merged into one and the merged item asked exactly that
+question over a sample**; keeping a blocked twin of an open item is how a bounded fix stays
+unfixed for months. Recorded as a queue-hygiene action, not a new priority.
+
+### Refuted: the legacy ALL-CAPS notes template is not a January cohort — it is the dictionary's majority style
+
+Three observations across two polish runs (07023–07042, then 07043–07058) reported that the
+2026-01 creation batch "predates both conventions" — no inline links, and ALL-CAPS
+`FORMATION:` / `COLLOCATIONS:` / `SIMILAR WORDS:` headers with `・` bullets instead of the house
+prose-plus-hyphen style — and inferred that entries created on those dates elsewhere in the ID
+space would be in the same state.
+
+Half of that is right and half is backwards. **21,073 of 30,564 entries (69%) use ALL-CAPS note
+headers**, and the rate is *higher* on recent creation days than on the January ones:
+
+| Creation date | ALL-CAPS notes | Created that day | Rate |
+|---|---|---|---|
+| 2026-03-28 | 331 | 371 | 89.2% |
+| 2026-02-22 | 355 | 399 | 89.0% |
+| 2026-04-02 | 359 | 419 | 85.7% |
+| 2026-01-18 | 348 | 590 | 59.0% |
+| 2026-01-16 | 470 | 1,098 | 42.8% |
+
+So ALL-CAPS headers are not a legacy artifact at all; they are what the dictionary does, and
+`score_note_quality.py` awards its 10-point formatting bonus only to that style
+([Tooling 20](tooling-backlog.md)) — a polish run that converts them to prose costs the entry
+those points. **The link coverage half of the observation stands** (the block genuinely has zero
+inline links, which is `inline-link-block-06800-07100`), and so does the `・` bullet half (P62).
+The template claim does not, and the frontier lane should not budget for "full notes rewrites"
+on the strength of it.
+
+### Refuted: no copied "colour words are na-adjectives" family
+
+A 2026-08-29 run corrected 00959 きいろい, whose notes claimed "many color words function as
+na-adjectives (like 緑)" — wrong, since 緑 is a noun used with の — and asked for a grep in case
+the claim had been copied across the colour entries of the same batch.
+
+Measured: **two entries in the dictionary pair "colour" with "na-adjective" in the same
+sentence**, 10803 カラフル and 18036 華やか, and both are correct — those words *are*
+na-adjectives. Eight further entries mention "na-adjective" somewhere near colour vocabulary and
+none makes the false claim. 00959 was a one-off, already fixed. No item.
+
+### Re-discoveries needing no new item (2026-08-31)
+
+- **Sole-`general` was the norm in 07026–07042** (eight entries, all with an obvious better tag).
+  P13 / `tag-sole-general`; standing ruling unchanged — polish-lane side task, never a sweep.
+- **01385 / 02485 {気持|きも}ち duplicate**, re-filed a fourth time. Already decided on
+  2026-08-23 by inbound-reference count (187 vs 19: keep 01385, fold in 02485's "intention,
+  sentiment" sense, and fix 01385's okurigana-swallowing headword in the same edit). It is on
+  `entry-pair-consolidation` and needs execution, not another filing.
+- **03522 {次々|つぎつぎ} / 07028 {次々|つぎつぎ}と**, the same adverb with and without the
+  particle. Cross-linked both ways as a stopgap by the observing run; belongs on
+  `entry-pair-consolidation` with the 気持ち pair.
+- **Cross-references with no `target_id`** — reported at "44 across 40 entries", which is exactly
+  what `check_artifacts.py` returns today. The queue item `artifact-missing-target-id` still
+  carried `scope_estimate: 12` from its filing and is rescoped to 44. The observation's second
+  half is a tooling question already covered by 111/127's shape: `validate.py` reports these as a
+  *note* rather than an error, so they pass CI silently and render as dead rows.
+
 ## Related pages
 
 - [Tooling Backlog](tooling-backlog.md) — tool improvements surfaced alongside these patterns

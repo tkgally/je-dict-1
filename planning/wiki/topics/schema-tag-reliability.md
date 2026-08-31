@@ -469,6 +469,35 @@ number and **routes** the blocked share to whoever can unblock it — which for
 322 of these instances is a curator answering one taxonomy question, not a
 script.
 
+## `existence`: an in-list tag with no denotation, and what that costs (2026-08-31)
+
+`VALID_SEMANTIC` is a bare set of names in `build/validate_tags.py` — it says which tags are
+allowed and nothing about what any of them means. For most tags the name carries the definition.
+`existence` is the case where it does not, and the cost is now measurable.
+
+**129 entries carry it**, three quarters of them verbs (45 `verb-godan`, 33 `verb-suru`, 24
+`verb-ichidan`, 19 nouns). A 2026-08-30 accuracy-review run recorded the reviewer flagging it
+repeatedly on stative and intransitive verbs — 14449 連なる, and in older artifacts 14468 釣り合う,
+14625 飢える, 14612 青ざめる, 14370 逝去 — and adjudicating **every one as a reject, because the
+replacements offered (`movement`, `health`, `action`) are no better**. That is the signature of a
+label doing work no other label can do while nobody can say what the work is: in practice
+`existence` has become the default for "a verb that describes a state rather than an act."
+
+The 2026-08-27 harvest had already refuted the batch-fix reading of this — 112 entries lead with
+the tag, but 死ぬ, 滅亡, 現存, 生息 and 実在 are genuinely about existing, and the crisp
+state-change cut ("to become / turn / grow") is 6 entries. So there is no sweep here. What
+remains is a one-line taxonomy decision with two defensible answers:
+
+- **Narrow it** to be/exist/remain, and migrate the stative-verb residue to `descriptive`; or
+- **Accept the broad reading** and write the definition into the reviewer prompt so it stops
+  flagging what the dictionary intends.
+
+Either ends the flag traffic. Neither is available to an unattended run, because both are
+statements about what the vocabulary means rather than about which entries are wrong — the same
+shape as the `place`/`sound` gaps recorded above, arriving from the opposite direction: those are
+categories the list has no word for, and this is a word the list has no category for. Escalated
+to the curator 2026-08-31.
+
 ## Implications for je-dict-1
 
 1. **Treat tags as cached judgments, not ground truth.** When a polish pass updates an entry, the tags should be re-evaluated against the polished content, not assumed correct. The polish prompts currently don't ask for this.
