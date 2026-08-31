@@ -1566,3 +1566,32 @@ homograph-list truncation.)_
   a run that honours it abandons a PR whose CI passed 28 minutes earlier. Raising the cap (or
   making it wall-clock-based with a longer ceiling) is the change that would actually stop these
   strands; the endpoint recommendation should be withdrawn.
+
+## 2026-08-31 — routine(new-entries), IDs 30774–30793
+
+- [pattern] **Candidate glosses are written for the candidate list, not as entry glosses, and
+  copying them across produces part-of-speech mismatches.** The candidate row for 天下分け目 read
+  "decisive; make-or-break", which is how you would gloss an adjective. Carried into the entry's
+  top-level `gloss` it described a noun headword adjectivally, and the §4 self-check caught it as
+  an `error`-severity gloss flag (30776, applied). Worth a line in `newentries.md`: the candidate
+  gloss is a hint about *which word this is*, and the entry gloss has to be rewritten to match the
+  headword's part of speech. Several other candidates in the current queue have the same shape
+  (`〜剤` glossed "suffix: agent, preparation", `早い者勝ち` glossed "first come, first served (set
+  phrase)") — the parenthetical metadata and the POS framing both need stripping at entry time.
+
+- [tooling] **`formality: "casual"` is a recurring invalid value and the prompts do not list the
+  legal set.** Two of this run's twenty entries (30780, 30787) were written with `"casual"`, which
+  the schema rejects in favour of `formal` / `neutral` / `informal` / `vulgar` / `null`. The
+  session prompt `newentries.md` has explicit tables for the POS enum and the semantic-tag
+  vocabulary but says nothing about `formality`, so the slip is invited. Adding a one-line note to
+  the tag section of `newentries.md` (and the `entry-guidelines` skill) would remove a whole
+  fix round: "casual" is the natural English word for this register and will keep being reached
+  for.
+
+- [pattern] **The seen-in-entry candidate lane is now nearly closed.** All 18 seen-in-entry
+  candidates were consumed this run, and follow-up checks on the words those new entries themselves
+  reference (素泊まり, 連泊, 先着順, 抽選, 潔白, 制度, 縁結び, 分煙, 喫煙所, 負けん気, 正念場,
+  神在月, 披露宴, 殺虫剤, 定額制) found entries already present for all but two (色物, 挙式, both
+  added as candidates). The internal-completeness gap the lane exists to close is small right now;
+  the next few new-entries runs will be working the general queue, which is dominated by proper
+  nouns.
