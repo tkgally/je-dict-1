@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\nCompound verb: ⟦{書|か}く→書く：00477_kaku⟧ (to write) + ⟦{留|と}める→止める：00678_tomeru⟧ (to stop, to fasten)\nThe sense of ⟦{留|と}める→止める：00678_tomeru⟧ contributes the meaning of \"securing\" the information.\n\nUSAGE:\n・〜⟦を→を：00422_wo⟧{書|か}き{留|と}める (to write down ~)\n・{書|か}き{留|と}めて⟦おく→おく：01092_oku⟧ (to write down and keep for later)\n\nSIMILAR WORDS:\n・⟦メモする→メモする：25501_memosuru⟧ - to take notes (colloquial)\n・⟦{記録|きろく}する→記録：02490_kiroku⟧ - to record (formal)\n・⟦{控|ひか}える→控える：10054_hikaeru⟧ - to note down, to refrain",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive), with no intransitive pair. What gets written down is marked with ⟦を→を：00422_wo⟧; where it is written goes with ⟦に→に：00314_ni⟧.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{書|か}き{留|と}める: write ~ down\n- ⟦{手帳|てちょう}→手帳：04537_techou⟧⟦に→に：00314_ni⟧{書|か}き{留|と}める: write it down in a planner\n- {書|か}き{留|と}めて⟦おく→おく：01092_oku⟧: write it down now so it is there later. This is the commonest shape of the verb, because the point of writing something down is almost always the later use.\n\nFORMATION: ⟦{書|か}く→書く：00477_kaku⟧ (write) + ⟦{留|と}める→止める：00678_tomeru⟧ (fasten, hold in place). The second half is what separates it from plain ⟦{書|か}く→書く：00477_kaku⟧: it is writing that pins information down so it will not be lost.\n\nWATCH OUT: the noun ⟦{書留|かきとめ}→書留：00150_kakitome⟧, written with the same two characters but no okurigana, is registered mail. It is a different word, not a form of this verb.\n\nSIMILAR VERBS:\n- ⟦メモする→メモする：25501_memosuru⟧ is the casual everyday equivalent, and what most people actually say.\n- ⟦{記録|きろく}→記録：02490_kiroku⟧⟦する→する：00392_suru⟧ is to record systematically, for data or an official account, not for a personal reminder.\n- ⟦{控|ひか}える→控える：10054_hikaeru⟧ overlaps for jotting down numbers and details to keep on hand; it also has an unrelated sense of refraining.\n\nREGISTER: neutral but slightly careful and bookish. In casual speech ⟦メモする→メモする：25501_memosuru⟧ or ⟦{書|か}いて→書く：00477_kaku⟧⟦おく→おく：01092_oku⟧ is more likely.",
   "cross_references": [
     {
       "type": "related",
@@ -161,11 +161,25 @@
       "headword": "{書|か}く",
       "label": "to write",
       "target_id": "00477_kaku"
+    },
+    {
+      "type": "related",
+      "target_id": "00150_kakitome",
+      "reading": "かきとめ",
+      "headword": "{書留|かきとめ}",
+      "label": "registered mail — same characters, unrelated word"
+    },
+    {
+      "type": "related",
+      "target_id": "25501_memosuru",
+      "reading": "めもする",
+      "headword": "メモする",
+      "label": "the casual everyday equivalent"
     }
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-07-26T06:18:50Z",
+    "modified": "2026-09-01T00:19:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

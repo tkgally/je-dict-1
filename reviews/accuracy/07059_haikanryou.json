@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-08-10T06:34:44Z",
+  "reviewed_at": "2026-09-01T00:31:55Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'education' is incorrect for '拝観料'.",
-      "suggestion": "Replace 'education' with 'travel' or 'money' or 'culture'."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.politeness",
       "severity": "error",
-      "concern": "The politeness tag 'humble' is incorrect for '拝観料'.",
-      "suggestion": "Replace 'humble' with 'plain'."
+      "concern": "The politeness tag 'humble' is incorrect for the headword '拝観料'. This word refers to a fee and does not inherently convey humility.",
+      "suggestion": "Change 'humble' to 'plain' or remove the politeness tag if 'plain' is the default."
     }
   ]
 }

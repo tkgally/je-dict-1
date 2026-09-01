@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07064_hikaeshitsu_ex1",
-      "japanese": "{出番|でばん}まで{控|ひか}え{室|しつ}でお{待|ま}ちください。",
+      "japanese": "⟦{出番|でばん}→出番：11733_deban⟧⟦まで→まで：00490_made⟧{控|ひか}え{室|しつ}⟦で→で：00502_de⟧⟦お{待|ま}ち→待つ：00469_matsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please wait in the waiting room until your turn.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07064_hikaeshitsu_ex2",
-      "japanese": "{控|ひか}え{室|しつ}に{飲|の}み{物|もの}が{用意|ようい}してある。",
+      "japanese": "{控|ひか}え{室|しつ}⟦に→に：00314_ni⟧⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧⟦が→が：00051_ga⟧⟦{用意|ようい}→用意：01746_youi⟧⟦して→する：00392_suru⟧ある。",
       "english": "Drinks are prepared in the waiting room.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07064_hikaeshitsu_ex3",
-      "japanese": "{出演者|しゅつえんしゃ}は{控|ひか}え{室|しつ}へお{入|はい}りください。",
+      "japanese": "⟦{出演者|しゅつえんしゃ}→出演者：11340_shutsuensha⟧⟦は→は：00079_ha⟧{控|ひか}え{室|しつ}⟦へ→へ：02473_he⟧⟦お{入|はい}り→入る：00494_hairu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Performers, please enter the green room.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{控|ひか}え{室|しつ} is a room where people wait before their turn — for meetings, interviews, performances, or appointments.\n\nCONTEXTS:\n- {病院|びょういん}の{控|ひか}え{室|しつ}: hospital waiting room\n- {面接|めんせつ}の{控|ひか}え{室|しつ}: interview waiting room\n- {出演者|しゅつえんしゃ}の{控|ひか}え{室|しつ}: green room for performers\n- {来客|らいきゃく}の{控|ひか}え{室|しつ}: visitor waiting room\n\nCOMMON COLLOCATIONS:\n- {控|ひか}え{室|しつ}で{待|ま}つ: to wait in the waiting room\n- {控|ひか}え{室|しつ}に{案内|あんない}する: to show someone to the waiting room\n- {控|ひか}え{室|しつ}に{通|とお}す: to lead someone to the waiting room\n\nSIMILAR WORDS:\n- {楽屋|がくや}: backstage dressing room (specifically for performers)\n- {待合室|まちあいしつ}: waiting room (at a hospital or station — more general)\n- {控|ひか}え{室|しつ}: waiting room (more formal, for specific appointments or events)",
+  "notes": "A {控|ひか}え{室|しつ} is a room set aside for people who are waiting for their turn at something scheduled — an interview, a ceremony, a performance, an appearance. The ⟦{控|ひか}える→控える：10054_hikaeru⟧ in it is the sense of standing by.\n\nCONTEXTS:\n- ⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦の→の：09472_no⟧{控|ひか}え{室|しつ}: where candidates wait\n- ⟦{出演者|しゅつえんしゃ}→出演者：11340_shutsuensha⟧⟦の→の：09472_no⟧{控|ひか}え{室|しつ}: a green room\n- ⟦{来客|らいきゃく}→来客：13061_raikyaku⟧⟦の→の：09472_no⟧{控|ひか}え{室|しつ}: a room for visitors to an office\n\nCOLLOCATIONS:\n- {控|ひか}え{室|しつ}⟦で→で：00502_de⟧⟦{待|ま}つ→待つ：00469_matsu⟧: wait in the room\n- {控|ひか}え{室|しつ}⟦に→に：00314_ni⟧⟦{案内|あんない}→案内：01291_annai⟧⟦する→する：00392_suru⟧: show someone to it\n- {控|ひか}え{室|しつ}⟦に→に：00314_ni⟧⟦{通|とお}す→通す：02300_toosu⟧: usher someone in (said of a host or receptionist)\n\nSIMILAR WORDS:\n- ⟦{待合室|まちあいしつ}→待合室：07373_machiaishitsu⟧ is the open waiting room of a hospital or station, where anyone waits and no one has been invited. This, not {控|ひか}え{室|しつ}, is the word for a hospital waiting room.\n- ⟦{楽屋|がくや}→楽屋：08376_gakuya⟧ is a performer's dressing room, used for changing and preparing, and belongs to the theatre. A {控|ひか}え{室|しつ} is only for waiting.",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "headword": "{楽屋|がくや}",
       "label": "backstage dressing room",
       "target_id": "08376_gakuya"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "open waiting room (hospital, station)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:36:53Z",
-    "modified": "2026-03-29T07:30:48Z",
+    "modified": "2026-09-01T00:19:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +72,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "building",
+        "daily-life"
       ]
     }
   },
