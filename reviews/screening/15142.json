@@ -1,11 +1,8 @@
 {
   "entry_id": "15142",
-  "screened_at": "2026-07-15T03:22:05Z",
+  "screened_at": "2026-09-01T12:54:35Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for 免許証 is given as めんきょしょう, but the provided context `めんきょし` suggests a partial reading. If the full reading is indeed めんきょしょう, then the partial reading in the context is correct. However, if the context `めんきょし` is meant to be the full reading for 免許証, then it is incorrect. Given the instruction to \"Do NOT flag partial readings as errors\", and the full reading for 免許証 is typically めんきょしょう, the partial reading `めんきょし` is likely correct in its context. I will assume the full reading is correct and the partial reading is an intentional truncation for the example.",
-    "The reading for 保険証 is given as ほけんしょう, but the provided context `ほけんしょ` suggests a partial reading. Similar to 免許証, if the full reading is indeed ほけんしょう, then the partial reading in the context is correct. If the context `ほけんしょ` is meant to be the full reading for 保険証, then it is incorrect. Assuming the full reading is correct and the partial reading is an intentional truncation for the example, this is not an error."
-  ],
-  "confidence": 0.5
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

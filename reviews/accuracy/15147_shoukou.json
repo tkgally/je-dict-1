@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-15T03:25:58Z",
+  "reviewed_at": "2026-09-01T12:59:59Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'movement-direction' is not in the valid tag list. The headword's meaning is about movement.",
-      "suggestion": "movement"
-    },
     {
       "dimension": "translation",
       "location": "examples[0]",
       "severity": "error",
-      "concern": "The English translation for example 0 is misleading. 昇降口 (shoukouguchi) specifically refers to an entrance/exit for going up and down, like a boarding gate or an entrance to a building with stairs/elevators, not just any entrance/exit.",
-      "suggestion": "Where is the boarding gate/entrance for going up and down?"
+      "concern": "The English translation for '昇降口' as 'entrance/exit (for boarding)' is misleading. While '昇降口' literally means 'up-down mouth/opening', it specifically refers to a 'shoe locker entrance' in schools, or a 'gangway/hatch' on a ship, or a 'boarding gate' at an airport. The general 'entrance/exit (for boarding)' is too broad and doesn't capture the specific nuance of '昇降口' in common usage, especially in a school context where it's most frequently encountered by learners.",
+      "suggestion": "Change the translation to 'Where is the shoe locker entrance?' or 'Where is the boarding gate?' depending on the intended context, or provide a more general but accurate translation like 'Where is the access point for going up and down?' if the context is truly ambiguous. Given the headword, 'Where is the entrance/exit for ascending and descending?' would be more literal and accurate."
     }
   ]
 }

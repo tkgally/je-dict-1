@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:31:07Z",
+  "reviewed_at": "2026-09-01T12:55:03Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'communication' is too narrow for '決裂'. While it often applies to communication breakdowns, it can also refer to the collapse of relationships or agreements more broadly.",
+      "suggestion": "action"
+    }
+  ]
 }

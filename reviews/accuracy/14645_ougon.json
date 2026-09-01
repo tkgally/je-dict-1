@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:26:34Z",
+  "reviewed_at": "2026-09-01T12:50:20Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword '黄金' (gold) is a noun referring to a precious metal, not primarily a color. While it can describe a color, its core meaning is the metal itself. The tag 'color' is too narrow and misleading as the primary semantic tag.",
-      "suggestion": "Add 'general' or 'money' or 'resource' to better reflect its primary meaning as a metal/valuable commodity. 'color' could remain as a secondary tag if desired, but not as the sole tag."
+      "concern": "The headword '黄金' refers to gold as a metal and also figuratively to something valuable or prime, not just a color. The tag 'color' is too narrow and misleading.",
+      "suggestion": "Add 'general' or 'abstract' to better reflect the broader meaning of the headword, or replace 'color' with 'general' or 'abstract'."
     }
   ]
 }

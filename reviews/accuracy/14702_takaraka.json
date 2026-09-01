@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:27:35Z",
+  "reviewed_at": "2026-09-01T12:51:28Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The headword '高らか' is not 'formal'. It is a neutral adjective often used in descriptive contexts, but not specifically formal.",
+      "concern": "The headword '高らか' is not formal. It is a common descriptive term.",
       "suggestion": "neutral"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'held the championship trophy up high' for '優勝トロフィーを高らかに掲げ' misses the nuance of '高らかに' in this context. It implies a triumphant or proud manner, not just physically high.",
+      "suggestion": "The players triumphantly raised the championship trophy and responded to the cheers of the crowd."
     }
   ]
 }

@@ -8,31 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:27:57Z",
+  "reviewed_at": "2026-09-01T12:51:53Z",
   "summary": {
-    "flagged": 3
+    "flagged": 2
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The main gloss is too narrow and misleading given the example sentences. It only mentions 'port' but the word can also refer to airports.",
-      "suggestion": "opening of a port or airport"
+      "concern": "The gloss includes 'or airport', but the headword 開港 (かいこう) specifically refers to a port, not an airport. The term for opening an airport is 開港 (かいこう) or 開設 (かいせつ) for a new airport, but the headword itself is tied to 'port'.",
+      "suggestion": "opening of a port"
     },
     {
       "dimension": "gloss",
       "location": "definitions[0].gloss",
       "severity": "error",
-      "concern": "The detailed gloss is too narrow and misleading given the example sentences. It only mentions 'port' but the word can also refer to airports.",
-      "suggestion": "opening of a port or airport; opening a port or airport to trade"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'transportation' is too narrow. The word also applies to airports, which are covered by 'travel'.",
-      "suggestion": "travel"
+      "concern": "The gloss for definition 1 includes 'or airport', but the headword 開港 (かいこう) specifically refers to a port, not an airport. The term for opening an airport is 開港 (かいこう) or 開設 (かいせつ) for a new airport, but the headword itself is tied to 'port'.",
+      "suggestion": "opening of a port; opening to trade"
     }
   ]
 }

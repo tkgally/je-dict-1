@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T15:57:19Z",
+  "reviewed_at": "2026-09-01T12:55:59Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. '月例' is a neutral term for 'monthly' or 'monthly event' and is used in various contexts without implying formality.",
+      "suggestion": "neutral"
+    }
+  ]
 }

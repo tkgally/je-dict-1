@@ -1634,3 +1634,20 @@ homograph-list truncation.)_
 - [entry] The 2026-01 legacy block (no inline links at all, `・` bullets, ALL-CAPS headers) runs
   at least through 07064 and shows no sign of ending. At roughly one entry per full link pass plus
   notes rewrite, the frontier lane clears about six of these per run.
+
+- [tooling] **The accuracy reviewer's `tags` dimension is now almost pure noise on already-tagged
+  entries.** Over 14639–15238 it raised 88 semantic-tag issues at `error` severity, and only 4 were
+  real — the four entries carrying a tag outside `VALID_SEMANTIC` (`place`, `finance-money`,
+  `language-grammar`, `movement-direction`). The other 84 were in-list breadth substitutions, over
+  half of them the single complaint "'general' is too broad", which the §A policy rejects by
+  definition. The reviewer prompt already embeds `VALID_SEMANTIC`; what it does not do is treat
+  membership as dispositive. If the prompt were told to raise a semantic-tag issue **only** when a
+  tag is absent from the list, this dimension would have produced 4 findings instead of 88 at the
+  same cost, and the adjudication would have been minutes rather than the bulk of the run.
+
+- [tooling] **Formality flags keep contradicting the entry's own notes.** All 19 register issues
+  this run (18 `tags.formality`, 1 `tags.politeness`) asserted a word was "neutral, not formal"
+  where the entry's notes said the opposite in plain words — 転居 "a formal word used mainly in
+  official documents", 米飯 "a formal or written term", おつまみ "the polite form of つまみ". The
+  reviewer is evidently not weighting the notes field it was given. Feeding the notes' own register
+  sentence back into the prompt as the thing to agree or disagree with would kill this family.
