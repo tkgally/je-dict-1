@@ -1595,3 +1595,42 @@ homograph-list truncation.)_
   added as candidates). The internal-completeness gap the lane exists to close is small right now;
   the next few new-entries runs will be working the general queue, which is dominated by proper
   nouns.
+
+## 2026-09-01 — routine(polish), priority lane 17–27 + frontier 07059–07064
+
+- [pattern] **The "missing required section header" diagnosis from 2026-08-30 held for all eight
+  priority entries again, and two of them show it is purely cosmetic.** 連敗 (06529, score 49) and
+  連勝 (06528, score 51) each carried five well-written sections including grammar, collocations,
+  word formation, and register — they scored in the forties only because the header said `GRAMMAR:`
+  rather than the `COMMON PATTERNS:` that `build/note_templates.json` requires for `verb-suru`.
+  Renaming the header and merging the collocation list into it changed the score far more than any
+  of the actual content I added. That means the notes priority list is, for a large slice of its
+  top entries, ranking *header vocabulary* rather than note quality, and a run that works it
+  faithfully spends its budget renaming headings on entries that were already good. Two possible
+  responses: (a) teach `score_note_quality.py` a synonym table (`GRAMMAR` → `common patterns`,
+  `VERB USAGE` → `common patterns`, `USAGE` → `usage`, `COMMON EXPRESSIONS` → `collocations`), so
+  the ranking reflects content; or (b) make a `systemic-fix` item that renames legacy headers to
+  the template vocabulary dictionary-wide, which would drain the false top of the list in one pass.
+  (a) is the smaller change and (b) is the one that actually improves the entries' consistency;
+  they are not exclusive.
+
+- [tooling] **`build/verify_furigana.py` flags bare kanji inside English prose in notes, and this
+  is the second-commonest way a polish edit fails validation.** Writing "All of these take が出る
+  the same way" or "The 発生 version is more formal" inside an English sentence is natural to write
+  and is caught only at verify time, three edits later. It bit this run four times across three
+  entries. A cheap fix: have the checker's message name the offending *line* rather than just the
+  character, which it already computes — the current output prints `Missing furigana for: 発, 生`
+  followed by a `Context:` list that does not contain the offending text, so locating it means
+  writing a throwaway strip-and-scan script every time. I wrote that script again this run.
+
+- [tooling] **Guessing a `noentry` marker rather than checking is still producing false negatives.**
+  Two this run: 走り回る (04608) in 00696 元気 and 用品 in 07062, both written as `noentry` on the
+  assumption that a compound that specific would not have an entry. 走り回る was caught by
+  validation only because I happened to re-run the lookup; 用品 was caught by the candidate-add
+  duplicate gate. This is the same family as the 2026-08-30 `[tooling]` note about truncated
+  homograph lists, and it now has two independent causes, so it is worth the `check_duplicate.py`
+  call every single time before writing `noentry`.
+
+- [entry] The 2026-01 legacy block (no inline links at all, `・` bullets, ALL-CAPS headers) runs
+  at least through 07064 and shows no sign of ending. At roughly one entry per full link pass plus
+  notes rewrite, the frontier lane clears about six of these per run.

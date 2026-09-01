@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07063_kibori_ex1",
-      "japanese": "{祖父|そふ}は{木彫|きぼ}りの{熊|くま}を{作|つく}った。",
+      "japanese": "⟦{祖父|そふ}→祖父：01452_sofu⟧⟦は→は：00079_ha⟧{木彫|きぼ}り⟦の→の：09472_no⟧⟦{熊|くま}→熊：04343_kuma⟧⟦を→を：00422_wo⟧⟦{作|つく}った→作る：00481_tsukuru⟧。",
       "english": "My grandfather made a wooden carved bear.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07063_kibori_ex2",
-      "japanese": "{北海道|ほっかいどう}では{木彫|きぼ}りの{民芸品|みんげいひん}が{有名|ゆうめい}だ。",
+      "japanese": "⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧⟦では→は：00079_ha⟧{木彫|きぼ}り⟦の→の：09472_no⟧⟦{民芸品|みんげいひん}→民芸品：21116_mingeihin⟧⟦が→が：00051_ga⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧⟦だ→だ：09496_da⟧。",
       "english": "Hokkaido is famous for its wood-carved folk crafts.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07063_kibori_ex3",
-      "japanese": "{木彫|きぼ}りを{趣味|しゅみ}にしている。",
+      "japanese": "{木彫|きぼ}り⟦を→を：00422_wo⟧⟦{趣味|しゅみ}→趣味：00889_shumi⟧⟦に→に：00314_ni⟧⟦している→する：00392_suru⟧。",
       "english": "I do wood carving as a hobby.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "CULTURAL NOTE:\n{木彫|きぼ}り is a traditional craft in Japan. {北海道|ほっかいどう} is particularly famous for Ainu-style wood carvings, especially {木彫|きぼ}りの{熊|くま} (carved wooden bears).\n\nCOMMON COLLOCATIONS:\n・{木彫|きぼ}りの{像|ぞう} (wood-carved statue)\n・{木彫|きぼ}りの{熊|くま} (carved wooden bear)\n・{木彫|きぼ}り{細工|ざいく} (wood carving work)\n・{木彫|きぼ}り{師|し} (wood carver)\n\nRELATED TERMS:\n・{彫刻|ちょうこく} (sculpture)\n・{竹細工|たけざいく} (bamboo craft)",
+  "notes": "{木彫|きぼ}り names both the activity of carving wood and the carved object itself, so it can be the subject of a sentence or a modifier: {木彫|きぼ}り⟦の→の：09472_no⟧ + noun is the usual shape.\n\nCOLLOCATIONS:\n- {木彫|きぼ}り⟦の→の：09472_no⟧⟦{熊|くま}→熊：04343_kuma⟧: a carved wooden bear\n- {木彫|きぼ}り⟦の→の：09472_no⟧⟦{像|ぞう}→像：03691_zou⟧: a wooden statue\n- {木彫|きぼ}り⟦{細工|ざいく}→細工：13790_saiku⟧: wood-carving work\n- {木彫|きぼ}り⟦{師|し}→〜師：noentry⟧: a wood carver by trade\n\nSIMILAR WORDS:\n- ⟦{彫刻|ちょうこく}→彫刻：04448_choukoku⟧ is sculpture as an art form, in any material, and is the word for a museum piece. {木彫|きぼ}り names the material and the technique, and covers craft objects as readily as art.\n- ⟦{工芸|こうげい}→工芸：04182_kougei⟧ is the umbrella term for crafts of this kind.\n\nCULTURAL NOTE: the {木彫|きぼ}り⟦の→の：09472_no⟧⟦{熊|くま}→熊：04343_kuma⟧ — a bear with a salmon in its mouth — is the standard souvenir of ⟦{北海道|ほっかいどう}→北海道：11010_hokkaidou⟧ and is instantly recognisable to any Japanese adult. It is associated with Ainu craft traditions, though the familiar form was developed for the tourist trade in the twentieth century.",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,18 @@
       "headword": "{手芸|しゅげい}",
       "label": "handicraft",
       "target_id": "07062_shugei"
+    },
+    {
+      "type": "related",
+      "target_id": "04448_choukoku",
+      "reading": "ちょうこく",
+      "headword": "{彫刻|ちょうこく}",
+      "label": "sculpture as an art form"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:13:57Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-01T00:19:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +72,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "art",
+        "culture"
       ]
     }
   }

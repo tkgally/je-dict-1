@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T21:49:59Z",
+  "reviewed_at": "2026-09-01T00:31:37Z",
   "summary": {
     "flagged": 2
   },
@@ -17,14 +17,14 @@
       "dimension": "translation",
       "location": "examples[2]",
       "severity": "error",
-      "concern": "The English translation 'Please draw a bath' is too specific and doesn't fully capture the nuance of 'お風呂を入れてください' which can also mean 'Please fill the bathtub' or 'Please prepare the bath'. 'Draw a bath' implies filling it, but '入れる' here is more about the action of putting water in.",
+      "concern": "The English translation 'Please draw a bath' is too specific and doesn't fully capture the meaning of 'お風呂を入れてください' which can also mean 'Please fill the bathtub' or 'Please prepare the bath'. 'Draw a bath' implies filling it for someone else, while the Japanese can be more general.",
       "suggestion": "Please fill the bathtub."
     },
     {
       "dimension": "translation",
       "location": "examples[9]",
       "severity": "error",
-      "concern": "The English translation 'Please push with force' is a bit unnatural. A more common and natural way to express '力を入れて押してください' in English would be 'Please push hard' or 'Please push with all your might'.",
+      "concern": "The English translation 'Please push with force' is a bit unnatural. A more common and natural way to express '力を入れて押してください' would be 'Please push hard' or 'Please push with all your strength'.",
       "suggestion": "Please push hard."
     }
   ]

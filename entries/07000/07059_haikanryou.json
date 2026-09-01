@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "07059_haikanryou_ex1",
-      "japanese": "{金閣寺|きんかくじ}の{拝観料|はいかんりょう}は500{円|えん}です。",
+      "japanese": "⟦{金閣寺|きんかくじ}→金閣寺：noentry⟧⟦の→の：09472_no⟧{拝観料|はいかんりょう}⟦は→は：00079_ha⟧500⟦{円|えん}→円：00774_en⟧⟦です→です：09485_desu⟧。",
       "english": "The admission fee for Kinkaku-ji is 500 yen.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "07059_haikanryou_ex2",
-      "japanese": "{拝観料|はいかんりょう}を{払|はら}って{境内|けいだい}に{入|はい}った。",
+      "japanese": "{拝観料|はいかんりょう}⟦を→を：00422_wo⟧⟦{払|はら}って→払う：00535_harau⟧⟦{境内|けいだい}→境内：12095_keidai⟧⟦に→に：00314_ni⟧⟦{入|はい}った→入る：00494_hairu⟧。",
       "english": "I paid the admission fee and entered the temple grounds.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "07059_haikanryou_ex3",
-      "japanese": "この{神社|じんじゃ}は{拝観料|はいかんりょう}{無料|むりょう}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦は→は：00079_ha⟧{拝観料|はいかんりょう}⟦{無料|むりょう}→無料：01662_muryou⟧⟦だ→だ：09496_da⟧。",
       "english": "This shrine has free admission.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{拝観|はいかん} (respectful viewing/worship) + {料|りょう} (fee)\n- {拝|はい} expresses humble/respectful attitude\n- {観|かん} means viewing\n\nRELATED FEE TYPES:\n・{入場料|にゅうじょうりょう} - general admission fee\n・{入館料|にゅうかんりょう} - museum admission fee\n・{観覧料|かんらんりょう} - viewing fee\n\nCOLLOCATIONS:\n・{拝観料|はいかんりょう}を{払|はら}う - to pay the viewing fee\n・{拝観料|はいかんりょう}{無料|むりょう} - free admission\n・{拝観料|はいかんりょう}{込|こ}み - viewing fee included\n\nVERB FORM:\n{拝観|はいかん}する - to visit/view (a temple or shrine)\n\nCULTURAL NOTE:\nMajor temples in Kyoto, Nara, and other tourist areas typically charge {拝観料|はいかんりょう}, while many neighborhood shrines are free to enter.",
+  "notes": "FORMATION: ⟦{拝観|はいかん}→拝観：noentry⟧ (respectful viewing) + {料|りょう} (fee). The {拝|はい} is the same character as in {拝|おが}む (to pray to, to bow before), and it frames entry as a reverent act rather than the purchase of a ticket. That is why the word is confined to temples, shrines, and comparable historical sites.\n\nRELATED FEE TYPES: Japanese picks the fee word by the kind of place, and the four are not interchangeable.\n- {拝観料|はいかんりょう}: temples and shrines\n- ⟦{入館料|にゅうかんりょう}→入館料：07141_nyuukanryou⟧: buildings whose name ends in 〜{館|かん} — museums, galleries, halls\n- ⟦{入場料|にゅうじょうりょう}→入場料：07056_nyuujouryou⟧: grounds, venues, and events\n- ⟦{観覧料|かんらんりょう}→観覧料：noentry⟧: places you go to look at something — a garden, an observation deck, a zoo\n\nCOLLOCATIONS:\n- {拝観料|はいかんりょう}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: pay the viewing fee\n- {拝観料|はいかんりょう}⟦{無料|むりょう}→無料：01662_muryou⟧: admission free (sign wording; no particle)\n- {拝観料|はいかんりょう}⟦{込|こ}み→込み：28615_komi⟧: viewing fee included, e.g. in a tour price\n\nVERB FORM: ⟦{拝観|はいかん}→拝観：noentry⟧⟦する→する：00392_suru⟧ is to view a temple or shrine. It is humble in origin — the speaker lowers their own act of looking — so it is not used of ordinary sightseeing.\n\nCULTURAL NOTE: major temples in ⟦{京都|きょうと}→京都：09484_kyouto⟧ and ⟦{奈良|なら}→奈良：27451_nara⟧ charge a {拝観料|はいかんりょう}, commonly a few hundred yen, and it often covers only the main hall or the garden rather than the whole ⟦{境内|けいだい}→境内：12095_keidai⟧. Most neighbourhood ⟦{神社|じんじゃ}→神社：01620_jinja⟧ charge nothing at all.",
   "cross_references": [
     {
       "type": "related",
@@ -55,14 +55,14 @@
   ],
   "metadata": {
     "created": "2026-01-18T22:21:53Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-09-01T00:19:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "politeness": "humble",
+      "politeness": "plain",
       "formality": "neutral",
       "semantic": [
         "money",

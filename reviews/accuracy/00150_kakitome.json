@@ -2,29 +2,15 @@
   "entry_id": "00150_kakitome",
   "headword": "{書留|かきとめ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:42:15Z",
+  "reviewed_at": "2026-09-01T00:31:32Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'communication' is too broad and not specific enough for 'registered mail'.",
-      "suggestion": "Consider a more specific tag like 'postal service' or 'mail'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English translation 'cash registered mail' is not a natural or common phrase in English.",
-      "suggestion": "Translate as 'I sent money by registered cash mail' or 'I sent money using registered mail for cash'."
-    }
-  ]
+  "issues": []
 }
