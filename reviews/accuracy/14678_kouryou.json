@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:27:09Z",
+  "reviewed_at": "2026-09-01T12:50:58Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'food' is too narrow for '香料' which also refers to fragrances for non-food items.",
-      "suggestion": "Add 'daily-life' or 'general' to cover the broader meaning of 'fragrance' in cosmetics, perfumes, etc."
+      "concern": "The headword '香料' refers to both food-related flavorings/spices and non-food fragrances/perfume ingredients. The tag 'food' is too narrow and misleading as the sole semantic tag.",
+      "suggestion": "Add 'daily-life' or 'general' to cover the non-food fragrance aspect, or replace 'food' with a broader tag like 'general' if a single tag is preferred."
     }
   ]
 }

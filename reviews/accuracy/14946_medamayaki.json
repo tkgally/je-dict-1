@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T15:57:29Z",
+  "reviewed_at": "2026-09-01T12:56:11Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss implies that 目玉焼き exclusively means 'sunny-side up', but it can also refer to other types of fried eggs where the yolk is visible, such as over easy or over medium.",
+      "suggestion": "fried egg"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss implies that 目玉焼き exclusively means 'sunny-side up', but it can also refer to other types of fried eggs where the yolk is visible, such as over easy or over medium.",
+      "suggestion": "fried egg"
+    }
+  ]
 }

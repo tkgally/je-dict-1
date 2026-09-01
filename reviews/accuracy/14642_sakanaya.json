@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:26:30Z",
+  "reviewed_at": "2026-09-01T12:50:15Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'building' is too narrow and potentially misleading for '魚屋' which can also refer to the person (fishmonger).",
-      "suggestion": "Replace 'building' with 'occupation' or 'shopping'."
+      "concern": "The semantic tag 'building' is incorrect for '魚屋' (sakanaya). While a fish shop is a type of building, the primary meaning of '魚屋' refers to the business or the person, not just the physical structure.",
+      "suggestion": "Replace 'building' with 'shopping' or 'occupation' (if referring to the fishmonger)."
     }
   ]
 }

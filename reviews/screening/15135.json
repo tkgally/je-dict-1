@@ -1,13 +1,8 @@
 {
   "entry_id": "15135",
-  "screened_at": "2026-07-15T03:21:14Z",
+  "screened_at": "2026-09-01T12:53:46Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "Pair 2: The reading for '打' is 'う', but the following text 'つのが' suggests the full reading should be 'うつ'. Since the reading covers ONLY the kanji portion, 'う' for '打' is a partial reading and thus correct by design. However, the prompt states 'Do NOT flag partial readings as errors — they are correct by design.' but also 'the reading covers ONLY the kanji portion.' This creates an ambiguity. If 'う' is the intended reading for '打' in this context, it's correct. If it's meant to be 'うつ', then 'う' is a partial reading. Given the instruction to not flag partial readings, this is technically correct.",
-    "Pair 7: The reading for '布石' is 'ふせ'. The full reading for '布石' is 'ふせき'. This is a partial reading, which is allowed by the rules. However, it's worth noting that the entry itself defines {布石|ふせき} as the full reading. If the intention is to always provide the full reading when possible, then 'ふせ' would be an error. But based on the rule 'Do NOT flag partial readings as errors — they are correct by design.', this is technically correct.",
-    "Pair 8: The reading for '社長交代' is 'しゃち'. The full reading for '社長交代' is 'しゃちょうこうたい'. This is a partial reading, which is allowed by the rules. Similar to Pair 7, if the intention is to always provide the full reading when possible, then 'しゃち' would be an error. But based on the rule 'Do NOT flag partial readings as errors — they are correct by design.', this is technically correct.",
-    "Pair 10: The reading for '老後' is 'ろ'. The full reading for '老後' is 'ろうご'. This is a partial reading, which is allowed by the rules. Similar to Pair 7 and 8, if the intention is to always provide the full reading when possible, then 'ろ' would be an error. But based on the rule 'Do NOT flag partial readings as errors — they are correct by design.', this is technically correct."
-  ],
-  "confidence": 0.7
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

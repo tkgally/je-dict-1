@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T15:59:23Z",
+  "reviewed_at": "2026-09-01T12:57:01Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'tool' is too general and doesn't fully capture the meaning of '調理器具'.",
+      "suggestion": "Add 'food' or 'daily-life' to better reflect the context of cooking."
+    }
+  ]
 }

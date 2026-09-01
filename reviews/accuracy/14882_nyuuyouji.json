@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T01:30:50Z",
+  "reviewed_at": "2026-09-01T12:54:50Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '乳幼児'. While it refers to a specific age group, it's a common, neutral term used in everyday contexts, not exclusively formal ones.",
+      "suggestion": "neutral"
+    }
+  ]
 }

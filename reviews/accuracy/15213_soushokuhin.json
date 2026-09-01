@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-15T18:46:54Z",
+  "reviewed_at": "2026-09-01T13:01:13Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Semantic tag 'object' is not in the valid tag list.",
-      "suggestion": "general"
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with a more specific meaning.",
+      "suggestion": "Replace 'general' with 'art' or 'daily-life' or 'clothing'."
     }
   ]
 }

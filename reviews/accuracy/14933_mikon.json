@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-14T15:57:08Z",
+  "reviewed_at": "2026-09-01T12:55:50Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. While '未婚' can appear in formal contexts, it is not inherently a formal word. It is a neutral term for 'unmarried' and is used in everyday conversation as well as official documents.",
+      "suggestion": "neutral"
+    }
+  ]
 }
