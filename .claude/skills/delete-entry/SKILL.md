@@ -122,7 +122,7 @@ If the word should eventually have an entry (just not this flawed one):
 ## Step 6: Rebuild the Flat File
 
 ```bash
-python3 build/build_flat.py
+make index   # indexes + kanji JSON; the site builds in CI after merge
 ```
 
 This updates the website data. Without this step, the deleted entry may still appear on the live site.
@@ -156,7 +156,7 @@ rm entries/04500/04567_taberu.json
 python3 build/update_indexes.py
 
 # 6. Rebuild flat file
-python3 build/build_flat.py
+make index   # indexes + kanji JSON; the site builds in CI after merge
 
 # 7. Validate
 python3 build/validate.py
@@ -192,7 +192,7 @@ When updating cross-references, use this format:
 ## Troubleshooting
 
 ### "Entry still appears on website"
-- Did you run `build_flat.py`?
+- Did you run `make index`?
 - Clear browser cache or check `docs/flat_dictionary.json`
 
 ### "Validation shows broken cross-reference"

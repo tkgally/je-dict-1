@@ -1,5 +1,11 @@
 # Polish Semantic Labels
 
+> **Note (2026-09-02):** this prompt predates the current process. Where it says `make build` or
+> to commit `docs/`, run `make index` instead — the site is built by GitHub Actions after the merge
+> and `docs/` is no longer tracked. Where it says to place inline links or `noentry` markers by hand,
+> run `python3 build/auto_link.py --ids <ids> --apply` instead and add missing words as candidates.
+> The scheduled Routine is `prompts/routine2.md`; see `enhancement/assessment-2026-09-02.md`.
+
 Check dictionary entries one by one for **correct semantic labels**. This is a **semantic task** that requires your knowledge of Japanese vocabulary - it cannot be automated because determining the correct semantic category requires understanding what a word actually means and how it's used.
 
 ## Task Focus

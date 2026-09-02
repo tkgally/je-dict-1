@@ -24,9 +24,8 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 | Core tier | ~1,982 (closed) |
 | General tier | ~27,781 (open) |
 | Candidate words | ~195 (all vetted; queue cleaned 2026-08-11) |
-| Cross-references | ~3,400 |
-| Example sentences | ~53,200 |
-| Audio files | 1,028 |
+| Cross-references | ~19,000 |
+| Example sentences | ~119,000 |
 
 ## v2 Quality Standards
 

@@ -1,0 +1,122 @@
+{
+  "_doc": "Canonical section headers for the notes field, with the legacy spellings that map to each. Consumed by build/normalize_notes.py (rename sweep), build/check_note_headers.py (CI ratchet: no new header outside this list), build/score_note_quality.py (section detection), and documented for writers in .claude/skills/vocabulary-notes/SKILL.md. A header is an ALL-CAPS line ending in a colon. Aliases are matched case-insensitively after trimming; a parenthetical Japanese gloss like 'ASPECT (ている)' is kept on the canonical form where listed. Headers not listed anywhere here are 'unknown': the ratchet tolerates the ones in build/data/unknown_header_baseline.json and blocks new ones.",
+  "canonical": {
+    "USAGE": {
+      "aliases": ["USAGE NOTE", "USAGE NOTES", "NOTE", "NOTES", "USAGE CONTEXT", "USAGE CONTEXTS", "HOW TO USE", "WHEN TO USE", "TYPICAL CONTEXTS", "TYPICAL CONTEXT", "CONTEXT", "CONTEXTS", "NUANCE", "NUANCES", "MEANING", "MEANING AND USAGE", "USAGE AND NUANCE", "USAGE AND MEANING", "GENERAL USAGE", "BASIC USAGE", "USAGE TIPS", "USAGE TIP", "KEY POINTS", "KEY POINT", "OVERVIEW", "NEGATIVE USAGE", "PREDICATE VS. MODIFIER", "PREDICATE VS MODIFIER", "SCOPE", "DOMAIN NOTE", "USE"],
+      "description": "How and when the word is used; core meaning beyond the gloss; restrictions; nuance."
+    },
+    "COMMON COLLOCATIONS": {
+      "aliases": ["COLLOCATIONS", "COLLOCATION", "COMMON COLLOCATION", "COMMON COMBINATIONS", "TYPICAL COLLOCATIONS", "FREQUENT COLLOCATIONS", "KEY COLLOCATIONS", "USEFUL COLLOCATIONS", "COMMON PAIRINGS", "COLLOCATIONS AND EXPRESSIONS", "COMMON COLLOCATIONS AND EXPRESSIONS", "COMMON COLLOCATIONS AND PATTERNS", "COLLOCATIONS AND PATTERNS", "COMMON USAGE", "COMMON USES", "COMMON PHRASES AND COLLOCATIONS"],
+      "description": "Bulleted word combinations the headword commonly appears in, each with an English gloss."
+    },
+    "COMMON PATTERNS": {
+      "aliases": ["PATTERNS", "PATTERN", "GRAMMAR", "GRAMMAR PATTERNS", "GRAMMAR PATTERN", "GRAMMAR NOTE", "GRAMMAR NOTES", "GRAMMATICAL PATTERNS", "GRAMMATICAL NOTE", "GRAMMATICAL NOTES", "USAGE PATTERNS", "USAGE PATTERN", "SENTENCE PATTERNS", "SENTENCE PATTERN", "PARTICLE PATTERNS", "PARTICLE PATTERN", "PARTICLES", "PARTICLE USAGE", "STRUCTURE", "STRUCTURES", "SYNTAX", "CONSTRUCTION", "CONSTRUCTIONS", "COMMON CONSTRUCTIONS", "COMMON STRUCTURES", "KEY PATTERNS", "TYPICAL PATTERNS", "COMMON GRAMMAR PATTERNS", "FORMS AND PATTERNS", "PATTERNS AND USAGE"],
+      "description": "Grammatical frames the word takes: particles, argument structure, fixed constructions."
+    },
+    "COMMON EXPRESSIONS": {
+      "aliases": ["EXPRESSIONS", "EXPRESSION", "COMMON EXPRESSION", "SET PHRASES", "SET PHRASE", "SET EXPRESSIONS", "FIXED EXPRESSIONS", "FIXED EXPRESSION", "FIXED PHRASES", "IDIOMS", "IDIOM", "IDIOMATIC EXPRESSIONS", "IDIOMATIC USES", "IDIOMATIC USAGE", "PHRASES", "COMMON PHRASES", "USEFUL PHRASES", "USEFUL EXPRESSIONS", "KEY EXPRESSIONS", "TYPICAL EXPRESSIONS", "COMMON IDIOMS", "PROVERBS", "PROVERBS AND SAYINGS", "SAYINGS"],
+      "description": "Fixed phrases and idioms built on the headword."
+    },
+    "COMPOUNDS": {
+      "aliases": ["COMMON COMPOUNDS", "COMPOUND WORDS", "COMPOUND", "COMPOUNDS AND DERIVATIVES", "DERIVED WORDS", "DERIVATIVES", "DERIVED TERMS", "RELATED COMPOUNDS", "COMPOUND FORMS", "COMMON COMPOUND WORDS", "KEY COMPOUNDS"],
+      "description": "Compound words containing the headword."
+    },
+    "FORMS": {
+      "aliases": ["FORM", "WORD FORMATION", "FORMATION", "FORMATIONS", "RELATED FORMS", "DERIVED FORMS", "OTHER FORMS", "ADVERBIAL FORM", "ADVERBIAL FORMS", "NOUN FORM", "NOUN FORMS", "ADJECTIVAL FORM", "VERB FORM", "VERB FORMS", "VARIANT FORMS", "VARIANTS", "INFLECTION", "INFLECTIONS", "MORPHOLOGY", "WORD FORMS", "FORMS AND VARIANTS"],
+      "description": "Inflectional and derivational forms (〜く / 〜さ / 〜的 / 〜化), variant spellings."
+    },
+    "SIMILAR WORDS": {
+      "aliases": ["SIMILAR WORD", "SIMILAR VERBS", "SIMILAR VERB", "SIMILAR ADJECTIVES", "SIMILAR ADJECTIVE", "SIMILAR ADVERBS", "SIMILAR ADVERB", "SIMILAR EXPRESSIONS", "SIMILAR EXPRESSION", "SIMILAR TERMS", "SIMILAR TERM", "SIMILAR COUNTERS", "SIMILAR NOUNS", "SIMILAR PARTICLES", "SIMILAR AND RELATED WORDS", "NEAR SYNONYMS", "NEAR-SYNONYMS", "SYNONYMS", "SYNONYM", "SYNONYMS AND NEAR-SYNONYMS", "COMPARISON", "COMPARISONS", "COMPARED WITH", "COMPARE", "COMPARE WITH", "CONTRAST", "CONTRASTS", "CONTRAST WITH", "CONTRASTING WORDS", "DISTINCTION", "DISTINCTIONS", "DIFFERENCES", "DIFFERENCE", "VS", "VS.", "VERSUS", "ALTERNATIVES", "ALTERNATIVE WORDS", "CHOOSING BETWEEN", "WORD CHOICE", "SIMILAR WORDS AND CONTRASTS", "SIMILAR AND CONTRASTING WORDS", "ANTONYMS", "ANTONYM", "OPPOSITES", "OPPOSITE", "SYNONYMS AND ANTONYMS", "RELATED AND CONTRASTING WORDS"],
+      "description": "Near-synonyms, contrasts, and antonyms, each with the distinction a learner needs."
+    },
+    "RELATED WORDS": {
+      "aliases": ["RELATED", "RELATED WORD", "RELATED TERMS", "RELATED TERM", "RELATED EXPRESSIONS", "RELATED EXPRESSION", "RELATED VOCABULARY", "RELATED VOCAB", "SEE ALSO", "ASSOCIATED WORDS", "ASSOCIATED TERMS", "RELATED CONCEPTS", "RELATED ITEMS", "VOCABULARY", "RELATED VERBS", "RELATED NOUNS", "RELATED ADJECTIVES", "OTHER RELATED WORDS"],
+      "description": "Thematically connected vocabulary (not near-synonyms)."
+    },
+    "TRANSITIVITY": {
+      "aliases": ["TRANSITIVE/INTRANSITIVE", "TRANSITIVE / INTRANSITIVE", "TRANSITIVITY PAIR", "TRANSITIVE AND INTRANSITIVE", "INTRANSITIVE/TRANSITIVE", "TRANSITIVITY NOTE", "PAIR VERB", "PAIRED VERB", "TRANSITIVITY AND PAIR"],
+      "description": "Verbs: 自動詞/他動詞 and the paired verb."
+    },
+    "ASPECT (ている)": {
+      "aliases": ["ASPECT", "ASPECT NOTE", "ASPECT NOTES", "ている", "ている FORM", "ている USAGE", "TE-IRU", "TE IRU", "TEIRU", "ASPECT (ている FORM)", "ASPECT: ている", "〜ている", "ている ASPECT", "PROGRESSIVE/RESULTATIVE", "RESULTATIVE"],
+      "description": "Verbs: what ている means with this verb (progressive, resultant state, habitual)."
+    },
+    "REGISTER": {
+      "aliases": ["FORMALITY", "REGISTER AND FORMALITY", "FORMALITY AND REGISTER", "REGISTER NOTE", "REGISTER NOTES", "POLITENESS", "POLITENESS LEVEL", "STYLE", "TONE", "LEVEL OF FORMALITY", "FORMALITY LEVEL", "REGISTER/FORMALITY", "FORMAL VS CASUAL", "FORMAL VS. CASUAL", "SPOKEN VS WRITTEN", "SPOKEN VS. WRITTEN", "REGISTER AND STYLE", "REGISTER AND TONE"],
+      "description": "Formality, politeness, spoken/written, who uses it."
+    },
+    "KEIGO": {
+      "aliases": ["HONORIFIC FORMS", "HONORIFIC FORM", "HONORIFICS", "HONORIFIC", "POLITE FORMS", "POLITE FORM", "HUMBLE FORMS", "HUMBLE FORM", "KEIGO FORMS", "KEIGO EQUIVALENTS", "HONORIFIC AND HUMBLE FORMS", "HONORIFIC/HUMBLE FORMS", "RESPECTFUL FORMS", "POLITE EQUIVALENTS", "KEIGO NOTE"],
+      "description": "Honorific and humble equivalents."
+    },
+    "CULTURAL NOTE": {
+      "aliases": ["CULTURAL NOTES", "CULTURAL CONTEXT", "CULTURE", "CULTURAL BACKGROUND", "CULTURAL", "CULTURAL SIGNIFICANCE", "CULTURAL INFORMATION", "CULTURAL REFERENCE", "BACKGROUND", "BACKGROUND NOTE", "CONTEXT NOTE", "SOCIAL CONTEXT", "SOCIAL NOTE", "IN JAPAN", "JAPANESE CONTEXT", "CULTURAL ASPECT", "CULTURAL ASPECTS", "CULTURE NOTE", "CULTURE NOTES", "CULTURAL INSIGHT", "CULTURAL NOTE:"],
+      "description": "Cultural, social, or practical background a learner needs."
+    },
+    "ETYMOLOGY": {
+      "aliases": ["ORIGIN", "ORIGINS", "WORD ORIGIN", "WORD ORIGINS", "HISTORICAL NOTE", "HISTORICAL NOTES", "HISTORY", "HISTORICAL BACKGROUND", "HISTORICAL CONTEXT", "SOURCE", "LOANWORD ORIGIN", "LOANWORD NOTE", "ENGLISH SOURCE", "WHICH ENGLISH SOURCE WORD", "DERIVATION", "ETYMOLOGY AND HISTORY", "ORIGIN AND HISTORY", "ORIGIN NOTE", "LOANWORD SOURCE"],
+      "description": "Where the word comes from, including the source word of a loanword."
+    },
+    "WATCH OUT": {
+      "aliases": ["COMMON MISTAKES", "COMMON MISTAKE", "MISTAKES", "MISTAKE", "CAUTION", "CAUTIONS", "WARNING", "WARNINGS", "PITFALLS", "PITFALL", "COMMON ERRORS", "COMMON ERROR", "ERRORS", "DON'T CONFUSE", "DO NOT CONFUSE", "CONFUSION", "POSSIBLE CONFUSION", "NOTE OF CAUTION", "CAREFUL", "BE CAREFUL", "LEARNER PITFALLS", "LEARNER MISTAKES", "TRAPS", "TRAP", "COMMON CONFUSION", "COMMON CONFUSIONS", "HOMOPHONE", "HOMOPHONES", "HOMOPHONE NOTE", "HOMOPHONE WARNING", "HOMOGRAPH", "HOMOGRAPHS", "FALSE FRIEND", "FALSE FRIENDS", "CAVEAT", "CAVEATS", "NOTE ON CONFUSION", "ATTENTION", "IMPORTANT"],
+      "description": "Pitfalls, confusable words, homophone traps, learner mistakes."
+    },
+    "FUNCTIONS": {
+      "aliases": ["FUNCTION", "USES", "MAIN FUNCTIONS", "MAIN USES", "PRIMARY FUNCTIONS", "KEY FUNCTIONS", "GRAMMATICAL FUNCTIONS", "GRAMMATICAL FUNCTION", "ROLES", "ROLE", "SENSES", "MAIN SENSES"],
+      "description": "Particles and grammar words: the distinct functions, each with a pattern."
+    },
+    "COUNTING PATTERNS": {
+      "aliases": ["COUNTING", "COUNTING PATTERN", "HOW TO COUNT", "COUNTER USAGE", "COUNTING FORMS", "NUMBER FORMS", "COUNTING WITH", "SOUND CHANGES", "READING CHANGES", "IRREGULAR READINGS", "COUNTING STREAKS"],
+      "description": "Counters: the number forms and sound changes."
+    },
+    "TYPES": {
+      "aliases": ["TYPE", "KINDS", "KIND", "VARIETIES", "VARIETY", "CATEGORIES", "CATEGORY", "COMMON TYPES", "MAIN TYPES", "EXAMPLES OF TYPES", "SUBTYPES"],
+      "description": "Kinds of the thing named, when the list helps a learner."
+    },
+    "POSITION IN SENTENCE": {
+      "aliases": ["POSITION", "WORD ORDER", "PLACEMENT", "SENTENCE POSITION", "POSITION AND PLACEMENT", "SYNTACTIC POSITION", "WHERE IT GOES"],
+      "description": "Adverbs and connectives: where the word sits."
+    },
+    "PRONUNCIATION": {
+      "aliases": ["INTONATION", "ACCENT", "PITCH ACCENT", "PITCH", "READING", "READINGS", "READING NOTE", "READING NOTES", "PRONUNCIATION NOTE", "SOUND", "HOW TO READ"],
+      "description": "Reading and accent notes when they matter."
+    },
+    "WRITING": {
+      "aliases": ["ORTHOGRAPHY", "KANJI", "KANJI NOTE", "KANJI NOTES", "KANJI USAGE", "KANJI VS KANA", "KANJI VS. KANA", "KANA VS KANJI", "KANA VS. KANJI", "SPELLING", "WRITTEN FORM", "WRITTEN FORMS", "KANJI AND KANA", "KANJI OR KANA", "HOW TO WRITE", "WRITING NOTE", "KANJI VARIANTS", "KANJI VARIANT", "OKURIGANA", "KANJI CHOICE", "SCRIPT"],
+      "description": "Whether to write in kanji or kana; variant kanji; okurigana."
+    }
+  },
+  "template_sections": {
+    "_doc": "Maps the section keys used in build/note_templates.json to canonical headers, so the scorer credits a section whenever the canonical header (or one of its aliases) is present.",
+    "usage": "USAGE",
+    "usage context": "USAGE",
+    "negative usage": "USAGE",
+    "predicate vs. modifier": "USAGE",
+    "collocations": "COMMON COLLOCATIONS",
+    "common patterns": "COMMON PATTERNS",
+    "patterns": "COMMON PATTERNS",
+    "particles": "COMMON PATTERNS",
+    "common expressions": "COMMON EXPRESSIONS",
+    "compounds": "COMPOUNDS",
+    "forms": "FORMS",
+    "similar words": "SIMILAR WORDS",
+    "similar verbs": "SIMILAR WORDS",
+    "similar adjectives": "SIMILAR WORDS",
+    "similar adverbs": "SIMILAR WORDS",
+    "similar expressions": "SIMILAR WORDS",
+    "similar counters": "SIMILAR WORDS",
+    "contrasts": "SIMILAR WORDS",
+    "transitivity": "TRANSITIVITY",
+    "aspect": "ASPECT (ている)",
+    "register": "REGISTER",
+    "formality": "REGISTER",
+    "keigo": "KEIGO",
+    "cultural context": "CULTURAL NOTE",
+    "common mistakes": "WATCH OUT",
+    "functions": "FUNCTIONS",
+    "counting patterns": "COUNTING PATTERNS",
+    "range": "COUNTING PATTERNS",
+    "exceptions": "COUNTING PATTERNS",
+    "position in sentence": "POSITION IN SENTENCE"
+  }
+}

@@ -1,4 +1,4 @@
-.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup orchestrate orchestrate-status orchestrate-stop monitor
+.PHONY: test install-hooks metrics-page validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup orchestrate orchestrate-status orchestrate-stop monitor
 
 validate:
 	python3 build/validate.py
@@ -6,13 +6,14 @@ validate:
 validate-changed:
 	python3 build/validate.py --changed-only
 
-index:
+index: validate
 	python3 build/update_indexes.py
+	python3 build/update_kanji_index.py
 
-build: validate index
+build: index
 	python3 build/build_flat.py
 
-quick: validate index
+quick: index
 	python3 build/build_flat.py --quick
 
 word-lookup:
@@ -88,3 +89,13 @@ monitor:
 	python3 pipeline/monitor.py
 
 full: clean build
+
+test:
+	python3 -m unittest discover -s build/tests -t .
+
+install-hooks:
+	git config core.hooksPath .githooks
+	@echo "pre-commit hook active (.githooks/pre-commit)"
+
+metrics-page:
+	python3 pipeline/metrics_report.py

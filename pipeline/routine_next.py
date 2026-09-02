@@ -6,9 +6,12 @@ debt-based weighted scheduler with bounded health nudges, then emits the choice
 as JSON on stdout for prompts/routine2.md to act on.
 
 Modes: polish, systemic-fix, accuracy-review, new-entries, candidates, wiki.
-(`systemic-fix` ships disabled in Phase 1 via routine-config.json enabled_modes.
-`candidates` self-suppresses while the candidate queue is sufficiently stocked,
-so it only claims runs when the queue actually needs restocking.)
+`candidates` self-suppresses while the candidate queue is sufficiently stocked;
+`systemic-fix` self-suppresses with no open batch-ready backlog item;
+`accuracy-review` self-suppresses when the OpenRouter daily cap is spent; `wiki`
+has weight 0 and runs only when its trigger fires (unharvested observations
+above the threshold and at least N days since the last wiki run), at the
+effective weight given in config "floors".
 
 Design: enhancement/unified-routine-plan-2026-06-09.md §4.
 
@@ -53,28 +56,29 @@ ALL_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries",
              "candidates", "wiki"]
 
 DEFAULT_CONFIG = {
-    "runs_per_day_hint": 6,
     "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries",
                       "candidates", "wiki"],
     "weights": {
-        "polish": 0.35,
-        "systemic-fix": 0.10,
-        "accuracy-review": 0.25,
-        "new-entries": 0.15,
-        "candidates": 0.10,
-        "wiki": 0.15,
+        "polish": 0.30,
+        "systemic-fix": 0.25,
+        "accuracy-review": 0.30,
+        "new-entries": 0.10,
+        "candidates": 0.05,
+        "wiki": 0.0,
     },
+    "floors": {"wiki": 0.15},
     "nudges": {
         "candidate_high_threshold": 400,
-        "candidate_low_threshold": 80,
-        "candidate_restock_threshold": 150,
+        "candidate_low_threshold": 40,
+        "candidate_restock_threshold": 100,
         "seen_in_entry_high_threshold": 50,
         "observations_unharvested_lines": 40,
+        "wiki_min_days_between_runs": 7,
         "min_multiplier": 0.5,
         "max_multiplier": 2.0,
     },
     "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix",
-                          "candidates"],
+                          "candidates", "wiki"],
     "anti_repeat_override_multiplier": 1.8,
     "openrouter": {"daily_cap_usd": 5.0, "per_session_cap_usd": 2.5,
                    "self_check_cap_usd": 0.25},
@@ -184,8 +188,6 @@ def compute_signals():
             if re.match(r"\s*-\s*\[", line):
                 unharvested += 1
 
-    reviewed = len(glob.glob(str(REVIEWS_DIR / "*.json")))
-
     queue = load_backlog_queue()
     open_backlog = sum(1 for it in queue.get("items", [])
                        if it.get("status") == "open" and it.get("batch_ready"))
@@ -197,9 +199,27 @@ def compute_signals():
         "comprehensive_next": parse_next(COMPREHENSIVE_PROGRESS),
         "cross_model_review_next": parse_next(XMODEL_PROGRESS),
         "unharvested_observations": unharvested,
-        "reviewed_entries": reviewed,
         "open_backlog_items": open_backlog,
     }
+
+
+def days_since_mode(state, mode):
+    """Days since the most recent run of `mode` in the persisted history
+    (a large number if it never ran)."""
+    latest = None
+    for h in state.get("history", []) or []:
+        if h.get("mode") != mode:
+            continue
+        try:
+            at = datetime.fromisoformat(str(h.get("at")).replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if at.tzinfo is None:
+            at = at.replace(tzinfo=timezone.utc)
+        latest = at if latest is None or at > latest else latest
+    if latest is None:
+        return 9999.0
+    return (datetime.now(timezone.utc) - latest).total_seconds() / 86400.0
 
 
 # --------------------------------------------------------------------------- #
@@ -282,12 +302,22 @@ def compute_multipliers(signals, config, remaining):
             mult["candidates"] = clamp(1.5)
             reasons["candidates"].append("queue low — restock urgent")
 
-    # wiki
-    m = 1.0
-    if signals.get("unharvested_observations", 0) >= nz["observations_unharvested_lines"]:
-        m *= 1.5
-        reasons["wiki"].append("observations backlog high")
-    mult["wiki"] = clamp(m)
+    # wiki: trigger-only. With weight 0 it never rotates; when the trigger
+    # fires the mode runs once at the config "floors" effective weight.
+    unharv = signals.get("unharvested_observations", 0) or 0
+    days = signals.get("days_since_wiki", 9999.0)
+    if days is None:
+        days = 9999.0
+    min_days = float(nz.get("wiki_min_days_between_runs", 7))
+    if unharv >= nz["observations_unharvested_lines"] and days >= min_days:
+        mult["wiki"] = 1.0
+        reasons["wiki"].append(
+            f"triggered: {unharv} unharvested observations, {days:.0f} days since last wiki run")
+    else:
+        mult["wiki"] = 0.0
+        reasons["wiki"].append(
+            f"not triggered ({unharv} unharvested < {nz['observations_unharvested_lines']} "
+            f"or {days:.0f} days < {min_days:.0f})")
 
     # accuracy-review: hard suppression when out of budget
     if remaining <= 0:
@@ -309,7 +339,12 @@ def select_mode(config, state, mult, forced=None):
     manual testing must not perturb the natural rotation)."""
     norm, enabled = normalized_weights(config)
     debt = {m: float(state["debt"].get(m, 0.0)) for m in ALL_MODES}
-    eff = {m: norm[m] * mult.get(m, 1.0) for m in enabled}
+    floors = config.get("floors", {}) or {}
+    eff = {}
+    for m in enabled:
+        eff[m] = norm[m] * mult.get(m, 1.0)
+        if norm[m] <= 0 and mult.get(m, 0.0) > 0 and floors.get(m):
+            eff[m] = float(floors[m]) * mult.get(m, 1.0)
 
     if forced is not None:
         return forced, debt, eff, norm, enabled, "forced"
@@ -334,7 +369,11 @@ def select_mode(config, state, mult, forced=None):
             continue  # anti-repeat: don't run a heavy mode twice in a row
         eligible.append(m)
     if not eligible:
-        eligible = [m for m in enabled if eff[m] > 0] or list(enabled)
+        eligible = [m for m in enabled if eff[m] > 0]
+    if not eligible:
+        # Everything suppressed (no budget, stocked queue, no backlog): polish
+        # is the one mode that always has work.
+        eligible = ["polish"] if "polish" in enabled else [enabled[0]]
 
     def key(m):
         return (debt[m], norm.get(m, 0.0), -enabled.index(m))
@@ -350,20 +389,20 @@ def build_params(choice, signals, config, remaining):
     if choice == "new-entries":
         cc = signals.get("candidate_count")
         low = cc is not None and cc < config["nudges"]["candidate_low_threshold"]
-        return {"prefer": "seen_in_entry", "approx_count": 20, "candidates_low": bool(low)}
+        return {"prefer": "internal_closure", "approx_count": 20,
+                "candidates_low": bool(low)}
     if choice == "accuracy-review":
         per = float(config["openrouter"]["per_session_cap_usd"])
         return {
-            "phase": "furigana",
             "start_id": signals.get("cross_model_review_next"),
             "openrouter_session_budget_usd": round(min(remaining, per), 2),
         }
     if choice == "candidates":
         cc = signals.get("candidate_count") or 0
-        restock = config["nudges"].get("candidate_restock_threshold", 150)
+        restock = config["nudges"].get("candidate_restock_threshold", 100)
         return {
-            "approx_new": max(40, min(60, restock + 20 - cc)),
-            "queue_count": cc,
+            "approx_new": max(30, min(60, restock + 20 - cc)),
+            "source": "internal_closure",
         }
     if choice == "wiki":
         return {}
@@ -473,6 +512,7 @@ def main():
     config = load_config()
     state = load_state()
     signals = compute_signals()
+    signals["days_since_wiki"] = round(days_since_mode(state, "wiki"), 1)
     ledger, spent, cap, remaining, _reset = read_ledger(config)
 
     if args.simulate is not None:

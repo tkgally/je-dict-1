@@ -345,21 +345,33 @@ def run_screening_pass(entry_ids, api_key, model, dry_run=False, budget=None):
         response = call_openrouter(api_key, model, prompt)
         parsed = parse_screening_response(response)
 
-        if parsed is None:
-            print(f"    WARNING: Failed to parse response, marking as flagged")
-            parsed = {"flagged": True, "concerns": ["Parse failure"], "confidence": 0.0}
+        parse_error = parsed is None
+        if parse_error:
+            # A response we could not parse is NOT evidence of a furigana
+            # error. Record it as a parse error (retried on the next run)
+            # instead of manufacturing a flag (2026-09-02; 69 such "flags"
+            # were found in the screening results).
+            print(f"    WARNING: Failed to parse response, recorded as parse_error")
+            parsed = {"flagged": False, "concerns": [], "confidence": 0.0}
 
         result = {
             "entry_id": entry_id_str,
             "screened_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "model": model,
-            "flagged": parsed.get("flagged", False),
+            "flagged": bool(parsed.get("flagged", False)),
             "concerns": parsed.get("concerns", []),
             "confidence": parsed.get("confidence", 0.5),
+            "parse_error": parse_error,
         }
 
         save_screening_result(result)
-        status.setdefault("screened", {})[entry_id_str] = "flagged" if result["flagged"] else "ok"
+        if parse_error:
+            status.setdefault("screened", {}).pop(entry_id_str, None)
+        else:
+            status.setdefault("screened", {})[entry_id_str] = "flagged" if result["flagged"] else "ok"
+        # Persist after every entry so an interrupted run keeps its coverage
+        # record (the old once-after-the-loop save lost 12,016 results).
+        save_screening_status(status)
         screened += 1
 
         if result["flagged"]:
@@ -389,8 +401,15 @@ def run_screening_pass(entry_ids, api_key, model, dry_run=False, budget=None):
 
 
 def get_flagged_entry_ids():
-    """Get entry IDs flagged during screening."""
+    """Get entry IDs flagged during screening.
+
+    The status file (tracked in git) is the authoritative coverage record; the
+    per-entry result files are local artifacts and may be absent."""
     flagged = []
+    status = load_screening_status()
+    screened = status.get("screened", {}) if isinstance(status, dict) else {}
+    if screened:
+        return sorted(k for k, v in screened.items() if v == "flagged")
     if not SCREENING_DIR.exists():
         return flagged
     for f in sorted(SCREENING_DIR.glob("*.json")):

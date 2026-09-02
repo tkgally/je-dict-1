@@ -62,7 +62,40 @@ Common compounds: {案内|あんない}{所|じょ} (information desk), {道|み
 
 ### 3. Section Headers
 
-Use clear section headers followed by a colon for distinct categories of information:
+Use clear section headers followed by a colon for distinct categories of information.
+**Headers come from a closed list** (`build/data/note_headers.json`; CI blocks a new
+header outside it, and `build/normalize_notes.py` renames legacy spellings):
+
+| Canonical header | Use it for |
+|---|---|
+| `USAGE:` | how and when the word is used; nuance; restrictions |
+| `COMMON COLLOCATIONS:` | bulleted word combinations with glosses |
+| `COMMON PATTERNS:` | grammatical frames: particles, constructions |
+| `COMMON EXPRESSIONS:` | fixed phrases and idioms built on the word |
+| `COMPOUNDS:` | compound words containing the headword |
+| `FORMS:` | inflectional and derived forms (〜く, 〜さ, 〜的, 〜化), variant spellings |
+| `SIMILAR WORDS:` | near-synonyms, contrasts, antonyms, each with the distinction |
+| `RELATED WORDS:` | thematically connected vocabulary |
+| `TRANSITIVITY:` | verbs: 自動詞/他動詞 and the pair |
+| `ASPECT (ている):` | verbs: what ている means with this verb |
+| `REGISTER:` | formality, politeness, spoken/written |
+| `KEIGO:` | honorific and humble equivalents |
+| `CULTURAL NOTE:` | cultural, social, or practical background |
+| `ETYMOLOGY:` | origin, including a loanword's source word |
+| `WATCH OUT:` | pitfalls, confusable words, homophone traps |
+| `FUNCTIONS:` | particles and grammar words: each function with a pattern |
+| `COUNTING PATTERNS:` | counters: number forms and sound changes |
+| `TYPES:` | kinds of the thing named, when the list helps |
+| `POSITION IN SENTENCE:` | adverbs and connectives |
+| `PRONUNCIATION:` | reading and accent notes when they matter |
+| `WRITING:` | kanji versus kana, variant kanji, okurigana |
+
+Legacy names such as `GRAMMAR:`, `COLLOCATIONS:`, `SIMILAR VERBS:`, `USAGE NOTES:`,
+`CONTRAST:`, `CULTURAL CONTEXT:`, `COMMON MISTAKES:` map to the canonical ones above
+and are renamed by the normalizer. Do not invent a topical header ("PET ADOPTION:");
+put that material under `USAGE:` or `CULTURAL NOTE:`.
+
+Example:
 
 ```
 TRANSITIVITY:

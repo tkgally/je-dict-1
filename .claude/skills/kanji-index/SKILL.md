@@ -82,7 +82,7 @@ When new entries introduce kanji not in `kanji_list.json`:
 
 4. **Rebuild**:
    ```bash
-   python3 build/build_flat.py
+   make index   # indexes + kanji JSON; the site builds in CI after merge
    ```
 
 ## Common Tasks
@@ -104,7 +104,7 @@ python3 build/build_kanji_html.py
 
 ### Full Site Build (includes kanji)
 ```bash
-python3 build/build_flat.py
+make index   # indexes + kanji JSON; the site builds in CI after merge
 ```
 
 ## Troubleshooting

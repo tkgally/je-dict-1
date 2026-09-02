@@ -83,7 +83,7 @@ Follow the `delete-entry` skill:
 1. Delete the entry file
 2. Search for cross-references pointing to the deleted entry and update them
 3. Run `python3 build/update_indexes.py`
-4. Run `python3 build/build_flat.py`
+4. Run `make index   # indexes + kanji JSON; the site builds in CI after merge`
 5. Run `python3 build/validate.py`
 
 ### Step 4: Add Cross-References if Needed

@@ -7,9 +7,30 @@ description: Guidelines for adding inline cross-reference links to example sente
 
 This skill covers how to add cross-reference links within example sentences and notes. These links allow users to click on any word in an example to navigate to its dictionary entry.
 
-## Coverage policy
+## Coverage policy (2026-09-02)
 
-Comprehensive polish (`prompts/comprehensive_polish.md`) requires **full inline link coverage on every Japanese word in both example sentences AND the notes field**, with `noentry` markers for words that lack entries. The rules below apply equally to Japanese text wherever it appears in an entry — there is no "examples only" carve-out anymore. The headword itself is not self-linked.
+Inline links are placed **by the deterministic linker**, `build/auto_link.py`, which links a
+token only when it resolves to exactly one entry: kanji words by headword plus reading (from the
+furigana wrapper), katakana words by headword, particles and function words from the fixed table
+below, conjugated forms through the conjugation tables, and kana content words only when the
+reading has a single entry whose own headword is kana. It leaves everything ambiguous alone and
+never writes `noentry` markers. Run it on any entry you create or rewrite:
+
+```bash
+python3 build/auto_link.py --ids <id,id> --apply
+```
+
+By hand, link only what the linker left bare **and** the sentence makes certain (a kana
+homophone such as かける, いる, なる, こと); everything below on semantic verification applies to
+those hand links. Do not hand-link particles, kanji words, or conjugated forms — the linker does
+them. Do not add `noentry` markers; add the missing word as a candidate instead
+(`manage_candidates.py add "語" "ご" "gloss; seen in entry NNNNN"`).
+
+When a new entry creates a homograph of a word that was previously unique,
+`build/check_link_newcomers.py --since <date>` lists the existing links that were never judged
+against the newcomer; the new-entries post-creation sequence runs it.
+
+The headword itself is never linked in its own entry.
 
 ## Link Format
 

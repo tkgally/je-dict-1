@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About the TKG Japanese-English Learner's Dictionary (TKGJE)">
+    <title>About - TKG Japanese-English Learner's Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+.about-page {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+.about-page h1, .about-page h2, .about-page h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.about-page h1 {
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
+}
+.about-page h2 {
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+}
+.about-page h3 {
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+}
+.about-page p {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+.about-page section {
+    margin-bottom: 0.8em;
+}
+.about-page a {
+    text-decoration: none;
+}
+</style>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
+</head>
+<body>
+<header class="nav-header">
+    <nav class="nav-links">
+        <a href="index.html" class="nav-link nav-home" title="Home" aria-label="Home"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='2em' height='2em' style='vertical-align:middle;margin-right:0.25em;'><circle cx='50' cy='50' r='50' fill='#FFEA00'/><circle cx='50' cy='50' r='30' fill='#FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg></a>
+        <a href="random.html" class="nav-link">Random</a>
+        <a href="about.html" class="nav-link">About</a>
+    </nav>
+    <div class="toggle-buttons">
+        <div class="header-search">
+        <input type="text" id="header-search-input" class="header-search-input" placeholder="Search..." autocomplete="off">
+        <button type="button" id="header-search-button" class="header-search-button" title="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+        </button>
+    </div>
+    <button id="examples-toggle" class="toggle-btn examples-toggle-btn" type="button" aria-pressed="true" title="Toggle example sentences">
+        <span class="toggle-icon">例</span>
+        <span class="toggle-label">Examples</span>
+    </button>
+    <button id="furigana-toggle" class="furigana-toggle-btn" type="button" aria-pressed="false" title="Toggle furigana (reading annotations above kanji)">
+        <span class="furigana-icon">振</span>
+        <span class="furigana-label">Furigana</span>
+    </button>
+   <button id="wordlinks-toggle" class="toggle-btn wordlinks-toggle-btn" type="button" aria-pressed="false" title="Toggle word links (click words to see their entries)">
+            <span class="toggle-icon">🔗</span>
+            <span class="toggle-label">Links</span>
+   </button>
+    </div>
+</header>
+<main class="about-page">
+    <h1>About This Dictionary</h1>
+    <section>
+        <p>The TKG Japanese-English Learner’s Dictionary (TKGJE) is for learners of Japanese who are actively trying to build their vocabulary.</p>
+        <p>I began this project in early January 2026 in the hope of creating the sort of dictionary that I desperately wanted when I was studying Japanese more than forty years ago. Nothing like this dictionary existed then. Some years later, I proposed creating a similar dictionary to several Japanese publishers, but they all rejected the idea, on the (very reasonable) grounds that it would have taken a team of lexiographers years to complete and that the dictionary would never sell enough copies to recoup the investment. I gave up the idea until very recently, when AI writing and agentic coding tools became good enough to do almost all of the work.</p>
+        <p>All of the entry writing and coding and most of the conceptualization is being done by Claude Opus through Claude Code for the Web, with occasional debugging and other help from ChatGPT and Gemini. I serve mainly as project supervisor. The content is a bit choppy, and many improvements remain to be made. But it should be usable by learners even in its present form.</p>
+        <p>All of the entry files and code are available at the dictionary’s <a href="https://github.com/tkgally/je-dict-1" target="_blank">GitHub repository</a>. This dictionary and all of its files are released into the public domain under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0 Universal</a>. Anyone may use and adapt the dictionary data for any purpose. While credit to me and to Claude would be welcome, I, at least, do not insist on it.</p>
+        <p><b>Tom Gally</b><br>
+        Yokohama, Japan<br>
+        <a href="https://www.gally.net/" target="_blank">gally.net</a></p>
+	</section>
+    <section>
+		<h2>Blog</h2>
+<h3>May 10, 2026</h3>
+<p>Claude’s work on this dictionary continues steadily. A few weeks ago, Anthropic made it possible to set up scheduled tasks—now called Routines—to run at regular intervals. I now have two main tasks running multiple times a day: go through current entries systematically, adding links to related entries and making corrections and additions; and write new entries. For the time being, I am prioritizing the polishing of existing entries over the creation of new ones. We seem to be approaching the vocabulary coverage that I had in mind when I started this project, that is, words and expressions that are generally known to fluent Japanese speakers and that benefit from explanatory definitions and usage examples.</p>
+<p>Unless I get other ideas, I am now planning to let the entry-polishing process continue until all entries have been touched. I will then start looking for other ways to improve the existing entries, such as improving internal consistency and proofreading for mistakes (which exist but seem to be quite rare). I am still planning to add audio readings of the example sentences at some point. New audio models have been released by both Google and OpenAI; I need to test them to make sure that they read Japanese accurately enough for this dictionary.</p>
+<p>Meanwhile, the <a href="https://github.com/tkgally/je-dict-1/blob/main/planning/wiki/index.md" target="_blank">knowledge wiki</a> that I had Claude start writing a month ago has grown into an impressively comprehensive reference about the Japanese language from a lexicographic perspective.</p>
+		<h3>April 6, 2026</h3>
+		<p>Yesterday, the AI researcher Andrej Karpathy posted <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f" target="_blank">an idea for an LLM wiki,</a> a “pattern for building personal knowledge bases using LLMs.” I gave his proposal to Claude and asked it to start building such a wiki for this dictionary project. I hope the wiki will be useful for planning how to move ahead with this project.</p>
+		<p>As of this writing, Claude has worked on the wiki in seven sessions. Most of those sessions were prompted by me with ideas that have been floating around in my head, but Claude also is scheduled to do one nightly brainstorming and maintenance session on its own. The wiki’s current version is <a href="https://github.com/tkgally/je-dict-1/blob/main/planning/wiki/index.md" target="_blank">here</a>.</p>
+		<h3>March 29, 2026</h3>
+		<p>I had Claude add conjugation information for all verbs today—more than five thousand entries. Some examples: <a href="entries/00000/00254_kuru.html">来る</a>, <a href="entries/00000/00477_kaku.html">書く</a>, <a href="entries/15500/15760_aegu.html">喘ぐ</a>, and <a href="entries/11500/11518_tsukaikiru.html">使い切る</a>. The conjugations look correct overall, but there may a few edge cases that have been overlooked. I remember that, more than twenty-five years ago, none of the kokugo dictionaries noted that the verb こう (請う・乞う) has an irregular conjugation (こうた instead of こった, etc.). After the issue was discussed on a lexicographers’ mailing list, some dictionaries included the irregularity in their revised editions. When the verb gets added to this dictionary, it will be interesting to see it Claude catches it on its own or if I have to change it.</p>
+		<p>Later, I also had Claude add conjugation information for <i>i</i>-adjectives. Examples at <a href="entries/00500/00500_takai.html">高い</a>, <a href="entries/06000/06069_moroi.html">脆い</a>, and <a href="entries/01000/01121_utsukushii.html">美しい</a>.</p>
+		<p>This dictionary continues to grow, passing twenty thousand entries yesterday. Some big tasks still remain, including more extensive cross-referencing among entries and, especially, audio readings of example sentences. But overall progress is going smoothly.</p>
+		<h3>March 4, 2026</h3>
+		<p>I thought of adding illustrations to entries that refer to traditional Japanese objects. I had Claude prepare prompts for twenty such headwords—asking for black-and-white line drawings, as traditional for paper dictionaries—and run them through three text-to-image models at OpenRouter. At first glance, <a href="https://www.gally.net/temp/20260302-illustrations/index.html" target="_blank">the results</a> look pretty good, but on closer examination there are problems with almost all of them: some obvious, like too many strings on a <a href="entries/04000/04464_shamisen.html"><i>shamisen</i></a>, and others more subtle. Some are probably too subtle for me to identify: what in fact would be a typical arrangement of a <a href="entries/05500/05797_tokonoma.html"><i>tokonoma</i></a>, for example? As with the audio readings of the example sentences, I decided to hold off on adding illustrations until I am reasonably confident that I can create a workflow to have AI models check them reliably.</p>
+		<h3>February 27, 2026</h3>
+		<p>A couple of days ago, I used Claude Code to create and run a workflow whereby it had a relatively cheap version of Gemini think of words related semantically to headwords and candidates already collected, evaluate those words for suitability for addition to the dictionary, and then add those words that passed to the <a href="pending.html">Pending list</a>. The process quickly turned up thousands of words that belong in the dictionary, and I am now having Claude create entries for them in bunches of thirty. After the Pending list gets whittled down some more, I will run this “think of related words” task a few more times. I had noticed before the last run that only one planet (<a href="entries/13000/13082_mokusei.html">Jupiter</a>) was in the dictionary; this workflow yielded a couple more, but several are still missing.</p>
+		<p>Today, I also added a new <a href="kanji.html">kanji index</a>, ordered by how many headwords each kanji appears in. I hope that this unconventional arrangement might be useful for serendipitous explorations.</p>
+		<h3>February 21, 2026</h3>
+<p>I am continuing to have Claude add new entries to the dictionary based on the corpus I had it compile a few weeks ago. It is over half way through the list of word forms extracted from that corpus, and I expect it should be finished in a week or so. The words it is choosing from the list all look suitable for this dictionary and, in aggregate, should fill nearly all gaps in essential vocabulary.</p>
+<p>After that word hunt is done, I plan to try the “think of related words” strategy again. I will have Claude go through the full list of headwords one by one. For each word, it will come up with a list of synonyms, antonyms, and related words and create entries for any of those words that are reasonably common and not yet in the dictionary. I hope that will fill any remaining gaps.</p>
+<p>Other tasks for the weeks and months ahead: more complete information on verb conjugations and <i>i</i>-adjective declensions; better coverage of kanji and other orthographic variations; better cross-referencing between entries; addition of inline links to all example sentences (fewer than one-tenth of the entries have the links now); improvements to the interface; and addition of audio readings to example sentences.</p>
+		<p>At some point, I plan to create a comprehensive proofreading and evaluation agent. It will read through the entries one at a time and critically examine every element: glosses, definitions, example sentences and their translations, notes, furigana, cross-references, etc., and suggest corrections and improvements. I might run that agent with either GPT or Gemini instead of Claude, to get a second opinion, so to speak.</p>
+<h3>February 7, 2026</h3>
+<p>In addition to just having Claude think up new headwords, as I described on January 27, I am also adding words that Claude has used in example sentences but that did not yet have entries. This process is catching many common words that had been overlooked.</p>
+<p>Also, the corpus I am compiling has reached around 250,000 characters, about two-thirds from the web and about one-third texts generated by Claude, ChatGPT, and Gemini. A couple of days ago, I had Claude use a natural language processing program it found on the web to extract the canonical forms (lemmas) of all words in that corpus. I then let Claude decide which of those words should be candidates for inclusion in this dictionary, based on a few criteria I gave it: avoid proper names, overly technical or specialized terms, etc. It is making very good choices.</p>
+<p>For the time being, I will be adding words mainly using these two methods, as the words found in this way are, to my eye, appropiate for inclusion in this dictionary. The earlier method—having Claude just think of words—is increasingly yielding low-frequency vocabulary not so important to learners.</p>
+<p>The headword-addition process goes slowly, about thirty entries per batch and at most four or five batches per day. The dictionary did reach my initial target of ten thousand headwords a couple of days ago, but I can see from the words still being added that that target was too low.</p>
+<p>After the entry count reaches fifteen or twenty thousand, I will start checking for entries that can be removed or merged. I have noticed cases in which minor <i>okurigana</i> or kanji variations led Claude to create separate entries for what are usually regarded as the same word. There are probably many more such cases, and I will have Claude search for and deal with them systematically at some point.</p>
+<h3>February 3, 2026</h3>
+<p>Yesterday, I started adding a new feature to the dictionary: inline links from words that appear in example sentences to the entries for those words (if the entries exist). This feature required the creation of a new tagging system for the examples in the JSON entry files.</p>
+<p>For Claude to create links to the correct files, it cannot just write a deterministic program, as the same string of characters might, depending on the context, represent different words. Instead, Claude must examine each sentence semantically, a time- and token-consuming process. The links won’t appear in all entries for quite some time. Some entries that do have the links are those for <a href="entries/00000/00104_hiroba.html" target="_blank">広場</a>, <a href="entries/00000/00073_gomu.html" target="_blank">ゴム</a>, and <a href="entries/00000/00041_fudan.html" target="_blank">普段</a>. Both the Examples and Links toggles must be turned on to view the links.</p>
+<h3>January 27, 2026</h3>
+<p>A few notes about how headwords are being collected for this dictionary.</p>
+<p>When I started the project early this month, I had Claude decide for itself what words to use as headwords. It reported that it started with a wordlist it found on GitHub for people studying for the Japanese Language Proficiency Test. As it started writing entries, on its own initiative it marked each entry with a JLPT level (N5, N4, N3, N2, or N1).</p>
+<p>A few days into the project, I had it start compiling <a href="https://github.com/tkgally/je-dict-1/blob/main/candidate_words.json" target="_blank">a list of candidate words</a>. I had it write <a href="https://github.com/tkgally/je-dict-1/blob/main/prompts/newcandidates.md" target="_blank">a prompt</a> that I could give it to have it add words to the list. The prompt basically asks Claude to think of 100 words that would be suitable for this dictionary and add them to the list. I then run <a href="https://github.com/tkgally/je-dict-1/blob/main/prompts/newentries.md" target="_blank">another prompt</a> to have it create entries from words on the candidates list, currently 30 at a time. (I tried larger batches, but it would start cutting corners and ignore key parts of the prompt as it ran out of context.)</p>
+<p>This method <i>seems</i> to be getting pretty good coverage of basic and core vocabulary, though there might be gaps. I haven’t run a comparison with existing dictionaries or wordlists, and I would like to avoid doing so if possible. This “think of words that belong in the dictionary” would certainly not be viable for a human-produced dictionary, nearly all of which are compiled based on previous dictionaries, but it might be okay when a language model trained on vast amounts of text is doing the “thinking.” We’ll see.</p>
+<p>Today, I had it add to the candidates list most of the words that it has used so far in the notes sections of entries. This increased the candidates list from around 500 words to over 10,000, though there were a lot of spurious entries that I have started to have it cull.</p>
+<p>The JLPT itself does not specify vocabulary for its levels; it seems to have adopted a CEFR-like approach that avoids associating particular words or skills with assessment levels. So, a week or two ago, I had Claude delete all of the JLPT levels and create instead an original three-tier vocabulary system. The initial candidates for the basic and core tiers were voted on by Claude, ChatGPT, Gemini, and Grok. I then had Claude adjust the tier membership so that each of those two tiers would be reasonably complete; that is, if a word in a distinct and limited semantic category—such as days of the week—is in the tier, then the other words in that category should be in the same tier. This seems to have worked reasonably well, though I will need to have Claude revisit and revise this tier system later.</p>
+<p>I have also started a separate project in which I have Claude Code compile a corpus of texts in various genres from the web. When the corpus is reasonably large, I will have Claude  scan it to find essential words that have not been added to the dictionary or the candidates list yet. I am hopeful that this will fill in any gaps in vocabulary that should be in any dictionary of Japanese.</p>
+<h3>January 22, 2026</h3>
+	<p>Today I had Claude add a kanji index function. Click on any kanji in the headword of an entry and you will be taken to a list of all entries in the dictionary that contain that kanji.</p>
+	<p>I have also been having Claude run the continue_polishing.md prompt on batches of entries to adjust the vocabulary level in example sentences for the base and core tiers, add example sentences, and fix various problems. This is a token-heavy task, and it can only do about 20 at a time before running out of context. It might take a week or longer to go through all of the entries in this way. After it’s done, I plan to set up a similar procedure for Claude to improve the notes sections of the entries. They vary widely in length and format now, and I want them to be more consistent.</p>
+	<p>After that is done, I plan to enhance the cross-referencing between entries and add information on verb conjugations.</p>
+	<p>I want eventually to add audio readings of all of the example sentences. A couple of weeks ago, I did produce about a thousand example readings in mp3 format using OpenAI’s text-to-speech model (at an API cost of about one yen per sentence). The intonation was quite natural, but there were occasional mistakes, such as punctuation marks read aloud or the particle は read as <i>ha</i> instead of <i>wa</i>. I decided that such misreadings would be annoying to users of the dictionary, so I am currently planning to add audio files only after either TTS models improve for Japanese or I find a way for LLMs to check audio readings for accuracy automatically.</p>
+		<p>While doing these other tasks, I will continue to add new entries.</p>
+    </section>
+</main>
+
+<footer>
+    <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
+</footer>
+	<script>
+(function() {
+    'use strict';
+
+    var searchInput = document.getElementById('header-search-input');
+    var searchButton = document.getElementById('header-search-button');
+
+    if (!searchInput || !searchButton) return;
+
+    function detectQueryType(query) {
+        if (/[぀-ゟ゠-ヿ一-龯]/.test(query)) {
+            return 'japanese';
+        }
+        if (/^[a-z]+$/i.test(query)) {
+            return query.length <= 10 ? 'romaji' : 'english';
+        }
+        return 'english';
+    }
+
+    function performSearch() {
+        var query = searchInput.value.trim();
+        if (!query) return;
+
+        // Redirect to index.html with search parameter
+        var searchType = detectQueryType(query);
+        window.location.href = 'index.html?q=' + encodeURIComponent(query) + '&type=' + searchType;
+    }
+
+    searchButton.addEventListener('click', performSearch);
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') performSearch();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('furigana-toggle');
+    if (!btn) return;
+
+    // Check saved preference
+    var hidden = localStorage.getItem('furiganaHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('furigana-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('furiganaHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('examples-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to showing examples (hidden = false)
+    var hidden = localStorage.getItem('examplesHidden') === 'true';
+
+    function updateState() {
+        document.body.classList.toggle('examples-hidden', hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('examplesHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script>
+(function() {
+    var btn = document.getElementById('wordlinks-toggle');
+    if (!btn) return;
+
+    // Check saved preference - default to hidden (toggle OFF)
+    var hidden = localStorage.getItem('wordLinksHidden') !== 'false';
+
+    function updateState() {
+        document.body.classList.toggle('show-word-links', !hidden);
+        btn.setAttribute('aria-pressed', !hidden);
+        btn.classList.toggle('active', !hidden);
+    }
+
+    // Apply initial state
+    updateState();
+
+    // Toggle on click
+    btn.addEventListener('click', function() {
+        hidden = !hidden;
+        localStorage.setItem('wordLinksHidden', hidden);
+        updateState();
+    });
+})();
+</script>
+<script data-goatcounter="https://tkgje.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

@@ -1,97 +1,70 @@
-# Candidate Restock Prompt (the Routine's `candidates` mode)
+# Candidate Restock (the Routine's `candidates` mode)
 
-Restock `candidate_words.json` with individually vetted headwords so the
-`new-entries` mode always has real material. This is the **verified-restock
-playbook**: every word is generated from lexical knowledge, passes explicit
-vetting gates, and is batch-added with automatic duplicate checking. Proper
-nouns are in scope (policy adopted 2026-08-11).
+Restock `candidate_words.json` with words the dictionary already uses but has
+never defined. Since 2026-09-02 the queue is an **internal-closure** queue:
+its job is to close the dictionary on itself, so that a learner who clicks a
+word in an example or a note lands on an entry. Growth for its own sake has
+stopped; common vocabulary is saturated at 30,000 entries and the last
+thematic sweeps found nothing new.
 
-Run standalone or as the unified Routine's `candidates` mode
-(`prompts/routine2.md` §2). The selector schedules this mode only while the
-queue holds fewer than `candidate_restock_threshold` (150) words, and passes
-`params.approx_new` (40–60) as the target.
+Runs as `prompts/routine2.md`'s `candidates` mode when the queue falls below
+the restock threshold (100). `params.approx_new` is the target (30–60).
 
-## Quick context
+## Sources, in priority order
 
-- The queue holds **only vetted words** since the 2026-08-11 cleanup — keep it
-  that way. History and rationale: `find-candidates` skill ("Design
-  principle"); the removed corpus-harvest junk is archived in
-  `planning/archive/candidate-cleanup-2026-08-11.json`.
-- Check the queue: `python3 build/manage_candidates.py stats`
+1. **Words marked as missing inside entries.** The detector lists every
+   `noentry` marker whose word still has no entry, classified:
+   ```bash
+   python3 build/check_stale_noentry.py --json > /tmp/stale.json
+   ```
+   Take the `unresolved` class. Rank by `instances` (how many entries use the
+   word). Skip: suffixes and prefixes standing alone (権, 化, 系, 製, 書),
+   number-plus-counter strings (三冊, 五階), inflected or partial forms,
+   proper nouns of no cultural weight, and anything that is a variant
+   spelling of an existing entry (check with the duplicate probe below).
+2. **Words the reviewer or a polish run noticed.** `polishing/observations.md`
+   `[entry]` lines and session logs often name a word an example needs.
+3. **Curated stream (at most ten per run).** Idioms, proverbs, and proper nouns
+   that pass the `find-candidates` skill's richness gate. Rotate lenses; record
+   which you used.
 
 ## Workflow
 
-1. **Load the `find-candidates` skill** — it defines the vetting gates
-   (G1–G7), the proper-noun richness criteria, and the discovery lenses.
-   Everything below assumes it.
-
-2. **Read the gap data** (cheap, aims the generation):
+1. Load the `find-candidates` skill (gates G1–G7).
+2. Build a proposal list of about 1.5× the target from the sources above.
+3. **Probe first, then vet.** Run the duplicate check on the whole list before
+   writing a single gloss; it is seconds and it tells you which sources are
+   fertile:
    ```bash
-   python3 build/manage_candidates.py stats
-   python3 build/audit_semantic_field.py --below 60 --summary
-   python3 build/analyze_scenarios.py --top-gaps 20
+   python3 build/check_duplicate.py --batch --skip-candidates 'word:reading' 'word:reading' …
    ```
-   Also glance at the last restock session log (`polishing/sessions/`) for
-   which lenses it used, so this run rotates to different ones.
-
-3. **Choose 3–5 discovery lenses** from the skill's list. Include the
-   proper-noun lens in most runs (target roughly 20–40% of the batch) while
-   major gaps remain — famous places, canonical historical/literary figures,
-   key organizations, culturally central works, events, and brands.
-
-4. **Generate ~1.5× the target as proposals**, then **vet each against the
-   gates** (real word, lemma form, headword-worthy, correct reading, correct
-   gloss, learner value; richness for proper nouns). Drop anything uncertain
-   — when in doubt, skip. Aim to land near `params.approx_new` (default ~50)
-   survivors.
-
-5. **Write the survivors to a scratch JSON file** (NOT in the repo —
-   use the session scratchpad or /tmp):
+   Drop every duplicate and every variant spelling the probe reports.
+4. Vet each survivor against the gates: real, lemma-form, headword-worthy,
+   correct hiragana reading, correct gloss, learner value. When in doubt, skip.
+5. Write the survivors to a scratch JSON file outside the repo:
    ```json
-   [
-     {"word": "渋谷", "reading": "しぶや",
-      "notes": "Shibuya — Tokyo youth-culture hub; proper noun (place)"},
-     {"word": "腑に落ちる", "reading": "ふにおちる",
-      "notes": "to make sense, to click (usu. negative); idiom"}
-   ]
+   [{"word": "湯呑", "reading": "ゆのみ", "notes": "teacup (handleless); seen in entry 05612"}]
    ```
-
-6. **Batch-add with automatic duplicate checking:**
+   The `notes` field MUST name the source: `seen in entry NNNNN` for source 1
+   and 2, or the lens for source 3.
+6. Batch-add with automatic duplicate checking:
    ```bash
    python3 build/manage_candidates.py add-batch <scratch-file>.json
    ```
-   Duplicates are skipped and reported — that is normal, not an error.
+7. Re-read `git diff candidate_words.json` once and remove any slip
+   (`manage_candidates.py remove C12345`). One pass, no ping-pong.
+8. Wrap up per routine2.md §5–§7 (standalone: update PROJECT_STATUS.md Recent
+   Changes, `make index`, commit, push, PR, merge).
 
-7. **Second-pass self-check.** Re-read the added list once
-   (`git diff candidate_words.json` shows exactly what was added), re-testing
-   the gates with fresh eyes. Remove any slip:
-   ```bash
-   python3 build/manage_candidates.py remove C22950
-   ```
-   One pass, then stop — no ping-pong.
+## Quality bar
 
-8. **Wrap up** (standalone runs; Routine runs follow routine2.md §5–7):
-   - Update `PROJECT_STATUS.md` Recent Changes (count added, lenses used).
-   - `make build` (the queue feeds `docs/pending.html`), commit, push, PR.
+- Real, stable, lemma-form headwords with correct readings and glosses; useful
+  to intermediate learners; general tier.
+- Not: bulk-extracted lists, uncertain words, conjugated or derived forms, free
+  phrases, number+counter strings, ephemeral slang, vulgar or discriminatory
+  terms, archaic or dialect items, hyper-specialized jargon.
 
-## Quality bar (summary — the skill has the full gates)
+## Report
 
-- **Must be**: real, stable, lemma-form headwords with correct hiragana
-  readings and correct glosses; useful to intermediate-to-advanced learners;
-  general tier.
-- **Proper nouns must be collocationally/semantically rich** — fixed
-  expressions, metonymy, cultural-literacy weight, or practical navigation
-  value — not merely referential. Mark them: `proper noun (place | person |
-  organization | work | event | brand)`.
-- **Must NOT be**: bulk-extracted from text, uncertain of existence,
-  conjugated/derived forms, free phrases, number+counter combinations,
-  ephemeral slang, vulgar/discriminatory terms, archaic/dialect items, or
-  hyper-specialized jargon.
-
-## Output format
-
-Report at the end of the run:
-1. Words proposed / added / skipped as duplicates
-2. Lenses used with per-lens counts (note the proper-noun share)
-3. Queue total after the run
-4. Lenses that look exhausted or fertile for next time
+At the end: proposed / added / rejected as duplicates; counts per source;
+queue total; which sources still have depth.

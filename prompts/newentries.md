@@ -70,17 +70,29 @@ The `vocabulary-notes` skill lists six possible content categories. **You do not
 
 Three sections is the target; **four is usually too many; six or more is always too many**. Do not invent extra sections like "WHICH ENGLISH SOURCE WORD", "TYPICAL CONTEXTS", or duplicate "COMMON COMPOUNDS"/"COMMON COLLOCATIONS" pairs just to fill out the entry.
 
-## Candidate Selection Priority
+## Candidate Selection Priority (internal closure, policy 2026-09-02)
 
-Prefer candidates whose notes mention `seen in entry XXXXX` (or similar phrasing indicating the word appeared in an existing entry's examples or notes). These are added by the comprehensive-polish workflow and represent **internal-completeness gaps** — words the dictionary already references but does not yet define. Filling these closes the dictionary in on itself and is higher priority than adding brainstormed or corpus-harvested candidates.
+The dictionary no longer grows for growth's sake: common vocabulary is saturated
+at 30,000 entries. New entries exist to **close the dictionary on itself**, so
+that a word a learner meets inside an example or a note has an entry.
 
-To find such candidates:
+Take candidates in this order:
+
+1. Candidates whose notes say `seen in entry NNNNN` or `used in` — words the
+   dictionary already references but never defined (added by polish runs, the
+   accuracy sweep, and the `candidates` mode from the stale-`noentry` list).
+2. Only if fewer than the target remain: other vetted candidates in the queue
+   (idioms, proverbs, proper nouns from the curated stream).
+
+If the queue cannot supply the target, **stop early**; never invent headwords,
+and never route into candidate discovery mid-run (that is the `candidates`
+mode's job).
+
+To list the internal-closure candidates:
 
 ```bash
-grep -B1 -A3 '"seen in entry' candidate_words.json | head -40
+grep -B1 -A3 -E '"seen in entry|used in' candidate_words.json | head -80
 ```
-
-If you've worked through all "seen in entry" candidates, fall back to the standard order (oldest unprocessed candidates first).
 
 ## Session Workflow
 
@@ -108,23 +120,33 @@ If you've worked through all "seen in entry" candidates, fall back to the standa
      - `{id_range}` is the ID rounded down to nearest 500 (e.g., 10207 → 10000)
      - `{id}_{romaji}` is the entry ID (e.g., 10207_asari)
 
-3. **After all entries**:
+3. **After all entries — the post-creation sequence** (`<ids>` = the new IDs, comma-separated):
    ```bash
-   python3 build/validate.py                        # Fix any errors before continuing
-   python3 build/find_missing_furigana.py | head -60 # Check for missing furigana in notes
-   python3 build/add_conjugations.py                 # Add conjugation to any new verbs
-   python3 build/add_adjective_conjugations.py       # Add conjugation to any new i-adjectives
-   python3 build/update_indexes.py                   # Sync candidate_words.json and check for new kanji
-   python3 build/update_kanji_index.py --check-new   # Check for new kanji needing IDs
-   python3 build/build_flat.py                       # REQUIRED for live site update
+   python3 build/validate.py                              # Fix any errors before continuing
+   python3 build/find_missing_furigana.py | head -60      # Only your session's IDs matter; fix them
+   python3 build/add_conjugations.py                      # Conjugation tables for new verbs
+   python3 build/add_adjective_conjugations.py            # Conjugation tables for new i-adjectives
+   python3 build/update_indexes.py                        # Sync candidate_words.json, word lookup
+   python3 build/update_kanji_index.py --check-new        # New kanji need on'yomi, kun'yomi, gloss
+   python3 build/normalize_notes.py --ids <ids> --apply   # Canonical headers, '- ' bullets
+   python3 build/auto_link.py --ids <ids> --apply         # Unambiguous inline links in the new entries
+   python3 build/harvest_crossrefs.py --ids <ids> --apply # Cross-references named in the notes
+   python3 build/check_stale_noentry.py --class A1 A2 --json   # Markers elsewhere now resolvable by the new entries
+   python3 build/check_link_newcomers.py --since $(date -u +%Y-%m-%d) --json  # Links whose word just gained a homograph
    ```
+   - The stale-`noentry` mechanical classes (A1/A2) are safe to fix in place: replace `noentry`
+     with the target ID in the listed entries (the tool prints the marker and the target).
+   - Each newcomer-ambiguity hit is a link in another entry whose base form now matches your new
+     entry as well as the old target. Open the sentence and decide; retarget only when the
+     sentence clearly means the new word.
+   - Never hand-place inline links or `noentry` markers in the new entries; the linker did the
+     unambiguous ones, and the rest stay bare.
 
-   **If new kanji are found**: New kanji need on'yomi, kun'yomi, and gloss assigned.
-   Run the kanji ID assignment process before building.
+   Then run the routine2.md §4 self-check on the new IDs before `make index`.
 
-   **Important**: Restrict the search range of `find_missing_furigana.py` to the entries that you have created in this session. If `find_missing_furigana.py` shows any entries from your session, fix them before committing.
-
-4. **Finish**: Update PROJECT_STATUS.md Recent Changes section with entry count and summary, then commit and push
+4. **Finish**: Update PROJECT_STATUS.md Recent Changes section (keep five) with entry count and
+   summary, `make index`, commit, push, PR, merge. The site is built by GitHub Actions after the
+   merge; do not run `make build`.
 
 ## Critical Rules
 
@@ -384,8 +406,10 @@ Follow the workflow described in CLAUDE.md under "End-of-session PR and merge wo
 
 ### Before the PR
 
-1. **Run `make build`** so `docs/` and all build artifacts are included.
-2. **Stage everything** with `git add -A` (entries, `docs/`, `entries_index.json`, `build/word_id_lookup.json`, `kanji/`, session logs, etc.).
+1. **Run `make index`** (validation plus `entries_index.json`, `build/word_id_lookup.json`, and
+   `kanji/` refresh). Do not run `make build`: the site is built and deployed by the
+   `Build and Deploy Site` workflow after the merge.
+2. **Stage everything** with `git add -A` (entries, indexes, `kanji/`, session logs, candidate list).
 3. **Commit and push** to the feature branch.
 
 ### MCP path (Routine / unattended default)
@@ -405,7 +429,9 @@ If `gh` is on PATH and authorized (only true for interactive curator sessions), 
 
 ### CRITICAL — both paths
 
-The PR must include rebuilt `docs/` files. If you commit entry changes but not the build output, the live site won't update after merge and the repo will be left in a dirty state for the next session.
+The PR must include the refreshed indexes (`entries_index.json`, `build/word_id_lookup.json`,
+`kanji/`). Without them the next session starts from stale lookups. `docs/` is no longer
+committed (since 2026-09-02).
 
 ## If Duplicates Are Found During Validation
 

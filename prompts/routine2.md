@@ -1,382 +1,207 @@
-# Unified Improvement Routine v2 — the Verified Routine
+# Unified Improvement Routine v3
 
 **The single scheduled task for je-dict-1.** Each run does ONE focused unit of
-high-quality work chosen by a deterministic selector, **verifies its own changes
-with an independent model before merging them**, records a one-line quality
-metrics snapshot, then reliably merges its own PR. Designed to run unattended
-several times a day and make the dictionary steadily more accurate, consistent,
-and useful over weeks and months — drawing on insights accumulated in the
-knowledge wiki — while keeping the dictionary's existing concept, headword
-range, sense inventory, and example style. Scope is **Japanese→English only**.
+work chosen by a deterministic selector, verifies its own changes with an
+independent model before merging, records one line of quality metrics, and
+merges its own pull request. It runs unattended twice a day and is written for
+a mid-size model: follow it literally, in order, and do not improvise around it.
 
-v2 keeps v1's proven chassis (deterministic selector, delegation to the
-existing per-task prompts, always-on capture, 60%-context rule, atomic
-merge tail, Routine lock, OpenRouter ledger) and changes three things, based on
-the 2026-06-09 test runs (a sixth mode, `candidates`, was added 2026-08-11 —
-it restocks the vetted candidate queue and self-suppresses while the queue is
-full):
+v3 (2026-09-02) replaces v2 after the assessment in
+`enhancement/assessment-2026-09-02.md`. What changed: mechanical work (inline
+links, cross-references, header and metadata normalization) is done by scripts,
+so the `polish` mode does judgment work only; the external reviewer now checks
+the notes field and filters its own noise; the wiki runs only when observations
+pile up; new entries come from words the dictionary already uses; the site is
+built by GitHub Actions on merge, so runs no longer commit `docs/`.
 
-1. **Trust but verify, every run** (§4): any run that creates or modifies
-   entries sends *exactly those entries* to an independent model (pennies per
-   run) and adjudicates the findings before the PR. New entries are checked at
-   birth instead of waiting months for a sweep to reach them.
-2. **Coverage from cheap models, judgment from Claude** (§2, §A): the
-   accuracy-review sweep is the whole-dictionary surveillance instrument (it
-   can cover the entire dictionary roughly monthly within the $5/day budget);
-   the polish mode spends part of each run on the worst-scoring entries
-   (priority lane) instead of pure ID order, because the sequential frontier
-   alone cannot outpace new-entry growth.
-3. **Measure the slope** (§5, §C): every run appends one line of quality
-   metrics to `pipeline/metrics-history.jsonl`, and every APPLY/REJECT/FLAG
-   decision on an external model's flag is logged to `reviews/decisions.jsonl`,
-   so both dictionary quality and reviewer-flag precision become measurable
-   over weeks instead of anecdotal.
-
-This prompt assumes any current Anthropic model; nothing in it is
-model-specific. External second opinions go through OpenRouter under the
-daily ledger.
-
-> Design, rationale, evidence, and the file-change plan:
-> `enhancement/routine2-plan-2026-06-10.md`.
-> v1 design (kept foundations): `enhancement/unified-routine-plan-2026-06-09.md`.
+Scope is Japanese→English only. Never renumber or rename an entry (IDs are live
+URLs). Never edit basic- or core-tier headwords or tiers.
 
 ---
 
-## 0. Pre-flight (every run, before reading any entry/wiki data)
+## 0. Pre-flight (before reading any entry)
 
-**0a. Rescue a green predecessor** (usually a no-op; this is what recovers a
-previous run's CI-timeout strand instead of leaving it for the curator):
+**0a. Rescue a green predecessor.** Call `mcp__github__list_pull_requests`
+(`owner: "tkgally"`, `repo: "je-dict-1"`, `state: "open"`). For each open PR
+whose head branch starts with `claude/` AND whose title starts with `routine`:
+call `mcp__github__pull_request_read` with `method: "get"` and with
+`method: "get_check_runs"` (never `get_status`). Merge it with
+`mcp__github__merge_pull_request` (`merge_method: "squash"`) only if every
+check run is `completed` with conclusion `success`, `neutral`, or `skipped`,
+the PR is mergeable, and no human has commented or reviewed. Then
+`git fetch origin main && git merge origin/main --no-edit`. Anything not
+rescuable stays open; mention it in the session log.
 
-1. Call `mcp__github__list_pull_requests` (`owner: "tkgally"`,
-   `repo: "je-dict-1"`, `state: "open"`).
-2. For each open PR whose head branch starts with `claude/` AND whose title
-   starts with `routine`: fetch its state with `mcp__github__pull_request_read`
-   (methods `get` and `get_check_runs` — use `get_check_runs`, **not**
-   `get_status`, which is blind to GitHub Actions check-runs and always reports
-   `state: "pending"`, `total_count: 0` here). **Rescue it** — call
-   `mcp__github__merge_pull_request` with `merge_method: "squash"` — only if
-   ALL of the following hold:
-   - `get_check_runs` shows `total_count >= 1` and every run `completed` with a
-     `conclusion` of `success`, `neutral`, or `skipped`;
-   - the PR is mergeable (no conflicts with main);
-   - no human has commented on or reviewed the PR (a curator comment means
-     the curator owns it now — leave it).
-   This merely completes a merge that run was already authorized to perform
-   but missed (CI timeout, context exhaustion).
-3. If you rescued anything: `git fetch origin main && git merge origin/main
-   --no-edit` so this run builds on the rescued work (the branch has no local
-   changes yet, so this is a clean fast-forward).
-4. Anything not rescuable (failed checks, conflicts, human comments): leave it
-   open and mention it in your session log.
+**0b. Sweep strands.** For any other open `claude/*` PR, follow CLAUDE.md →
+"Sweep stranded PRs via MCP" (close it only if every entry file it touches has
+an ID below the `next:` value in `polishing/tasks/comprehensive/progress.txt`).
+Then `mcp__github__list_branches`; for any `claude/*` branch that is neither
+this session's branch nor an open PR's head, follow CLAUDE.md → "Sweep orphan
+`claude/*` branches via MCP". Zero strands and zero orphans is the normal case.
 
-**0b. Sweep and lock:**
+There is no lock step: each run is a fresh container and the schedule never
+overlaps runs.
 
-- **Sweep superseded strands via MCP.** Perform the stranded-PR sweep described
-  in `CLAUDE.md` → "Sweep stranded PRs via MCP": reuse the open-PR list from §0a,
-  and for any `claude/*` PR you did **not** rescue, close it (with an explanatory
-  comment via `mcp__github__add_issue_comment` + `mcp__github__update_pull_request`
-  `state: "closed"`) when the maximum entry ID among the entry files it touches is
-  below `polishing/tasks/comprehensive/progress.txt`'s `next:` value. **Do not run
-  `pipeline/sweep-stranded-prs.py`** — direct GitHub REST 403s in this environment,
-  so the script is a no-op here; the MCP sweep is the working safety net.
-- **Sweep orphan branches via MCP.** A run that pushes its branch but dies before
-  `create_pull_request` (e.g. the 2026-08-07 GitHub-API outage,
-  `polishing/sessions/routine_2026-08-07_005.md`) leaves work no PR-based check
-  can see. Perform the orphan-branch sweep described in `CLAUDE.md` → "Sweep
-  orphan `claude/*` branches via MCP": `mcp__github__list_branches`; for each
-  `claude/*` branch that is neither this session's branch nor an open PR's head,
-  classify it using its PR history (`mcp__github__list_pull_requests`,
-  `head: "tkgally:<branch>"`, `state: "all"`) plus the local-git absorption test
-  defined there, then (a) absorbed → append a `prune-branch` line to
-  `reviews/needs_curator.txt` (MCP cannot delete branches), (b) never-PR'd live
-  work that merges cleanly → rescue it with `mcp__github__create_pull_request`
-  so the §0a machinery owns it from now on, (c) anything else → flag it for the
-  curator. Zero orphans is the normal case; this costs one `list_branches` call.
-- **Acquire the lock:**
-  ```bash
-  python3 pipeline/routine_lock.py acquire --session "$(git rev-parse --abbrev-ref HEAD)"
-  ```
-  If it exits non-zero, another Routine run appears active — **stop now**.
-  Otherwise you hold the lock; release it at the very end (§7).
-
-## 1. Select this run's mode
+## 1. Select the mode
 
 ```bash
 python3 pipeline/routine_next.py
 ```
 
-This prints a JSON object and persists selector state. Read it:
+Read the JSON: `mode` is this run's focus, `params` its inputs, `reason` and
+`signals` go in the session log. Do not second-guess the selector.
 
-```json
-{ "mode": "polish", "params": { "start_id": 5990 },
-  "reason": "...", "signals": { ... },
-  "openrouter": { "remaining_usd": 5.0, "session_budget_usd": null }, ... }
-```
-
-- **`mode`** is your focus for this run; **`params`** carries the working
-  range / budget / flags; **`reason`** and **`signals`** go in your session log.
-- Do **not** second-guess the selector. Execute the mode it chose. (For manual
-  testing the curator may run `routine_next.py --force-mode <mode>`, which
-  prints the same JSON without perturbing the rotation.)
-
-## 2. Execute the selected mode
-
-Follow the matching playbook. **Obey that prompt's per-session budget and its
-PR/CI/merge discipline** — they are the same disciplines this Routine uses in
-§6–7. Process the range/params the selector gave you.
+## 2. Execute the mode
 
 | `mode` | Do this |
 |---|---|
-| `polish` | Apply **`prompts/comprehensive_polish.md`**'s per-entry checklist in **two lanes**. **Priority lane first**: if `polishing/priority/notes.txt` exists and is less than 14 days old, spend roughly the first 40% of your entry budget on IDs taken from it in order, starting at the line recorded in `polishing/tasks/comprehensive/priority-cursor.txt` (create the file with `line: 1` if missing). Skip only IDs with no entry file and entries whose `modified` date is within the last 30 days — worst-scoring entries are eligible **regardless of the comprehensive frontier**: a low-ID entry that was polished long ago but still scores at the bottom is exactly what this lane is for. **Frontier lane second**: spend the rest of the budget sequentially from `params.start_id` as in v1. Update both cursors at wrap-up. If the priority file is missing or stale, run frontier-only, regenerate priorities at wrap-up (`make priorities`, before `make build`), and reset the priority cursor to `line: 1` (regeneration re-ranks, so old line numbers are meaningless). **Also regenerate + reset at wrap-up if more than half of the priority-lane entries you processed turned out to need no changes** — that means the rankings have gone stale relative to recent polishing. Skip comprehensive_polish.md's own pre-flight sweep (already done in §0). |
-| `new-entries` | Follow **`prompts/newentries.md`**. Create ~`params.approx_count` (≈20) entries; prefer candidates whose notes say "seen in entry". **Tag from the closed lists**: semantic tags MUST come from `VALID_SEMANTIC` and domain tags from `VALID_DOMAIN` in `build/validate_tags.py` (newentries.md has the table) — after validation, `python3 build/validate_tags.py` must report no "Unknown semantic tag" warnings for your new IDs. Since the 2026-08-11 cleanup the queue holds only vetted words (including proper nouns — see newentries.md for proper-noun entry conventions), so any queued word is fair game. After the post-creation validation sequence and **before** the single build, run the §4 self-verification on the new entry IDs — this is the new-entry quality gate. If `params.candidates_low` is true, create what the queue sensibly supports and stop early rather than inventing headwords — the selector will schedule a `candidates` restock run on its own. **Never** auto-route into candidate discovery mid-run; that is the `candidates` mode's job. |
-| `candidates` | Follow **`prompts/newcandidates.md`** (the verified-restock playbook). Add ~`params.approx_new` (40–60) vetted words to `candidate_words.json`: real, headword-worthy, lemma-form words with correct hiragana readings and correct glosses, drawn from the playbook's discovery strategies — including **proper nouns** per the find-candidates skill policy (collocationally and semantically rich names learners should know). Vet each word individually against the playbook's reality/lemma/gloss gates, then add via `manage_candidates.py add-batch` (it duplicate-checks every row). This mode changes no entries, so §4 does not apply — the per-word gates are the verification. Do **not** create entries in this mode. |
-| `accuracy-review` | Follow **§A** below (cross-model review of furigana + glosses/translations/tags within budget, apply corrections, maintain the review queue). |
-| `wiki` | Follow **`planning/maintain-knowledge-base.md`** (harvest `polishing/observations.md`, then 2–4 wiki activities). Keep `planning/wiki/ideas/backlog-queue.json` in sync with the prose backlog pages. **Metrics trend activity**: if `pipeline/metrics-history.jsonl` has ≥10 lines newer than the last update of `planning/wiki/topics/quality-metrics.md` (or that page doesn't exist yet), create/update it with a dated trend table (entry count, flags applied/rejected by dimension from `reviews/decisions.jsonl`, review-queue depth, OpenRouter spend) and log any metric moving the wrong way as a `[pattern]` observation. |
-| `systemic-fix` | Follow **§B** below, working `params.backlog_item`. Semantic-verification-first: verify every flagged entry before changing it. |
+| `polish` | Follow **`prompts/comprehensive_polish.md`**. Two lanes: the priority lane (`polishing/priority/notes.txt` from the cursor in `polishing/tasks/comprehensive/priority-cursor.txt`) for about half the budget, then the sequential frontier from `params.start_id`. Judgment work only: correctness, the one contrast or warning a learner needs, trimming, tags. Scripts handle links and cross-references at wrap-up (§3). Target 25–40 entries. |
+| `accuracy-review` | Follow **§A**: send a range of 800–1,200 entries starting at `params.start_id` to the external reviewer (gloss, translation, tags, notes), adjudicate every surviving flag, fix what is wrong, maintain the queue. No furigana screening pass. |
+| `systemic-fix` | Follow **§B** with `params.backlog_item`: run its detector, verify each flagged entry, fix a bounded batch, update the item's status. |
+| `new-entries` | Follow **`prompts/newentries.md`**. Create about `params.approx_count` (20) entries, taking candidates whose notes say "seen in entry" or "used in" first (internal closure); if fewer than 20 such candidates exist, take the rest from the queue and stop early rather than inventing headwords. Then run the post-creation sequence in that prompt, which links, cross-references, and re-checks homographs. |
+| `candidates` | Follow **`prompts/newcandidates.md`**: restock the queue with words the dictionary already uses but has not defined (`check_stale_noentry.py` unresolved class, words seen during review), each vetted individually; at most ten curated additions from other lenses per run. |
+| `wiki` | Follow **`planning/maintain-knowledge-base.md`**: harvest `polishing/observations.md` into `planning/wiki/ideas/backlog-queue.json`, write one short log entry, regenerate the metrics page with `python3 pipeline/metrics_report.py`. No essays, no new prose on the metrics page, no page may grow by more than 300 words. |
 
-**Wiki consultation (all modes).** Before working a range or topic, glance at
-the wiki page(s) relevant to what you're touching — e.g.
-`planning/wiki/topics/verb-transitivity.md`, `…/furigana-strategy.md`,
-`…/schema-tag-reliability.md`, or the `planning/wiki/ideas/cleanup-backlog.md`
-priority covering your ID range. Read only what's directly applicable; don't
-read the whole wiki.
+Before working a range, glance only at wiki pages directly relevant to it
+(start from `planning/wiki/index.md`); do not read the wiki broadly.
 
-## 3. Always-on capture (every mode, regardless of focus)
+## 3. Mechanical pass on every entry this run created or rewrote
 
-- **Missing words → candidates.** Any Japanese word you encounter in an example
-  or note that lacks an entry: add it immediately with a source tag:
-  ```bash
-  python3 build/manage_candidates.py add "言葉" "ことば" "brief gloss; seen in entry XXXXX"
-  ```
-- **Systemic observations → `polishing/observations.md`**, using the existing
-  tags (`[pattern] [wiki] [article] [tooling] [skill] [entry]`). This feeds the
-  `wiki` and `systemic-fix` modes.
+Run this after the mode's content work and before the self-check, on the IDs
+you changed (see §4 step 1 for the command that lists them):
 
-## 4. Verify your own changes (every run that created or modified entries)
+```bash
+python3 build/normalize_notes.py --ids <ids> --apply      # canonical headers, '- ' bullets
+python3 build/auto_link.py --ids <ids> --apply            # unambiguous inline links
+python3 build/harvest_crossrefs.py --ids <ids> --apply    # cross-references named in notes
+python3 build/validate.py --id <id> ...                   # each changed entry
+```
 
-Run this AFTER the mode's content work (and, for `new-entries`, after its
-post-creation validation sequence) and BEFORE the single `make build`.
-**One verification pass, one fix round, then stop** — never re-verify the fix
-round (no ping-pong loops).
+Never hand-place inline links; the linker leaves ambiguous tokens alone, and a
+polish run may link those by hand only where the sentence makes the word
+certain. Never add `noentry` markers by hand; log the missing word as a
+candidate instead (`manage_candidates.py add "語" "ご" "gloss; seen in entry
+NNNNN"`).
 
-1. **List the entry IDs you changed this run:**
+## 4. Verify your own changes (every run that changed entries)
+
+One verification pass, one fix round, then stop; never re-verify the fix round.
+
+1. List the changed IDs:
    ```bash
    git status --porcelain -- entries/ | sed -E 's/^.{3}//' | sed -E 's|.*/([0-9]{5})_.*|\1|' | sort -u
    ```
-2. **Check budget.** Compute remaining = the selector's
-   `openrouter.remaining_usd` minus anything this run has already spent (§A).
-   If remaining < $0.05, skip this section and note "self-check skipped:
-   budget" in the session log.
-3. **Send exactly those entries to an independent model** (typically ~$0.01
-   per 25 entries):
-   - Content changes (glosses, examples, notes, tags, new entries):
-     ```bash
-     python3 build/review_accuracy.py --ids <id1,id2,...> --budget 0.25
-     ```
-   - Furigana/format-only changes (typical for `systemic-fix`): use the
-     furigana screener instead, and deep-review only what it flags:
-     ```bash
-     python3 build/review_runner.py --pass screening --ids <ids> --budget 0.15
-     ```
-   - In `accuracy-review` mode, skip IDs already covered by §A this run (the
-     review itself was the check).
-4. **Adjudicate every reported issue with your own judgment** per §C:
-   **APPLY** clear errors (your own slips, and pre-existing errors the model
-   caught); **REJECT** stylistic nits and model misreadings; **FLAG** genuine
-   uncertainty by appending to `reviews/needs_curator.txt`. Tag-vocabulary
-   flags follow the semantic-tag policy in §A step 4 (not-in-list = apply the
-   migration; in-list narrowness nit = reject). Log every decision
-   per §C. Update the `modified` timestamp on any entry you fix.
-5. **Record spend in the ledger** using the snippet in §A step 5, with
-   `phase: "self-check"`.
-6. **If the model found nothing, say so in the session log** — a clean
-   self-check is the expected steady state and is worth recording.
+2. If the selector's `openrouter.remaining_usd` minus this run's spend is under
+   $0.05, skip with "self-check skipped: budget" in the log.
+3. Send the changed entries plus every neighbour you opened to the reviewer:
+   ```bash
+   python3 build/review_accuracy.py --ids <id1,id2,...> --budget 0.40
+   ```
+   It writes `reviews/accuracy/{id}.json` (local) and appends flagged entries
+   to `reviews/accuracy_flags.jsonl`. Off-vocabulary tags are flagged by code;
+   breadth complaints, unquoted register or notes flags, and `warn` severity
+   are already filtered out.
+4. Adjudicate every surviving issue per §C: APPLY clear errors (yours or
+   pre-existing), REJECT model misreadings, FLAG genuine uncertainty to
+   `reviews/needs_curator.txt`. A `notes` flag with a verbatim quote deserves a
+   careful look: the notes are where past factual errors slipped through.
+   Update `modified` on any entry you fix. Log every decision (§C).
+5. Record spend in the ledger with the snippet in §A step 5, `phase: "self-check"`.
+6. If the model found nothing, say so in the session log.
 
-## 5. Metrics snapshot (every run, including wiki-only runs)
-
-Append one line to `pipeline/metrics-history.jsonl` just before the session
-log is written:
+## 5. Metrics snapshot (every run)
 
 ```bash
 python3 pipeline/metrics_snapshot.py --mode <mode> --changed <entries changed this run>
 ```
 
-Flag tallies are derived automatically from today's `reviews/decisions.jsonl`
-lines (pass `--applied/--rejected/--flagged` only to override), and detector
-queue depths are collected automatically about once a week. If the script is
-missing or errors, note that in the session log and continue — never let
-metrics block the wrap-up. This costs seconds and gives the curator (and the
-weekly wiki trend review) a real time series instead of impressions.
+Flag tallies are derived from `reviews/decisions.jsonl` lines logged since the
+previous snapshot. If the script errors, note it and continue.
 
-## 6. Budget & context discipline (inherited from v1 — do not relax)
+## 6. Budget and context discipline
 
-- **Plan to finish the mode's content work by ~55% of your context window.**
-  §4 (self-verification) and §5 (metrics) are part of the wrap-up budget; the
-  full wrap-up (verify, build, push, PR, CI wait, merge) needs ~40% headroom.
-  Running out of context mid-merge is the single biggest cause of stranded PRs.
-- **Take stock periodically.** If tool outputs are truncating or you've read
-  several large files, wrap up early. Better one fewer entry than a stranded PR.
-- **Single build.** Run `make build` **exactly once** per run (§7), and only if
-  entries/build artifacts changed. **Wiki-only runs skip `make build`**
-  (markdown changes don't touch `docs/`). After the build, do **not** make
-  fix-up edits — log any newly-spotted issue as an `[entry]` observation and
-  proceed to merge. (§4 runs *before* the build precisely so its fix round is
-  included in the single build.)
+- Finish the mode's content work by about 55 percent of the context window.
+  §3–§5 and the wrap-up need the rest. Running out of context mid-merge is the
+  one failure that costs a whole run.
+- Take stock every ten entries; wrap up early if tool output is truncating.
+- Do not run `make build`; the site is built by GitHub Actions after merge.
+  Run `make index` exactly once at wrap-up (validation plus index and kanji
+  JSON refresh). After it, make no further edits: log anything you notice as an
+  `[entry]` observation.
 
 ## 7. Wrap up
 
-1. **Update the mode's cursor/state** so the next run advances:
-   - `polish` → `polishing/tasks/comprehensive/progress.txt` (`next: <after
-     last frontier entry>`) AND `polishing/tasks/comprehensive/priority-cursor.txt`
-     (`line: <next unprocessed priority line>`) if the priority lane ran.
-   - `accuracy-review` → `polishing/tasks/cross-model-review/progress.txt`;
-     ledger updated per §A; queue maintained per §A step 7.
-   - `new-entries` → update `PROJECT_STATUS.md` Recent Changes (keep 5 most
-     recent).
-   - `candidates` → no cursor; the queue itself is the state. Update
-     `PROJECT_STATUS.md` Recent Changes with the count added and the
-     categories covered.
-   - `wiki` → append to `planning/wiki/log.md`; update `index.md` for new pages.
-   - The selector already advanced `pipeline/routine-state.json` in §1.
-2. **Write a session log** `polishing/sessions/routine_{YYYY-MM-DD}_{NNN}.md`
-   (next free NNN). Record: mode and the selector's `reason`, range/params
-   worked, per-item changes, **§4 self-check outcome (clean / N applied / N
-   rejected / N flagged)**, candidates added, observations logged, and the
-   next cursor value(s).
-3. **Build** (skip for `wiki`-only runs):
-   ```bash
-   make build
-   ```
-4. **Commit and push** everything (`git add -A`), including build artifacts
-   (`docs/`, `entries_index.json`, `build/word_id_lookup.json`, `kanji/`) plus
+1. **Advance the cursors**: `polish` → `polishing/tasks/comprehensive/progress.txt`
+   (`next: <after last frontier entry>`) and `priority-cursor.txt`;
+   `accuracy-review` → `polishing/tasks/cross-model-review/progress.txt` and
+   the queue (§A step 7); `new-entries` and `candidates` → the
+   `PROJECT_STATUS.md` Recent Changes section (keep five); `wiki` →
+   `planning/wiki/log.md`. The selector already persisted its state.
+2. **Write the session log** `polishing/sessions/routine_{YYYY-MM-DD}_{NNN}.md`
+   (next free NNN): mode and reason, range or params, per-item changes, the
+   self-check outcome (clean / N applied / N rejected / N flagged), candidates
+   added, observations logged, next cursor values.
+3. **Refresh indexes**: `make index`.
+4. **Commit and push everything** (`git add -A`), including
+   `entries_index.json`, `build/word_id_lookup.json`, `kanji/`,
    `pipeline/routine-state.json`, `pipeline/openrouter-ledger.json`,
-   `pipeline/metrics-history.jsonl`, `reviews/decisions.jsonl`, and any
-   `reviews/` artifacts:
+   `pipeline/metrics-history.jsonl`, `reviews/decisions.jsonl`,
+   `reviews/accuracy_flags.jsonl`, `reviews/screening/screening_status.json`:
    ```bash
    git add -A && git commit -m "routine(<mode>): <short summary>"
    git push -u origin "$(git rev-parse --abbrev-ref HEAD)"
    ```
-5. **PR → wait for CI → merge** (MCP path; `gh` is not authorized in
-   Routines). This is an **atomic tail**: after push, the only tool calls are
-   these, in order — do not interleave edits.
-   1. `mcp__github__create_pull_request` (`owner: "tkgally"`,
-      `repo: "je-dict-1"`, `head: <branch>`, `base: "main"`, title
-      `routine(<mode>): …`, body summarizing the run incl. the §4 outcome).
-      Write the title and body per `.claude/skills/clear-reports/SKILL.md`:
-      keep the `routine(<mode>):` prefix (the sweep parses it), and make
-      everything else plain, self-contained English for the curator — project
-      context first, jargon glossed. Note the PR number.
-   2. **Wait for CI by polling check-runs over MCP** (full loop in `CLAUDE.md`
-      → "MCP path" step 5; `pipeline/wait-for-pr-checks.sh` 403s here and is not
-      used). Call `mcp__github__pull_request_read` with `method: "get_check_runs"`
-      (**not** `get_status`, which is blind to Actions checks). Classify: *green*
-      = `total_count >= 1` and every run `completed` with `conclusion`
-      `success`/`neutral`/`skipped`; *failed* = any other completed conclusion;
-      *pending* = otherwise. While pending, wait with a backgrounded `sleep 30`
-      (Bash `run_in_background: true`, since foreground `sleep` is disabled) and
-      re-poll, up to ~16 times (~8 min).
-   3. **green** → `mcp__github__merge_pull_request` with `merge_method: "squash"`.
-      **failed** → leave the PR open, add a one-line note to the session log
-      naming the failed check, and stop.
-      **still pending at the cap** → leave the PR open and stop; the next run's
-      §0a rescue merges it once green.
-   - Do **not** `mcp__github__enable_pr_auto_merge` (it rejects on the
-     `unstable` state right after creation). Do **not** `git checkout main` or
-     delete the branch — the session is on that branch; the repo's
-     "Automatically delete head branches" setting cleans up after the
-     squash-merge.
-6. **Release the lock** (after the merge call, or before stopping on a
-   non-green CI result):
-   ```bash
-   python3 pipeline/routine_lock.py release --session "$(git rev-parse --abbrev-ref HEAD)"
-   ```
-7. **End with a clear report.** The final message you leave in the session is
-   what the curator reads when he checks in. Write it per
-   `.claude/skills/clear-reports/SKILL.md`: what this run did and found, in
-   plain self-contained English, with project context and anything that needs
-   him — or a statement that nothing does.
+5. **PR → CI → merge**, the atomic tail (no other tool calls in between):
+   1. `mcp__github__create_pull_request` (`owner: "tkgally"`, `repo:
+      "je-dict-1"`, `head: <branch>`, `base: "main"`); title
+      `routine(<mode>): …` and a body written per
+      `.claude/skills/clear-reports/SKILL.md` (plain English for the curator,
+      the self-check outcome included). Note the PR number.
+   2. Poll `mcp__github__pull_request_read` with `method: "get_check_runs"`.
+      Green = every run `completed` with conclusion `success`, `neutral`, or
+      `skipped`; failed = any other completed conclusion; pending = otherwise.
+      While pending, wait with a backgrounded `sleep 30` (Bash
+      `run_in_background: true`) and re-poll, at most 16 times.
+   3. Green → `mcp__github__merge_pull_request` with `merge_method: "squash"`.
+      Failed → leave the PR open, name the failed check in the session log,
+      stop. Still pending at the cap → leave it open and stop; the next run's
+      §0a rescues it.
+   - Never `enable_pr_auto_merge`, never `git checkout main`, never delete the
+     branch.
+6. **End with a clear report** per the `clear-reports` skill: what this run did
+   and found, in plain English, and what if anything needs the curator.
 
 ---
 
-## §A. accuracy-review playbook (furigana + glosses/translations/tags + queue)
+## §A. accuracy-review playbook
 
-Goal: get a **second model's** opinion on the dimensions another model is best
-placed to catch, apply only the corrections you independently agree with, and
-keep `reviews/queue.txt` (the CI-maintained "changed since last review" list)
-converging instead of growing. Spend is capped per-run by the selector
-(`params.openrouter_session_budget_usd`) and per-day by the ledger.
+Goal: a second model's opinion on the dimensions it is best placed to catch,
+applied only where you independently agree, keeping `reviews/queue.txt`
+converging.
 
-1. **Budget.** Read `params.openrouter_session_budget_usd` (already = the
-   smaller of the per-session cap and the remaining daily budget). If it is
-   `0` or missing, the daily cap is spent — **do not call OpenRouter**; log a
-   note and stop. Otherwise size this run's ID range to the budget: screening
-   + accuracy cost **~$0.5 per 1,000 entries**; the deep furigana pass is the
-   expensive part (~$0.01/entry × flagged), so **cap deep spend at roughly
-   one-third of the session budget**. Target ~400–600 entries per run. The
-   binding constraint is usually adjudication effort, not dollars — shrink the
-   range if step 4 is running long.
-2. **Furigana correctness** — `build/review_runner.py` over a range starting
-   at `params.start_id`:
+1. **Budget.** `params.openrouter_session_budget_usd` is the cap for this run
+   (0 or missing → do not call OpenRouter; log and stop). Cost is about $0.6
+   per 1,000 entries with the notes dimension. Size the range to 800–1,200
+   entries from `params.start_id`; shrink it if adjudication is running long.
+2. **Do not run the furigana screener** (`review_runner.py`). Its flags ran at
+   2 percent precision over the whole series; the accuracy reviewer and the
+   deterministic furigana checks cover the ground.
+3. **Review**:
    ```bash
-   python3 build/review_runner.py --pass screening --range <start> <end> --budget <part>
-   python3 build/review_runner.py --pass deep --range <start> <end> --budget <deep_cap>
+   python3 build/review_accuracy.py --range <start> <end> --budget <budget>
    ```
-   Screening is cheap; `--pass deep --range` deep-reviews **only the
-   screening-flagged entries inside the range**. **Known-noise shortcut:** if
-   every screening flag falls within the documented false-positive families
-   (rendaku in compounds, okurigana/compound reading splits, readings the
-   entry itself discusses — see `reviews/calibration_report.md`), bulk-reject
-   them with one aggregated §C line and **skip the deep pass** (measured
-   2026-06-10/11: screening over already-polished ranges ran 0–5% precision).
-   **Resilience:** if the runner
-   exits abnormally mid-pass, keep the per-entry results already written,
-   append a `[tooling]` observation, and continue with step 3 — do not retry
-   the whole pass.
-3. **Glosses, example translations, and semantic tags** —
-   `build/review_accuracy.py` over the same range (the `tags` dimension is the
-   scalable fix for tag drift: it judges each semantic tag against the
-   *headword*, not the example topics):
-   ```bash
-   python3 build/review_accuracy.py --range <start> <end> --budget <remaining>
-   ```
-   Each entry's issues land in `reviews/accuracy/{id}.json`. To front-load the
-   contaminated P11 block (5700–6340 and the residue above the polish frontier),
-   **`prompts/fix_semantic_tag_drift.md`** Phase 2 walks
-   `polishing/tasks/semantic-tag-drift/progress.txt` with `--dimensions tags` —
-   it is the authoritative path for the single-sole-wrong-category tags
-   (朱肉→`animal-mammal`) that the deterministic checks cannot see.
-4. **Apply corrections with judgment.** For furigana, follow
-   **`prompts/polish_cross_model_review.md`** (consult
-   `reviews/calibration_report.md` for known false positives). For each
-   `reviews/accuracy/{id}.json`, decide **APPLY / REJECT / FLAG** per §C:
-   - **APPLY** a clear gloss/translation fix or a clearly-wrong
-     semantic/register tag; update the entry's `modified` timestamp.
-   - **REJECT** stylistic nits or cases where the model is wrong.
-   - **FLAG** genuine uncertainty for the curator
-     (append to `reviews/needs_curator.txt`).
-   **Semantic-tag policy (2026-06-11):** `VALID_SEMANTIC` in
-   `build/validate_tags.py` is the single source of truth for tag vocabulary —
-   the reviewer prompt embeds it. A flag that a tag is **not in the list is
-   correct by definition**: APPLY it by migrating to the suggested or best
-   in-list tag (`build/check_tag_drift.py` has the 1:1 migration map). Never
-   reject such a flag on the grounds that the tag is "widely used" — usage
-   counts are not the standard, and `schema.json` deliberately has no tag enum.
-   Conversely, REJECT "too narrow/too broad" substitutions between in-list
-   tags, and APPLY a formality flag only when the entry's own notes/register
-   description contradicts the label.
-   Never apply blindly; never add inline links in this mode. **Log every
-   decision to `reviews/decisions.jsonl`** (§C). **Adjudication effort scales
-   with flag quality** (measured 2026-06-10: error-severity flags ~4–13%
-   applicable, warn-severity ~1%): work every `error`-severity issue
-   individually; for `warn`-severity issues, sample ~10 per dimension, and if
-   a recurring noise family emerges (same rejection reason repeating),
-   bulk-reject the rest of that family with ONE aggregated §C line instead of
-   reading hundreds of items. If more than ~20% of entries come back flagged,
-   that is reviewer noise, not dictionary error — log a `[tooling]`
-   observation with examples so the reviewer prompt can be tuned further.
-5. **Record spend in the ledger** (enforces the daily $5 cap across runs).
-   Replace the three arguments with the combined `Est. cost` reported by the
-   review scripts, the phase label, and the entry count:
+   Each entry's surviving issues land in `reviews/accuracy/{id}.json`; flagged
+   entries are also appended to `reviews/accuracy_flags.jsonl`. The `family`
+   field tells you what kind of flag it is: `offvocab` (deterministic, always
+   apply the migration to the suggested or best in-list tag),
+   `wrong-category`, `register` (comes with a verbatim quote), `gloss-meaning`,
+   `translation-meaning`, `notes-fact` (comes with a verbatim quote).
+4. **Adjudicate** every issue: APPLY / REJECT / FLAG per §C. Never apply
+   blindly; open the entry. For `notes-fact`, check the claim against your own
+   knowledge and the rest of the entry. If more than 25 percent of entries
+   come back flagged, that is reviewer noise: log a `[tooling]` observation
+   with examples. Update `modified` on every entry you change.
+5. **Ledger**:
    ```bash
    python3 - "$EST_COST" "<phase>" "<n_entries>" <<'PY'
    import json, sys, datetime, pathlib
@@ -394,108 +219,64 @@ converging instead of growing. Spend is capped per-run by the selector
    print("ledger spent_usd:", L["spent_usd"])
    PY
    ```
-6. **Cursor.** Set `polishing/tasks/cross-model-review/progress.txt` to the
-   next un-reviewed entry ID.
-7. **Queue maintenance.** Remove the range you just reviewed from
-   `reviews/queue.txt` so the queue converges to "changed since last review"
-   (CI re-adds anything that changes later, including your own fixes — they
-   get a second look by design):
+6. **Cursor**: `polishing/tasks/cross-model-review/progress.txt` → `next: <end+1>`.
+   When the cursor passes the highest entry ID, reset it to `next: 00001`; the
+   second pass reviews with the notes dimension what the first pass reviewed
+   without it.
+7. **Queue**: remove the reviewed range from `reviews/queue.txt`:
    ```bash
    awk -v s=<start> -v e=<end> -F'[/_]' '!($1=="entries" && $3+0>=s && $3+0<=e)' reviews/queue.txt > /tmp/q.txt && mv /tmp/q.txt reviews/queue.txt
    ```
-   Then wrap up (§7). The ledger, queue, decisions, and `reviews/` files are
-   committed with the run.
+8. Run §3 on the entries you changed, then the §4 self-check is not needed
+   for IDs in the reviewed range (the review was the check); skip §4 for them.
 
-## §B. systemic-fix playbook (semantic-verification-first)
+## §B. systemic-fix playbook
 
-Turns one accumulated wiki insight into a dictionary-wide correction. **The
-default is per-entry semantic verification**, because the project's worst
-regressions came from overly-ambitious mechanical sweeps.
+1. Read `params.backlog_item` (`notes`, `detect`, `filter`, `verify`) and its
+   prose source in `planning/wiki/ideas/cleanup-backlog.md` or
+   `tooling-backlog.md`.
+2. Run the item's `detect` command; apply its `filter`. Detectors are
+   read-only and emit a JSON queue; they never modify entries.
+3. Fix a bounded batch (sized by §6): open each flagged entry, confirm the fix
+   is right for that entry, apply it, update `modified`. Purely mechanical
+   application without reading the entry is reserved for transformations that
+   provably cannot introduce an error, and even those are validated and
+   spot-checked. When in doubt, verify.
+4. Run §3 and §4 on the changed entries.
+5. Update the item's `status` and `scope_estimate` in `backlog-queue.json` and
+   its prose page (RESOLVED, or the remaining scope), then wrap up.
 
-1. Use `params.backlog_item` (the selector already picked the top open,
-   batch-ready item from `planning/wiki/ideas/backlog-queue.json`). Read its
-   `notes`/`verify` fields and cross-check its prose `source` in
-   `planning/wiki/ideas/cleanup-backlog.md` / `tooling-backlog.md`.
-2. Run the item's `detect` command and apply its `filter` if present. The
-   detectors — `build/check_furigana_format.py`, `build/check_artifacts.py`,
-   `build/check_tag_drift.py`, `build/check_example_headword.py` — are
-   **read-only** and emit a JSON review queue (`--json`); they never modify
-   entries. (If a future item needs a detector that doesn't exist, build it
-   from the wiki's detection rules, commit it, then run it.) For the two
-   high-precision P11 tag-drift items (`tag-proverb-idiom-mismatch`,
-   `tag-concrete-noun-domain-mismatch`), follow **`prompts/fix_semantic_tag_drift.md`**
-   — it has the per-check fix recipe (correct destination tag, the
-   polysemy false-positive family to reject) and the cursor.
-3. **Fix a bounded, semantically-verified batch** (sized by the §6 context
-   rule): open each flagged entry, confirm the fix is correct *for that
-   entry*, then apply it and update its `modified` timestamp. For furigana
-   rewraps, validate against `build/word_id_lookup.json` so inline-link
-   lookups still resolve. **Purely-mechanical application — transforming every
-   match without reading the entry — is reserved for transformations that
-   provably cannot introduce an error**, and even those are validated and
-   spot-checked before commit. When in doubt, verify.
-4. Run the §4 self-verification on the entries you changed (the furigana
-   screener variant for format-only batches).
-5. Update the item's `status`/`scope_estimate` in `backlog-queue.json` **and**
-   its prose backlog page (mark RESOLVED or record remaining scope), then wrap
-   up (§7).
+## §C. Decision ledger
 
-## §C. Decision ledger (flag adjudication record)
-
-Whenever you adjudicate an external model's flag — in §A step 4 or §4 step 4 —
-append one line to `reviews/decisions.jsonl` (always append with `>>` or in
-append mode; never rewrite the file):
+For every adjudicated flag append one line to `reviews/decisions.jsonl`
+(always append; never rewrite):
 
 ```json
-{"ts":"2026-06-10T03:12:00Z","entry":"00123","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"gloss said borrow, word means lend"}
+{"ts":"2026-09-02T03:12:00Z","entry":"00123","src":"accuracy","dim":"gloss","family":"gloss-meaning","sev":"error","decision":"apply","note":"gloss said borrow, word means lend"}
 ```
 
-- `src`: `accuracy` | `furigana` | `self-check`
-- `dim`: `gloss` | `translation` | `tags` | `furigana`
+- `src`: `accuracy` | `self-check`
+- `dim`: `gloss` | `translation` | `tags` | `notes`
+- `family`: copy the issue's `family` field
 - `decision`: `apply` | `reject` | `flag`
-- `note`: ≤10 words, telegraphic.
+- `note`: at most ten words.
 
-Use **exactly these lowercase values** — mixed-case (`APPLY`) or ad-hoc `src`
-values (`accuracy-review`) break the precision statistics. (Both drifts were
-observed in the first week's ledger.)
-
-When bulk-rejecting a recurring noise family (§A step 4), write ONE aggregated
-line with an `"n"` count and no `"entry"` field:
-
-```json
-{"ts":"2026-06-10T03:12:00Z","src":"accuracy","dim":"translation","sev":"warn","decision":"reject","n":57,"note":"family: stylistic rewording suggestions"}
-```
-
-Aggregated lines keep precision statistics countable without spending context
-on items already known to be noise.
-
-This is what makes reviewer-flag **precision** measurable per dimension over
-weeks (e.g. "translation flags: 80% applied; tags flags: 35% applied"). The
-`wiki` mode's metrics-trend activity summarizes it, and the curator can use it
-to tune which dimensions deserve trust, consensus checks, or retirement.
+Use exactly these lowercase values. For a recurring noise family you rejected
+in bulk, write ONE aggregated line with an `"n"` count and no `"entry"`.
 
 ---
 
 ## Quick reference
 
 ```bash
-# Pre-flight
-mcp__github__list_pull_requests                         # §0a rescue check + §0b sweep source (MCP)
-# §0b sweep: for un-rescued claude/* PRs, get_files → close superseded via MCP (sweep-stranded-prs.py 403s here)
-mcp__github__list_branches                              # §0b orphan-branch sweep (CLAUDE.md → "Sweep orphan claude/* branches")
-python3 pipeline/routine_lock.py acquire --session X    # §0b lock (exit 1 = stop)
-python3 pipeline/routine_next.py                        # §1 pick mode (persists state)
-python3 pipeline/routine_next.py --explain              # why this mode (no persist)
-python3 pipeline/routine_next.py --force-mode polish    # manual per-mode test (no persist)
-
-# Verification & metrics
-python3 build/review_accuracy.py --ids 00123,00456 --budget 0.25      # §4 self-check (content)
-python3 build/review_runner.py --pass screening --ids 00123 --budget 0.15  # §4 self-check (furigana)
-python3 pipeline/metrics_snapshot.py --mode M --changed N ...         # §5 (or inline fallback)
-
-# Wrap-up
-make build                                              # once, at wrap-up (skip wiki-only)
-mcp__github__pull_request_read method=get_check_runs    # §7 CI gate: poll until green (Bash run_in_background sleep 30 between polls)
-mcp__github__merge_pull_request merge_method=squash     # §7 merge once green
-python3 pipeline/routine_lock.py release --session X    # at the very end
+mcp__github__list_pull_requests / list_branches          # §0 rescue and sweeps
+python3 pipeline/routine_next.py                         # §1 pick the mode
+python3 build/normalize_notes.py --ids … --apply         # §3 mechanical pass
+python3 build/auto_link.py --ids … --apply
+python3 build/harvest_crossrefs.py --ids … --apply
+python3 build/review_accuracy.py --ids … --budget 0.40   # §4 self-check
+python3 build/review_accuracy.py --range S E --budget B  # §A sweep
+python3 pipeline/metrics_snapshot.py --mode M --changed N
+make index                                               # §7 indexes (no site build)
+mcp__github__create_pull_request → get_check_runs → merge_pull_request (squash)
 ```

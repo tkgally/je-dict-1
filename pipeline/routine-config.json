@@ -1,29 +1,32 @@
 {
-  "_doc": "Tuning knobs for the unified improvement Routine (prompts/routine2.md). Edit weights, nudges, and openrouter caps here. 'enabled_modes' controls which modes the selector may pick. systemic-fix self-suppresses when planning/wiki/ideas/backlog-queue.json has no open batch-ready item; candidates self-suppresses while candidate_words.json holds >= candidate_restock_threshold words, so it only claims runs when the queue needs restocking. See enhancement/routine2-plan-2026-06-10.md.",
-  "runs_per_day_hint": 12,
+  "_doc": "Tuning knobs for the unified improvement Routine (prompts/routine2.md). 'enabled_modes' controls which modes the selector may pick; 'weights' are the long-run share of runs (normalized). A mode with weight 0 never runs on rotation; 'floors' gives such a mode a temporary effective weight when its trigger fires (wiki: unharvested observations >= observations_unharvested_lines AND at least wiki_min_days_between_runs since the last wiki run). systemic-fix self-suppresses when planning/wiki/ideas/backlog-queue.json has no open batch-ready item; candidates self-suppresses while candidate_words.json holds >= candidate_restock_threshold words; accuracy-review self-suppresses when the OpenRouter daily cap is spent. Reweighted 2026-09-02 (enhancement/assessment-2026-09-02.md §6.A3): accuracy and systemic-fix up, new-entries down (internal closure only), wiki trigger-only.",
   "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries", "candidates", "wiki"],
   "weights": {
-    "polish": 0.35,
-    "systemic-fix": 0.10,
-    "accuracy-review": 0.25,
-    "new-entries": 0.15,
-    "candidates": 0.10,
+    "polish": 0.30,
+    "systemic-fix": 0.25,
+    "accuracy-review": 0.30,
+    "new-entries": 0.10,
+    "candidates": 0.05,
+    "wiki": 0.0
+  },
+  "floors": {
     "wiki": 0.15
   },
   "nudges": {
     "candidate_high_threshold": 400,
-    "candidate_low_threshold": 80,
-    "candidate_restock_threshold": 150,
+    "candidate_low_threshold": 40,
+    "candidate_restock_threshold": 100,
     "seen_in_entry_high_threshold": 50,
     "observations_unharvested_lines": 40,
+    "wiki_min_days_between_runs": 7,
     "min_multiplier": 0.5,
     "max_multiplier": 2.0
   },
-  "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix", "candidates"],
+  "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix", "candidates", "wiki"],
   "anti_repeat_override_multiplier": 1.8,
   "openrouter": {
     "daily_cap_usd": 5.0,
     "per_session_cap_usd": 2.5,
-    "self_check_cap_usd": 0.25
+    "self_check_cap_usd": 0.40
   }
 }
