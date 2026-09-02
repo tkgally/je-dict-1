@@ -235,6 +235,8 @@ def main():
                         help='Skip entry count verification (faster)')
     parser.add_argument('--fix', action='store_true',
                         help='Attempt to fix issues by rebuilding')
+    parser.add_argument('--skip-html', action='store_true',
+                        help='Do not check for generated docs/kanji/*.html pages')
     args = parser.parse_args()
 
     # Determine paths relative to script location
@@ -284,7 +286,10 @@ def main():
 
     # 6. Verify HTML files
     print("  Checking kanji HTML files...")
-    all_errors.extend(verify_html_files(kanji_list, docs_kanji_dir))
+    # docs/ is generated and untracked (2026-09-02): a fresh checkout has no
+    # kanji pages yet, and build_flat.py is about to create them.
+    if not args.skip_html and docs_kanji_dir.exists():
+        all_errors.extend(verify_html_files(kanji_list, docs_kanji_dir))
 
     # Report results
     print()
