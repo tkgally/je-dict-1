@@ -230,14 +230,14 @@ class TestHarvest(unittest.TestCase):
         p = self.by_pair[("20022_jinmei_a", "20023_jinmei_b")]
         self.assertEqual(p.type, "homophone")                      # same reading, different word
         p = self.by_pair[("20022_jinmei_a", "20024_hantaigo")]
-        self.assertEqual(p.type, "synonym")                        # "antonym" here is the gloss, not a cue
+        self.assertEqual(p.type, "contrast")                       # "antonym" here is the gloss, not a cue
         p = self.by_pair[("20022_jinmei_a", "20025_taigan")]
-        self.assertEqual(p.type, "synonym")                        # "the opposite bank" is a gloss too
+        self.assertEqual(p.type, "contrast")                       # "the opposite bank" is a gloss too
         self.assertIn(("20023_jinmei_b", "20022_jinmei_a"), self.by_pair)   # homophone back-link
         p = self.by_pair[("20001_enjosuru", "20007_shikin")]
         self.assertEqual((p.type, p.label), ("related", "funds"))
         p = self.by_pair[("20019_kaiketsu", "20018_kaishou")]     # 解消する -> noun 解消
-        self.assertEqual((p.type, p.how), ("synonym", "headword-suru"))
+        self.assertEqual((p.type, p.how), ("contrast", "headword-suru"))
 
     def test_skips(self):
         sk = self.harvest.skipped

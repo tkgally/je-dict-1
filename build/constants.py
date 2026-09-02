@@ -34,7 +34,7 @@ CROSS_REF_LABELS = {
     'keigo': 'Keigo',
     'related': 'Related',
     'see_also': 'See also',
-    'contrast': 'Contrast',
+    'contrast': 'Compare',
     'homophone': 'Homophone',
 }
 

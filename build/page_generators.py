@@ -8,17 +8,20 @@ recent, random, and pending.
 """
 
 import html
+import random
 from collections import defaultdict
 from datetime import datetime, timezone
 
 from path_utils import get_directory_range
-from japanese_utils import KANA_ROWS, strip_furigana, is_kanji
+from japanese_utils import KANA_ROWS, strip_furigana, is_kanji, romaji_to_hiragana, romaji_to_katakana
 from html_utils import (
     generate_nav_header,
     generate_furigana_script,
     generate_examples_script,
     generate_wordlinks_script,
     generate_goatcounter_script,
+    generate_header_search_script,
+    semantic_tag_slug,
 )
 from entry_renderer import (
     process_furigana,
@@ -29,46 +32,12 @@ from entry_renderer import (
 
 
 def generate_header_search_redirect_script() -> str:
-    """Generate a lightweight header search script that redirects to index.html.
+    """Header search script for pages at the docs root (redirects to index.html?q=...).
 
-    This is for main pages (advanced, browse, recent, random, pending) that
-    don't need the full search functionality - they just redirect to index.html
-    with the query parameters.
+    Kept under this name because article_renderer imports it; the script itself
+    (no query-type heuristics, no index load) lives in html_utils.
     """
-    return '''<script>
-(function() {
-    'use strict';
-
-    var searchInput = document.getElementById('header-search-input');
-    var searchButton = document.getElementById('header-search-button');
-
-    if (!searchInput || !searchButton) return;
-
-    function detectQueryType(query) {
-        if (/[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]/.test(query)) {
-            return 'japanese';
-        }
-        if (/^[a-z]+$/i.test(query)) {
-            return query.length <= 10 ? 'romaji' : 'english';
-        }
-        return 'english';
-    }
-
-    function performSearch() {
-        var query = searchInput.value.trim();
-        if (!query) return;
-
-        // Redirect to index.html with search parameter
-        var searchType = detectQueryType(query);
-        window.location.href = 'index.html?q=' + encodeURIComponent(query) + '&type=' + searchType;
-    }
-
-    searchButton.addEventListener('click', performSearch);
-    searchInput.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') performSearch();
-    });
-})();
-</script>'''
+    return generate_header_search_script('')
 
 
 def generate_index_page(entry_count: int, tier_counts: dict, example_count: int, build_time_jst: str) -> str:
@@ -79,7 +48,7 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
 
     return f'''{generate_html_head("Home")}
 <body>
-{generate_nav_header(show_all_links=False)}
+{generate_nav_header()}
 <main class="home-page">
     <div class="hero">
         <h1>TKG Japanese-English Learner's Dictionary</h1>
@@ -87,7 +56,7 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
 
     <section class="search-section">
         <div class="search-form">
-            <input type="text" id="search-input" placeholder="Search Japanese or romaji..." autocomplete="off">
+            <input type="text" id="search-input" placeholder="Search Japanese, romaji, or English (e.g. 食べた, taberu, eat)" autocomplete="off">
             <button type="button" id="search-button">Search</button>
         </div>
 
@@ -95,20 +64,22 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
             <label><input type="radio" name="search-type" value="auto" checked> Auto-detect</label>
             <label><input type="radio" name="search-type" value="japanese"> Japanese</label>
             <label><input type="radio" name="search-type" value="romaji"> Romaji</label>
+            <label><input type="radio" name="search-type" value="english"> English</label>
         </div>
 
         <div class="home-nav-links">
-            <a href="advanced.html">Advanced</a>
             <a href="browse.html">Browse</a>
-            <a href="articles/index.html">Articles</a>
             <a href="kanji.html">Kanji</a>
+            <a href="lists/index.html">Lists</a>
+            <a href="articles/index.html">Articles</a>
             <a href="recent.html">Recent</a>
-            <a href="pending.html">Pending</a>
+            <a href="advanced.html">Advanced</a>
         </div>
 
         <div id="results-section" class="results-section" style="display: none;">
             <h2 id="results-heading">Results</h2>
             <div id="results-list" class="results-list"></div>
+            <button type="button" id="show-more-button" class="show-more-btn" style="display: none;">Show more</button>
         </div>
 
         <noscript>
@@ -386,17 +357,57 @@ def generate_tag_search_styles() -> str:
 '''
 
 
-def generate_tag_search_section() -> str:
-    """Generate the tag-based search section HTML."""
-    return '''
+def generate_tag_search_section(curator_tools: bool = False) -> str:
+    """Generate the tag-based search section HTML.
+
+    The public advanced page has the tag filter and the combined query; the
+    curator page (curator.html, unlinked) adds tag statistics, missing-tag
+    detection and CSV/JSON/ID export.
+    """
+    curator_modes = ''
+    curator_panels = ''
+    export_buttons = ''
+    if curator_tools:
+        curator_modes = '''
+            <button class="mode-btn" data-mode="stats">Tag Statistics</button>
+            <button class="mode-btn" data-mode="missing">Find Missing Tags</button>'''
+        curator_panels = '''
+        <!-- Stats Panel -->
+        <div id="stats-panel" class="stats-panel">
+            <div class="stats-grid" id="stats-grid"></div>
+        </div>
+
+        <!-- Missing Tags Panel -->
+        <div id="missing-panel" class="missing-panel">
+            <div class="missing-selector">
+                <h3>Find Entries Missing:</h3>
+                <div class="missing-options">
+                    <label><input type="checkbox" name="missing" value="pos"> POS tags</label>
+                    <label><input type="checkbox" name="missing" value="formality"> Formality</label>
+                    <label><input type="checkbox" name="missing" value="politeness"> Politeness</label>
+                    <label><input type="checkbox" name="missing" value="semantic"> Semantic tags</label>
+                    <label><input type="checkbox" name="missing" value="transitivity"> Transitivity (verbs only)</label>
+                </div>
+                <div class="filter-actions">
+                    <button type="button" id="find-missing" class="primary">Find Missing</button>
+                </div>
+            </div>
+        </div>
+'''
+        export_buttons = '''
+                <div class="tag-results-export">
+                    <button type="button" id="export-csv">Export CSV</button>
+                    <button type="button" id="export-json">Export JSON</button>
+                    <button type="button" id="copy-ids">Copy IDs</button>
+                </div>'''
+
+    return f'''
     <!-- Tag-Based Search Section -->
     <section class="tag-search-section">
         <h2>Tag-Based Search</h2>
 
         <div class="tag-search-modes">
-            <button class="mode-btn active" data-mode="filter">Filter by Tags</button>
-            <button class="mode-btn" data-mode="stats">Tag Statistics</button>
-            <button class="mode-btn" data-mode="missing">Find Missing Tags</button>
+            <button class="mode-btn active" data-mode="filter">Filter by Tags</button>{curator_modes}
             <button class="mode-btn" data-mode="combined">Combined Query</button>
         </div>
 
@@ -406,7 +417,7 @@ def generate_tag_search_section() -> str:
                 <button type="button" id="apply-filters" class="primary">Apply Filters</button>
                 <button type="button" id="clear-filters">Clear All</button>
                 <label style="display: inline-flex; align-items: center; gap: 0.25rem;">
-                    <input type="checkbox" id="filter-and-mode"> AND mode (require all)
+                    <input type="checkbox" id="filter-and-mode" checked> Match all selected categories (AND)
                 </label>
             </div>
 
@@ -456,7 +467,6 @@ def generate_tag_search_section() -> str:
                     <label><input type="checkbox" name="transitivity" value="both"> both</label>
                     <label><input type="checkbox" name="transitivity" value="_missing"> (missing)</label>
                 </div>
-                <div class="filter-note">⚠️ Transitivity tagging is incomplete (~8% coverage). Many verbs still need tagging.</div>
             </div>
 
             <div class="filter-group">
@@ -561,28 +571,7 @@ def generate_tag_search_section() -> str:
             </div>
         </div>
 
-        <!-- Stats Panel -->
-        <div id="stats-panel" class="stats-panel">
-            <div class="stats-grid" id="stats-grid"></div>
-        </div>
-
-        <!-- Missing Tags Panel -->
-        <div id="missing-panel" class="missing-panel">
-            <div class="missing-selector">
-                <h3>Find Entries Missing:</h3>
-                <div class="missing-options">
-                    <label><input type="checkbox" name="missing" value="pos"> POS tags</label>
-                    <label><input type="checkbox" name="missing" value="formality"> Formality</label>
-                    <label><input type="checkbox" name="missing" value="politeness"> Politeness</label>
-                    <label><input type="checkbox" name="missing" value="semantic"> Semantic tags</label>
-                    <label><input type="checkbox" name="missing" value="transitivity"> Transitivity (verbs only)</label>
-                </div>
-                <div class="filter-actions">
-                    <button type="button" id="find-missing" class="primary">Find Missing</button>
-                </div>
-            </div>
-        </div>
-
+{curator_panels}
         <!-- Combined Query Panel -->
         <div id="combined-panel" class="combined-panel">
             <div class="query-builder">
@@ -606,12 +595,7 @@ def generate_tag_search_section() -> str:
         <!-- Results Area -->
         <div id="tag-results" class="tag-results" style="display: none;">
             <div class="tag-results-header">
-                <span class="tag-results-count" id="tag-results-count"></span>
-                <div class="tag-results-export">
-                    <button type="button" id="export-csv">Export CSV</button>
-                    <button type="button" id="export-json">Export JSON</button>
-                    <button type="button" id="copy-ids">Copy IDs</button>
-                </div>
+                <span class="tag-results-count" id="tag-results-count"></span>{export_buttons}
             </div>
             <div id="tag-results-list" class="tag-results-list"></div>
             <div id="tag-pagination" class="pagination"></div>
@@ -620,16 +604,31 @@ def generate_tag_search_section() -> str:
 '''
 
 
-def generate_advanced_page() -> str:
-    """Generate the advanced.html page with tag-based search."""
+def generate_advanced_page(curator_tools: bool = False) -> str:
+    """Generate advanced.html (public tag search) or curator.html (curator_tools=True).
+
+    Both load the compact search index plus search-tags.js; the curator page is
+    unlinked and marked noindex.
+    """
+    if curator_tools:
+        title = 'Curator Tools'
+        intro = ('Tag statistics, missing-tag detection and export for dictionary maintenance. '
+                 'This page is not linked from the public navigation.')
+        robots = '\n    <meta name="robots" content="noindex, nofollow">'
+    else:
+        title = 'Advanced Search'
+        intro = ('Filter entries by vocabulary tier, part of speech, transitivity, formality and '
+                 'other tags, or combine conditions in a query.')
+        robots = ''
+
     # Custom head with tag search styles
     custom_head = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TKG Japanese-English Learner's Dictionary - Advanced tag-based search">
-    <title>Advanced Search - TKG Japanese-English Learner's Dictionary</title>
+    <meta name="description" content="TKG Japanese-English Learner's Dictionary - {title}">{robots}
+    <title>{title} - TKG Japanese-English Learner's Dictionary</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFEA00'/><circle cx='50' cy='50' r='30' fill='%23FFC107'/><circle cx='42' cy='42' r='8' fill='white' opacity='0.4'/></svg>">
 {generate_tag_search_styles()}
@@ -637,11 +636,12 @@ def generate_advanced_page() -> str:
 
     return f'''{custom_head}
 <body>
-{generate_nav_header(show_all_links=False)}
+{generate_nav_header()}
 <main class="search-page">
-    <h1>Advanced Search</h1>
+    <h1>{title}</h1>
+    <p class="browse-intro">{intro}</p>
 
-{generate_tag_search_section()}
+{generate_tag_search_section(curator_tools)}
 
     <noscript>
         <div class="noscript-notice">
@@ -651,6 +651,7 @@ def generate_advanced_page() -> str:
 </main>
 
 <script src="search-index.js"></script>
+<script src="search-tags.js"></script>
 <script src="tag-search.js"></script>
 
 <footer>
@@ -676,76 +677,129 @@ def get_kana_folder_for_display(reading: str) -> str:
     return 'a'
 
 
-def generate_browse_page(entries: list, entries_dict: dict) -> str:
-    """Generate the browse.html page with entries organized by kana."""
-    # Group entries by kana row
-    grouped = {row['name']: [] for row in KANA_ROWS}
+def _page_footer_scripts(relative_path: str = '') -> str:
+    """Footer, header-search redirect, toggle scripts and closing tags shared by list pages."""
+    return '\n'.join([
+        f'''
+        <footer>
+            <p><a href="{relative_path}index.html">TKG Japanese-English Learner's Dictionary</a></p>
+        </footer>
+    ''',
+        generate_header_search_script(relative_path),
+        generate_furigana_script(),
+        generate_examples_script(),
+        generate_wordlinks_script(),
+        generate_goatcounter_script(),
+        '</body>',
+        '</html>',
+    ])
 
+
+def _entry_row_html(entry: dict, relative_path: str = '') -> str:
+    """One headword / reading / gloss row linking to an entry (browse, lists, tag pages)."""
+    dir_range = get_directory_range(entry['id'])
+    return (
+        f'<a href="{relative_path}entries/{dir_range}/{entry["id"]}.html" class="browse-entry">'
+        f'<span class="browse-headword" lang="ja">{process_furigana(entry["headword"])}</span>'
+        f'<span class="browse-reading" lang="ja">{html.escape(entry["reading"])}</span>'
+        f'<span class="browse-gloss">{html.escape(entry.get("gloss", ""))}</span>'
+        f'</a>'
+    )
+
+
+def group_entries_by_kana_row(entries: list) -> list:
+    """Return [(row, entries sorted by reading), ...] for the non-empty KANA_ROWS."""
+    grouped = {row['folder']: [] for row in KANA_ROWS}
     for entry in entries:
-        reading = entry['reading']
+        reading = entry.get('reading', '')
         if not reading:
             continue
-        first_char = reading[0]
         for row in KANA_ROWS:
-            if first_char in row['kana']:
-                grouped[row['name']].append(entry)
+            if reading[0] in row['kana']:
+                grouped[row['folder']].append(entry)
                 break
+    result = []
+    for row in KANA_ROWS:
+        row_entries = sorted(grouped[row['folder']], key=lambda e: e['reading'])
+        if row_entries:
+            result.append((row, row_entries))
+    return result
 
-    # Sort each group
-    for row_name in grouped:
-        grouped[row_name].sort(key=lambda e: e['reading'])
 
-    # Generate HTML
+def _kana_sections_html(entries: list, relative_path: str) -> str:
+    """Entries grouped under one heading per kana row, with a jump bar."""
+    grouped = group_entries_by_kana_row(entries)
+    jump = ''.join(f'<a href="#row-{row["folder"]}">{row["name"]}</a>' for row, _ in grouped)
+    parts = [f'<nav class="kana-jump" lang="ja" aria-label="Kana rows">{jump}</nav>']
+    for row, row_entries in grouped:
+        parts.append(
+            f'<section class="kana-section" id="row-{row["folder"]}">'
+            f'<h2 class="kana-row-heading"><span class="kana-name" lang="ja">{row["name"]}</span>'
+            f'<span class="kana-count">{len(row_entries):,} entries</span></h2>'
+            f'<div class="kana-entries">'
+        )
+        parts.extend(_entry_row_html(entry, relative_path) for entry in row_entries)
+        parts.append('</div></section>')
+    return '\n'.join(parts)
+
+
+def generate_browse_page(entries: list, entries_dict: dict) -> str:
+    """Generate browse.html: an index of kana rows, each linking to browse/<row>.html."""
+    grouped = group_entries_by_kana_row(entries)
     html_parts = [
         generate_html_head("Browse"),
         '<body>',
-        generate_nav_header(show_all_links=False),
+        generate_nav_header(),
         '<main class="browse-page">',
         '<h1>Browse Entries</h1>',
-        '<p class="browse-intro">Click on a kana row to expand and see entries.</p>',
+        f'<p class="browse-intro">All {len(entries):,} entries, by the first kana of the reading. Choose a row.</p>',
+        '<div class="browse-row-grid">',
     ]
-
-    for row in KANA_ROWS:
-        row_entries = grouped[row['name']]
-        if not row_entries:
-            continue
-
-        html_parts.append(f'''
-            <details class="kana-section">
-                <summary class="kana-header">
-                    <span class="kana-name">{row['name']}</span>
-                    <span class="kana-count">{len(row_entries)} entries</span>
-                </summary>
-                <div class="kana-entries">
-        ''')
-
-        for entry in row_entries:
-            dir_range = get_directory_range(entry['id'])
-            headword_html = process_furigana(entry['headword'])
-            html_parts.append(f'''
-                <a href="entries/{dir_range}/{entry['id']}.html" class="browse-entry">
-                    <span class="browse-headword">{headword_html}</span>
-                    <span class="browse-reading">{html.escape(entry['reading'])}</span>
-                    <span class="browse-gloss">{html.escape(entry.get('gloss', ''))}</span>
-                </a>
-            ''')
-
-        html_parts.append('</div></details>')
-
+    for row, row_entries in grouped:
+        html_parts.append(
+            f'<a href="browse/{row["folder"]}.html" class="browse-row-card">'
+            f'<span class="browse-row-name" lang="ja">{row["name"]}</span>'
+            f'<span class="browse-row-kana" lang="ja">{" ".join(row["kana"])}</span>'
+            f'<span class="browse-row-count">{len(row_entries):,} entries</span>'
+            f'</a>'
+        )
+    html_parts.append('</div>')
     html_parts.append('</main>')
-    html_parts.append('''
-        <footer>
-            <p><a href="index.html">TKG Japanese-English Learner's Dictionary</a></p>
-        </footer>
-    ''')
-    html_parts.append(generate_header_search_redirect_script())
-    html_parts.append(generate_furigana_script())
-    html_parts.append(generate_examples_script())
-    html_parts.append(generate_wordlinks_script())
-    html_parts.append(generate_goatcounter_script())
-    html_parts.append('</body>')
-    html_parts.append('</html>')
+    html_parts.append(_page_footer_scripts(''))
+    return '\n'.join(html_parts)
 
+
+def generate_browse_row_page(row: dict, row_entries: list) -> str:
+    """Generate browse/<folder>.html: every entry whose reading starts in one kana row,
+    sub-grouped by first kana with jump links."""
+    relative_path = '../'
+    by_kana = defaultdict(list)
+    for entry in row_entries:
+        by_kana[entry['reading'][0]].append(entry)
+    kana_order = [k for k in row['kana'] if k in by_kana]
+
+    jump = ''.join(f'<a href="#kana-{i}">{k}</a>' for i, k in enumerate(kana_order))
+    html_parts = [
+        generate_html_head(f"Browse {row['name']}", relative_path),
+        '<body>',
+        generate_nav_header(relative_path),
+        '<main class="browse-page">',
+        f'<h1><span lang="ja">{row["name"]}</span> — {len(row_entries):,} entries</h1>',
+        '<p class="browse-intro"><a href="../browse.html">← All kana rows</a></p>',
+        f'<nav class="kana-jump" lang="ja" aria-label="First kana">{jump}</nav>',
+    ]
+    for i, kana in enumerate(kana_order):
+        kana_entries = by_kana[kana]
+        html_parts.append(
+            f'<section class="kana-section" id="kana-{i}">'
+            f'<h2 class="kana-row-heading"><span class="kana-name" lang="ja">{kana}</span>'
+            f'<span class="kana-count">{len(kana_entries):,} entries</span></h2>'
+            f'<div class="kana-entries">'
+        )
+        html_parts.extend(_entry_row_html(entry, relative_path) for entry in kana_entries)
+        html_parts.append('</div></section>')
+    html_parts.append('</main>')
+    html_parts.append(_page_footer_scripts(relative_path))
     return '\n'.join(html_parts)
 
 
@@ -754,7 +808,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
     html_parts = [
         generate_html_head("Recent Entries"),
         '<body>',
-        generate_nav_header(show_all_links=False),
+        generate_nav_header(),
         '<main class="recent-page">',
         '<h1>Recent Entries</h1>',
         '<p class="recent-intro">Most recently added or revised entries.</p>',
@@ -802,19 +856,27 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
     return '\n'.join(html_parts)
 
 
-def generate_random_page(entries: list) -> str:
-    """Generate the random.html page."""
+def generate_random_page(entries: list, sample_size: int = 300) -> str:
+    """Generate random.html with a random sample of headwords.
+
+    The sample is drawn at build time (seeded by the build date, so rebuilds on
+    the same day give the same page); the page shuffles it on every load.
+    """
+    rng = random.Random(datetime.now(JST).strftime('%Y-%m-%d'))
+    sample = rng.sample(entries, min(sample_size, len(entries)))
+
     html_parts = [
         generate_html_head("Random"),
         '<body>',
-        generate_nav_header(show_all_links=False),
+        generate_nav_header(),
         '<main class="random-page">',
         '<h1>Random Word Cloud</h1>',
-        '<p class="random-intro">Click any word to view its entry. Refresh the page for a new arrangement.</p>',
-        '<div class="random-words" id="random-words">',
+        f'<p class="random-intro">A random sample of {len(sample)} of the dictionary\'s {len(entries):,} entries, '
+        'redrawn each time the site is rebuilt. Click any word to view its entry; reload the page for a new arrangement.</p>',
+        '<div class="random-words" id="random-words" lang="ja">',
     ]
 
-    for entry in entries:
+    for entry in sample:
         dir_range = get_directory_range(entry['id'])
         headword_html = process_furigana(entry['headword'])
         html_parts.append(f'''
@@ -863,7 +925,7 @@ def generate_pending_page(candidates: list) -> str:
     html_parts = [
         generate_html_head("Pending", noindex=True),
         '<body>',
-        generate_nav_header(show_all_links=False),
+        generate_nav_header(),
         '<main class="pending-page">',
         '<h1>Pending Words</h1>',
         f'<p class="pending-intro">Candidate words awaiting dictionary entry creation ({len(candidates):,} words). Most recently added appear first.</p>',
@@ -943,58 +1005,97 @@ def build_recent_entries(entries: list, limit: int = 250) -> list:
     return recent
 
 
+# Kanji index groups: (minimum headword count, label)
+KANJI_COUNT_BUCKETS = [
+    (100, '100 or more headwords'),
+    (50, '50–99 headwords'),
+    (20, '20–49 headwords'),
+    (10, '10–19 headwords'),
+    (5, '5–9 headwords'),
+    (2, '2–4 headwords'),
+    (1, '1 headword'),
+]
+
+
+def kanji_readings_kana(value: str, convert) -> list:
+    """'kou, gou' -> ['コウ', 'ゴウ'] with the given romaji converter; 'none' -> []."""
+    if not value or value == 'none':
+        return []
+    return [convert(part.strip()) for part in value.split(',') if part.strip()]
+
+
 def generate_kanji_list_page(entries: list, kanji_list: dict) -> str:
-    """Generate the kanji.html page listing kanji by headword frequency.
+    """Generate kanji.html: every headword kanji with its readings and meaning,
+    grouped by how many headwords contain it, with a client-side filter box.
 
     Args:
         entries: List of all entry dicts (with 'headword' fields).
-        kanji_list: The kanji_list.json data (with 'kanji' mapping).
+        kanji_list: The kanji_list.json data (with 'kanji' mapping; each record
+            has kanji_id, onyomi, kunyomi, gloss in romaji/English).
     """
-    # Count how many headwords contain each kanji
+    # Count how many headwords contain each kanji (each kanji once per headword)
     kanji_counts = defaultdict(int)
     for entry in entries:
         plain = strip_furigana(entry['headword'])
-        # Count each kanji once per headword (not per occurrence)
         seen = set()
         for ch in plain:
             if is_kanji(ch) and ch not in seen:
                 seen.add(ch)
                 kanji_counts[ch] += 1
 
-    # Filter to only kanji in kanji_list (those with index pages)
+    # Only kanji in kanji_list have index pages
     kanji_map = kanji_list.get('kanji', {})
     kanji_with_counts = []
     for kanji_char, count in kanji_counts.items():
         if kanji_char in kanji_map:
-            kanji_id = kanji_map[kanji_char]['kanji_id']
-            kanji_with_counts.append((kanji_char, count, kanji_id))
-
-    # Sort by count descending, then by kanji character for stability
+            kanji_with_counts.append((kanji_char, count, kanji_map[kanji_char]))
     kanji_with_counts.sort(key=lambda x: (-x[1], x[0]))
 
-    # Build the HTML content
-    html_parts = [
-        generate_html_head("Kanji by Number of Headwords"),
-        '<body>',
-        generate_nav_header(show_all_links=False),
-        '<main class="kanji-list-page">',
-        '<h1>Kanji by number of headwords in which they appear</h1>',
-        '<div class="kanji-stream">',
-    ]
-
-    current_count = None
-    for kanji_char, count, kanji_id in kanji_with_counts:
-        if count != current_count:
-            current_count = count
-            html_parts.append(
-                f'<span class="kanji-count-label">{count}</span>'
-            )
-        html_parts.append(
-            f'<a href="kanji/{html.escape(kanji_id)}.html" '
-            f'class="kanji-stream-char">{html.escape(kanji_char)}</a>'
+    def card_html(kanji_char: str, count: int, info: dict) -> str:
+        on_kana = kanji_readings_kana(info.get('onyomi'), romaji_to_katakana)
+        kun_kana = kanji_readings_kana(info.get('kunyomi'), romaji_to_hiragana)
+        readings = '・'.join(on_kana + kun_kana) or '—'
+        gloss = info.get('gloss', '')
+        search_text = ' '.join([kanji_char, *on_kana, *kun_kana,
+                                info.get('onyomi', ''), info.get('kunyomi', ''), gloss]).lower()
+        return (
+            f'<a href="kanji/{html.escape(info["kanji_id"])}.html" class="kanji-card" '
+            f'data-search="{html.escape(search_text)}">'
+            f'<span class="kanji-card-char" lang="ja">{html.escape(kanji_char)}</span>'
+            f'<span class="kanji-card-readings" lang="ja">{html.escape(readings)}</span>'
+            f'<span class="kanji-card-gloss">{html.escape(gloss)}</span>'
+            f'<span class="kanji-card-count">{count}</span>'
+            f'</a>'
         )
 
-    html_parts.append('</div>')
+    html_parts = [
+        generate_html_head("Kanji Index"),
+        '<body>',
+        generate_nav_header(),
+        '<main class="kanji-list-page">',
+        '<h1>Kanji Index</h1>',
+        f'<p class="kanji-list-intro">{len(kanji_with_counts):,} kanji used in headwords, grouped by how many '
+        'headwords contain each. Cards show the on (katakana) and kun (hiragana) readings and a core meaning; '
+        'the number in the corner is the headword count. Click a kanji for the list of words.</p>',
+        '<div class="kanji-filter">'
+        '<input type="search" id="kanji-filter" placeholder="Filter by kanji, reading (kana or romaji), or meaning" '
+        'autocomplete="off" aria-label="Filter kanji">'
+        '<span id="kanji-filter-count" class="kanji-filter-count"></span></div>',
+    ]
+
+    upper = None  # exclusive upper bound of the current bucket
+    for minimum, label in KANJI_COUNT_BUCKETS:
+        group = [(ch, count, info) for ch, count, info in kanji_with_counts
+                 if count >= minimum and (upper is None or count < upper)]
+        upper = minimum
+        if not group:
+            continue
+        html_parts.append(f'<section class="kanji-group"><h2>{label} '
+                          f'<span class="kanji-group-count">({len(group):,} kanji)</span></h2>'
+                          '<div class="kanji-grid">')
+        html_parts.extend(card_html(ch, count, info) for ch, count, info in group)
+        html_parts.append('</div></section>')
+
     html_parts.append('</main>')
     html_parts.append('''
         <footer>
@@ -1005,8 +1106,145 @@ def generate_kanji_list_page(entries: list, kanji_list: dict) -> str:
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append(generate_wordlinks_script())
+    html_parts.append('''<script>
+(function() {
+    var input = document.getElementById('kanji-filter');
+    if (!input) return;
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.kanji-card'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('.kanji-group'));
+    var countEl = document.getElementById('kanji-filter-count');
+    function apply() {
+        var q = input.value.trim().toLowerCase();
+        var shown = 0;
+        cards.forEach(function(card) {
+            var match = !q || card.getAttribute('data-search').indexOf(q) !== -1;
+            card.hidden = !match;
+            if (match) shown++;
+        });
+        groups.forEach(function(group) {
+            group.hidden = !group.querySelector('.kanji-card:not([hidden])');
+        });
+        if (countEl) countEl.textContent = q ? shown + ' of ' + cards.length + ' kanji' : '';
+    }
+    input.addEventListener('input', apply);
+})();
+</script>''')
     html_parts.append(generate_goatcounter_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
     return '\n'.join(html_parts)
+
+
+# ── Study lists (lists/) and semantic-tag lists (tags/) ─────────────────
+
+LIST_TIERS = {
+    'basic': ('Basic vocabulary',
+              'Foundational words for beginners — the vocabulary every learner meets first.'),
+    'core': ('Core vocabulary',
+             'Words for essential everyday adult communication — the layer after the basic tier.'),
+}
+
+
+def collect_semantic_tag_pages(entries: list) -> dict:
+    """Group entries by semantic tag for the tags/<slug>.html pages.
+
+    Returns {slug: {'label': most common spelling, 'entries': [...]}} sorted by
+    slug. Variant spellings ('daily life', 'daily_life') share one slug; the
+    catch-all tag 'general' is skipped.
+    """
+    pages = {}
+    spellings = defaultdict(lambda: defaultdict(int))
+    for entry in entries:
+        seen = set()
+        for tag in entry.get('metadata', {}).get('tags', {}).get('semantic') or []:
+            slug = semantic_tag_slug(tag)
+            if not slug or slug == 'general' or slug in seen:
+                continue
+            seen.add(slug)
+            pages.setdefault(slug, []).append(entry)
+            spellings[slug][tag] += 1
+    result = {}
+    for slug in sorted(pages):
+        label = max(spellings[slug].items(), key=lambda kv: kv[1])[0]
+        result[slug] = {'label': label, 'entries': sorted(pages[slug], key=lambda e: e['reading'])}
+    return result
+
+
+def generate_list_page(tier: str, entries: list) -> str:
+    """Generate lists/<tier>.html: every entry of one vocabulary tier, in kana order."""
+    relative_path = '../'
+    title, blurb = LIST_TIERS[tier]
+    html_parts = [
+        generate_html_head(title, relative_path, f'{title} — {blurb}'),
+        '<body>',
+        generate_nav_header(relative_path),
+        '<main class="browse-page list-page">',
+        f'<h1>{title}</h1>',
+        f'<p class="browse-intro">{blurb} {len(entries):,} entries in kana order. '
+        '<a href="index.html">All lists</a>.</p>',
+        _kana_sections_html(entries, relative_path),
+        '</main>',
+        _page_footer_scripts(relative_path),
+    ]
+    return '\n'.join(html_parts)
+
+
+def generate_tag_list_page(slug: str, label: str, entries: list) -> str:
+    """Generate tags/<slug>.html: entries carrying one semantic tag, in kana order."""
+    relative_path = '../'
+    title = f'Words tagged “{label}”'
+    html_parts = [
+        generate_html_head(title, relative_path,
+                           f'{len(entries)} dictionary entries with the semantic tag {label}'),
+        '<body>',
+        generate_nav_header(relative_path),
+        '<main class="browse-page list-page">',
+        f'<h1>{html.escape(title)}</h1>',
+        f'<p class="browse-intro">{len(entries):,} entries in kana order. '
+        '<a href="../lists/index.html">All lists</a>.</p>',
+        _kana_sections_html(entries, relative_path),
+        '</main>',
+        _page_footer_scripts(relative_path),
+    ]
+    return '\n'.join(html_parts)
+
+
+def generate_lists_index_page(tier_counts: dict, tag_pages: dict) -> str:
+    """Generate lists/index.html: the study lists by tier plus the semantic-tag lists."""
+    relative_path = '../'
+    html_parts = [
+        generate_html_head("Study Lists", relative_path,
+                           "Vocabulary study lists by tier and by topic — TKG Japanese-English Learner's Dictionary"),
+        '<body>',
+        generate_nav_header(relative_path),
+        '<main class="browse-page list-page">',
+        '<h1>Study Lists</h1>',
+        '<p class="browse-intro">Vocabulary lists by learning tier, and by topic (semantic tag). '
+        'Each list shows the headword with furigana, its reading and a short gloss, linked to the full entry.</p>',
+        '<div class="list-card-grid">',
+    ]
+    for tier, (title, blurb) in LIST_TIERS.items():
+        html_parts.append(
+            f'<a href="{tier}.html" class="list-card">'
+            f'<span class="list-card-title">{title}</span>'
+            f'<span class="list-card-desc">{blurb} {tier_counts.get(tier, 0):,} entries.</span>'
+            f'</a>'
+        )
+    html_parts.append('</div>')
+
+    if tag_pages:
+        html_parts.append(f'<h2>By topic ({len(tag_pages):,} tags)</h2>')
+        html_parts.append('<div class="tag-cloud">')
+        for slug, info in sorted(tag_pages.items(), key=lambda kv: kv[1]['label'].lower()):
+            html_parts.append(
+                f'<a href="../tags/{slug}.html">{html.escape(info["label"])}'
+                f'<span class="tag-count">{len(info["entries"]):,}</span></a>'
+            )
+        html_parts.append('</div>')
+
+    html_parts.append('</main>')
+    html_parts.append(_page_footer_scripts(relative_path))
+    return '\n'.join(html_parts)
+
+

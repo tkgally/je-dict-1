@@ -66,7 +66,7 @@ def markdown_to_html(text: str) -> str:
     def close_table():
         nonlocal in_table, table_has_header
         if in_table:
-            result.append('</tbody></table>')
+            result.append('</tbody></table></div>')
             in_table = False
             table_has_header = False
 
@@ -126,7 +126,7 @@ def markdown_to_html(text: str) -> str:
             if not in_table:
                 in_table = True
                 table_has_header = False
-                result.append('<table class="article-table"><thead>')
+                result.append('<div class="table-wrap"><table class="article-table"><thead>')
                 cell_html = ''.join(f'<th>{process_inline(c)}</th>' for c in cells)
                 result.append(f'<tr>{cell_html}</tr>')
                 # Peek ahead to see if next line is separator
@@ -212,7 +212,7 @@ def generate_article_html(article: dict, entries_dict: dict) -> str:
     html_parts.append(f'''
         <div class="article-header">
             <h1 class="article-title">{html.escape(title_en)}</h1>
-            <div class="article-title-ja">{title_ja_html}</div>
+            <div class="article-title-ja" lang="ja">{title_ja_html}</div>
         </div>
     ''')
 
@@ -324,7 +324,7 @@ def generate_article_index_html(articles: list) -> str:
         html_parts.append(f'''
             <a href="{article_id}.html" class="article-card">
                 <div class="article-card-title">{html.escape(title_en)}</div>
-                <div class="article-card-title-ja">{title_ja_html}</div>
+                <div class="article-card-title-ja" lang="ja">{title_ja_html}</div>
                 {tags_html}
                 <div class="article-card-meta">{related_count} related entries</div>
             </a>
