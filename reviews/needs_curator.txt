@@ -357,3 +357,4 @@
 ## 2026-09-02 — assessment session (interactive)
 
 - **Five duplicate entry pairs**, identical headword and reading, differing only in furigana wrapping; each pair needs a keep/delete decision because deletion removes a live URL and four of them involve a closed-tier entry: 幸せ (01420 general / 02368 general), 気持ち (01385 basic / 02485 core), 若い (00823 basic / 01525 core), 向こう (00971 basic / 01516 general), 近く (00923 basic / 01462 general). Suggested rule: keep the lower ID, merge any unique content, redirect cross-references (`delete-entry` / `resolve-duplicates` skills). The duplicate checker now compares furigana-stripped headwords, so new pairs cannot be created.
+2026-09-02T05:48:31Z routine-2026-09-02-002: PR #3255 CI (validate check) still in_progress after 16 polls (~16 min) — unusually long for this check. Left open for next run's pre-flight rescue.
